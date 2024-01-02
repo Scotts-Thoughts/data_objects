@@ -395,8 +395,8 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Horn Attack",
-                    "Double Kick",
-                    "Poison Sting"
+                    "Poison Sting",
+                    "Focus Energy"
                 ]
             }
         ]
@@ -589,9 +589,9 @@ export const trainers = {
                     "special_defense": 22
                 },
                 "moves": [
+                    "Leer",
                     "Tackle",
                     "Horn Attack",
-                    "Double Kick",
                     "Poison Sting"
                 ]
             },
@@ -614,7 +614,7 @@ export const trainers = {
                     "Leer",
                     "Tackle",
                     "Horn Attack",
-                    "Double Kick"
+                    "Poison Sting"
                 ]
             }
         ]
@@ -718,93 +718,9 @@ export const trainers = {
             }
         ]
     },
-    "YOUNGSTER 14": {
-        "rom_id": "YOUNGSTER 14",
-        "name": "YOUNGSTER 14",
-        "trainer_class": "YOUNGSTER",
-        "location": "Route 09",
-        "money": 360,
-        "is_double_battle": false,
-        "items": [],
-        "party": [
-            {
-                "species": "Sandshrew",
-                "level": 24,
-                "experience_yield": 477,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 61,
-                    "attack": 45,
-                    "defense": 49,
-                    "speed": 28,
-                    "special_attack": 23,
-                    "special_defense": 23
-                },
-                "moves": [
-                    "Scratch",
-                    "Sand-Attack",
-                    "Slash",
-                    "Fissure"
-                ]
-            }
-        ]
-    },
     "BUG CATCHER 1": {
         "rom_id": "BUG CATCHER 1",
         "name": "BUG CATCHER 1",
-        "trainer_class": "BUG CATCHER",
-        "location": "Viridian Forest",
-        "money": 70,
-        "is_double_battle": false,
-        "items": [],
-        "party": [
-            {
-                "species": "Caterpie",
-                "level": 7,
-                "experience_yield": 79,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 24,
-                    "attack": 10,
-                    "defense": 11,
-                    "speed": 12,
-                    "special_attack": 8,
-                    "special_defense": 8
-                },
-                "moves": [
-                    "Tackle",
-                    "String Shot"
-                ]
-            },
-            {
-                "species": "Caterpie",
-                "level": 7,
-                "experience_yield": 79,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 24,
-                    "attack": 10,
-                    "defense": 11,
-                    "speed": 12,
-                    "special_attack": 8,
-                    "special_defense": 8
-                },
-                "moves": [
-                    "Tackle",
-                    "String Shot"
-                ]
-            }
-        ]
-    },
-    "BUG CATCHER 2": {
-        "rom_id": "BUG CATCHER 2",
-        "name": "BUG CATCHER 2",
         "trainer_class": "BUG CATCHER",
         "location": "Viridian Forest",
         "money": 60,
@@ -812,22 +728,23 @@ export const trainers = {
         "items": [],
         "party": [
             {
-                "species": "Metapod",
+                "species": "Weedle",
                 "level": 6,
-                "experience_yield": 91,
+                "experience_yield": 66,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 22,
-                    "attack": 8,
-                    "defense": 12,
-                    "speed": 9,
+                    "hp": 21,
+                    "attack": 10,
+                    "defense": 9,
+                    "speed": 11,
                     "special_attack": 8,
                     "special_defense": 8
                 },
                 "moves": [
-                    "Harden"
+                    "Poison Sting",
+                    "String Shot"
                 ]
             },
             {
@@ -849,24 +766,75 @@ export const trainers = {
                     "Tackle",
                     "String Shot"
                 ]
-            },
+            }
+        ]
+    },
+    "BUG CATCHER 2": {
+        "rom_id": "BUG CATCHER 2",
+        "name": "BUG CATCHER 2",
+        "trainer_class": "BUG CATCHER",
+        "location": "Viridian Forest",
+        "money": 70,
+        "is_double_battle": false,
+        "items": [],
+        "party": [
             {
-                "species": "Metapod",
-                "level": 6,
-                "experience_yield": 91,
+                "species": "Weedle",
+                "level": 7,
+                "experience_yield": 78,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 22,
-                    "attack": 8,
-                    "defense": 12,
-                    "speed": 9,
+                    "hp": 23,
+                    "attack": 11,
+                    "defense": 10,
+                    "speed": 13,
                     "special_attack": 8,
                     "special_defense": 8
                 },
                 "moves": [
+                    "Poison Sting",
+                    "String Shot"
+                ]
+            },
+            {
+                "species": "Kakuna",
+                "level": 7,
+                "experience_yield": 106,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 24,
+                    "attack": 9,
+                    "defense": 13,
+                    "speed": 11,
+                    "special_attack": 9,
+                    "special_defense": 9
+                },
+                "moves": [
                     "Harden"
+                ]
+            },
+            {
+                "species": "Weedle",
+                "level": 7,
+                "experience_yield": 78,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 23,
+                    "attack": 11,
+                    "defense": 10,
+                    "speed": 13,
+                    "special_attack": 8,
+                    "special_defense": 8
+                },
+                "moves": [
+                    "Poison Sting",
+                    "String Shot"
                 ]
             }
         ]
@@ -876,27 +844,27 @@ export const trainers = {
         "name": "BUG CATCHER 3",
         "trainer_class": "BUG CATCHER",
         "location": "Viridian Forest",
-        "money": 100,
+        "money": 90,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
-                "species": "Caterpie",
-                "level": 10,
-                "experience_yield": 112,
+                "species": "Weedle",
+                "level": 9,
+                "experience_yield": 99,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 30,
+                    "hp": 27,
                     "attack": 12,
-                    "defense": 13,
+                    "defense": 11,
                     "speed": 15,
                     "special_attack": 10,
                     "special_defense": 10
                 },
                 "moves": [
-                    "Tackle",
+                    "Poison Sting",
                     "String Shot"
                 ]
             }
@@ -1379,10 +1347,10 @@ export const trainers = {
                     "special_defense": 40
                 },
                 "moves": [
+                    "Confusion",
                     "PoisonPowder",
                     "Stun Spore",
-                    "Sleep Powder",
-                    "Supersonic"
+                    "Sleep Powder"
                 ]
             }
         ]
@@ -1452,8 +1420,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "Disable",
-                    "Supersonic"
+                    "Disable"
                 ]
             }
         ]
@@ -1575,61 +1542,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "Disable",
-                    "Supersonic",
-                    "Confusion"
-                ]
-            }
-        ]
-    },
-    "BUG CATCHER 15": {
-        "rom_id": "BUG CATCHER 15",
-        "name": "BUG CATCHER 15",
-        "trainer_class": "BUG CATCHER",
-        "location": "Viridian Forest",
-        "money": 80,
-        "is_double_battle": false,
-        "items": [],
-        "party": [
-            {
-                "species": "Caterpie",
-                "level": 8,
-                "experience_yield": 90,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 26,
-                    "attack": 11,
-                    "defense": 11,
-                    "speed": 13,
-                    "special_attack": 9,
-                    "special_defense": 9
-                },
-                "moves": [
-                    "Tackle",
-                    "String Shot"
-                ]
-            },
-            {
-                "species": "Metapod",
-                "level": 8,
-                "experience_yield": 123,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 27,
-                    "attack": 9,
-                    "defense": 15,
-                    "speed": 11,
-                    "special_attack": 10,
-                    "special_defense": 10
-                },
-                "moves": [
-                    "Harden",
-                    "Tackle",
-                    "String Shot"
+                    "Disable"
                 ]
             }
         ]
@@ -1978,7 +1891,7 @@ export const trainers = {
                     "Growl",
                     "Tackle",
                     "Scratch",
-                    "Double Kick"
+                    "Poison Sting"
                 ]
             }
         ]
@@ -2032,7 +1945,7 @@ export const trainers = {
                     "Growl",
                     "Tackle",
                     "Scratch",
-                    "Double Kick"
+                    "Poison Sting"
                 ]
             }
         ]
@@ -2065,7 +1978,7 @@ export const trainers = {
                     "Leer",
                     "Tackle",
                     "Horn Attack",
-                    "Double Kick"
+                    "Poison Sting"
                 ]
             },
             {
@@ -2087,7 +2000,7 @@ export const trainers = {
                     "Growl",
                     "Tackle",
                     "Scratch",
-                    "Double Kick"
+                    "Poison Sting"
                 ]
             }
         ]
@@ -2208,9 +2121,9 @@ export const trainers = {
                     "special_defense": 22
                 },
                 "moves": [
+                    "Growl",
                     "Tackle",
                     "Scratch",
-                    "Double Kick",
                     "Poison Sting"
                 ]
             }
@@ -2221,30 +2134,52 @@ export const trainers = {
         "name": "LASS 12",
         "trainer_class": "LASS",
         "location": "SS Anne",
-        "money": 300,
+        "money": 270,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
-                "species": "Jigglypuff",
-                "level": 20,
-                "experience_yield": 325,
+                "species": "Rattata",
+                "level": 18,
+                "experience_yield": 219,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 79,
-                    "attack": 26,
-                    "defense": 16,
-                    "speed": 16,
-                    "special_attack": 18,
-                    "special_defense": 18
+                    "hp": 41,
+                    "attack": 28,
+                    "defense": 20,
+                    "speed": 33,
+                    "special_attack": 16,
+                    "special_defense": 16
                 },
                 "moves": [
-                    "Sing",
-                    "Pound",
-                    "Disable",
-                    "Defense Curl"
+                    "Tackle",
+                    "Tail Whip",
+                    "Quick Attack",
+                    "Hyper Fang"
+                ]
+            },
+            {
+                "species": "Pikachu",
+                "level": 18,
+                "experience_yield": 315,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 43,
+                    "attack": 28,
+                    "defense": 18,
+                    "speed": 40,
+                    "special_attack": 25,
+                    "special_defense": 25
+                },
+                "moves": [
+                    "ThunderShock",
+                    "Growl",
+                    "Thunder Wave",
+                    "Quick Attack"
                 ]
             }
         ]
@@ -2274,8 +2209,8 @@ export const trainers = {
                     "special_defense": 27
                 },
                 "moves": [
+                    "Tackle",
                     "Scratch",
-                    "Double Kick",
                     "Poison Sting",
                     "Tail Whip"
                 ]
@@ -2298,8 +2233,8 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Scratch",
-                    "Double Kick",
-                    "Poison Sting"
+                    "Poison Sting",
+                    "Tail Whip"
                 ]
             }
         ]
@@ -2435,24 +2370,24 @@ export const trainers = {
                 ]
             },
             {
-                "species": "Nidoran_F",
+                "species": "Nidoran_M",
                 "level": 19,
-                "experience_yield": 240,
+                "experience_yield": 243,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 52,
-                    "attack": 26,
-                    "defense": 27,
-                    "speed": 23,
+                    "hp": 49,
+                    "attack": 30,
+                    "defense": 23,
+                    "speed": 27,
                     "special_attack": 23,
                     "special_defense": 23
                 },
                 "moves": [
+                    "Leer",
                     "Tackle",
-                    "Scratch",
-                    "Double Kick",
+                    "Horn Attack",
                     "Poison Sting"
                 ]
             },
@@ -2479,25 +2414,25 @@ export const trainers = {
                 ]
             },
             {
-                "species": "Nidoran_M",
+                "species": "Pikachu",
                 "level": 19,
-                "experience_yield": 243,
+                "experience_yield": 333,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 49,
-                    "attack": 30,
-                    "defense": 23,
-                    "speed": 27,
-                    "special_attack": 23,
-                    "special_defense": 23
+                    "hp": 45,
+                    "attack": 29,
+                    "defense": 19,
+                    "speed": 42,
+                    "special_attack": 27,
+                    "special_defense": 27
                 },
                 "moves": [
-                    "Tackle",
-                    "Horn Attack",
-                    "Double Kick",
-                    "Poison Sting"
+                    "ThunderShock",
+                    "Growl",
+                    "Thunder Wave",
+                    "Quick Attack"
                 ]
             }
         ]
@@ -2663,57 +2598,6 @@ export const trainers = {
                     "PoisonPowder",
                     "Stun Spore",
                     "Sleep Powder"
-                ]
-            }
-        ]
-    },
-    "LASS 19": {
-        "rom_id": "LASS 19",
-        "name": "LASS 19",
-        "trainer_class": "LASS",
-        "location": "Viridian Forest",
-        "money": 90,
-        "is_double_battle": false,
-        "items": [],
-        "party": [
-            {
-                "species": "Nidoran_F",
-                "level": 6,
-                "experience_yield": 75,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 23,
-                    "attack": 11,
-                    "defense": 12,
-                    "speed": 10,
-                    "special_attack": 10,
-                    "special_defense": 10
-                },
-                "moves": [
-                    "Growl",
-                    "Tackle"
-                ]
-            },
-            {
-                "species": "Nidoran_M",
-                "level": 6,
-                "experience_yield": 76,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 22,
-                    "attack": 12,
-                    "defense": 10,
-                    "speed": 11,
-                    "special_attack": 10,
-                    "special_defense": 10
-                },
-                "moves": [
-                    "Leer",
-                    "Tackle"
                 ]
             }
         ]
@@ -3080,28 +2964,52 @@ export const trainers = {
         "name": "SAILOR 8",
         "trainer_class": "SAILOR",
         "location": "Vermilion Gym",
-        "money": 720,
+        "money": 630,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
-                "species": "Magnemite",
-                "level": 24,
-                "experience_yield": 457,
+                "species": "Pikachu",
+                "level": 21,
+                "experience_yield": 369,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
                     "hp": 49,
-                    "attack": 26,
-                    "defense": 42,
-                    "speed": 30,
-                    "special_attack": 54,
-                    "special_defense": 54
+                    "attack": 31,
+                    "defense": 20,
+                    "speed": 46,
+                    "special_attack": 29,
+                    "special_defense": 29
                 },
                 "moves": [
-                    "Tackle",
-                    "SonicBoom"
+                    "ThunderShock",
+                    "Growl",
+                    "Thunder Wave",
+                    "Quick Attack"
+                ]
+            },
+            {
+                "species": "Pikachu",
+                "level": 21,
+                "experience_yield": 369,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 49,
+                    "attack": 31,
+                    "defense": 20,
+                    "speed": 46,
+                    "special_attack": 29,
+                    "special_defense": 29
+                },
+                "moves": [
+                    "ThunderShock",
+                    "Growl",
+                    "Thunder Wave",
+                    "Quick Attack"
                 ]
             }
         ]
@@ -3111,24 +3019,24 @@ export const trainers = {
         "name": "JR TRAINER M 1",
         "trainer_class": "JR TRAINER M",
         "location": "Pewter Gym",
-        "money": 180,
+        "money": 220,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
                 "species": "Diglett",
-                "level": 9,
-                "experience_yield": 156,
+                "level": 11,
+                "experience_yield": 190,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 22,
-                    "attack": 16,
-                    "defense": 10,
-                    "speed": 23,
-                    "special_attack": 14,
-                    "special_defense": 14
+                    "hp": 24,
+                    "attack": 19,
+                    "defense": 12,
+                    "speed": 27,
+                    "special_attack": 16,
+                    "special_defense": 16
                 },
                 "moves": [
                     "Scratch"
@@ -3136,21 +3044,22 @@ export const trainers = {
             },
             {
                 "species": "Sandshrew",
-                "level": 9,
-                "experience_yield": 178,
+                "level": 11,
+                "experience_yield": 219,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 29,
-                    "attack": 20,
-                    "defense": 21,
-                    "speed": 13,
-                    "special_attack": 11,
-                    "special_defense": 11
+                    "hp": 33,
+                    "attack": 23,
+                    "defense": 25,
+                    "speed": 15,
+                    "special_attack": 13,
+                    "special_defense": 13
                 },
                 "moves": [
-                    "Scratch"
+                    "Scratch",
+                    "Sand-Attack"
                 ]
             }
         ]
@@ -3290,7 +3199,6 @@ export const trainers = {
                 "moves": [
                     "Scratch",
                     "Leer",
-                    "Low Kick",
                     "Karate Chop"
                 ]
             }
@@ -3300,7 +3208,7 @@ export const trainers = {
         "rom_id": "JR TRAINER M 4",
         "name": "JR TRAINER M 4",
         "trainer_class": "JR TRAINER M",
-        "location": "Unused",
+        "location": "Route 06",
         "money": 400,
         "is_double_battle": false,
         "items": [],
@@ -3460,7 +3368,7 @@ export const trainers = {
         "rom_id": "JR TRAINER M 7",
         "name": "JR TRAINER M 7",
         "trainer_class": "JR TRAINER M",
-        "location": "Unused",
+        "location": "Route 09",
         "money": 420,
         "is_double_battle": false,
         "items": [],
@@ -3633,9 +3541,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Horn Attack",
-                    "Double Kick",
                     "Poison Sting",
-                    "Focus Energy"
+                    "Focus Energy",
+                    "Fury Attack"
                 ]
             },
             {
@@ -3654,43 +3562,10 @@ export const trainers = {
                     "special_defense": 41
                 },
                 "moves": [
+                    "Tackle",
                     "Horn Attack",
-                    "Double Kick",
                     "Poison Sting",
                     "Focus Energy"
-                ]
-            }
-        ]
-    },
-    "JR TRAINER M 10": {
-        "rom_id": "JR TRAINER M 10",
-        "name": "JR TRAINER M 10",
-        "trainer_class": "JR TRAINER M",
-        "location": "Route 06",
-        "money": 320,
-        "is_double_battle": false,
-        "items": [],
-        "party": [
-            {
-                "species": "Weepinbell",
-                "level": 16,
-                "experience_yield": 517,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 49,
-                    "attack": 36,
-                    "defense": 23,
-                    "speed": 25,
-                    "special_attack": 34,
-                    "special_defense": 34
-                },
-                "moves": [
-                    "Vine Whip",
-                    "Growth",
-                    "Wrap",
-                    "PoisonPowder"
                 ]
             }
         ]
@@ -3731,51 +3606,53 @@ export const trainers = {
         "rom_id": "JR TRAINER F 2",
         "name": "JR TRAINER F 2",
         "trainer_class": "JR TRAINER F",
-        "location": "Unused",
+        "location": "Route 06",
         "money": 320,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
-                "species": "Oddish",
+                "species": "Rattata",
                 "level": 16,
-                "experience_yield": 267,
+                "experience_yield": 195,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 42,
-                    "attack": 23,
-                    "defense": 25,
-                    "speed": 17,
-                    "special_attack": 31,
-                    "special_defense": 31
+                    "hp": 38,
+                    "attack": 25,
+                    "defense": 18,
+                    "speed": 30,
+                    "special_attack": 15,
+                    "special_defense": 15
                 },
                 "moves": [
-                    "Absorb",
-                    "PoisonPowder"
+                    "Tackle",
+                    "Tail Whip",
+                    "Quick Attack",
+                    "Hyper Fang"
                 ]
             },
             {
-                "species": "Bellsprout",
+                "species": "Pikachu",
                 "level": 16,
-                "experience_yield": 288,
+                "experience_yield": 280,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 44,
-                    "attack": 31,
-                    "defense": 18,
-                    "speed": 20,
-                    "special_attack": 29,
-                    "special_defense": 29
+                    "hp": 39,
+                    "attack": 25,
+                    "defense": 17,
+                    "speed": 36,
+                    "special_attack": 23,
+                    "special_defense": 23
                 },
                 "moves": [
-                    "Vine Whip",
-                    "Growth",
-                    "Wrap",
-                    "PoisonPowder"
+                    "ThunderShock",
+                    "Growl",
+                    "Thunder Wave",
+                    "Quick Attack"
                 ]
             }
         ]
@@ -4027,25 +3904,25 @@ export const trainers = {
         "items": [],
         "party": [
             {
-                "species": "Jigglypuff",
+                "species": "Pikachu",
                 "level": 20,
-                "experience_yield": 325,
+                "experience_yield": 351,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 79,
-                    "attack": 26,
-                    "defense": 16,
-                    "speed": 16,
-                    "special_attack": 18,
-                    "special_defense": 18
+                    "hp": 47,
+                    "attack": 30,
+                    "defense": 20,
+                    "speed": 44,
+                    "special_attack": 28,
+                    "special_defense": 28
                 },
                 "moves": [
-                    "Sing",
-                    "Pound",
-                    "Disable",
-                    "Defense Curl"
+                    "ThunderShock",
+                    "Growl",
+                    "Thunder Wave",
+                    "Quick Attack"
                 ]
             },
             {
@@ -4390,25 +4267,25 @@ export const trainers = {
                 ]
             },
             {
-                "species": "Pidgey",
+                "species": "Pikachu",
                 "level": 24,
-                "experience_yield": 282,
+                "experience_yield": 421,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 57,
-                    "attack": 30,
-                    "defense": 28,
-                    "speed": 35,
-                    "special_attack": 25,
-                    "special_defense": 25
+                    "hp": 54,
+                    "attack": 35,
+                    "defense": 23,
+                    "speed": 52,
+                    "special_attack": 32,
+                    "special_defense": 32
                 },
                 "moves": [
-                    "Gust",
-                    "Sand-Attack",
-                    "Quick Attack",
-                    "Whirlwind"
+                    "ThunderShock",
+                    "Growl",
+                    "Thunder Wave",
+                    "Quick Attack"
                 ]
             },
             {
@@ -5038,47 +4915,46 @@ export const trainers = {
         "items": [],
         "party": [
             {
-                "species": "Pidgey",
+                "species": "Pikachu",
                 "level": 29,
-                "experience_yield": 340,
+                "experience_yield": 508,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 66,
-                    "attack": 36,
-                    "defense": 32,
-                    "speed": 42,
-                    "special_attack": 29,
-                    "special_defense": 29
-                },
-                "moves": [
-                    "Sand-Attack",
-                    "Quick Attack",
-                    "Whirlwind",
-                    "Wing Attack"
-                ]
-            },
-            {
-                "species": "Pidgeotto",
-                "level": 29,
-                "experience_yield": 702,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 80,
-                    "attack": 45,
-                    "defense": 41,
-                    "speed": 50,
+                    "hp": 63,
+                    "attack": 42,
+                    "defense": 27,
+                    "speed": 61,
                     "special_attack": 38,
                     "special_defense": 38
                 },
                 "moves": [
-                    "Gust",
-                    "Sand-Attack",
+                    "Growl",
+                    "Thunder Wave",
                     "Quick Attack",
-                    "Whirlwind"
+                    "Swift"
+                ]
+            },
+            {
+                "species": "Raichu",
+                "level": 29,
+                "experience_yield": 757,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 78,
+                    "attack": 62,
+                    "defense": 41,
+                    "speed": 67,
+                    "special_attack": 61,
+                    "special_defense": 61
+                },
+                "moves": [
+                    "ThunderShock",
+                    "Growl",
+                    "Thunder Wave"
                 ]
             }
         ]
@@ -5187,8 +5063,7 @@ export const trainers = {
                 "moves": [
                     "Constrict",
                     "Bind",
-                    "Absorb",
-                    "Vine Whip"
+                    "Absorb"
                 ]
             }
         ]
@@ -5264,39 +5139,6 @@ export const trainers = {
                 "moves": [
                     "Headbutt",
                     "Growl"
-                ]
-            }
-        ]
-    },
-    "JR TRAINER F 25": {
-        "rom_id": "JR TRAINER F 25",
-        "name": "JR TRAINER F 25",
-        "trainer_class": "JR TRAINER F",
-        "location": "Route 06",
-        "money": 400,
-        "is_double_battle": false,
-        "items": [],
-        "party": [
-            {
-                "species": "Cubone",
-                "level": 20,
-                "experience_yield": 372,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 53,
-                    "attack": 28,
-                    "defense": 46,
-                    "speed": 22,
-                    "special_attack": 24,
-                    "special_defense": 24
-                },
-                "moves": [
-                    "Growl",
-                    "Bone Club",
-                    "Tail Whip",
-                    "Headbutt"
                 ]
             }
         ]
@@ -5379,10 +5221,8 @@ export const trainers = {
                     "special_defense": 24
                 },
                 "moves": [
-                    "Growl",
                     "Bone Club",
-                    "Tail Whip",
-                    "Headbutt"
+                    "Growl"
                 ]
             },
             {
@@ -5525,10 +5365,8 @@ export const trainers = {
                     "special_defense": 26
                 },
                 "moves": [
-                    "Growl",
                     "Bone Club",
-                    "Tail Whip",
-                    "Headbutt"
+                    "Growl"
                 ]
             }
         ]
@@ -5667,10 +5505,8 @@ export const trainers = {
                     "special_defense": 27
                 },
                 "moves": [
-                    "Growl",
                     "Bone Club",
-                    "Tail Whip",
-                    "Headbutt"
+                    "Growl"
                 ]
             },
             {
@@ -10874,7 +10710,7 @@ export const trainers = {
                     "special_defense": 29
                 },
                 "moves": [
-                    "Low Kick",
+                    "Leer",
                     "Karate Chop",
                     "Fury Swipes",
                     "Focus Energy"
@@ -10928,7 +10764,7 @@ export const trainers = {
                     "special_defense": 29
                 },
                 "moves": [
-                    "Low Kick",
+                    "Leer",
                     "Karate Chop",
                     "Fury Swipes",
                     "Focus Energy"
@@ -11015,7 +10851,7 @@ export const trainers = {
                     "special_defense": 29
                 },
                 "moves": [
-                    "Low Kick",
+                    "Leer",
                     "Karate Chop",
                     "Fury Swipes",
                     "Focus Energy"
@@ -11037,10 +10873,10 @@ export const trainers = {
                     "special_defense": 44
                 },
                 "moves": [
+                    "Leer",
                     "Karate Chop",
                     "Fury Swipes",
-                    "Focus Energy",
-                    "Rage"
+                    "Focus Energy"
                 ]
             }
         ]
@@ -11155,8 +10991,8 @@ export const trainers = {
                     "special_defense": 27
                 },
                 "moves": [
+                    "Scratch",
                     "Leer",
-                    "Low Kick",
                     "Karate Chop",
                     "Fury Swipes"
                 ]
@@ -11177,8 +11013,8 @@ export const trainers = {
                     "special_defense": 27
                 },
                 "moves": [
+                    "Scratch",
                     "Leer",
-                    "Low Kick",
                     "Karate Chop",
                     "Fury Swipes"
                 ]
@@ -11252,10 +11088,10 @@ export const trainers = {
                     "special_defense": 44
                 },
                 "moves": [
+                    "Leer",
                     "Karate Chop",
                     "Fury Swipes",
-                    "Focus Energy",
-                    "Rage"
+                    "Focus Energy"
                 ]
             },
             {
@@ -11990,25 +11826,25 @@ export const trainers = {
                 ]
             },
             {
-                "species": "Vulpix",
+                "species": "Pikachu",
                 "level": 27,
-                "experience_yield": 364,
+                "experience_yield": 474,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 61,
-                    "attack": 32,
-                    "defense": 30,
-                    "speed": 44,
-                    "special_attack": 44,
-                    "special_defense": 44
+                    "hp": 60,
+                    "attack": 39,
+                    "defense": 25,
+                    "speed": 57,
+                    "special_attack": 36,
+                    "special_defense": 36
                 },
                 "moves": [
-                    "Ember",
-                    "Tail Whip",
+                    "Growl",
+                    "Thunder Wave",
                     "Quick Attack",
-                    "Roar"
+                    "Swift"
                 ]
             },
             {
@@ -13036,10 +12872,10 @@ export const trainers = {
             }
         ]
     },
-    "Rocker 1": {
-        "rom_id": "Rocker 1",
-        "name": "Rocker 1",
-        "trainer_class": "Rocker",
+    "ROCKER 1": {
+        "rom_id": "ROCKER 1",
+        "name": "ROCKER 1",
+        "trainer_class": "ROCKER",
         "location": "Vermilion Gym",
         "money": 500,
         "is_double_battle": false,
@@ -13067,24 +12903,22 @@ export const trainers = {
                 ]
             },
             {
-                "species": "Voltorb",
+                "species": "Magnemite",
                 "level": 20,
-                "experience_yield": 441,
+                "experience_yield": 381,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 49,
-                    "attack": 20,
-                    "defense": 28,
-                    "speed": 48,
-                    "special_attack": 30,
-                    "special_defense": 30
+                    "hp": 43,
+                    "attack": 22,
+                    "defense": 36,
+                    "speed": 26,
+                    "special_attack": 46,
+                    "special_defense": 46
                 },
                 "moves": [
-                    "Tackle",
-                    "Screech",
-                    "SonicBoom"
+                    "Tackle"
                 ]
             },
             {
@@ -13110,10 +12944,10 @@ export const trainers = {
             }
         ]
     },
-    "Rocker 2": {
-        "rom_id": "Rocker 2",
-        "name": "Rocker 2",
-        "trainer_class": "Rocker",
+    "ROCKER 2": {
+        "rom_id": "ROCKER 2",
+        "name": "ROCKER 2",
+        "trainer_class": "ROCKER",
         "location": "Route 12",
         "money": 725,
         "is_double_battle": false,
@@ -13169,7 +13003,7 @@ export const trainers = {
         "rom_id": "JUGGLER 1",
         "name": "JUGGLER 1",
         "trainer_class": "JUGGLER",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 1015,
         "is_double_battle": false,
         "items": [],
@@ -13190,7 +13024,7 @@ export const trainers = {
                     "special_defense": 79
                 },
                 "moves": [
-                    "Kinesis",
+                    "Teleport",
                     "Confusion",
                     "Disable",
                     "Psybeam"
@@ -13948,9 +13782,9 @@ export const trainers = {
                     "special_defense": 62
                 },
                 "moves": [
+                    "Karate Chop",
                     "Fury Swipes",
                     "Focus Energy",
-                    "Rage",
                     "Seismic Toss"
                 ]
             },
@@ -15337,7 +15171,7 @@ export const trainers = {
                     "special_defense": 31
                 },
                 "moves": [
-                    "Low Kick",
+                    "Leer",
                     "Karate Chop",
                     "Fury Swipes",
                     "Focus Energy"
@@ -15359,7 +15193,7 @@ export const trainers = {
                     "special_defense": 31
                 },
                 "moves": [
-                    "Low Kick",
+                    "Leer",
                     "Karate Chop",
                     "Fury Swipes",
                     "Focus Energy"
@@ -15381,10 +15215,10 @@ export const trainers = {
                     "special_defense": 47
                 },
                 "moves": [
+                    "Leer",
                     "Karate Chop",
                     "Fury Swipes",
-                    "Focus Energy",
-                    "Rage"
+                    "Focus Energy"
                 ]
             }
         ]
@@ -15468,10 +15302,10 @@ export const trainers = {
                     "special_defense": 53
                 },
                 "moves": [
+                    "Leer",
                     "Karate Chop",
                     "Fury Swipes",
-                    "Focus Energy",
-                    "Rage"
+                    "Focus Energy"
                 ]
             }
         ]
@@ -15522,7 +15356,7 @@ export const trainers = {
                     "special_defense": 31
                 },
                 "moves": [
-                    "Low Kick",
+                    "Leer",
                     "Karate Chop",
                     "Fury Swipes",
                     "Focus Energy"
@@ -15544,10 +15378,10 @@ export const trainers = {
                     "special_defense": 47
                 },
                 "moves": [
+                    "Leer",
                     "Karate Chop",
                     "Fury Swipes",
-                    "Focus Energy",
-                    "Rage"
+                    "Focus Energy"
                 ]
             }
         ]
@@ -15794,9 +15628,9 @@ export const trainers = {
             }
         ]
     },
-    "RIVAL1 1": {
-        "rom_id": "RIVAL1 1",
-        "name": "RIVAL1 1",
+    "RIVAL1 Squirtle 1": {
+        "rom_id": "RIVAL1 Squirtle 1",
+        "name": "RIVAL1 Squirtle 1",
         "trainer_class": "RIVAL1",
         "location": "Pallet Town",
         "money": 175,
@@ -15804,19 +15638,19 @@ export const trainers = {
         "items": [],
         "party": [
             {
-                "species": "Eevee",
+                "species": "Squirtle",
                 "level": 5,
-                "experience_yield": 97,
+                "experience_yield": 70,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 21,
-                    "attack": 11,
-                    "defense": 10,
-                    "speed": 11,
-                    "special_attack": 12,
-                    "special_defense": 12
+                    "hp": 20,
+                    "attack": 10,
+                    "defense": 12,
+                    "speed": 10,
+                    "special_attack": 10,
+                    "special_defense": 10
                 },
                 "moves": [
                     "Tackle",
@@ -15825,9 +15659,71 @@ export const trainers = {
             }
         ]
     },
-    "RIVAL1 2": {
-        "rom_id": "RIVAL1 2",
-        "name": "RIVAL1 2",
+    "RIVAL1 Bulbasaur 1": {
+        "rom_id": "RIVAL1 Bulbasaur 1",
+        "name": "RIVAL1 Bulbasaur 1",
+        "trainer_class": "RIVAL1",
+        "location": "Pallet Town",
+        "money": 175,
+        "is_double_battle": false,
+        "items": [],
+        "party": [
+            {
+                "species": "Bulbasaur",
+                "level": 5,
+                "experience_yield": 67,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 20,
+                    "attack": 10,
+                    "defense": 10,
+                    "speed": 10,
+                    "special_attack": 12,
+                    "special_defense": 12
+                },
+                "moves": [
+                    "Tackle",
+                    "Growl"
+                ]
+            }
+        ]
+    },
+    "RIVAL1 Charmander 1": {
+        "rom_id": "RIVAL1 Charmander 1",
+        "name": "RIVAL1 Charmander 1",
+        "trainer_class": "RIVAL1",
+        "location": "Pallet Town",
+        "money": 175,
+        "is_double_battle": false,
+        "items": [],
+        "party": [
+            {
+                "species": "Charmander",
+                "level": 5,
+                "experience_yield": 69,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 19,
+                    "attack": 11,
+                    "defense": 10,
+                    "speed": 12,
+                    "special_attack": 10,
+                    "special_defense": 10
+                },
+                "moves": [
+                    "Scratch",
+                    "Growl"
+                ]
+            }
+        ]
+    },
+    "RIVAL1 Squirtle 2": {
+        "rom_id": "RIVAL1 Squirtle 2",
+        "name": "RIVAL1 Squirtle 2",
         "trainer_class": "RIVAL1",
         "location": "Route 22",
         "money": 280,
@@ -15835,52 +15731,154 @@ export const trainers = {
         "items": [],
         "party": [
             {
-                "species": "Spearow",
+                "species": "Pidgey",
                 "level": 9,
-                "experience_yield": 111,
+                "experience_yield": 105,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
                     "hp": 27,
-                    "attack": 17,
-                    "defense": 11,
-                    "speed": 19,
+                    "attack": 14,
+                    "defense": 13,
+                    "speed": 16,
                     "special_attack": 12,
                     "special_defense": 12
                 },
                 "moves": [
-                    "Peck",
-                    "Growl",
-                    "Leer"
+                    "Gust",
+                    "Sand-Attack"
                 ]
             },
             {
-                "species": "Eevee",
+                "species": "Squirtle",
                 "level": 8,
-                "experience_yield": 157,
+                "experience_yield": 112,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 28,
-                    "attack": 15,
+                    "hp": 26,
+                    "attack": 14,
+                    "defense": 16,
+                    "speed": 13,
+                    "special_attack": 14,
+                    "special_defense": 14
+                },
+                "moves": [
+                    "Tackle",
+                    "Tail Whip",
+                    "Bubble"
+                ]
+            }
+        ]
+    },
+    "RIVAL1 Bulbasaur 2": {
+        "rom_id": "RIVAL1 Bulbasaur 2",
+        "name": "RIVAL1 Bulbasaur 2",
+        "trainer_class": "RIVAL1",
+        "location": "Route 22",
+        "money": 280,
+        "is_double_battle": false,
+        "items": [],
+        "party": [
+            {
+                "species": "Pidgey",
+                "level": 9,
+                "experience_yield": 105,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 27,
+                    "attack": 14,
+                    "defense": 13,
+                    "speed": 16,
+                    "special_attack": 12,
+                    "special_defense": 12
+                },
+                "moves": [
+                    "Gust",
+                    "Sand-Attack"
+                ]
+            },
+            {
+                "species": "Bulbasaur",
+                "level": 8,
+                "experience_yield": 109,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 26,
+                    "attack": 14,
                     "defense": 14,
-                    "speed": 15,
+                    "speed": 13,
                     "special_attack": 16,
                     "special_defense": 16
                 },
                 "moves": [
                     "Tackle",
-                    "Tail Whip",
-                    "Sand-Attack"
+                    "Growl",
+                    "Leech Seed"
                 ]
             }
         ]
     },
-    "RIVAL1 3": {
-        "rom_id": "RIVAL1 3",
-        "name": "RIVAL1 3",
+    "RIVAL1 Charmander 2": {
+        "rom_id": "RIVAL1 Charmander 2",
+        "name": "RIVAL1 Charmander 2",
+        "trainer_class": "RIVAL1",
+        "location": "Route 22",
+        "money": 280,
+        "is_double_battle": false,
+        "items": [],
+        "party": [
+            {
+                "species": "Pidgey",
+                "level": 9,
+                "experience_yield": 105,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 27,
+                    "attack": 14,
+                    "defense": 13,
+                    "speed": 16,
+                    "special_attack": 12,
+                    "special_defense": 12
+                },
+                "moves": [
+                    "Gust",
+                    "Sand-Attack"
+                ]
+            },
+            {
+                "species": "Charmander",
+                "level": 8,
+                "experience_yield": 111,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 25,
+                    "attack": 14,
+                    "defense": 13,
+                    "speed": 16,
+                    "special_attack": 14,
+                    "special_defense": 14
+                },
+                "moves": [
+                    "Scratch",
+                    "Growl"
+                ]
+            }
+        ]
+    },
+    "RIVAL1 Squirtle 3": {
+        "rom_id": "RIVAL1 Squirtle 3",
+        "name": "RIVAL1 Squirtle 3",
         "trainer_class": "RIVAL1",
         "location": "Cerulean City",
         "money": 595,
@@ -15888,45 +15886,43 @@ export const trainers = {
         "items": [],
         "party": [
             {
-                "species": "Spearow",
+                "species": "Pidgeotto",
                 "level": 18,
-                "experience_yield": 223,
+                "experience_yield": 435,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 45,
+                    "hp": 53,
                     "attack": 29,
-                    "defense": 18,
+                    "defense": 27,
                     "speed": 33,
-                    "special_attack": 19,
-                    "special_defense": 19
+                    "special_attack": 25,
+                    "special_defense": 25
                 },
                 "moves": [
-                    "Peck",
-                    "Growl",
-                    "Leer",
-                    "Fury Attack"
+                    "Gust",
+                    "Sand-Attack",
+                    "Quick Attack"
                 ]
             },
             {
-                "species": "Sandshrew",
+                "species": "Abra",
                 "level": 15,
-                "experience_yield": 298,
+                "experience_yield": 234,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 42,
-                    "attack": 30,
-                    "defense": 32,
-                    "speed": 19,
-                    "special_attack": 16,
-                    "special_defense": 16
+                    "hp": 34,
+                    "attack": 13,
+                    "defense": 11,
+                    "speed": 34,
+                    "special_attack": 38,
+                    "special_defense": 38
                 },
                 "moves": [
-                    "Scratch",
-                    "Sand-Attack"
+                    "Teleport"
                 ]
             },
             {
@@ -15952,33 +15948,223 @@ export const trainers = {
                 ]
             },
             {
-                "species": "Eevee",
+                "species": "Squirtle",
                 "level": 17,
-                "experience_yield": 334,
+                "experience_yield": 240,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 48,
-                    "attack": 26,
+                    "hp": 44,
+                    "attack": 24,
+                    "defense": 29,
+                    "speed": 22,
+                    "special_attack": 24,
+                    "special_defense": 24
+                },
+                "moves": [
+                    "Tackle",
+                    "Tail Whip",
+                    "Bubble",
+                    "Water Gun"
+                ]
+            }
+        ]
+    },
+    "RIVAL1 Bulbasaur 3": {
+        "rom_id": "RIVAL1 Bulbasaur 3",
+        "name": "RIVAL1 Bulbasaur 3",
+        "trainer_class": "RIVAL1",
+        "location": "Cerulean City",
+        "money": 595,
+        "is_double_battle": false,
+        "items": [],
+        "party": [
+            {
+                "species": "Pidgeotto",
+                "level": 18,
+                "experience_yield": 435,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 53,
+                    "attack": 29,
+                    "defense": 27,
+                    "speed": 33,
+                    "special_attack": 25,
+                    "special_defense": 25
+                },
+                "moves": [
+                    "Gust",
+                    "Sand-Attack",
+                    "Quick Attack"
+                ]
+            },
+            {
+                "species": "Abra",
+                "level": 15,
+                "experience_yield": 234,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 34,
+                    "attack": 13,
+                    "defense": 11,
+                    "speed": 34,
+                    "special_attack": 38,
+                    "special_defense": 38
+                },
+                "moves": [
+                    "Teleport"
+                ]
+            },
+            {
+                "species": "Rattata",
+                "level": 15,
+                "experience_yield": 183,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 36,
+                    "attack": 24,
+                    "defense": 17,
+                    "speed": 29,
+                    "special_attack": 14,
+                    "special_defense": 14
+                },
+                "moves": [
+                    "Tackle",
+                    "Tail Whip",
+                    "Quick Attack",
+                    "Hyper Fang"
+                ]
+            },
+            {
+                "species": "Bulbasaur",
+                "level": 17,
+                "experience_yield": 232,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 45,
+                    "attack": 24,
                     "defense": 24,
-                    "speed": 26,
+                    "speed": 23,
                     "special_attack": 29,
                     "special_defense": 29
                 },
                 "moves": [
                     "Tackle",
-                    "Tail Whip",
-                    "Sand-Attack",
-                    "Growl"
+                    "Growl",
+                    "Leech Seed",
+                    "Vine Whip"
                 ]
             }
         ]
     },
-    "PROFOAK 1": {
-        "rom_id": "PROFOAK 1",
-        "name": "PROFOAK 1",
-        "trainer_class": "PROFOAK",
+    "RIVAL1 Charmander 3": {
+        "rom_id": "RIVAL1 Charmander 3",
+        "name": "RIVAL1 Charmander 3",
+        "trainer_class": "RIVAL1",
+        "location": "Cerulean City",
+        "money": 595,
+        "is_double_battle": false,
+        "items": [],
+        "party": [
+            {
+                "species": "Pidgeotto",
+                "level": 18,
+                "experience_yield": 435,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 53,
+                    "attack": 29,
+                    "defense": 27,
+                    "speed": 33,
+                    "special_attack": 25,
+                    "special_defense": 25
+                },
+                "moves": [
+                    "Gust",
+                    "Sand-Attack",
+                    "Quick Attack"
+                ]
+            },
+            {
+                "species": "Abra",
+                "level": 15,
+                "experience_yield": 234,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 34,
+                    "attack": 13,
+                    "defense": 11,
+                    "speed": 34,
+                    "special_attack": 38,
+                    "special_defense": 38
+                },
+                "moves": [
+                    "Teleport"
+                ]
+            },
+            {
+                "species": "Rattata",
+                "level": 15,
+                "experience_yield": 183,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 36,
+                    "attack": 24,
+                    "defense": 17,
+                    "speed": 29,
+                    "special_attack": 14,
+                    "special_defense": 14
+                },
+                "moves": [
+                    "Tackle",
+                    "Tail Whip",
+                    "Quick Attack",
+                    "Hyper Fang"
+                ]
+            },
+            {
+                "species": "Charmander",
+                "level": 17,
+                "experience_yield": 235,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 42,
+                    "attack": 25,
+                    "defense": 22,
+                    "speed": 29,
+                    "special_attack": 24,
+                    "special_defense": 24
+                },
+                "moves": [
+                    "Scratch",
+                    "Growl",
+                    "Ember",
+                    "Leer"
+                ]
+            }
+        ]
+    },
+    "PROF OAK 1": {
+        "rom_id": "PROF OAK 1",
+        "name": "PROF OAK 1",
+        "trainer_class": "PROF OAK",
         "location": "Unused",
         "money": 6930,
         "is_double_battle": false,
@@ -16095,10 +16281,10 @@ export const trainers = {
             }
         ]
     },
-    "PROFOAK 2": {
-        "rom_id": "PROFOAK 2",
-        "name": "PROFOAK 2",
-        "trainer_class": "PROFOAK",
+    "PROF OAK 2": {
+        "rom_id": "PROF OAK 2",
+        "name": "PROF OAK 2",
+        "trainer_class": "PROF OAK",
         "location": "Unused",
         "money": 6930,
         "is_double_battle": false,
@@ -16215,10 +16401,10 @@ export const trainers = {
             }
         ]
     },
-    "PROFOAK 3": {
-        "rom_id": "PROFOAK 3",
-        "name": "PROFOAK 3",
-        "trainer_class": "PROFOAK",
+    "PROF OAK 3": {
+        "rom_id": "PROF OAK 3",
+        "name": "PROF OAK 3",
+        "trainer_class": "PROF OAK",
         "location": "Unused",
         "money": 6930,
         "is_double_battle": false,
@@ -16393,7 +16579,7 @@ export const trainers = {
         "rom_id": "SCIENTIST 2",
         "name": "SCIENTIST 2",
         "trainer_class": "SCIENTIST",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 1300,
         "is_double_battle": false,
         "items": [],
@@ -16486,7 +16672,7 @@ export const trainers = {
         "rom_id": "SCIENTIST 3",
         "name": "SCIENTIST 3",
         "trainer_class": "SCIENTIST",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 1400,
         "is_double_battle": false,
         "items": [],
@@ -16561,7 +16747,7 @@ export const trainers = {
         "rom_id": "SCIENTIST 4",
         "name": "SCIENTIST 4",
         "trainer_class": "SCIENTIST",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 1450,
         "is_double_battle": false,
         "items": [],
@@ -16669,7 +16855,7 @@ export const trainers = {
         "rom_id": "SCIENTIST 5",
         "name": "SCIENTIST 5",
         "trainer_class": "SCIENTIST",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 1650,
         "is_double_battle": false,
         "items": [],
@@ -16702,7 +16888,7 @@ export const trainers = {
         "rom_id": "SCIENTIST 6",
         "name": "SCIENTIST 6",
         "trainer_class": "SCIENTIST",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 1300,
         "is_double_battle": false,
         "items": [],
@@ -16796,7 +16982,7 @@ export const trainers = {
         "rom_id": "SCIENTIST 7",
         "name": "SCIENTIST 7",
         "trainer_class": "SCIENTIST",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 1250,
         "is_double_battle": false,
         "items": [],
@@ -16911,7 +17097,7 @@ export const trainers = {
         "rom_id": "SCIENTIST 8",
         "name": "SCIENTIST 8",
         "trainer_class": "SCIENTIST",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 1450,
         "is_double_battle": false,
         "items": [],
@@ -16965,7 +17151,7 @@ export const trainers = {
         "rom_id": "SCIENTIST 9",
         "name": "SCIENTIST 9",
         "trainer_class": "SCIENTIST",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 1450,
         "is_double_battle": false,
         "items": [],
@@ -17018,7 +17204,7 @@ export const trainers = {
         "rom_id": "SCIENTIST 10",
         "name": "SCIENTIST 10",
         "trainer_class": "SCIENTIST",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 1400,
         "is_double_battle": false,
         "items": [],
@@ -17092,7 +17278,7 @@ export const trainers = {
         "rom_id": "SCIENTIST 11",
         "name": "SCIENTIST 11",
         "trainer_class": "SCIENTIST",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 1450,
         "is_double_battle": false,
         "items": [],
@@ -17324,25 +17510,24 @@ export const trainers = {
                 ]
             },
             {
-                "species": "Persian",
+                "species": "Kangaskhan",
                 "level": 29,
-                "experience_yield": 919,
+                "experience_yield": 1087,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 81,
-                    "attack": 50,
-                    "defense": 44,
-                    "speed": 76,
-                    "special_attack": 47,
-                    "special_defense": 47
+                    "hp": 104,
+                    "attack": 65,
+                    "defense": 56,
+                    "speed": 61,
+                    "special_attack": 32,
+                    "special_defense": 32
                 },
                 "moves": [
-                    "Growl",
-                    "Bite",
-                    "Screech",
-                    "Pay Day"
+                    "Comet Punch",
+                    "Rage",
+                    "Bite"
                 ]
             }
         ]
@@ -17351,7 +17536,7 @@ export const trainers = {
         "rom_id": "GIOVANNI 2",
         "name": "GIOVANNI 2",
         "trainer_class": "GIOVANNI",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 4059,
         "is_double_battle": false,
         "items": [],
@@ -17372,32 +17557,32 @@ export const trainers = {
                     "special_defense": 51
                 },
                 "moves": [
-                    "Double Kick",
+                    "Horn Attack",
                     "Poison Sting",
                     "Focus Energy",
                     "Fury Attack"
                 ]
             },
             {
-                "species": "Persian",
+                "species": "Kangaskhan",
                 "level": 35,
-                "experience_yield": 1110,
+                "experience_yield": 1312,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 96,
-                    "attack": 60,
-                    "defense": 52,
-                    "speed": 91,
-                    "special_attack": 56,
-                    "special_defense": 56
+                    "hp": 124,
+                    "attack": 77,
+                    "defense": 66,
+                    "speed": 73,
+                    "special_attack": 38,
+                    "special_defense": 38
                 },
                 "moves": [
-                    "Growl",
+                    "Comet Punch",
+                    "Rage",
                     "Bite",
-                    "Screech",
-                    "Pay Day"
+                    "Tail Whip"
                 ]
             },
             {
@@ -17440,7 +17625,7 @@ export const trainers = {
                     "Scratch",
                     "Tail Whip",
                     "Body Slam",
-                    "Double Kick"
+                    "Poison Sting"
                 ]
             }
         ]
@@ -17450,118 +17635,118 @@ export const trainers = {
         "name": "GIOVANNI 3",
         "trainer_class": "GIOVANNI",
         "location": "Viridian Gym",
-        "money": 5445,
+        "money": 4950,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
-                "species": "Dugtrio",
-                "level": 50,
-                "experience_yield": 1638,
+                "species": "Rhyhorn",
+                "level": 45,
+                "experience_yield": 1300,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 103,
-                    "attack": 94,
-                    "defense": 63,
-                    "speed": 133,
-                    "special_attack": 83,
-                    "special_defense": 83
+                    "hp": 134,
+                    "attack": 89,
+                    "defense": 97,
+                    "speed": 34,
+                    "special_attack": 39,
+                    "special_defense": 39
                 },
                 "moves": [
-                    "Dig",
-                    "Sand-Attack",
-                    "Fissure",
-                    "Earthquake"
+                    "Stomp",
+                    "Tail Whip",
+                    "Fury Attack",
+                    "Horn Drill"
                 ]
             },
             {
-                "species": "Persian",
-                "level": 53,
-                "experience_yield": 1680,
+                "species": "Dugtrio",
+                "level": 42,
+                "experience_yield": 1377,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 140,
-                    "attack": 88,
-                    "defense": 77,
-                    "speed": 135,
-                    "special_attack": 82,
-                    "special_defense": 82
+                    "hp": 88,
+                    "attack": 79,
+                    "defense": 53,
+                    "speed": 112,
+                    "special_attack": 70,
+                    "special_defense": 70
                 },
                 "moves": [
-                    "Screech",
-                    "Double Team",
-                    "Fury Swipes",
+                    "Growl",
+                    "Dig",
+                    "Sand-Attack",
                     "Slash"
                 ]
             },
             {
                 "species": "Nidoqueen",
-                "level": 53,
-                "experience_yield": 2202,
+                "level": 44,
+                "experience_yield": 1828,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 166,
-                    "attack": 101,
-                    "defense": 105,
-                    "speed": 94,
-                    "special_attack": 92,
-                    "special_defense": 92
+                    "hp": 140,
+                    "attack": 85,
+                    "defense": 88,
+                    "speed": 78,
+                    "special_attack": 78,
+                    "special_defense": 78
                 },
                 "moves": [
-                    "Earthquake",
+                    "Scratch",
                     "Tail Whip",
-                    "Thunder",
-                    "Double Kick"
+                    "Body Slam",
+                    "Poison Sting"
                 ]
             },
             {
                 "species": "Nidoking",
-                "level": 55,
-                "experience_yield": 2298,
+                "level": 45,
+                "experience_yield": 1879,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 162,
-                    "attack": 116,
-                    "defense": 98,
-                    "speed": 107,
-                    "special_attack": 96,
-                    "special_defense": 96
+                    "hp": 135,
+                    "attack": 95,
+                    "defense": 81,
+                    "speed": 88,
+                    "special_attack": 79,
+                    "special_defense": 79
                 },
                 "moves": [
-                    "Earthquake",
-                    "Leer",
-                    "Thunder",
-                    "Double Kick"
+                    "Tackle",
+                    "Horn Attack",
+                    "Poison Sting",
+                    "Thrash"
                 ]
             },
             {
                 "species": "Rhydon",
-                "level": 55,
-                "experience_yield": 2403,
+                "level": 50,
+                "experience_yield": 2185,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 189,
-                    "attack": 157,
-                    "defense": 145,
-                    "speed": 57,
-                    "special_attack": 63,
-                    "special_defense": 63
+                    "hp": 173,
+                    "attack": 144,
+                    "defense": 133,
+                    "speed": 53,
+                    "special_attack": 58,
+                    "special_defense": 58
                 },
                 "moves": [
-                    "Rock Slide",
-                    "Fury Attack",
-                    "Horn Drill",
-                    "Earthquake"
+                    "Stomp",
+                    "Tail Whip",
+                    "Fissure",
+                    "Horn Drill"
                 ]
             }
         ]
@@ -17746,7 +17931,7 @@ export const trainers = {
         "rom_id": "ROCKET 4",
         "name": "ROCKET 4",
         "trainer_class": "ROCKET",
-        "location": "Unused",
+        "location": "Mt. Moon",
         "money": 480,
         "is_double_battle": false,
         "items": [],
@@ -18510,7 +18695,7 @@ export const trainers = {
         "rom_id": "ROCKET 16",
         "name": "ROCKET 16",
         "trainer_class": "ROCKET",
-        "location": "Unused",
+        "location": "ROCKET Hideout",
         "money": 690,
         "is_double_battle": false,
         "items": [],
@@ -18585,7 +18770,7 @@ export const trainers = {
         "rom_id": "ROCKET 17",
         "name": "ROCKET 17",
         "trainer_class": "ROCKET",
-        "location": "Unused",
+        "location": "ROCKET Hideout",
         "money": 690,
         "is_double_battle": false,
         "items": [],
@@ -18714,7 +18899,7 @@ export const trainers = {
         "rom_id": "ROCKET 19",
         "name": "ROCKET 19",
         "trainer_class": "ROCKET",
-        "location": "Unused",
+        "location": "Pokemon Tower",
         "money": 750,
         "is_double_battle": false,
         "items": [],
@@ -18791,7 +18976,7 @@ export const trainers = {
         "rom_id": "ROCKET 20",
         "name": "ROCKET 20",
         "trainer_class": "ROCKET",
-        "location": "Unused",
+        "location": "Pokemon Tower",
         "money": 780,
         "is_double_battle": false,
         "items": [],
@@ -18844,7 +19029,7 @@ export const trainers = {
         "rom_id": "ROCKET 21",
         "name": "ROCKET 21",
         "trainer_class": "ROCKET",
-        "location": "Unused",
+        "location": "Pokemon Tower",
         "money": 690,
         "is_double_battle": false,
         "items": [],
@@ -18996,7 +19181,7 @@ export const trainers = {
         "rom_id": "ROCKET 23",
         "name": "ROCKET 23",
         "trainer_class": "ROCKET",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 870,
         "is_double_battle": false,
         "items": [],
@@ -19018,8 +19203,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Bone Club",
-                    "Tail Whip",
-                    "Headbutt",
+                    "Growl",
                     "Leer"
                 ]
             },
@@ -19051,7 +19235,7 @@ export const trainers = {
         "rom_id": "ROCKET 24",
         "name": "ROCKET 24",
         "trainer_class": "ROCKET",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 750,
         "is_double_battle": false,
         "items": [],
@@ -19172,7 +19356,7 @@ export const trainers = {
         "rom_id": "ROCKET 25",
         "name": "ROCKET 25",
         "trainer_class": "ROCKET",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 840,
         "is_double_battle": false,
         "items": [],
@@ -19249,7 +19433,7 @@ export const trainers = {
         "rom_id": "ROCKET 26",
         "name": "ROCKET 26",
         "trainer_class": "ROCKET",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 870,
         "is_double_battle": false,
         "items": [],
@@ -19303,7 +19487,7 @@ export const trainers = {
         "rom_id": "ROCKET 27",
         "name": "ROCKET 27",
         "trainer_class": "ROCKET",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 840,
         "is_double_battle": false,
         "items": [],
@@ -19369,8 +19553,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Bone Club",
-                    "Tail Whip",
-                    "Headbutt",
+                    "Growl",
                     "Leer"
                 ]
             }
@@ -19380,7 +19563,7 @@ export const trainers = {
         "rom_id": "ROCKET 28",
         "name": "ROCKET 28",
         "trainer_class": "ROCKET",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 990,
         "is_double_battle": false,
         "items": [],
@@ -19413,7 +19596,7 @@ export const trainers = {
         "rom_id": "ROCKET 29",
         "name": "ROCKET 29",
         "trainer_class": "ROCKET",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 990,
         "is_double_battle": false,
         "items": [],
@@ -19446,7 +19629,7 @@ export const trainers = {
         "rom_id": "ROCKET 30",
         "name": "ROCKET 30",
         "trainer_class": "ROCKET",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 870,
         "is_double_battle": false,
         "items": [],
@@ -19499,7 +19682,7 @@ export const trainers = {
         "rom_id": "ROCKET 31",
         "name": "ROCKET 31",
         "trainer_class": "ROCKET",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 840,
         "is_double_battle": false,
         "items": [],
@@ -19576,7 +19759,7 @@ export const trainers = {
         "rom_id": "ROCKET 32",
         "name": "ROCKET 32",
         "trainer_class": "ROCKET",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 780,
         "is_double_battle": false,
         "items": [],
@@ -19673,7 +19856,7 @@ export const trainers = {
         "rom_id": "ROCKET 33",
         "name": "ROCKET 33",
         "trainer_class": "ROCKET",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 870,
         "is_double_battle": false,
         "items": [],
@@ -19695,8 +19878,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Bone Club",
-                    "Tail Whip",
-                    "Headbutt",
+                    "Growl",
                     "Leer"
                 ]
             },
@@ -19717,8 +19899,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Bone Club",
-                    "Tail Whip",
-                    "Headbutt",
+                    "Growl",
                     "Leer"
                 ]
             }
@@ -19728,7 +19909,7 @@ export const trainers = {
         "rom_id": "ROCKET 34",
         "name": "ROCKET 34",
         "trainer_class": "ROCKET",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 870,
         "is_double_battle": false,
         "items": [],
@@ -19783,7 +19964,7 @@ export const trainers = {
         "rom_id": "ROCKET 35",
         "name": "ROCKET 35",
         "trainer_class": "ROCKET",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 780,
         "is_double_battle": false,
         "items": [],
@@ -19882,7 +20063,7 @@ export const trainers = {
         "rom_id": "ROCKET 36",
         "name": "ROCKET 36",
         "trainer_class": "ROCKET",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 840,
         "is_double_battle": false,
         "items": [],
@@ -19956,7 +20137,7 @@ export const trainers = {
         "rom_id": "ROCKET 37",
         "name": "ROCKET 37",
         "trainer_class": "ROCKET",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 840,
         "is_double_battle": false,
         "items": [],
@@ -20030,7 +20211,7 @@ export const trainers = {
         "rom_id": "ROCKET 38",
         "name": "ROCKET 38",
         "trainer_class": "ROCKET",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 840,
         "is_double_battle": false,
         "items": [],
@@ -20107,7 +20288,7 @@ export const trainers = {
         "rom_id": "ROCKET 39",
         "name": "ROCKET 39",
         "trainer_class": "ROCKET",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 990,
         "is_double_battle": false,
         "items": [],
@@ -20139,7 +20320,7 @@ export const trainers = {
         "rom_id": "ROCKET 40",
         "name": "ROCKET 40",
         "trainer_class": "ROCKET",
-        "location": "Silph Co.",
+        "location": "Silph",
         "money": 750,
         "is_double_battle": false,
         "items": [],
@@ -20260,7 +20441,7 @@ export const trainers = {
         "rom_id": "ROCKET 41",
         "name": "ROCKET 41",
         "trainer_class": "ROCKET",
-        "location": "Unused",
+        "location": "Silph",
         "money": 960,
         "is_double_battle": false,
         "items": [],
@@ -20281,8 +20462,8 @@ export const trainers = {
                     "special_defense": 35
                 },
                 "moves": [
-                    "Tail Whip",
-                    "Headbutt",
+                    "Bone Club",
+                    "Growl",
                     "Leer",
                     "Focus Energy"
                 ]
@@ -20326,435 +20507,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Bone Club",
-                    "Tail Whip",
-                    "Headbutt",
-                    "Leer"
-                ]
-            }
-        ]
-    },
-    "Jessie & James 1": {
-        "rom_id": "Jessie & James 1",
-        "name": "Jessie & James 1",
-        "trainer_class": "ROCKET",
-        "location": "Mt. Moon",
-        "money": 420,
-        "is_double_battle": false,
-        "items": [],
-        "party": [
-            {
-                "species": "Ekans",
-                "level": 14,
-                "experience_yield": 186,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 36,
-                    "attack": 24,
-                    "defense": 19,
-                    "speed": 22,
-                    "special_attack": 18,
-                    "special_defense": 18
-                },
-                "moves": [
-                    "Wrap",
-                    "Leer",
-                    "Poison Sting"
-                ]
-            },
-            {
-                "species": "Meowth",
-                "level": 14,
-                "experience_yield": 207,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 37,
-                    "attack": 20,
-                    "defense": 17,
-                    "speed": 32,
-                    "special_attack": 18,
-                    "special_defense": 18
-                },
-                "moves": [
-                    "Scratch",
                     "Growl",
-                    "Bite"
-                ]
-            },
-            {
-                "species": "Koffing",
-                "level": 14,
-                "experience_yield": 342,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 37,
-                    "attack": 25,
-                    "defense": 33,
-                    "speed": 17,
-                    "special_attack": 24,
-                    "special_defense": 24
-                },
-                "moves": [
-                    "Tackle",
-                    "Smog"
-                ]
-            }
-        ]
-    },
-    "Jessie & James 2": {
-        "rom_id": "Jessie & James 2",
-        "name": "Jessie & James 2",
-        "trainer_class": "ROCKET",
-        "location": "ROCKET Hideout",
-        "money": 750,
-        "is_double_battle": false,
-        "items": [],
-        "party": [
-            {
-                "species": "Koffing",
-                "level": 25,
-                "experience_yield": 610,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 59,
-                    "attack": 42,
-                    "defense": 56,
-                    "speed": 26,
-                    "special_attack": 39,
-                    "special_defense": 39
-                },
-                "moves": [
-                    "Tackle",
-                    "Smog"
-                ]
-            },
-            {
-                "species": "Meowth",
-                "level": 25,
-                "experience_yield": 369,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 59,
-                    "attack": 32,
-                    "defense": 26,
-                    "speed": 54,
-                    "special_attack": 29,
-                    "special_defense": 29
-                },
-                "moves": [
-                    "Growl",
-                    "Bite",
-                    "Pay Day",
-                    "Screech"
-                ]
-            },
-            {
-                "species": "Ekans",
-                "level": 25,
-                "experience_yield": 331,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 56,
-                    "attack": 39,
-                    "defense": 31,
-                    "speed": 36,
-                    "special_attack": 29,
-                    "special_defense": 29
-                },
-                "moves": [
                     "Leer",
-                    "Poison Sting",
-                    "Bite",
-                    "Glare"
-                ]
-            }
-        ]
-    },
-    "Jessie & James 3": {
-        "rom_id": "Jessie & James 3",
-        "name": "Jessie & James 3",
-        "trainer_class": "ROCKET",
-        "location": "Pokemon Tower",
-        "money": 810,
-        "is_double_battle": false,
-        "items": [],
-        "party": [
-            {
-                "species": "Meowth",
-                "level": 27,
-                "experience_yield": 399,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 62,
-                    "attack": 34,
-                    "defense": 28,
-                    "speed": 57,
-                    "special_attack": 30,
-                    "special_defense": 30
-                },
-                "moves": [
-                    "Growl",
-                    "Bite",
-                    "Pay Day",
-                    "Screech"
-                ]
-            },
-            {
-                "species": "Arbok",
-                "level": 27,
-                "experience_yield": 850,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 73,
-                    "attack": 55,
-                    "defense": 46,
-                    "speed": 52,
-                    "special_attack": 44,
-                    "special_defense": 44
-                },
-                "moves": [
-                    "Leer",
-                    "Poison Sting",
-                    "Bite",
-                    "Glare"
-                ]
-            },
-            {
-                "species": "Weezing",
-                "level": 27,
-                "experience_yield": 1000,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 76,
-                    "attack": 58,
-                    "defense": 74,
-                    "speed": 41,
-                    "special_attack": 55,
-                    "special_defense": 55
-                },
-                "moves": [
-                    "Tackle",
-                    "Smog",
-                    "Sludge"
-                ]
-            }
-        ]
-    },
-    "Jessie & James 4": {
-        "rom_id": "Jessie & James 4",
-        "name": "Jessie & James 4",
-        "trainer_class": "ROCKET",
-        "location": "Silph Co.",
-        "money": 930,
-        "is_double_battle": false,
-        "items": [],
-        "party": [
-            {
-                "species": "Weezing",
-                "level": 31,
-                "experience_yield": 1149,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 86,
-                    "attack": 66,
-                    "defense": 84,
-                    "speed": 47,
-                    "special_attack": 62,
-                    "special_defense": 62
-                },
-                "moves": [
-                    "Tackle",
-                    "Smog",
-                    "Sludge"
-                ]
-            },
-            {
-                "species": "Arbok",
-                "level": 31,
-                "experience_yield": 976,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 83,
-                    "attack": 63,
-                    "defense": 52,
-                    "speed": 59,
-                    "special_attack": 50,
-                    "special_defense": 50
-                },
-                "moves": [
-                    "Leer",
-                    "Poison Sting",
-                    "Bite",
-                    "Glare"
-                ]
-            },
-            {
-                "species": "Meowth",
-                "level": 31,
-                "experience_yield": 457,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 70,
-                    "attack": 38,
-                    "defense": 31,
-                    "speed": 65,
-                    "special_attack": 34,
-                    "special_defense": 34
-                },
-                "moves": [
-                    "Growl",
-                    "Bite",
-                    "Pay Day",
-                    "Screech"
-                ]
-            }
-        ]
-    },
-    "ROCKET 46": {
-        "rom_id": "ROCKET 46",
-        "name": "ROCKET 46",
-        "trainer_class": "ROCKET",
-        "location": "Unused",
-        "money": 480,
-        "is_double_battle": false,
-        "items": [],
-        "party": [
-            {
-                "species": "Koffing",
-                "level": 16,
-                "experience_yield": 390,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 41,
-                    "attack": 28,
-                    "defense": 37,
-                    "speed": 18,
-                    "special_attack": 26,
-                    "special_defense": 26
-                },
-                "moves": [
-                    "Tackle",
-                    "Smog"
-                ]
-            }
-        ]
-    },
-    "ROCKET 47": {
-        "rom_id": "ROCKET 47",
-        "name": "ROCKET 47",
-        "trainer_class": "ROCKET",
-        "location": "Unused",
-        "money": 810,
-        "is_double_battle": false,
-        "items": [],
-        "party": [
-            {
-                "species": "Koffing",
-                "level": 27,
-                "experience_yield": 658,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 62,
-                    "attack": 44,
-                    "defense": 60,
-                    "speed": 28,
-                    "special_attack": 41,
-                    "special_defense": 41
-                },
-                "moves": [
-                    "Tackle",
-                    "Smog"
-                ]
-            }
-        ]
-    },
-    "ROCKET 48": {
-        "rom_id": "ROCKET 48",
-        "name": "ROCKET 48",
-        "trainer_class": "ROCKET",
-        "location": "Unused",
-        "money": 870,
-        "is_double_battle": false,
-        "items": [],
-        "party": [
-            {
-                "species": "Weezing",
-                "level": 29,
-                "experience_yield": 1074,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 81,
-                    "attack": 62,
-                    "defense": 79,
-                    "speed": 44,
-                    "special_attack": 58,
-                    "special_defense": 58
-                },
-                "moves": [
-                    "Tackle",
-                    "Smog",
-                    "Sludge"
-                ]
-            }
-        ]
-    },
-    "ROCKET 49": {
-        "rom_id": "ROCKET 49",
-        "name": "ROCKET 49",
-        "trainer_class": "ROCKET",
-        "location": "Unused",
-        "money": 990,
-        "is_double_battle": false,
-        "items": [],
-        "party": [
-            {
-                "species": "Weezing",
-                "level": 33,
-                "experience_yield": 1222,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 91,
-                    "attack": 70,
-                    "defense": 89,
-                    "speed": 49,
-                    "special_attack": 66,
-                    "special_defense": 66
-                },
-                "moves": [
-                    "Tackle",
-                    "Smog",
-                    "Sludge"
+                    "Focus Energy"
                 ]
             }
         ]
@@ -20784,7 +20539,7 @@ export const trainers = {
                     "special_defense": 54
                 },
                 "moves": [
-                    "Double Kick",
+                    "Horn Attack",
                     "Poison Sting",
                     "Focus Energy",
                     "Fury Attack"
@@ -20806,10 +20561,10 @@ export const trainers = {
                     "special_defense": 69
                 },
                 "moves": [
+                    "Tackle",
                     "Horn Attack",
                     "Poison Sting",
-                    "Thrash",
-                    "Double Kick"
+                    "Thrash"
                 ]
             }
         ]
@@ -21222,10 +20977,10 @@ export const trainers = {
                     "special_defense": 86
                 },
                 "moves": [
+                    "Tackle",
                     "Horn Attack",
                     "Poison Sting",
-                    "Thrash",
-                    "Double Kick"
+                    "Thrash"
                 ]
             }
         ]
@@ -21519,10 +21274,10 @@ export const trainers = {
                     "special_defense": 97
                 },
                 "moves": [
-                    "Acid",
                     "Razor Leaf",
                     "Wrap",
-                    "PoisonPowder"
+                    "PoisonPowder",
+                    "Sleep Powder"
                 ]
             }
         ]
@@ -21628,10 +21383,10 @@ export const trainers = {
                     "special_defense": 104
                 },
                 "moves": [
-                    "Sleep Powder",
-                    "Acid",
                     "Petal Dance",
-                    "PoisonPowder"
+                    "PoisonPowder",
+                    "Stun Spore",
+                    "Sleep Powder"
                 ]
             },
             {
@@ -21650,9 +21405,9 @@ export const trainers = {
                     "special_defense": 85
                 },
                 "moves": [
+                    "Sleep Powder",
                     "Supersonic",
                     "Whirlwind",
-                    "Gust",
                     "Psybeam"
                 ]
             }
@@ -21793,10 +21548,10 @@ export const trainers = {
                     "special_defense": 61
                 },
                 "moves": [
-                    "Double Kick",
                     "Poison Sting",
                     "Tail Whip",
-                    "Bite"
+                    "Bite",
+                    "Fury Swipes"
                 ]
             },
             {
@@ -21818,7 +21573,7 @@ export const trainers = {
                     "Scratch",
                     "Tail Whip",
                     "Body Slam",
-                    "Double Kick"
+                    "Poison Sting"
                 ]
             }
         ]
@@ -21924,10 +21679,10 @@ export const trainers = {
                     "special_defense": 45
                 },
                 "moves": [
-                    "Rock Slide",
-                    "Screech",
+                    "Rock Throw",
+                    "Rage",
                     "Slam",
-                    "Dig"
+                    "Harden"
                 ]
             },
             {
@@ -21948,8 +21703,8 @@ export const trainers = {
                 "moves": [
                     "Ice Punch",
                     "ThunderPunch",
-                    "Fire Punch",
-                    "Double Team"
+                    "Mega Punch",
+                    "Counter"
                 ]
             },
             {
@@ -21968,10 +21723,10 @@ export const trainers = {
                     "special_defense": 52
                 },
                 "moves": [
-                    "Double Kick",
-                    "Mega Kick",
+                    "Jump Kick",
+                    "Focus Energy",
                     "Hi Jump Kick",
-                    "Double Team"
+                    "Mega Kick"
                 ]
             },
             {
@@ -21990,10 +21745,10 @@ export const trainers = {
                     "special_defense": 47
                 },
                 "moves": [
-                    "Rock Slide",
-                    "Screech",
+                    "Rock Throw",
+                    "Rage",
                     "Slam",
-                    "Earthquake"
+                    "Harden"
                 ]
             },
             {
@@ -22013,8 +21768,8 @@ export const trainers = {
                 },
                 "moves": [
                     "Leer",
-                    "Karate Chop",
-                    "Strength",
+                    "Focus Energy",
+                    "Fissure",
                     "Submission"
                 ]
             }
@@ -22025,48 +21780,48 @@ export const trainers = {
         "name": "BROCK 1",
         "trainer_class": "BROCK",
         "location": "Pewter Gym",
-        "money": 1188,
+        "money": 1386,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
                 "species": "Geodude",
-                "level": 10,
-                "experience_yield": 183,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 29,
-                    "attack": 22,
-                    "defense": 26,
-                    "speed": 10,
-                    "special_attack": 12,
-                    "special_defense": 12
-                },
-                "moves": [
-                    "Tackle"
-                ]
-            },
-            {
-                "species": "Onix",
                 "level": 12,
-                "experience_yield": 277,
+                "experience_yield": 220,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 32,
-                    "attack": 17,
-                    "defense": 45,
-                    "speed": 23,
+                    "hp": 33,
+                    "attack": 26,
+                    "defense": 30,
+                    "speed": 11,
                     "special_attack": 14,
                     "special_defense": 14
                 },
                 "moves": [
                     "Tackle",
+                    "Defense Curl"
+                ]
+            },
+            {
+                "species": "Onix",
+                "level": 14,
+                "experience_yield": 324,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 36,
+                    "attack": 20,
+                    "defense": 52,
+                    "speed": 26,
+                    "special_attack": 15,
+                    "special_defense": 15
+                },
+                "moves": [
+                    "Tackle",
                     "Screech",
-                    "Bind",
                     "Bide"
                 ]
             }
@@ -22119,7 +21874,6 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Water Gun",
-                    "Harden",
                     "BubbleBeam"
                 ]
             }
@@ -22130,30 +21884,72 @@ export const trainers = {
         "name": "LT.SURGE 1",
         "trainer_class": "LT.SURGE",
         "location": "Vermilion Gym",
-        "money": 2772,
+        "money": 2376,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
-                "species": "Raichu",
-                "level": 28,
-                "experience_yield": 732,
+                "species": "Voltorb",
+                "level": 21,
+                "experience_yield": 463,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 76,
-                    "attack": 60,
-                    "defense": 40,
-                    "speed": 65,
-                    "special_attack": 59,
-                    "special_defense": 59
+                    "hp": 51,
+                    "attack": 21,
+                    "defense": 29,
+                    "speed": 50,
+                    "special_attack": 31,
+                    "special_defense": 31
                 },
                 "moves": [
-                    "Thunderbolt",
-                    "Mega Punch",
-                    "Mega Kick",
-                    "Growl"
+                    "Tackle",
+                    "Screech",
+                    "SonicBoom"
+                ]
+            },
+            {
+                "species": "Pikachu",
+                "level": 18,
+                "experience_yield": 315,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 43,
+                    "attack": 28,
+                    "defense": 18,
+                    "speed": 40,
+                    "special_attack": 25,
+                    "special_defense": 25
+                },
+                "moves": [
+                    "ThunderShock",
+                    "Growl",
+                    "Thunder Wave",
+                    "Quick Attack"
+                ]
+            },
+            {
+                "species": "Raichu",
+                "level": 24,
+                "experience_yield": 627,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 66,
+                    "attack": 52,
+                    "defense": 35,
+                    "speed": 56,
+                    "special_attack": 52,
+                    "special_defense": 52
+                },
+                "moves": [
+                    "ThunderShock",
+                    "Growl",
+                    "Thunderbolt"
                 ]
             }
         ]
@@ -22163,74 +21959,72 @@ export const trainers = {
         "name": "ERIKA 1",
         "trainer_class": "ERIKA",
         "location": "Celadon Gym",
-        "money": 3168,
+        "money": 2871,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
-                "species": "Tangela",
-                "level": 30,
-                "experience_yield": 1066,
+                "species": "Victreebel",
+                "level": 29,
+                "experience_yield": 1186,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 83,
-                    "attack": 43,
-                    "defense": 78,
-                    "speed": 45,
-                    "special_attack": 69,
-                    "special_defense": 69
-                },
-                "moves": [
-                    "Constrict",
-                    "Bind",
-                    "Mega Drain",
-                    "Vine Whip"
-                ]
-            },
-            {
-                "species": "Weepinbell",
-                "level": 32,
-                "experience_yield": 1035,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 88,
-                    "attack": 68,
-                    "defense": 42,
-                    "speed": 45,
-                    "special_attack": 64,
-                    "special_defense": 64
+                    "hp": 90,
+                    "attack": 71,
+                    "defense": 47,
+                    "speed": 50,
+                    "special_attack": 67,
+                    "special_defense": 67
                 },
                 "moves": [
                     "Razor Leaf",
-                    "Sleep Powder",
-                    "Stun Spore",
-                    "Acid"
+                    "Wrap",
+                    "PoisonPowder",
+                    "Sleep Powder"
                 ]
             },
             {
-                "species": "Gloom",
-                "level": 32,
-                "experience_yield": 904,
+                "species": "Tangela",
+                "level": 24,
+                "experience_yield": 853,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 85,
-                    "attack": 52,
-                    "defense": 54,
-                    "speed": 35,
-                    "special_attack": 64,
-                    "special_defense": 64
+                    "hp": 69,
+                    "attack": 35,
+                    "defense": 64,
+                    "speed": 37,
+                    "special_attack": 56,
+                    "special_defense": 56
+                },
+                "moves": [
+                    "Constrict",
+                    "Bind"
+                ]
+            },
+            {
+                "species": "Vileplume",
+                "level": 29,
+                "experience_yield": 1143,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 87,
+                    "attack": 56,
+                    "defense": 58,
+                    "speed": 38,
+                    "special_attack": 67,
+                    "special_defense": 67
                 },
                 "moves": [
                     "Petal Dance",
-                    "Stun Spore",
-                    "Sleep Powder",
-                    "Acid"
+                    "PoisonPowder",
+                    "Mega Drain",
+                    "Sleep Powder"
                 ]
             }
         ]
@@ -22240,96 +22034,96 @@ export const trainers = {
         "name": "KOGA 1",
         "trainer_class": "KOGA",
         "location": "Fuchsia Gym",
-        "money": 4950,
+        "money": 4257,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
-                "species": "Venonat",
-                "level": 44,
-                "experience_yield": 706,
+                "species": "Koffing",
+                "level": 37,
+                "experience_yield": 903,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 113,
-                    "attack": 61,
-                    "defense": 56,
-                    "speed": 51,
-                    "special_attack": 47,
-                    "special_defense": 47
+                    "hp": 82,
+                    "attack": 59,
+                    "defense": 81,
+                    "speed": 36,
+                    "special_attack": 55,
+                    "special_defense": 55
                 },
                 "moves": [
-                    "Toxic",
                     "Tackle",
-                    "Sleep Powder",
-                    "Psychic"
+                    "Smog",
+                    "Sludge",
+                    "SmokeScreen"
                 ]
             },
             {
-                "species": "Venonat",
-                "level": 46,
-                "experience_yield": 738,
+                "species": "Muk",
+                "level": 39,
+                "experience_yield": 1311,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 118,
-                    "attack": 63,
-                    "defense": 58,
-                    "speed": 53,
-                    "special_attack": 49,
-                    "special_defense": 49
+                    "hp": 137,
+                    "attack": 93,
+                    "defense": 69,
+                    "speed": 50,
+                    "special_attack": 61,
+                    "special_defense": 61
                 },
                 "moves": [
+                    "Disable",
+                    "Poison Gas",
+                    "Minimize",
+                    "Sludge"
+                ]
+            },
+            {
+                "species": "Koffing",
+                "level": 37,
+                "experience_yield": 903,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 82,
+                    "attack": 59,
+                    "defense": 81,
+                    "speed": 36,
+                    "special_attack": 55,
+                    "special_defense": 55
+                },
+                "moves": [
+                    "Tackle",
+                    "Smog",
+                    "Sludge",
+                    "SmokeScreen"
+                ]
+            },
+            {
+                "species": "Weezing",
+                "level": 43,
+                "experience_yield": 1593,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 115,
+                    "attack": 90,
+                    "defense": 115,
+                    "speed": 63,
+                    "special_attack": 84,
+                    "special_defense": 84
+                },
+                "moves": [
+                    "Smog",
+                    "Sludge",
                     "Toxic",
-                    "Psybeam",
-                    "Supersonic",
-                    "Psychic"
-                ]
-            },
-            {
-                "species": "Venonat",
-                "level": 48,
-                "experience_yield": 771,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 123,
-                    "attack": 66,
-                    "defense": 60,
-                    "speed": 55,
-                    "special_attack": 51,
-                    "special_defense": 51
-                },
-                "moves": [
-                    "Toxic",
-                    "Double-Edge",
-                    "Sleep Powder",
-                    "Psychic"
-                ]
-            },
-            {
-                "species": "Venomoth",
-                "level": 50,
-                "experience_yield": 1477,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 138,
-                    "attack": 79,
-                    "defense": 73,
-                    "speed": 103,
-                    "special_attack": 103,
-                    "special_defense": 103
-                },
-                "moves": [
-                    "Leech Life",
-                    "Double Team",
-                    "Psychic",
-                    "Toxic"
+                    "Selfdestruct"
                 ]
             }
         ]
@@ -22339,73 +22133,95 @@ export const trainers = {
         "name": "BLAINE 1",
         "trainer_class": "BLAINE",
         "location": "Cinnabar Gym",
-        "money": 5346,
+        "money": 4653,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
-                "species": "Ninetales",
-                "level": 48,
-                "experience_yield": 1830,
+                "species": "Growlithe",
+                "level": 42,
+                "experience_yield": 819,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 135,
-                    "attack": 86,
-                    "defense": 84,
-                    "speed": 108,
-                    "special_attack": 108,
-                    "special_defense": 108
+                    "hp": 104,
+                    "attack": 71,
+                    "defense": 49,
+                    "speed": 62,
+                    "special_attack": 53,
+                    "special_defense": 53
                 },
                 "moves": [
-                    "Flamethrower",
+                    "Ember",
+                    "Leer",
+                    "Take Down",
+                    "Agility"
+                ]
+            },
+            {
+                "species": "Ponyta",
+                "level": 40,
+                "experience_yield": 1302,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 96,
+                    "attack": 80,
+                    "defense": 55,
+                    "speed": 83,
+                    "special_attack": 63,
+                    "special_defense": 63
+                },
+                "moves": [
                     "Tail Whip",
-                    "Quick Attack",
-                    "Confuse Ray"
+                    "Stomp",
+                    "Growl",
+                    "Fire Spin"
                 ]
             },
             {
                 "species": "Rapidash",
-                "level": 50,
-                "experience_yield": 2056,
+                "level": 42,
+                "experience_yield": 1728,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 133,
-                    "attack": 114,
-                    "defense": 83,
-                    "speed": 118,
-                    "special_attack": 93,
-                    "special_defense": 93
+                    "hp": 113,
+                    "attack": 96,
+                    "defense": 70,
+                    "speed": 99,
+                    "special_attack": 78,
+                    "special_defense": 78
                 },
                 "moves": [
+                    "Tail Whip",
                     "Stomp",
                     "Growl",
-                    "Fire Spin",
-                    "Take Down"
+                    "Fire Spin"
                 ]
             },
             {
                 "species": "Arcanine",
-                "level": 54,
-                "experience_yield": 2464,
+                "level": 47,
+                "experience_yield": 2145,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 169,
-                    "attack": 133,
-                    "defense": 100,
-                    "speed": 116,
-                    "special_attack": 100,
-                    "special_defense": 100
+                    "hp": 149,
+                    "attack": 116,
+                    "defense": 87,
+                    "speed": 101,
+                    "special_attack": 87,
+                    "special_defense": 87
                 },
                 "moves": [
-                    "Flamethrower",
+                    "Roar",
+                    "Ember",
                     "Fire Blast",
-                    "Reflect",
                     "Take Down"
                 ]
             }
@@ -22416,70 +22232,95 @@ export const trainers = {
         "name": "SABRINA 1",
         "trainer_class": "SABRINA",
         "location": "Saffron Gym",
-        "money": 4950,
+        "money": 4257,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
-                "species": "Abra",
-                "level": 50,
-                "experience_yield": 781,
+                "species": "Kadabra",
+                "level": 38,
+                "experience_yield": 1180,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 93,
-                    "attack": 34,
-                    "defense": 28,
-                    "speed": 103,
-                    "special_attack": 118,
-                    "special_defense": 118
+                    "hp": 84,
+                    "attack": 38,
+                    "defense": 33,
+                    "speed": 90,
+                    "special_attack": 102,
+                    "special_defense": 102
                 },
                 "moves": [
-                    "Flash"
+                    "Disable",
+                    "Psybeam",
+                    "Recover",
+                    "Psychic"
                 ]
             },
             {
-                "species": "Kadabra",
-                "level": 50,
-                "experience_yield": 1552,
+                "species": "Mr. Mime",
+                "level": 37,
+                "experience_yield": 1077,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 108,
-                    "attack": 49,
-                    "defense": 43,
-                    "speed": 118,
-                    "special_attack": 133,
-                    "special_defense": 133
+                    "hp": 82,
+                    "attack": 44,
+                    "defense": 59,
+                    "speed": 77,
+                    "special_attack": 84,
+                    "special_defense": 84
                 },
                 "moves": [
-                    "Kinesis",
-                    "Recover",
-                    "Psychic",
-                    "Psywave"
+                    "Confusion",
+                    "Barrier",
+                    "Light Screen",
+                    "DoubleSlap"
+                ]
+            },
+            {
+                "species": "Venomoth",
+                "level": 38,
+                "experience_yield": 1123,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 107,
+                    "attack": 61,
+                    "defense": 56,
+                    "speed": 79,
+                    "special_attack": 79,
+                    "special_defense": 79
+                },
+                "moves": [
+                    "PoisonPowder",
+                    "Leech Life",
+                    "Stun Spore",
+                    "Psybeam"
                 ]
             },
             {
                 "species": "Alakazam",
-                "level": 50,
-                "experience_yield": 1992,
+                "level": 43,
+                "experience_yield": 1713,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 123,
-                    "attack": 64,
-                    "defense": 58,
-                    "speed": 133,
-                    "special_attack": 148,
-                    "special_defense": 148
+                    "hp": 107,
+                    "attack": 55,
+                    "defense": 50,
+                    "speed": 115,
+                    "special_attack": 127,
+                    "special_defense": 127
                 },
                 "moves": [
-                    "Psywave",
+                    "Psybeam",
                     "Recover",
-                    "Psychic",
+                    "Psywave",
                     "Reflect"
                 ]
             }
@@ -22563,9 +22404,9 @@ export const trainers = {
                     "special_defense": 23
                 },
                 "moves": [
+                    "Leer",
                     "Tackle",
                     "Horn Attack",
-                    "Double Kick",
                     "Poison Sting"
                 ]
             },
@@ -22585,9 +22426,9 @@ export const trainers = {
                     "special_defense": 23
                 },
                 "moves": [
+                    "Growl",
                     "Tackle",
                     "Scratch",
-                    "Double Kick",
                     "Poison Sting"
                 ]
             }
@@ -22598,50 +22439,30 @@ export const trainers = {
         "name": "GENTLEMAN 3",
         "trainer_class": "GENTLEMAN",
         "location": "SS Anne",
-        "money": 1540,
+        "money": 1610,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
-                "species": "Voltorb",
-                "level": 22,
-                "experience_yield": 484,
+                "species": "Pikachu",
+                "level": 23,
+                "experience_yield": 403,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 53,
-                    "attack": 22,
-                    "defense": 30,
-                    "speed": 52,
-                    "special_attack": 32,
-                    "special_defense": 32
+                    "hp": 52,
+                    "attack": 34,
+                    "defense": 22,
+                    "speed": 50,
+                    "special_attack": 31,
+                    "special_defense": 31
                 },
                 "moves": [
-                    "Tackle",
-                    "Screech",
-                    "SonicBoom",
-                    "Selfdestruct"
-                ]
-            },
-            {
-                "species": "Magnemite",
-                "level": 22,
-                "experience_yield": 418,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 46,
-                    "attack": 24,
-                    "defense": 39,
-                    "speed": 28,
-                    "special_attack": 50,
-                    "special_defense": 50
-                },
-                "moves": [
-                    "Tackle",
-                    "SonicBoom"
+                    "ThunderShock",
+                    "Growl",
+                    "Thunder Wave",
+                    "Quick Attack"
                 ]
             }
         ]
@@ -22651,50 +22472,30 @@ export const trainers = {
         "name": "GENTLEMAN 3 Duplicate",
         "trainer_class": "GENTLEMAN",
         "location": "Vermilion Gym",
-        "money": 1540,
+        "money": 1610,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
-                "species": "Voltorb",
-                "level": 22,
-                "experience_yield": 484,
+                "species": "Pikachu",
+                "level": 23,
+                "experience_yield": 403,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 53,
-                    "attack": 22,
-                    "defense": 30,
-                    "speed": 52,
-                    "special_attack": 32,
-                    "special_defense": 32
+                    "hp": 52,
+                    "attack": 34,
+                    "defense": 22,
+                    "speed": 50,
+                    "special_attack": 31,
+                    "special_defense": 31
                 },
                 "moves": [
-                    "Tackle",
-                    "Screech",
-                    "SonicBoom",
-                    "Selfdestruct"
-                ]
-            },
-            {
-                "species": "Magnemite",
-                "level": 22,
-                "experience_yield": 418,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 46,
-                    "attack": 24,
-                    "defense": 39,
-                    "speed": 28,
-                    "special_attack": 50,
-                    "special_defense": 50
-                },
-                "moves": [
-                    "Tackle",
-                    "SonicBoom"
+                    "ThunderShock",
+                    "Growl",
+                    "Thunder Wave",
+                    "Quick Attack"
                 ]
             }
         ]
@@ -22724,10 +22525,10 @@ export const trainers = {
                     "special_defense": 70
                 },
                 "moves": [
-                    "Rage",
+                    "Fury Swipes",
+                    "Focus Energy",
                     "Seismic Toss",
-                    "Thrash",
-                    "Screech"
+                    "Thrash"
                 ]
             }
         ]
@@ -22782,9 +22583,9 @@ export const trainers = {
             }
         ]
     },
-    "RIVAL2 1": {
-        "rom_id": "RIVAL2 1",
-        "name": "RIVAL2 1",
+    "RIVAL2 Squirtle 1": {
+        "rom_id": "RIVAL2 Squirtle 1",
+        "name": "RIVAL2 Squirtle 1",
         "trainer_class": "RIVAL2",
         "location": "SS Anne",
         "money": 1300,
@@ -22792,41 +22593,40 @@ export const trainers = {
         "items": [],
         "party": [
             {
-                "species": "Spearow",
+                "species": "Pidgeotto",
                 "level": 19,
-                "experience_yield": 235,
+                "experience_yield": 459,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 47,
+                    "hp": 55,
                     "attack": 31,
-                    "defense": 19,
-                    "speed": 34,
-                    "special_attack": 19,
-                    "special_defense": 19
+                    "defense": 28,
+                    "speed": 35,
+                    "special_attack": 27,
+                    "special_defense": 27
                 },
                 "moves": [
-                    "Peck",
-                    "Growl",
-                    "Leer",
-                    "Fury Attack"
+                    "Gust",
+                    "Sand-Attack",
+                    "Quick Attack"
                 ]
             },
             {
-                "species": "Rattata",
+                "species": "Raticate",
                 "level": 16,
-                "experience_yield": 195,
+                "experience_yield": 397,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 38,
-                    "attack": 25,
-                    "defense": 18,
-                    "speed": 30,
-                    "special_attack": 15,
-                    "special_defense": 15
+                    "hp": 46,
+                    "attack": 33,
+                    "defense": 26,
+                    "speed": 38,
+                    "special_attack": 23,
+                    "special_defense": 23
                 },
                 "moves": [
                     "Tackle",
@@ -22836,494 +22636,930 @@ export const trainers = {
                 ]
             },
             {
-                "species": "Sandshrew",
+                "species": "Kadabra",
                 "level": 18,
-                "experience_yield": 358,
+                "experience_yield": 558,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 48,
-                    "attack": 35,
-                    "defense": 38,
-                    "speed": 22,
-                    "special_attack": 18,
-                    "special_defense": 18
+                    "hp": 45,
+                    "attack": 20,
+                    "defense": 18,
+                    "speed": 45,
+                    "special_attack": 51,
+                    "special_defense": 51
                 },
                 "moves": [
-                    "Scratch",
-                    "Sand-Attack",
-                    "Slash"
+                    "Teleport",
+                    "Confusion",
+                    "Disable"
                 ]
             },
             {
-                "species": "Eevee",
+                "species": "Wartortle",
                 "level": 20,
-                "experience_yield": 393,
+                "experience_yield": 612,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 55,
-                    "attack": 30,
-                    "defense": 28,
-                    "speed": 30,
+                    "hp": 56,
+                    "attack": 33,
+                    "defense": 40,
+                    "speed": 31,
                     "special_attack": 34,
                     "special_defense": 34
                 },
                 "moves": [
                     "Tackle",
                     "Tail Whip",
-                    "Sand-Attack",
-                    "Growl"
+                    "Bubble",
+                    "Water Gun"
                 ]
             }
         ]
     },
-    "RIVAL2 2 Jolteon": {
-        "rom_id": "RIVAL2 2 Jolteon",
-        "name": "RIVAL2 2 Jolteon",
+    "RIVAL2 Bulbasaur 1": {
+        "rom_id": "RIVAL2 Bulbasaur 1",
+        "name": "RIVAL2 Bulbasaur 1",
         "trainer_class": "RIVAL2",
-        "location": "Pokemon Tower",
-        "money": 1625,
+        "location": "SS Anne",
+        "money": 1300,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
-                "species": "Fearow",
-                "level": 25,
-                "experience_yield": 867,
+                "species": "Pidgeotto",
+                "level": 19,
+                "experience_yield": 459,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 71,
-                    "attack": 54,
-                    "defense": 41,
-                    "speed": 59,
-                    "special_attack": 39,
-                    "special_defense": 39
+                    "hp": 55,
+                    "attack": 31,
+                    "defense": 28,
+                    "speed": 35,
+                    "special_attack": 27,
+                    "special_defense": 27
                 },
                 "moves": [
-                    "Growl",
-                    "Leer",
-                    "Fury Attack",
-                    "Mirror Move"
-                ]
-            },
-            {
-                "species": "Shellder",
-                "level": 23,
-                "experience_yield": 477,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 50,
-                    "attack": 39,
-                    "defense": 54,
-                    "speed": 27,
-                    "special_attack": 29,
-                    "special_defense": 29
-                },
-                "moves": [
-                    "Tackle",
-                    "Withdraw",
-                    "Supersonic",
-                    "Clamp"
-                ]
-            },
-            {
-                "species": "Vulpix",
-                "level": 22,
-                "experience_yield": 297,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 52,
-                    "attack": 27,
-                    "defense": 26,
-                    "speed": 37,
-                    "special_attack": 37,
-                    "special_defense": 37
-                },
-                "moves": [
-                    "Ember",
-                    "Tail Whip",
-                    "Quick Attack",
-                    "Roar"
-                ]
-            },
-            {
-                "species": "Sandshrew",
-                "level": 20,
-                "experience_yield": 397,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 53,
-                    "attack": 38,
-                    "defense": 42,
-                    "speed": 24,
-                    "special_attack": 20,
-                    "special_defense": 20
-                },
-                "moves": [
-                    "Scratch",
+                    "Gust",
                     "Sand-Attack",
-                    "Slash"
-                ]
-            },
-            {
-                "species": "Eevee",
-                "level": 25,
-                "experience_yield": 492,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 66,
-                    "attack": 37,
-                    "defense": 34,
-                    "speed": 36,
-                    "special_attack": 41,
-                    "special_defense": 41
-                },
-                "moves": [
-                    "Tail Whip",
-                    "Sand-Attack",
-                    "Growl",
                     "Quick Attack"
                 ]
-            }
-        ]
-    },
-    "RIVAL2 2 Flareon": {
-        "rom_id": "RIVAL2 2 Flareon",
-        "name": "RIVAL2 2 Flareon",
-        "trainer_class": "RIVAL2",
-        "location": "Pokemon Tower",
-        "money": 1625,
-        "is_double_battle": false,
-        "items": [],
-        "party": [
-            {
-                "species": "Fearow",
-                "level": 25,
-                "experience_yield": 867,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 71,
-                    "attack": 54,
-                    "defense": 41,
-                    "speed": 59,
-                    "special_attack": 39,
-                    "special_defense": 39
-                },
-                "moves": [
-                    "Growl",
-                    "Leer",
-                    "Fury Attack",
-                    "Mirror Move"
-                ]
             },
             {
-                "species": "Magnemite",
-                "level": 23,
-                "experience_yield": 438,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 48,
-                    "attack": 25,
-                    "defense": 40,
-                    "speed": 29,
-                    "special_attack": 52,
-                    "special_defense": 52
-                },
-                "moves": [
-                    "Tackle",
-                    "SonicBoom"
-                ]
-            },
-            {
-                "species": "Shellder",
-                "level": 22,
-                "experience_yield": 456,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 48,
-                    "attack": 37,
-                    "defense": 52,
-                    "speed": 26,
-                    "special_attack": 28,
-                    "special_defense": 28
-                },
-                "moves": [
-                    "Tackle",
-                    "Withdraw",
-                    "Supersonic"
-                ]
-            },
-            {
-                "species": "Sandshrew",
-                "level": 20,
+                "species": "Raticate",
+                "level": 16,
                 "experience_yield": 397,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 53,
-                    "attack": 38,
-                    "defense": 42,
-                    "speed": 24,
-                    "special_attack": 20,
-                    "special_defense": 20
-                },
-                "moves": [
-                    "Scratch",
-                    "Sand-Attack",
-                    "Slash"
-                ]
-            },
-            {
-                "species": "Eevee",
-                "level": 25,
-                "experience_yield": 492,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 66,
-                    "attack": 37,
-                    "defense": 34,
-                    "speed": 36,
-                    "special_attack": 41,
-                    "special_defense": 41
-                },
-                "moves": [
-                    "Tail Whip",
-                    "Sand-Attack",
-                    "Growl",
-                    "Quick Attack"
-                ]
-            }
-        ]
-    },
-    "RIVAL2 2 Vaporeon": {
-        "rom_id": "RIVAL2 2 Vaporeon",
-        "name": "RIVAL2 2 Vaporeon",
-        "trainer_class": "RIVAL2",
-        "location": "Pokemon Tower",
-        "money": 1625,
-        "is_double_battle": false,
-        "items": [],
-        "party": [
-            {
-                "species": "Fearow",
-                "level": 25,
-                "experience_yield": 867,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 71,
-                    "attack": 54,
-                    "defense": 41,
-                    "speed": 59,
-                    "special_attack": 39,
-                    "special_defense": 39
-                },
-                "moves": [
-                    "Growl",
-                    "Leer",
-                    "Fury Attack",
-                    "Mirror Move"
-                ]
-            },
-            {
-                "species": "Vulpix",
-                "level": 23,
-                "experience_yield": 310,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 54,
-                    "attack": 28,
-                    "defense": 27,
-                    "speed": 38,
-                    "special_attack": 38,
-                    "special_defense": 38
-                },
-                "moves": [
-                    "Ember",
-                    "Tail Whip",
-                    "Quick Attack",
-                    "Roar"
-                ]
-            },
-            {
-                "species": "Magnemite",
-                "level": 22,
-                "experience_yield": 418,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
                     "hp": 46,
-                    "attack": 24,
-                    "defense": 39,
-                    "speed": 28,
-                    "special_attack": 50,
-                    "special_defense": 50
+                    "attack": 33,
+                    "defense": 26,
+                    "speed": 38,
+                    "special_attack": 23,
+                    "special_defense": 23
                 },
                 "moves": [
                     "Tackle",
-                    "SonicBoom"
+                    "Tail Whip",
+                    "Quick Attack",
+                    "Hyper Fang"
                 ]
             },
             {
-                "species": "Sandshrew",
+                "species": "Kadabra",
+                "level": 18,
+                "experience_yield": 558,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 45,
+                    "attack": 20,
+                    "defense": 18,
+                    "speed": 45,
+                    "special_attack": 51,
+                    "special_defense": 51
+                },
+                "moves": [
+                    "Teleport",
+                    "Confusion",
+                    "Disable"
+                ]
+            },
+            {
+                "species": "Ivysaur",
                 "level": 20,
+                "experience_yield": 603,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 57,
+                    "attack": 33,
+                    "defense": 33,
+                    "speed": 32,
+                    "special_attack": 40,
+                    "special_defense": 40
+                },
+                "moves": [
+                    "Tackle",
+                    "Growl",
+                    "Leech Seed",
+                    "Vine Whip"
+                ]
+            }
+        ]
+    },
+    "RIVAL2 Charmander 1": {
+        "rom_id": "RIVAL2 Charmander 1",
+        "name": "RIVAL2 Charmander 1",
+        "trainer_class": "RIVAL2",
+        "location": "SS Anne",
+        "money": 1300,
+        "is_double_battle": false,
+        "items": [],
+        "party": [
+            {
+                "species": "Pidgeotto",
+                "level": 19,
+                "experience_yield": 459,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 55,
+                    "attack": 31,
+                    "defense": 28,
+                    "speed": 35,
+                    "special_attack": 27,
+                    "special_defense": 27
+                },
+                "moves": [
+                    "Gust",
+                    "Sand-Attack",
+                    "Quick Attack"
+                ]
+            },
+            {
+                "species": "Raticate",
+                "level": 16,
                 "experience_yield": 397,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 53,
-                    "attack": 38,
-                    "defense": 42,
-                    "speed": 24,
-                    "special_attack": 20,
-                    "special_defense": 20
+                    "hp": 46,
+                    "attack": 33,
+                    "defense": 26,
+                    "speed": 38,
+                    "special_attack": 23,
+                    "special_defense": 23
                 },
                 "moves": [
-                    "Scratch",
-                    "Sand-Attack",
-                    "Slash"
+                    "Tackle",
+                    "Tail Whip",
+                    "Quick Attack",
+                    "Hyper Fang"
                 ]
             },
             {
-                "species": "Eevee",
-                "level": 25,
-                "experience_yield": 492,
+                "species": "Kadabra",
+                "level": 18,
+                "experience_yield": 558,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 66,
-                    "attack": 37,
-                    "defense": 34,
+                    "hp": 45,
+                    "attack": 20,
+                    "defense": 18,
+                    "speed": 45,
+                    "special_attack": 51,
+                    "special_defense": 51
+                },
+                "moves": [
+                    "Teleport",
+                    "Confusion",
+                    "Disable"
+                ]
+            },
+            {
+                "species": "Charmeleon",
+                "level": 20,
+                "experience_yield": 607,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 56,
+                    "attack": 34,
+                    "defense": 31,
+                    "speed": 40,
+                    "special_attack": 34,
+                    "special_defense": 34
+                },
+                "moves": [
+                    "Scratch",
+                    "Growl",
+                    "Ember",
+                    "Leer"
+                ]
+            }
+        ]
+    },
+    "RIVAL2 Squirtle 2": {
+        "rom_id": "RIVAL2 Squirtle 2",
+        "name": "RIVAL2 Squirtle 2",
+        "trainer_class": "RIVAL2",
+        "location": "Pokemon Tower",
+        "money": 1625,
+        "is_double_battle": false,
+        "items": [],
+        "party": [
+            {
+                "species": "Pidgeotto",
+                "level": 25,
+                "experience_yield": 604,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 70,
+                    "attack": 39,
+                    "defense": 36,
+                    "speed": 44,
+                    "special_attack": 34,
+                    "special_defense": 34
+                },
+                "moves": [
+                    "Gust",
+                    "Sand-Attack",
+                    "Quick Attack",
+                    "Whirlwind"
+                ]
+            },
+            {
+                "species": "Growlithe",
+                "level": 23,
+                "experience_yield": 448,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 61,
+                    "attack": 41,
+                    "defense": 29,
                     "speed": 36,
+                    "special_attack": 31,
+                    "special_defense": 31
+                },
+                "moves": [
+                    "Bite",
+                    "Roar",
+                    "Ember",
+                    "Leer"
+                ]
+            },
+            {
+                "species": "Exeggcute",
+                "level": 22,
+                "experience_yield": 462,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 61,
+                    "attack": 26,
+                    "defense": 43,
+                    "speed": 26,
+                    "special_attack": 34,
+                    "special_defense": 34
+                },
+                "moves": [
+                    "Barrage",
+                    "Hypnosis"
+                ]
+            },
+            {
+                "species": "Kadabra",
+                "level": 20,
+                "experience_yield": 621,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 49,
+                    "attack": 22,
+                    "defense": 20,
+                    "speed": 50,
+                    "special_attack": 56,
+                    "special_defense": 56
+                },
+                "moves": [
+                    "Teleport",
+                    "Confusion",
+                    "Disable"
+                ]
+            },
+            {
+                "species": "Wartortle",
+                "level": 25,
+                "experience_yield": 765,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 68,
+                    "attack": 41,
+                    "defense": 49,
+                    "speed": 38,
                     "special_attack": 41,
                     "special_defense": 41
                 },
                 "moves": [
                     "Tail Whip",
-                    "Sand-Attack",
-                    "Growl",
-                    "Quick Attack"
+                    "Bubble",
+                    "Water Gun",
+                    "Bite"
                 ]
             }
         ]
     },
-    "RIVAL2 3 Jolteon": {
-        "rom_id": "RIVAL2 3 Jolteon",
-        "name": "RIVAL2 3 Jolteon",
+    "RIVAL2 Bulbasaur 2": {
+        "rom_id": "RIVAL2 Bulbasaur 2",
+        "name": "RIVAL2 Bulbasaur 2",
         "trainer_class": "RIVAL2",
-        "location": "Silph Co.",
+        "location": "Pokemon Tower",
+        "money": 1625,
+        "is_double_battle": false,
+        "items": [],
+        "party": [
+            {
+                "species": "Pidgeotto",
+                "level": 25,
+                "experience_yield": 604,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 70,
+                    "attack": 39,
+                    "defense": 36,
+                    "speed": 44,
+                    "special_attack": 34,
+                    "special_defense": 34
+                },
+                "moves": [
+                    "Gust",
+                    "Sand-Attack",
+                    "Quick Attack",
+                    "Whirlwind"
+                ]
+            },
+            {
+                "species": "Gyarados",
+                "level": 23,
+                "experience_yield": 1054,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 80,
+                    "attack": 66,
+                    "defense": 45,
+                    "speed": 45,
+                    "special_attack": 54,
+                    "special_defense": 54
+                },
+                "moves": [
+                    "Bite",
+                    "Dragon Rage",
+                    "Leer",
+                    "Hydro Pump"
+                ]
+            },
+            {
+                "species": "Growlithe",
+                "level": 22,
+                "experience_yield": 429,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 59,
+                    "attack": 39,
+                    "defense": 28,
+                    "speed": 34,
+                    "special_attack": 30,
+                    "special_defense": 30
+                },
+                "moves": [
+                    "Bite",
+                    "Roar",
+                    "Ember"
+                ]
+            },
+            {
+                "species": "Kadabra",
+                "level": 20,
+                "experience_yield": 621,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 49,
+                    "attack": 22,
+                    "defense": 20,
+                    "speed": 50,
+                    "special_attack": 56,
+                    "special_defense": 56
+                },
+                "moves": [
+                    "Teleport",
+                    "Confusion",
+                    "Disable"
+                ]
+            },
+            {
+                "species": "Ivysaur",
+                "level": 25,
+                "experience_yield": 754,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 69,
+                    "attack": 40,
+                    "defense": 40,
+                    "speed": 39,
+                    "special_attack": 49,
+                    "special_defense": 49
+                },
+                "moves": [
+                    "Growl",
+                    "Leech Seed",
+                    "Vine Whip",
+                    "PoisonPowder"
+                ]
+            }
+        ]
+    },
+    "RIVAL2 Charmander 2": {
+        "rom_id": "RIVAL2 Charmander 2",
+        "name": "RIVAL2 Charmander 2",
+        "trainer_class": "RIVAL2",
+        "location": "Pokemon Tower",
+        "money": 1625,
+        "is_double_battle": false,
+        "items": [],
+        "party": [
+            {
+                "species": "Pidgeotto",
+                "level": 25,
+                "experience_yield": 604,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 70,
+                    "attack": 39,
+                    "defense": 36,
+                    "speed": 44,
+                    "special_attack": 34,
+                    "special_defense": 34
+                },
+                "moves": [
+                    "Gust",
+                    "Sand-Attack",
+                    "Quick Attack",
+                    "Whirlwind"
+                ]
+            },
+            {
+                "species": "Exeggcute",
+                "level": 23,
+                "experience_yield": 483,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 64,
+                    "attack": 27,
+                    "defense": 45,
+                    "speed": 27,
+                    "special_attack": 36,
+                    "special_defense": 36
+                },
+                "moves": [
+                    "Barrage",
+                    "Hypnosis"
+                ]
+            },
+            {
+                "species": "Gyarados",
+                "level": 22,
+                "experience_yield": 1008,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 77,
+                    "attack": 63,
+                    "defense": 43,
+                    "speed": 44,
+                    "special_attack": 52,
+                    "special_defense": 52
+                },
+                "moves": [
+                    "Bite",
+                    "Dragon Rage",
+                    "Leer",
+                    "Hydro Pump"
+                ]
+            },
+            {
+                "species": "Kadabra",
+                "level": 20,
+                "experience_yield": 621,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 49,
+                    "attack": 22,
+                    "defense": 20,
+                    "speed": 50,
+                    "special_attack": 56,
+                    "special_defense": 56
+                },
+                "moves": [
+                    "Teleport",
+                    "Confusion",
+                    "Disable"
+                ]
+            },
+            {
+                "species": "Charmeleon",
+                "level": 25,
+                "experience_yield": 760,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 68,
+                    "attack": 41,
+                    "defense": 38,
+                    "speed": 49,
+                    "special_attack": 41,
+                    "special_defense": 41
+                },
+                "moves": [
+                    "Growl",
+                    "Ember",
+                    "Leer",
+                    "Rage"
+                ]
+            }
+        ]
+    },
+    "RIVAL2 Squirtle 3": {
+        "rom_id": "RIVAL2 Squirtle 3",
+        "name": "RIVAL2 Squirtle 3",
+        "trainer_class": "RIVAL2",
+        "location": "Silph",
         "money": 2600,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
-                "species": "Sandslash",
-                "level": 38,
-                "experience_yield": 1326,
+                "species": "Pidgeot",
+                "level": 37,
+                "experience_yield": 1363,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 111,
-                    "attack": 87,
-                    "defense": 94,
-                    "speed": 60,
+                    "hp": 114,
+                    "attack": 70,
+                    "defense": 66,
+                    "speed": 78,
+                    "special_attack": 62,
+                    "special_defense": 62
+                },
+                "moves": [
+                    "Sand-Attack",
+                    "Quick Attack",
+                    "Whirlwind",
+                    "Wing Attack"
+                ]
+            },
+            {
+                "species": "Growlithe",
+                "level": 38,
+                "experience_yield": 741,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 95,
+                    "attack": 65,
+                    "defense": 45,
+                    "speed": 56,
+                    "special_attack": 49,
+                    "special_defense": 49
+                },
+                "moves": [
+                    "Roar",
+                    "Ember",
+                    "Leer",
+                    "Take Down"
+                ]
+            },
+            {
+                "species": "Exeggcute",
+                "level": 35,
+                "experience_yield": 735,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 92,
+                    "attack": 39,
+                    "defense": 66,
+                    "speed": 38,
                     "special_attack": 52,
                     "special_defense": 52
                 },
                 "moves": [
-                    "Sand-Attack",
-                    "Slash",
-                    "Poison Sting",
-                    "Swift"
+                    "Hypnosis",
+                    "Reflect",
+                    "Leech Seed",
+                    "Stun Spore"
                 ]
             },
             {
-                "species": "Ninetales",
+                "species": "Alakazam",
                 "level": 35,
-                "experience_yield": 1335,
+                "experience_yield": 1395,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 101,
-                    "attack": 64,
-                    "defense": 63,
-                    "speed": 80,
+                    "hp": 89,
+                    "attack": 46,
+                    "defense": 42,
+                    "speed": 94,
+                    "special_attack": 105,
+                    "special_defense": 105
+                },
+                "moves": [
+                    "Confusion",
+                    "Disable",
+                    "Psybeam",
+                    "Recover"
+                ]
+            },
+            {
+                "species": "Blastoise",
+                "level": 40,
+                "experience_yield": 1800,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 119,
+                    "attack": 78,
+                    "defense": 91,
+                    "speed": 73,
+                    "special_attack": 79,
+                    "special_defense": 79
+                },
+                "moves": [
+                    "Bubble",
+                    "Water Gun",
+                    "Bite",
+                    "Withdraw"
+                ]
+            }
+        ]
+    },
+    "RIVAL2 Bulbasaur 3": {
+        "rom_id": "RIVAL2 Bulbasaur 3",
+        "name": "RIVAL2 Bulbasaur 3",
+        "trainer_class": "RIVAL2",
+        "location": "Silph",
+        "money": 2600,
+        "is_double_battle": false,
+        "items": [],
+        "party": [
+            {
+                "species": "Pidgeot",
+                "level": 37,
+                "experience_yield": 1363,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 114,
+                    "attack": 70,
+                    "defense": 66,
+                    "speed": 78,
+                    "special_attack": 62,
+                    "special_defense": 62
+                },
+                "moves": [
+                    "Sand-Attack",
+                    "Quick Attack",
+                    "Whirlwind",
+                    "Wing Attack"
+                ]
+            },
+            {
+                "species": "Gyarados",
+                "level": 38,
+                "experience_yield": 1741,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 126,
+                    "attack": 106,
+                    "defense": 71,
+                    "speed": 72,
+                    "special_attack": 87,
+                    "special_defense": 87
+                },
+                "moves": [
+                    "Bite",
+                    "Dragon Rage",
+                    "Leer",
+                    "Hydro Pump"
+                ]
+            },
+            {
+                "species": "Growlithe",
+                "level": 35,
+                "experience_yield": 682,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 89,
+                    "attack": 60,
+                    "defense": 42,
+                    "speed": 52,
+                    "special_attack": 45,
+                    "special_defense": 45
+                },
+                "moves": [
+                    "Roar",
+                    "Ember",
+                    "Leer",
+                    "Take Down"
+                ]
+            },
+            {
+                "species": "Alakazam",
+                "level": 35,
+                "experience_yield": 1395,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 89,
+                    "attack": 46,
+                    "defense": 42,
+                    "speed": 94,
+                    "special_attack": 105,
+                    "special_defense": 105
+                },
+                "moves": [
+                    "Confusion",
+                    "Disable",
+                    "Psybeam",
+                    "Recover"
+                ]
+            },
+            {
+                "species": "Venusaur",
+                "level": 40,
+                "experience_yield": 1782,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 120,
+                    "attack": 77,
+                    "defense": 77,
+                    "speed": 75,
+                    "special_attack": 91,
+                    "special_defense": 91
+                },
+                "moves": [
+                    "Leech Seed",
+                    "Vine Whip",
+                    "PoisonPowder",
+                    "Razor Leaf"
+                ]
+            }
+        ]
+    },
+    "RIVAL2 Charmander 3": {
+        "rom_id": "RIVAL2 Charmander 3",
+        "name": "RIVAL2 Charmander 3",
+        "trainer_class": "RIVAL2",
+        "location": "Silph",
+        "money": 2600,
+        "is_double_battle": false,
+        "items": [],
+        "party": [
+            {
+                "species": "Pidgeot",
+                "level": 37,
+                "experience_yield": 1363,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 114,
+                    "attack": 70,
+                    "defense": 66,
+                    "speed": 78,
+                    "special_attack": 62,
+                    "special_defense": 62
+                },
+                "moves": [
+                    "Sand-Attack",
+                    "Quick Attack",
+                    "Whirlwind",
+                    "Wing Attack"
+                ]
+            },
+            {
+                "species": "Exeggcute",
+                "level": 38,
+                "experience_yield": 798,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 99,
+                    "attack": 42,
+                    "defense": 71,
+                    "speed": 41,
+                    "special_attack": 56,
+                    "special_defense": 56
+                },
+                "moves": [
+                    "Reflect",
+                    "Leech Seed",
+                    "Stun Spore",
+                    "PoisonPowder"
+                ]
+            },
+            {
+                "species": "Gyarados",
+                "level": 35,
+                "experience_yield": 1605,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 117,
+                    "attack": 98,
+                    "defense": 65,
+                    "speed": 67,
                     "special_attack": 80,
                     "special_defense": 80
                 },
                 "moves": [
-                    "Ember",
-                    "Tail Whip",
-                    "Quick Attack",
-                    "Roar"
+                    "Bite",
+                    "Dragon Rage",
+                    "Leer",
+                    "Hydro Pump"
                 ]
             },
             {
-                "species": "Cloyster",
-                "level": 37,
-                "experience_yield": 1609,
+                "species": "Alakazam",
+                "level": 35,
+                "experience_yield": 1395,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
                     "hp": 89,
-                    "attack": 81,
-                    "defense": 144,
-                    "speed": 62,
-                    "special_attack": 73,
-                    "special_defense": 73
-                },
-                "moves": [
-                    "Withdraw",
-                    "Supersonic",
-                    "Clamp",
-                    "Aurora Beam"
-                ]
-            },
-            {
-                "species": "Kadabra",
-                "level": 35,
-                "experience_yield": 1087,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 78,
-                    "attack": 35,
-                    "defense": 31,
-                    "speed": 84,
-                    "special_attack": 94,
-                    "special_defense": 94
+                    "attack": 46,
+                    "defense": 42,
+                    "speed": 94,
+                    "special_attack": 105,
+                    "special_defense": 105
                 },
                 "moves": [
                     "Confusion",
@@ -23333,274 +23569,32 @@ export const trainers = {
                 ]
             },
             {
-                "species": "Jolteon",
+                "species": "Charizard",
                 "level": 40,
-                "experience_yield": 1687,
+                "experience_yield": 1791,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 108,
-                    "attack": 64,
-                    "defense": 59,
-                    "speed": 115,
-                    "special_attack": 99,
-                    "special_defense": 99
-                },
-                "moves": [
-                    "ThunderShock",
-                    "Sand-Attack",
-                    "Double Kick",
-                    "Pin Missile"
-                ]
-            }
-        ]
-    },
-    "RIVAL2 3 Flareon": {
-        "rom_id": "RIVAL2 3 Flareon",
-        "name": "RIVAL2 3 Flareon",
-        "trainer_class": "RIVAL2",
-        "location": "Silph Co.",
-        "money": 2600,
-        "is_double_battle": false,
-        "items": [],
-        "party": [
-            {
-                "species": "Sandslash",
-                "level": 38,
-                "experience_yield": 1326,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 111,
-                    "attack": 87,
-                    "defense": 94,
-                    "speed": 60,
-                    "special_attack": 52,
-                    "special_defense": 52
-                },
-                "moves": [
-                    "Sand-Attack",
-                    "Slash",
-                    "Poison Sting",
-                    "Swift"
-                ]
-            },
-            {
-                "species": "Cloyster",
-                "level": 35,
-                "experience_yield": 1522,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 85,
-                    "attack": 77,
-                    "defense": 136,
-                    "speed": 59,
-                    "special_attack": 70,
-                    "special_defense": 70
-                },
-                "moves": [
-                    "Withdraw",
-                    "Supersonic",
-                    "Clamp",
-                    "Aurora Beam"
-                ]
-            },
-            {
-                "species": "Magneton",
-                "level": 37,
-                "experience_yield": 1276,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 89,
-                    "attack": 56,
-                    "defense": 81,
-                    "speed": 62,
-                    "special_attack": 99,
-                    "special_defense": 99
-                },
-                "moves": [
-                    "Tackle",
-                    "SonicBoom",
-                    "ThunderShock",
-                    "Supersonic"
-                ]
-            },
-            {
-                "species": "Kadabra",
-                "level": 35,
-                "experience_yield": 1087,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 78,
-                    "attack": 35,
-                    "defense": 31,
-                    "speed": 84,
-                    "special_attack": 94,
-                    "special_defense": 94
-                },
-                "moves": [
-                    "Confusion",
-                    "Disable",
-                    "Psybeam",
-                    "Recover"
-                ]
-            },
-            {
-                "species": "Flareon",
-                "level": 40,
-                "experience_yield": 1696,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 108,
-                    "attack": 116,
-                    "defense": 59,
-                    "speed": 63,
-                    "special_attack": 99,
-                    "special_defense": 99
+                    "hp": 118,
+                    "attack": 79,
+                    "defense": 73,
+                    "speed": 91,
+                    "special_attack": 79,
+                    "special_defense": 79
                 },
                 "moves": [
                     "Ember",
-                    "Sand-Attack",
-                    "Bite",
-                    "Fire Spin"
+                    "Leer",
+                    "Rage",
+                    "Slash"
                 ]
             }
         ]
     },
-    "RIVAL2 3 Vaporeon": {
-        "rom_id": "RIVAL2 3 Vaporeon",
-        "name": "RIVAL2 3 Vaporeon",
-        "trainer_class": "RIVAL2",
-        "location": "Silph Co.",
-        "money": 2600,
-        "is_double_battle": false,
-        "items": [],
-        "party": [
-            {
-                "species": "Sandslash",
-                "level": 38,
-                "experience_yield": 1326,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 111,
-                    "attack": 87,
-                    "defense": 94,
-                    "speed": 60,
-                    "special_attack": 52,
-                    "special_defense": 52
-                },
-                "moves": [
-                    "Sand-Attack",
-                    "Slash",
-                    "Poison Sting",
-                    "Swift"
-                ]
-            },
-            {
-                "species": "Magneton",
-                "level": 35,
-                "experience_yield": 1207,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 85,
-                    "attack": 53,
-                    "defense": 77,
-                    "speed": 59,
-                    "special_attack": 94,
-                    "special_defense": 94
-                },
-                "moves": [
-                    "Tackle",
-                    "SonicBoom",
-                    "ThunderShock",
-                    "Supersonic"
-                ]
-            },
-            {
-                "species": "Ninetales",
-                "level": 37,
-                "experience_yield": 1410,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 106,
-                    "attack": 67,
-                    "defense": 66,
-                    "speed": 84,
-                    "special_attack": 84,
-                    "special_defense": 84
-                },
-                "moves": [
-                    "Ember",
-                    "Tail Whip",
-                    "Quick Attack",
-                    "Roar"
-                ]
-            },
-            {
-                "species": "Kadabra",
-                "level": 35,
-                "experience_yield": 1087,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 78,
-                    "attack": 35,
-                    "defense": 31,
-                    "speed": 84,
-                    "special_attack": 94,
-                    "special_defense": 94
-                },
-                "moves": [
-                    "Confusion",
-                    "Disable",
-                    "Psybeam",
-                    "Recover"
-                ]
-            },
-            {
-                "species": "Vaporeon",
-                "level": 40,
-                "experience_yield": 1680,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 160,
-                    "attack": 64,
-                    "defense": 59,
-                    "speed": 63,
-                    "special_attack": 99,
-                    "special_defense": 99
-                },
-                "moves": [
-                    "Water Gun",
-                    "Sand-Attack",
-                    "Bite",
-                    "Aurora Beam"
-                ]
-            }
-        ]
-    },
-    "RIVAL2 4 Jolteon": {
-        "rom_id": "RIVAL2 4 Jolteon",
-        "name": "RIVAL2 4 Jolteon",
+    "RIVAL2 Squirtle 4": {
+        "rom_id": "RIVAL2 Squirtle 4",
+        "name": "RIVAL2 Squirtle 4",
         "trainer_class": "RIVAL2",
         "location": "Route 22",
         "money": 3445,
@@ -23608,41 +23602,85 @@ export const trainers = {
         "items": [],
         "party": [
             {
-                "species": "Sandslash",
+                "species": "Pidgeot",
                 "level": 47,
-                "experience_yield": 1641,
+                "experience_yield": 1731,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 135,
-                    "attack": 107,
-                    "defense": 115,
-                    "speed": 73,
-                    "special_attack": 64,
-                    "special_defense": 64
+                    "hp": 142,
+                    "attack": 88,
+                    "defense": 83,
+                    "speed": 98,
+                    "special_attack": 78,
+                    "special_defense": 78
                 },
                 "moves": [
-                    "Slash",
-                    "Poison Sting",
-                    "Swift",
-                    "Fury Swipes"
+                    "Quick Attack",
+                    "Whirlwind",
+                    "Wing Attack",
+                    "Agility"
+                ]
+            },
+            {
+                "species": "Rhyhorn",
+                "level": 45,
+                "experience_yield": 1300,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 134,
+                    "attack": 89,
+                    "defense": 97,
+                    "speed": 34,
+                    "special_attack": 39,
+                    "special_defense": 39
+                },
+                "moves": [
+                    "Stomp",
+                    "Tail Whip",
+                    "Fury Attack",
+                    "Horn Drill"
+                ]
+            },
+            {
+                "species": "Growlithe",
+                "level": 45,
+                "experience_yield": 877,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 111,
+                    "attack": 76,
+                    "defense": 52,
+                    "speed": 66,
+                    "special_attack": 57,
+                    "special_defense": 57
+                },
+                "moves": [
+                    "Ember",
+                    "Leer",
+                    "Take Down",
+                    "Agility"
                 ]
             },
             {
                 "species": "Exeggcute",
-                "level": 45,
-                "experience_yield": 945,
+                "level": 47,
+                "experience_yield": 987,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 116,
-                    "attack": 49,
-                    "defense": 84,
-                    "speed": 48,
-                    "special_attack": 66,
-                    "special_defense": 66
+                    "hp": 120,
+                    "attack": 51,
+                    "defense": 87,
+                    "speed": 50,
+                    "special_attack": 68,
+                    "special_defense": 68
                 },
                 "moves": [
                     "Leech Seed",
@@ -23652,241 +23690,197 @@ export const trainers = {
                 ]
             },
             {
-                "species": "Ninetales",
-                "level": 45,
-                "experience_yield": 1716,
+                "species": "Alakazam",
+                "level": 50,
+                "experience_yield": 1992,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 127,
-                    "attack": 81,
-                    "defense": 79,
-                    "speed": 102,
+                    "hp": 123,
+                    "attack": 64,
+                    "defense": 58,
+                    "speed": 133,
+                    "special_attack": 148,
+                    "special_defense": 148
+                },
+                "moves": [
+                    "Psybeam",
+                    "Recover",
+                    "Psychic",
+                    "Reflect"
+                ]
+            },
+            {
+                "species": "Blastoise",
+                "level": 53,
+                "experience_yield": 2385,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 155,
+                    "attack": 102,
+                    "defense": 119,
+                    "speed": 96,
+                    "special_attack": 103,
+                    "special_defense": 103
+                },
+                "moves": [
+                    "Bite",
+                    "Withdraw",
+                    "Skull Bash",
+                    "Hydro Pump"
+                ]
+            }
+        ]
+    },
+    "RIVAL2 Bulbasaur 4": {
+        "rom_id": "RIVAL2 Bulbasaur 4",
+        "name": "RIVAL2 Bulbasaur 4",
+        "trainer_class": "RIVAL2",
+        "location": "Route 22",
+        "money": 3445,
+        "is_double_battle": false,
+        "items": [],
+        "party": [
+            {
+                "species": "Pidgeot",
+                "level": 47,
+                "experience_yield": 1731,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 142,
+                    "attack": 88,
+                    "defense": 83,
+                    "speed": 98,
+                    "special_attack": 78,
+                    "special_defense": 78
+                },
+                "moves": [
+                    "Quick Attack",
+                    "Whirlwind",
+                    "Wing Attack",
+                    "Agility"
+                ]
+            },
+            {
+                "species": "Rhyhorn",
+                "level": 45,
+                "experience_yield": 1300,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 134,
+                    "attack": 89,
+                    "defense": 97,
+                    "speed": 34,
+                    "special_attack": 39,
+                    "special_defense": 39
+                },
+                "moves": [
+                    "Stomp",
+                    "Tail Whip",
+                    "Fury Attack",
+                    "Horn Drill"
+                ]
+            },
+            {
+                "species": "Gyarados",
+                "level": 45,
+                "experience_yield": 2062,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 147,
+                    "attack": 125,
+                    "defense": 83,
+                    "speed": 85,
                     "special_attack": 102,
                     "special_defense": 102
                 },
                 "moves": [
-                    "Ember",
-                    "Tail Whip",
-                    "Quick Attack",
-                    "Roar"
-                ]
-            },
-            {
-                "species": "Cloyster",
-                "level": 47,
-                "experience_yield": 2044,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 111,
-                    "attack": 102,
-                    "defense": 181,
-                    "speed": 78,
-                    "special_attack": 92,
-                    "special_defense": 92
-                },
-                "moves": [
-                    "Withdraw",
-                    "Supersonic",
-                    "Clamp",
-                    "Aurora Beam"
-                ]
-            },
-            {
-                "species": "Kadabra",
-                "level": 50,
-                "experience_yield": 1552,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 108,
-                    "attack": 49,
-                    "defense": 43,
-                    "speed": 118,
-                    "special_attack": 133,
-                    "special_defense": 133
-                },
-                "moves": [
-                    "Psybeam",
-                    "Recover",
-                    "Psychic",
-                    "Reflect"
-                ]
-            },
-            {
-                "species": "Jolteon",
-                "level": 53,
-                "experience_yield": 2236,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 140,
-                    "attack": 83,
-                    "defense": 77,
-                    "speed": 151,
-                    "special_attack": 130,
-                    "special_defense": 130
-                },
-                "moves": [
-                    "Pin Missile",
-                    "Thunder Wave",
-                    "Agility",
-                    "Thunder"
-                ]
-            }
-        ]
-    },
-    "RIVAL2 4 Flareon": {
-        "rom_id": "RIVAL2 4 Flareon",
-        "name": "RIVAL2 4 Flareon",
-        "trainer_class": "RIVAL2",
-        "location": "Route 22",
-        "money": 3445,
-        "is_double_battle": false,
-        "items": [],
-        "party": [
-            {
-                "species": "Sandslash",
-                "level": 47,
-                "experience_yield": 1641,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 135,
-                    "attack": 107,
-                    "defense": 115,
-                    "speed": 73,
-                    "special_attack": 64,
-                    "special_defense": 64
-                },
-                "moves": [
-                    "Slash",
-                    "Poison Sting",
-                    "Swift",
-                    "Fury Swipes"
-                ]
-            },
-            {
-                "species": "Exeggcute",
-                "level": 45,
-                "experience_yield": 945,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 116,
-                    "attack": 49,
-                    "defense": 84,
-                    "speed": 48,
-                    "special_attack": 66,
-                    "special_defense": 66
-                },
-                "moves": [
-                    "Leech Seed",
-                    "Stun Spore",
-                    "PoisonPowder",
-                    "SolarBeam"
-                ]
-            },
-            {
-                "species": "Cloyster",
-                "level": 45,
-                "experience_yield": 1957,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 107,
-                    "attack": 98,
-                    "defense": 174,
-                    "speed": 75,
-                    "special_attack": 88,
-                    "special_defense": 88
-                },
-                "moves": [
-                    "Withdraw",
-                    "Supersonic",
-                    "Clamp",
-                    "Aurora Beam"
-                ]
-            },
-            {
-                "species": "Magneton",
-                "level": 47,
-                "experience_yield": 1621,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 111,
-                    "attack": 69,
-                    "defense": 101,
-                    "speed": 78,
-                    "special_attack": 125,
-                    "special_defense": 125
-                },
-                "moves": [
-                    "ThunderShock",
-                    "Supersonic",
-                    "Thunder Wave",
-                    "Swift"
-                ]
-            },
-            {
-                "species": "Kadabra",
-                "level": 50,
-                "experience_yield": 1552,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 108,
-                    "attack": 49,
-                    "defense": 43,
-                    "speed": 118,
-                    "special_attack": 133,
-                    "special_defense": 133
-                },
-                "moves": [
-                    "Psybeam",
-                    "Recover",
-                    "Psychic",
-                    "Reflect"
-                ]
-            },
-            {
-                "species": "Flareon",
-                "level": 53,
-                "experience_yield": 2248,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 140,
-                    "attack": 152,
-                    "defense": 77,
-                    "speed": 82,
-                    "special_attack": 130,
-                    "special_defense": 130
-                },
-                "moves": [
-                    "Fire Spin",
-                    "Smog",
+                    "Bite",
+                    "Dragon Rage",
                     "Leer",
-                    "Flamethrower"
+                    "Hydro Pump"
+                ]
+            },
+            {
+                "species": "Growlithe",
+                "level": 47,
+                "experience_yield": 916,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 116,
+                    "attack": 79,
+                    "defense": 54,
+                    "speed": 68,
+                    "special_attack": 59,
+                    "special_defense": 59
+                },
+                "moves": [
+                    "Ember",
+                    "Leer",
+                    "Take Down",
+                    "Agility"
+                ]
+            },
+            {
+                "species": "Alakazam",
+                "level": 50,
+                "experience_yield": 1992,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 123,
+                    "attack": 64,
+                    "defense": 58,
+                    "speed": 133,
+                    "special_attack": 148,
+                    "special_defense": 148
+                },
+                "moves": [
+                    "Psybeam",
+                    "Recover",
+                    "Psychic",
+                    "Reflect"
+                ]
+            },
+            {
+                "species": "Venusaur",
+                "level": 53,
+                "experience_yield": 2361,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 156,
+                    "attack": 101,
+                    "defense": 101,
+                    "speed": 98,
+                    "special_attack": 119,
+                    "special_defense": 119
+                },
+                "moves": [
+                    "Vine Whip",
+                    "PoisonPowder",
+                    "Razor Leaf",
+                    "Growth"
                 ]
             }
         ]
     },
-    "RIVAL2 4 Vaporeon": {
-        "rom_id": "RIVAL2 4 Vaporeon",
-        "name": "RIVAL2 4 Vaporeon",
+    "RIVAL2 Charmander 4": {
+        "rom_id": "RIVAL2 Charmander 4",
+        "name": "RIVAL2 Charmander 4",
         "trainer_class": "RIVAL2",
         "location": "Route 22",
         "money": 3445,
@@ -23894,25 +23888,47 @@ export const trainers = {
         "items": [],
         "party": [
             {
-                "species": "Sandslash",
+                "species": "Pidgeot",
                 "level": 47,
-                "experience_yield": 1641,
+                "experience_yield": 1731,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 135,
-                    "attack": 107,
-                    "defense": 115,
-                    "speed": 73,
-                    "special_attack": 64,
-                    "special_defense": 64
+                    "hp": 142,
+                    "attack": 88,
+                    "defense": 83,
+                    "speed": 98,
+                    "special_attack": 78,
+                    "special_defense": 78
                 },
                 "moves": [
-                    "Slash",
-                    "Poison Sting",
-                    "Swift",
-                    "Fury Swipes"
+                    "Quick Attack",
+                    "Whirlwind",
+                    "Wing Attack",
+                    "Agility"
+                ]
+            },
+            {
+                "species": "Rhyhorn",
+                "level": 45,
+                "experience_yield": 1300,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 134,
+                    "attack": 89,
+                    "defense": 97,
+                    "speed": 34,
+                    "special_attack": 39,
+                    "special_defense": 39
+                },
+                "moves": [
+                    "Stomp",
+                    "Tail Whip",
+                    "Fury Attack",
+                    "Horn Drill"
                 ]
             },
             {
@@ -23938,63 +23954,41 @@ export const trainers = {
                 ]
             },
             {
-                "species": "Magneton",
-                "level": 45,
-                "experience_yield": 1552,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 107,
-                    "attack": 67,
-                    "defense": 97,
-                    "speed": 75,
-                    "special_attack": 120,
-                    "special_defense": 120
-                },
-                "moves": [
-                    "SonicBoom",
-                    "ThunderShock",
-                    "Supersonic",
-                    "Thunder Wave"
-                ]
-            },
-            {
-                "species": "Ninetales",
+                "species": "Gyarados",
                 "level": 47,
-                "experience_yield": 1792,
+                "experience_yield": 2154,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 133,
-                    "attack": 84,
-                    "defense": 83,
-                    "speed": 106,
+                    "hp": 153,
+                    "attack": 130,
+                    "defense": 86,
+                    "speed": 88,
                     "special_attack": 106,
                     "special_defense": 106
                 },
                 "moves": [
-                    "Ember",
-                    "Tail Whip",
-                    "Quick Attack",
-                    "Roar"
+                    "Bite",
+                    "Dragon Rage",
+                    "Leer",
+                    "Hydro Pump"
                 ]
             },
             {
-                "species": "Kadabra",
+                "species": "Alakazam",
                 "level": 50,
-                "experience_yield": 1552,
+                "experience_yield": 1992,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 108,
-                    "attack": 49,
-                    "defense": 43,
-                    "speed": 118,
-                    "special_attack": 133,
-                    "special_defense": 133
+                    "hp": 123,
+                    "attack": 64,
+                    "defense": 58,
+                    "speed": 133,
+                    "special_attack": 148,
+                    "special_defense": 148
                 },
                 "moves": [
                     "Psybeam",
@@ -24004,318 +23998,32 @@ export const trainers = {
                 ]
             },
             {
-                "species": "Vaporeon",
+                "species": "Charizard",
                 "level": 53,
-                "experience_yield": 2226,
+                "experience_yield": 2373,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 209,
-                    "attack": 83,
-                    "defense": 77,
-                    "speed": 82,
-                    "special_attack": 130,
-                    "special_defense": 130
+                    "hp": 154,
+                    "attack": 103,
+                    "defense": 96,
+                    "speed": 119,
+                    "special_attack": 103,
+                    "special_defense": 103
                 },
                 "moves": [
-                    "Haze",
-                    "Mist",
-                    "Acid Armor",
-                    "Hydro Pump"
-                ]
-            }
-        ]
-    },
-    "RIVAL3 Jolteon": {
-        "rom_id": "RIVAL3 Jolteon",
-        "name": "RIVAL3 Jolteon",
-        "trainer_class": "RIVAL3",
-        "location": "Indigo Plateau",
-        "money": 6435,
-        "is_double_battle": false,
-        "items": [],
-        "party": [
-            {
-                "species": "Sandslash",
-                "level": 61,
-                "experience_yield": 2130,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 172,
-                    "attack": 137,
-                    "defense": 148,
-                    "speed": 94,
-                    "special_attack": 81,
-                    "special_defense": 81
-                },
-                "moves": [
+                    "Leer",
+                    "Rage",
                     "Slash",
-                    "Poison Sting",
-                    "Earthquake",
-                    "Fury Swipes"
-                ]
-            },
-            {
-                "species": "Alakazam",
-                "level": 59,
-                "experience_yield": 2350,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 143,
-                    "attack": 74,
-                    "defense": 67,
-                    "speed": 156,
-                    "special_attack": 173,
-                    "special_defense": 173
-                },
-                "moves": [
-                    "Psybeam",
-                    "Recover",
-                    "Psychic",
-                    "Kinesis"
-                ]
-            },
-            {
-                "species": "Exeggutor",
-                "level": 61,
-                "experience_yield": 2770,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 196,
-                    "attack": 131,
-                    "defense": 118,
-                    "speed": 81,
-                    "special_attack": 167,
-                    "special_defense": 167
-                },
-                "moves": [
-                    "Barrage",
-                    "Hypnosis",
-                    "Stomp",
-                    "Leech Seed"
-                ]
-            },
-            {
-                "species": "Cloyster",
-                "level": 61,
-                "experience_yield": 2653,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 141,
-                    "attack": 131,
-                    "defense": 234,
-                    "speed": 100,
-                    "special_attack": 118,
-                    "special_defense": 118
-                },
-                "moves": [
-                    "Ice Beam",
-                    "Clamp",
-                    "Aurora Beam",
-                    "Spike Cannon"
-                ]
-            },
-            {
-                "species": "Ninetales",
-                "level": 63,
-                "experience_yield": 2403,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 175,
-                    "attack": 112,
-                    "defense": 109,
-                    "speed": 141,
-                    "special_attack": 141,
-                    "special_defense": 141
-                },
-                "moves": [
-                    "Confuse Ray",
-                    "Tail Whip",
-                    "Quick Attack",
-                    "Fire Spin"
-                ]
-            },
-            {
-                "species": "Jolteon",
-                "level": 65,
-                "experience_yield": 2743,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 169,
-                    "attack": 101,
-                    "defense": 93,
-                    "speed": 184,
-                    "special_attack": 158,
-                    "special_defense": 158
-                },
-                "moves": [
-                    "Pin Missile",
-                    "Thunder Wave",
-                    "Quick Attack",
-                    "Thunder"
-                ]
-            }
-        ]
-    },
-    "RIVAL3 Flareon": {
-        "rom_id": "RIVAL3 Flareon",
-        "name": "RIVAL3 Flareon",
-        "trainer_class": "RIVAL3",
-        "location": "Indigo Plateau",
-        "money": 6435,
-        "is_double_battle": false,
-        "items": [],
-        "party": [
-            {
-                "species": "Sandslash",
-                "level": 61,
-                "experience_yield": 2130,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 172,
-                    "attack": 137,
-                    "defense": 148,
-                    "speed": 94,
-                    "special_attack": 81,
-                    "special_defense": 81
-                },
-                "moves": [
-                    "Slash",
-                    "Poison Sting",
-                    "Earthquake",
-                    "Fury Swipes"
-                ]
-            },
-            {
-                "species": "Alakazam",
-                "level": 59,
-                "experience_yield": 2350,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 143,
-                    "attack": 74,
-                    "defense": 67,
-                    "speed": 156,
-                    "special_attack": 173,
-                    "special_defense": 173
-                },
-                "moves": [
-                    "Psybeam",
-                    "Recover",
-                    "Psychic",
-                    "Kinesis"
-                ]
-            },
-            {
-                "species": "Exeggutor",
-                "level": 61,
-                "experience_yield": 2770,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 196,
-                    "attack": 131,
-                    "defense": 118,
-                    "speed": 81,
-                    "special_attack": 167,
-                    "special_defense": 167
-                },
-                "moves": [
-                    "Barrage",
-                    "Hypnosis",
-                    "Stomp",
-                    "Leech Seed"
-                ]
-            },
-            {
-                "species": "Magneton",
-                "level": 61,
-                "experience_yield": 2104,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 141,
-                    "attack": 89,
-                    "defense": 130,
-                    "speed": 100,
-                    "special_attack": 161,
-                    "special_defense": 161
-                },
-                "moves": [
-                    "Thunderbolt",
-                    "Thunder Wave",
-                    "Swift",
-                    "Screech"
-                ]
-            },
-            {
-                "species": "Cloyster",
-                "level": 63,
-                "experience_yield": 2740,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 146,
-                    "attack": 136,
-                    "defense": 241,
-                    "speed": 103,
-                    "special_attack": 122,
-                    "special_defense": 122
-                },
-                "moves": [
-                    "Ice Beam",
-                    "Clamp",
-                    "Aurora Beam",
-                    "Spike Cannon"
-                ]
-            },
-            {
-                "species": "Flareon",
-                "level": 65,
-                "experience_yield": 2757,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 169,
-                    "attack": 185,
-                    "defense": 93,
-                    "speed": 99,
-                    "special_attack": 158,
-                    "special_defense": 158
-                },
-                "moves": [
-                    "Fire Spin",
-                    "Reflect",
-                    "Quick Attack",
                     "Flamethrower"
                 ]
             }
         ]
     },
-    "RIVAL3 Vaporeon": {
-        "rom_id": "RIVAL3 Vaporeon",
-        "name": "RIVAL3 Vaporeon",
+    "RIVAL3 Squirtle": {
+        "rom_id": "RIVAL3 Squirtle",
+        "name": "RIVAL3 Squirtle",
         "trainer_class": "RIVAL3",
         "location": "Indigo Plateau",
         "money": 6435,
@@ -24323,25 +24031,25 @@ export const trainers = {
         "items": [],
         "party": [
             {
-                "species": "Sandslash",
+                "species": "Pidgeot",
                 "level": 61,
-                "experience_yield": 2130,
+                "experience_yield": 2247,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 172,
-                    "attack": 137,
-                    "defense": 148,
-                    "speed": 94,
-                    "special_attack": 81,
-                    "special_defense": 81
+                    "hp": 182,
+                    "attack": 113,
+                    "defense": 106,
+                    "speed": 125,
+                    "special_attack": 100,
+                    "special_defense": 100
                 },
                 "moves": [
-                    "Slash",
-                    "Poison Sting",
-                    "Earthquake",
-                    "Fury Swipes"
+                    "Whirlwind",
+                    "Wing Attack",
+                    "Sky Attack",
+                    "Mirror Move"
                 ]
             },
             {
@@ -24363,7 +24071,314 @@ export const trainers = {
                     "Psybeam",
                     "Recover",
                     "Psychic",
-                    "Kinesis"
+                    "Reflect"
+                ]
+            },
+            {
+                "species": "Rhydon",
+                "level": 61,
+                "experience_yield": 2665,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 208,
+                    "attack": 174,
+                    "defense": 161,
+                    "speed": 63,
+                    "special_attack": 69,
+                    "special_defense": 69
+                },
+                "moves": [
+                    "Tail Whip",
+                    "Fury Attack",
+                    "Horn Drill",
+                    "Leer"
+                ]
+            },
+            {
+                "species": "Arcanine",
+                "level": 61,
+                "experience_yield": 2784,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 190,
+                    "attack": 150,
+                    "defense": 112,
+                    "speed": 130,
+                    "special_attack": 112,
+                    "special_defense": 112
+                },
+                "moves": [
+                    "Roar",
+                    "Ember",
+                    "Leer",
+                    "Take Down"
+                ]
+            },
+            {
+                "species": "Exeggutor",
+                "level": 63,
+                "experience_yield": 2862,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 202,
+                    "attack": 136,
+                    "defense": 122,
+                    "speed": 84,
+                    "special_attack": 172,
+                    "special_defense": 172
+                },
+                "moves": [
+                    "Barrage",
+                    "Hypnosis",
+                    "Stomp"
+                ]
+            },
+            {
+                "species": "Blastoise",
+                "level": 65,
+                "experience_yield": 2925,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 188,
+                    "attack": 124,
+                    "defense": 145,
+                    "speed": 116,
+                    "special_attack": 125,
+                    "special_defense": 125
+                },
+                "moves": [
+                    "Bite",
+                    "Withdraw",
+                    "Blizzard",
+                    "Hydro Pump"
+                ]
+            }
+        ]
+    },
+    "RIVAL3 Bulbasaur": {
+        "rom_id": "RIVAL3 Bulbasaur",
+        "name": "RIVAL3 Bulbasaur",
+        "trainer_class": "RIVAL3",
+        "location": "Indigo Plateau",
+        "money": 6435,
+        "is_double_battle": false,
+        "items": [],
+        "party": [
+            {
+                "species": "Pidgeot",
+                "level": 61,
+                "experience_yield": 2247,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 182,
+                    "attack": 113,
+                    "defense": 106,
+                    "speed": 125,
+                    "special_attack": 100,
+                    "special_defense": 100
+                },
+                "moves": [
+                    "Whirlwind",
+                    "Wing Attack",
+                    "Sky Attack",
+                    "Mirror Move"
+                ]
+            },
+            {
+                "species": "Alakazam",
+                "level": 59,
+                "experience_yield": 2350,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 143,
+                    "attack": 74,
+                    "defense": 67,
+                    "speed": 156,
+                    "special_attack": 173,
+                    "special_defense": 173
+                },
+                "moves": [
+                    "Psybeam",
+                    "Recover",
+                    "Psychic",
+                    "Reflect"
+                ]
+            },
+            {
+                "species": "Rhydon",
+                "level": 61,
+                "experience_yield": 2665,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 208,
+                    "attack": 174,
+                    "defense": 161,
+                    "speed": 63,
+                    "special_attack": 69,
+                    "special_defense": 69
+                },
+                "moves": [
+                    "Tail Whip",
+                    "Fury Attack",
+                    "Horn Drill",
+                    "Leer"
+                ]
+            },
+            {
+                "species": "Gyarados",
+                "level": 61,
+                "experience_yield": 2796,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 196,
+                    "attack": 168,
+                    "defense": 111,
+                    "speed": 113,
+                    "special_attack": 136,
+                    "special_defense": 136
+                },
+                "moves": [
+                    "Dragon Rage",
+                    "Leer",
+                    "Hydro Pump",
+                    "Hyper Beam"
+                ]
+            },
+            {
+                "species": "Arcanine",
+                "level": 63,
+                "experience_yield": 2875,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 196,
+                    "attack": 154,
+                    "defense": 115,
+                    "speed": 134,
+                    "special_attack": 115,
+                    "special_defense": 115
+                },
+                "moves": [
+                    "Roar",
+                    "Ember",
+                    "Leer",
+                    "Take Down"
+                ]
+            },
+            {
+                "species": "Venusaur",
+                "level": 65,
+                "experience_yield": 2896,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 189,
+                    "attack": 123,
+                    "defense": 123,
+                    "speed": 119,
+                    "special_attack": 145,
+                    "special_defense": 145
+                },
+                "moves": [
+                    "Razor Leaf",
+                    "Growth",
+                    "Mega Drain",
+                    "SolarBeam"
+                ]
+            }
+        ]
+    },
+    "RIVAL3 Charmander": {
+        "rom_id": "RIVAL3 Charmander",
+        "name": "RIVAL3 Charmander",
+        "trainer_class": "RIVAL3",
+        "location": "Indigo Plateau",
+        "money": 6435,
+        "is_double_battle": false,
+        "items": [],
+        "party": [
+            {
+                "species": "Pidgeot",
+                "level": 61,
+                "experience_yield": 2247,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 182,
+                    "attack": 113,
+                    "defense": 106,
+                    "speed": 125,
+                    "special_attack": 100,
+                    "special_defense": 100
+                },
+                "moves": [
+                    "Whirlwind",
+                    "Wing Attack",
+                    "Sky Attack",
+                    "Mirror Move"
+                ]
+            },
+            {
+                "species": "Alakazam",
+                "level": 59,
+                "experience_yield": 2350,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 143,
+                    "attack": 74,
+                    "defense": 67,
+                    "speed": 156,
+                    "special_attack": 173,
+                    "special_defense": 173
+                },
+                "moves": [
+                    "Psybeam",
+                    "Recover",
+                    "Psychic",
+                    "Reflect"
+                ]
+            },
+            {
+                "species": "Rhydon",
+                "level": 61,
+                "experience_yield": 2665,
+                "nature": null,
+                "ability": null,
+                "held_item": null,
+                "stats": {
+                    "hp": 208,
+                    "attack": 174,
+                    "defense": 161,
+                    "speed": 63,
+                    "special_attack": 69,
+                    "special_defense": 69
+                },
+                "moves": [
+                    "Tail Whip",
+                    "Fury Attack",
+                    "Horn Drill",
+                    "Leer"
                 ]
             },
             {
@@ -24384,74 +24399,51 @@ export const trainers = {
                 "moves": [
                     "Barrage",
                     "Hypnosis",
-                    "Stomp",
-                    "Leech Seed"
+                    "Stomp"
                 ]
             },
             {
-                "species": "Ninetales",
-                "level": 61,
-                "experience_yield": 2326,
-                "nature": null,
-                "ability": null,
-                "held_item": null,
-                "stats": {
-                    "hp": 169,
-                    "attack": 108,
-                    "defense": 106,
-                    "speed": 136,
-                    "special_attack": 136,
-                    "special_defense": 136
-                },
-                "moves": [
-                    "Confuse Ray",
-                    "Tail Whip",
-                    "Quick Attack",
-                    "Fire Spin"
-                ]
-            },
-            {
-                "species": "Magneton",
+                "species": "Gyarados",
                 "level": 63,
-                "experience_yield": 2173,
+                "experience_yield": 2889,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 146,
-                    "attack": 91,
-                    "defense": 134,
-                    "speed": 103,
-                    "special_attack": 166,
-                    "special_defense": 166
+                    "hp": 202,
+                    "attack": 173,
+                    "defense": 114,
+                    "speed": 117,
+                    "special_attack": 141,
+                    "special_defense": 141
                 },
                 "moves": [
-                    "Thunderbolt",
-                    "Thunder Wave",
-                    "Swift",
-                    "Screech"
+                    "Dragon Rage",
+                    "Leer",
+                    "Hydro Pump",
+                    "Hyper Beam"
                 ]
             },
             {
-                "species": "Vaporeon",
+                "species": "Charizard",
                 "level": 65,
-                "experience_yield": 2730,
+                "experience_yield": 2910,
                 "nature": null,
                 "ability": null,
                 "held_item": null,
                 "stats": {
-                    "hp": 254,
-                    "attack": 101,
-                    "defense": 93,
-                    "speed": 99,
-                    "special_attack": 158,
-                    "special_defense": 158
+                    "hp": 186,
+                    "attack": 125,
+                    "defense": 116,
+                    "speed": 145,
+                    "special_attack": 125,
+                    "special_defense": 125
                 },
                 "moves": [
-                    "Aurora Beam",
-                    "Mist",
-                    "Quick Attack",
-                    "Hydro Pump"
+                    "Rage",
+                    "Slash",
+                    "Fire Blast",
+                    "Fire Spin"
                 ]
             }
         ]
@@ -24481,7 +24473,7 @@ export const trainers = {
                     "special_defense": 116
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Growl",
                     "Aurora Beam",
                     "Rest",
                     "Take Down"
@@ -24505,7 +24497,7 @@ export const trainers = {
                 "moves": [
                     "Supersonic",
                     "Clamp",
-                    "Ice Beam",
+                    "Aurora Beam",
                     "Spike Cannon"
                 ]
             },
@@ -24525,8 +24517,8 @@ export const trainers = {
                     "special_defense": 100
                 },
                 "moves": [
-                    "Psychic",
-                    "Surf",
+                    "Growl",
+                    "Water Gun",
                     "Withdraw",
                     "Amnesia"
                 ]
@@ -24549,7 +24541,7 @@ export const trainers = {
                 "moves": [
                     "DoubleSlap",
                     "Ice Punch",
-                    "Lovely Kiss",
+                    "Body Slam",
                     "Thrash"
                 ]
             },
@@ -25524,9 +25516,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Confuse Ray",
-                    "Substitute",
-                    "Lick",
-                    "Mega Drain"
+                    "Night Shade",
+                    "Hypnosis",
+                    "Dream Eater"
                 ]
             },
             {
@@ -25546,9 +25538,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Supersonic",
-                    "Toxic",
+                    "Confuse Ray",
                     "Wing Attack",
-                    "Leech Life"
+                    "Haze"
                 ]
             },
             {
@@ -25568,7 +25560,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Confuse Ray",
-                    "Lick",
+                    "Night Shade",
                     "Hypnosis",
                     "Dream Eater"
                 ]
@@ -25589,7 +25581,7 @@ export const trainers = {
                     "special_defense": 89
                 },
                 "moves": [
-                    "Wrap",
+                    "Bite",
                     "Glare",
                     "Screech",
                     "Acid"
@@ -25612,8 +25604,8 @@ export const trainers = {
                 },
                 "moves": [
                     "Confuse Ray",
-                    "Psychic",
-                    "Hypnosis",
+                    "Night Shade",
+                    "Toxic",
                     "Dream Eater"
                 ]
             }
@@ -25666,9 +25658,9 @@ export const trainers = {
                     "special_defense": 92
                 },
                 "moves": [
-                    "Thunder Wave",
+                    "Agility",
                     "Slam",
-                    "Thunderbolt",
+                    "Dragon Rage",
                     "Hyper Beam"
                 ]
             },
@@ -25688,9 +25680,9 @@ export const trainers = {
                     "special_defense": 92
                 },
                 "moves": [
-                    "BubbleBeam",
-                    "Wrap",
-                    "Ice Beam",
+                    "Agility",
+                    "Slam",
+                    "Dragon Rage",
                     "Hyper Beam"
                 ]
             },
@@ -25710,9 +25702,9 @@ export const trainers = {
                     "special_defense": 86
                 },
                 "moves": [
-                    "Wing Attack",
-                    "Swift",
-                    "Fly",
+                    "Supersonic",
+                    "Bite",
+                    "Take Down",
                     "Hyper Beam"
                 ]
             },
@@ -25732,9 +25724,9 @@ export const trainers = {
                     "special_defense": 138
                 },
                 "moves": [
-                    "Blizzard",
-                    "Fire Blast",
-                    "Thunder",
+                    "Agility",
+                    "Slam",
+                    "Barrier",
                     "Hyper Beam"
                 ]
             }
