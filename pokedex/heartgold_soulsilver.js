@@ -208,8 +208,7 @@ export const pokedex = {
             "Natural Gift",
             "Swagger",
             "U-turn",
-            "Substitute",
-            "Whirlpool"
+            "Substitute"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -304,6 +303,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -532,6 +532,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -756,8 +757,7 @@ export const pokedex = {
             "Pluck",
             "U-turn",
             "Substitute",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -1583,6 +1583,7 @@ export const pokedex = {
             "Substitute",
             "Flash Cannon",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -1677,6 +1678,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -1777,8 +1779,7 @@ export const pokedex = {
             "Pluck",
             "U-turn",
             "Substitute",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -1887,7 +1888,6 @@ export const pokedex = {
             "U-turn",
             "Substitute",
             "Fly",
-            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -1979,8 +1979,7 @@ export const pokedex = {
             "Pluck",
             "U-turn",
             "Substitute",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -2604,7 +2603,6 @@ export const pokedex = {
             "Substitute",
             "Fly",
             "Strength",
-            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -3177,6 +3175,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -3299,6 +3298,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall",
             "Rock Climb"
@@ -3357,7 +3357,7 @@ export const pokedex = {
             "special_defense": 0
         },
         "type_1": "Electric",
-        "type_2": "Flying",
+        "type_2": "Ghost",
         "catch_rate": 45,
         "base_experience": 132,
         "common_item": null,
@@ -3658,6 +3658,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Rock Climb"
         ],
@@ -3768,8 +3769,7 @@ export const pokedex = {
             "Natural Gift",
             "Swagger",
             "U-turn",
-            "Substitute",
-            "Whirlpool"
+            "Substitute"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -4460,7 +4460,6 @@ export const pokedex = {
             "Substitute",
             "Cut",
             "Strength",
-            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -4587,6 +4586,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -4655,7 +4655,7 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [1, "Leer"],
-            [4, "SmokeScreen"],
+            [6, "SmokeScreen"],
             [10, "Ember"],
             [13, "Quick Attack"],
             [19, "Flame Wheel"],
@@ -4794,8 +4794,7 @@ export const pokedex = {
             "Pluck",
             "U-turn",
             "Substitute",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -5558,6 +5557,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -5686,7 +5686,6 @@ export const pokedex = {
             "Substitute",
             "Fly",
             "Strength",
-            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -6323,8 +6322,7 @@ export const pokedex = {
             "Dream Eater",
             "Swagger",
             "Substitute",
-            "Cut",
-            "Whirlpool"
+            "Cut"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -6434,6 +6432,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -7044,6 +7043,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -7764,7 +7764,8 @@ export const pokedex = {
             "Poison Jab",
             "Swagger",
             "Substitute",
-            "Surf"
+            "Surf",
+            "Whirlpool"
         ],
         "tutor_learnset": [
             "Dive",
@@ -7880,6 +7881,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -7954,7 +7956,7 @@ export const pokedex = {
             [1, "Leer"],
             [1, "SmokeScreen"],
             [1, "Ember"],
-            [4, "SmokeScreen"],
+            [6, "SmokeScreen"],
             [10, "Ember"],
             [13, "Quick Attack"],
             [20, "Flame Wheel"],
@@ -9259,6 +9261,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -9501,8 +9504,7 @@ export const pokedex = {
             "U-turn",
             "Substitute",
             "Trick Room",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -10400,6 +10402,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -10859,6 +10862,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -11100,6 +11104,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall",
             "Rock Climb"
@@ -11212,6 +11217,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -11481,8 +11487,7 @@ export const pokedex = {
             "Pluck",
             "U-turn",
             "Substitute",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -11659,6 +11664,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Rock Climb"
         ],
@@ -11788,6 +11794,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -11907,7 +11914,6 @@ export const pokedex = {
             "Cut",
             "Fly",
             "Strength",
-            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -12126,6 +12132,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -12377,7 +12384,6 @@ export const pokedex = {
             "Cut",
             "Fly",
             "Strength",
-            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -13057,6 +13063,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -13179,6 +13186,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -13242,18 +13250,19 @@ export const pokedex = {
         ],
         "level_up_learnset": [
             [1, "Whirlwind"],
-            [9, "Safeguard"],
-            [15, "Gust"],
-            [23, "Recover"],
-            [29, "Fire Blast"],
-            [37, "Sunny Day"],
-            [43, "Swift"],
-            [51, "Natural Gift"],
+            [1, "Weather Ball"],
+            [9, "Gust"],
+            [15, "Brave Bird"],
+            [23, "Extrasensory"],
+            [29, "Sunny Day"],
+            [37, "Fire Blast"],
+            [43, "Sacred Fire"],
+            [50, "Punishment"],
             [57, "AncientPower"],
-            [65, "Extrasensory"],
-            [71, "Punishment"],
+            [65, "Safeguard"],
+            [71, "Recover"],
             [79, "Future Sight"],
-            [85, "Sacred Fire"],
+            [85, "Natural Gift"],
             [93, "Calm Mind"],
             [99, "Sky Attack"]
         ],
@@ -13305,7 +13314,6 @@ export const pokedex = {
             "Substitute",
             "Fly",
             "Strength",
-            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -13869,8 +13877,7 @@ export const pokedex = {
             "Swagger",
             "Pluck",
             "Substitute",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -14184,7 +14191,6 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Cut",
-            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -14303,6 +14309,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Rock Climb"
         ],
@@ -14790,6 +14797,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -14897,7 +14905,6 @@ export const pokedex = {
             "U-turn",
             "Substitute",
             "Fly",
-            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -15152,6 +15159,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Rock Climb"
         ],
@@ -16718,16 +16726,17 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Twister"],
             [5, "Scary Face"],
-            [15, "AncientPower"],
-            [20, "Dragon Claw"],
-            [30, "Dragon Dance"],
-            [35, "Crunch"],
-            [45, "Fly"],
-            [50, "Rest"],
-            [60, "ExtremeSpeed"],
-            [65, "Hyper Beam"],
-            [75, "Dragon Pulse"],
-            [80, "Outrage"]
+            [15, "Crunch"],
+            [20, "Hyper Voice"],
+            [30, "Rest"],
+            [35, "Air Slash"],
+            [45, "AncientPower"],
+            [50, "Outrage"],
+            [60, "Dragon Dance"],
+            [65, "Fly"],
+            [75, "ExtremeSpeed"],
+            [80, "Hyper Beam"],
+            [90, "Dragon Pulse"]
         ],
         "tm_hm_learnset": [
             "Dragon Claw",
@@ -16782,6 +16791,7 @@ export const pokedex = {
             "Fly",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -17060,6 +17070,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -17320,6 +17331,7 @@ export const pokedex = {
             "Trick Room",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -17659,6 +17671,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall",
             "Rock Climb"
@@ -17773,7 +17786,6 @@ export const pokedex = {
             "U-turn",
             "Substitute",
             "Cut",
-            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -18360,6 +18372,7 @@ export const pokedex = {
             "Flash Cannon",
             "Trick Room",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -18663,7 +18676,8 @@ export const pokedex = {
             "Natural Gift",
             "Swagger",
             "Substitute",
-            "Surf"
+            "Surf",
+            "Whirlpool"
         ],
         "tutor_learnset": [
             "Dive",
@@ -18868,6 +18882,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -18999,6 +19014,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Rock Climb"
         ],
@@ -19121,6 +19137,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -19238,6 +19255,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Rock Climb"
         ],
@@ -19462,6 +19480,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -19566,8 +19585,7 @@ export const pokedex = {
             "Pluck",
             "U-turn",
             "Substitute",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -19685,6 +19703,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Rock Climb"
         ],
@@ -19974,15 +19993,16 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "DragonBreath"],
             [1, "Scary Face"],
-            [10, "Ominous Wind"],
-            [20, "AncientPower"],
-            [30, "Dragon Claw"],
-            [40, "Shadow Force"],
-            [50, "Heal Block"],
-            [60, "Earth Power"],
-            [70, "Slash"],
-            [80, "Shadow Claw"],
-            [90, "Aura Sphere"]
+            [6, "Ominous Wind"],
+            [10, "AncientPower"],
+            [15, "Slash"],
+            [19, "Shadow Sneak"],
+            [24, "Destiny Bond"],
+            [28, "Dragon Claw"],
+            [33, "Earth Power"],
+            [37, "Aura Sphere"],
+            [42, "Shadow Claw"],
+            [46, "Shadow Force"]
         ],
         "tm_hm_learnset": [
             "Dragon Claw",
@@ -20031,7 +20051,6 @@ export const pokedex = {
             "Cut",
             "Fly",
             "Strength",
-            "Whirlpool",
             "Rock Smash",
             "Rock Climb"
         ],
@@ -20261,6 +20280,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Rock Climb"
         ],
@@ -20470,6 +20490,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -21234,6 +21255,7 @@ export const pokedex = {
             "Substitute",
             "Cut",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -21462,7 +21484,6 @@ export const pokedex = {
             "Substitute",
             "Cut",
             "Strength",
-            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -21592,6 +21613,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Rock Climb"
         ],
@@ -21966,6 +21988,7 @@ export const pokedex = {
             "Substitute",
             "Cut",
             "Surf",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall",
             "Rock Climb"
@@ -22299,8 +22322,7 @@ export const pokedex = {
             "Dream Eater",
             "Swagger",
             "U-turn",
-            "Substitute",
-            "Whirlpool"
+            "Substitute"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -22647,6 +22669,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -22880,8 +22903,7 @@ export const pokedex = {
             "Dream Eater",
             "Swagger",
             "U-turn",
-            "Substitute",
-            "Whirlpool"
+            "Substitute"
         ],
         "tutor_learnset": [
             "AncientPower",
@@ -23038,7 +23060,7 @@ export const pokedex = {
             "special_defense": 0
         },
         "type_1": "Electric",
-        "type_2": "Fire",
+        "type_2": "Ghost",
         "catch_rate": 45,
         "base_experience": 132,
         "common_item": null,
@@ -23289,6 +23311,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -23389,6 +23412,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -23503,6 +23527,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -23726,6 +23751,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -23847,6 +23873,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -24065,6 +24092,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -24509,6 +24537,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -24958,6 +24987,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -25173,7 +25203,6 @@ export const pokedex = {
             "U-turn",
             "Substitute",
             "Fly",
-            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -25939,6 +25968,7 @@ export const pokedex = {
             [7, "Bite"],
             [13, "Yawn"],
             [19, "Take Down"],
+            [19, "Dig"],
             [25, "Sand Tomb"],
             [31, "Crunch"],
             [37, "Earthquake"],
@@ -25956,6 +25986,7 @@ export const pokedex = {
             "Iron Tail",
             "Earthquake",
             "Return",
+            "Dig",
             "Double Team",
             "Sandstorm",
             "Rock Tomb",
@@ -26080,6 +26111,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -26729,8 +26761,7 @@ export const pokedex = {
             "Pluck",
             "U-turn",
             "Substitute",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -27020,6 +27051,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -27138,6 +27170,7 @@ export const pokedex = {
             "Substitute",
             "Cut",
             "Surf",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall",
             "Rock Climb"
@@ -27548,8 +27581,7 @@ export const pokedex = {
             "Pluck",
             "U-turn",
             "Substitute",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -27663,7 +27695,6 @@ export const pokedex = {
             "Cut",
             "Fly",
             "Strength",
-            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -28123,6 +28154,7 @@ export const pokedex = {
             "Trick Room",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -28242,6 +28274,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -28437,6 +28470,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -28707,6 +28741,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -28819,8 +28854,7 @@ export const pokedex = {
             "Swagger",
             "Pluck",
             "Substitute",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -29063,8 +29097,7 @@ export const pokedex = {
             "Pluck",
             "U-turn",
             "Substitute",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -29158,8 +29191,7 @@ export const pokedex = {
             "Swagger",
             "Pluck",
             "Substitute",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Bounce",
@@ -29497,6 +29529,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -29624,7 +29657,6 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Fly",
-            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -30477,6 +30509,7 @@ export const pokedex = {
             "Substitute",
             "Flash Cannon",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -30699,8 +30732,7 @@ export const pokedex = {
             "Swagger",
             "Pluck",
             "Substitute",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -31604,6 +31636,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -32060,6 +32093,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -32384,6 +32418,7 @@ export const pokedex = {
             "U-turn",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -32569,15 +32604,16 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "DragonBreath"],
             [1, "Scary Face"],
-            [10, "Ominous Wind"],
-            [20, "AncientPower"],
-            [30, "Dragon Claw"],
-            [40, "Shadow Force"],
-            [50, "Heal Block"],
-            [60, "Earth Power"],
-            [70, "Slash"],
-            [80, "Shadow Claw"],
-            [90, "Aura Sphere"]
+            [6, "Ominous Wind"],
+            [10, "AncientPower"],
+            [15, "Slash"],
+            [19, "Shadow Sneak"],
+            [24, "Destiny Bond"],
+            [28, "Dragon Claw"],
+            [33, "Earth Power"],
+            [37, "Aura Sphere"],
+            [42, "Shadow Claw"],
+            [46, "Shadow Force"]
         ],
         "tm_hm_learnset": [
             "Dragon Claw",
@@ -32626,7 +32662,6 @@ export const pokedex = {
             "Cut",
             "Fly",
             "Strength",
-            "Whirlpool",
             "Rock Smash",
             "Rock Climb"
         ],
@@ -32765,6 +32800,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Rock Climb"
         ],
@@ -32907,6 +32943,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Rock Climb"
         ],
@@ -33038,6 +33075,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Rock Climb"
         ],
@@ -33159,7 +33197,6 @@ export const pokedex = {
             "Substitute",
             "Cut",
             "Strength",
-            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -33281,8 +33318,7 @@ export const pokedex = {
             "Dream Eater",
             "Swagger",
             "U-turn",
-            "Substitute",
-            "Whirlpool"
+            "Substitute"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -33783,8 +33819,7 @@ export const pokedex = {
             "Pluck",
             "U-turn",
             "Substitute",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -34077,15 +34112,16 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "DragonBreath"],
             [1, "Scary Face"],
-            [10, "Water Pulse"],
-            [20, "AncientPower"],
-            [30, "Dragon Claw"],
-            [40, "Spacial Rend"],
-            [50, "Heal Block"],
-            [60, "Earth Power"],
-            [70, "Slash"],
-            [80, "Aqua Tail"],
-            [90, "Aura Sphere"]
+            [6, "Water Pulse"],
+            [10, "AncientPower"],
+            [15, "Slash"],
+            [19, "Power Gem"],
+            [24, "Aqua Tail"],
+            [28, "Dragon Claw"],
+            [33, "Earth Power"],
+            [37, "Aura Sphere"],
+            [42, "Hydro Pump"],
+            [46, "Spacial Rend"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -34139,6 +34175,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -34509,6 +34546,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -34953,8 +34991,7 @@ export const pokedex = {
             "Swagger",
             "U-turn",
             "Substitute",
-            "Cut",
-            "Whirlpool"
+            "Cut"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -35056,8 +35093,7 @@ export const pokedex = {
             "U-turn",
             "Substitute",
             "Cut",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -35372,6 +35408,7 @@ export const pokedex = {
             "Substitute",
             "Cut",
             "Surf",
+            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -35421,7 +35458,7 @@ export const pokedex = {
             "special_defense": 0
         },
         "type_1": "Electric",
-        "type_2": "Ice",
+        "type_2": "Ghost",
         "catch_rate": 45,
         "base_experience": 132,
         "common_item": null,
@@ -36249,15 +36286,16 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "DragonBreath"],
             [1, "Scary Face"],
-            [10, "Metal Claw"],
-            [20, "AncientPower"],
-            [30, "Dragon Claw"],
-            [40, "Roar of Time"],
-            [50, "Heal Block"],
-            [60, "Earth Power"],
-            [70, "Slash"],
-            [80, "Flash Cannon"],
-            [90, "Aura Sphere"]
+            [6, "Metal Claw"],
+            [10, "AncientPower"],
+            [15, "Slash"],
+            [19, "Power Gem"],
+            [24, "Metal Burst"],
+            [28, "Dragon Claw"],
+            [33, "Earth Power"],
+            [37, "Aura Sphere"],
+            [42, "Flash Cannon"],
+            [46, "Roar of Time"]
         ],
         "tm_hm_learnset": [
             "Dragon Claw",
@@ -36544,6 +36582,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Rock Climb"
         ],
@@ -36800,6 +36839,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Rock Climb"
         ],
@@ -37281,6 +37321,7 @@ export const pokedex = {
             "Flash Cannon",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall",
             "Rock Climb"
@@ -37607,6 +37648,7 @@ export const pokedex = {
             "U-turn",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -38024,8 +38066,7 @@ export const pokedex = {
             "Pluck",
             "U-turn",
             "Substitute",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -38664,18 +38705,19 @@ export const pokedex = {
         ],
         "level_up_learnset": [
             [1, "Whirlwind"],
-            [9, "Safeguard"],
-            [15, "Gust"],
-            [23, "Recover"],
-            [29, "Hydro Pump"],
-            [37, "Rain Dance"],
-            [43, "Swift"],
-            [51, "Natural Gift"],
+            [1, "Weather Ball"],
+            [9, "Gust"],
+            [15, "Dragon Rush"],
+            [23, "Extrasensory"],
+            [29, "Rain Dance"],
+            [37, "Hydro Pump"],
+            [43, "Aeroblast"],
+            [50, "Punishment"],
             [57, "AncientPower"],
-            [65, "Extrasensory"],
-            [71, "Punishment"],
+            [65, "Safeguard"],
+            [71, "Recover"],
             [79, "Future Sight"],
-            [85, "Aeroblast"],
+            [85, "Natural Gift"],
             [93, "Calm Mind"],
             [99, "Sky Attack"]
         ],
@@ -38950,6 +38992,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -39017,16 +39060,17 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Mud Shot"],
             [5, "Scary Face"],
-            [15, "AncientPower"],
-            [20, "Slash"],
-            [30, "Bulk Up"],
+            [15, "Lava Plume"],
+            [20, "Hammer Arm"],
+            [30, "Rest"],
             [35, "Earthquake"],
-            [45, "Fire Blast"],
-            [50, "Rest"],
-            [60, "Fissure"],
-            [65, "SolarBeam"],
-            [75, "Earth Power"],
-            [80, "Eruption"]
+            [45, "AncientPower"],
+            [50, "Eruption"],
+            [60, "Bulk Up"],
+            [65, "Earth Power"],
+            [75, "Fissure"],
+            [80, "SolarBeam"],
+            [90, "Fire Blast"]
         ],
         "tm_hm_learnset": [
             "Dragon Claw",
@@ -39295,6 +39339,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -39410,7 +39455,8 @@ export const pokedex = {
             "U-turn",
             "Substitute",
             "Cut",
-            "Surf"
+            "Surf",
+            "Whirlpool"
         ],
         "tutor_learnset": [
             "Aqua Tail",
@@ -39535,7 +39581,6 @@ export const pokedex = {
             "Flash Cannon",
             "Cut",
             "Fly",
-            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -39601,7 +39646,7 @@ export const pokedex = {
             [1, "Tackle"],
             [1, "Leer"],
             [1, "SmokeScreen"],
-            [4, "SmokeScreen"],
+            [6, "SmokeScreen"],
             [10, "Ember"],
             [13, "Quick Attack"],
             [20, "Flame Wheel"],
@@ -39756,7 +39801,6 @@ export const pokedex = {
             "U-turn",
             "Substitute",
             "Cut",
-            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -40436,8 +40480,7 @@ export const pokedex = {
             "Swagger",
             "U-turn",
             "Substitute",
-            "Cut",
-            "Whirlpool"
+            "Cut"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -40650,6 +40693,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -40731,6 +40775,7 @@ export const pokedex = {
             "Toxic",
             "Hidden Power",
             "Sunny Day",
+            "Taunt",
             "Hyper Beam",
             "Protect",
             "Rain Dance",
@@ -41313,6 +41358,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -41652,8 +41698,7 @@ export const pokedex = {
             "Pluck",
             "U-turn",
             "Substitute",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -41763,8 +41808,7 @@ export const pokedex = {
             "Dream Eater",
             "Swagger",
             "U-turn",
-            "Substitute",
-            "Whirlpool"
+            "Substitute"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -42363,6 +42407,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall",
             "Rock Climb"
@@ -42474,6 +42519,7 @@ export const pokedex = {
             "Substitute",
             "Cut",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -42677,6 +42723,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -42886,8 +42933,7 @@ export const pokedex = {
             "Pluck",
             "U-turn",
             "Substitute",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -43719,6 +43765,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -44212,7 +44259,6 @@ export const pokedex = {
             "Substitute",
             "Cut",
             "Strength",
-            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -44325,7 +44371,6 @@ export const pokedex = {
             "Substitute",
             "Fly",
             "Strength",
-            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -44545,6 +44590,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -44762,6 +44808,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -46068,8 +46115,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Cut",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -46646,6 +46692,7 @@ export const pokedex = {
             "Substitute",
             "Flash Cannon",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -46879,6 +46926,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall",
             "Rock Climb"
@@ -47298,6 +47346,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -47399,7 +47448,8 @@ export const pokedex = {
             "Grass Knot",
             "Swagger",
             "Substitute",
-            "Surf"
+            "Surf",
+            "Whirlpool"
         ],
         "tutor_learnset": [
             "Headbutt",
@@ -47513,7 +47563,6 @@ export const pokedex = {
             "Flash Cannon",
             "Cut",
             "Strength",
-            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -47671,7 +47720,7 @@ export const pokedex = {
             "special_defense": 0
         },
         "type_1": "Electric",
-        "type_2": "Grass",
+        "type_2": "Ghost",
         "catch_rate": 45,
         "base_experience": 132,
         "common_item": null,
@@ -48184,6 +48233,7 @@ export const pokedex = {
             "Substitute",
             "Flash Cannon",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -48406,6 +48456,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall",
             "Rock Climb"
@@ -48637,6 +48688,7 @@ export const pokedex = {
             "Substitute",
             "Flash Cannon",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -48702,16 +48754,17 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Water Pulse"],
             [5, "Scary Face"],
-            [15, "AncientPower"],
-            [20, "Body Slam"],
-            [30, "Calm Mind"],
+            [15, "Body Slam"],
+            [20, "Muddy Water"],
+            [30, "Aqua Ring"],
             [35, "Ice Beam"],
-            [45, "Hydro Pump"],
-            [50, "Rest"],
-            [60, "Sheer Cold"],
-            [65, "Double-Edge"],
-            [75, "Aqua Tail"],
-            [80, "Water Spout"]
+            [45, "AncientPower"],
+            [50, "Water Spout"],
+            [60, "Calm Mind"],
+            [65, "Aqua Tail"],
+            [75, "Sheer Cold"],
+            [80, "Double-Edge"],
+            [90, "Hydro Pump"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -48751,6 +48804,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -49075,6 +49129,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -49171,7 +49226,8 @@ export const pokedex = {
             "Natural Gift",
             "Swagger",
             "Substitute",
-            "Surf"
+            "Surf",
+            "Whirlpool"
         ],
         "tutor_learnset": [
             "AncientPower",
@@ -49408,6 +49464,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -49630,6 +49687,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -49947,8 +50005,7 @@ export const pokedex = {
             "Swagger",
             "Pluck",
             "Substitute",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -50052,8 +50109,7 @@ export const pokedex = {
             "Pluck",
             "U-turn",
             "Substitute",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -50152,8 +50208,7 @@ export const pokedex = {
             "Pluck",
             "U-turn",
             "Substitute",
-            "Fly",
-            "Whirlpool"
+            "Fly"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -50648,6 +50703,7 @@ export const pokedex = {
             [7, "Bite"],
             [13, "Yawn"],
             [19, "Take Down"],
+            [19, "Dig"],
             [25, "Sand Tomb"],
             [31, "Crunch"],
             [40, "Earthquake"],
@@ -50666,6 +50722,7 @@ export const pokedex = {
             "Iron Tail",
             "Earthquake",
             "Return",
+            "Dig",
             "Double Team",
             "Sandstorm",
             "Rock Tomb",
@@ -50889,6 +50946,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -51336,6 +51394,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -51453,6 +51512,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Rock Climb"
         ],
@@ -51572,8 +51632,7 @@ export const pokedex = {
             "Natural Gift",
             "Swagger",
             "U-turn",
-            "Substitute",
-            "Whirlpool"
+            "Substitute"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -52077,6 +52136,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -52455,7 +52515,8 @@ export const pokedex = {
             "Substitute",
             "Trick Room",
             "Surf",
-            "Strength"
+            "Strength",
+            "Whirlpool"
         ],
         "tutor_learnset": [
             "Aqua Tail",
@@ -52900,6 +52961,7 @@ export const pokedex = {
             "Substitute",
             "Cut",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -53014,6 +53076,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall"
         ],
@@ -53256,6 +53319,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Rock Climb"
         ],
@@ -54048,8 +54112,7 @@ export const pokedex = {
             "Natural Gift",
             "Swagger",
             "U-turn",
-            "Substitute",
-            "Whirlpool"
+            "Substitute"
         ],
         "tutor_learnset": [
             "Air Cutter",
@@ -54154,6 +54217,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -54266,7 +54330,6 @@ export const pokedex = {
             "Pluck",
             "Substitute",
             "Fly",
-            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -54622,6 +54685,7 @@ export const pokedex = {
             "Cut",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash"
         ],
         "tutor_learnset": [
@@ -54733,6 +54797,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Waterfall",
             "Rock Climb"
@@ -55399,6 +55464,7 @@ export const pokedex = {
             "Substitute",
             "Surf",
             "Strength",
+            "Whirlpool",
             "Rock Smash",
             "Rock Climb"
         ],
@@ -55857,6 +55923,7 @@ export const pokedex = {
             "Swagger",
             "Substitute",
             "Surf",
+            "Whirlpool",
             "Waterfall"
         ],
         "tutor_learnset": [
@@ -56517,7 +56584,7 @@ export const pokedex = {
             "special_defense": 0
         },
         "type_1": "Electric",
-        "type_2": "Water",
+        "type_2": "Ghost",
         "catch_rate": 45,
         "base_experience": 132,
         "common_item": null,

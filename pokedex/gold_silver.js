@@ -145,13 +145,12 @@ export const pokedex = {
             "Steel Wing",
             "Fly"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Whirlwind",
             "Pursuit",
-            "Foresight"
+            "Foresight",
+            "Steel Wing"
         ],
         "weight": null
     },
@@ -234,9 +233,7 @@ export const pokedex = {
             "Cut",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Counter",
             "Screech",
@@ -404,9 +401,7 @@ export const pokedex = {
             "Strength",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -548,9 +543,7 @@ export const pokedex = {
             "Rest",
             "Attract"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -598,7 +591,7 @@ export const pokedex = {
             [25, "Leech Life"],
             [34, "Fury Swipes"],
             [43, "Spider Web"],
-            [53, "Agility"],
+            [53, "Screech"],
             [63, "Psychic"]
         ],
         "tm_hm_learnset": [
@@ -699,9 +692,7 @@ export const pokedex = {
             "Steel Wing",
             "Fly"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -783,9 +774,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -1164,9 +1153,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -1252,11 +1239,7 @@ export const pokedex = {
             "Strength",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -1336,6 +1319,7 @@ export const pokedex = {
             "Light Screen",
             "Skull Bash",
             "Safeguard",
+            "Charm",
             "Razor Wind",
             "Petal Dance"
         ],
@@ -1619,11 +1603,7 @@ export const pokedex = {
             "Strength",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Present",
             "Metronome",
@@ -1715,9 +1695,7 @@ export const pokedex = {
             "Fly",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -1796,9 +1774,7 @@ export const pokedex = {
             "Cut",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Belly Drum",
             "AncientPower",
@@ -1885,9 +1861,7 @@ export const pokedex = {
             "Cut",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -1967,8 +1941,7 @@ export const pokedex = {
             "Leech Seed",
             "Counter",
             "AncientPower",
-            "Flail",
-            "Swords Dance"
+            "Flail"
         ],
         "weight": null
     },
@@ -2038,10 +2011,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Flail",
             "Supersonic",
@@ -2128,11 +2098,7 @@ export const pokedex = {
             "Strength",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -2220,11 +2186,7 @@ export const pokedex = {
             "Strength",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -2301,9 +2263,7 @@ export const pokedex = {
             "Nightmare",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Present",
             "Metronome",
@@ -2352,7 +2312,6 @@ export const pokedex = {
             [1, "Supersonic"],
             [1, "Aurora Beam"],
             [1, "Protect"],
-            [33, "Spikes"],
             [41, "Spike Cannon"]
         ],
         "tm_hm_learnset": [
@@ -2377,9 +2336,7 @@ export const pokedex = {
             "Surf",
             "Whirlpool"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -2454,9 +2411,7 @@ export const pokedex = {
             "Strength",
             "Whirlpool"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Rock Slide",
             "Safeguard",
@@ -2614,9 +2569,7 @@ export const pokedex = {
             "Strength",
             "Whirlpool"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -2698,18 +2651,14 @@ export const pokedex = {
             "Fire Punch",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Rock Slide",
             "AncientPower",
             "Belly Drum",
             "Screech",
             "Skull Bash",
-            "Perish Song",
-            "Swords Dance"
+            "Perish Song"
         ],
         "weight": null
     },
@@ -2782,16 +2731,13 @@ export const pokedex = {
             "Attract",
             "Cut"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Fury Swipes",
             "Quick Attack",
             "Reversal",
             "Thrash",
-            "Foresight",
-            "Submission"
+            "Foresight"
         ],
         "weight": null
     },
@@ -2855,9 +2801,7 @@ export const pokedex = {
             "Thief",
             "Fly"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Aurora Beam",
             "Quick Attack",
@@ -2934,9 +2878,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -3350,11 +3292,7 @@ export const pokedex = {
             "Surf",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -3447,11 +3385,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -3528,11 +3462,7 @@ export const pokedex = {
             "Surf",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Light Screen",
             "Mist",
@@ -3656,7 +3586,6 @@ export const pokedex = {
         "egg_group_2": "Field",
         "abilities": [],
         "level_up_learnset": [
-            [1, "Tri Attack"],
             [1, "Scratch"],
             [1, "Growl"],
             [1, "Magnitude"],
@@ -3770,10 +3699,7 @@ export const pokedex = {
             "Nightmare",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Bide",
             "AncientPower",
@@ -3823,7 +3749,7 @@ export const pokedex = {
             [16, "Growl"],
             [23, "Quick Attack"],
             [30, "Bite"],
-            [36, "Baton Pass"],
+            [36, "Focus Energy"],
             [42, "Take Down"]
         ],
         "tm_hm_learnset": [
@@ -3927,8 +3853,7 @@ export const pokedex = {
             "Pursuit",
             "Slam",
             "Spite",
-            "Beat Up",
-            "Crunch"
+            "Beat Up"
         ],
         "weight": null
     },
@@ -4009,9 +3934,7 @@ export const pokedex = {
             "Strength",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -4084,9 +4007,7 @@ export const pokedex = {
             "Rest",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -4162,15 +4083,12 @@ export const pokedex = {
             "Fire Punch",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Karate Chop",
             "Barrier",
             "Rolling Kick",
-            "Meditate",
-            "Cross Chop"
+            "Meditate"
         ],
         "weight": null
     },
@@ -4250,9 +4168,7 @@ export const pokedex = {
             "Strength",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -4561,6 +4477,7 @@ export const pokedex = {
         ],
         "tutor_learnset": [],
         "egg_moves": [
+            "Steel Wing",
             "Foresight",
             "Mirror Move",
             "Gust",
@@ -4721,9 +4638,7 @@ export const pokedex = {
             "Strength",
             "Whirlpool"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -4798,9 +4713,7 @@ export const pokedex = {
             "Strength",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -4876,9 +4789,7 @@ export const pokedex = {
             "Rest",
             "Attract"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -5110,9 +5021,7 @@ export const pokedex = {
             "Thief",
             "Nightmare"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Psywave",
             "Perish Song",
@@ -5199,9 +5108,7 @@ export const pokedex = {
             "Nightmare",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -5277,9 +5184,7 @@ export const pokedex = {
             "Fire Punch",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Mega Punch",
             "Rock Slide"
@@ -5362,9 +5267,7 @@ export const pokedex = {
             "Nightmare",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Take Down",
             "Amnesia",
@@ -5659,9 +5562,7 @@ export const pokedex = {
             "Surf",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Psybeam",
             "Haze",
@@ -5749,9 +5650,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -5833,9 +5732,7 @@ export const pokedex = {
             "Fury Cutter",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -5917,9 +5814,7 @@ export const pokedex = {
             "Fire Punch",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -5997,9 +5892,7 @@ export const pokedex = {
             "Fire Punch",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -6074,10 +5967,7 @@ export const pokedex = {
             "Thief",
             "Fire Punch"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Haze",
             "Mean Look",
@@ -6152,9 +6042,7 @@ export const pokedex = {
             "Rest",
             "Attract"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Body Slam",
             "Safeguard",
@@ -6238,11 +6126,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -6317,9 +6201,7 @@ export const pokedex = {
             "Thief",
             "Nightmare"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -6696,8 +6578,7 @@ export const pokedex = {
             "Supersonic",
             "Faint Attack",
             "Wing Attack",
-            "Whirlwind",
-            "Sky Attack"
+            "Whirlwind"
         ],
         "weight": null
     },
@@ -6736,7 +6617,7 @@ export const pokedex = {
         "abilities": [],
         "level_up_learnset": [
             [1, "Splash"],
-            [5, "Synthesis"],
+            [1, "Synthesis"],
             [5, "Tail Whip"],
             [10, "Tackle"],
             [13, "PoisonPowder"],
@@ -6846,9 +6727,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Flail",
             "Aurora Beam",
@@ -6934,9 +6813,7 @@ export const pokedex = {
             "Nightmare",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -7013,9 +6890,7 @@ export const pokedex = {
             "Thief",
             "Nightmare"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Fire Spin",
             "Rage",
@@ -7111,10 +6986,7 @@ export const pokedex = {
             "Strength",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -7271,9 +7143,7 @@ export const pokedex = {
             "Nightmare",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Perish Song",
             "Present",
@@ -7440,11 +7310,7 @@ export const pokedex = {
             "Strength",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -7521,9 +7387,7 @@ export const pokedex = {
             "Attract",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -7565,7 +7429,6 @@ export const pokedex = {
             [1, "Synthesis"],
             [1, "Tail Whip"],
             [1, "Tackle"],
-            [5, "Synthesis"],
             [5, "Tail Whip"],
             [10, "Tackle"],
             [13, "PoisonPowder"],
@@ -7679,9 +7542,7 @@ export const pokedex = {
             "Thief",
             "Nightmare"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -7751,9 +7612,7 @@ export const pokedex = {
             "Attract",
             "Thief"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "BubbleBeam",
             "Aurora Beam",
@@ -7837,9 +7696,7 @@ export const pokedex = {
             "Surf",
             "Whirlpool"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -8047,11 +7904,7 @@ export const pokedex = {
             "Surf",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Stomp",
             "Foresight",
@@ -8131,9 +7984,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -8209,9 +8060,7 @@ export const pokedex = {
             "Strength",
             "Whirlpool"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -8281,10 +8130,7 @@ export const pokedex = {
             "Attract",
             "Thief"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Screech",
             "Psywave",
@@ -8363,9 +8209,7 @@ export const pokedex = {
             "Strength",
             "Whirlpool"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Dig",
             "Haze",
@@ -8443,10 +8287,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -8527,10 +8368,7 @@ export const pokedex = {
             "Strength",
             "Whirlpool"
         ],
-        "tutor_learnset": [
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Aurora Beam",
             "Foresight"
@@ -8861,11 +8699,7 @@ export const pokedex = {
             "Surf",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Belly Drum",
             "Magnitude",
@@ -8961,10 +8795,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -9044,9 +8875,7 @@ export const pokedex = {
             "Fire Punch",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -9125,9 +8954,7 @@ export const pokedex = {
             "Fire Punch",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -9205,9 +9032,7 @@ export const pokedex = {
             "Fire Punch",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Light Screen",
             "Meditate",
@@ -9286,15 +9111,12 @@ export const pokedex = {
             "Thief",
             "Fire Punch"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Karate Chop",
             "Mega Punch",
             "Barrier",
-            "Screech",
-            "Cross Chop"
+            "Screech"
         ],
         "weight": null
     },
@@ -9367,9 +9189,7 @@ export const pokedex = {
             "Attract",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -9492,9 +9312,7 @@ export const pokedex = {
             "Fire Punch",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -9562,9 +9380,7 @@ export const pokedex = {
             "Rest",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -9611,7 +9427,7 @@ export const pokedex = {
             [16, "SonicBoom"],
             [21, "Thunder Wave"],
             [27, "Lock-On"],
-            [35, "Tri Attack"],
+            [35, "Swift"],
             [43, "Screech"],
             [53, "Zap Cannon"]
         ],
@@ -9636,9 +9452,7 @@ export const pokedex = {
             "Rest",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -9719,9 +9533,7 @@ export const pokedex = {
             "Fire Punch",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Rock Slide",
             "Foresight",
@@ -9799,9 +9611,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Twister",
             "Hydro Pump",
@@ -9875,9 +9685,7 @@ export const pokedex = {
             "Attract",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Thunderbolt",
             "Take Down",
@@ -9960,9 +9768,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Light Screen",
             "Present",
@@ -10057,10 +9863,7 @@ export const pokedex = {
             "Fire Punch",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -10218,9 +10021,7 @@ export const pokedex = {
             "Thief",
             "Nightmare"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Spite",
             "Charm",
@@ -10371,11 +10172,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -10465,11 +10262,7 @@ export const pokedex = {
             "Strength",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -10556,10 +10349,7 @@ export const pokedex = {
             "Surf",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Present",
             "Reversal",
@@ -10639,9 +10429,7 @@ export const pokedex = {
             "Nightmare",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Screech",
             "Destiny Bond"
@@ -10717,9 +10505,7 @@ export const pokedex = {
             "Steel Wing",
             "Fly"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -10802,9 +10588,7 @@ export const pokedex = {
             "Nightmare",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Future Sight",
             "Hypnosis",
@@ -10885,10 +10669,7 @@ export const pokedex = {
             "Thief",
             "Fire Punch"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -10966,8 +10747,7 @@ export const pokedex = {
             "Drill Peck",
             "Quick Attack",
             "Mirror Move",
-            "Wing Attack",
-            "Sky Attack"
+            "Wing Attack"
         ],
         "weight": null
     },
@@ -11129,11 +10909,7 @@ export const pokedex = {
             "Surf",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -11217,11 +10993,7 @@ export const pokedex = {
             "Surf",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -11293,9 +11065,7 @@ export const pokedex = {
             "Attract",
             "Thief"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Supersonic",
             "Disable",
@@ -11375,9 +11145,7 @@ export const pokedex = {
             "Attract",
             "Thief"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Supersonic",
             "Disable",
@@ -11459,10 +11227,7 @@ export const pokedex = {
             "Thief",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -11536,10 +11301,7 @@ export const pokedex = {
             "Thief",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -11606,9 +11368,7 @@ export const pokedex = {
             "Rest",
             "Attract"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -11755,10 +11515,7 @@ export const pokedex = {
             "Surf",
             "Whirlpool"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -11832,7 +11589,8 @@ export const pokedex = {
             "Swords Dance",
             "Razor Leaf",
             "Flail",
-            "Synthesis"
+            "Synthesis",
+            "Charm"
         ],
         "weight": null
     },
@@ -11904,9 +11662,7 @@ export const pokedex = {
             "Surf",
             "Whirlpool"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "BubbleBeam",
             "Aurora Beam",
@@ -11987,9 +11743,7 @@ export const pokedex = {
             "Surf",
             "Whirlpool"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -12144,6 +11898,7 @@ export const pokedex = {
             "Counter",
             "Psybeam",
             "Flail",
+            "Sweet Scent",
             "Light Screen",
             "Pursuit"
         ],
@@ -12301,9 +12056,7 @@ export const pokedex = {
             "Thief",
             "Nightmare"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -12379,8 +12132,7 @@ export const pokedex = {
         "egg_moves": [
             "Focus Energy",
             "Body Slam",
-            "AncientPower",
-            "Water Gun"
+            "AncientPower"
         ],
         "weight": null
     },
@@ -12450,9 +12202,7 @@ export const pokedex = {
             "Attract",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Reversal",
             "Bide",
@@ -12675,7 +12425,8 @@ export const pokedex = {
         "egg_moves": [
             "Pursuit",
             "Faint Attack",
-            "Foresight"
+            "Foresight",
+            "Steel Wing"
         ],
         "weight": null
     },
@@ -12754,9 +12505,7 @@ export const pokedex = {
             "Strength",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -12802,8 +12551,7 @@ export const pokedex = {
             [28, "Take Down"],
             [33, "Fury Attack"],
             [42, "Mist"],
-            [56, "Blizzard"],
-            [70, "Amnesia"]
+            [56, "Blizzard"]
         ],
         "tm_hm_learnset": [
             "Headbutt",
@@ -12832,9 +12580,7 @@ export const pokedex = {
             "Attract",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -13062,9 +12808,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -13136,9 +12880,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Mist",
             "Splash",
@@ -13224,9 +12966,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -13304,9 +13044,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -13374,9 +13112,7 @@ export const pokedex = {
             "Rest",
             "Attract"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Flame Wheel",
             "Thrash",
@@ -13461,10 +13197,7 @@ export const pokedex = {
             "Nightmare",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -13543,10 +13276,7 @@ export const pokedex = {
             "Nightmare",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -13631,9 +13361,7 @@ export const pokedex = {
             "Fire Punch",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -13712,9 +13440,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Ice Beam",
             "Hypnosis",
@@ -13722,8 +13448,7 @@ export const pokedex = {
             "Foresight",
             "Light Screen",
             "Future Sight",
-            "Psychic",
-            "Cross Chop"
+            "Psychic"
         ],
         "weight": null
     },
@@ -13878,9 +13603,7 @@ export const pokedex = {
             "Flash",
             "Whirlpool"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -13958,9 +13681,7 @@ export const pokedex = {
             "Cut",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -13998,7 +13719,6 @@ export const pokedex = {
         "egg_group_2": "Water2",
         "abilities": [],
         "level_up_learnset": [
-            [1, "Spikes"],
             [1, "Tackle"],
             [1, "Poison Sting"],
             [10, "Harden"],
@@ -14034,9 +13754,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Flail",
             "Haze",
@@ -14115,9 +13833,7 @@ export const pokedex = {
             "Strength",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -14197,9 +13913,7 @@ export const pokedex = {
             "Strength",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -14272,9 +13986,7 @@ export const pokedex = {
             "Rest",
             "Attract"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -14353,10 +14065,7 @@ export const pokedex = {
             "Cut",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -14507,10 +14216,7 @@ export const pokedex = {
             "Surf",
             "Whirlpool"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Aurora Beam",
             "Octazooka",
@@ -14602,11 +14308,7 @@ export const pokedex = {
             "Surf",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -14684,11 +14386,7 @@ export const pokedex = {
             "Attract",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Crunch",
             "Reversal",
@@ -14780,8 +14478,7 @@ export const pokedex = {
             "Flail",
             "Safeguard",
             "Counter",
-            "Rapid Spin",
-            "Metal Claw"
+            "Rapid Spin"
         ],
         "weight": null
     },
@@ -15094,9 +14791,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -15167,9 +14862,7 @@ export const pokedex = {
             "Surf",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -15237,9 +14930,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Lick",
             "Perish Song",
@@ -15399,9 +15090,7 @@ export const pokedex = {
             "Surf",
             "Whirlpool"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "BubbleBeam",
             "Take Down",
@@ -15556,8 +15245,7 @@ export const pokedex = {
         "egg_moves": [
             "Drill Peck",
             "Pursuit",
-            "Whirlwind",
-            "Sky Attack"
+            "Whirlwind"
         ],
         "weight": null
     },
@@ -15599,7 +15287,6 @@ export const pokedex = {
             [1, "Synthesis"],
             [1, "Tail Whip"],
             [1, "Tackle"],
-            [5, "Synthesis"],
             [5, "Tail Whip"],
             [10, "Tackle"],
             [13, "PoisonPowder"],
@@ -15722,10 +15409,7 @@ export const pokedex = {
             "Strength",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -15814,10 +15498,7 @@ export const pokedex = {
             "Flash",
             "Whirlpool"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -15900,10 +15581,7 @@ export const pokedex = {
             "Strength",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Safeguard",
             "Belly Drum",
@@ -15976,9 +15654,7 @@ export const pokedex = {
             "Rest",
             "Attract"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Acid Armor"
         ],
@@ -16107,10 +15783,9 @@ export const pokedex = {
             "Thief",
             "Nightmare"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
+            "Lovely Kiss",
             "Meditate"
         ],
         "weight": null
@@ -16157,8 +15832,7 @@ export const pokedex = {
             [33, "Fury Swipes"],
             [41, "Agility"],
             [49, "Slash"],
-            [57, "Beat Up"],
-            [65, "Metal Claw"]
+            [57, "Beat Up"]
         ],
         "tm_hm_learnset": [
             "DynamicPunch",
@@ -16197,9 +15871,7 @@ export const pokedex = {
             "Surf",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Counter",
             "Spite",
@@ -16294,13 +15966,10 @@ export const pokedex = {
             "Surf",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
-            "Lick"
+            "Lick",
+            "Charm"
         ],
         "weight": null
     },
@@ -16381,9 +16050,7 @@ export const pokedex = {
             "Fire Punch",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Metronome",
             "Faint Attack",
@@ -16513,7 +16180,7 @@ export const pokedex = {
             [23, "Leech Life"],
             [30, "Fury Swipes"],
             [37, "Spider Web"],
-            [45, "Agility"],
+            [45, "Screech"],
             [53, "Psychic"]
         ],
         "tm_hm_learnset": [
@@ -16626,9 +16293,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Mirror Coat",
             "Haze",
@@ -16790,10 +16455,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -16869,11 +16531,12 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Thunderbolt",
-            "Ice Beam"
+        "tutor_learnset": [],
+        "egg_moves": [
+            "Aurora Beam",
+            "Barrier",
+            "Supersonic"
         ],
-        "egg_moves": [],
         "weight": null
     },
     "Steelix": {
@@ -17069,10 +16732,10 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Bite"],
             [1, "Leer"],
-            [11, "BubbleBeam"],
-            [21, "Rain Dance"],
+            [11, "Water Gun"],
+            [21, "Roar"],
             [31, "Gust"],
-            [41, "Aurora Beam"],
+            [41, "BubbleBeam"],
             [51, "Mist"],
             [61, "Mirror Coat"],
             [71, "Hydro Pump"]
@@ -17110,9 +16773,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -17291,8 +16952,7 @@ export const pokedex = {
             [19, "Endure"],
             [28, "Take Down"],
             [37, "Mist"],
-            [46, "Blizzard"],
-            [55, "Amnesia"]
+            [46, "Blizzard"]
         ],
         "tm_hm_learnset": [
             "Headbutt",
@@ -17320,9 +16980,7 @@ export const pokedex = {
             "Attract",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Take Down",
             "Bite",
@@ -17485,11 +17143,7 @@ export const pokedex = {
             "Surf",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -17577,8 +17231,7 @@ export const pokedex = {
             "Take Down",
             "Seismic Toss",
             "Focus Energy",
-            "Counter",
-            "Metal Claw"
+            "Counter"
         ],
         "weight": null
     },
@@ -17649,9 +17302,7 @@ export const pokedex = {
             "Surf",
             "Whirlpool"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Aurora Beam",
             "Mirror Coat",
@@ -17731,9 +17382,7 @@ export const pokedex = {
             "Surf",
             "Whirlpool"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -17811,9 +17460,7 @@ export const pokedex = {
             "Attract",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Present",
             "Mirror Move",
@@ -17900,9 +17547,7 @@ export const pokedex = {
             "Fly",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -17978,9 +17623,7 @@ export const pokedex = {
             "Surf",
             "Whirlpool"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Crunch",
             "Thrash",
@@ -18071,9 +17714,7 @@ export const pokedex = {
             "Cut",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -18160,11 +17801,7 @@ export const pokedex = {
             "Surf",
             "Strength"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -18517,9 +18154,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -18954,9 +18589,7 @@ export const pokedex = {
             "Rest",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -19024,9 +18657,7 @@ export const pokedex = {
             "Rest",
             "Attract"
         ],
-        "tutor_learnset": [
-            "Flamethrower"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Faint Attack",
             "Hypnosis",
@@ -19115,9 +18746,7 @@ export const pokedex = {
             "Whirlpool",
             "Waterfall"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -19305,10 +18934,7 @@ export const pokedex = {
             "Attract",
             "Thief"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -19390,11 +19016,7 @@ export const pokedex = {
             "Strength",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Flamethrower",
-            "Thunderbolt",
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },
@@ -19516,9 +19138,7 @@ export const pokedex = {
             "Flash",
             "Whirlpool"
         ],
-        "tutor_learnset": [
-            "Ice Beam"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [
             "Body Slam",
             "AncientPower",
@@ -19642,7 +19262,7 @@ export const pokedex = {
             [19, "SonicBoom"],
             [25, "Detect"],
             [31, "Supersonic"],
-            [37, "Wing Attack"],
+            [37, "Swift"],
             [43, "Screech"]
         ],
         "tm_hm_learnset": [
@@ -19747,9 +19367,7 @@ export const pokedex = {
             "Fly",
             "Flash"
         ],
-        "tutor_learnset": [
-            "Thunderbolt"
-        ],
+        "tutor_learnset": [],
         "egg_moves": [],
         "weight": null
     },

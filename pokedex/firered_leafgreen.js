@@ -73,14 +73,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Light Screen",
@@ -170,14 +163,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 13.0
@@ -262,14 +248,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 100.0
@@ -313,8 +292,8 @@ export const pokedex = {
             [1, "Scratch"],
             [1, "Growl"],
             [7, "Ember"],
-            [13, "SmokeScreen"],
-            [19, "Rage"],
+            [13, "Metal Claw"],
+            [19, "SmokeScreen"],
             [25, "Scary Face"],
             [31, "Flamethrower"],
             [37, "Slash"],
@@ -356,17 +335,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Belly Drum",
@@ -420,8 +389,8 @@ export const pokedex = {
             [1, "Growl"],
             [1, "Ember"],
             [7, "Ember"],
-            [13, "SmokeScreen"],
-            [20, "Rage"],
+            [13, "Metal Claw"],
+            [20, "SmokeScreen"],
             [27, "Scary Face"],
             [34, "Flamethrower"],
             [41, "Slash"],
@@ -463,17 +432,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 19.0
@@ -514,13 +473,14 @@ export const pokedex = {
             "Blaze"
         ],
         "level_up_learnset": [
+            [1, "Heat Wave"],
             [1, "Scratch"],
             [1, "Growl"],
             [1, "Ember"],
-            [1, "SmokeScreen"],
+            [1, "Metal Claw"],
             [7, "Ember"],
-            [13, "SmokeScreen"],
-            [20, "Rage"],
+            [13, "Metal Claw"],
+            [20, "SmokeScreen"],
             [27, "Scary Face"],
             [34, "Flamethrower"],
             [36, "Wing Attack"],
@@ -568,17 +528,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 90.5
@@ -665,17 +615,7 @@ export const pokedex = {
             "Counter",
             "Seismic Toss",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Mirror Coat",
@@ -773,17 +713,7 @@ export const pokedex = {
             "Counter",
             "Seismic Toss",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 22.5
@@ -876,17 +806,7 @@ export const pokedex = {
             "Counter",
             "Seismic Toss",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 85.5
@@ -1055,12 +975,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Dream Eater",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 32.0
@@ -1225,13 +1140,7 @@ export const pokedex = {
             "Swords Dance",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 29.5
@@ -1303,13 +1212,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Pursuit",
@@ -1389,13 +1292,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 30.0
@@ -1471,13 +1368,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 39.5
@@ -1560,15 +1451,7 @@ export const pokedex = {
             "Counter",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Screech",
@@ -1606,8 +1489,8 @@ export const pokedex = {
         "type_2": "Normal",
         "catch_rate": 127,
         "base_experience": 116,
-        "common_item": null,
-        "rare_item": null,
+        "common_item": "Oran Berry",
+        "rare_item": "Sitrus Berry",
         "gender_ratio": 127,
         "egg_cycles": 15,
         "base_friendship": 70,
@@ -1664,15 +1547,7 @@ export const pokedex = {
             "Counter",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 18.5
@@ -1744,13 +1619,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Faint Attack",
@@ -1832,13 +1701,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 38.0
@@ -1920,11 +1783,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Pursuit",
@@ -1960,7 +1819,7 @@ export const pokedex = {
         "catch_rate": 90,
         "base_experience": 147,
         "common_item": null,
-        "rare_item": null,
+        "rare_item": "Poison Barb",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -2015,11 +1874,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 65.0
@@ -2048,8 +1903,8 @@ export const pokedex = {
         "type_2": "Electric",
         "catch_rate": 190,
         "base_experience": 82,
-        "common_item": "Oran Berry",
-        "rare_item": "Light Ball",
+        "common_item": null,
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 10,
         "base_friendship": 70,
@@ -2105,17 +1960,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 6.0
@@ -2145,7 +1990,7 @@ export const pokedex = {
         "catch_rate": 75,
         "base_experience": 122,
         "common_item": null,
-        "rare_item": "Oran Berry",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 10,
         "base_friendship": 70,
@@ -2196,17 +2041,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 30.0
@@ -2236,7 +2071,7 @@ export const pokedex = {
         "catch_rate": 255,
         "base_experience": 93,
         "common_item": null,
-        "rare_item": "Quick Claw",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -2290,17 +2125,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Flail",
@@ -2339,7 +2164,7 @@ export const pokedex = {
         "catch_rate": 90,
         "base_experience": 163,
         "common_item": null,
-        "rare_item": "Quick Claw",
+        "rare_item": "Soft Sand",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -2396,17 +2221,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 29.5
@@ -2491,13 +2306,7 @@ export const pokedex = {
             "Double-Edge",
             "Counter",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Supersonic",
@@ -2590,13 +2399,7 @@ export const pokedex = {
             "Double-Edge",
             "Counter",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 20.0
@@ -2641,7 +2444,8 @@ export const pokedex = {
             [1, "Tail Whip"],
             [1, "Double Kick"],
             [1, "Poison Sting"],
-            [23, "Body Slam"]
+            [22, "Body Slam"],
+            [43, "Superpower"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -2693,19 +2497,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 60.0
@@ -2789,13 +2581,7 @@ export const pokedex = {
             "Double-Edge",
             "Counter",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Counter",
@@ -2887,13 +2673,7 @@ export const pokedex = {
             "Double-Edge",
             "Counter",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 19.5
@@ -2938,7 +2718,8 @@ export const pokedex = {
             [1, "Focus Energy"],
             [1, "Double Kick"],
             [1, "Poison Sting"],
-            [23, "Thrash"]
+            [22, "Thrash"],
+            [43, "Megahorn"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -2989,19 +2770,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 62.0
@@ -3030,7 +2799,7 @@ export const pokedex = {
         "type_2": "Normal",
         "catch_rate": 150,
         "base_experience": 68,
-        "common_item": "Leppa Berry",
+        "common_item": null,
         "rare_item": "Moon Stone",
         "gender_ratio": 191,
         "egg_cycles": 10,
@@ -3104,19 +2873,7 @@ export const pokedex = {
             "Softboiled",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 7.5
@@ -3145,7 +2902,7 @@ export const pokedex = {
         "type_2": "Normal",
         "catch_rate": 25,
         "base_experience": 129,
-        "common_item": "Leppa Berry",
+        "common_item": null,
         "rare_item": "Moon Stone",
         "gender_ratio": 191,
         "egg_cycles": 10,
@@ -3211,19 +2968,7 @@ export const pokedex = {
             "Softboiled",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 40.0
@@ -3253,7 +2998,7 @@ export const pokedex = {
         "catch_rate": 190,
         "base_experience": 63,
         "common_item": "Rawst Berry",
-        "rare_item": "Rawst Berry",
+        "rare_item": null,
         "gender_ratio": 191,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -3300,12 +3045,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Faint Attack",
@@ -3344,7 +3084,7 @@ export const pokedex = {
         "catch_rate": 75,
         "base_experience": 178,
         "common_item": "Rawst Berry",
-        "rare_item": "Rawst Berry",
+        "rare_item": null,
         "gender_ratio": 191,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -3386,12 +3126,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 19.9
@@ -3420,7 +3155,7 @@ export const pokedex = {
         "type_2": "Normal",
         "catch_rate": 170,
         "base_experience": 76,
-        "common_item": null,
+        "common_item": "Oran Berry",
         "rare_item": null,
         "gender_ratio": 191,
         "egg_cycles": 10,
@@ -3488,19 +3223,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 5.5
@@ -3529,7 +3252,7 @@ export const pokedex = {
         "type_2": "Normal",
         "catch_rate": 50,
         "base_experience": 109,
-        "common_item": null,
+        "common_item": "Oran Berry",
         "rare_item": null,
         "gender_ratio": 191,
         "egg_cycles": 10,
@@ -3591,19 +3314,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 12.0
@@ -3645,8 +3356,8 @@ export const pokedex = {
         ],
         "level_up_learnset": [
             [1, "Leech Life"],
-            [6, "Supersonic"],
-            [11, "Astonish"],
+            [6, "Astonish"],
+            [11, "Supersonic"],
             [16, "Bite"],
             [21, "Wing Attack"],
             [26, "Confuse Ray"],
@@ -3681,12 +3392,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Quick Attack",
@@ -3736,10 +3442,10 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Screech"],
             [1, "Leech Life"],
-            [1, "Supersonic"],
             [1, "Astonish"],
-            [6, "Supersonic"],
-            [11, "Astonish"],
+            [1, "Supersonic"],
+            [6, "Astonish"],
+            [11, "Supersonic"],
             [16, "Bite"],
             [21, "Wing Attack"],
             [28, "Confuse Ray"],
@@ -3775,12 +3481,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 55.0
@@ -3853,11 +3554,7 @@ export const pokedex = {
             "Swords Dance",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Swords Dance",
@@ -3939,11 +3636,7 @@ export const pokedex = {
             "Swords Dance",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 8.6
@@ -4015,11 +3708,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 18.6
@@ -4099,12 +3788,7 @@ export const pokedex = {
             "Double-Edge",
             "Counter",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "False Swipe",
@@ -4196,12 +3880,7 @@ export const pokedex = {
             "Double-Edge",
             "Counter",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 29.5
@@ -4277,12 +3956,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Baton Pass",
@@ -4317,7 +3991,7 @@ export const pokedex = {
         "catch_rate": 75,
         "base_experience": 138,
         "common_item": null,
-        "rare_item": null,
+        "rare_item": "Silver Powder",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -4368,12 +4042,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 12.5
@@ -4415,11 +4084,12 @@ export const pokedex = {
             "Arena Trap"
         ],
         "level_up_learnset": [
-            [1, "Scratch"],
             [1, "Sand-Attack"],
+            [1, "Scratch"],
             [5, "Growl"],
             [9, "Magnitude"],
             [17, "Dig"],
+            [21, "Fury Swipes"],
             [25, "Mud-Slap"],
             [33, "Slash"],
             [41, "Earthquake"],
@@ -4451,12 +4121,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Faint Attack",
@@ -4509,10 +4174,13 @@ export const pokedex = {
             [1, "Tri Attack"],
             [1, "Scratch"],
             [1, "Sand-Attack"],
+            [1, "Sand-Attack"],
+            [1, "Scratch"],
             [1, "Growl"],
             [5, "Growl"],
             [9, "Magnitude"],
             [17, "Dig"],
+            [21, "Fury Swipes"],
             [25, "Mud-Slap"],
             [26, "Sand Tomb"],
             [38, "Slash"],
@@ -4546,12 +4214,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 33.3
@@ -4581,7 +4244,7 @@ export const pokedex = {
         "catch_rate": 255,
         "base_experience": 69,
         "common_item": null,
-        "rare_item": null,
+        "rare_item": "Nugget",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -4594,13 +4257,14 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Scratch"],
             [1, "Growl"],
-            [11, "Bite"],
-            [20, "Pay Day"],
-            [28, "Faint Attack"],
-            [35, "Screech"],
-            [41, "Fury Swipes"],
-            [46, "Slash"],
-            [50, "Fake Out"]
+            [10, "Bite"],
+            [18, "Pay Day"],
+            [25, "Faint Attack"],
+            [31, "Screech"],
+            [36, "Fury Swipes"],
+            [40, "Slash"],
+            [43, "Fake Out"],
+            [45, "Swagger"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -4635,16 +4299,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Dream Eater",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Spite",
@@ -4695,13 +4350,14 @@ export const pokedex = {
             [1, "Scratch"],
             [1, "Growl"],
             [1, "Bite"],
-            [11, "Bite"],
-            [20, "Pay Day"],
-            [29, "Faint Attack"],
-            [38, "Screech"],
-            [46, "Fury Swipes"],
-            [53, "Slash"],
-            [59, "Fake Out"]
+            [10, "Bite"],
+            [18, "Pay Day"],
+            [25, "Faint Attack"],
+            [34, "Screech"],
+            [42, "Fury Swipes"],
+            [49, "Slash"],
+            [55, "Fake Out"],
+            [61, "Swagger"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -4738,16 +4394,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Dream Eater",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 32.0
@@ -4836,17 +4483,7 @@ export const pokedex = {
             "Counter",
             "Seismic Toss",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Hypnosis",
@@ -4947,18 +4584,7 @@ export const pokedex = {
             "Counter",
             "Seismic Toss",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 76.6
@@ -5001,14 +4627,15 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Scratch"],
             [1, "Leer"],
-            [9, "Low Kick"],
-            [15, "Karate Chop"],
-            [21, "Fury Swipes"],
-            [27, "Focus Energy"],
-            [33, "Seismic Toss"],
-            [39, "Cross Chop"],
-            [45, "Screech"],
-            [51, "Thrash"]
+            [6, "Low Kick"],
+            [11, "Karate Chop"],
+            [16, "Fury Swipes"],
+            [21, "Focus Energy"],
+            [26, "Seismic Toss"],
+            [31, "Cross Chop"],
+            [36, "Swagger"],
+            [41, "Screech"],
+            [46, "Thrash"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -5049,19 +4676,7 @@ export const pokedex = {
             "Mimic",
             "Metronome",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Rock Slide",
@@ -5115,15 +4730,16 @@ export const pokedex = {
             [1, "Leer"],
             [1, "Low Kick"],
             [1, "Rage"],
-            [9, "Low Kick"],
-            [15, "Karate Chop"],
-            [21, "Fury Swipes"],
-            [27, "Focus Energy"],
+            [6, "Low Kick"],
+            [11, "Karate Chop"],
+            [16, "Fury Swipes"],
+            [21, "Focus Energy"],
+            [26, "Seismic Toss"],
             [28, "Rage"],
-            [36, "Seismic Toss"],
-            [45, "Cross Chop"],
-            [54, "Screech"],
-            [63, "Thrash"]
+            [35, "Cross Chop"],
+            [44, "Swagger"],
+            [53, "Screech"],
+            [62, "Thrash"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -5165,19 +4781,7 @@ export const pokedex = {
             "Mimic",
             "Metronome",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 32.0
@@ -5207,7 +4811,7 @@ export const pokedex = {
         "catch_rate": 190,
         "base_experience": 91,
         "common_item": "Rawst Berry",
-        "rare_item": "Rawst Berry",
+        "rare_item": null,
         "gender_ratio": 63,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -5257,12 +4861,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Body Slam",
@@ -5300,7 +4899,7 @@ export const pokedex = {
         "catch_rate": 75,
         "base_experience": 213,
         "common_item": "Rawst Berry",
-        "rare_item": "Rawst Berry",
+        "rare_item": null,
         "gender_ratio": 63,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -5346,12 +4945,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 155.0
@@ -5429,13 +5023,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Mist",
@@ -5473,7 +5061,7 @@ export const pokedex = {
         "catch_rate": 120,
         "base_experience": 131,
         "common_item": null,
-        "rare_item": "Kings Rock",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -5533,15 +5121,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Metronome",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 20.0
@@ -5571,7 +5151,7 @@ export const pokedex = {
         "catch_rate": 45,
         "base_experience": 185,
         "common_item": null,
-        "rare_item": "Kings Rock",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -5630,16 +5210,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Metronome",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 54.0
@@ -5723,16 +5294,7 @@ export const pokedex = {
             "Metronome",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Encore",
@@ -5834,16 +5396,7 @@ export const pokedex = {
             "Metronome",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 56.5
@@ -5939,16 +5492,7 @@ export const pokedex = {
             "Metronome",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 48.0
@@ -6037,16 +5581,7 @@ export const pokedex = {
             "Mimic",
             "Metronome",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Light Screen",
@@ -6084,7 +5619,7 @@ export const pokedex = {
         "catch_rate": 90,
         "base_experience": 146,
         "common_item": null,
-        "rare_item": null,
+        "rare_item": "Focus Band",
         "gender_ratio": 63,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -6144,16 +5679,7 @@ export const pokedex = {
             "Mimic",
             "Metronome",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 70.5
@@ -6183,7 +5709,7 @@ export const pokedex = {
         "catch_rate": 45,
         "base_experience": 193,
         "common_item": null,
-        "rare_item": null,
+        "rare_item": "Focus Band",
         "gender_ratio": 63,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -6244,16 +5770,7 @@ export const pokedex = {
             "Mimic",
             "Metronome",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 130.0
@@ -6329,11 +5846,7 @@ export const pokedex = {
             "Swords Dance",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Swords Dance",
@@ -6419,11 +5932,7 @@ export const pokedex = {
             "Swords Dance",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 6.4
@@ -6464,6 +5973,9 @@ export const pokedex = {
             "Chlorophyll"
         ],
         "level_up_learnset": [
+            [1, "Stockpile"],
+            [1, "Spit Up"],
+            [1, "Swallow"],
             [1, "Vine Whip"],
             [1, "Sleep Powder"],
             [1, "Sweet Scent"],
@@ -6495,11 +6007,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 15.5
@@ -6579,12 +6087,7 @@ export const pokedex = {
             "Swords Dance",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Aurora Beam",
@@ -6674,12 +6177,7 @@ export const pokedex = {
             "Swords Dance",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 55.0
@@ -6709,7 +6207,7 @@ export const pokedex = {
         "catch_rate": 255,
         "base_experience": 86,
         "common_item": null,
-        "rare_item": "Everstone",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 15,
         "base_friendship": 70,
@@ -6766,16 +6264,7 @@ export const pokedex = {
             "Metronome",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Mega Punch",
@@ -6809,7 +6298,7 @@ export const pokedex = {
         "catch_rate": 120,
         "base_experience": 134,
         "common_item": null,
-        "rare_item": "Everstone",
+        "rare_item": "Hard Stone",
         "gender_ratio": 127,
         "egg_cycles": 15,
         "base_friendship": 70,
@@ -6868,16 +6357,7 @@ export const pokedex = {
             "Metronome",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 105.0
@@ -6907,7 +6387,7 @@ export const pokedex = {
         "catch_rate": 45,
         "base_experience": 177,
         "common_item": null,
-        "rare_item": "Everstone",
+        "rare_item": "Hard Stone",
         "gender_ratio": 127,
         "egg_cycles": 15,
         "base_friendship": 70,
@@ -6969,17 +6449,7 @@ export const pokedex = {
             "Metronome",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 300.0
@@ -7021,7 +6491,7 @@ export const pokedex = {
             "Flash Fire"
         ],
         "level_up_learnset": [
-            [1, "Tackle"],
+            [1, "Quick Attack"],
             [5, "Growl"],
             [9, "Tail Whip"],
             [14, "Ember"],
@@ -7055,12 +6525,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Flame Wheel",
@@ -7109,7 +6574,7 @@ export const pokedex = {
             "Flash Fire"
         ],
         "level_up_learnset": [
-            [1, "Tackle"],
+            [1, "Quick Attack"],
             [1, "Growl"],
             [1, "Tail Whip"],
             [1, "Ember"],
@@ -7148,12 +6613,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 95.0
@@ -7183,7 +6643,7 @@ export const pokedex = {
         "catch_rate": 190,
         "base_experience": 99,
         "common_item": null,
-        "rare_item": "Kings Rock",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -7199,12 +6659,13 @@ export const pokedex = {
             [1, "Yawn"],
             [1, "Tackle"],
             [6, "Growl"],
-            [15, "Water Gun"],
-            [20, "Confusion"],
-            [29, "Disable"],
-            [34, "Headbutt"],
-            [43, "Amnesia"],
-            [48, "Psychic"]
+            [13, "Water Gun"],
+            [17, "Confusion"],
+            [24, "Disable"],
+            [29, "Headbutt"],
+            [36, "Amnesia"],
+            [40, "Psychic"],
+            [47, "Psych Up"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -7244,15 +6705,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Safeguard",
@@ -7290,7 +6743,7 @@ export const pokedex = {
         "catch_rate": 75,
         "base_experience": 164,
         "common_item": null,
-        "rare_item": "Kings Rock",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -7307,13 +6760,14 @@ export const pokedex = {
             [1, "Tackle"],
             [1, "Growl"],
             [6, "Growl"],
-            [15, "Water Gun"],
-            [20, "Confusion"],
-            [29, "Disable"],
-            [34, "Headbutt"],
+            [13, "Water Gun"],
+            [17, "Confusion"],
+            [24, "Disable"],
+            [29, "Headbutt"],
+            [36, "Amnesia"],
             [37, "Withdraw"],
-            [46, "Amnesia"],
-            [54, "Psychic"]
+            [44, "Psychic"],
+            [55, "Psych Up"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -7361,18 +6815,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 78.5
@@ -7402,7 +6845,7 @@ export const pokedex = {
         "catch_rate": 190,
         "base_experience": 89,
         "common_item": null,
-        "rare_item": "Metal Coat",
+        "rare_item": null,
         "gender_ratio": 255,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -7448,13 +6891,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 6.0
@@ -7484,7 +6921,7 @@ export const pokedex = {
         "catch_rate": 60,
         "base_experience": 161,
         "common_item": null,
-        "rare_item": "Metal Coat",
+        "rare_item": "Magnet",
         "gender_ratio": 255,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -7533,13 +6970,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 60.0
@@ -7616,14 +7047,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Steel Wing",
@@ -7662,7 +7086,7 @@ export const pokedex = {
         "catch_rate": 190,
         "base_experience": 96,
         "common_item": null,
-        "rare_item": "Sharp Beak",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -7705,13 +7129,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Quick Attack",
@@ -7796,13 +7214,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 85.2
@@ -7831,7 +7243,7 @@ export const pokedex = {
         "type_2": "Water",
         "catch_rate": 190,
         "base_experience": 100,
-        "common_item": null,
+        "common_item": "Aspear Berry",
         "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
@@ -7878,12 +7290,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Lick",
@@ -7921,8 +7328,8 @@ export const pokedex = {
         "type_2": "Ice",
         "catch_rate": 75,
         "base_experience": 176,
-        "common_item": null,
-        "rare_item": null,
+        "common_item": "Aspear Berry",
+        "rare_item": "Never Melt Ice",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -7933,6 +7340,7 @@ export const pokedex = {
             "Thick Fat"
         ],
         "level_up_learnset": [
+            [1, "Signal Beam"],
             [1, "Headbutt"],
             [1, "Growl"],
             [1, "Icy Wind"],
@@ -7973,12 +7381,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 120.0
@@ -8008,7 +7411,7 @@ export const pokedex = {
         "catch_rate": 190,
         "base_experience": 90,
         "common_item": null,
-        "rare_item": "Nugget",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -8061,16 +7464,7 @@ export const pokedex = {
             "Body Slam",
             "Mimic",
             "Explosion",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Haze",
@@ -8108,7 +7502,7 @@ export const pokedex = {
         "catch_rate": 75,
         "base_experience": 157,
         "common_item": null,
-        "rare_item": "Nugget",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -8167,16 +7561,7 @@ export const pokedex = {
             "Body Slam",
             "Mimic",
             "Explosion",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 30.0
@@ -8219,12 +7604,13 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [1, "Withdraw"],
-            [9, "Supersonic"],
-            [17, "Aurora Beam"],
-            [25, "Protect"],
-            [33, "Leer"],
-            [41, "Clamp"],
-            [49, "Ice Beam"]
+            [8, "Icicle Spear"],
+            [15, "Supersonic"],
+            [22, "Aurora Beam"],
+            [29, "Protect"],
+            [36, "Leer"],
+            [43, "Clamp"],
+            [50, "Ice Beam"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -8249,13 +7635,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Explosion",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "BubbleBeam",
@@ -8307,8 +7687,8 @@ export const pokedex = {
             [1, "Supersonic"],
             [1, "Aurora Beam"],
             [1, "Protect"],
-            [33, "Spikes"],
-            [41, "Spike Cannon"]
+            [36, "Spikes"],
+            [43, "Spike Cannon"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -8335,13 +7715,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Explosion",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 132.5
@@ -8385,12 +7759,14 @@ export const pokedex = {
             [1, "Hypnosis"],
             [1, "Lick"],
             [8, "Spite"],
-            [13, "Mean Look"],
-            [16, "Curse"],
-            [21, "Night Shade"],
-            [28, "Confuse Ray"],
-            [33, "Dream Eater"],
-            [36, "Destiny Bond"]
+            [13, "Curse"],
+            [16, "Night Shade"],
+            [21, "Confuse Ray"],
+            [28, "Dream Eater"],
+            [33, "Destiny Bond"],
+            [36, "Shadow Ball"],
+            [41, "Nightmare"],
+            [48, "Mean Look"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -8420,12 +7796,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Explosion",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Psywave",
@@ -8463,7 +7834,7 @@ export const pokedex = {
         "catch_rate": 90,
         "base_experience": 126,
         "common_item": null,
-        "rare_item": null,
+        "rare_item": "Spell Tag",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -8478,13 +7849,15 @@ export const pokedex = {
             [1, "Lick"],
             [1, "Spite"],
             [8, "Spite"],
-            [13, "Mean Look"],
-            [16, "Curse"],
-            [21, "Night Shade"],
+            [13, "Curse"],
+            [16, "Night Shade"],
+            [21, "Confuse Ray"],
             [25, "Shadow Punch"],
-            [31, "Confuse Ray"],
-            [39, "Dream Eater"],
-            [48, "Destiny Bond"]
+            [31, "Dream Eater"],
+            [39, "Destiny Bond"],
+            [45, "Shadow Ball"],
+            [53, "Nightmare"],
+            [64, "Mean Look"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -8514,12 +7887,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Explosion",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 0.1
@@ -8549,7 +7917,7 @@ export const pokedex = {
         "catch_rate": 45,
         "base_experience": 190,
         "common_item": null,
-        "rare_item": null,
+        "rare_item": "Spell Tag",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -8564,13 +7932,15 @@ export const pokedex = {
             [1, "Lick"],
             [1, "Spite"],
             [8, "Spite"],
-            [13, "Mean Look"],
-            [16, "Curse"],
-            [21, "Night Shade"],
+            [13, "Curse"],
+            [16, "Night Shade"],
+            [21, "Confuse Ray"],
             [25, "Shadow Punch"],
-            [31, "Confuse Ray"],
-            [39, "Dream Eater"],
-            [48, "Destiny Bond"]
+            [31, "Dream Eater"],
+            [39, "Destiny Bond"],
+            [45, "Shadow Ball"],
+            [53, "Nightmare"],
+            [64, "Mean Look"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -8613,16 +7983,7 @@ export const pokedex = {
             "Metronome",
             "Dream Eater",
             "Explosion",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 40.5
@@ -8652,7 +8013,7 @@ export const pokedex = {
         "catch_rate": 45,
         "base_experience": 108,
         "common_item": null,
-        "rare_item": null,
+        "rare_item": "Hard Stone",
         "gender_ratio": 127,
         "egg_cycles": 25,
         "base_friendship": 70,
@@ -8666,15 +8027,16 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [1, "Screech"],
-            [9, "Bind"],
-            [13, "Rock Throw"],
-            [21, "Harden"],
-            [25, "Rage"],
-            [33, "Sandstorm"],
-            [37, "Slam"],
+            [8, "Bind"],
+            [12, "Rock Throw"],
+            [19, "Harden"],
+            [23, "Rage"],
+            [30, "DragonBreath"],
+            [34, "Sandstorm"],
+            [41, "Slam"],
             [45, "Iron Tail"],
-            [49, "Sand Tomb"],
-            [57, "Double-Edge"]
+            [52, "Sand Tomb"],
+            [56, "Double-Edge"]
         ],
         "tm_hm_learnset": [
             "Roar",
@@ -8705,13 +8067,7 @@ export const pokedex = {
             "Mimic",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Rock Slide",
@@ -8759,14 +8115,15 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Pound"],
             [1, "Hypnosis"],
-            [10, "Disable"],
-            [18, "Confusion"],
-            [25, "Headbutt"],
-            [31, "Poison Gas"],
-            [36, "Meditate"],
-            [40, "Psychic"],
-            [43, "Psych Up"],
-            [45, "Future Sight"]
+            [7, "Disable"],
+            [11, "Confusion"],
+            [17, "Headbutt"],
+            [21, "Poison Gas"],
+            [27, "Meditate"],
+            [31, "Psychic"],
+            [37, "Psych Up"],
+            [41, "Swagger"],
+            [47, "Future Sight"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -8807,16 +8164,7 @@ export const pokedex = {
             "Metronome",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Barrier",
@@ -8864,18 +8212,20 @@ export const pokedex = {
             "Insomnia"
         ],
         "level_up_learnset": [
+            [1, "Nightmare"],
             [1, "Pound"],
             [1, "Hypnosis"],
             [1, "Disable"],
             [1, "Confusion"],
-            [10, "Disable"],
-            [18, "Confusion"],
-            [25, "Headbutt"],
-            [33, "Poison Gas"],
-            [40, "Meditate"],
-            [49, "Psychic"],
-            [55, "Psych Up"],
-            [60, "Future Sight"]
+            [7, "Disable"],
+            [11, "Confusion"],
+            [17, "Headbutt"],
+            [21, "Poison Gas"],
+            [29, "Meditate"],
+            [35, "Psychic"],
+            [43, "Psych Up"],
+            [49, "Swagger"],
+            [57, "Future Sight"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -8917,16 +8267,7 @@ export const pokedex = {
             "Metronome",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 75.6
@@ -8975,8 +8316,9 @@ export const pokedex = {
             [23, "Mud Shot"],
             [27, "Stomp"],
             [34, "Guillotine"],
-            [41, "Protect"],
-            [45, "Crabhammer"]
+            [38, "Protect"],
+            [45, "Crabhammer"],
+            [49, "Flail"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -9008,14 +8350,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Dig",
@@ -9065,17 +8400,20 @@ export const pokedex = {
             "Shell Armor"
         ],
         "level_up_learnset": [
+            [1, "Metal Claw"],
             [1, "Bubble"],
             [1, "Leer"],
             [1, "ViceGrip"],
+            [1, "Harden"],
             [5, "Leer"],
             [12, "ViceGrip"],
             [16, "Harden"],
             [23, "Mud Shot"],
             [27, "Stomp"],
             [38, "Guillotine"],
-            [49, "Protect"],
-            [57, "Crabhammer"]
+            [42, "Protect"],
+            [57, "Crabhammer"],
+            [65, "Flail"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -9108,14 +8446,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 60.0
@@ -9193,13 +8524,7 @@ export const pokedex = {
             "Mimic",
             "Thunder Wave",
             "Explosion",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 10.4
@@ -9280,13 +8605,7 @@ export const pokedex = {
             "Mimic",
             "Thunder Wave",
             "Explosion",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 66.6
@@ -9367,13 +8686,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Explosion",
-            "Substitute",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Synthesis",
@@ -9458,13 +8771,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Explosion",
-            "Substitute",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 120.0
@@ -9557,16 +8864,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Rock Slide",
@@ -9671,16 +8969,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 45.0
@@ -9767,14 +9056,7 @@ export const pokedex = {
             "Mimic",
             "Metronome",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 49.8
@@ -9860,17 +9142,7 @@ export const pokedex = {
             "Mimic",
             "Metronome",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 50.2
@@ -9971,20 +9243,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Belly Drum",
@@ -10023,7 +9282,7 @@ export const pokedex = {
         "catch_rate": 190,
         "base_experience": 114,
         "common_item": null,
-        "rare_item": "Smoke Ball",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -10073,12 +9332,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Mimic",
             "Explosion",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Screech",
@@ -10115,7 +9369,7 @@ export const pokedex = {
         "catch_rate": 60,
         "base_experience": 173,
         "common_item": null,
-        "rare_item": "Smoke Ball",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -10168,12 +9422,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Mimic",
             "Explosion",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 9.5
@@ -10263,14 +9512,7 @@ export const pokedex = {
             "Counter",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Crunch",
@@ -10379,18 +9621,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 120.0
@@ -10498,17 +9729,7 @@ export const pokedex = {
             "Softboiled",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Present",
@@ -10595,12 +9816,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Flail",
@@ -10709,18 +9925,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Stomp",
@@ -10759,7 +9964,7 @@ export const pokedex = {
         "catch_rate": 225,
         "base_experience": 83,
         "common_item": null,
-        "rare_item": "Dragon Scale",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -10802,13 +10007,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Flail",
@@ -10846,7 +10045,7 @@ export const pokedex = {
         "catch_rate": 75,
         "base_experience": 155,
         "common_item": null,
-        "rare_item": "Dragon Scale",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -10893,13 +10092,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 25.0
@@ -10950,7 +10143,8 @@ export const pokedex = {
             [29, "Fury Attack"],
             [38, "Waterfall"],
             [43, "Horn Drill"],
-            [52, "Agility"]
+            [52, "Agility"],
+            [57, "Megahorn"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -10975,13 +10169,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Psybeam",
@@ -11039,7 +10227,8 @@ export const pokedex = {
             [29, "Fury Attack"],
             [41, "Waterfall"],
             [49, "Horn Drill"],
-            [61, "Agility"]
+            [61, "Agility"],
+            [69, "Megahorn"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -11065,13 +10254,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 39.0
@@ -11155,14 +10338,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 34.5
@@ -11242,14 +10418,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 80.0
@@ -11279,7 +10448,7 @@ export const pokedex = {
         "catch_rate": 45,
         "base_experience": 136,
         "common_item": null,
-        "rare_item": "Leppa Berry",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 25,
         "base_friendship": 70,
@@ -11292,19 +10461,20 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Barrier"],
             [5, "Confusion"],
-            [9, "Substitute"],
-            [13, "Meditate"],
-            [17, "DoubleSlap"],
-            [21, "Light Screen"],
-            [21, "Reflect"],
-            [25, "Encore"],
+            [8, "Substitute"],
+            [12, "Meditate"],
+            [15, "DoubleSlap"],
+            [19, "Light Screen"],
+            [19, "Reflect"],
+            [22, "Magical Leaf"],
+            [26, "Encore"],
             [29, "Psybeam"],
             [33, "Recycle"],
-            [37, "Trick"],
-            [41, "Role Play"],
-            [45, "Psychic"],
-            [49, "Baton Pass"],
-            [53, "Safeguard"]
+            [36, "Trick"],
+            [40, "Role Play"],
+            [43, "Psychic"],
+            [47, "Baton Pass"],
+            [50, "Safeguard"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -11350,16 +10520,7 @@ export const pokedex = {
             "Metronome",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Future Sight",
@@ -11444,13 +10605,7 @@ export const pokedex = {
             "Double-Edge",
             "Counter",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Counter",
@@ -11488,8 +10643,8 @@ export const pokedex = {
         "type_2": "Psychic",
         "catch_rate": 45,
         "base_experience": 137,
-        "common_item": "Aspear Berry",
-        "rare_item": "Aspear Berry",
+        "common_item": null,
+        "rare_item": null,
         "gender_ratio": 254,
         "egg_cycles": 25,
         "base_friendship": 70,
@@ -11554,16 +10709,7 @@ export const pokedex = {
             "Mimic",
             "Metronome",
             "Dream Eater",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 40.6
@@ -11649,17 +10795,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 30.0
@@ -11688,8 +10824,8 @@ export const pokedex = {
         "type_2": "Fire",
         "catch_rate": 45,
         "base_experience": 167,
-        "common_item": "Rawst Berry",
-        "rare_item": "Rawst Berry",
+        "common_item": null,
+        "rare_item": null,
         "gender_ratio": 63,
         "egg_cycles": 25,
         "base_friendship": 70,
@@ -11744,15 +10880,7 @@ export const pokedex = {
             "Counter",
             "Seismic Toss",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 44.5
@@ -11836,12 +10964,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Fury Attack",
@@ -11888,11 +11011,12 @@ export const pokedex = {
         ],
         "level_up_learnset": [
             [1, "Tackle"],
-            [4, "Tail Whip"],
-            [8, "Rage"],
-            [13, "Horn Attack"],
-            [19, "Scary Face"],
-            [26, "Pursuit"],
+            [1, "Tail Whip"],
+            [4, "Rage"],
+            [8, "Horn Attack"],
+            [13, "Scary Face"],
+            [19, "Pursuit"],
+            [26, "Swagger"],
             [34, "Rest"],
             [43, "Thrash"],
             [53, "Take Down"]
@@ -11932,12 +11056,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 88.4
@@ -12070,12 +11189,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 235.0
@@ -12165,12 +11279,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Dream Eater",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Foresight",
@@ -12294,13 +11403,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Charm",
@@ -12390,14 +11493,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 29.0
@@ -12478,13 +11574,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 24.5
@@ -12563,13 +11653,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 25.0
@@ -12653,14 +11737,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 36.5
@@ -12742,13 +11819,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "BubbleBeam",
@@ -12801,6 +11872,7 @@ export const pokedex = {
             [1, "Constrict"],
             [1, "Withdraw"],
             [1, "Bite"],
+            [1, "Water Gun"],
             [13, "Bite"],
             [19, "Water Gun"],
             [25, "Mud Shot"],
@@ -12842,13 +11914,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 35.0
@@ -12932,13 +11998,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "BubbleBeam",
@@ -12988,9 +12048,11 @@ export const pokedex = {
             "Battle Armor"
         ],
         "level_up_learnset": [
+            [1, "Fury Cutter"],
             [1, "Scratch"],
             [1, "Harden"],
             [1, "Absorb"],
+            [1, "Leer"],
             [13, "Absorb"],
             [19, "Leer"],
             [25, "Mud Shot"],
@@ -13039,14 +12101,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 40.5
@@ -13132,12 +12187,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Whirlwind",
@@ -13173,8 +12223,8 @@ export const pokedex = {
         "type_2": "Normal",
         "catch_rate": 25,
         "base_experience": 154,
-        "common_item": "Leftovers",
-        "rare_item": "Leftovers",
+        "common_item": "Chesto Berry",
+        "rare_item": "Chesto Berry",
         "gender_ratio": 31,
         "egg_cycles": 40,
         "base_friendship": 70,
@@ -13187,18 +12237,19 @@ export const pokedex = {
         ],
         "level_up_learnset": [
             [1, "Tackle"],
-            [6, "Amnesia"],
-            [10, "Defense Curl"],
-            [15, "Belly Drum"],
-            [19, "Headbutt"],
-            [24, "Yawn"],
-            [28, "Rest"],
-            [28, "Snore"],
+            [5, "Amnesia"],
+            [9, "Defense Curl"],
+            [13, "Belly Drum"],
+            [17, "Headbutt"],
+            [21, "Yawn"],
+            [25, "Rest"],
+            [29, "Snore"],
             [33, "Body Slam"],
-            [37, "Block"],
-            [42, "Covet"],
-            [46, "Rollout"],
-            [51, "Hyper Beam"]
+            [37, "Sleep Talk"],
+            [41, "Block"],
+            [45, "Covet"],
+            [49, "Rollout"],
+            [53, "Hyper Beam"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -13243,20 +12294,7 @@ export const pokedex = {
             "Mimic",
             "Metronome",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Lick",
@@ -13342,14 +12380,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 55.4
@@ -13429,13 +12460,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 52.6
@@ -13513,13 +12538,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 60.0
@@ -13549,7 +12568,7 @@ export const pokedex = {
         "catch_rate": 45,
         "base_experience": 67,
         "common_item": null,
-        "rare_item": "Dragon Scale",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 40,
         "base_friendship": 35,
@@ -13604,13 +12623,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Light Screen",
@@ -13647,7 +12660,7 @@ export const pokedex = {
         "catch_rate": 45,
         "base_experience": 144,
         "common_item": null,
-        "rare_item": "Dragon Scale",
+        "rare_item": "Dragon Fang",
         "gender_ratio": 127,
         "egg_cycles": 40,
         "base_friendship": 35,
@@ -13704,13 +12717,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 16.5
@@ -13740,7 +12747,7 @@ export const pokedex = {
         "catch_rate": 45,
         "base_experience": 218,
         "common_item": null,
-        "rare_item": "Dragon Scale",
+        "rare_item": "Dragon Fang",
         "gender_ratio": 127,
         "egg_cycles": 40,
         "base_friendship": 35,
@@ -13812,19 +12819,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 210.0
@@ -13868,14 +12863,14 @@ export const pokedex = {
             [1, "Confusion"],
             [1, "Disable"],
             [11, "Barrier"],
-            [22, "Swift"],
-            [33, "Psych Up"],
-            [44, "Future Sight"],
-            [55, "Mist"],
+            [22, "Mist"],
+            [33, "Swift"],
+            [44, "Recover"],
+            [55, "Safeguard"],
             [66, "Psychic"],
-            [77, "Amnesia"],
-            [88, "Recover"],
-            [99, "Safeguard"]
+            [77, "Psych Up"],
+            [88, "Future Sight"],
+            [99, "Amnesia"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -13933,19 +12928,7 @@ export const pokedex = {
             "Metronome",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 122.0
@@ -13974,8 +12957,8 @@ export const pokedex = {
         "type_2": "Psychic",
         "catch_rate": 45,
         "base_experience": 64,
-        "common_item": "Lum Berry",
-        "rare_item": "Lum Berry",
+        "common_item": null,
+        "rare_item": null,
         "gender_ratio": 255,
         "egg_cycles": 120,
         "base_friendship": 100,
@@ -14068,22 +13051,7 @@ export const pokedex = {
             "Thunder Wave",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 4.0
@@ -14112,8 +13080,8 @@ export const pokedex = {
         "type_2": "Grass",
         "catch_rate": 45,
         "base_experience": 64,
-        "common_item": null,
-        "rare_item": null,
+        "common_item": "Lum Berry",
+        "rare_item": "Lum Berry",
         "gender_ratio": 31,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -14163,12 +13131,7 @@ export const pokedex = {
             "Double-Edge",
             "Counter",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Vine Whip",
@@ -14261,13 +13224,7 @@ export const pokedex = {
             "Double-Edge",
             "Counter",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 15.8
@@ -14353,13 +13310,7 @@ export const pokedex = {
             "Double-Edge",
             "Counter",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 100.5
@@ -14432,15 +13383,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Fury Swipes",
@@ -14528,16 +13471,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 19.0
@@ -14624,19 +13558,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 79.5
@@ -14723,15 +13645,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Crunch",
@@ -14831,16 +13745,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 25.0
@@ -14935,16 +13840,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 88.8
@@ -15028,20 +13924,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Double-Edge",
@@ -15141,20 +14024,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 32.5
@@ -15232,13 +14102,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Dream Eater",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Mirror Move",
@@ -15327,13 +14191,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Dream Eater",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 40.8
@@ -15415,16 +14273,7 @@ export const pokedex = {
             "Swords Dance",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "ThunderPunch"
+            "Substitute"
         ],
         "egg_moves": [
             "Psybeam",
@@ -15512,16 +14361,7 @@ export const pokedex = {
             "Swords Dance",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "ThunderPunch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 35.6
@@ -15598,11 +14438,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Psybeam",
@@ -15689,11 +14525,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 33.5
@@ -15736,10 +14568,10 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Screech"],
             [1, "Leech Life"],
-            [1, "Supersonic"],
             [1, "Astonish"],
-            [6, "Supersonic"],
-            [11, "Astonish"],
+            [1, "Supersonic"],
+            [6, "Astonish"],
+            [11, "Supersonic"],
             [16, "Bite"],
             [21, "Wing Attack"],
             [28, "Confuse Ray"],
@@ -15776,12 +14608,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 75.0
@@ -15862,11 +14689,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Flail",
@@ -15953,11 +14776,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 22.5
@@ -15987,7 +14806,7 @@ export const pokedex = {
         "catch_rate": 190,
         "base_experience": 42,
         "common_item": null,
-        "rare_item": "Oran Berry",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 10,
         "base_friendship": 70,
@@ -16032,15 +14851,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Reversal",
@@ -16077,7 +14888,7 @@ export const pokedex = {
         "type_2": "Normal",
         "catch_rate": 150,
         "base_experience": 37,
-        "common_item": "Leppa Berry",
+        "common_item": null,
         "rare_item": "Moon Stone",
         "gender_ratio": 191,
         "egg_cycles": 10,
@@ -16093,7 +14904,8 @@ export const pokedex = {
             [1, "Charm"],
             [4, "Encore"],
             [8, "Sing"],
-            [13, "Sweet Kiss"]
+            [13, "Sweet Kiss"],
+            [17, "Magical Leaf"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -16134,16 +14946,7 @@ export const pokedex = {
             "Softboiled",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Present",
@@ -16181,7 +14984,7 @@ export const pokedex = {
         "type_2": "Normal",
         "catch_rate": 170,
         "base_experience": 39,
-        "common_item": null,
+        "common_item": "Oran Berry",
         "rare_item": null,
         "gender_ratio": 191,
         "egg_cycles": 10,
@@ -16235,16 +15038,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Perish Song",
@@ -16294,14 +15088,16 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Growl"],
             [1, "Charm"],
-            [6, "Metronome"],
-            [11, "Sweet Kiss"],
-            [16, "Yawn"],
-            [21, "Encore"],
-            [26, "Follow Me"],
-            [31, "Wish"],
-            [36, "Safeguard"],
-            [41, "Double-Edge"]
+            [4, "Metronome"],
+            [9, "Sweet Kiss"],
+            [13, "Yawn"],
+            [17, "Encore"],
+            [21, "AncientPower"],
+            [25, "Follow Me"],
+            [29, "Wish"],
+            [33, "Safeguard"],
+            [37, "Double-Edge"],
+            [41, "Baton Pass"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -16341,16 +15137,7 @@ export const pokedex = {
             "Softboiled",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Present",
@@ -16400,16 +15187,21 @@ export const pokedex = {
             "Serene Grace"
         ],
         "level_up_learnset": [
+            [1, "Magical Leaf"],
             [1, "Growl"],
             [1, "Charm"],
-            [6, "Metronome"],
-            [11, "Sweet Kiss"],
-            [16, "Yawn"],
-            [21, "Encore"],
-            [26, "Follow Me"],
-            [31, "Wish"],
-            [36, "Safeguard"],
-            [41, "Double-Edge"]
+            [1, "Metronome"],
+            [1, "Sweet Kiss"],
+            [4, "Metronome"],
+            [9, "Sweet Kiss"],
+            [13, "Yawn"],
+            [17, "Encore"],
+            [21, "AncientPower"],
+            [25, "Follow Me"],
+            [29, "Wish"],
+            [33, "Safeguard"],
+            [37, "Double-Edge"],
+            [41, "Baton Pass"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -16455,16 +15247,7 @@ export const pokedex = {
             "Softboiled",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 3.2
@@ -16546,13 +15329,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Haze",
@@ -16645,13 +15422,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 15.0
@@ -16724,13 +15495,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Take Down",
@@ -16820,16 +15585,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 13.3
@@ -16914,16 +15670,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 61.5
@@ -16996,11 +15743,7 @@ export const pokedex = {
             "Swords Dance",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 5.8
@@ -17085,18 +15828,7 @@ export const pokedex = {
             "Double-Edge",
             "Seismic Toss",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Light Screen",
@@ -17194,18 +15926,7 @@ export const pokedex = {
             "Double-Edge",
             "Seismic Toss",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 28.5
@@ -17291,19 +16012,7 @@ export const pokedex = {
             "Mimic",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Selfdestruct"
@@ -17392,15 +16101,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Metronome",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 33.9
@@ -17474,12 +16175,7 @@ export const pokedex = {
             "Swords Dance",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Confusion",
@@ -17564,12 +16260,7 @@ export const pokedex = {
             "Swords Dance",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 1.0
@@ -17647,12 +16338,7 @@ export const pokedex = {
             "Swords Dance",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 3.0
@@ -17747,19 +16433,7 @@ export const pokedex = {
             "Metronome",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Counter",
@@ -17843,11 +16517,7 @@ export const pokedex = {
             "Swords Dance",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "GrassWhistle",
@@ -17931,11 +16601,7 @@ export const pokedex = {
             "Swords Dance",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 8.5
@@ -17979,14 +16645,15 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [1, "Foresight"],
-            [7, "Quick Attack"],
-            [13, "Double Team"],
-            [19, "SonicBoom"],
-            [25, "Detect"],
-            [31, "Supersonic"],
-            [37, "Uproar"],
-            [43, "Wing Attack"],
-            [49, "Screech"]
+            [6, "Quick Attack"],
+            [12, "Double Team"],
+            [17, "SonicBoom"],
+            [23, "Hypnosis"],
+            [28, "Detect"],
+            [34, "Uproar"],
+            [39, "Wing Attack"],
+            [45, "Supersonic"],
+            [50, "Screech"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -18013,12 +16680,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Dream Eater",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Whirlwind",
@@ -18108,16 +16770,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Body Slam",
@@ -18219,16 +16872,7 @@ export const pokedex = {
             "Counter",
             "Seismic Toss",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 75.0
@@ -18311,14 +16955,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Dream Eater",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 26.5
@@ -18400,14 +17037,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Dream Eater",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 27.0
@@ -18485,15 +17115,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Whirlwind",
@@ -18548,12 +17170,13 @@ export const pokedex = {
             [1, "Yawn"],
             [1, "Tackle"],
             [6, "Growl"],
-            [15, "Water Gun"],
-            [20, "Confusion"],
-            [29, "Disable"],
-            [34, "Headbutt"],
-            [43, "Swagger"],
-            [48, "Psychic"]
+            [13, "Water Gun"],
+            [17, "Confusion"],
+            [24, "Disable"],
+            [29, "Headbutt"],
+            [36, "Swagger"],
+            [40, "Psychic"],
+            [47, "Psych Up"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -18601,18 +17224,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 79.5
@@ -18696,14 +17308,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Screech",
@@ -18885,14 +17490,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Take Down",
@@ -18981,13 +17579,7 @@ export const pokedex = {
             "Mimic",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Reflect",
@@ -19042,6 +17634,7 @@ export const pokedex = {
             [15, "Take Down"],
             [22, "Rapid Spin"],
             [29, "Bide"],
+            [31, "Zap Cannon"],
             [39, "Explosion"],
             [49, "Spikes"],
             [59, "Double-Edge"]
@@ -19076,13 +17669,7 @@ export const pokedex = {
             "Mimic",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 125.8
@@ -19128,11 +17715,13 @@ export const pokedex = {
             [4, "Defense Curl"],
             [11, "Yawn"],
             [14, "Glare"],
-            [21, "Spite"],
-            [24, "Pursuit"],
-            [31, "Screech"],
-            [34, "Take Down"],
-            [41, "Endeavor"]
+            [21, "Rollout"],
+            [24, "Spite"],
+            [31, "Pursuit"],
+            [34, "Screech"],
+            [41, "Take Down"],
+            [44, "Flail"],
+            [51, "Endeavor"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -19174,15 +17763,7 @@ export const pokedex = {
             "Dream Eater",
             "Thunder Wave",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Bide",
@@ -19274,13 +17855,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Metal Claw",
@@ -19330,15 +17905,16 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [1, "Screech"],
-            [9, "Bind"],
-            [13, "Rock Throw"],
-            [21, "Harden"],
-            [25, "Rage"],
-            [33, "Sandstorm"],
-            [37, "Slam"],
+            [8, "Bind"],
+            [12, "Rock Throw"],
+            [19, "Harden"],
+            [23, "Rage"],
+            [30, "DragonBreath"],
+            [34, "Sandstorm"],
+            [41, "Slam"],
             [45, "Iron Tail"],
-            [49, "Crunch"],
-            [57, "Double-Edge"]
+            [52, "Crunch"],
+            [56, "Double-Edge"]
         ],
         "tm_hm_learnset": [
             "Roar",
@@ -19371,14 +17947,7 @@ export const pokedex = {
             "Mimic",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 400.0
@@ -19476,17 +18045,7 @@ export const pokedex = {
             "Mimic",
             "Metronome",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Metronome",
@@ -19597,17 +18156,7 @@ export const pokedex = {
             "Metronome",
             "Thunder Wave",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 48.7
@@ -19652,12 +18201,14 @@ export const pokedex = {
             [1, "Spikes"],
             [1, "Tackle"],
             [1, "Poison Sting"],
-            [10, "Harden"],
-            [10, "Minimize"],
-            [19, "Water Gun"],
-            [28, "Pin Missile"],
-            [37, "Take Down"],
-            [46, "Hydro Pump"]
+            [9, "Harden"],
+            [9, "Minimize"],
+            [13, "Water Gun"],
+            [21, "Pin Missile"],
+            [25, "Revenge"],
+            [33, "Take Down"],
+            [37, "Hydro Pump"],
+            [45, "Destiny Bond"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -19687,15 +18238,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Flail",
@@ -19751,7 +18294,7 @@ export const pokedex = {
             [26, "Metal Claw"],
             [31, "Slash"],
             [36, "Swords Dance"],
-            [41, "Double Team"],
+            [41, "Iron Defense"],
             [46, "Fury Cutter"]
         ],
         "tm_hm_learnset": [
@@ -19781,13 +18324,7 @@ export const pokedex = {
             "Double-Edge",
             "Counter",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 118.0
@@ -19816,8 +18353,8 @@ export const pokedex = {
         "type_2": "Rock",
         "catch_rate": 190,
         "base_experience": 80,
-        "common_item": "Oran Berry",
-        "rare_item": "Oran Berry",
+        "common_item": "Berry Juice",
+        "rare_item": "Berry Juice",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -19863,14 +18400,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Sweet Scent"
@@ -19958,12 +18488,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Harden",
@@ -19998,7 +18523,7 @@ export const pokedex = {
         "catch_rate": 60,
         "base_experience": 132,
         "common_item": null,
-        "rare_item": "Quick Claw",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 35,
@@ -20061,19 +18586,7 @@ export const pokedex = {
             "Counter",
             "Mimic",
             "Dream Eater",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Counter",
@@ -20110,8 +18623,8 @@ export const pokedex = {
         "type_2": "Normal",
         "catch_rate": 120,
         "base_experience": 124,
-        "common_item": null,
-        "rare_item": null,
+        "common_item": "Oran Berry",
+        "rare_item": "Sitrus Berry",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -20170,20 +18683,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Metronome",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Crunch",
@@ -20221,8 +18721,8 @@ export const pokedex = {
         "type_2": "Normal",
         "catch_rate": 60,
         "base_experience": 189,
-        "common_item": null,
-        "rare_item": null,
+        "common_item": "Oran Berry",
+        "rare_item": "Sitrus Berry",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -20286,20 +18786,7 @@ export const pokedex = {
             "Mimic",
             "Metronome",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 125.8
@@ -20375,14 +18862,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Acid Armor",
@@ -20468,14 +18948,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 55.0
@@ -20504,7 +18977,7 @@ export const pokedex = {
         "type_2": "Ground",
         "catch_rate": 225,
         "base_experience": 78,
-        "common_item": null,
+        "common_item": "Aspear Berry",
         "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
@@ -20555,14 +19028,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Take Down",
@@ -20600,8 +19066,8 @@ export const pokedex = {
         "type_2": "Ground",
         "catch_rate": 75,
         "base_experience": 160,
-        "common_item": null,
-        "rare_item": null,
+        "common_item": "Aspear Berry",
+        "rare_item": "Never Melt Ice",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -20655,14 +19121,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 55.8
@@ -20752,14 +19211,7 @@ export const pokedex = {
             "Mimic",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Rock Slide",
@@ -20847,14 +19299,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Aurora Beam",
@@ -20945,14 +19390,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 28.5
@@ -21025,14 +19463,7 @@ export const pokedex = {
             "Counter",
             "Seismic Toss",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Aurora Beam",
@@ -21117,14 +19548,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Twister",
@@ -21161,7 +19585,7 @@ export const pokedex = {
         "catch_rate": 25,
         "base_experience": 168,
         "common_item": null,
-        "rare_item": null,
+        "rare_item": "Sharp Beak",
         "gender_ratio": 127,
         "egg_cycles": 25,
         "base_friendship": 70,
@@ -21212,13 +19636,7 @@ export const pokedex = {
             "Counter",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Drill Peck",
@@ -21309,13 +19727,7 @@ export const pokedex = {
             "Counter",
             "Mimic",
             "Dream Eater",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Fire Spin",
@@ -21412,13 +19824,7 @@ export const pokedex = {
             "Counter",
             "Mimic",
             "Dream Eater",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 35.0
@@ -21496,13 +19902,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 152.0
@@ -21578,14 +19978,7 @@ export const pokedex = {
             "Double-Edge",
             "Counter",
             "Mimic",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Focus Energy",
@@ -21670,14 +20063,7 @@ export const pokedex = {
             "Counter",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 120.0
@@ -21706,8 +20092,8 @@ export const pokedex = {
         "type_2": "Normal",
         "catch_rate": 45,
         "base_experience": 180,
-        "common_item": null,
-        "rare_item": null,
+        "common_item": "Up Grade",
+        "rare_item": "Up Grade",
         "gender_ratio": 255,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -21761,15 +20147,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 32.5
@@ -21812,13 +20190,14 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [7, "Leer"],
-            [13, "Astonish"],
-            [19, "Hypnosis"],
-            [25, "Stomp"],
-            [31, "Sand-Attack"],
+            [11, "Astonish"],
+            [17, "Hypnosis"],
+            [21, "Stomp"],
+            [27, "Sand-Attack"],
+            [31, "Role Play"],
             [37, "Take Down"],
-            [43, "Confuse Ray"],
-            [49, "Calm Mind"]
+            [41, "Confuse Ray"],
+            [47, "Calm Mind"]
         ],
         "tm_hm_learnset": [
             "Calm Mind",
@@ -21855,14 +20234,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Spite",
@@ -21992,13 +20364,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Rapid Spin",
@@ -22087,13 +20453,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 48.0
@@ -22122,8 +20482,8 @@ export const pokedex = {
         "type_2": "Psychic",
         "catch_rate": 45,
         "base_experience": 87,
-        "common_item": "Aspear Berry",
-        "rare_item": "Aspear Berry",
+        "common_item": null,
+        "rare_item": null,
         "gender_ratio": 254,
         "egg_cycles": 25,
         "base_friendship": 70,
@@ -22181,16 +20541,7 @@ export const pokedex = {
             "Mimic",
             "Metronome",
             "Dream Eater",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Meditate",
@@ -22278,17 +20629,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Karate Chop",
@@ -22325,8 +20666,8 @@ export const pokedex = {
         "type_2": "Fire",
         "catch_rate": 45,
         "base_experience": 117,
-        "common_item": "Rawst Berry",
-        "rare_item": "Rawst Berry",
+        "common_item": null,
+        "rare_item": null,
         "gender_ratio": 63,
         "egg_cycles": 25,
         "base_friendship": 70,
@@ -22376,15 +20717,7 @@ export const pokedex = {
             "Counter",
             "Seismic Toss",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Karate Chop",
@@ -22485,20 +20818,7 @@ export const pokedex = {
             "Metronome",
             "Thunder Wave",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Present",
@@ -22615,16 +20935,7 @@ export const pokedex = {
             "Softboiled",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 46.8
@@ -22708,14 +21019,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 178.0
@@ -22798,14 +21102,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 198.0
@@ -22890,15 +21187,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 187.0
@@ -22977,12 +21266,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Pursuit",
@@ -23071,12 +21355,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 152.0
@@ -23179,15 +21458,7 @@ export const pokedex = {
             "Mimic",
             "Thunder Wave",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 202.0
@@ -23286,15 +21557,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 216.0
@@ -23323,8 +21586,8 @@ export const pokedex = {
         "type_2": "Flying",
         "catch_rate": 3,
         "base_experience": 220,
-        "common_item": "Sacred Ash",
-        "rare_item": "Sacred Ash",
+        "common_item": null,
+        "rare_item": null,
         "gender_ratio": 255,
         "egg_cycles": 120,
         "base_friendship": 0,
@@ -23388,14 +21651,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 199.0
@@ -23481,15 +21737,7 @@ export const pokedex = {
             "Mimic",
             "Metronome",
             "Dream Eater",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 5.0
@@ -23578,16 +21826,7 @@ export const pokedex = {
             "Counter",
             "Seismic Toss",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "ThunderPunch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Crunch",
@@ -23686,16 +21925,7 @@ export const pokedex = {
             "Counter",
             "Seismic Toss",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "ThunderPunch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 21.6
@@ -23791,16 +22021,7 @@ export const pokedex = {
             "Counter",
             "Seismic Toss",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "ThunderPunch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 52.2
@@ -23885,13 +22106,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Counter",
@@ -23989,17 +22204,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 19.5
@@ -24095,17 +22300,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 52.0
@@ -24188,15 +22383,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Refresh",
@@ -24295,17 +22482,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 28.0
@@ -24401,17 +22578,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 81.9
@@ -24493,13 +22660,7 @@ export const pokedex = {
             "Double-Edge",
             "Counter",
             "Mimic",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Astonish",
@@ -24592,13 +22753,7 @@ export const pokedex = {
             "Double-Edge",
             "Counter",
             "Mimic",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 37.0
@@ -24684,17 +22839,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Charm",
@@ -24791,17 +22936,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 32.5
@@ -24967,12 +23102,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 28.4
@@ -25094,12 +23224,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 31.6
@@ -25178,12 +23303,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Synthesis",
@@ -25277,17 +23397,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 32.5
@@ -25375,17 +23485,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Metronome",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 55.0
@@ -25461,13 +23561,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Explosion",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Leech Seed",
@@ -25561,17 +23655,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Explosion",
-            "Substitute",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 28.0
@@ -25653,17 +23737,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Explosion",
-            "Substitute",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 59.6
@@ -25738,13 +23812,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Endure",
@@ -25833,14 +23901,7 @@ export const pokedex = {
             "Swords Dance",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 12.0
@@ -25918,13 +23979,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Dream Eater",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 1.2
@@ -25997,13 +24052,7 @@ export const pokedex = {
             "Double-Edge",
             "Counter",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Pursuit",
@@ -26086,13 +24135,7 @@ export const pokedex = {
             "Double-Edge",
             "Counter",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 19.8
@@ -26169,11 +24212,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Fake Tears",
@@ -26272,15 +24311,7 @@ export const pokedex = {
             "Counter",
             "Seismic Toss",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 39.2
@@ -26374,21 +24405,7 @@ export const pokedex = {
             "Metronome",
             "Dream Eater",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Encore",
@@ -26472,14 +24489,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Mist",
@@ -26567,14 +24577,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 28.0
@@ -26649,14 +24652,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Foresight",
@@ -26743,14 +24739,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 3.6
@@ -26834,14 +24823,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Double-Edge",
@@ -26938,14 +24920,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 398.0
@@ -27032,17 +25007,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Helping Hand",
@@ -27133,17 +25098,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 32.6
@@ -27246,22 +25201,7 @@ export const pokedex = {
             "Metronome",
             "Thunder Wave",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Disable",
@@ -27349,13 +25289,7 @@ export const pokedex = {
             "Dream Eater",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 21.5
@@ -27446,13 +25380,7 @@ export const pokedex = {
             "Dream Eater",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 108.0
@@ -27535,18 +25463,7 @@ export const pokedex = {
             "Thunder Wave",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Magnitude",
@@ -27630,12 +25547,7 @@ export const pokedex = {
             "Mimic",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Eruption",
@@ -27736,18 +25648,7 @@ export const pokedex = {
             "Mimic",
             "Metronome",
             "Dream Eater",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Psych Up",
@@ -27830,13 +25731,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Thrash",
@@ -27926,13 +25821,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 23.6
@@ -28007,14 +25896,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Splash",
@@ -28065,13 +25947,14 @@ export const pokedex = {
             [7, "Harden"],
             [10, "ViceGrip"],
             [13, "Leer"],
-            [20, "BubbleBeam"],
-            [23, "Protect"],
-            [26, "Knock Off"],
-            [32, "Taunt"],
-            [35, "Crabhammer"],
-            [38, "Swords Dance"],
-            [44, "Guillotine"]
+            [19, "BubbleBeam"],
+            [22, "Protect"],
+            [25, "Knock Off"],
+            [31, "Taunt"],
+            [34, "Crabhammer"],
+            [37, "Swords Dance"],
+            [43, "Crunch"],
+            [46, "Guillotine"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -28107,14 +25990,7 @@ export const pokedex = {
             "Double-Edge",
             "Counter",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Mud Sport",
@@ -28168,13 +26044,14 @@ export const pokedex = {
             [7, "Harden"],
             [10, "ViceGrip"],
             [13, "Leer"],
-            [20, "BubbleBeam"],
-            [23, "Protect"],
-            [26, "Knock Off"],
-            [34, "Taunt"],
-            [39, "Crabhammer"],
-            [44, "Swords Dance"],
-            [52, "Guillotine"]
+            [19, "BubbleBeam"],
+            [22, "Protect"],
+            [25, "Knock Off"],
+            [33, "Taunt"],
+            [38, "Crabhammer"],
+            [43, "Swords Dance"],
+            [51, "Crunch"],
+            [56, "Guillotine"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -28212,15 +26089,7 @@ export const pokedex = {
             "Double-Edge",
             "Counter",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 32.8
@@ -28288,13 +26157,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Mirror Coat",
@@ -28381,15 +26244,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 162.0
@@ -28467,15 +26322,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Hydro Pump",
@@ -28567,15 +26414,7 @@ export const pokedex = {
         "tutor_learnset": [
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 88.8
@@ -28653,12 +26492,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Focus Energy",
@@ -28746,13 +26580,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 15.3
@@ -28840,15 +26668,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 82.0
@@ -28937,16 +26757,7 @@ export const pokedex = {
             "Mimic",
             "Metronome",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Faint Attack",
@@ -29047,16 +26858,7 @@ export const pokedex = {
             "Mimic",
             "Metronome",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 253.8
@@ -29136,13 +26938,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Crunch",
@@ -29232,13 +27028,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 40.2
@@ -29317,14 +27107,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Howl",
@@ -29416,14 +27199,7 @@ export const pokedex = {
             "Mimic",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 220.0
@@ -29466,6 +27242,7 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Powder Snow"],
             [1, "Growl"],
+            [1, "Defense Curl"],
             [1, "Water Gun"],
             [7, "Encore"],
             [13, "Ice Ball"],
@@ -29507,15 +27284,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Water Sport",
@@ -29567,8 +27336,8 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Powder Snow"],
             [1, "Growl"],
+            [1, "Defense Curl"],
             [1, "Water Gun"],
-            [1, "Encore"],
             [7, "Encore"],
             [13, "Ice Ball"],
             [19, "Body Slam"],
@@ -29610,15 +27379,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 87.6
@@ -29661,8 +27422,8 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Powder Snow"],
             [1, "Growl"],
+            [1, "Defense Curl"],
             [1, "Water Gun"],
-            [1, "Encore"],
             [7, "Encore"],
             [13, "Ice Ball"],
             [19, "Body Slam"],
@@ -29705,15 +27466,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 150.6
@@ -29766,7 +27519,8 @@ export const pokedex = {
             [33, "Spikes"],
             [37, "Needle Arm"],
             [41, "Cotton Spore"],
-            [45, "Sandstorm"]
+            [45, "Sandstorm"],
+            [49, "Destiny Bond"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -29796,15 +27550,7 @@ export const pokedex = {
             "Counter",
             "Seismic Toss",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "GrassWhistle",
@@ -29851,6 +27597,7 @@ export const pokedex = {
             "Sand Veil"
         ],
         "level_up_learnset": [
+            [1, "Revenge"],
             [1, "Poison Sting"],
             [1, "Leer"],
             [1, "Absorb"],
@@ -29865,7 +27612,8 @@ export const pokedex = {
             [35, "Spikes"],
             [41, "Needle Arm"],
             [47, "Cotton Spore"],
-            [53, "Sandstorm"]
+            [53, "Sandstorm"],
+            [59, "Destiny Bond"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -29898,15 +27646,7 @@ export const pokedex = {
             "Counter",
             "Seismic Toss",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 77.4
@@ -29984,12 +27724,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Block",
@@ -30078,14 +27813,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Explosion",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 256.5
@@ -30169,15 +27897,7 @@ export const pokedex = {
             "Dream Eater",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 168.0
@@ -30264,15 +27984,7 @@ export const pokedex = {
             "Dream Eater",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 154.0
@@ -30345,16 +28057,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Encore",
@@ -30446,14 +28149,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Dream Eater",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Future Sight",
@@ -30553,19 +28249,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Dream Eater",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 71.5
@@ -30647,17 +28331,7 @@ export const pokedex = {
             "Mimic",
             "Metronome",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch"
+            "Substitute"
         ],
         "egg_moves": [
             "Substitute",
@@ -30742,17 +28416,7 @@ export const pokedex = {
             "Mimic",
             "Metronome",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch"
+            "Substitute"
         ],
         "egg_moves": [
             "Substitute",
@@ -30848,17 +28512,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch"
+            "Substitute"
         ],
         "egg_moves": [
             "Swords Dance",
@@ -30910,13 +28564,14 @@ export const pokedex = {
             [4, "Meditate"],
             [9, "Confusion"],
             [12, "Detect"],
-            [18, "Hidden Power"],
-            [22, "Mind Reader"],
+            [17, "Hidden Power"],
+            [20, "Swagger"],
+            [25, "Mind Reader"],
             [28, "Calm Mind"],
-            [32, "Hi Jump Kick"],
-            [38, "Psych Up"],
-            [42, "Reversal"],
-            [48, "Recover"]
+            [33, "Hi Jump Kick"],
+            [36, "Psych Up"],
+            [41, "Reversal"],
+            [44, "Recover"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -30954,18 +28609,7 @@ export const pokedex = {
             "Mimic",
             "Metronome",
             "Dream Eater",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Fire Punch",
@@ -31024,13 +28668,14 @@ export const pokedex = {
             [4, "Meditate"],
             [9, "Confusion"],
             [12, "Detect"],
-            [18, "Hidden Power"],
-            [22, "Mind Reader"],
+            [17, "Hidden Power"],
+            [20, "Swagger"],
+            [25, "Mind Reader"],
             [28, "Calm Mind"],
-            [32, "Hi Jump Kick"],
-            [40, "Psych Up"],
-            [46, "Reversal"],
-            [54, "Recover"]
+            [33, "Hi Jump Kick"],
+            [36, "Psych Up"],
+            [47, "Reversal"],
+            [56, "Recover"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -31070,18 +28715,7 @@ export const pokedex = {
             "Metronome",
             "Dream Eater",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 31.5
@@ -31160,14 +28794,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Dream Eater",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [
             "Agility",
@@ -31263,14 +28890,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Dream Eater",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 20.6
@@ -31402,13 +29022,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Dream Eater",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Imprison",
@@ -31513,18 +29127,7 @@ export const pokedex = {
             "Metronome",
             "Dream Eater",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 30.6
@@ -31607,15 +29210,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Spikes",
@@ -31711,18 +29306,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Pursuit",
@@ -31827,18 +29411,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 46.5
@@ -31936,18 +29509,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 130.5
@@ -32033,18 +29595,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Explosion",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Dream Eater",
@@ -32140,18 +29691,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Explosion",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 80.0
@@ -32236,13 +29776,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Headbutt",
@@ -32332,20 +29866,7 @@ export const pokedex = {
             "Counter",
             "Seismic Toss",
             "Mimic",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Take Down",
@@ -32446,20 +29967,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 40.5
@@ -32556,20 +30064,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 84.0
@@ -32639,12 +30134,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Refresh",
@@ -32728,14 +30218,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 27.0
@@ -32813,14 +30296,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 22.6
@@ -32919,16 +30395,7 @@ export const pokedex = {
             "Dream Eater",
             "Thunder Wave",
             "Rock Slide",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Baton Pass",
@@ -33019,13 +30486,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Disable",
@@ -33120,14 +30581,7 @@ export const pokedex = {
             "Metronome",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 12.5
@@ -33208,14 +30662,7 @@ export const pokedex = {
             "Body Slam",
             "Double-Edge",
             "Mimic",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Stockpile",
@@ -33319,21 +30766,7 @@ export const pokedex = {
             "Mimic",
             "Thunder Wave",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Flail",
@@ -33426,14 +30859,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Magnitude",
@@ -33526,15 +30952,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Endeavor",
@@ -33628,15 +31046,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 120.0
@@ -33743,20 +31153,7 @@ export const pokedex = {
             "Mimic",
             "Thunder Wave",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 360.0
@@ -33839,15 +31236,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Future Sight",
@@ -33940,17 +31329,7 @@ export const pokedex = {
             "Mimic",
             "Metronome",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "ThunderPunch"
+            "Substitute"
         ],
         "egg_moves": [
             "Baton Pass",
@@ -34043,17 +31422,7 @@ export const pokedex = {
             "Mimic",
             "Metronome",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "ThunderPunch"
+            "Substitute"
         ],
         "egg_moves": [
             "Baton Pass",
@@ -34132,13 +31501,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [
             "Barrier",
@@ -34226,13 +31589,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 60.4
@@ -34311,13 +31668,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Rapid Spin",
@@ -34409,13 +31760,7 @@ export const pokedex = {
             "Seismic Toss",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 68.2
@@ -34502,18 +31847,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [
             "Disable",
@@ -34561,6 +31895,7 @@ export const pokedex = {
             "Trace"
         ],
         "level_up_learnset": [
+            [1, "Magical Leaf"],
             [1, "Growl"],
             [1, "Confusion"],
             [1, "Double Team"],
@@ -34609,18 +31944,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 20.2
@@ -34711,18 +32035,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 48.4
@@ -34804,13 +32117,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [
             "Hydro Pump",
@@ -34902,15 +32209,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 110.5
@@ -35002,16 +32301,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Rock Slide",
-            "Substitute",
-            "Rollout",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 102.6
@@ -35140,21 +32430,7 @@ export const pokedex = {
             "Mimic",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 202.5
@@ -35243,21 +32519,7 @@ export const pokedex = {
             "Mimic",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 550.0
@@ -35344,19 +32606,7 @@ export const pokedex = {
             "Thunder Wave",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 230.0
@@ -35443,19 +32693,7 @@ export const pokedex = {
             "Thunder Wave",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 175.0
@@ -35544,18 +32782,7 @@ export const pokedex = {
             "Thunder Wave",
             "Explosion",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl",
-            "ThunderPunch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 205.0
@@ -35645,16 +32872,7 @@ export const pokedex = {
             "Mimic",
             "Thunder Wave",
             "Rock Slide",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 352.0
@@ -35752,20 +32970,7 @@ export const pokedex = {
             "Mimic",
             "Thunder Wave",
             "Rock Slide",
-            "Substitute",
-            "DynamicPunch",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 950.0
@@ -35862,16 +33067,7 @@ export const pokedex = {
             "Mimic",
             "Thunder Wave",
             "Rock Slide",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 206.5
@@ -35969,16 +33165,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 40.0
@@ -36076,16 +33263,7 @@ export const pokedex = {
             "Mimic",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Fury Cutter"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 60.0
@@ -36174,20 +33352,7 @@ export const pokedex = {
             "Metronome",
             "Dream Eater",
             "Thunder Wave",
-            "Substitute",
-            "DynamicPunch",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Mud-Slap",
-            "Ice Punch",
-            "Swagger",
-            "Sleep Talk",
-            "Swift",
-            "Defense Curl",
-            "ThunderPunch",
-            "Fire Punch"
+            "Substitute"
         ],
         "egg_moves": [],
         "weight": 1.1
@@ -36685,15 +33850,7 @@ export const pokedex = {
             "Double-Edge",
             "Mimic",
             "Dream Eater",
-            "Substitute",
-            "Rollout",
-            "Psych Up",
-            "Snore",
-            "Icy Wind",
-            "Endure",
-            "Swagger",
-            "Sleep Talk",
-            "Defense Curl"
+            "Substitute"
         ],
         "egg_moves": [
             "Disable",
