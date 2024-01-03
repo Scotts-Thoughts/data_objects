@@ -165,7 +165,8 @@ export const pokedex = {
         "abilities": [],
         "level_up_learnset": [
             [1, "Teleport"],
-            [1, "Kinesis"],
+            [1, "Confusion"],
+            [1, "Disable"],
             [16, "Confusion"],
             [20, "Disable"],
             [27, "Psybeam"],
@@ -707,14 +708,13 @@ export const pokedex = {
         "abilities": [],
         "level_up_learnset": [
             [1, "Confusion"],
-            [10, "Confusion"],
-            [13, "PoisonPowder"],
-            [14, "Stun Spore"],
-            [15, "Sleep Powder"],
-            [18, "Supersonic"],
-            [23, "Whirlwind"],
-            [28, "Gust"],
-            [34, "Psybeam"]
+            [12, "Confusion"],
+            [15, "PoisonPowder"],
+            [16, "Stun Spore"],
+            [17, "Sleep Powder"],
+            [21, "Supersonic"],
+            [26, "Whirlwind"],
+            [32, "Psybeam"]
         ],
         "tm_hm_learnset": [
             "Razor Wind",
@@ -735,8 +735,7 @@ export const pokedex = {
             "Swift",
             "Rest",
             "Psywave",
-            "Substitute",
-            "Flash"
+            "Substitute"
         ],
         "tutor_learnset": [],
         "egg_moves": [],
@@ -819,8 +818,7 @@ export const pokedex = {
         "abilities": [],
         "level_up_learnset": [
             [1, "Pound"],
-            [1, "Tail Whip"],
-            [12, "DoubleSlap"],
+            [1, "DoubleSlap"],
             [24, "Sing"],
             [30, "Growl"],
             [38, "Minimize"],
@@ -942,7 +940,6 @@ export const pokedex = {
             "Rest",
             "Substitute",
             "Cut",
-            "Fly",
             "Strength"
         ],
         "tutor_learnset": [],
@@ -1358,10 +1355,8 @@ export const pokedex = {
         "egg_group_2": null,
         "abilities": [],
         "level_up_learnset": [
+            [1, "Bone Club"],
             [1, "Growl"],
-            [10, "Bone Club"],
-            [13, "Tail Whip"],
-            [18, "Headbutt"],
             [25, "Leer"],
             [31, "Focus Energy"],
             [38, "Thrash"],
@@ -1523,8 +1518,7 @@ export const pokedex = {
             "Bide",
             "Rest",
             "Rock Slide",
-            "Substitute",
-            "Cut"
+            "Substitute"
         ],
         "tutor_learnset": [],
         "egg_moves": [],
@@ -1724,7 +1718,7 @@ export const pokedex = {
         },
         "type_1": "Dragon",
         "type_2": "Dragon",
-        "catch_rate": 27,
+        "catch_rate": 45,
         "base_experience": 144,
         "common_item": null,
         "rare_item": null,
@@ -1797,7 +1791,7 @@ export const pokedex = {
         },
         "type_1": "Dragon",
         "type_2": "Flying",
-        "catch_rate": 9,
+        "catch_rate": 45,
         "base_experience": 218,
         "common_item": null,
         "rare_item": null,
@@ -2055,8 +2049,7 @@ export const pokedex = {
             "Bide",
             "Rest",
             "Rock Slide",
-            "Substitute",
-            "Cut"
+            "Substitute"
         ],
         "tutor_learnset": [],
         "egg_moves": [],
@@ -2097,13 +2090,11 @@ export const pokedex = {
         "abilities": [],
         "level_up_learnset": [
             [1, "Tackle"],
-            [1, "Tail Whip"],
-            [8, "Sand-Attack"],
-            [16, "Growl"],
-            [23, "Quick Attack"],
-            [30, "Bite"],
-            [36, "Focus Energy"],
-            [42, "Take Down"]
+            [1, "Sand-Attack"],
+            [27, "Quick Attack"],
+            [31, "Tail Whip"],
+            [37, "Bite"],
+            [45, "Take Down"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -2627,17 +2618,17 @@ export const pokedex = {
         "abilities": [],
         "level_up_learnset": [
             [1, "Tackle"],
-            [1, "Tail Whip"],
+            [1, "Sand-Attack"],
             [1, "Quick Attack"],
             [1, "Ember"],
-            [8, "Sand-Attack"],
-            [16, "Ember"],
-            [23, "Quick Attack"],
-            [30, "Bite"],
-            [36, "Fire Spin"],
-            [42, "Smog"],
-            [47, "Leer"],
-            [52, "Flamethrower"]
+            [27, "Quick Attack"],
+            [31, "Ember"],
+            [37, "Tail Whip"],
+            [40, "Bite"],
+            [42, "Leer"],
+            [44, "Fire Spin"],
+            [48, "Rage"],
+            [54, "Flamethrower"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -3440,7 +3431,10 @@ export const pokedex = {
         "egg_group_2": null,
         "abilities": [],
         "level_up_learnset": [
-            [1, "Tackle"],
+            [1, "Bite"],
+            [1, "Dragon Rage"],
+            [1, "Leer"],
+            [1, "Hydro Pump"],
             [20, "Bite"],
             [25, "Dragon Rage"],
             [32, "Leer"],
@@ -3993,17 +3987,17 @@ export const pokedex = {
         "abilities": [],
         "level_up_learnset": [
             [1, "Tackle"],
-            [1, "Tail Whip"],
+            [1, "Sand-Attack"],
             [1, "Quick Attack"],
             [1, "ThunderShock"],
-            [8, "Sand-Attack"],
-            [16, "ThunderShock"],
-            [23, "Quick Attack"],
-            [30, "Double Kick"],
-            [36, "Pin Missile"],
-            [42, "Thunder Wave"],
-            [47, "Agility"],
-            [52, "Thunder"]
+            [27, "Quick Attack"],
+            [31, "ThunderShock"],
+            [37, "Tail Whip"],
+            [40, "Thunder Wave"],
+            [42, "Double Kick"],
+            [44, "Agility"],
+            [48, "Pin Missile"],
+            [54, "Thunder"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -4232,7 +4226,6 @@ export const pokedex = {
             "Skull Bash",
             "Rest",
             "Substitute",
-            "Cut",
             "Surf"
         ],
         "tutor_learnset": [],
@@ -4274,7 +4267,8 @@ export const pokedex = {
         "abilities": [],
         "level_up_learnset": [
             [1, "Teleport"],
-            [1, "Kinesis"],
+            [1, "Confusion"],
+            [1, "Disable"],
             [16, "Confusion"],
             [20, "Disable"],
             [27, "Psybeam"],
@@ -5273,13 +5267,11 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Scratch"],
             [1, "Leer"],
-            [9, "Low Kick"],
             [15, "Karate Chop"],
             [21, "Fury Swipes"],
             [27, "Focus Energy"],
             [33, "Seismic Toss"],
-            [39, "Thrash"],
-            [45, "Screech"]
+            [39, "Thrash"]
         ],
         "tm_hm_learnset": [
             "Mega Punch",
@@ -5346,10 +5338,9 @@ export const pokedex = {
         "abilities": [],
         "level_up_learnset": [
             [1, "Bone Club"],
-            [1, "Tail Whip"],
-            [10, "Bone Club"],
-            [13, "Tail Whip"],
-            [18, "Headbutt"],
+            [1, "Growl"],
+            [1, "Leer"],
+            [1, "Focus Energy"],
             [25, "Leer"],
             [33, "Focus Energy"],
             [41, "Thrash"],
@@ -5487,8 +5478,7 @@ export const pokedex = {
         "egg_group_2": null,
         "abilities": [],
         "level_up_learnset": [
-            [1, "Harden"],
-            [7, "Harden"]
+            [1, "Harden"]
         ],
         "tm_hm_learnset": [],
         "tutor_learnset": [],
@@ -5652,6 +5642,7 @@ export const pokedex = {
             "Ice Beam",
             "Blizzard",
             "Hyper Beam",
+            "Pay Day",
             "Submission",
             "Counter",
             "Seismic Toss",
@@ -5923,7 +5914,7 @@ export const pokedex = {
             [1, "Poison Sting"],
             [1, "Thrash"],
             [8, "Horn Attack"],
-            [12, "Double Kick"],
+            [14, "Poison Sting"],
             [23, "Thrash"]
         ],
         "tm_hm_learnset": [
@@ -6003,7 +5994,7 @@ export const pokedex = {
             [1, "Tail Whip"],
             [1, "Body Slam"],
             [8, "Scratch"],
-            [12, "Double Kick"],
+            [14, "Poison Sting"],
             [23, "Body Slam"]
         ],
         "tm_hm_learnset": [
@@ -6081,11 +6072,11 @@ export const pokedex = {
             [1, "Growl"],
             [1, "Tackle"],
             [8, "Scratch"],
-            [12, "Double Kick"],
-            [17, "Poison Sting"],
-            [23, "Tail Whip"],
-            [30, "Bite"],
-            [38, "Fury Swipes"]
+            [14, "Poison Sting"],
+            [21, "Tail Whip"],
+            [29, "Bite"],
+            [36, "Fury Swipes"],
+            [43, "Double Kick"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -6145,11 +6136,11 @@ export const pokedex = {
             [1, "Leer"],
             [1, "Tackle"],
             [8, "Horn Attack"],
-            [12, "Double Kick"],
-            [17, "Poison Sting"],
-            [23, "Focus Energy"],
-            [30, "Fury Attack"],
-            [38, "Horn Drill"]
+            [14, "Poison Sting"],
+            [21, "Focus Energy"],
+            [29, "Fury Attack"],
+            [36, "Horn Drill"],
+            [43, "Double Kick"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -6211,11 +6202,11 @@ export const pokedex = {
             [1, "Tackle"],
             [1, "Scratch"],
             [8, "Scratch"],
-            [12, "Double Kick"],
-            [19, "Poison Sting"],
-            [27, "Tail Whip"],
-            [36, "Bite"],
-            [46, "Fury Swipes"]
+            [14, "Poison Sting"],
+            [23, "Tail Whip"],
+            [32, "Bite"],
+            [41, "Fury Swipes"],
+            [50, "Double Kick"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -6280,11 +6271,11 @@ export const pokedex = {
             [1, "Tackle"],
             [1, "Horn Attack"],
             [8, "Horn Attack"],
-            [12, "Double Kick"],
-            [19, "Poison Sting"],
-            [27, "Focus Energy"],
-            [36, "Fury Attack"],
-            [46, "Horn Drill"]
+            [14, "Poison Sting"],
+            [23, "Focus Energy"],
+            [32, "Fury Attack"],
+            [41, "Horn Drill"],
+            [50, "Double Kick"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -7060,15 +7051,11 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "ThunderShock"],
             [1, "Growl"],
-            [6, "Tail Whip"],
-            [8, "Thunder Wave"],
-            [11, "Quick Attack"],
-            [15, "Double Team"],
-            [20, "Slam"],
-            [26, "Thunderbolt"],
+            [9, "Thunder Wave"],
+            [16, "Quick Attack"],
+            [26, "Swift"],
             [33, "Agility"],
-            [41, "Thunder"],
-            [50, "Light Screen"]
+            [43, "Thunder"]
         ],
         "tm_hm_learnset": [
             "Mega Punch",
@@ -7133,7 +7120,6 @@ export const pokedex = {
         "abilities": [],
         "level_up_learnset": [
             [1, "ViceGrip"],
-            [21, "Bind"],
             [25, "Seismic Toss"],
             [30, "Guillotine"],
             [36, "Focus Energy"],
@@ -7551,16 +7537,13 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Scratch"],
             [1, "Leer"],
-            [1, "Low Kick"],
             [1, "Karate Chop"],
-            [9, "Low Kick"],
+            [1, "Fury Swipes"],
             [15, "Karate Chop"],
             [21, "Fury Swipes"],
             [27, "Focus Energy"],
-            [28, "Rage"],
             [37, "Seismic Toss"],
-            [46, "Thrash"],
-            [45, "Screech"]
+            [46, "Thrash"]
         ],
         "tm_hm_learnset": [
             "Mega Punch",
@@ -8261,8 +8244,7 @@ export const pokedex = {
             [24, "Double Team"],
             [29, "Slash"],
             [35, "Swords Dance"],
-            [42, "Agility"],
-            [50, "Wing Attack"]
+            [42, "Agility"]
         ],
         "tm_hm_learnset": [
             "Swords Dance",
@@ -9114,14 +9096,13 @@ export const pokedex = {
         "abilities": [],
         "level_up_learnset": [
             [1, "Constrict"],
-            [24, "Bind"],
-            [27, "Absorb"],
-            [29, "Vine Whip"],
+            [1, "Bind"],
+            [29, "Absorb"],
             [32, "PoisonPowder"],
             [36, "Stun Spore"],
             [39, "Sleep Powder"],
             [45, "Slam"],
-            [48, "Growth"]
+            [49, "Growth"]
         ],
         "tm_hm_learnset": [
             "Swords Dance",
@@ -9389,18 +9370,17 @@ export const pokedex = {
         "abilities": [],
         "level_up_learnset": [
             [1, "Tackle"],
-            [1, "Tail Whip"],
+            [1, "Sand-Attack"],
             [1, "Quick Attack"],
             [1, "Water Gun"],
-            [8, "Sand-Attack"],
-            [16, "Water Gun"],
-            [23, "Quick Attack"],
-            [30, "Bite"],
-            [36, "Aurora Beam"],
-            [42, "Haze"],
-            [42, "Mist"],
-            [47, "Acid Armor"],
-            [52, "Hydro Pump"]
+            [27, "Quick Attack"],
+            [31, "Water Gun"],
+            [37, "Tail Whip"],
+            [40, "Bite"],
+            [42, "Acid Armor"],
+            [44, "Haze"],
+            [48, "Mist"],
+            [54, "Hydro Pump"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -9463,9 +9443,9 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [1, "Disable"],
-            [1, "Supersonic"],
-            [1, "Confusion"],
-            [22, "PoisonPowder"],
+            [1, "PoisonPowder"],
+            [1, "Leech Life"],
+            [24, "PoisonPowder"],
             [27, "Leech Life"],
             [30, "Stun Spore"],
             [38, "Psybeam"],
@@ -9491,8 +9471,7 @@ export const pokedex = {
             "Swift",
             "Rest",
             "Psywave",
-            "Substitute",
-            "Flash"
+            "Substitute"
         ],
         "tutor_learnset": [],
         "egg_moves": [],
@@ -9534,9 +9513,7 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [1, "Disable"],
-            [11, "Supersonic"],
-            [19, "Confusion"],
-            [22, "PoisonPowder"],
+            [24, "PoisonPowder"],
             [27, "Leech Life"],
             [30, "Stun Spore"],
             [35, "Psybeam"],
@@ -9557,8 +9534,7 @@ export const pokedex = {
             "Bide",
             "Rest",
             "Psywave",
-            "Substitute",
-            "Flash"
+            "Substitute"
         ],
         "tutor_learnset": [],
         "egg_moves": [],

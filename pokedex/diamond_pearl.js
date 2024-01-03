@@ -600,12 +600,11 @@ export const pokedex = {
             [31, "Rock Slide"],
             [37, "Sandstorm"],
             [43, "Rest"],
-            [49, "Power Gem"],
-            [55, "Discharge"],
-            [61, "Stone Edge"],
-            [67, "Zap Cannon"],
-            [73, "Lock-On"],
-            [79, "Earth Power"]
+            [49, "Discharge"],
+            [55, "Stone Edge"],
+            [61, "Zap Cannon"],
+            [67, "Lock-On"],
+            [73, "Earth Power"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -1148,7 +1147,6 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Protect"],
             [10, "Tackle"],
-            [15, "Bug Bite"],
             [20, "Hidden Power"]
         ],
         "tm_hm_learnset": [],
@@ -1196,7 +1194,7 @@ export const pokedex = {
             "Natural Cure"
         ],
         "level_up_learnset": [
-            [1, "Growth"],
+            [1, "Defense Curl"],
             [10, "Magical Leaf"],
             [19, "Leech Seed"],
             [28, "Synthesis"],
@@ -1205,8 +1203,8 @@ export const pokedex = {
             [55, "Worry Seed"],
             [64, "Aromatherapy"],
             [73, "Energy Ball"],
-            [82, "Sweet Kiss"],
-            [91, "Healing Wish"],
+            [82, "GrassWhistle"],
+            [91, "Lucky Chant"],
             [100, "Seed Flare"]
         ],
         "tm_hm_learnset": [
@@ -1297,13 +1295,13 @@ export const pokedex = {
             [1, "Bite"],
             [1, "Poison Sting"],
             [1, "Leer"],
-            [1, "Knock Off"],
-            [6, "Knock Off"],
+            [1, "Pin Missile"],
+            [6, "Leer"],
             [12, "Pin Missile"],
             [17, "Acupressure"],
-            [23, "Scary Face"],
-            [28, "Toxic Spikes"],
-            [34, "Bug Bite"],
+            [23, "Knock Off"],
+            [28, "Scary Face"],
+            [34, "Toxic Spikes"],
             [39, "Poison Fang"],
             [49, "Crunch"],
             [58, "Cross Poison"]
@@ -2673,22 +2671,21 @@ export const pokedex = {
             [1, "Tackle"],
             [1, "Protect"],
             [1, "Selfdestruct"],
-            [1, "Bug Bite"],
+            [1, "Take Down"],
             [6, "Selfdestruct"],
-            [9, "Bug Bite"],
-            [12, "Take Down"],
-            [17, "Rapid Spin"],
-            [20, "Bide"],
-            [23, "Natural Gift"],
-            [28, "Spikes"],
+            [9, "Take Down"],
+            [12, "Rapid Spin"],
+            [17, "Bide"],
+            [20, "Natural Gift"],
+            [23, "Spikes"],
+            [28, "Payback"],
             [31, "Mirror Shot"],
-            [33, "Payback"],
-            [38, "Explosion"],
-            [45, "Iron Defense"],
-            [50, "Gyro Ball"],
-            [55, "Double-Edge"],
-            [62, "Magnet Rise"],
-            [67, "Zap Cannon"]
+            [33, "Explosion"],
+            [38, "Iron Defense"],
+            [45, "Gyro Ball"],
+            [50, "Double-Edge"],
+            [57, "Magnet Rise"],
+            [62, "Zap Cannon"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -3018,12 +3015,11 @@ export const pokedex = {
             [31, "Rock Slide"],
             [37, "Sandstorm"],
             [43, "Rest"],
-            [49, "Power Gem"],
-            [55, "Discharge"],
-            [61, "Stone Edge"],
-            [67, "Zap Cannon"],
-            [73, "Lock-On"],
-            [79, "Earth Power"]
+            [49, "Discharge"],
+            [55, "Stone Edge"],
+            [61, "Zap Cannon"],
+            [67, "Lock-On"],
+            [73, "Earth Power"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -3335,103 +3331,6 @@ export const pokedex = {
             "Whirlpool"
         ],
         "weight": 81.9
-    },
-    "Rotom (Fan)": {
-        "species": "Rotom (Fan)",
-        "rom_id": 506,
-        "national_dex_number": 479,
-        "base_stats": {
-            "hp": 50,
-            "attack": 65,
-            "defense": 107,
-            "speed": 86,
-            "special_attack": 105,
-            "special_defense": 107
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "speed": 1,
-            "special_attack": 1,
-            "special_defense": 0
-        },
-        "type_1": "Electric",
-        "type_2": "Flying",
-        "catch_rate": 45,
-        "base_experience": 132,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 255,
-        "egg_cycles": 20,
-        "base_friendship": 70,
-        "growth_rate": "Medium Fast",
-        "egg_group_1": "Amorphous",
-        "egg_group_2": "Amorphous",
-        "abilities": [
-            "Levitate"
-        ],
-        "level_up_learnset": [
-            [1, "Trick"],
-            [1, "Astonish"],
-            [1, "Thunder Wave"],
-            [1, "ThunderShock"],
-            [1, "Confuse Ray"],
-            [8, "Uproar"],
-            [15, "Double Team"],
-            [22, "Shock Wave"],
-            [29, "Ominous Wind"],
-            [36, "Substitute"],
-            [43, "Charge"],
-            [50, "Discharge"]
-        ],
-        "tm_hm_learnset": [
-            "Toxic",
-            "Hidden Power",
-            "Sunny Day",
-            "Light Screen",
-            "Protect",
-            "Rain Dance",
-            "Frustration",
-            "Thunderbolt",
-            "Thunder",
-            "Return",
-            "Shadow Ball",
-            "Double Team",
-            "Reflect",
-            "Shock Wave",
-            "Facade",
-            "Secret Power",
-            "Rest",
-            "Thief",
-            "Snatch",
-            "Charge Beam",
-            "Endure",
-            "Will-O-Wisp",
-            "Flash",
-            "Thunder Wave",
-            "Psych Up",
-            "Dark Pulse",
-            "Sleep Talk",
-            "Natural Gift",
-            "Dream Eater",
-            "Swagger",
-            "Substitute"
-        ],
-        "tutor_learnset": [
-            "Mud-Slap",
-            "Ominous Wind",
-            "Pain Split",
-            "Signal Beam",
-            "Snore",
-            "Spite",
-            "Sucker Punch",
-            "Swift",
-            "Trick",
-            "Uproar"
-        ],
-        "egg_moves": [],
-        "weight": 0.3
     },
     "Grumpig": {
         "species": "Grumpig",
@@ -4286,8 +4185,8 @@ export const pokedex = {
             "Synchronize"
         ],
         "level_up_learnset": [
-            [1, "Tail Whip"],
             [1, "Tackle"],
+            [1, "Tail Whip"],
             [1, "Helping Hand"],
             [8, "Sand-Attack"],
             [15, "Confusion"],
@@ -4298,8 +4197,7 @@ export const pokedex = {
             [50, "Last Resort"],
             [57, "Psych Up"],
             [64, "Psychic"],
-            [71, "Morning Sun"],
-            [78, "Power Swap"]
+            [71, "Morning Sun"]
         ],
         "tm_hm_learnset": [
             "Calm Mind",
@@ -6125,7 +6023,6 @@ export const pokedex = {
         ],
         "level_up_learnset": [
             [1, "Scratch"],
-            [1, "Feint"],
             [4, "Leer"],
             [9, "Taunt"],
             [12, "Quick Attack"],
@@ -6764,8 +6661,8 @@ export const pokedex = {
             "Volt Absorb"
         ],
         "level_up_learnset": [
-            [1, "Tail Whip"],
             [1, "Tackle"],
+            [1, "Tail Whip"],
             [1, "Helping Hand"],
             [8, "Sand-Attack"],
             [15, "ThunderShock"],
@@ -6776,8 +6673,7 @@ export const pokedex = {
             [50, "Last Resort"],
             [57, "Thunder Wave"],
             [64, "Agility"],
-            [71, "Thunder"],
-            [78, "Discharge"]
+            [71, "Thunder"]
         ],
         "tm_hm_learnset": [
             "Roar",
@@ -7607,19 +7503,18 @@ export const pokedex = {
             [1, "Growl"],
             [1, "Tail Whip"],
             [1, "Tackle"],
-            [4, "Foresight"],
-            [8, "Attract"],
-            [11, "Sing"],
+            [4, "Attract"],
+            [8, "Sing"],
+            [11, "Copycat"],
             [15, "DoubleSlap"],
-            [18, "Copycat"],
-            [22, "Assist"],
-            [25, "Charm"],
-            [29, "Faint Attack"],
-            [32, "Wake-Up Slap"],
-            [36, "Covet"],
-            [39, "Heal Bell"],
-            [42, "Double-Edge"],
-            [46, "Captivate"]
+            [18, "Assist"],
+            [22, "Charm"],
+            [25, "Faint Attack"],
+            [29, "Wake-Up Slap"],
+            [32, "Covet"],
+            [36, "Heal Bell"],
+            [39, "Double-Edge"],
+            [42, "Captivate"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -9012,17 +8907,16 @@ export const pokedex = {
             [1, "Tackle"],
             [1, "Protect"],
             [6, "Selfdestruct"],
-            [9, "Bug Bite"],
-            [12, "Take Down"],
-            [17, "Rapid Spin"],
-            [20, "Bide"],
-            [23, "Natural Gift"],
-            [28, "Spikes"],
-            [31, "Payback"],
-            [34, "Explosion"],
-            [39, "Iron Defense"],
-            [42, "Gyro Ball"],
-            [45, "Double-Edge"]
+            [9, "Take Down"],
+            [12, "Rapid Spin"],
+            [17, "Bide"],
+            [20, "Natural Gift"],
+            [23, "Spikes"],
+            [28, "Payback"],
+            [31, "Explosion"],
+            [34, "Iron Defense"],
+            [39, "Gyro Ball"],
+            [42, "Double-Edge"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -9685,8 +9579,7 @@ export const pokedex = {
         ],
         "level_up_learnset": [
             [1, "Poison Sting"],
-            [1, "String Shot"],
-            [15, "Bug Bite"]
+            [1, "String Shot"]
         ],
         "tm_hm_learnset": [],
         "tutor_learnset": [
@@ -10228,8 +10121,7 @@ export const pokedex = {
             [44, "Nasty Plot"],
             [49, "Assurance"],
             [56, "Captivate"],
-            [61, "Night Slash"],
-            [68, "Feint"]
+            [61, "Night Slash"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -10479,15 +10371,14 @@ export const pokedex = {
             [4, "Bind"],
             [7, "Faint Attack"],
             [10, "Fury Swipes"],
-            [14, "Feint"],
-            [18, "Psybeam"],
-            [22, "Shadow Sneak"],
-            [27, "Slash"],
+            [15, "Psybeam"],
+            [20, "Shadow Sneak"],
+            [25, "Slash"],
             [32, "Screech"],
-            [37, "Substitute"],
-            [43, "Sucker Punch"],
-            [49, "Shadow Claw"],
-            [55, "AncientPower"]
+            [39, "Substitute"],
+            [46, "Sucker Punch"],
+            [55, "Shadow Claw"],
+            [64, "AncientPower"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -10616,12 +10507,12 @@ export const pokedex = {
             [1, "Charge"],
             [5, "Leer"],
             [9, "Charge"],
-            [13, "Spark"],
-            [18, "Bite"],
+            [13, "Bite"],
+            [18, "Spark"],
             [23, "Roar"],
             [28, "Swagger"],
-            [35, "Thunder Fang"],
-            [42, "Crunch"],
+            [35, "Crunch"],
+            [42, "Thunder Fang"],
             [49, "Scary Face"],
             [56, "Discharge"]
         ],
@@ -10724,9 +10615,8 @@ export const pokedex = {
             [50, "Thunder Fang"],
             [57, "Discharge"],
             [64, "Extrasensory"],
-            [71, "Rain Dance"],
-            [78, "Calm Mind"],
-            [85, "Thunder"]
+            [71, "Thunder"],
+            [78, "Calm Mind"]
         ],
         "tm_hm_learnset": [
             "Calm Mind",
@@ -11055,8 +10945,7 @@ export const pokedex = {
             [33, "Amnesia"],
             [38, "Take Down"],
             [43, "Super Fang"],
-            [48, "Superpower"],
-            [53, "Curse"]
+            [48, "Superpower"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -11277,8 +11166,7 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [1, "String Shot"],
-            [5, "Poison Sting"],
-            [15, "Bug Bite"]
+            [5, "Poison Sting"]
         ],
         "tm_hm_learnset": [],
         "tutor_learnset": [
@@ -13823,9 +13711,9 @@ export const pokedex = {
             [1, "Growl"],
             [1, "Foresight"],
             [1, "Hypnosis"],
-            [5, "Hypnosis"],
-            [9, "Peck"],
-            [13, "Uproar"],
+            [5, "Foresight"],
+            [9, "Hypnosis"],
+            [13, "Peck"],
             [17, "Reflect"],
             [22, "Confusion"],
             [27, "Take Down"],
@@ -14039,7 +13927,6 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [10, "Protect"],
-            [15, "Bug Bite"],
             [20, "Hidden Power"],
             [23, "Confusion"],
             [26, "Rock Blast"],
@@ -14140,13 +14027,12 @@ export const pokedex = {
             [1, "Focus Energy"],
             [4, "Poison Gas"],
             [7, "Screech"],
-            [10, "Fury Swipes"],
-            [14, "SmokeScreen"],
-            [18, "Feint"],
-            [22, "Slash"],
-            [27, "Toxic"],
-            [32, "Night Slash"],
-            [38, "Memento"],
+            [11, "Fury Swipes"],
+            [15, "SmokeScreen"],
+            [20, "Toxic"],
+            [25, "Slash"],
+            [31, "Night Slash"],
+            [37, "Memento"],
             [44, "Explosion"]
         ],
         "tm_hm_learnset": [
@@ -14370,10 +14256,9 @@ export const pokedex = {
         ],
         "level_up_learnset": [
             [1, "Rest"],
-            [1, "Confusion"],
             [6, "Imprison"],
             [16, "Detect"],
-            [21, "Swift"],
+            [21, "Confusion"],
             [31, "Uproar"],
             [36, "Future Sight"],
             [46, "Nasty Plot"],
@@ -16179,18 +16064,17 @@ export const pokedex = {
             "Flash Fire"
         ],
         "level_up_learnset": [
-            [1, "Growl"],
             [1, "Tackle"],
-            [6, "Tail Whip"],
-            [10, "Ember"],
-            [15, "Flame Wheel"],
+            [7, "Growl"],
+            [10, "Tail Whip"],
+            [16, "Ember"],
             [19, "Stomp"],
-            [24, "Fire Spin"],
+            [25, "Fire Spin"],
             [28, "Take Down"],
-            [33, "Agility"],
-            [37, "Fire Blast"],
-            [42, "Bounce"],
-            [46, "Flare Blitz"]
+            [34, "Agility"],
+            [38, "Fire Blast"],
+            [44, "Bounce"],
+            [48, "Flare Blitz"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -16622,12 +16506,12 @@ export const pokedex = {
             [1, "Tackle"],
             [5, "Leer"],
             [9, "Charge"],
-            [13, "Spark"],
-            [17, "Bite"],
+            [13, "Bite"],
+            [17, "Spark"],
             [21, "Roar"],
             [25, "Swagger"],
-            [29, "Thunder Fang"],
-            [33, "Crunch"],
+            [29, "Crunch"],
+            [33, "Thunder Fang"],
             [37, "Scary Face"],
             [41, "Discharge"]
         ],
@@ -17024,9 +16908,8 @@ export const pokedex = {
             [25, "Water Pulse"],
             [28, "Aqua Tail"],
             [31, "Skull Bash"],
-            [34, "Iron Defense"],
-            [37, "Rain Dance"],
-            [40, "Hydro Pump"]
+            [34, "Rain Dance"],
+            [37, "Hydro Pump"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -17937,8 +17820,8 @@ export const pokedex = {
             [8, "Bubble"],
             [11, "Water Sport"],
             [15, "Peck"],
-            [18, "BubbleBeam"],
-            [22, "Bide"],
+            [18, "Bide"],
+            [22, "BubbleBeam"],
             [25, "Fury Attack"],
             [29, "Brine"],
             [32, "Whirlpool"],
@@ -18823,14 +18706,13 @@ export const pokedex = {
             [13, "Bite"],
             [15, "Scary Face"],
             [21, "Ice Fang"],
-            [24, "Flail"],
+            [24, "Thrash"],
             [30, "Crunch"],
             [33, "Slash"],
             [39, "Screech"],
-            [42, "Thrash"],
-            [48, "Aqua Tail"],
-            [51, "Superpower"],
-            [57, "Hydro Pump"]
+            [42, "Aqua Tail"],
+            [48, "Superpower"],
+            [51, "Hydro Pump"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -19859,7 +19741,6 @@ export const pokedex = {
         ],
         "level_up_learnset": [
             [1, "Explosion"],
-            [1, "Stomp"],
             [9, "Metal Claw"],
             [17, "Curse"],
             [25, "Superpower"],
@@ -19935,128 +19816,6 @@ export const pokedex = {
         ],
         "egg_moves": [],
         "weight": 205.0
-    },
-    "Giratina (Origin)": {
-        "species": "Giratina (Origin)",
-        "rom_id": 501,
-        "national_dex_number": 487,
-        "base_stats": {
-            "hp": 150,
-            "attack": 120,
-            "defense": 100,
-            "speed": 90,
-            "special_attack": 120,
-            "special_defense": 100
-        },
-        "ev_yield": {
-            "hp": 3,
-            "attack": 0,
-            "defense": 0,
-            "speed": 0,
-            "special_attack": 0,
-            "special_defense": 0
-        },
-        "type_1": "Ghost",
-        "type_2": "Dragon",
-        "catch_rate": 3,
-        "base_experience": 220,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 255,
-        "egg_cycles": 120,
-        "base_friendship": 0,
-        "growth_rate": "Slow",
-        "egg_group_1": "NoEggsDiscovered",
-        "egg_group_2": "NoEggsDiscovered",
-        "abilities": [
-            "Levitate"
-        ],
-        "level_up_learnset": [
-            [1, "DragonBreath"],
-            [1, "Scary Face"],
-            [10, "Ominous Wind"],
-            [20, "AncientPower"],
-            [30, "Dragon Claw"],
-            [40, "Shadow Force"],
-            [50, "Heal Block"],
-            [60, "Earth Power"],
-            [70, "Slash"],
-            [80, "Shadow Claw"],
-            [90, "Aura Sphere"]
-        ],
-        "tm_hm_learnset": [
-            "Dragon Claw",
-            "Calm Mind",
-            "Roar",
-            "Toxic",
-            "Hidden Power",
-            "Sunny Day",
-            "Hyper Beam",
-            "Protect",
-            "Rain Dance",
-            "Safeguard",
-            "Frustration",
-            "Iron Tail",
-            "Thunderbolt",
-            "Thunder",
-            "Earthquake",
-            "Return",
-            "Psychic",
-            "Shadow Ball",
-            "Double Team",
-            "Shock Wave",
-            "Aerial Ace",
-            "Facade",
-            "Secret Power",
-            "Rest",
-            "Steel Wing",
-            "Energy Ball",
-            "Charge Beam",
-            "Endure",
-            "Dragon Pulse",
-            "Will-O-Wisp",
-            "Silver Wind",
-            "Shadow Claw",
-            "Payback",
-            "Giga Impact",
-            "Stone Edge",
-            "Thunder Wave",
-            "Psych Up",
-            "Dark Pulse",
-            "Sleep Talk",
-            "Natural Gift",
-            "Dream Eater",
-            "Swagger",
-            "Substitute",
-            "Cut",
-            "Fly",
-            "Strength",
-            "Whirlpool",
-            "Rock Smash",
-            "Rock Climb"
-        ],
-        "tutor_learnset": [
-            "Air Cutter",
-            "AncientPower",
-            "Aqua Tail",
-            "Draco Meteor",
-            "Earth Power",
-            "Fury Cutter",
-            "Gravity",
-            "Headbutt",
-            "Icy Wind",
-            "Iron Head",
-            "Mud-Slap",
-            "Ominous Wind",
-            "Outrage",
-            "Snore",
-            "Spite",
-            "Swift",
-            "Tailwind",
-            "Twister"
-        ],
-        "egg_moves": [],
-        "weight": 650.0
     },
     "Torkoal": {
         "species": "Torkoal",
@@ -20763,7 +20522,6 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [10, "Protect"],
-            [15, "Bug Bite"],
             [20, "Hidden Power"],
             [23, "Confusion"],
             [26, "Razor Leaf"],
@@ -21191,14 +20949,13 @@ export const pokedex = {
             [13, "Bite"],
             [15, "Scary Face"],
             [20, "Ice Fang"],
-            [22, "Flail"],
+            [22, "Thrash"],
             [27, "Crunch"],
             [29, "Slash"],
             [34, "Screech"],
-            [36, "Thrash"],
-            [41, "Aqua Tail"],
-            [43, "Superpower"],
-            [48, "Hydro Pump"]
+            [36, "Aqua Tail"],
+            [41, "Superpower"],
+            [43, "Hydro Pump"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -21413,14 +21170,13 @@ export const pokedex = {
             [1, "Poison Gas"],
             [4, "Poison Gas"],
             [7, "Screech"],
-            [10, "Fury Swipes"],
-            [14, "SmokeScreen"],
-            [18, "Feint"],
-            [22, "Slash"],
-            [27, "Toxic"],
-            [32, "Night Slash"],
+            [11, "Fury Swipes"],
+            [15, "SmokeScreen"],
+            [20, "Toxic"],
+            [25, "Slash"],
+            [31, "Night Slash"],
             [34, "Flamethrower"],
-            [42, "Memento"],
+            [41, "Memento"],
             [52, "Explosion"]
         ],
         "tm_hm_learnset": [
@@ -21668,16 +21424,16 @@ export const pokedex = {
             "Bad Dreams"
         ],
         "level_up_learnset": [
-            [1, "Ominous Wind"],
+            [1, "Night Shade"],
             [1, "Disable"],
             [11, "Quick Attack"],
             [20, "Hypnosis"],
-            [29, "Faint Attack"],
+            [29, "Pursuit"],
             [38, "Nightmare"],
             [47, "Double Team"],
             [57, "Haze"],
             [66, "Dark Void"],
-            [75, "Nasty Plot"],
+            [75, "Embargo"],
             [84, "Dream Eater"],
             [93, "Dark Pulse"]
         ],
@@ -21908,11 +21664,9 @@ export const pokedex = {
             "Battle Armor"
         ],
         "level_up_learnset": [
-            [1, "Feint"],
             [1, "Scratch"],
             [1, "Harden"],
             [1, "Absorb"],
-            [1, "Leer"],
             [6, "Absorb"],
             [11, "Leer"],
             [16, "Mud Shot"],
@@ -22841,12 +22595,11 @@ export const pokedex = {
             [27, "Uproar"],
             [30, "Pursuit"],
             [33, "AncientPower"],
-            [38, "Feint"],
-            [43, "Slash"],
-            [46, "Screech"],
-            [49, "U-turn"],
-            [54, "Air Slash"],
-            [57, "Bug Buzz"]
+            [38, "Slash"],
+            [43, "Screech"],
+            [46, "U-turn"],
+            [49, "Air Slash"],
+            [54, "Bug Buzz"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -23016,103 +22769,6 @@ export const pokedex = {
             "Skull Bash"
         ],
         "weight": 6.9
-    },
-    "Rotom (Heat)": {
-        "species": "Rotom (Heat)",
-        "rom_id": 503,
-        "national_dex_number": 479,
-        "base_stats": {
-            "hp": 50,
-            "attack": 65,
-            "defense": 107,
-            "speed": 86,
-            "special_attack": 105,
-            "special_defense": 107
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "speed": 1,
-            "special_attack": 1,
-            "special_defense": 0
-        },
-        "type_1": "Electric",
-        "type_2": "Fire",
-        "catch_rate": 45,
-        "base_experience": 132,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 255,
-        "egg_cycles": 20,
-        "base_friendship": 70,
-        "growth_rate": "Medium Fast",
-        "egg_group_1": "Amorphous",
-        "egg_group_2": "Amorphous",
-        "abilities": [
-            "Levitate"
-        ],
-        "level_up_learnset": [
-            [1, "Trick"],
-            [1, "Astonish"],
-            [1, "Thunder Wave"],
-            [1, "ThunderShock"],
-            [1, "Confuse Ray"],
-            [8, "Uproar"],
-            [15, "Double Team"],
-            [22, "Shock Wave"],
-            [29, "Ominous Wind"],
-            [36, "Substitute"],
-            [43, "Charge"],
-            [50, "Discharge"]
-        ],
-        "tm_hm_learnset": [
-            "Toxic",
-            "Hidden Power",
-            "Sunny Day",
-            "Light Screen",
-            "Protect",
-            "Rain Dance",
-            "Frustration",
-            "Thunderbolt",
-            "Thunder",
-            "Return",
-            "Shadow Ball",
-            "Double Team",
-            "Reflect",
-            "Shock Wave",
-            "Facade",
-            "Secret Power",
-            "Rest",
-            "Thief",
-            "Snatch",
-            "Charge Beam",
-            "Endure",
-            "Will-O-Wisp",
-            "Flash",
-            "Thunder Wave",
-            "Psych Up",
-            "Dark Pulse",
-            "Sleep Talk",
-            "Natural Gift",
-            "Dream Eater",
-            "Swagger",
-            "Substitute"
-        ],
-        "tutor_learnset": [
-            "Mud-Slap",
-            "Ominous Wind",
-            "Pain Split",
-            "Signal Beam",
-            "Snore",
-            "Spite",
-            "Sucker Punch",
-            "Swift",
-            "Trick",
-            "Uproar"
-        ],
-        "egg_moves": [],
-        "weight": 0.3
     },
     "Pichu": {
         "species": "Pichu",
@@ -24577,7 +24233,6 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [10, "Protect"],
-            [15, "Bug Bite"],
             [20, "Hidden Power"],
             [23, "Confusion"],
             [26, "Mirror Shot"],
@@ -25630,8 +25285,7 @@ export const pokedex = {
             [57, "Lava Plume"],
             [64, "Extrasensory"],
             [71, "Fire Blast"],
-            [78, "Calm Mind"],
-            [85, "Eruption"]
+            [78, "Calm Mind"]
         ],
         "tm_hm_learnset": [
             "Calm Mind",
@@ -25835,21 +25489,21 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Poison Jab"],
             [1, "Megahorn"],
-            [1, "Growl"],
             [1, "Quick Attack"],
+            [1, "Growl"],
             [1, "Tail Whip"],
             [1, "Ember"],
-            [6, "Tail Whip"],
-            [10, "Ember"],
-            [15, "Flame Wheel"],
+            [7, "Growl"],
+            [10, "Tail Whip"],
+            [16, "Ember"],
             [19, "Stomp"],
-            [24, "Fire Spin"],
+            [25, "Fire Spin"],
             [28, "Take Down"],
-            [33, "Agility"],
-            [37, "Fire Blast"],
+            [34, "Agility"],
+            [38, "Fire Blast"],
             [40, "Fury Attack"],
-            [47, "Bounce"],
-            [56, "Flare Blitz"]
+            [49, "Bounce"],
+            [58, "Flare Blitz"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -26372,8 +26026,8 @@ export const pokedex = {
             "Adaptability"
         ],
         "level_up_learnset": [
-            [1, "Tail Whip"],
             [1, "Tackle"],
+            [1, "Tail Whip"],
             [1, "Helping Hand"],
             [8, "Sand-Attack"],
             [15, "Growl"],
@@ -26795,8 +26449,7 @@ export const pokedex = {
         ],
         "level_up_learnset": [
             [1, "Growl"],
-            [1, "Bide"],
-            [16, "Bug Bite"]
+            [1, "Bide"]
         ],
         "tm_hm_learnset": [],
         "tutor_learnset": [
@@ -27100,8 +26753,7 @@ export const pokedex = {
             [57, "Tailwind"],
             [64, "Extrasensory"],
             [71, "Hydro Pump"],
-            [78, "Calm Mind"],
-            [85, "Blizzard"]
+            [78, "Calm Mind"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -28053,7 +27705,6 @@ export const pokedex = {
             "Own Tempo"
         ],
         "level_up_learnset": [
-            [1, "Power Gem"],
             [1, "Hidden Power"],
             [1, "Curse"],
             [1, "Yawn"],
@@ -29224,13 +28875,12 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Bite"],
             [1, "Poison Sting"],
-            [1, "Leer"],
-            [6, "Knock Off"],
+            [6, "Leer"],
             [12, "Pin Missile"],
             [17, "Acupressure"],
-            [23, "Scary Face"],
-            [28, "Toxic Spikes"],
-            [34, "Bug Bite"],
+            [23, "Knock Off"],
+            [28, "Scary Face"],
+            [34, "Toxic Spikes"],
             [39, "Poison Fang"],
             [45, "Crunch"],
             [50, "Cross Poison"]
@@ -30217,12 +29867,12 @@ export const pokedex = {
             [1, "Leer"],
             [5, "Leer"],
             [9, "Charge"],
-            [13, "Spark"],
-            [18, "Bite"],
+            [13, "Bite"],
+            [18, "Spark"],
             [23, "Roar"],
             [28, "Swagger"],
-            [33, "Thunder Fang"],
-            [38, "Crunch"],
+            [33, "Crunch"],
+            [38, "Thunder Fang"],
             [43, "Scary Face"],
             [48, "Discharge"]
         ],
@@ -30878,10 +30528,9 @@ export const pokedex = {
         ],
         "level_up_learnset": [
             [1, "Rest"],
-            [1, "Confusion"],
             [6, "Imprison"],
             [16, "Protect"],
-            [21, "Swift"],
+            [21, "Confusion"],
             [31, "Lucky Chant"],
             [36, "Future Sight"],
             [46, "Charm"],
@@ -31890,8 +31539,8 @@ export const pokedex = {
             [11, "Swords Dance"],
             [15, "Peck"],
             [16, "Metal Claw"],
-            [19, "BubbleBeam"],
-            [24, "Swagger"],
+            [19, "Swagger"],
+            [24, "BubbleBeam"],
             [28, "Fury Attack"],
             [33, "Brine"],
             [36, "Aqua Jet"],
@@ -32019,10 +31668,9 @@ export const pokedex = {
             [11, "Fake Out"],
             [15, "Fury Swipes"],
             [19, "Water Sport"],
-            [25, "BubbleBeam"],
-            [31, "Zen Headbutt"],
-            [37, "Uproar"],
-            [45, "Hydro Pump"]
+            [27, "Zen Headbutt"],
+            [35, "Uproar"],
+            [43, "Hydro Pump"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -33335,7 +32983,6 @@ export const pokedex = {
         ],
         "level_up_learnset": [
             [1, "Explosion"],
-            [1, "Stomp"],
             [9, "Rock Throw"],
             [17, "Curse"],
             [25, "Superpower"],
@@ -34582,8 +34229,7 @@ export const pokedex = {
             [38, "Nasty Plot"],
             [41, "Assurance"],
             [46, "Captivate"],
-            [49, "Night Slash"],
-            [54, "Feint"]
+            [49, "Night Slash"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -35023,8 +34669,7 @@ export const pokedex = {
             [31, "Agility"],
             [33, "Night Slash"],
             [37, "Air Slash"],
-            [43, "Feint"],
-            [45, "False Swipe"]
+            [43, "False Swipe"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -35400,103 +35045,6 @@ export const pokedex = {
         ],
         "weight": 17.5
     },
-    "Rotom (Frost)": {
-        "species": "Rotom (Frost)",
-        "rom_id": 505,
-        "national_dex_number": 479,
-        "base_stats": {
-            "hp": 50,
-            "attack": 65,
-            "defense": 107,
-            "speed": 86,
-            "special_attack": 105,
-            "special_defense": 107
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "speed": 1,
-            "special_attack": 1,
-            "special_defense": 0
-        },
-        "type_1": "Electric",
-        "type_2": "Ice",
-        "catch_rate": 45,
-        "base_experience": 132,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 255,
-        "egg_cycles": 20,
-        "base_friendship": 70,
-        "growth_rate": "Medium Fast",
-        "egg_group_1": "Amorphous",
-        "egg_group_2": "Amorphous",
-        "abilities": [
-            "Levitate"
-        ],
-        "level_up_learnset": [
-            [1, "Trick"],
-            [1, "Astonish"],
-            [1, "Thunder Wave"],
-            [1, "ThunderShock"],
-            [1, "Confuse Ray"],
-            [8, "Uproar"],
-            [15, "Double Team"],
-            [22, "Shock Wave"],
-            [29, "Ominous Wind"],
-            [36, "Substitute"],
-            [43, "Charge"],
-            [50, "Discharge"]
-        ],
-        "tm_hm_learnset": [
-            "Toxic",
-            "Hidden Power",
-            "Sunny Day",
-            "Light Screen",
-            "Protect",
-            "Rain Dance",
-            "Frustration",
-            "Thunderbolt",
-            "Thunder",
-            "Return",
-            "Shadow Ball",
-            "Double Team",
-            "Reflect",
-            "Shock Wave",
-            "Facade",
-            "Secret Power",
-            "Rest",
-            "Thief",
-            "Snatch",
-            "Charge Beam",
-            "Endure",
-            "Will-O-Wisp",
-            "Flash",
-            "Thunder Wave",
-            "Psych Up",
-            "Dark Pulse",
-            "Sleep Talk",
-            "Natural Gift",
-            "Dream Eater",
-            "Swagger",
-            "Substitute"
-        ],
-        "tutor_learnset": [
-            "Mud-Slap",
-            "Ominous Wind",
-            "Pain Split",
-            "Signal Beam",
-            "Snore",
-            "Spite",
-            "Sucker Punch",
-            "Swift",
-            "Trick",
-            "Uproar"
-        ],
-        "egg_moves": [],
-        "weight": 0.3
-    },
     "Prinplup": {
         "species": "Prinplup",
         "rom_id": 394,
@@ -35540,8 +35088,8 @@ export const pokedex = {
             [11, "Water Sport"],
             [15, "Peck"],
             [16, "Metal Claw"],
-            [19, "BubbleBeam"],
-            [24, "Bide"],
+            [19, "Bide"],
+            [24, "BubbleBeam"],
             [28, "Fury Attack"],
             [33, "Brine"],
             [37, "Whirlpool"],
@@ -35647,7 +35195,6 @@ export const pokedex = {
         ],
         "level_up_learnset": [
             [1, "Explosion"],
-            [1, "Stomp"],
             [9, "Icy Wind"],
             [17, "Curse"],
             [25, "Superpower"],
@@ -36366,10 +35913,9 @@ export const pokedex = {
         ],
         "level_up_learnset": [
             [1, "Rest"],
-            [1, "Confusion"],
             [6, "Imprison"],
             [16, "Endure"],
-            [21, "Swift"],
+            [21, "Confusion"],
             [31, "Yawn"],
             [36, "Future Sight"],
             [46, "Amnesia"],
@@ -37237,9 +36783,8 @@ export const pokedex = {
             [28, "Water Pulse"],
             [32, "Aqua Tail"],
             [39, "Skull Bash"],
-            [46, "Iron Defense"],
-            [53, "Rain Dance"],
-            [60, "Hydro Pump"]
+            [46, "Rain Dance"],
+            [53, "Hydro Pump"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -37355,13 +36900,12 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Withdraw"],
             [1, "Constrict"],
-            [1, "Bide"],
-            [9, "Encore"],
-            [14, "Safeguard"],
-            [22, "Wrap"],
-            [27, "Rest"],
-            [35, "Gastro Acid"],
-            [40, "Bug Bite"],
+            [9, "Bide"],
+            [14, "Encore"],
+            [22, "Safeguard"],
+            [27, "Wrap"],
+            [35, "Rest"],
+            [40, "Gastro Acid"],
             [48, "Power Trick"]
         ],
         "tm_hm_learnset": [
@@ -37850,101 +37394,6 @@ export const pokedex = {
             "Yawn"
         ],
         "weight": 37.0
-    },
-    "Shaymin (Sky)": {
-        "species": "Shaymin (Sky)",
-        "rom_id": 502,
-        "national_dex_number": 492,
-        "base_stats": {
-            "hp": 100,
-            "attack": 103,
-            "defense": 75,
-            "speed": 127,
-            "special_attack": 120,
-            "special_defense": 75
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "speed": 3,
-            "special_attack": 0,
-            "special_defense": 0
-        },
-        "type_1": "Grass",
-        "type_2": "Flying",
-        "catch_rate": 45,
-        "base_experience": 64,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 255,
-        "egg_cycles": 120,
-        "base_friendship": 100,
-        "growth_rate": "Medium Slow",
-        "egg_group_1": "NoEggsDiscovered",
-        "egg_group_2": "NoEggsDiscovered",
-        "abilities": [
-            "Serene Grace"
-        ],
-        "level_up_learnset": [
-            [1, "Growth"],
-            [10, "Magical Leaf"],
-            [19, "Leech Seed"],
-            [28, "Quick Attack"],
-            [37, "Sweet Scent"],
-            [46, "Natural Gift"],
-            [55, "Worry Seed"],
-            [64, "Air Slash"],
-            [73, "Energy Ball"],
-            [82, "Sweet Kiss"],
-            [91, "Leaf Storm"],
-            [100, "Seed Flare"]
-        ],
-        "tm_hm_learnset": [
-            "Toxic",
-            "Bullet Seed",
-            "Hidden Power",
-            "Sunny Day",
-            "Hyper Beam",
-            "Protect",
-            "Giga Drain",
-            "Safeguard",
-            "Frustration",
-            "SolarBeam",
-            "Return",
-            "Psychic",
-            "Double Team",
-            "Facade",
-            "Secret Power",
-            "Rest",
-            "Energy Ball",
-            "Endure",
-            "Giga Impact",
-            "Flash",
-            "Swords Dance",
-            "Psych Up",
-            "Sleep Talk",
-            "Natural Gift",
-            "Grass Knot",
-            "Swagger",
-            "Substitute"
-        ],
-        "tutor_learnset": [
-            "Air Cutter",
-            "Headbutt",
-            "Last Resort",
-            "Mud-Slap",
-            "Ominous Wind",
-            "Seed Bomb",
-            "Snore",
-            "Swift",
-            "Synthesis",
-            "Tailwind",
-            "Worry Seed",
-            "Zen Headbutt"
-        ],
-        "egg_moves": [],
-        "weight": 5.2
     },
     "Fearow": {
         "species": "Fearow",
@@ -38795,8 +38244,8 @@ export const pokedex = {
             "Flash Fire"
         ],
         "level_up_learnset": [
-            [1, "Tail Whip"],
             [1, "Tackle"],
+            [1, "Tail Whip"],
             [1, "Helping Hand"],
             [8, "Sand-Attack"],
             [15, "Ember"],
@@ -38807,8 +38256,7 @@ export const pokedex = {
             [50, "Last Resort"],
             [57, "Smog"],
             [64, "Scary Face"],
-            [71, "Fire Blast"],
-            [78, "Lava Plume"]
+            [71, "Fire Blast"]
         ],
         "tm_hm_learnset": [
             "Roar",
@@ -38903,8 +38351,8 @@ export const pokedex = {
             "Water Absorb"
         ],
         "level_up_learnset": [
-            [1, "Tail Whip"],
             [1, "Tackle"],
+            [1, "Tail Whip"],
             [1, "Helping Hand"],
             [8, "Sand-Attack"],
             [15, "Water Gun"],
@@ -38915,8 +38363,7 @@ export const pokedex = {
             [50, "Last Resort"],
             [57, "Haze"],
             [64, "Acid Armor"],
-            [71, "Hydro Pump"],
-            [78, "Muddy Water"]
+            [71, "Hydro Pump"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -39484,18 +38931,17 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Leer"],
             [1, "Peck"],
-            [6, "Sand-Attack"],
-            [9, "Swift"],
-            [12, "Agility"],
-            [17, "Fury Attack"],
-            [20, "Feint"],
-            [23, "Air Cutter"],
-            [28, "Spikes"],
-            [31, "Metal Sound"],
-            [34, "Steel Wing"],
-            [39, "Air Slash"],
-            [42, "Slash"],
-            [45, "Night Slash"]
+            [7, "Sand-Attack"],
+            [11, "Swift"],
+            [14, "Agility"],
+            [20, "Fury Attack"],
+            [24, "Air Cutter"],
+            [27, "Spikes"],
+            [33, "Metal Sound"],
+            [38, "Steel Wing"],
+            [40, "Air Slash"],
+            [46, "Slash"],
+            [50, "Night Slash"]
         ],
         "tm_hm_learnset": [
             "Roar",
@@ -39705,7 +39151,6 @@ export const pokedex = {
             "Technician"
         ],
         "level_up_learnset": [
-            [1, "Vacuum Wave"],
             [1, "Quick Attack"],
             [1, "Leer"],
             [5, "Focus Energy"],
@@ -39721,8 +39166,7 @@ export const pokedex = {
             [45, "Night Slash"],
             [49, "Double Hit"],
             [53, "Air Slash"],
-            [57, "Swords Dance"],
-            [61, "Feint"]
+            [57, "Swords Dance"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -40077,7 +39521,6 @@ export const pokedex = {
             "Chlorophyll"
         ],
         "level_up_learnset": [
-            [1, "Leaf Blade"],
             [1, "Mega Drain"],
             [1, "Sweet Scent"],
             [1, "Stun Spore"],
@@ -40719,13 +40162,10 @@ export const pokedex = {
             [14, "Leech Life"],
             [18, "Sing"],
             [22, "Focus Energy"],
-            [26, "Slash"],
-            [30, "X-Scissor"],
-            [34, "Screech"],
-            [38, "Taunt"],
-            [42, "Night Slash"],
-            [46, "Bug Buzz"],
-            [50, "Perish Song"]
+            [26, "X-Scissor"],
+            [30, "Screech"],
+            [34, "Bug Buzz"],
+            [38, "Perish Song"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -41716,7 +41156,6 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [10, "Protect"],
-            [15, "Bug Bite"],
             [20, "Hidden Power"],
             [23, "Confusion"],
             [26, "Gust"],
@@ -42213,11 +41652,10 @@ export const pokedex = {
             [25, "Slam"],
             [30, "Rock Polish"],
             [33, "DragonBreath"],
-            [38, "Curse"],
-            [41, "Iron Tail"],
-            [46, "Sand Tomb"],
-            [49, "Double-Edge"],
-            [54, "Stone Edge"]
+            [38, "Iron Tail"],
+            [41, "Sand Tomb"],
+            [46, "Double-Edge"],
+            [49, "Stone Edge"]
         ],
         "tm_hm_learnset": [
             "Roar",
@@ -42641,9 +42079,8 @@ export const pokedex = {
             [28, "Water Pulse"],
             [32, "Aqua Tail"],
             [36, "Skull Bash"],
-            [40, "Iron Defense"],
-            [44, "Rain Dance"],
-            [48, "Hydro Pump"]
+            [40, "Rain Dance"],
+            [44, "Hydro Pump"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -44390,8 +43827,8 @@ export const pokedex = {
             "Snow Cloak"
         ],
         "level_up_learnset": [
-            [1, "Tail Whip"],
             [1, "Tackle"],
+            [1, "Tail Whip"],
             [1, "Helping Hand"],
             [8, "Sand-Attack"],
             [15, "Icy Wind"],
@@ -44402,8 +43839,7 @@ export const pokedex = {
             [50, "Last Resort"],
             [57, "Mirror Coat"],
             [64, "Hail"],
-            [71, "Blizzard"],
-            [78, "Barrier"]
+            [71, "Blizzard"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -45311,8 +44747,7 @@ export const pokedex = {
         ],
         "level_up_learnset": [
             [1, "Sweet Scent"],
-            [1, "Gust"],
-            [13, "Bug Bite"]
+            [1, "Gust"]
         ],
         "tm_hm_learnset": [],
         "tutor_learnset": [
@@ -45812,8 +45247,7 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [1, "Helping Hand"],
-            [1, "Fake Out"],
-            [1, "Foresight"]
+            [1, "Fake Out"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -46497,8 +45931,7 @@ export const pokedex = {
             [32, "Payback"],
             [37, "Shadow Ball"],
             [41, "Perish Song"],
-            [46, "Grudge"],
-            [50, "Power Gem"]
+            [46, "Grudge"]
         ],
         "tm_hm_learnset": [
             "Calm Mind",
@@ -46826,15 +46259,14 @@ export const pokedex = {
             [13, "Bite"],
             [15, "Scary Face"],
             [21, "Ice Fang"],
-            [24, "Flail"],
+            [24, "Thrash"],
             [30, "Agility"],
             [32, "Crunch"],
             [37, "Slash"],
             [45, "Screech"],
-            [50, "Thrash"],
-            [58, "Aqua Tail"],
-            [63, "Superpower"],
-            [71, "Hydro Pump"]
+            [50, "Aqua Tail"],
+            [58, "Superpower"],
+            [63, "Hydro Pump"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -47062,8 +46494,7 @@ export const pokedex = {
             [1, "Sleep Powder"],
             [1, "Sweet Scent"],
             [1, "Razor Leaf"],
-            [47, "Leaf Storm"],
-            [47, "Leaf Blade"]
+            [47, "Leaf Storm"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -47363,10 +46794,9 @@ export const pokedex = {
             [11, "Mist"],
             [15, "Natural Gift"],
             [19, "Mega Drain"],
-            [25, "BubbleBeam"],
-            [31, "Zen Headbutt"],
-            [37, "Rain Dance"],
-            [45, "Energy Ball"]
+            [27, "Zen Headbutt"],
+            [35, "Rain Dance"],
+            [43, "Energy Ball"]
         ],
         "tm_hm_learnset": [
             "Water Pulse",
@@ -47458,7 +46888,6 @@ export const pokedex = {
             "Technician"
         ],
         "level_up_learnset": [
-            [1, "Bullet Punch"],
             [1, "Quick Attack"],
             [1, "Leer"],
             [5, "Focus Energy"],
@@ -47474,8 +46903,7 @@ export const pokedex = {
             [45, "Night Slash"],
             [49, "Double Hit"],
             [53, "Iron Head"],
-            [57, "Swords Dance"],
-            [61, "Feint"]
+            [57, "Swords Dance"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -47649,103 +47077,6 @@ export const pokedex = {
             "Rollout"
         ],
         "weight": 3.9
-    },
-    "Rotom (Mow)": {
-        "species": "Rotom (Mow)",
-        "rom_id": 507,
-        "national_dex_number": 479,
-        "base_stats": {
-            "hp": 50,
-            "attack": 65,
-            "defense": 107,
-            "speed": 86,
-            "special_attack": 105,
-            "special_defense": 107
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "speed": 1,
-            "special_attack": 1,
-            "special_defense": 0
-        },
-        "type_1": "Electric",
-        "type_2": "Grass",
-        "catch_rate": 45,
-        "base_experience": 132,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 255,
-        "egg_cycles": 20,
-        "base_friendship": 70,
-        "growth_rate": "Medium Fast",
-        "egg_group_1": "Amorphous",
-        "egg_group_2": "Amorphous",
-        "abilities": [
-            "Levitate"
-        ],
-        "level_up_learnset": [
-            [1, "Trick"],
-            [1, "Astonish"],
-            [1, "Thunder Wave"],
-            [1, "ThunderShock"],
-            [1, "Confuse Ray"],
-            [8, "Uproar"],
-            [15, "Double Team"],
-            [22, "Shock Wave"],
-            [29, "Ominous Wind"],
-            [36, "Substitute"],
-            [43, "Charge"],
-            [50, "Discharge"]
-        ],
-        "tm_hm_learnset": [
-            "Toxic",
-            "Hidden Power",
-            "Sunny Day",
-            "Light Screen",
-            "Protect",
-            "Rain Dance",
-            "Frustration",
-            "Thunderbolt",
-            "Thunder",
-            "Return",
-            "Shadow Ball",
-            "Double Team",
-            "Reflect",
-            "Shock Wave",
-            "Facade",
-            "Secret Power",
-            "Rest",
-            "Thief",
-            "Snatch",
-            "Charge Beam",
-            "Endure",
-            "Will-O-Wisp",
-            "Flash",
-            "Thunder Wave",
-            "Psych Up",
-            "Dark Pulse",
-            "Sleep Talk",
-            "Natural Gift",
-            "Dream Eater",
-            "Swagger",
-            "Substitute"
-        ],
-        "tutor_learnset": [
-            "Mud-Slap",
-            "Ominous Wind",
-            "Pain Split",
-            "Signal Beam",
-            "Snore",
-            "Spite",
-            "Sucker Punch",
-            "Swift",
-            "Trick",
-            "Uproar"
-        ],
-        "egg_moves": [],
-        "weight": 0.3
     },
     "Skiploom": {
         "species": "Skiploom",
@@ -48350,7 +47681,6 @@ export const pokedex = {
             "Cloud Nine"
         ],
         "level_up_learnset": [
-            [1, "Aqua Jet"],
             [1, "Water Sport"],
             [1, "Scratch"],
             [1, "Tail Whip"],
@@ -49369,9 +48699,8 @@ export const pokedex = {
             [1, "Hypnosis"],
             [1, "DoubleSlap"],
             [1, "Perish Song"],
-            [27, "Swagger"],
-            [37, "Bounce"],
-            [48, "Hyper Voice"]
+            [43, "Bounce"],
+            [53, "Swagger"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -49902,10 +49231,9 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [1, "Growl"],
-            [1, "Foresight"],
-            [5, "Hypnosis"],
-            [9, "Peck"],
-            [13, "Uproar"],
+            [5, "Foresight"],
+            [9, "Hypnosis"],
+            [13, "Peck"],
             [17, "Reflect"],
             [21, "Confusion"],
             [25, "Take Down"],
@@ -50276,11 +49604,10 @@ export const pokedex = {
             [25, "Slam"],
             [30, "Rock Polish"],
             [33, "DragonBreath"],
-            [38, "Curse"],
-            [41, "Iron Tail"],
-            [46, "Crunch"],
-            [49, "Double-Edge"],
-            [54, "Stone Edge"]
+            [38, "Iron Tail"],
+            [41, "Crunch"],
+            [46, "Double-Edge"],
+            [49, "Stone Edge"]
         ],
         "tm_hm_learnset": [
             "Roar",
@@ -52623,8 +51950,8 @@ export const pokedex = {
             "Synchronize"
         ],
         "level_up_learnset": [
-            [1, "Tail Whip"],
             [1, "Tackle"],
+            [1, "Tail Whip"],
             [1, "Helping Hand"],
             [8, "Sand-Attack"],
             [15, "Pursuit"],
@@ -52635,8 +51962,7 @@ export const pokedex = {
             [50, "Last Resort"],
             [57, "Mean Look"],
             [64, "Screech"],
-            [71, "Moonlight"],
-            [78, "Guard Swap"]
+            [71, "Moonlight"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -52957,7 +52283,6 @@ export const pokedex = {
             "Rough Skin"
         ],
         "level_up_learnset": [
-            [1, "Feint"],
             [1, "Leer"],
             [1, "Bite"],
             [1, "Rage"],
@@ -53078,11 +52403,11 @@ export const pokedex = {
             [1, "Fire Punch"],
             [1, "Ice Punch"],
             [1, "ThunderPunch"],
-            [1, "Dizzy Punch"],
+            [1, "Mega Punch"],
             [1, "Knock Off"],
             [1, "Confuse Ray"],
-            [1, "Foresight"],
-            [25, "Revenge"],
+            [1, "Stomp"],
+            [25, "Superpower"],
             [50, "Zen Headbutt"],
             [75, "Crush Grip"],
             [100, "Giga Impact"]
@@ -53329,8 +52654,8 @@ export const pokedex = {
             "Leaf Guard"
         ],
         "level_up_learnset": [
-            [1, "Tail Whip"],
             [1, "Tackle"],
+            [1, "Tail Whip"],
             [1, "Helping Hand"],
             [8, "Sand-Attack"],
             [15, "Razor Leaf"],
@@ -53341,8 +52666,7 @@ export const pokedex = {
             [50, "Last Resort"],
             [57, "GrassWhistle"],
             [64, "Sunny Day"],
-            [71, "Leaf Blade"],
-            [78, "Swords Dance"]
+            [71, "Leaf Blade"]
         ],
         "tm_hm_learnset": [
             "Roar",
@@ -53792,8 +53116,7 @@ export const pokedex = {
             [29, "Amnesia"],
             [33, "Take Down"],
             [37, "Super Fang"],
-            [41, "Superpower"],
-            [45, "Curse"]
+            [41, "Superpower"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -54910,8 +54233,7 @@ export const pokedex = {
         ],
         "level_up_learnset": [
             [1, "Tackle"],
-            [1, "String Shot"],
-            [15, "Bug Bite"]
+            [1, "String Shot"]
         ],
         "tm_hm_learnset": [],
         "tutor_learnset": [
@@ -56495,102 +55817,5 @@ export const pokedex = {
         "tutor_learnset": [],
         "egg_moves": [],
         "weight": 4.0
-    },
-    "Rotom (Wash)": {
-        "species": "Rotom (Wash)",
-        "rom_id": 504,
-        "national_dex_number": 479,
-        "base_stats": {
-            "hp": 50,
-            "attack": 65,
-            "defense": 107,
-            "speed": 86,
-            "special_attack": 105,
-            "special_defense": 107
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "speed": 1,
-            "special_attack": 1,
-            "special_defense": 0
-        },
-        "type_1": "Electric",
-        "type_2": "Water",
-        "catch_rate": 45,
-        "base_experience": 132,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 255,
-        "egg_cycles": 20,
-        "base_friendship": 70,
-        "growth_rate": "Medium Fast",
-        "egg_group_1": "Amorphous",
-        "egg_group_2": "Amorphous",
-        "abilities": [
-            "Levitate"
-        ],
-        "level_up_learnset": [
-            [1, "Trick"],
-            [1, "Astonish"],
-            [1, "Thunder Wave"],
-            [1, "ThunderShock"],
-            [1, "Confuse Ray"],
-            [8, "Uproar"],
-            [15, "Double Team"],
-            [22, "Shock Wave"],
-            [29, "Ominous Wind"],
-            [36, "Substitute"],
-            [43, "Charge"],
-            [50, "Discharge"]
-        ],
-        "tm_hm_learnset": [
-            "Toxic",
-            "Hidden Power",
-            "Sunny Day",
-            "Light Screen",
-            "Protect",
-            "Rain Dance",
-            "Frustration",
-            "Thunderbolt",
-            "Thunder",
-            "Return",
-            "Shadow Ball",
-            "Double Team",
-            "Reflect",
-            "Shock Wave",
-            "Facade",
-            "Secret Power",
-            "Rest",
-            "Thief",
-            "Snatch",
-            "Charge Beam",
-            "Endure",
-            "Will-O-Wisp",
-            "Flash",
-            "Thunder Wave",
-            "Psych Up",
-            "Dark Pulse",
-            "Sleep Talk",
-            "Natural Gift",
-            "Dream Eater",
-            "Swagger",
-            "Substitute"
-        ],
-        "tutor_learnset": [
-            "Mud-Slap",
-            "Ominous Wind",
-            "Pain Split",
-            "Signal Beam",
-            "Snore",
-            "Spite",
-            "Sucker Punch",
-            "Swift",
-            "Trick",
-            "Uproar"
-        ],
-        "egg_moves": [],
-        "weight": 0.3
     }
 }
