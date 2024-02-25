@@ -85,7 +85,12 @@ export const pokedex = {
             "GrassWhistle",
             "Curse"
         ],
-        "weight": 6.9
+        "weight": 6.9,
+        "evolution_family": [
+            {"species": "Ivysaur", "method": "level", "parameter": 16},
+            {"species": "Venusaur", "method": null, "parameter": null},
+            {"species": "Bulbasaur", "method": null, "parameter": null}
+        ]
     },
     "Ivysaur": {
         "species": "Ivysaur",
@@ -166,7 +171,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 13.0
+        "weight": 13.0,
+        "evolution_family": [
+            {"species": "Venusaur", "method": "level", "parameter": 32},
+            {"species": "Bulbasaur", "method": null, "parameter": null},
+            {"species": "Ivysaur", "method": null, "parameter": null}
+        ]
     },
     "Venusaur": {
         "species": "Venusaur",
@@ -251,7 +261,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 100.0
+        "weight": 100.0,
+        "evolution_family": [
+            {"species": "Venusaur", "method": null, "parameter": null},
+            {"species": "Bulbasaur", "method": null, "parameter": null},
+            {"species": "Ivysaur", "method": null, "parameter": null}
+        ]
     },
     "Charmander": {
         "species": "Charmander",
@@ -347,7 +362,12 @@ export const pokedex = {
             "Swords Dance",
             "Dragon Dance"
         ],
-        "weight": 8.5
+        "weight": 8.5,
+        "evolution_family": [
+            {"species": "Charmeleon", "method": "level", "parameter": 16},
+            {"species": "Charmander", "method": null, "parameter": null},
+            {"species": "Charizard", "method": null, "parameter": null}
+        ]
     },
     "Charmeleon": {
         "species": "Charmeleon",
@@ -435,7 +455,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 19.0
+        "weight": 19.0,
+        "evolution_family": [
+            {"species": "Charizard", "method": "level", "parameter": 36},
+            {"species": "Charmander", "method": null, "parameter": null},
+            {"species": "Charmeleon", "method": null, "parameter": null}
+        ]
     },
     "Charizard": {
         "species": "Charizard",
@@ -531,7 +556,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 90.5
+        "weight": 90.5,
+        "evolution_family": [
+            {"species": "Charmander", "method": null, "parameter": null},
+            {"species": "Charmeleon", "method": null, "parameter": null},
+            {"species": "Charizard", "method": null, "parameter": null}
+        ]
     },
     "Squirtle": {
         "species": "Squirtle",
@@ -627,7 +657,12 @@ export const pokedex = {
             "Mud Sport",
             "Yawn"
         ],
-        "weight": 9.0
+        "weight": 9.0,
+        "evolution_family": [
+            {"species": "Wartortle", "method": "level", "parameter": 16},
+            {"species": "Blastoise", "method": null, "parameter": null},
+            {"species": "Squirtle", "method": null, "parameter": null}
+        ]
     },
     "Wartortle": {
         "species": "Wartortle",
@@ -716,7 +751,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 22.5
+        "weight": 22.5,
+        "evolution_family": [
+            {"species": "Blastoise", "method": "level", "parameter": 36},
+            {"species": "Squirtle", "method": null, "parameter": null},
+            {"species": "Wartortle", "method": null, "parameter": null}
+        ]
     },
     "Blastoise": {
         "species": "Blastoise",
@@ -809,7 +849,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 85.5
+        "weight": 85.5,
+        "evolution_family": [
+            {"species": "Blastoise", "method": null, "parameter": null},
+            {"species": "Squirtle", "method": null, "parameter": null},
+            {"species": "Wartortle", "method": null, "parameter": null}
+        ]
     },
     "Caterpie": {
         "species": "Caterpie",
@@ -853,7 +898,12 @@ export const pokedex = {
         "tm_hm_learnset": [],
         "tutor_learnset": [],
         "egg_moves": [],
-        "weight": 2.9
+        "weight": 2.9,
+        "evolution_family": [
+            {"species": "Metapod", "method": "level", "parameter": 7},
+            {"species": "Butterfree", "method": null, "parameter": null},
+            {"species": "Caterpie", "method": null, "parameter": null}
+        ]
     },
     "Metapod": {
         "species": "Metapod",
@@ -897,7 +947,12 @@ export const pokedex = {
         "tm_hm_learnset": [],
         "tutor_learnset": [],
         "egg_moves": [],
-        "weight": 9.9
+        "weight": 9.9,
+        "evolution_family": [
+            {"species": "Butterfree", "method": "level", "parameter": 10},
+            {"species": "Metapod", "method": null, "parameter": null},
+            {"species": "Caterpie", "method": null, "parameter": null}
+        ]
     },
     "Butterfree": {
         "species": "Butterfree",
@@ -978,7 +1033,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 32.0
+        "weight": 32.0,
+        "evolution_family": [
+            {"species": "Butterfree", "method": null, "parameter": null},
+            {"species": "Metapod", "method": null, "parameter": null},
+            {"species": "Caterpie", "method": null, "parameter": null}
+        ]
     },
     "Weedle": {
         "species": "Weedle",
@@ -1022,7 +1082,12 @@ export const pokedex = {
         "tm_hm_learnset": [],
         "tutor_learnset": [],
         "egg_moves": [],
-        "weight": 3.2
+        "weight": 3.2,
+        "evolution_family": [
+            {"species": "Kakuna", "method": "level", "parameter": 7},
+            {"species": "Weedle", "method": null, "parameter": null},
+            {"species": "Beedrill", "method": null, "parameter": null}
+        ]
     },
     "Kakuna": {
         "species": "Kakuna",
@@ -1066,7 +1131,12 @@ export const pokedex = {
         "tm_hm_learnset": [],
         "tutor_learnset": [],
         "egg_moves": [],
-        "weight": 10.0
+        "weight": 10.0,
+        "evolution_family": [
+            {"species": "Beedrill", "method": "level", "parameter": 10},
+            {"species": "Kakuna", "method": null, "parameter": null},
+            {"species": "Weedle", "method": null, "parameter": null}
+        ]
     },
     "Beedrill": {
         "species": "Beedrill",
@@ -1143,7 +1213,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 29.5
+        "weight": 29.5,
+        "evolution_family": [
+            {"species": "Kakuna", "method": null, "parameter": null},
+            {"species": "Weedle", "method": null, "parameter": null},
+            {"species": "Beedrill", "method": null, "parameter": null}
+        ]
     },
     "Pidgey": {
         "species": "Pidgey",
@@ -1221,7 +1296,12 @@ export const pokedex = {
             "Steel Wing",
             "Air Cutter"
         ],
-        "weight": 1.8
+        "weight": 1.8,
+        "evolution_family": [
+            {"species": "Pidgeotto", "method": "level", "parameter": 18},
+            {"species": "Pidgey", "method": null, "parameter": null},
+            {"species": "Pidgeot", "method": null, "parameter": null}
+        ]
     },
     "Pidgeotto": {
         "species": "Pidgeotto",
@@ -1295,7 +1375,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 30.0
+        "weight": 30.0,
+        "evolution_family": [
+            {"species": "Pidgeot", "method": "level", "parameter": 36},
+            {"species": "Pidgey", "method": null, "parameter": null},
+            {"species": "Pidgeotto", "method": null, "parameter": null}
+        ]
     },
     "Pidgeot": {
         "species": "Pidgeot",
@@ -1371,7 +1456,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 39.5
+        "weight": 39.5,
+        "evolution_family": [
+            {"species": "Pidgey", "method": null, "parameter": null},
+            {"species": "Pidgeotto", "method": null, "parameter": null},
+            {"species": "Pidgeot", "method": null, "parameter": null}
+        ]
     },
     "Rattata": {
         "species": "Rattata",
@@ -1463,7 +1553,11 @@ export const pokedex = {
             "Uproar",
             "Swagger"
         ],
-        "weight": 3.5
+        "weight": 3.5,
+        "evolution_family": [
+            {"species": "Raticate", "method": "level", "parameter": 20},
+            {"species": "Rattata", "method": null, "parameter": null}
+        ]
     },
     "Raticate": {
         "species": "Raticate",
@@ -1550,7 +1644,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 18.5
+        "weight": 18.5,
+        "evolution_family": [
+            {"species": "Rattata", "method": null, "parameter": null},
+            {"species": "Raticate", "method": null, "parameter": null}
+        ]
     },
     "Spearow": {
         "species": "Spearow",
@@ -1630,7 +1728,11 @@ export const pokedex = {
             "Astonish",
             "Sky Attack"
         ],
-        "weight": 2.0
+        "weight": 2.0,
+        "evolution_family": [
+            {"species": "Fearow", "method": "level", "parameter": 20},
+            {"species": "Spearow", "method": null, "parameter": null}
+        ]
     },
     "Fearow": {
         "species": "Fearow",
@@ -1704,7 +1806,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 38.0
+        "weight": 38.0,
+        "evolution_family": [
+            {"species": "Spearow", "method": null, "parameter": null},
+            {"species": "Fearow", "method": null, "parameter": null}
+        ]
     },
     "Ekans": {
         "species": "Ekans",
@@ -1792,7 +1898,11 @@ export const pokedex = {
             "Beat Up",
             "Poison Fang"
         ],
-        "weight": 6.9
+        "weight": 6.9,
+        "evolution_family": [
+            {"species": "Arbok", "method": "level", "parameter": 22},
+            {"species": "Ekans", "method": null, "parameter": null}
+        ]
     },
     "Arbok": {
         "species": "Arbok",
@@ -1877,7 +1987,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 65.0
+        "weight": 65.0,
+        "evolution_family": [
+            {"species": "Ekans", "method": null, "parameter": null},
+            {"species": "Arbok", "method": null, "parameter": null}
+        ]
     },
     "Pikachu": {
         "species": "Pikachu",
@@ -1963,7 +2077,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 6.0
+        "weight": 6.0,
+        "evolution_family": [
+            {"species": "Raichu", "method": "item", "parameter": "Thunder Stone"},
+            {"species": "Pikachu", "method": null, "parameter": null},
+            {"species": "Pichu", "method": null, "parameter": null}
+        ]
     },
     "Raichu": {
         "species": "Raichu",
@@ -2044,7 +2163,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 30.0
+        "weight": 30.0,
+        "evolution_family": [
+            {"species": "Raichu", "method": null, "parameter": null},
+            {"species": "Pikachu", "method": null, "parameter": null},
+            {"species": "Pichu", "method": null, "parameter": null}
+        ]
     },
     "Sandshrew": {
         "species": "Sandshrew",
@@ -2137,7 +2261,11 @@ export const pokedex = {
             "Swords Dance",
             "Crush Claw"
         ],
-        "weight": 12.0
+        "weight": 12.0,
+        "evolution_family": [
+            {"species": "Sandslash", "method": "level", "parameter": 22},
+            {"species": "Sandshrew", "method": null, "parameter": null}
+        ]
     },
     "Sandslash": {
         "species": "Sandslash",
@@ -2224,7 +2352,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 29.5
+        "weight": 29.5,
+        "evolution_family": [
+            {"species": "Sandshrew", "method": null, "parameter": null},
+            {"species": "Sandslash", "method": null, "parameter": null}
+        ]
     },
     "Nidoran_F": {
         "species": "Nidoran_F",
@@ -2317,7 +2449,12 @@ export const pokedex = {
             "Counter",
             "Beat Up"
         ],
-        "weight": 7.0
+        "weight": 7.0,
+        "evolution_family": [
+            {"species": "Nidorina", "method": "level", "parameter": 16},
+            {"species": "Nidoqueen", "method": null, "parameter": null},
+            {"species": "NidoranF", "method": null, "parameter": null}
+        ]
     },
     "Nidorina": {
         "species": "Nidorina",
@@ -2402,7 +2539,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 20.0
+        "weight": 20.0,
+        "evolution_family": [
+            {"species": "Nidoqueen", "method": "item", "parameter": "Moon Stone"},
+            {"species": "Nidorina", "method": null, "parameter": null},
+            {"species": "NidoranF", "method": null, "parameter": null}
+        ]
     },
     "Nidoqueen": {
         "species": "Nidoqueen",
@@ -2500,7 +2642,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 60.0
+        "weight": 60.0,
+        "evolution_family": [
+            {"species": "Nidorina", "method": null, "parameter": null},
+            {"species": "Nidoqueen", "method": null, "parameter": null},
+            {"species": "NidoranF", "method": null, "parameter": null}
+        ]
     },
     "Nidoran_M": {
         "species": "Nidoran_M",
@@ -2592,7 +2739,12 @@ export const pokedex = {
             "Confusion",
             "Beat Up"
         ],
-        "weight": 9.0
+        "weight": 9.0,
+        "evolution_family": [
+            {"species": "Nidorino", "method": "level", "parameter": 16},
+            {"species": "NidoranM", "method": null, "parameter": null},
+            {"species": "Nidoking", "method": null, "parameter": null}
+        ]
     },
     "Nidorino": {
         "species": "Nidorino",
@@ -2676,7 +2828,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 19.5
+        "weight": 19.5,
+        "evolution_family": [
+            {"species": "Nidoking", "method": "item", "parameter": "Moon Stone"},
+            {"species": "Nidorino", "method": null, "parameter": null},
+            {"species": "NidoranM", "method": null, "parameter": null}
+        ]
     },
     "Nidoking": {
         "species": "Nidoking",
@@ -2773,7 +2930,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 62.0
+        "weight": 62.0,
+        "evolution_family": [
+            {"species": "Nidorino", "method": null, "parameter": null},
+            {"species": "NidoranM", "method": null, "parameter": null},
+            {"species": "Nidoking", "method": null, "parameter": null}
+        ]
     },
     "Clefairy": {
         "species": "Clefairy",
@@ -2876,7 +3038,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 7.5
+        "weight": 7.5,
+        "evolution_family": [
+            {"species": "Clefable", "method": "item", "parameter": "Moon Stone"},
+            {"species": "Clefairy", "method": null, "parameter": null},
+            {"species": "Cleffa", "method": null, "parameter": null}
+        ]
     },
     "Clefable": {
         "species": "Clefable",
@@ -2971,7 +3138,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 40.0
+        "weight": 40.0,
+        "evolution_family": [
+            {"species": "Clefairy", "method": null, "parameter": null},
+            {"species": "Cleffa", "method": null, "parameter": null},
+            {"species": "Clefable", "method": null, "parameter": null}
+        ]
     },
     "Vulpix": {
         "species": "Vulpix",
@@ -3057,7 +3229,11 @@ export const pokedex = {
             "Psych Up",
             "Heat Wave"
         ],
-        "weight": 9.9
+        "weight": 9.9,
+        "evolution_family": [
+            {"species": "Ninetales", "method": "item", "parameter": "Fire Stone"},
+            {"species": "Vulpix", "method": null, "parameter": null}
+        ]
     },
     "Ninetales": {
         "species": "Ninetales",
@@ -3129,7 +3305,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 19.9
+        "weight": 19.9,
+        "evolution_family": [
+            {"species": "Vulpix", "method": null, "parameter": null},
+            {"species": "Ninetales", "method": null, "parameter": null}
+        ]
     },
     "Jigglypuff": {
         "species": "Jigglypuff",
@@ -3226,7 +3406,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 5.5
+        "weight": 5.5,
+        "evolution_family": [
+            {"species": "Wigglytuff", "method": "item", "parameter": "Moon Stone"},
+            {"species": "Jigglypuff", "method": null, "parameter": null},
+            {"species": "Igglybuff", "method": null, "parameter": null}
+        ]
     },
     "Wigglytuff": {
         "species": "Wigglytuff",
@@ -3317,7 +3502,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 12.0
+        "weight": 12.0,
+        "evolution_family": [
+            {"species": "Wigglytuff", "method": null, "parameter": null},
+            {"species": "Jigglypuff", "method": null, "parameter": null},
+            {"species": "Igglybuff", "method": null, "parameter": null}
+        ]
     },
     "Zubat": {
         "species": "Zubat",
@@ -3402,7 +3592,12 @@ export const pokedex = {
             "Whirlwind",
             "Curse"
         ],
-        "weight": 7.5
+        "weight": 7.5,
+        "evolution_family": [
+            {"species": "Golbat", "method": "level", "parameter": 22},
+            {"species": "Zubat", "method": null, "parameter": null},
+            {"species": "Crobat", "method": null, "parameter": null}
+        ]
     },
     "Golbat": {
         "species": "Golbat",
@@ -3484,7 +3679,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 55.0
+        "weight": 55.0,
+        "evolution_family": [
+            {"species": "Crobat", "method": "friendship", "parameter": null},
+            {"species": "Zubat", "method": null, "parameter": null},
+            {"species": "Golbat", "method": null, "parameter": null}
+        ]
     },
     "Oddish": {
         "species": "Oddish",
@@ -3564,7 +3764,13 @@ export const pokedex = {
             "Charm",
             "Ingrain"
         ],
-        "weight": 5.4
+        "weight": 5.4,
+        "evolution_family": [
+            {"species": "Gloom", "method": "level", "parameter": 21},
+            {"species": "Vileplume", "method": null, "parameter": null},
+            {"species": "Bellossom", "method": null, "parameter": null},
+            {"species": "Oddish", "method": null, "parameter": null}
+        ]
     },
     "Gloom": {
         "species": "Gloom",
@@ -3639,7 +3845,13 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 8.6
+        "weight": 8.6,
+        "evolution_family": [
+            {"species": "Vileplume", "method": "item", "parameter": "Leaf Stone"},
+            {"species": "Bellossom", "method": "item", "parameter": "Sun Stone"},
+            {"species": "Gloom", "method": null, "parameter": null},
+            {"species": "Oddish", "method": null, "parameter": null}
+        ]
     },
     "Vileplume": {
         "species": "Vileplume",
@@ -3711,7 +3923,13 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 18.6
+        "weight": 18.6,
+        "evolution_family": [
+            {"species": "Vileplume", "method": null, "parameter": null},
+            {"species": "Bellossom", "method": null, "parameter": null},
+            {"species": "Gloom", "method": null, "parameter": null},
+            {"species": "Oddish", "method": null, "parameter": null}
+        ]
     },
     "Paras": {
         "species": "Paras",
@@ -3800,7 +4018,11 @@ export const pokedex = {
             "Light Screen",
             "Pursuit"
         ],
-        "weight": 5.4
+        "weight": 5.4,
+        "evolution_family": [
+            {"species": "Parasect", "method": "level", "parameter": 24},
+            {"species": "Paras", "method": null, "parameter": null}
+        ]
     },
     "Parasect": {
         "species": "Parasect",
@@ -3883,7 +4105,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 29.5
+        "weight": 29.5,
+        "evolution_family": [
+            {"species": "Parasect", "method": null, "parameter": null},
+            {"species": "Paras", "method": null, "parameter": null}
+        ]
     },
     "Venonat": {
         "species": "Venonat",
@@ -3964,7 +4190,11 @@ export const pokedex = {
             "Giga Drain",
             "Signal Beam"
         ],
-        "weight": 30.0
+        "weight": 30.0,
+        "evolution_family": [
+            {"species": "Venomoth", "method": "level", "parameter": 31},
+            {"species": "Venonat", "method": null, "parameter": null}
+        ]
     },
     "Venomoth": {
         "species": "Venomoth",
@@ -4045,7 +4275,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 12.5
+        "weight": 12.5,
+        "evolution_family": [
+            {"species": "Venomoth", "method": null, "parameter": null},
+            {"species": "Venonat", "method": null, "parameter": null}
+        ]
     },
     "Diglett": {
         "species": "Diglett",
@@ -4132,7 +4366,11 @@ export const pokedex = {
             "Uproar",
             "Rock Slide"
         ],
-        "weight": 0.8
+        "weight": 0.8,
+        "evolution_family": [
+            {"species": "Dugtrio", "method": "level", "parameter": 26},
+            {"species": "Diglett", "method": null, "parameter": null}
+        ]
     },
     "Dugtrio": {
         "species": "Dugtrio",
@@ -4217,7 +4455,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 33.3
+        "weight": 33.3,
+        "evolution_family": [
+            {"species": "Dugtrio", "method": null, "parameter": null},
+            {"species": "Diglett", "method": null, "parameter": null}
+        ]
     },
     "Meowth": {
         "species": "Meowth",
@@ -4309,7 +4551,11 @@ export const pokedex = {
             "Psych Up",
             "Assist"
         ],
-        "weight": 4.2
+        "weight": 4.2,
+        "evolution_family": [
+            {"species": "Persian", "method": "level", "parameter": 28},
+            {"species": "Meowth", "method": null, "parameter": null}
+        ]
     },
     "Persian": {
         "species": "Persian",
@@ -4397,7 +4643,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 32.0
+        "weight": 32.0,
+        "evolution_family": [
+            {"species": "Meowth", "method": null, "parameter": null},
+            {"species": "Persian", "method": null, "parameter": null}
+        ]
     },
     "Psyduck": {
         "species": "Psyduck",
@@ -4495,7 +4745,11 @@ export const pokedex = {
             "Cross Chop",
             "Refresh"
         ],
-        "weight": 19.6
+        "weight": 19.6,
+        "evolution_family": [
+            {"species": "Golduck", "method": "level", "parameter": 33},
+            {"species": "Psyduck", "method": null, "parameter": null}
+        ]
     },
     "Golduck": {
         "species": "Golduck",
@@ -4587,7 +4841,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 76.6
+        "weight": 76.6,
+        "evolution_family": [
+            {"species": "Golduck", "method": null, "parameter": null},
+            {"species": "Psyduck", "method": null, "parameter": null}
+        ]
     },
     "Mankey": {
         "species": "Mankey",
@@ -4688,7 +4946,11 @@ export const pokedex = {
             "Revenge",
             "SmellingSalt"
         ],
-        "weight": 28.0
+        "weight": 28.0,
+        "evolution_family": [
+            {"species": "Primeape", "method": "level", "parameter": 28},
+            {"species": "Mankey", "method": null, "parameter": null}
+        ]
     },
     "Primeape": {
         "species": "Primeape",
@@ -4784,7 +5046,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 32.0
+        "weight": 32.0,
+        "evolution_family": [
+            {"species": "Mankey", "method": null, "parameter": null},
+            {"species": "Primeape", "method": null, "parameter": null}
+        ]
     },
     "Growlithe": {
         "species": "Growlithe",
@@ -4872,7 +5138,11 @@ export const pokedex = {
             "Howl",
             "Heat Wave"
         ],
-        "weight": 19.0
+        "weight": 19.0,
+        "evolution_family": [
+            {"species": "Arcanine", "method": "item", "parameter": "Fire Stone"},
+            {"species": "Growlithe", "method": null, "parameter": null}
+        ]
     },
     "Arcanine": {
         "species": "Arcanine",
@@ -4948,7 +5218,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 155.0
+        "weight": 155.0,
+        "evolution_family": [
+            {"species": "Growlithe", "method": null, "parameter": null},
+            {"species": "Arcanine", "method": null, "parameter": null}
+        ]
     },
     "Poliwag": {
         "species": "Poliwag",
@@ -5034,7 +5308,13 @@ export const pokedex = {
             "Water Sport",
             "Ice Ball"
         ],
-        "weight": 12.4
+        "weight": 12.4,
+        "evolution_family": [
+            {"species": "Poliwhirl", "method": "level", "parameter": 25},
+            {"species": "Poliwrath", "method": null, "parameter": null},
+            {"species": "Politoed", "method": null, "parameter": null},
+            {"species": "Poliwag", "method": null, "parameter": null}
+        ]
     },
     "Poliwhirl": {
         "species": "Poliwhirl",
@@ -5124,7 +5404,13 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 20.0
+        "weight": 20.0,
+        "evolution_family": [
+            {"species": "Poliwrath", "method": "item", "parameter": "Water Stone"},
+            {"species": "Politoed", "method": "trade_with_item", "parameter": "King's Rock"},
+            {"species": "Poliwhirl", "method": null, "parameter": null},
+            {"species": "Poliwag", "method": null, "parameter": null}
+        ]
     },
     "Poliwrath": {
         "species": "Poliwrath",
@@ -5213,7 +5499,13 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 54.0
+        "weight": 54.0,
+        "evolution_family": [
+            {"species": "Poliwhirl", "method": null, "parameter": null},
+            {"species": "Poliwrath", "method": null, "parameter": null},
+            {"species": "Politoed", "method": null, "parameter": null},
+            {"species": "Poliwag", "method": null, "parameter": null}
+        ]
     },
     "Abra": {
         "species": "Abra",
@@ -5304,7 +5596,12 @@ export const pokedex = {
             "ThunderPunch",
             "Ice Punch"
         ],
-        "weight": 19.5
+        "weight": 19.5,
+        "evolution_family": [
+            {"species": "Kadabra", "method": "level", "parameter": 16},
+            {"species": "Abra", "method": null, "parameter": null},
+            {"species": "Alakazam", "method": null, "parameter": null}
+        ]
     },
     "Kadabra": {
         "species": "Kadabra",
@@ -5399,7 +5696,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 56.5
+        "weight": 56.5,
+        "evolution_family": [
+            {"species": "Alakazam", "method": "trade", "parameter": null},
+            {"species": "Kadabra", "method": null, "parameter": null},
+            {"species": "Abra", "method": null, "parameter": null}
+        ]
     },
     "Alakazam": {
         "species": "Alakazam",
@@ -5495,7 +5797,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 48.0
+        "weight": 48.0,
+        "evolution_family": [
+            {"species": "Kadabra", "method": null, "parameter": null},
+            {"species": "Abra", "method": null, "parameter": null},
+            {"species": "Alakazam", "method": null, "parameter": null}
+        ]
     },
     "Machop": {
         "species": "Machop",
@@ -5592,7 +5899,12 @@ export const pokedex = {
             "Counter",
             "Rock Slide"
         ],
-        "weight": 19.5
+        "weight": 19.5,
+        "evolution_family": [
+            {"species": "Machoke", "method": "level", "parameter": 28},
+            {"species": "Machamp", "method": null, "parameter": null},
+            {"species": "Machop", "method": null, "parameter": null}
+        ]
     },
     "Machoke": {
         "species": "Machoke",
@@ -5682,7 +5994,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 70.5
+        "weight": 70.5,
+        "evolution_family": [
+            {"species": "Machamp", "method": "trade", "parameter": null},
+            {"species": "Machoke", "method": null, "parameter": null},
+            {"species": "Machop", "method": null, "parameter": null}
+        ]
     },
     "Machamp": {
         "species": "Machamp",
@@ -5773,7 +6090,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 130.0
+        "weight": 130.0,
+        "evolution_family": [
+            {"species": "Machamp", "method": null, "parameter": null},
+            {"species": "Machoke", "method": null, "parameter": null},
+            {"species": "Machop", "method": null, "parameter": null}
+        ]
     },
     "Bellsprout": {
         "species": "Bellsprout",
@@ -5857,7 +6179,12 @@ export const pokedex = {
             "Ingrain",
             "Magical Leaf"
         ],
-        "weight": 4.0
+        "weight": 4.0,
+        "evolution_family": [
+            {"species": "Weepinbell", "method": "level", "parameter": 21},
+            {"species": "Bellsprout", "method": null, "parameter": null},
+            {"species": "Victreebel", "method": null, "parameter": null}
+        ]
     },
     "Weepinbell": {
         "species": "Weepinbell",
@@ -5935,7 +6262,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 6.4
+        "weight": 6.4,
+        "evolution_family": [
+            {"species": "Victreebel", "method": "item", "parameter": "Leaf Stone"},
+            {"species": "Bellsprout", "method": null, "parameter": null},
+            {"species": "Weepinbell", "method": null, "parameter": null}
+        ]
     },
     "Victreebel": {
         "species": "Victreebel",
@@ -6010,7 +6342,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 15.5
+        "weight": 15.5,
+        "evolution_family": [
+            {"species": "Bellsprout", "method": null, "parameter": null},
+            {"species": "Weepinbell", "method": null, "parameter": null},
+            {"species": "Victreebel", "method": null, "parameter": null}
+        ]
     },
     "Tentacool": {
         "species": "Tentacool",
@@ -6097,7 +6434,11 @@ export const pokedex = {
             "Safeguard",
             "Confuse Ray"
         ],
-        "weight": 45.5
+        "weight": 45.5,
+        "evolution_family": [
+            {"species": "Tentacruel", "method": "level", "parameter": 30},
+            {"species": "Tentacool", "method": null, "parameter": null}
+        ]
     },
     "Tentacruel": {
         "species": "Tentacruel",
@@ -6180,7 +6521,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 55.0
+        "weight": 55.0,
+        "evolution_family": [
+            {"species": "Tentacruel", "method": null, "parameter": null},
+            {"species": "Tentacool", "method": null, "parameter": null}
+        ]
     },
     "Geodude": {
         "species": "Geodude",
@@ -6271,7 +6616,12 @@ export const pokedex = {
             "Rock Slide",
             "Block"
         ],
-        "weight": 20.0
+        "weight": 20.0,
+        "evolution_family": [
+            {"species": "Graveler", "method": "level", "parameter": 25},
+            {"species": "Geodude", "method": null, "parameter": null},
+            {"species": "Golem", "method": null, "parameter": null}
+        ]
     },
     "Graveler": {
         "species": "Graveler",
@@ -6360,7 +6710,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 105.0
+        "weight": 105.0,
+        "evolution_family": [
+            {"species": "Golem", "method": "trade", "parameter": null},
+            {"species": "Geodude", "method": null, "parameter": null},
+            {"species": "Graveler", "method": null, "parameter": null}
+        ]
     },
     "Golem": {
         "species": "Golem",
@@ -6452,7 +6807,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 300.0
+        "weight": 300.0,
+        "evolution_family": [
+            {"species": "Geodude", "method": null, "parameter": null},
+            {"species": "Golem", "method": null, "parameter": null},
+            {"species": "Graveler", "method": null, "parameter": null}
+        ]
     },
     "Ponyta": {
         "species": "Ponyta",
@@ -6535,7 +6895,11 @@ export const pokedex = {
             "Charm",
             "Double-Edge"
         ],
-        "weight": 30.0
+        "weight": 30.0,
+        "evolution_family": [
+            {"species": "Rapidash", "method": "level", "parameter": 40},
+            {"species": "Ponyta", "method": null, "parameter": null}
+        ]
     },
     "Rapidash": {
         "species": "Rapidash",
@@ -6616,7 +6980,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 95.0
+        "weight": 95.0,
+        "evolution_family": [
+            {"species": "Rapidash", "method": null, "parameter": null},
+            {"species": "Ponyta", "method": null, "parameter": null}
+        ]
     },
     "Slowpoke": {
         "species": "Slowpoke",
@@ -6716,7 +7084,12 @@ export const pokedex = {
             "Sleep Talk",
             "Snore"
         ],
-        "weight": 36.0
+        "weight": 36.0,
+        "evolution_family": [
+            {"species": "Slowbro", "method": "level", "parameter": 37},
+            {"species": "Slowking", "method": "trade_with_item", "parameter": "King's Rock"},
+            {"species": "Slowpoke", "method": null, "parameter": null}
+        ]
     },
     "Slowbro": {
         "species": "Slowbro",
@@ -6818,7 +7191,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 78.5
+        "weight": 78.5,
+        "evolution_family": [
+            {"species": "Slowbro", "method": null, "parameter": null},
+            {"species": "Slowpoke", "method": null, "parameter": null},
+            {"species": "Slowking", "method": null, "parameter": null}
+        ]
     },
     "Magnemite": {
         "species": "Magnemite",
@@ -6894,7 +7272,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 6.0
+        "weight": 6.0,
+        "evolution_family": [
+            {"species": "Magneton", "method": "level", "parameter": 30},
+            {"species": "Magnemite", "method": null, "parameter": null}
+        ]
     },
     "Magneton": {
         "species": "Magneton",
@@ -6973,7 +7355,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 60.0
+        "weight": 60.0,
+        "evolution_family": [
+            {"species": "Magnemite", "method": null, "parameter": null},
+            {"species": "Magneton", "method": null, "parameter": null}
+        ]
     },
     "Farfetch'd": {
         "species": "Farfetch'd",
@@ -7059,7 +7445,10 @@ export const pokedex = {
             "FeatherDance",
             "Curse"
         ],
-        "weight": 15.0
+        "weight": 15.0,
+        "evolution_family": [
+            {"species": "Farfetchd", "method": null, "parameter": null}
+        ]
     },
     "Doduo": {
         "species": "Doduo",
@@ -7139,7 +7528,11 @@ export const pokedex = {
             "Flail",
             "Endeavor"
         ],
-        "weight": 39.2
+        "weight": 39.2,
+        "evolution_family": [
+            {"species": "Dodrio", "method": "level", "parameter": 31},
+            {"species": "Doduo", "method": null, "parameter": null}
+        ]
     },
     "Dodrio": {
         "species": "Dodrio",
@@ -7217,7 +7610,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 85.2
+        "weight": 85.2,
+        "evolution_family": [
+            {"species": "Doduo", "method": null, "parameter": null},
+            {"species": "Dodrio", "method": null, "parameter": null}
+        ]
     },
     "Seel": {
         "species": "Seel",
@@ -7302,7 +7699,11 @@ export const pokedex = {
             "Fake Out",
             "Icicle Spear"
         ],
-        "weight": 90.0
+        "weight": 90.0,
+        "evolution_family": [
+            {"species": "Dewgong", "method": "level", "parameter": 34},
+            {"species": "Seel", "method": null, "parameter": null}
+        ]
     },
     "Dewgong": {
         "species": "Dewgong",
@@ -7384,7 +7785,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 120.0
+        "weight": 120.0,
+        "evolution_family": [
+            {"species": "Seel", "method": null, "parameter": null},
+            {"species": "Dewgong", "method": null, "parameter": null}
+        ]
     },
     "Grimer": {
         "species": "Grimer",
@@ -7475,7 +7880,11 @@ export const pokedex = {
             "Shadow Punch",
             "Explosion"
         ],
-        "weight": 30.0
+        "weight": 30.0,
+        "evolution_family": [
+            {"species": "Muk", "method": "level", "parameter": 38},
+            {"species": "Grimer", "method": null, "parameter": null}
+        ]
     },
     "Muk": {
         "species": "Muk",
@@ -7564,7 +7973,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 30.0
+        "weight": 30.0,
+        "evolution_family": [
+            {"species": "Muk", "method": null, "parameter": null},
+            {"species": "Grimer", "method": null, "parameter": null}
+        ]
     },
     "Shellder": {
         "species": "Shellder",
@@ -7645,7 +8058,11 @@ export const pokedex = {
             "Screech",
             "Icicle Spear"
         ],
-        "weight": 4.0
+        "weight": 4.0,
+        "evolution_family": [
+            {"species": "Cloyster", "method": "item", "parameter": "Water Stone"},
+            {"species": "Shellder", "method": null, "parameter": null}
+        ]
     },
     "Cloyster": {
         "species": "Cloyster",
@@ -7718,7 +8135,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 132.5
+        "weight": 132.5,
+        "evolution_family": [
+            {"species": "Cloyster", "method": null, "parameter": null},
+            {"species": "Shellder", "method": null, "parameter": null}
+        ]
     },
     "Gastly": {
         "species": "Gastly",
@@ -7807,7 +8228,12 @@ export const pokedex = {
             "Grudge",
             "Explosion"
         ],
-        "weight": 0.1
+        "weight": 0.1,
+        "evolution_family": [
+            {"species": "Haunter", "method": "level", "parameter": 25},
+            {"species": "Gastly", "method": null, "parameter": null},
+            {"species": "Gengar", "method": null, "parameter": null}
+        ]
     },
     "Haunter": {
         "species": "Haunter",
@@ -7890,7 +8316,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 0.1
+        "weight": 0.1,
+        "evolution_family": [
+            {"species": "Gengar", "method": "trade", "parameter": null},
+            {"species": "Gastly", "method": null, "parameter": null},
+            {"species": "Haunter", "method": null, "parameter": null}
+        ]
     },
     "Gengar": {
         "species": "Gengar",
@@ -7986,7 +8417,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 40.5
+        "weight": 40.5,
+        "evolution_family": [
+            {"species": "Gastly", "method": null, "parameter": null},
+            {"species": "Haunter", "method": null, "parameter": null},
+            {"species": "Gengar", "method": null, "parameter": null}
+        ]
     },
     "Onix": {
         "species": "Onix",
@@ -8075,7 +8511,11 @@ export const pokedex = {
             "Explosion",
             "Block"
         ],
-        "weight": 210.0
+        "weight": 210.0,
+        "evolution_family": [
+            {"species": "Steelix", "method": "trade_with_item", "parameter": "Metal Coat"},
+            {"species": "Onix", "method": null, "parameter": null}
+        ]
     },
     "Drowzee": {
         "species": "Drowzee",
@@ -8174,7 +8614,11 @@ export const pokedex = {
             "ThunderPunch",
             "Ice Punch"
         ],
-        "weight": 32.4
+        "weight": 32.4,
+        "evolution_family": [
+            {"species": "Hypno", "method": "level", "parameter": 26},
+            {"species": "Drowzee", "method": null, "parameter": null}
+        ]
     },
     "Hypno": {
         "species": "Hypno",
@@ -8270,7 +8714,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 75.6
+        "weight": 75.6,
+        "evolution_family": [
+            {"species": "Drowzee", "method": null, "parameter": null},
+            {"species": "Hypno", "method": null, "parameter": null}
+        ]
     },
     "Krabby": {
         "species": "Krabby",
@@ -8361,7 +8809,11 @@ export const pokedex = {
             "Knock Off",
             "Swords Dance"
         ],
-        "weight": 6.5
+        "weight": 6.5,
+        "evolution_family": [
+            {"species": "Kingler", "method": "level", "parameter": 28},
+            {"species": "Krabby", "method": null, "parameter": null}
+        ]
     },
     "Kingler": {
         "species": "Kingler",
@@ -8449,7 +8901,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 60.0
+        "weight": 60.0,
+        "evolution_family": [
+            {"species": "Krabby", "method": null, "parameter": null},
+            {"species": "Kingler", "method": null, "parameter": null}
+        ]
     },
     "Voltorb": {
         "species": "Voltorb",
@@ -8527,7 +8983,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 10.4
+        "weight": 10.4,
+        "evolution_family": [
+            {"species": "Electrode", "method": "level", "parameter": 30},
+            {"species": "Voltorb", "method": null, "parameter": null}
+        ]
     },
     "Electrode": {
         "species": "Electrode",
@@ -8608,7 +9068,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 66.6
+        "weight": 66.6,
+        "evolution_family": [
+            {"species": "Voltorb", "method": null, "parameter": null},
+            {"species": "Electrode", "method": null, "parameter": null}
+        ]
     },
     "Exeggcute": {
         "species": "Exeggcute",
@@ -8697,7 +9161,11 @@ export const pokedex = {
             "Ingrain",
             "Curse"
         ],
-        "weight": 2.5
+        "weight": 2.5,
+        "evolution_family": [
+            {"species": "Exeggutor", "method": "item", "parameter": "Leaf Stone"},
+            {"species": "Exeggcute", "method": null, "parameter": null}
+        ]
     },
     "Exeggutor": {
         "species": "Exeggutor",
@@ -8774,7 +9242,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 120.0
+        "weight": 120.0,
+        "evolution_family": [
+            {"species": "Exeggutor", "method": null, "parameter": null},
+            {"species": "Exeggcute", "method": null, "parameter": null}
+        ]
     },
     "Cubone": {
         "species": "Cubone",
@@ -8875,7 +9347,11 @@ export const pokedex = {
             "Perish Song",
             "Swords Dance"
         ],
-        "weight": 6.5
+        "weight": 6.5,
+        "evolution_family": [
+            {"species": "Marowak", "method": "level", "parameter": 28},
+            {"species": "Cubone", "method": null, "parameter": null}
+        ]
     },
     "Marowak": {
         "species": "Marowak",
@@ -8972,7 +9448,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 45.0
+        "weight": 45.0,
+        "evolution_family": [
+            {"species": "Cubone", "method": null, "parameter": null},
+            {"species": "Marowak", "method": null, "parameter": null}
+        ]
     },
     "Hitmonlee": {
         "species": "Hitmonlee",
@@ -9059,7 +9539,13 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 49.8
+        "weight": 49.8,
+        "evolution_family": [
+            {"species": "Hitmonlee", "method": null, "parameter": null},
+            {"species": "Tyrogue", "method": null, "parameter": null},
+            {"species": "Hitmonchan", "method": null, "parameter": null},
+            {"species": "Hitmontop", "method": null, "parameter": null}
+        ]
     },
     "Hitmonchan": {
         "species": "Hitmonchan",
@@ -9145,7 +9631,13 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 50.2
+        "weight": 50.2,
+        "evolution_family": [
+            {"species": "Hitmonlee", "method": null, "parameter": null},
+            {"species": "Tyrogue", "method": null, "parameter": null},
+            {"species": "Hitmonchan", "method": null, "parameter": null},
+            {"species": "Hitmontop", "method": null, "parameter": null}
+        ]
     },
     "Lickitung": {
         "species": "Lickitung",
@@ -9255,7 +9747,10 @@ export const pokedex = {
             "Snore",
             "Substitute"
         ],
-        "weight": 65.5
+        "weight": 65.5,
+        "evolution_family": [
+            {"species": "Lickitung", "method": null, "parameter": null}
+        ]
     },
     "Koffing": {
         "species": "Koffing",
@@ -9342,7 +9837,11 @@ export const pokedex = {
             "Pain Split",
             "Will-O-Wisp"
         ],
-        "weight": 1.0
+        "weight": 1.0,
+        "evolution_family": [
+            {"species": "Weezing", "method": "level", "parameter": 35},
+            {"species": "Koffing", "method": null, "parameter": null}
+        ]
     },
     "Weezing": {
         "species": "Weezing",
@@ -9425,7 +9924,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 9.5
+        "weight": 9.5,
+        "evolution_family": [
+            {"species": "Weezing", "method": null, "parameter": null},
+            {"species": "Koffing", "method": null, "parameter": null}
+        ]
     },
     "Rhyhorn": {
         "species": "Rhyhorn",
@@ -9524,7 +10027,11 @@ export const pokedex = {
             "Curse",
             "Crush Claw"
         ],
-        "weight": 115.0
+        "weight": 115.0,
+        "evolution_family": [
+            {"species": "Rhydon", "method": "level", "parameter": 42},
+            {"species": "Rhyhorn", "method": null, "parameter": null}
+        ]
     },
     "Rhydon": {
         "species": "Rhydon",
@@ -9624,7 +10131,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 120.0
+        "weight": 120.0,
+        "evolution_family": [
+            {"species": "Rhydon", "method": null, "parameter": null},
+            {"species": "Rhyhorn", "method": null, "parameter": null}
+        ]
     },
     "Chansey": {
         "species": "Chansey",
@@ -9738,7 +10249,11 @@ export const pokedex = {
             "Aromatherapy",
             "Substitute"
         ],
-        "weight": 34.6
+        "weight": 34.6,
+        "evolution_family": [
+            {"species": "Blissey", "method": "friendship", "parameter": null},
+            {"species": "Chansey", "method": null, "parameter": null}
+        ]
     },
     "Tangela": {
         "species": "Tangela",
@@ -9827,7 +10342,10 @@ export const pokedex = {
             "Leech Seed",
             "Nature Power"
         ],
-        "weight": 35.0
+        "weight": 35.0,
+        "evolution_family": [
+            {"species": "Tangela", "method": null, "parameter": null}
+        ]
     },
     "Kangaskhan": {
         "species": "Kangaskhan",
@@ -9937,7 +10455,10 @@ export const pokedex = {
             "Crush Claw",
             "Substitute"
         ],
-        "weight": 80.0
+        "weight": 80.0,
+        "evolution_family": [
+            {"species": "Kangaskhan", "method": null, "parameter": null}
+        ]
     },
     "Horsea": {
         "species": "Horsea",
@@ -10018,7 +10539,12 @@ export const pokedex = {
             "Dragon Rage",
             "DragonBreath"
         ],
-        "weight": 8.0
+        "weight": 8.0,
+        "evolution_family": [
+            {"species": "Seadra", "method": "level", "parameter": 32},
+            {"species": "Horsea", "method": null, "parameter": null},
+            {"species": "Kingdra", "method": null, "parameter": null}
+        ]
     },
     "Seadra": {
         "species": "Seadra",
@@ -10095,7 +10621,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 25.0
+        "weight": 25.0,
+        "evolution_family": [
+            {"species": "Kingdra", "method": "trade_with_item", "parameter": "Dragon Scale"},
+            {"species": "Seadra", "method": null, "parameter": null},
+            {"species": "Horsea", "method": null, "parameter": null}
+        ]
     },
     "Goldeen": {
         "species": "Goldeen",
@@ -10178,7 +10709,11 @@ export const pokedex = {
             "Sleep Talk",
             "Mud Sport"
         ],
-        "weight": 15.0
+        "weight": 15.0,
+        "evolution_family": [
+            {"species": "Seaking", "method": "level", "parameter": 33},
+            {"species": "Goldeen", "method": null, "parameter": null}
+        ]
     },
     "Seaking": {
         "species": "Seaking",
@@ -10257,7 +10792,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 39.0
+        "weight": 39.0,
+        "evolution_family": [
+            {"species": "Goldeen", "method": null, "parameter": null},
+            {"species": "Seaking", "method": null, "parameter": null}
+        ]
     },
     "Staryu": {
         "species": "Staryu",
@@ -10341,7 +10880,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 34.5
+        "weight": 34.5,
+        "evolution_family": [
+            {"species": "Starmie", "method": "item", "parameter": "Water Stone"},
+            {"species": "Staryu", "method": null, "parameter": null}
+        ]
     },
     "Starmie": {
         "species": "Starmie",
@@ -10421,7 +10964,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 80.0
+        "weight": 80.0,
+        "evolution_family": [
+            {"species": "Staryu", "method": null, "parameter": null},
+            {"species": "Starmie", "method": null, "parameter": null}
+        ]
     },
     "Mr. Mime": {
         "species": "Mr. Mime",
@@ -10530,7 +11077,10 @@ export const pokedex = {
             "Fake Out",
             "Trick"
         ],
-        "weight": 54.5
+        "weight": 54.5,
+        "evolution_family": [
+            {"species": "MrMime", "method": null, "parameter": null}
+        ]
     },
     "Scyther": {
         "species": "Scyther",
@@ -10617,7 +11167,11 @@ export const pokedex = {
             "Endure",
             "Silver Wind"
         ],
-        "weight": 56.0
+        "weight": 56.0,
+        "evolution_family": [
+            {"species": "Scizor", "method": "trade_with_item", "parameter": "Metal Coat"},
+            {"species": "Scyther", "method": null, "parameter": null}
+        ]
     },
     "Jynx": {
         "species": "Jynx",
@@ -10712,7 +11266,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 40.6
+        "weight": 40.6,
+        "evolution_family": [
+            {"species": "Jynx", "method": null, "parameter": null},
+            {"species": "Smoochum", "method": null, "parameter": null}
+        ]
     },
     "Electabuzz": {
         "species": "Electabuzz",
@@ -10798,7 +11356,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 30.0
+        "weight": 30.0,
+        "evolution_family": [
+            {"species": "Elekid", "method": null, "parameter": null},
+            {"species": "Electabuzz", "method": null, "parameter": null}
+        ]
     },
     "Magmar": {
         "species": "Magmar",
@@ -10883,7 +11445,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 44.5
+        "weight": 44.5,
+        "evolution_family": [
+            {"species": "Magby", "method": null, "parameter": null},
+            {"species": "Magmar", "method": null, "parameter": null}
+        ]
     },
     "Pinsir": {
         "species": "Pinsir",
@@ -10972,7 +11538,10 @@ export const pokedex = {
             "False Swipe",
             "Faint Attack"
         ],
-        "weight": 55.0
+        "weight": 55.0,
+        "evolution_family": [
+            {"species": "Pinsir", "method": null, "parameter": null}
+        ]
     },
     "Tauros": {
         "species": "Tauros",
@@ -11059,7 +11628,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 88.4
+        "weight": 88.4,
+        "evolution_family": [
+            {"species": "Tauros", "method": null, "parameter": null}
+        ]
     },
     "Magikarp": {
         "species": "Magikarp",
@@ -11104,7 +11676,11 @@ export const pokedex = {
         "tm_hm_learnset": [],
         "tutor_learnset": [],
         "egg_moves": [],
-        "weight": 10.0
+        "weight": 10.0,
+        "evolution_family": [
+            {"species": "Gyarados", "method": "level", "parameter": 20},
+            {"species": "Magikarp", "method": null, "parameter": null}
+        ]
     },
     "Gyarados": {
         "species": "Gyarados",
@@ -11192,7 +11768,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 235.0
+        "weight": 235.0,
+        "evolution_family": [
+            {"species": "Gyarados", "method": null, "parameter": null},
+            {"species": "Magikarp", "method": null, "parameter": null}
+        ]
     },
     "Lapras": {
         "species": "Lapras",
@@ -11291,7 +11871,10 @@ export const pokedex = {
             "Sleep Talk",
             "Horn Drill"
         ],
-        "weight": 220.0
+        "weight": 220.0,
+        "evolution_family": [
+            {"species": "Lapras", "method": null, "parameter": null}
+        ]
     },
     "Ditto": {
         "species": "Ditto",
@@ -11334,7 +11917,10 @@ export const pokedex = {
         "tm_hm_learnset": [],
         "tutor_learnset": [],
         "egg_moves": [],
-        "weight": 4.0
+        "weight": 4.0,
+        "evolution_family": [
+            {"species": "Ditto", "method": null, "parameter": null}
+        ]
     },
     "Eevee": {
         "species": "Eevee",
@@ -11413,7 +11999,15 @@ export const pokedex = {
             "Tickle",
             "Wish"
         ],
-        "weight": 6.5
+        "weight": 6.5,
+        "evolution_family": [
+            {"species": "Jolteon", "method": "item", "parameter": "Thunder Stone"},
+            {"species": "Vaporeon", "method": "item", "parameter": "Water Stone"},
+            {"species": "Flareon", "method": "item", "parameter": "Fire Stone"},
+            {"species": "Espeon", "method": "friendship_day", "parameter": null},
+            {"species": "Umbreon", "method": "friendship_night", "parameter": null},
+            {"species": "Eevee", "method": null, "parameter": null}
+        ]
     },
     "Vaporeon": {
         "species": "Vaporeon",
@@ -11496,7 +12090,15 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 29.0
+        "weight": 29.0,
+        "evolution_family": [
+            {"species": "Eevee", "method": null, "parameter": null},
+            {"species": "Umbreon", "method": null, "parameter": null},
+            {"species": "Vaporeon", "method": null, "parameter": null},
+            {"species": "Espeon", "method": null, "parameter": null},
+            {"species": "Flareon", "method": null, "parameter": null},
+            {"species": "Jolteon", "method": null, "parameter": null}
+        ]
     },
     "Jolteon": {
         "species": "Jolteon",
@@ -11577,7 +12179,15 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 24.5
+        "weight": 24.5,
+        "evolution_family": [
+            {"species": "Eevee", "method": null, "parameter": null},
+            {"species": "Umbreon", "method": null, "parameter": null},
+            {"species": "Vaporeon", "method": null, "parameter": null},
+            {"species": "Espeon", "method": null, "parameter": null},
+            {"species": "Flareon", "method": null, "parameter": null},
+            {"species": "Jolteon", "method": null, "parameter": null}
+        ]
     },
     "Flareon": {
         "species": "Flareon",
@@ -11656,7 +12266,15 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 25.0
+        "weight": 25.0,
+        "evolution_family": [
+            {"species": "Eevee", "method": null, "parameter": null},
+            {"species": "Umbreon", "method": null, "parameter": null},
+            {"species": "Vaporeon", "method": null, "parameter": null},
+            {"species": "Espeon", "method": null, "parameter": null},
+            {"species": "Flareon", "method": null, "parameter": null},
+            {"species": "Jolteon", "method": null, "parameter": null}
+        ]
     },
     "Porygon": {
         "species": "Porygon",
@@ -11740,7 +12358,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 36.5
+        "weight": 36.5,
+        "evolution_family": [
+            {"species": "Porygon2", "method": "trade_with_item", "parameter": "Up-Grade"},
+            {"species": "Porygon", "method": null, "parameter": null}
+        ]
     },
     "Omanyte": {
         "species": "Omanyte",
@@ -11830,7 +12452,11 @@ export const pokedex = {
             "Rock Slide",
             "Spikes"
         ],
-        "weight": 7.5
+        "weight": 7.5,
+        "evolution_family": [
+            {"species": "Omastar", "method": "level", "parameter": 40},
+            {"species": "Omanyte", "method": null, "parameter": null}
+        ]
     },
     "Omastar": {
         "species": "Omastar",
@@ -11917,7 +12543,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 35.0
+        "weight": 35.0,
+        "evolution_family": [
+            {"species": "Omastar", "method": null, "parameter": null},
+            {"species": "Omanyte", "method": null, "parameter": null}
+        ]
     },
     "Kabuto": {
         "species": "Kabuto",
@@ -12009,7 +12639,11 @@ export const pokedex = {
             "Knock Off",
             "Confuse Ray"
         ],
-        "weight": 11.5
+        "weight": 11.5,
+        "evolution_family": [
+            {"species": "Kabutops", "method": "level", "parameter": 40},
+            {"species": "Kabuto", "method": null, "parameter": null}
+        ]
     },
     "Kabutops": {
         "species": "Kabutops",
@@ -12104,7 +12738,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 40.5
+        "weight": 40.5,
+        "evolution_family": [
+            {"species": "Kabutops", "method": null, "parameter": null},
+            {"species": "Kabuto", "method": null, "parameter": null}
+        ]
     },
     "Aerodactyl": {
         "species": "Aerodactyl",
@@ -12197,7 +12835,10 @@ export const pokedex = {
             "DragonBreath",
             "Curse"
         ],
-        "weight": 59.0
+        "weight": 59.0,
+        "evolution_family": [
+            {"species": "Aerodactyl", "method": null, "parameter": null}
+        ]
     },
     "Snorlax": {
         "species": "Snorlax",
@@ -12304,7 +12945,10 @@ export const pokedex = {
             "Fissure",
             "Substitute"
         ],
-        "weight": 460.0
+        "weight": 460.0,
+        "evolution_family": [
+            {"species": "Snorlax", "method": null, "parameter": null}
+        ]
     },
     "Articuno": {
         "species": "Articuno",
@@ -12383,7 +13027,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 55.4
+        "weight": 55.4,
+        "evolution_family": [
+            {"species": "Articuno", "method": null, "parameter": null}
+        ]
     },
     "Zapdos": {
         "species": "Zapdos",
@@ -12463,7 +13110,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 52.6
+        "weight": 52.6,
+        "evolution_family": [
+            {"species": "Zapdos", "method": null, "parameter": null}
+        ]
     },
     "Moltres": {
         "species": "Moltres",
@@ -12541,7 +13191,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 60.0
+        "weight": 60.0,
+        "evolution_family": [
+            {"species": "Moltres", "method": null, "parameter": null}
+        ]
     },
     "Dratini": {
         "species": "Dratini",
@@ -12633,7 +13286,12 @@ export const pokedex = {
             "DragonBreath",
             "Dragon Dance"
         ],
-        "weight": 3.3
+        "weight": 3.3,
+        "evolution_family": [
+            {"species": "Dragonair", "method": "level", "parameter": 30},
+            {"species": "Dratini", "method": null, "parameter": null},
+            {"species": "Dragonite", "method": null, "parameter": null}
+        ]
     },
     "Dragonair": {
         "species": "Dragonair",
@@ -12720,7 +13378,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 16.5
+        "weight": 16.5,
+        "evolution_family": [
+            {"species": "Dragonite", "method": "level", "parameter": 55},
+            {"species": "Dratini", "method": null, "parameter": null},
+            {"species": "Dragonair", "method": null, "parameter": null}
+        ]
     },
     "Dragonite": {
         "species": "Dragonite",
@@ -12822,7 +13485,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 210.0
+        "weight": 210.0,
+        "evolution_family": [
+            {"species": "Dratini", "method": null, "parameter": null},
+            {"species": "Dragonair", "method": null, "parameter": null},
+            {"species": "Dragonite", "method": null, "parameter": null}
+        ]
     },
     "Mewtwo": {
         "species": "Mewtwo",
@@ -12931,7 +13599,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 122.0
+        "weight": 122.0,
+        "evolution_family": [
+            {"species": "Mewtwo", "method": null, "parameter": null}
+        ]
     },
     "Mew": {
         "species": "Mew",
@@ -13054,7 +13725,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 4.0
+        "weight": 4.0,
+        "evolution_family": [
+            {"species": "Mew", "method": null, "parameter": null}
+        ]
     },
     "Chikorita": {
         "species": "Chikorita",
@@ -13143,7 +13817,12 @@ export const pokedex = {
             "Ingrain",
             "GrassWhistle"
         ],
-        "weight": 6.4
+        "weight": 6.4,
+        "evolution_family": [
+            {"species": "Bayleef", "method": "level", "parameter": 16},
+            {"species": "Meganium", "method": null, "parameter": null},
+            {"species": "Chikorita", "method": null, "parameter": null}
+        ]
     },
     "Bayleef": {
         "species": "Bayleef",
@@ -13227,7 +13906,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 15.8
+        "weight": 15.8,
+        "evolution_family": [
+            {"species": "Meganium", "method": "level", "parameter": 32},
+            {"species": "Bayleef", "method": null, "parameter": null},
+            {"species": "Chikorita", "method": null, "parameter": null}
+        ]
     },
     "Meganium": {
         "species": "Meganium",
@@ -13313,7 +13997,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 100.5
+        "weight": 100.5,
+        "evolution_family": [
+            {"species": "Bayleef", "method": null, "parameter": null},
+            {"species": "Meganium", "method": null, "parameter": null},
+            {"species": "Chikorita", "method": null, "parameter": null}
+        ]
     },
     "Cyndaquil": {
         "species": "Cyndaquil",
@@ -13395,7 +14084,12 @@ export const pokedex = {
             "Howl",
             "Crush Claw"
         ],
-        "weight": 7.9
+        "weight": 7.9,
+        "evolution_family": [
+            {"species": "Quilava", "method": "level", "parameter": 14},
+            {"species": "Typhlosion", "method": null, "parameter": null},
+            {"species": "Cyndaquil", "method": null, "parameter": null}
+        ]
     },
     "Quilava": {
         "species": "Quilava",
@@ -13474,7 +14168,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 19.0
+        "weight": 19.0,
+        "evolution_family": [
+            {"species": "Typhlosion", "method": "level", "parameter": 36},
+            {"species": "Cyndaquil", "method": null, "parameter": null},
+            {"species": "Quilava", "method": null, "parameter": null}
+        ]
     },
     "Typhlosion": {
         "species": "Typhlosion",
@@ -13561,7 +14260,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 79.5
+        "weight": 79.5,
+        "evolution_family": [
+            {"species": "Typhlosion", "method": null, "parameter": null},
+            {"species": "Cyndaquil", "method": null, "parameter": null},
+            {"species": "Quilava", "method": null, "parameter": null}
+        ]
     },
     "Totodile": {
         "species": "Totodile",
@@ -13657,7 +14361,12 @@ export const pokedex = {
             "Water Sport",
             "Dragon Claw"
         ],
-        "weight": 9.5
+        "weight": 9.5,
+        "evolution_family": [
+            {"species": "Croconaw", "method": "level", "parameter": 18},
+            {"species": "Totodile", "method": null, "parameter": null},
+            {"species": "Feraligatr", "method": null, "parameter": null}
+        ]
     },
     "Croconaw": {
         "species": "Croconaw",
@@ -13748,7 +14457,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 25.0
+        "weight": 25.0,
+        "evolution_family": [
+            {"species": "Feraligatr", "method": "level", "parameter": 30},
+            {"species": "Croconaw", "method": null, "parameter": null},
+            {"species": "Totodile", "method": null, "parameter": null}
+        ]
     },
     "Feraligatr": {
         "species": "Feraligatr",
@@ -13843,7 +14557,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 88.8
+        "weight": 88.8,
+        "evolution_family": [
+            {"species": "Croconaw", "method": null, "parameter": null},
+            {"species": "Totodile", "method": null, "parameter": null},
+            {"species": "Feraligatr", "method": null, "parameter": null}
+        ]
     },
     "Sentret": {
         "species": "Sentret",
@@ -13936,7 +14655,11 @@ export const pokedex = {
             "Trick",
             "Assist"
         ],
-        "weight": 6.0
+        "weight": 6.0,
+        "evolution_family": [
+            {"species": "Furret", "method": "level", "parameter": 15},
+            {"species": "Sentret", "method": null, "parameter": null}
+        ]
     },
     "Furret": {
         "species": "Furret",
@@ -14027,7 +14750,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 32.5
+        "weight": 32.5,
+        "evolution_family": [
+            {"species": "Sentret", "method": null, "parameter": null},
+            {"species": "Furret", "method": null, "parameter": null}
+        ]
     },
     "Hoothoot": {
         "species": "Hoothoot",
@@ -14113,7 +14840,11 @@ export const pokedex = {
             "Sky Attack",
             "FeatherDance"
         ],
-        "weight": 21.2
+        "weight": 21.2,
+        "evolution_family": [
+            {"species": "Noctowl", "method": "level", "parameter": 20},
+            {"species": "Hoothoot", "method": null, "parameter": null}
+        ]
     },
     "Noctowl": {
         "species": "Noctowl",
@@ -14194,7 +14925,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 40.8
+        "weight": 40.8,
+        "evolution_family": [
+            {"species": "Hoothoot", "method": null, "parameter": null},
+            {"species": "Noctowl", "method": null, "parameter": null}
+        ]
     },
     "Ledyba": {
         "species": "Ledyba",
@@ -14280,7 +15015,11 @@ export const pokedex = {
             "Bide",
             "Silver Wind"
         ],
-        "weight": 10.8
+        "weight": 10.8,
+        "evolution_family": [
+            {"species": "Ledian", "method": "level", "parameter": 18},
+            {"species": "Ledyba", "method": null, "parameter": null}
+        ]
     },
     "Ledian": {
         "species": "Ledian",
@@ -14364,7 +15103,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 35.6
+        "weight": 35.6,
+        "evolution_family": [
+            {"species": "Ledian", "method": null, "parameter": null},
+            {"species": "Ledyba", "method": null, "parameter": null}
+        ]
     },
     "Spinarak": {
         "species": "Spinarak",
@@ -14448,7 +15191,11 @@ export const pokedex = {
             "Pursuit",
             "Signal Beam"
         ],
-        "weight": 8.5
+        "weight": 8.5,
+        "evolution_family": [
+            {"species": "Ariados", "method": "level", "parameter": 22},
+            {"species": "Spinarak", "method": null, "parameter": null}
+        ]
     },
     "Ariados": {
         "species": "Ariados",
@@ -14528,7 +15275,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 33.5
+        "weight": 33.5,
+        "evolution_family": [
+            {"species": "Spinarak", "method": null, "parameter": null},
+            {"species": "Ariados", "method": null, "parameter": null}
+        ]
     },
     "Crobat": {
         "species": "Crobat",
@@ -14611,7 +15362,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 75.0
+        "weight": 75.0,
+        "evolution_family": [
+            {"species": "Zubat", "method": null, "parameter": null},
+            {"species": "Crobat", "method": null, "parameter": null},
+            {"species": "Golbat", "method": null, "parameter": null}
+        ]
     },
     "Chinchou": {
         "species": "Chinchou",
@@ -14696,7 +15452,11 @@ export const pokedex = {
             "Screech",
             "Amnesia"
         ],
-        "weight": 12.0
+        "weight": 12.0,
+        "evolution_family": [
+            {"species": "Lanturn", "method": "level", "parameter": 27},
+            {"species": "Chinchou", "method": null, "parameter": null}
+        ]
     },
     "Lanturn": {
         "species": "Lanturn",
@@ -14779,7 +15539,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 22.5
+        "weight": 22.5,
+        "evolution_family": [
+            {"species": "Lanturn", "method": null, "parameter": null},
+            {"species": "Chinchou", "method": null, "parameter": null}
+        ]
     },
     "Pichu": {
         "species": "Pichu",
@@ -14862,7 +15626,12 @@ export const pokedex = {
             "Wish",
             "Charge"
         ],
-        "weight": 2.0
+        "weight": 2.0,
+        "evolution_family": [
+            {"species": "Pikachu", "method": "friendship", "parameter": null},
+            {"species": "Raichu", "method": null, "parameter": null},
+            {"species": "Pichu", "method": null, "parameter": null}
+        ]
     },
     "Cleffa": {
         "species": "Cleffa",
@@ -14958,7 +15727,12 @@ export const pokedex = {
             "Wish",
             "Substitute"
         ],
-        "weight": 3.0
+        "weight": 3.0,
+        "evolution_family": [
+            {"species": "Clefairy", "method": "friendship", "parameter": null},
+            {"species": "Cleffa", "method": null, "parameter": null},
+            {"species": "Clefable", "method": null, "parameter": null}
+        ]
     },
     "Igglybuff": {
         "species": "Igglybuff",
@@ -15047,7 +15821,12 @@ export const pokedex = {
             "Wish",
             "Fake Tears"
         ],
-        "weight": 1.0
+        "weight": 1.0,
+        "evolution_family": [
+            {"species": "Jigglypuff", "method": "friendship", "parameter": null},
+            {"species": "Wigglytuff", "method": null, "parameter": null},
+            {"species": "Igglybuff", "method": null, "parameter": null}
+        ]
     },
     "Togepi": {
         "species": "Togepi",
@@ -15148,7 +15927,11 @@ export const pokedex = {
             "Substitute",
             "Psych Up"
         ],
-        "weight": 1.5
+        "weight": 1.5,
+        "evolution_family": [
+            {"species": "Togetic", "method": "friendship", "parameter": null},
+            {"species": "Togepi", "method": null, "parameter": null}
+        ]
     },
     "Togetic": {
         "species": "Togetic",
@@ -15250,7 +16033,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 3.2
+        "weight": 3.2,
+        "evolution_family": [
+            {"species": "Togepi", "method": null, "parameter": null},
+            {"species": "Togetic", "method": null, "parameter": null}
+        ]
     },
     "Natu": {
         "species": "Natu",
@@ -15341,7 +16128,11 @@ export const pokedex = {
             "FeatherDance",
             "Refresh"
         ],
-        "weight": 2.0
+        "weight": 2.0,
+        "evolution_family": [
+            {"species": "Xatu", "method": "level", "parameter": 25},
+            {"species": "Natu", "method": null, "parameter": null}
+        ]
     },
     "Xatu": {
         "species": "Xatu",
@@ -15425,7 +16216,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 15.0
+        "weight": 15.0,
+        "evolution_family": [
+            {"species": "Xatu", "method": null, "parameter": null},
+            {"species": "Natu", "method": null, "parameter": null}
+        ]
     },
     "Mareep": {
         "species": "Mareep",
@@ -15506,7 +16301,12 @@ export const pokedex = {
             "Odor Sleuth",
             "Charge"
         ],
-        "weight": 7.8
+        "weight": 7.8,
+        "evolution_family": [
+            {"species": "Flaaffy", "method": "level", "parameter": 15},
+            {"species": "Mareep", "method": null, "parameter": null},
+            {"species": "Ampharos", "method": null, "parameter": null}
+        ]
     },
     "Flaaffy": {
         "species": "Flaaffy",
@@ -15588,7 +16388,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 13.3
+        "weight": 13.3,
+        "evolution_family": [
+            {"species": "Ampharos", "method": "level", "parameter": 30},
+            {"species": "Mareep", "method": null, "parameter": null},
+            {"species": "Flaaffy", "method": null, "parameter": null}
+        ]
     },
     "Ampharos": {
         "species": "Ampharos",
@@ -15673,7 +16478,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 61.5
+        "weight": 61.5,
+        "evolution_family": [
+            {"species": "Mareep", "method": null, "parameter": null},
+            {"species": "Flaaffy", "method": null, "parameter": null},
+            {"species": "Ampharos", "method": null, "parameter": null}
+        ]
     },
     "Bellossom": {
         "species": "Bellossom",
@@ -15746,7 +16556,13 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 5.8
+        "weight": 5.8,
+        "evolution_family": [
+            {"species": "Vileplume", "method": null, "parameter": null},
+            {"species": "Bellossom", "method": null, "parameter": null},
+            {"species": "Gloom", "method": null, "parameter": null},
+            {"species": "Oddish", "method": null, "parameter": null}
+        ]
     },
     "Marill": {
         "species": "Marill",
@@ -15840,7 +16656,12 @@ export const pokedex = {
             "Supersonic",
             "Substitute"
         ],
-        "weight": 8.5
+        "weight": 8.5,
+        "evolution_family": [
+            {"species": "Azumarill", "method": "level", "parameter": 18},
+            {"species": "Azurill", "method": null, "parameter": null},
+            {"species": "Marill", "method": null, "parameter": null}
+        ]
     },
     "Azumarill": {
         "species": "Azumarill",
@@ -15929,7 +16750,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 28.5
+        "weight": 28.5,
+        "evolution_family": [
+            {"species": "Azumarill", "method": null, "parameter": null},
+            {"species": "Azurill", "method": null, "parameter": null},
+            {"species": "Marill", "method": null, "parameter": null}
+        ]
     },
     "Sudowoodo": {
         "species": "Sudowoodo",
@@ -16017,7 +16843,10 @@ export const pokedex = {
         "egg_moves": [
             "Selfdestruct"
         ],
-        "weight": 38.0
+        "weight": 38.0,
+        "evolution_family": [
+            {"species": "Sudowoodo", "method": null, "parameter": null}
+        ]
     },
     "Politoed": {
         "species": "Politoed",
@@ -16104,7 +16933,13 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 33.9
+        "weight": 33.9,
+        "evolution_family": [
+            {"species": "Poliwhirl", "method": null, "parameter": null},
+            {"species": "Poliwrath", "method": null, "parameter": null},
+            {"species": "Politoed", "method": null, "parameter": null},
+            {"species": "Poliwag", "method": null, "parameter": null}
+        ]
     },
     "Hoppip": {
         "species": "Hoppip",
@@ -16186,7 +17021,12 @@ export const pokedex = {
             "Helping Hand",
             "Psych Up"
         ],
-        "weight": 0.5
+        "weight": 0.5,
+        "evolution_family": [
+            {"species": "Skiploom", "method": "level", "parameter": 18},
+            {"species": "Jumpluff", "method": null, "parameter": null},
+            {"species": "Hoppip", "method": null, "parameter": null}
+        ]
     },
     "Skiploom": {
         "species": "Skiploom",
@@ -16263,7 +17103,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 1.0
+        "weight": 1.0,
+        "evolution_family": [
+            {"species": "Jumpluff", "method": "level", "parameter": 27},
+            {"species": "Hoppip", "method": null, "parameter": null},
+            {"species": "Skiploom", "method": null, "parameter": null}
+        ]
     },
     "Jumpluff": {
         "species": "Jumpluff",
@@ -16341,7 +17186,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 3.0
+        "weight": 3.0,
+        "evolution_family": [
+            {"species": "Jumpluff", "method": null, "parameter": null},
+            {"species": "Hoppip", "method": null, "parameter": null},
+            {"species": "Skiploom", "method": null, "parameter": null}
+        ]
     },
     "Aipom": {
         "species": "Aipom",
@@ -16445,7 +17295,10 @@ export const pokedex = {
             "DoubleSlap",
             "Beat Up"
         ],
-        "weight": 11.5
+        "weight": 11.5,
+        "evolution_family": [
+            {"species": "Aipom", "method": null, "parameter": null}
+        ]
     },
     "Sunkern": {
         "species": "Sunkern",
@@ -16527,7 +17380,11 @@ export const pokedex = {
             "Curse",
             "Helping Hand"
         ],
-        "weight": 1.8
+        "weight": 1.8,
+        "evolution_family": [
+            {"species": "Sunflora", "method": "item", "parameter": "Sun Stone"},
+            {"species": "Sunkern", "method": null, "parameter": null}
+        ]
     },
     "Sunflora": {
         "species": "Sunflora",
@@ -16604,7 +17461,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 8.5
+        "weight": 8.5,
+        "evolution_family": [
+            {"species": "Sunkern", "method": null, "parameter": null},
+            {"species": "Sunflora", "method": null, "parameter": null}
+        ]
     },
     "Yanma": {
         "species": "Yanma",
@@ -16689,7 +17550,10 @@ export const pokedex = {
             "Signal Beam",
             "Silver Wind"
         ],
-        "weight": 38.0
+        "weight": 38.0,
+        "evolution_family": [
+            {"species": "Yanma", "method": null, "parameter": null}
+        ]
     },
     "Wooper": {
         "species": "Wooper",
@@ -16782,7 +17646,11 @@ export const pokedex = {
             "Swallow",
             "Spit Up"
         ],
-        "weight": 8.5
+        "weight": 8.5,
+        "evolution_family": [
+            {"species": "Quagsire", "method": "level", "parameter": 20},
+            {"species": "Wooper", "method": null, "parameter": null}
+        ]
     },
     "Quagsire": {
         "species": "Quagsire",
@@ -16875,7 +17743,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 75.0
+        "weight": 75.0,
+        "evolution_family": [
+            {"species": "Wooper", "method": null, "parameter": null},
+            {"species": "Quagsire", "method": null, "parameter": null}
+        ]
     },
     "Espeon": {
         "species": "Espeon",
@@ -16958,7 +17830,15 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 26.5
+        "weight": 26.5,
+        "evolution_family": [
+            {"species": "Eevee", "method": null, "parameter": null},
+            {"species": "Umbreon", "method": null, "parameter": null},
+            {"species": "Vaporeon", "method": null, "parameter": null},
+            {"species": "Espeon", "method": null, "parameter": null},
+            {"species": "Flareon", "method": null, "parameter": null},
+            {"species": "Jolteon", "method": null, "parameter": null}
+        ]
     },
     "Umbreon": {
         "species": "Umbreon",
@@ -17040,7 +17920,15 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 27.0
+        "weight": 27.0,
+        "evolution_family": [
+            {"species": "Eevee", "method": null, "parameter": null},
+            {"species": "Umbreon", "method": null, "parameter": null},
+            {"species": "Vaporeon", "method": null, "parameter": null},
+            {"species": "Espeon", "method": null, "parameter": null},
+            {"species": "Flareon", "method": null, "parameter": null},
+            {"species": "Jolteon", "method": null, "parameter": null}
+        ]
     },
     "Murkrow": {
         "species": "Murkrow",
@@ -17127,7 +18015,10 @@ export const pokedex = {
             "FeatherDance",
             "Perish Song"
         ],
-        "weight": 2.1
+        "weight": 2.1,
+        "evolution_family": [
+            {"species": "Murkrow", "method": null, "parameter": null}
+        ]
     },
     "Slowking": {
         "species": "Slowking",
@@ -17227,7 +18118,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 79.5
+        "weight": 79.5,
+        "evolution_family": [
+            {"species": "Slowbro", "method": null, "parameter": null},
+            {"species": "Slowpoke", "method": null, "parameter": null},
+            {"species": "Slowking", "method": null, "parameter": null}
+        ]
     },
     "Misdreavus": {
         "species": "Misdreavus",
@@ -17316,7 +18212,10 @@ export const pokedex = {
             "Psych Up",
             "Imprison"
         ],
-        "weight": 1.0
+        "weight": 1.0,
+        "evolution_family": [
+            {"species": "Misdreavus", "method": null, "parameter": null}
+        ]
     },
     "Unown": {
         "species": "Unown",
@@ -17359,7 +18258,10 @@ export const pokedex = {
         "tm_hm_learnset": [],
         "tutor_learnset": [],
         "egg_moves": [],
-        "weight": 5.0
+        "weight": 5.0,
+        "evolution_family": [
+            {"species": "Unown", "method": null, "parameter": null}
+        ]
     },
     "Wobbuffet": {
         "species": "Wobbuffet",
@@ -17405,7 +18307,11 @@ export const pokedex = {
         "tm_hm_learnset": [],
         "tutor_learnset": [],
         "egg_moves": [],
-        "weight": 28.5
+        "weight": 28.5,
+        "evolution_family": [
+            {"species": "Wobbuffet", "method": null, "parameter": null},
+            {"species": "Wynaut", "method": null, "parameter": null}
+        ]
     },
     "Girafarig": {
         "species": "Girafarig",
@@ -17502,7 +18408,10 @@ export const pokedex = {
             "Wish",
             "Magic Coat"
         ],
-        "weight": 41.5
+        "weight": 41.5,
+        "evolution_family": [
+            {"species": "Girafarig", "method": null, "parameter": null}
+        ]
     },
     "Pineco": {
         "species": "Pineco",
@@ -17589,7 +18498,11 @@ export const pokedex = {
             "Counter",
             "Sand Tomb"
         ],
-        "weight": 7.2
+        "weight": 7.2,
+        "evolution_family": [
+            {"species": "Forretress", "method": "level", "parameter": 31},
+            {"species": "Pineco", "method": null, "parameter": null}
+        ]
     },
     "Forretress": {
         "species": "Forretress",
@@ -17672,7 +18585,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 125.8
+        "weight": 125.8,
+        "evolution_family": [
+            {"species": "Forretress", "method": null, "parameter": null},
+            {"species": "Pineco", "method": null, "parameter": null}
+        ]
     },
     "Dunsparce": {
         "species": "Dunsparce",
@@ -17774,7 +18691,10 @@ export const pokedex = {
             "Astonish",
             "Curse"
         ],
-        "weight": 14.0
+        "weight": 14.0,
+        "evolution_family": [
+            {"species": "Dunsparce", "method": null, "parameter": null}
+        ]
     },
     "Gligar": {
         "species": "Gligar",
@@ -17864,7 +18784,10 @@ export const pokedex = {
             "Counter",
             "Sand Tomb"
         ],
-        "weight": 64.8
+        "weight": 64.8,
+        "evolution_family": [
+            {"species": "Gligar", "method": null, "parameter": null}
+        ]
     },
     "Steelix": {
         "species": "Steelix",
@@ -17950,7 +18873,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 400.0
+        "weight": 400.0,
+        "evolution_family": [
+            {"species": "Steelix", "method": null, "parameter": null},
+            {"species": "Onix", "method": null, "parameter": null}
+        ]
     },
     "Snubbull": {
         "species": "Snubbull",
@@ -18057,7 +18984,11 @@ export const pokedex = {
             "Snore",
             "SmellingSalt"
         ],
-        "weight": 7.8
+        "weight": 7.8,
+        "evolution_family": [
+            {"species": "Granbull", "method": "level", "parameter": 23},
+            {"species": "Snubbull", "method": null, "parameter": null}
+        ]
     },
     "Granbull": {
         "species": "Granbull",
@@ -18159,7 +19090,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 48.7
+        "weight": 48.7,
+        "evolution_family": [
+            {"species": "Granbull", "method": null, "parameter": null},
+            {"species": "Snubbull", "method": null, "parameter": null}
+        ]
     },
     "Qwilfish": {
         "species": "Qwilfish",
@@ -18247,7 +19182,10 @@ export const pokedex = {
             "Supersonic",
             "Astonish"
         ],
-        "weight": 3.9
+        "weight": 3.9,
+        "evolution_family": [
+            {"species": "Qwilfish", "method": null, "parameter": null}
+        ]
     },
     "Scizor": {
         "species": "Scizor",
@@ -18327,7 +19265,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 118.0
+        "weight": 118.0,
+        "evolution_family": [
+            {"species": "Scizor", "method": null, "parameter": null},
+            {"species": "Scyther", "method": null, "parameter": null}
+        ]
     },
     "Shuckle": {
         "species": "Shuckle",
@@ -18405,7 +19347,10 @@ export const pokedex = {
         "egg_moves": [
             "Sweet Scent"
         ],
-        "weight": 20.5
+        "weight": 20.5,
+        "evolution_family": [
+            {"species": "Shuckle", "method": null, "parameter": null}
+        ]
     },
     "Heracross": {
         "species": "Heracross",
@@ -18496,7 +19441,10 @@ export const pokedex = {
             "Flail",
             "False Swipe"
         ],
-        "weight": 54.0
+        "weight": 54.0,
+        "evolution_family": [
+            {"species": "Heracross", "method": null, "parameter": null}
+        ]
     },
     "Sneasel": {
         "species": "Sneasel",
@@ -18597,7 +19545,10 @@ export const pokedex = {
             "Crush Claw",
             "Fake Out"
         ],
-        "weight": 28.0
+        "weight": 28.0,
+        "evolution_family": [
+            {"species": "Sneasel", "method": null, "parameter": null}
+        ]
     },
     "Teddiursa": {
         "species": "Teddiursa",
@@ -18695,7 +19646,11 @@ export const pokedex = {
             "Yawn",
             "Sleep Talk"
         ],
-        "weight": 8.8
+        "weight": 8.8,
+        "evolution_family": [
+            {"species": "Ursaring", "method": "level", "parameter": 30},
+            {"species": "Teddiursa", "method": null, "parameter": null}
+        ]
     },
     "Ursaring": {
         "species": "Ursaring",
@@ -18789,7 +19744,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 125.8
+        "weight": 125.8,
+        "evolution_family": [
+            {"species": "Teddiursa", "method": null, "parameter": null},
+            {"species": "Ursaring", "method": null, "parameter": null}
+        ]
     },
     "Slugma": {
         "species": "Slugma",
@@ -18868,7 +19827,11 @@ export const pokedex = {
             "Acid Armor",
             "Heat Wave"
         ],
-        "weight": 35.0
+        "weight": 35.0,
+        "evolution_family": [
+            {"species": "Magcargo", "method": "level", "parameter": 38},
+            {"species": "Slugma", "method": null, "parameter": null}
+        ]
     },
     "Magcargo": {
         "species": "Magcargo",
@@ -18951,7 +19914,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 55.0
+        "weight": 55.0,
+        "evolution_family": [
+            {"species": "Slugma", "method": null, "parameter": null},
+            {"species": "Magcargo", "method": null, "parameter": null}
+        ]
     },
     "Swinub": {
         "species": "Swinub",
@@ -19040,7 +20007,11 @@ export const pokedex = {
             "Icicle Spear",
             "Double-Edge"
         ],
-        "weight": 6.5
+        "weight": 6.5,
+        "evolution_family": [
+            {"species": "Piloswine", "method": "level", "parameter": 33},
+            {"species": "Swinub", "method": null, "parameter": null}
+        ]
     },
     "Piloswine": {
         "species": "Piloswine",
@@ -19124,7 +20095,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 55.8
+        "weight": 55.8,
+        "evolution_family": [
+            {"species": "Swinub", "method": null, "parameter": null},
+            {"species": "Piloswine", "method": null, "parameter": null}
+        ]
     },
     "Corsola": {
         "species": "Corsola",
@@ -19223,7 +20198,10 @@ export const pokedex = {
             "Confuse Ray",
             "Icicle Spear"
         ],
-        "weight": 5.0
+        "weight": 5.0,
+        "evolution_family": [
+            {"species": "Corsola", "method": null, "parameter": null}
+        ]
     },
     "Remoraid": {
         "species": "Remoraid",
@@ -19310,7 +20288,11 @@ export const pokedex = {
             "Thunder Wave",
             "Rock Blast"
         ],
-        "weight": 12.0
+        "weight": 12.0,
+        "evolution_family": [
+            {"species": "Octillery", "method": "level", "parameter": 25},
+            {"species": "Remoraid", "method": null, "parameter": null}
+        ]
     },
     "Octillery": {
         "species": "Octillery",
@@ -19393,7 +20375,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 28.5
+        "weight": 28.5,
+        "evolution_family": [
+            {"species": "Remoraid", "method": null, "parameter": null},
+            {"species": "Octillery", "method": null, "parameter": null}
+        ]
     },
     "Delibird": {
         "species": "Delibird",
@@ -19473,7 +20459,10 @@ export const pokedex = {
             "Rapid Spin",
             "Ice Ball"
         ],
-        "weight": 16.0
+        "weight": 16.0,
+        "evolution_family": [
+            {"species": "Delibird", "method": null, "parameter": null}
+        ]
     },
     "Mantine": {
         "species": "Mantine",
@@ -19558,7 +20547,10 @@ export const pokedex = {
             "Mud Sport",
             "Rock Slide"
         ],
-        "weight": 220.0
+        "weight": 220.0,
+        "evolution_family": [
+            {"species": "Mantine", "method": null, "parameter": null}
+        ]
     },
     "Skarmory": {
         "species": "Skarmory",
@@ -19645,7 +20637,10 @@ export const pokedex = {
             "Sky Attack",
             "Curse"
         ],
-        "weight": 50.5
+        "weight": 50.5,
+        "evolution_family": [
+            {"species": "Skarmory", "method": null, "parameter": null}
+        ]
     },
     "Houndour": {
         "species": "Houndour",
@@ -19739,7 +20734,11 @@ export const pokedex = {
             "Beat Up",
             "Will-O-Wisp"
         ],
-        "weight": 10.8
+        "weight": 10.8,
+        "evolution_family": [
+            {"species": "Houndoom", "method": "level", "parameter": 24},
+            {"species": "Houndour", "method": null, "parameter": null}
+        ]
     },
     "Houndoom": {
         "species": "Houndoom",
@@ -19827,7 +20826,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 35.0
+        "weight": 35.0,
+        "evolution_family": [
+            {"species": "Houndoom", "method": null, "parameter": null},
+            {"species": "Houndour", "method": null, "parameter": null}
+        ]
     },
     "Kingdra": {
         "species": "Kingdra",
@@ -19905,7 +20908,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 152.0
+        "weight": 152.0,
+        "evolution_family": [
+            {"species": "Seadra", "method": null, "parameter": null},
+            {"species": "Horsea", "method": null, "parameter": null},
+            {"species": "Kingdra", "method": null, "parameter": null}
+        ]
     },
     "Phanpy": {
         "species": "Phanpy",
@@ -19988,7 +20996,11 @@ export const pokedex = {
             "Counter",
             "Fissure"
         ],
-        "weight": 33.5
+        "weight": 33.5,
+        "evolution_family": [
+            {"species": "Donphan", "method": "level", "parameter": 25},
+            {"species": "Phanpy", "method": null, "parameter": null}
+        ]
     },
     "Donphan": {
         "species": "Donphan",
@@ -20066,7 +21078,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 120.0
+        "weight": 120.0,
+        "evolution_family": [
+            {"species": "Donphan", "method": null, "parameter": null},
+            {"species": "Phanpy", "method": null, "parameter": null}
+        ]
     },
     "Porygon2": {
         "species": "Porygon2",
@@ -20150,7 +21166,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 32.5
+        "weight": 32.5,
+        "evolution_family": [
+            {"species": "Porygon2", "method": null, "parameter": null},
+            {"species": "Porygon", "method": null, "parameter": null}
+        ]
     },
     "Stantler": {
         "species": "Stantler",
@@ -20244,7 +21264,10 @@ export const pokedex = {
             "Psych Up",
             "Extrasensory"
         ],
-        "weight": 71.2
+        "weight": 71.2,
+        "evolution_family": [
+            {"species": "Stantler", "method": null, "parameter": null}
+        ]
     },
     "Smeargle": {
         "species": "Smeargle",
@@ -20296,7 +21319,10 @@ export const pokedex = {
         "tm_hm_learnset": [],
         "tutor_learnset": [],
         "egg_moves": [],
-        "weight": 58.0
+        "weight": 58.0,
+        "evolution_family": [
+            {"species": "Smeargle", "method": null, "parameter": null}
+        ]
     },
     "Tyrogue": {
         "species": "Tyrogue",
@@ -20373,7 +21399,13 @@ export const pokedex = {
             "Mind Reader",
             "Helping Hand"
         ],
-        "weight": 21.0
+        "weight": 21.0,
+        "evolution_family": [
+            {"species": "Hitmonchan", "method": "attack_less_than_defense_at_level", "parameter": 20},
+            {"species": "Hitmonlee", "method": "attack_greater_than_defense_at_level", "parameter": 20},
+            {"species": "Hitmontop", "method": "attack_equals_defense_at_level", "parameter": 20},
+            {"species": "Tyrogue", "method": null, "parameter": null}
+        ]
     },
     "Hitmontop": {
         "species": "Hitmontop",
@@ -20456,7 +21488,13 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 48.0
+        "weight": 48.0,
+        "evolution_family": [
+            {"species": "Hitmonlee", "method": null, "parameter": null},
+            {"species": "Tyrogue", "method": null, "parameter": null},
+            {"species": "Hitmonchan", "method": null, "parameter": null},
+            {"species": "Hitmontop", "method": null, "parameter": null}
+        ]
     },
     "Smoochum": {
         "species": "Smoochum",
@@ -20550,7 +21588,11 @@ export const pokedex = {
             "Wish",
             "Ice Punch"
         ],
-        "weight": 6.0
+        "weight": 6.0,
+        "evolution_family": [
+            {"species": "Jynx", "method": "level", "parameter": 30},
+            {"species": "Smoochum", "method": null, "parameter": null}
+        ]
     },
     "Elekid": {
         "species": "Elekid",
@@ -20640,7 +21682,11 @@ export const pokedex = {
             "Fire Punch",
             "Ice Punch"
         ],
-        "weight": 23.5
+        "weight": 23.5,
+        "evolution_family": [
+            {"species": "Electabuzz", "method": "level", "parameter": 30},
+            {"species": "Elekid", "method": null, "parameter": null}
+        ]
     },
     "Magby": {
         "species": "Magby",
@@ -20727,7 +21773,11 @@ export const pokedex = {
             "Cross Chop",
             "ThunderPunch"
         ],
-        "weight": 21.4
+        "weight": 21.4,
+        "evolution_family": [
+            {"species": "Magmar", "method": "level", "parameter": 30},
+            {"species": "Magby", "method": null, "parameter": null}
+        ]
     },
     "Miltank": {
         "species": "Miltank",
@@ -20830,7 +21880,10 @@ export const pokedex = {
             "Helping Hand",
             "Sleep Talk"
         ],
-        "weight": 75.5
+        "weight": 75.5,
+        "evolution_family": [
+            {"species": "Miltank", "method": null, "parameter": null}
+        ]
     },
     "Blissey": {
         "species": "Blissey",
@@ -20938,7 +21991,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 46.8
+        "weight": 46.8,
+        "evolution_family": [
+            {"species": "Blissey", "method": null, "parameter": null},
+            {"species": "Chansey", "method": null, "parameter": null}
+        ]
     },
     "Raikou": {
         "species": "Raikou",
@@ -21022,7 +22079,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 178.0
+        "weight": 178.0,
+        "evolution_family": [
+            {"species": "Raikou", "method": null, "parameter": null}
+        ]
     },
     "Entei": {
         "species": "Entei",
@@ -21105,7 +22165,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 198.0
+        "weight": 198.0,
+        "evolution_family": [
+            {"species": "Entei", "method": null, "parameter": null}
+        ]
     },
     "Suicune": {
         "species": "Suicune",
@@ -21190,7 +22253,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 187.0
+        "weight": 187.0,
+        "evolution_family": [
+            {"species": "Suicune", "method": null, "parameter": null}
+        ]
     },
     "Larvitar": {
         "species": "Larvitar",
@@ -21277,7 +22343,12 @@ export const pokedex = {
             "Dragon Dance",
             "Curse"
         ],
-        "weight": 72.0
+        "weight": 72.0,
+        "evolution_family": [
+            {"species": "Pupitar", "method": "level", "parameter": 30},
+            {"species": "Larvitar", "method": null, "parameter": null},
+            {"species": "Tyranitar", "method": null, "parameter": null}
+        ]
     },
     "Pupitar": {
         "species": "Pupitar",
@@ -21358,7 +22429,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 152.0
+        "weight": 152.0,
+        "evolution_family": [
+            {"species": "Tyranitar", "method": "level", "parameter": 55},
+            {"species": "Larvitar", "method": null, "parameter": null},
+            {"species": "Pupitar", "method": null, "parameter": null}
+        ]
     },
     "Tyranitar": {
         "species": "Tyranitar",
@@ -21461,7 +22537,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 202.0
+        "weight": 202.0,
+        "evolution_family": [
+            {"species": "Larvitar", "method": null, "parameter": null},
+            {"species": "Tyranitar", "method": null, "parameter": null},
+            {"species": "Pupitar", "method": null, "parameter": null}
+        ]
     },
     "Lugia": {
         "species": "Lugia",
@@ -21560,7 +22641,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 216.0
+        "weight": 216.0,
+        "evolution_family": [
+            {"species": "Lugia", "method": null, "parameter": null}
+        ]
     },
     "Ho-Oh": {
         "species": "Ho-Oh",
@@ -21654,7 +22738,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 199.0
+        "weight": 199.0,
+        "evolution_family": [
+            {"species": "HoOh", "method": null, "parameter": null}
+        ]
     },
     "Celebi": {
         "species": "Celebi",
@@ -21740,7 +22827,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 5.0
+        "weight": 5.0,
+        "evolution_family": [
+            {"species": "Celebi", "method": null, "parameter": null}
+        ]
     },
     "Treecko": {
         "species": "Treecko",
@@ -21836,7 +22926,12 @@ export const pokedex = {
             "DragonBreath",
             "Crush Claw"
         ],
-        "weight": 5.0
+        "weight": 5.0,
+        "evolution_family": [
+            {"species": "Grovyle", "method": "level", "parameter": 16},
+            {"species": "Treecko", "method": null, "parameter": null},
+            {"species": "Sceptile", "method": null, "parameter": null}
+        ]
     },
     "Grovyle": {
         "species": "Grovyle",
@@ -21928,7 +23023,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 21.6
+        "weight": 21.6,
+        "evolution_family": [
+            {"species": "Sceptile", "method": "level", "parameter": 36},
+            {"species": "Treecko", "method": null, "parameter": null},
+            {"species": "Grovyle", "method": null, "parameter": null}
+        ]
     },
     "Sceptile": {
         "species": "Sceptile",
@@ -22024,7 +23124,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 52.2
+        "weight": 52.2,
+        "evolution_family": [
+            {"species": "Treecko", "method": null, "parameter": null},
+            {"species": "Sceptile", "method": null, "parameter": null},
+            {"species": "Grovyle", "method": null, "parameter": null}
+        ]
     },
     "Torchic": {
         "species": "Torchic",
@@ -22116,7 +23221,12 @@ export const pokedex = {
             "Rock Slide",
             "SmellingSalt"
         ],
-        "weight": 2.5
+        "weight": 2.5,
+        "evolution_family": [
+            {"species": "Combusken", "method": "level", "parameter": 16},
+            {"species": "Torchic", "method": null, "parameter": null},
+            {"species": "Blaziken", "method": null, "parameter": null}
+        ]
     },
     "Combusken": {
         "species": "Combusken",
@@ -22207,7 +23317,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 19.5
+        "weight": 19.5,
+        "evolution_family": [
+            {"species": "Blaziken", "method": "level", "parameter": 36},
+            {"species": "Torchic", "method": null, "parameter": null},
+            {"species": "Combusken", "method": null, "parameter": null}
+        ]
     },
     "Blaziken": {
         "species": "Blaziken",
@@ -22303,7 +23418,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 52.0
+        "weight": 52.0,
+        "evolution_family": [
+            {"species": "Torchic", "method": null, "parameter": null},
+            {"species": "Combusken", "method": null, "parameter": null},
+            {"species": "Blaziken", "method": null, "parameter": null}
+        ]
     },
     "Mudkip": {
         "species": "Mudkip",
@@ -22393,7 +23513,12 @@ export const pokedex = {
             "Ice Ball",
             "Mirror Coat"
         ],
-        "weight": 7.6
+        "weight": 7.6,
+        "evolution_family": [
+            {"species": "Marshtomp", "method": "level", "parameter": 16},
+            {"species": "Mudkip", "method": null, "parameter": null},
+            {"species": "Swampert", "method": null, "parameter": null}
+        ]
     },
     "Marshtomp": {
         "species": "Marshtomp",
@@ -22485,7 +23610,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 28.0
+        "weight": 28.0,
+        "evolution_family": [
+            {"species": "Swampert", "method": "level", "parameter": 36},
+            {"species": "Marshtomp", "method": null, "parameter": null},
+            {"species": "Mudkip", "method": null, "parameter": null}
+        ]
     },
     "Swampert": {
         "species": "Swampert",
@@ -22581,7 +23711,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 81.9
+        "weight": 81.9,
+        "evolution_family": [
+            {"species": "Marshtomp", "method": null, "parameter": null},
+            {"species": "Mudkip", "method": null, "parameter": null},
+            {"species": "Swampert", "method": null, "parameter": null}
+        ]
     },
     "Poochyena": {
         "species": "Poochyena",
@@ -22669,7 +23804,11 @@ export const pokedex = {
             "Leer",
             "Yawn"
         ],
-        "weight": 13.6
+        "weight": 13.6,
+        "evolution_family": [
+            {"species": "Mightyena", "method": "level", "parameter": 18},
+            {"species": "Poochyena", "method": null, "parameter": null}
+        ]
     },
     "Mightyena": {
         "species": "Mightyena",
@@ -22756,7 +23895,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 37.0
+        "weight": 37.0,
+        "evolution_family": [
+            {"species": "Poochyena", "method": null, "parameter": null},
+            {"species": "Mightyena", "method": null, "parameter": null}
+        ]
     },
     "Zigzagoon": {
         "species": "Zigzagoon",
@@ -22848,7 +23991,11 @@ export const pokedex = {
             "Tickle",
             "Trick"
         ],
-        "weight": 17.5
+        "weight": 17.5,
+        "evolution_family": [
+            {"species": "Linoone", "method": "level", "parameter": 20},
+            {"species": "Zigzagoon", "method": null, "parameter": null}
+        ]
     },
     "Linoone": {
         "species": "Linoone",
@@ -22939,7 +24086,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 32.5
+        "weight": 32.5,
+        "evolution_family": [
+            {"species": "Zigzagoon", "method": null, "parameter": null},
+            {"species": "Linoone", "method": null, "parameter": null}
+        ]
     },
     "Wurmple": {
         "species": "Wurmple",
@@ -22984,7 +24135,14 @@ export const pokedex = {
         "tm_hm_learnset": [],
         "tutor_learnset": [],
         "egg_moves": [],
-        "weight": 3.6
+        "weight": 3.6,
+        "evolution_family": [
+            {"species": "Silcoon", "method": "silcoon_level", "parameter": 7},
+            {"species": "Cascoon", "method": "cascoon_level", "parameter": 7},
+            {"species": "Wurmple", "method": null, "parameter": null},
+            {"species": "Dustox", "method": null, "parameter": null},
+            {"species": "Beautifly", "method": null, "parameter": null}
+        ]
     },
     "Silcoon": {
         "species": "Silcoon",
@@ -23028,7 +24186,14 @@ export const pokedex = {
         "tm_hm_learnset": [],
         "tutor_learnset": [],
         "egg_moves": [],
-        "weight": 10.0
+        "weight": 10.0,
+        "evolution_family": [
+            {"species": "Beautifly", "method": "level", "parameter": 10},
+            {"species": "Wurmple", "method": null, "parameter": null},
+            {"species": "Cascoon", "method": null, "parameter": null},
+            {"species": "Silcoon", "method": null, "parameter": null},
+            {"species": "Dustox", "method": null, "parameter": null}
+        ]
     },
     "Beautifly": {
         "species": "Beautifly",
@@ -23105,7 +24270,14 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 28.4
+        "weight": 28.4,
+        "evolution_family": [
+            {"species": "Wurmple", "method": null, "parameter": null},
+            {"species": "Cascoon", "method": null, "parameter": null},
+            {"species": "Silcoon", "method": null, "parameter": null},
+            {"species": "Dustox", "method": null, "parameter": null},
+            {"species": "Beautifly", "method": null, "parameter": null}
+        ]
     },
     "Cascoon": {
         "species": "Cascoon",
@@ -23149,7 +24321,14 @@ export const pokedex = {
         "tm_hm_learnset": [],
         "tutor_learnset": [],
         "egg_moves": [],
-        "weight": 11.5
+        "weight": 11.5,
+        "evolution_family": [
+            {"species": "Dustox", "method": "level", "parameter": 10},
+            {"species": "Wurmple", "method": null, "parameter": null},
+            {"species": "Cascoon", "method": null, "parameter": null},
+            {"species": "Silcoon", "method": null, "parameter": null},
+            {"species": "Beautifly", "method": null, "parameter": null}
+        ]
     },
     "Dustox": {
         "species": "Dustox",
@@ -23227,7 +24406,14 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 31.6
+        "weight": 31.6,
+        "evolution_family": [
+            {"species": "Wurmple", "method": null, "parameter": null},
+            {"species": "Cascoon", "method": null, "parameter": null},
+            {"species": "Silcoon", "method": null, "parameter": null},
+            {"species": "Dustox", "method": null, "parameter": null},
+            {"species": "Beautifly", "method": null, "parameter": null}
+        ]
     },
     "Lotad": {
         "species": "Lotad",
@@ -23313,7 +24499,12 @@ export const pokedex = {
             "Flail",
             "Water Gun"
         ],
-        "weight": 2.6
+        "weight": 2.6,
+        "evolution_family": [
+            {"species": "Lombre", "method": "level", "parameter": 14},
+            {"species": "Ludicolo", "method": null, "parameter": null},
+            {"species": "Lotad", "method": null, "parameter": null}
+        ]
     },
     "Lombre": {
         "species": "Lombre",
@@ -23400,7 +24591,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 32.5
+        "weight": 32.5,
+        "evolution_family": [
+            {"species": "Ludicolo", "method": "item", "parameter": "Water Stone"},
+            {"species": "Lombre", "method": null, "parameter": null},
+            {"species": "Lotad", "method": null, "parameter": null}
+        ]
     },
     "Ludicolo": {
         "species": "Ludicolo",
@@ -23488,7 +24684,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 55.0
+        "weight": 55.0,
+        "evolution_family": [
+            {"species": "Lombre", "method": null, "parameter": null},
+            {"species": "Ludicolo", "method": null, "parameter": null},
+            {"species": "Lotad", "method": null, "parameter": null}
+        ]
     },
     "Seedot": {
         "species": "Seedot",
@@ -23571,7 +24772,12 @@ export const pokedex = {
             "Take Down",
             "False Swipe"
         ],
-        "weight": 4.0
+        "weight": 4.0,
+        "evolution_family": [
+            {"species": "Nuzleaf", "method": "level", "parameter": 14},
+            {"species": "Seedot", "method": null, "parameter": null},
+            {"species": "Shiftry", "method": null, "parameter": null}
+        ]
     },
     "Nuzleaf": {
         "species": "Nuzleaf",
@@ -23658,7 +24864,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 28.0
+        "weight": 28.0,
+        "evolution_family": [
+            {"species": "Shiftry", "method": "item", "parameter": "Leaf Stone"},
+            {"species": "Nuzleaf", "method": null, "parameter": null},
+            {"species": "Seedot", "method": null, "parameter": null}
+        ]
     },
     "Shiftry": {
         "species": "Shiftry",
@@ -23740,7 +24951,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 59.6
+        "weight": 59.6,
+        "evolution_family": [
+            {"species": "Nuzleaf", "method": null, "parameter": null},
+            {"species": "Seedot", "method": null, "parameter": null},
+            {"species": "Shiftry", "method": null, "parameter": null}
+        ]
     },
     "Nincada": {
         "species": "Nincada",
@@ -23820,7 +25036,12 @@ export const pokedex = {
             "Gust",
             "Silver Wind"
         ],
-        "weight": 5.5
+        "weight": 5.5,
+        "evolution_family": [
+            {"species": "Ninjask", "method": "ninjask_level", "parameter": 20},
+            {"species": "Shedinja", "method": "shedinja_level", "parameter": 20},
+            {"species": "Nincada", "method": null, "parameter": null}
+        ]
     },
     "Ninjask": {
         "species": "Ninjask",
@@ -23904,7 +25125,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 12.0
+        "weight": 12.0,
+        "evolution_family": [
+            {"species": "Nincada", "method": null, "parameter": null},
+            {"species": "Shedinja", "method": null, "parameter": null},
+            {"species": "Ninjask", "method": null, "parameter": null}
+        ]
     },
     "Shedinja": {
         "species": "Shedinja",
@@ -23982,7 +25208,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 1.2
+        "weight": 1.2,
+        "evolution_family": [
+            {"species": "Nincada", "method": null, "parameter": null},
+            {"species": "Shedinja", "method": null, "parameter": null},
+            {"species": "Ninjask", "method": null, "parameter": null}
+        ]
     },
     "Taillow": {
         "species": "Taillow",
@@ -24062,7 +25293,11 @@ export const pokedex = {
             "Rage",
             "Sky Attack"
         ],
-        "weight": 2.3
+        "weight": 2.3,
+        "evolution_family": [
+            {"species": "Swellow", "method": "level", "parameter": 22},
+            {"species": "Taillow", "method": null, "parameter": null}
+        ]
     },
     "Swellow": {
         "species": "Swellow",
@@ -24138,7 +25373,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 19.8
+        "weight": 19.8,
+        "evolution_family": [
+            {"species": "Swellow", "method": null, "parameter": null},
+            {"species": "Taillow", "method": null, "parameter": null}
+        ]
     },
     "Shroomish": {
         "species": "Shroomish",
@@ -24221,7 +25460,11 @@ export const pokedex = {
             "False Swipe",
             "Helping Hand"
         ],
-        "weight": 4.5
+        "weight": 4.5,
+        "evolution_family": [
+            {"species": "Breloom", "method": "level", "parameter": 23},
+            {"species": "Shroomish", "method": null, "parameter": null}
+        ]
     },
     "Breloom": {
         "species": "Breloom",
@@ -24314,7 +25557,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 39.2
+        "weight": 39.2,
+        "evolution_family": [
+            {"species": "Shroomish", "method": null, "parameter": null},
+            {"species": "Breloom", "method": null, "parameter": null}
+        ]
     },
     "Spinda": {
         "species": "Spinda",
@@ -24417,7 +25664,10 @@ export const pokedex = {
             "Trick",
             "SmellingSalt"
         ],
-        "weight": 5.0
+        "weight": 5.0,
+        "evolution_family": [
+            {"species": "Spinda", "method": null, "parameter": null}
+        ]
     },
     "Wingull": {
         "species": "Wingull",
@@ -24498,7 +25748,11 @@ export const pokedex = {
             "Gust",
             "Water Sport"
         ],
-        "weight": 9.5
+        "weight": 9.5,
+        "evolution_family": [
+            {"species": "Pelipper", "method": "level", "parameter": 25},
+            {"species": "Wingull", "method": null, "parameter": null}
+        ]
     },
     "Pelipper": {
         "species": "Pelipper",
@@ -24580,7 +25834,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 28.0
+        "weight": 28.0,
+        "evolution_family": [
+            {"species": "Pelipper", "method": null, "parameter": null},
+            {"species": "Wingull", "method": null, "parameter": null}
+        ]
     },
     "Surskit": {
         "species": "Surskit",
@@ -24661,7 +25919,11 @@ export const pokedex = {
             "Hydro Pump",
             "Mind Reader"
         ],
-        "weight": 1.7
+        "weight": 1.7,
+        "evolution_family": [
+            {"species": "Masquerain", "method": "level", "parameter": 22},
+            {"species": "Surskit", "method": null, "parameter": null}
+        ]
     },
     "Masquerain": {
         "species": "Masquerain",
@@ -24742,7 +26004,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 3.6
+        "weight": 3.6,
+        "evolution_family": [
+            {"species": "Masquerain", "method": null, "parameter": null},
+            {"species": "Surskit", "method": null, "parameter": null}
+        ]
     },
     "Wailmer": {
         "species": "Wailmer",
@@ -24835,7 +26101,11 @@ export const pokedex = {
             "Fissure",
             "Tickle"
         ],
-        "weight": 130.0
+        "weight": 130.0,
+        "evolution_family": [
+            {"species": "Wailord", "method": "level", "parameter": 40},
+            {"species": "Wailmer", "method": null, "parameter": null}
+        ]
     },
     "Wailord": {
         "species": "Wailord",
@@ -24923,7 +26193,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 398.0
+        "weight": 398.0,
+        "evolution_family": [
+            {"species": "Wailmer", "method": null, "parameter": null},
+            {"species": "Wailord", "method": null, "parameter": null}
+        ]
     },
     "Skitty": {
         "species": "Skitty",
@@ -25019,7 +26293,11 @@ export const pokedex = {
             "Substitute",
             "Tickle"
         ],
-        "weight": 11.0
+        "weight": 11.0,
+        "evolution_family": [
+            {"species": "Delcatty", "method": "item", "parameter": "Moon Stone"},
+            {"species": "Skitty", "method": null, "parameter": null}
+        ]
     },
     "Delcatty": {
         "species": "Delcatty",
@@ -25101,7 +26379,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 32.6
+        "weight": 32.6,
+        "evolution_family": [
+            {"species": "Delcatty", "method": null, "parameter": null},
+            {"species": "Skitty", "method": null, "parameter": null}
+        ]
     },
     "Kecleon": {
         "species": "Kecleon",
@@ -25208,7 +26490,10 @@ export const pokedex = {
             "Magic Coat",
             "Trick"
         ],
-        "weight": 22.0
+        "weight": 22.0,
+        "evolution_family": [
+            {"species": "Kecleon", "method": null, "parameter": null}
+        ]
     },
     "Baltoy": {
         "species": "Baltoy",
@@ -25292,7 +26577,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 21.5
+        "weight": 21.5,
+        "evolution_family": [
+            {"species": "Claydol", "method": "level", "parameter": 36},
+            {"species": "Baltoy", "method": null, "parameter": null}
+        ]
     },
     "Claydol": {
         "species": "Claydol",
@@ -25383,7 +26672,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 108.0
+        "weight": 108.0,
+        "evolution_family": [
+            {"species": "Claydol", "method": null, "parameter": null},
+            {"species": "Baltoy", "method": null, "parameter": null}
+        ]
     },
     "Nosepass": {
         "species": "Nosepass",
@@ -25470,7 +26763,10 @@ export const pokedex = {
             "Rollout",
             "Explosion"
         ],
-        "weight": 97.0
+        "weight": 97.0,
+        "evolution_family": [
+            {"species": "Nosepass", "method": null, "parameter": null}
+        ]
     },
     "Torkoal": {
         "species": "Torkoal",
@@ -25555,7 +26851,10 @@ export const pokedex = {
             "Sleep Talk",
             "Yawn"
         ],
-        "weight": 80.4
+        "weight": 80.4,
+        "evolution_family": [
+            {"species": "Torkoal", "method": null, "parameter": null}
+        ]
     },
     "Sableye": {
         "species": "Sableye",
@@ -25655,7 +26954,10 @@ export const pokedex = {
             "Recover",
             "Moonlight"
         ],
-        "weight": 11.0
+        "weight": 11.0,
+        "evolution_family": [
+            {"species": "Sableye", "method": null, "parameter": null}
+        ]
     },
     "Barboach": {
         "species": "Barboach",
@@ -25738,7 +27040,11 @@ export const pokedex = {
             "Whirlpool",
             "Spark"
         ],
-        "weight": 1.9
+        "weight": 1.9,
+        "evolution_family": [
+            {"species": "Whiscash", "method": "level", "parameter": 30},
+            {"species": "Barboach", "method": null, "parameter": null}
+        ]
     },
     "Whiscash": {
         "species": "Whiscash",
@@ -25824,7 +27130,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 23.6
+        "weight": 23.6,
+        "evolution_family": [
+            {"species": "Barboach", "method": null, "parameter": null},
+            {"species": "Whiscash", "method": null, "parameter": null}
+        ]
     },
     "Luvdisc": {
         "species": "Luvdisc",
@@ -25904,7 +27214,10 @@ export const pokedex = {
             "Water Sport",
             "Mud Sport"
         ],
-        "weight": 8.7
+        "weight": 8.7,
+        "evolution_family": [
+            {"species": "Luvdisc", "method": null, "parameter": null}
+        ]
     },
     "Corphish": {
         "species": "Corphish",
@@ -25998,7 +27311,11 @@ export const pokedex = {
             "Body Slam",
             "AncientPower"
         ],
-        "weight": 11.5
+        "weight": 11.5,
+        "evolution_family": [
+            {"species": "Crawdaunt", "method": "level", "parameter": 30},
+            {"species": "Corphish", "method": null, "parameter": null}
+        ]
     },
     "Crawdaunt": {
         "species": "Crawdaunt",
@@ -26092,7 +27409,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 32.8
+        "weight": 32.8,
+        "evolution_family": [
+            {"species": "Corphish", "method": null, "parameter": null},
+            {"species": "Crawdaunt", "method": null, "parameter": null}
+        ]
     },
     "Feebas": {
         "species": "Feebas",
@@ -26167,7 +27488,11 @@ export const pokedex = {
             "Light Screen",
             "Confuse Ray"
         ],
-        "weight": 7.4
+        "weight": 7.4,
+        "evolution_family": [
+            {"species": "Milotic", "method": "beauty", "parameter": 170},
+            {"species": "Feebas", "method": null, "parameter": null}
+        ]
     },
     "Milotic": {
         "species": "Milotic",
@@ -26247,7 +27572,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 162.0
+        "weight": 162.0,
+        "evolution_family": [
+            {"species": "Feebas", "method": null, "parameter": null},
+            {"species": "Milotic", "method": null, "parameter": null}
+        ]
     },
     "Carvanha": {
         "species": "Carvanha",
@@ -26329,7 +27658,11 @@ export const pokedex = {
             "Double-Edge",
             "Thrash"
         ],
-        "weight": 20.8
+        "weight": 20.8,
+        "evolution_family": [
+            {"species": "Sharpedo", "method": "level", "parameter": 30},
+            {"species": "Carvanha", "method": null, "parameter": null}
+        ]
     },
     "Sharpedo": {
         "species": "Sharpedo",
@@ -26417,7 +27750,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 88.8
+        "weight": 88.8,
+        "evolution_family": [
+            {"species": "Sharpedo", "method": null, "parameter": null},
+            {"species": "Carvanha", "method": null, "parameter": null}
+        ]
     },
     "Trapinch": {
         "species": "Trapinch",
@@ -26499,7 +27836,12 @@ export const pokedex = {
             "Quick Attack",
             "Gust"
         ],
-        "weight": 15.0
+        "weight": 15.0,
+        "evolution_family": [
+            {"species": "Vibrava", "method": "level", "parameter": 35},
+            {"species": "Flygon", "method": null, "parameter": null},
+            {"species": "Trapinch", "method": null, "parameter": null}
+        ]
     },
     "Vibrava": {
         "species": "Vibrava",
@@ -26583,7 +27925,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 15.3
+        "weight": 15.3,
+        "evolution_family": [
+            {"species": "Flygon", "method": "level", "parameter": 45},
+            {"species": "Vibrava", "method": null, "parameter": null},
+            {"species": "Trapinch", "method": null, "parameter": null}
+        ]
     },
     "Flygon": {
         "species": "Flygon",
@@ -26671,7 +28018,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 82.0
+        "weight": 82.0,
+        "evolution_family": [
+            {"species": "Flygon", "method": null, "parameter": null},
+            {"species": "Vibrava", "method": null, "parameter": null},
+            {"species": "Trapinch", "method": null, "parameter": null}
+        ]
     },
     "Makuhita": {
         "species": "Makuhita",
@@ -26769,7 +28121,11 @@ export const pokedex = {
             "DynamicPunch",
             "Counter"
         ],
-        "weight": 86.4
+        "weight": 86.4,
+        "evolution_family": [
+            {"species": "Hariyama", "method": "level", "parameter": 24},
+            {"species": "Makuhita", "method": null, "parameter": null}
+        ]
     },
     "Hariyama": {
         "species": "Hariyama",
@@ -26861,7 +28217,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 253.8
+        "weight": 253.8,
+        "evolution_family": [
+            {"species": "Makuhita", "method": null, "parameter": null},
+            {"species": "Hariyama", "method": null, "parameter": null}
+        ]
     },
     "Electrike": {
         "species": "Electrike",
@@ -26947,7 +28307,11 @@ export const pokedex = {
             "Curse",
             "Swift"
         ],
-        "weight": 15.2
+        "weight": 15.2,
+        "evolution_family": [
+            {"species": "Manectric", "method": "level", "parameter": 26},
+            {"species": "Electrike", "method": null, "parameter": null}
+        ]
     },
     "Manectric": {
         "species": "Manectric",
@@ -27031,7 +28395,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 40.2
+        "weight": 40.2,
+        "evolution_family": [
+            {"species": "Electrike", "method": null, "parameter": null},
+            {"species": "Manectric", "method": null, "parameter": null}
+        ]
     },
     "Numel": {
         "species": "Numel",
@@ -27117,7 +28485,11 @@ export const pokedex = {
             "Defense Curl",
             "Stomp"
         ],
-        "weight": 24.0
+        "weight": 24.0,
+        "evolution_family": [
+            {"species": "Camerupt", "method": "level", "parameter": 33},
+            {"species": "Numel", "method": null, "parameter": null}
+        ]
     },
     "Camerupt": {
         "species": "Camerupt",
@@ -27202,7 +28574,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 220.0
+        "weight": 220.0,
+        "evolution_family": [
+            {"species": "Numel", "method": null, "parameter": null},
+            {"species": "Camerupt", "method": null, "parameter": null}
+        ]
     },
     "Spheal": {
         "species": "Spheal",
@@ -27296,7 +28672,12 @@ export const pokedex = {
             "Curse",
             "Fissure"
         ],
-        "weight": 39.5
+        "weight": 39.5,
+        "evolution_family": [
+            {"species": "Sealeo", "method": "level", "parameter": 32},
+            {"species": "Spheal", "method": null, "parameter": null},
+            {"species": "Walrein", "method": null, "parameter": null}
+        ]
     },
     "Sealeo": {
         "species": "Sealeo",
@@ -27382,7 +28763,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 87.6
+        "weight": 87.6,
+        "evolution_family": [
+            {"species": "Walrein", "method": "level", "parameter": 44},
+            {"species": "Sealeo", "method": null, "parameter": null},
+            {"species": "Spheal", "method": null, "parameter": null}
+        ]
     },
     "Walrein": {
         "species": "Walrein",
@@ -27469,7 +28855,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 150.6
+        "weight": 150.6,
+        "evolution_family": [
+            {"species": "Sealeo", "method": null, "parameter": null},
+            {"species": "Spheal", "method": null, "parameter": null},
+            {"species": "Walrein", "method": null, "parameter": null}
+        ]
     },
     "Cacnea": {
         "species": "Cacnea",
@@ -27559,7 +28950,11 @@ export const pokedex = {
             "DynamicPunch",
             "Counter"
         ],
-        "weight": 51.3
+        "weight": 51.3,
+        "evolution_family": [
+            {"species": "Cacturne", "method": "level", "parameter": 32},
+            {"species": "Cacnea", "method": null, "parameter": null}
+        ]
     },
     "Cacturne": {
         "species": "Cacturne",
@@ -27649,7 +29044,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 77.4
+        "weight": 77.4,
+        "evolution_family": [
+            {"species": "Cacnea", "method": null, "parameter": null},
+            {"species": "Cacturne", "method": null, "parameter": null}
+        ]
     },
     "Snorunt": {
         "species": "Snorunt",
@@ -27730,7 +29129,11 @@ export const pokedex = {
             "Block",
             "Spikes"
         ],
-        "weight": 16.8
+        "weight": 16.8,
+        "evolution_family": [
+            {"species": "Glalie", "method": "level", "parameter": 42},
+            {"species": "Snorunt", "method": null, "parameter": null}
+        ]
     },
     "Glalie": {
         "species": "Glalie",
@@ -27816,7 +29219,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 256.5
+        "weight": 256.5,
+        "evolution_family": [
+            {"species": "Glalie", "method": null, "parameter": null},
+            {"species": "Snorunt", "method": null, "parameter": null}
+        ]
     },
     "Lunatone": {
         "species": "Lunatone",
@@ -27900,7 +29307,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 168.0
+        "weight": 168.0,
+        "evolution_family": [
+            {"species": "Lunatone", "method": null, "parameter": null}
+        ]
     },
     "Solrock": {
         "species": "Solrock",
@@ -27987,7 +29397,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 154.0
+        "weight": 154.0,
+        "evolution_family": [
+            {"species": "Solrock", "method": null, "parameter": null}
+        ]
     },
     "Azurill": {
         "species": "Azurill",
@@ -28066,7 +29479,12 @@ export const pokedex = {
             "Slam",
             "Tickle"
         ],
-        "weight": 2.0
+        "weight": 2.0,
+        "evolution_family": [
+            {"species": "Marill", "method": "friendship", "parameter": null},
+            {"species": "Azumarill", "method": null, "parameter": null},
+            {"species": "Azurill", "method": null, "parameter": null}
+        ]
     },
     "Spoink": {
         "species": "Spoink",
@@ -28157,7 +29575,11 @@ export const pokedex = {
             "Substitute",
             "Trick"
         ],
-        "weight": 30.6
+        "weight": 30.6,
+        "evolution_family": [
+            {"species": "Grumpig", "method": "level", "parameter": 32},
+            {"species": "Spoink", "method": null, "parameter": null}
+        ]
     },
     "Grumpig": {
         "species": "Grumpig",
@@ -28252,7 +29674,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 71.5
+        "weight": 71.5,
+        "evolution_family": [
+            {"species": "Grumpig", "method": null, "parameter": null},
+            {"species": "Spoink", "method": null, "parameter": null}
+        ]
     },
     "Plusle": {
         "species": "Plusle",
@@ -28337,7 +29763,10 @@ export const pokedex = {
             "Substitute",
             "Wish"
         ],
-        "weight": 4.2
+        "weight": 4.2,
+        "evolution_family": [
+            {"species": "Plusle", "method": null, "parameter": null}
+        ]
     },
     "Minun": {
         "species": "Minun",
@@ -28422,7 +29851,10 @@ export const pokedex = {
             "Substitute",
             "Wish"
         ],
-        "weight": 4.2
+        "weight": 4.2,
+        "evolution_family": [
+            {"species": "Minun", "method": null, "parameter": null}
+        ]
     },
     "Mawile": {
         "species": "Mawile",
@@ -28522,7 +29954,10 @@ export const pokedex = {
             "AncientPower",
             "Tickle"
         ],
-        "weight": 11.5
+        "weight": 11.5,
+        "evolution_family": [
+            {"species": "Mawile", "method": null, "parameter": null}
+        ]
     },
     "Meditite": {
         "species": "Meditite",
@@ -28620,7 +30055,11 @@ export const pokedex = {
             "Baton Pass",
             "DynamicPunch"
         ],
-        "weight": 11.2
+        "weight": 11.2,
+        "evolution_family": [
+            {"species": "Medicham", "method": "level", "parameter": 37},
+            {"species": "Meditite", "method": null, "parameter": null}
+        ]
     },
     "Medicham": {
         "species": "Medicham",
@@ -28718,7 +30157,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 31.5
+        "weight": 31.5,
+        "evolution_family": [
+            {"species": "Meditite", "method": null, "parameter": null},
+            {"species": "Medicham", "method": null, "parameter": null}
+        ]
     },
     "Swablu": {
         "species": "Swablu",
@@ -28802,7 +30245,11 @@ export const pokedex = {
             "Pursuit",
             "Rage"
         ],
-        "weight": 1.2
+        "weight": 1.2,
+        "evolution_family": [
+            {"species": "Altaria", "method": "level", "parameter": 35},
+            {"species": "Swablu", "method": null, "parameter": null}
+        ]
     },
     "Altaria": {
         "species": "Altaria",
@@ -28893,7 +30340,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 20.6
+        "weight": 20.6,
+        "evolution_family": [
+            {"species": "Altaria", "method": null, "parameter": null},
+            {"species": "Swablu", "method": null, "parameter": null}
+        ]
     },
     "Wynaut": {
         "species": "Wynaut",
@@ -28942,7 +30393,11 @@ export const pokedex = {
         "tm_hm_learnset": [],
         "tutor_learnset": [],
         "egg_moves": [],
-        "weight": 14.0
+        "weight": 14.0,
+        "evolution_family": [
+            {"species": "Wobbuffet", "method": "level", "parameter": 15},
+            {"species": "Wynaut", "method": null, "parameter": null}
+        ]
     },
     "Duskull": {
         "species": "Duskull",
@@ -29032,7 +30487,11 @@ export const pokedex = {
             "Memento",
             "Faint Attack"
         ],
-        "weight": 15.0
+        "weight": 15.0,
+        "evolution_family": [
+            {"species": "Dusclops", "method": "level", "parameter": 37},
+            {"species": "Duskull", "method": null, "parameter": null}
+        ]
     },
     "Dusclops": {
         "species": "Dusclops",
@@ -29130,7 +30589,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 30.6
+        "weight": 30.6,
+        "evolution_family": [
+            {"species": "Duskull", "method": null, "parameter": null},
+            {"species": "Dusclops", "method": null, "parameter": null}
+        ]
     },
     "Roselia": {
         "species": "Roselia",
@@ -29218,7 +30681,10 @@ export const pokedex = {
             "Pin Missile",
             "Cotton Spore"
         ],
-        "weight": 2.0
+        "weight": 2.0,
+        "evolution_family": [
+            {"species": "Roselia", "method": null, "parameter": null}
+        ]
     },
     "Slakoth": {
         "species": "Slakoth",
@@ -29317,7 +30783,12 @@ export const pokedex = {
             "Curse",
             "Sleep Talk"
         ],
-        "weight": 24.0
+        "weight": 24.0,
+        "evolution_family": [
+            {"species": "Vigoroth", "method": "level", "parameter": 18},
+            {"species": "Slakoth", "method": null, "parameter": null},
+            {"species": "Slaking", "method": null, "parameter": null}
+        ]
     },
     "Vigoroth": {
         "species": "Vigoroth",
@@ -29414,7 +30885,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 46.5
+        "weight": 46.5,
+        "evolution_family": [
+            {"species": "Slaking", "method": "level", "parameter": 36},
+            {"species": "Vigoroth", "method": null, "parameter": null},
+            {"species": "Slakoth", "method": null, "parameter": null}
+        ]
     },
     "Slaking": {
         "species": "Slaking",
@@ -29512,7 +30988,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 130.5
+        "weight": 130.5,
+        "evolution_family": [
+            {"species": "Vigoroth", "method": null, "parameter": null},
+            {"species": "Slakoth", "method": null, "parameter": null},
+            {"species": "Slaking", "method": null, "parameter": null}
+        ]
     },
     "Gulpin": {
         "species": "Gulpin",
@@ -29603,7 +31084,11 @@ export const pokedex = {
             "Smog",
             "Pain Split"
         ],
-        "weight": 10.3
+        "weight": 10.3,
+        "evolution_family": [
+            {"species": "Swalot", "method": "level", "parameter": 26},
+            {"species": "Gulpin", "method": null, "parameter": null}
+        ]
     },
     "Swalot": {
         "species": "Swalot",
@@ -29694,7 +31179,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 80.0
+        "weight": 80.0,
+        "evolution_family": [
+            {"species": "Gulpin", "method": null, "parameter": null},
+            {"species": "Swalot", "method": null, "parameter": null}
+        ]
     },
     "Tropius": {
         "species": "Tropius",
@@ -29785,7 +31274,10 @@ export const pokedex = {
             "Leech Seed",
             "Nature Power"
         ],
-        "weight": 100.0
+        "weight": 100.0,
+        "evolution_family": [
+            {"species": "Tropius", "method": null, "parameter": null}
+        ]
     },
     "Whismur": {
         "species": "Whismur",
@@ -29875,7 +31367,12 @@ export const pokedex = {
             "Extrasensory",
             "SmellingSalt"
         ],
-        "weight": 16.3
+        "weight": 16.3,
+        "evolution_family": [
+            {"species": "Loudred", "method": "level", "parameter": 20},
+            {"species": "Whismur", "method": null, "parameter": null},
+            {"species": "Exploud", "method": null, "parameter": null}
+        ]
     },
     "Loudred": {
         "species": "Loudred",
@@ -29970,7 +31467,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 40.5
+        "weight": 40.5,
+        "evolution_family": [
+            {"species": "Exploud", "method": "level", "parameter": 40},
+            {"species": "Whismur", "method": null, "parameter": null},
+            {"species": "Loudred", "method": null, "parameter": null}
+        ]
     },
     "Exploud": {
         "species": "Exploud",
@@ -30067,7 +31569,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 84.0
+        "weight": 84.0,
+        "evolution_family": [
+            {"species": "Whismur", "method": null, "parameter": null},
+            {"species": "Loudred", "method": null, "parameter": null},
+            {"species": "Exploud", "method": null, "parameter": null}
+        ]
     },
     "Clamperl": {
         "species": "Clamperl",
@@ -30144,7 +31651,12 @@ export const pokedex = {
             "Barrier",
             "Confuse Ray"
         ],
-        "weight": 52.5
+        "weight": 52.5,
+        "evolution_family": [
+            {"species": "Huntail", "method": "trade_with_item", "parameter": "Deep Sea Tooth"},
+            {"species": "Gorebyss", "method": "trade_with_item", "parameter": "Deep Sea Scale"},
+            {"species": "Clamperl", "method": null, "parameter": null}
+        ]
     },
     "Huntail": {
         "species": "Huntail",
@@ -30221,7 +31733,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 27.0
+        "weight": 27.0,
+        "evolution_family": [
+            {"species": "Clamperl", "method": null, "parameter": null},
+            {"species": "Huntail", "method": null, "parameter": null},
+            {"species": "Gorebyss", "method": null, "parameter": null}
+        ]
     },
     "Gorebyss": {
         "species": "Gorebyss",
@@ -30299,7 +31816,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 22.6
+        "weight": 22.6,
+        "evolution_family": [
+            {"species": "Clamperl", "method": null, "parameter": null},
+            {"species": "Huntail", "method": null, "parameter": null},
+            {"species": "Gorebyss", "method": null, "parameter": null}
+        ]
     },
     "Absol": {
         "species": "Absol",
@@ -30405,7 +31927,10 @@ export const pokedex = {
             "Curse",
             "Substitute"
         ],
-        "weight": 47.0
+        "weight": 47.0,
+        "evolution_family": [
+            {"species": "Absol", "method": null, "parameter": null}
+        ]
     },
     "Shuppet": {
         "species": "Shuppet",
@@ -30495,7 +32020,11 @@ export const pokedex = {
             "Astonish",
             "Imprison"
         ],
-        "weight": 2.3
+        "weight": 2.3,
+        "evolution_family": [
+            {"species": "Banette", "method": "level", "parameter": 37},
+            {"species": "Shuppet", "method": null, "parameter": null}
+        ]
     },
     "Banette": {
         "species": "Banette",
@@ -30584,7 +32113,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 12.5
+        "weight": 12.5,
+        "evolution_family": [
+            {"species": "Shuppet", "method": null, "parameter": null},
+            {"species": "Banette", "method": null, "parameter": null}
+        ]
     },
     "Seviper": {
         "species": "Seviper",
@@ -30670,7 +32203,10 @@ export const pokedex = {
             "Spit Up",
             "Body Slam"
         ],
-        "weight": 52.5
+        "weight": 52.5,
+        "evolution_family": [
+            {"species": "Seviper", "method": null, "parameter": null}
+        ]
     },
     "Zangoose": {
         "species": "Zangoose",
@@ -30776,7 +32312,10 @@ export const pokedex = {
             "Roar",
             "Curse"
         ],
-        "weight": 40.3
+        "weight": 40.3,
+        "evolution_family": [
+            {"species": "Zangoose", "method": null, "parameter": null}
+        ]
     },
     "Relicanth": {
         "species": "Relicanth",
@@ -30869,7 +32408,10 @@ export const pokedex = {
             "Sleep Talk",
             "Rock Slide"
         ],
-        "weight": 23.4
+        "weight": 23.4,
+        "evolution_family": [
+            {"species": "Relicanth", "method": null, "parameter": null}
+        ]
     },
     "Aron": {
         "species": "Aron",
@@ -30960,7 +32502,12 @@ export const pokedex = {
             "Stomp",
             "SmellingSalt"
         ],
-        "weight": 60.0
+        "weight": 60.0,
+        "evolution_family": [
+            {"species": "Lairon", "method": "level", "parameter": 32},
+            {"species": "Aron", "method": null, "parameter": null},
+            {"species": "Aggron", "method": null, "parameter": null}
+        ]
     },
     "Lairon": {
         "species": "Lairon",
@@ -31049,7 +32596,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 120.0
+        "weight": 120.0,
+        "evolution_family": [
+            {"species": "Aggron", "method": "level", "parameter": 42},
+            {"species": "Aron", "method": null, "parameter": null},
+            {"species": "Lairon", "method": null, "parameter": null}
+        ]
     },
     "Aggron": {
         "species": "Aggron",
@@ -31156,7 +32708,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 360.0
+        "weight": 360.0,
+        "evolution_family": [
+            {"species": "Aron", "method": null, "parameter": null},
+            {"species": "Aggron", "method": null, "parameter": null},
+            {"species": "Lairon", "method": null, "parameter": null}
+        ]
     },
     "Castform": {
         "species": "Castform",
@@ -31242,7 +32799,10 @@ export const pokedex = {
             "Future Sight",
             "Psych Up"
         ],
-        "weight": 0.8
+        "weight": 0.8,
+        "evolution_family": [
+            {"species": "Castform", "method": null, "parameter": null}
+        ]
     },
     "Volbeat": {
         "species": "Volbeat",
@@ -31336,7 +32896,10 @@ export const pokedex = {
             "Silver Wind",
             "Trick"
         ],
-        "weight": 17.7
+        "weight": 17.7,
+        "evolution_family": [
+            {"species": "Volbeat", "method": null, "parameter": null}
+        ]
     },
     "Illumise": {
         "species": "Illumise",
@@ -31429,7 +32992,10 @@ export const pokedex = {
             "Silver Wind",
             "Growth"
         ],
-        "weight": 17.7
+        "weight": 17.7,
+        "evolution_family": [
+            {"species": "Illumise", "method": null, "parameter": null}
+        ]
     },
     "Lileep": {
         "species": "Lileep",
@@ -31509,7 +33075,11 @@ export const pokedex = {
             "Mirror Coat",
             "Rock Slide"
         ],
-        "weight": 23.8
+        "weight": 23.8,
+        "evolution_family": [
+            {"species": "Cradily", "method": "level", "parameter": 40},
+            {"species": "Lileep", "method": null, "parameter": null}
+        ]
     },
     "Cradily": {
         "species": "Cradily",
@@ -31592,7 +33162,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 60.4
+        "weight": 60.4,
+        "evolution_family": [
+            {"species": "Cradily", "method": null, "parameter": null},
+            {"species": "Lileep", "method": null, "parameter": null}
+        ]
     },
     "Anorith": {
         "species": "Anorith",
@@ -31676,7 +33250,11 @@ export const pokedex = {
             "Swords Dance",
             "Rock Slide"
         ],
-        "weight": 12.5
+        "weight": 12.5,
+        "evolution_family": [
+            {"species": "Armaldo", "method": "level", "parameter": 40},
+            {"species": "Anorith", "method": null, "parameter": null}
+        ]
     },
     "Armaldo": {
         "species": "Armaldo",
@@ -31763,7 +33341,11 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 68.2
+        "weight": 68.2,
+        "evolution_family": [
+            {"species": "Anorith", "method": null, "parameter": null},
+            {"species": "Armaldo", "method": null, "parameter": null}
+        ]
     },
     "Ralts": {
         "species": "Ralts",
@@ -31856,7 +33438,12 @@ export const pokedex = {
             "Memento",
             "Destiny Bond"
         ],
-        "weight": 6.6
+        "weight": 6.6,
+        "evolution_family": [
+            {"species": "Kirlia", "method": "level", "parameter": 20},
+            {"species": "Gardevoir", "method": null, "parameter": null},
+            {"species": "Ralts", "method": null, "parameter": null}
+        ]
     },
     "Kirlia": {
         "species": "Kirlia",
@@ -31947,7 +33534,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 20.2
+        "weight": 20.2,
+        "evolution_family": [
+            {"species": "Gardevoir", "method": "level", "parameter": 30},
+            {"species": "Kirlia", "method": null, "parameter": null},
+            {"species": "Ralts", "method": null, "parameter": null}
+        ]
     },
     "Gardevoir": {
         "species": "Gardevoir",
@@ -32038,7 +33630,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 48.4
+        "weight": 48.4,
+        "evolution_family": [
+            {"species": "Kirlia", "method": null, "parameter": null},
+            {"species": "Gardevoir", "method": null, "parameter": null},
+            {"species": "Ralts", "method": null, "parameter": null}
+        ]
     },
     "Bagon": {
         "species": "Bagon",
@@ -32126,7 +33723,12 @@ export const pokedex = {
             "Twister",
             "Dragon Dance"
         ],
-        "weight": 42.1
+        "weight": 42.1,
+        "evolution_family": [
+            {"species": "Shelgon", "method": "level", "parameter": 30},
+            {"species": "Bagon", "method": null, "parameter": null},
+            {"species": "Salamence", "method": null, "parameter": null}
+        ]
     },
     "Shelgon": {
         "species": "Shelgon",
@@ -32212,7 +33814,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 110.5
+        "weight": 110.5,
+        "evolution_family": [
+            {"species": "Salamence", "method": "level", "parameter": 50},
+            {"species": "Shelgon", "method": null, "parameter": null},
+            {"species": "Bagon", "method": null, "parameter": null}
+        ]
     },
     "Salamence": {
         "species": "Salamence",
@@ -32304,7 +33911,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 102.6
+        "weight": 102.6,
+        "evolution_family": [
+            {"species": "Shelgon", "method": null, "parameter": null},
+            {"species": "Bagon", "method": null, "parameter": null},
+            {"species": "Salamence", "method": null, "parameter": null}
+        ]
     },
     "Beldum": {
         "species": "Beldum",
@@ -32347,7 +33959,12 @@ export const pokedex = {
         "tm_hm_learnset": [],
         "tutor_learnset": [],
         "egg_moves": [],
-        "weight": 95.2
+        "weight": 95.2,
+        "evolution_family": [
+            {"species": "Metang", "method": "level", "parameter": 20},
+            {"species": "Metagross", "method": null, "parameter": null},
+            {"species": "Beldum", "method": null, "parameter": null}
+        ]
     },
     "Metang": {
         "species": "Metang",
@@ -32433,7 +34050,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 202.5
+        "weight": 202.5,
+        "evolution_family": [
+            {"species": "Metagross", "method": "level", "parameter": 45},
+            {"species": "Beldum", "method": null, "parameter": null},
+            {"species": "Metang", "method": null, "parameter": null}
+        ]
     },
     "Metagross": {
         "species": "Metagross",
@@ -32522,7 +34144,12 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 550.0
+        "weight": 550.0,
+        "evolution_family": [
+            {"species": "Metagross", "method": null, "parameter": null},
+            {"species": "Beldum", "method": null, "parameter": null},
+            {"species": "Metang", "method": null, "parameter": null}
+        ]
     },
     "Regirock": {
         "species": "Regirock",
@@ -32609,7 +34236,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 230.0
+        "weight": 230.0,
+        "evolution_family": [
+            {"species": "Regirock", "method": null, "parameter": null}
+        ]
     },
     "Regice": {
         "species": "Regice",
@@ -32696,7 +34326,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 175.0
+        "weight": 175.0,
+        "evolution_family": [
+            {"species": "Regice", "method": null, "parameter": null}
+        ]
     },
     "Registeel": {
         "species": "Registeel",
@@ -32785,7 +34418,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 205.0
+        "weight": 205.0,
+        "evolution_family": [
+            {"species": "Registeel", "method": null, "parameter": null}
+        ]
     },
     "Kyogre": {
         "species": "Kyogre",
@@ -32875,7 +34511,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 352.0
+        "weight": 352.0,
+        "evolution_family": [
+            {"species": "Kyogre", "method": null, "parameter": null}
+        ]
     },
     "Groudon": {
         "species": "Groudon",
@@ -32973,7 +34612,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 950.0
+        "weight": 950.0,
+        "evolution_family": [
+            {"species": "Groudon", "method": null, "parameter": null}
+        ]
     },
     "Rayquaza": {
         "species": "Rayquaza",
@@ -33070,7 +34712,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 206.5
+        "weight": 206.5,
+        "evolution_family": [
+            {"species": "Rayquaza", "method": null, "parameter": null}
+        ]
     },
     "Latias": {
         "species": "Latias",
@@ -33168,7 +34813,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 40.0
+        "weight": 40.0,
+        "evolution_family": [
+            {"species": "Latias", "method": null, "parameter": null}
+        ]
     },
     "Latios": {
         "species": "Latios",
@@ -33266,7 +34914,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 60.0
+        "weight": 60.0,
+        "evolution_family": [
+            {"species": "Latios", "method": null, "parameter": null}
+        ]
     },
     "Jirachi": {
         "species": "Jirachi",
@@ -33355,7 +35006,10 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 1.1
+        "weight": 1.1,
+        "evolution_family": [
+            {"species": "Jirachi", "method": null, "parameter": null}
+        ]
     },
     "Deoxys (Normal)": {
         "species": "Deoxys (Normal)",
@@ -33446,7 +35100,13 @@ export const pokedex = {
         ],
         "tutor_learnset": [],
         "egg_moves": [],
-        "weight": 60.8
+        "weight": 60.8,
+        "evolution_family": [
+            {"species": "Deoxys (Normal)", "method": null, "parameter": null},
+            {"species": "Deoxys (Speed)", "method": null, "parameter": null},
+            {"species": "Deoxys (Defense)", "method": null, "parameter": null},
+            {"species": "Deoxys (Attack)", "method": null, "parameter": null}
+        ]
     },
     "Deoxys (Speed)": {
         "species": "Deoxys (Speed)",
@@ -33561,7 +35221,13 @@ export const pokedex = {
             "Fire Punch"
         ],
         "egg_moves": [],
-        "weight": 60.8
+        "weight": 60.8,
+        "evolution_family": [
+            {"species": "Deoxys (Normal)", "method": null, "parameter": null},
+            {"species": "Deoxys (Speed)", "method": null, "parameter": null},
+            {"species": "Deoxys (Defense)", "method": null, "parameter": null},
+            {"species": "Deoxys (Attack)", "method": null, "parameter": null}
+        ]
     },
     "Deoxys (Defense)": {
         "species": "Deoxys (Defense)",
@@ -33666,7 +35332,13 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 60.8
+        "weight": 60.8,
+        "evolution_family": [
+            {"species": "Deoxys (Normal)", "method": null, "parameter": null},
+            {"species": "Deoxys (Speed)", "method": null, "parameter": null},
+            {"species": "Deoxys (Defense)", "method": null, "parameter": null},
+            {"species": "Deoxys (Attack)", "method": null, "parameter": null}
+        ]
     },
     "Deoxys (Attack)": {
         "species": "Deoxys (Attack)",
@@ -33769,7 +35441,13 @@ export const pokedex = {
             "Substitute"
         ],
         "egg_moves": [],
-        "weight": 60.8
+        "weight": 60.8,
+        "evolution_family": [
+            {"species": "Deoxys (Normal)", "method": null, "parameter": null},
+            {"species": "Deoxys (Speed)", "method": null, "parameter": null},
+            {"species": "Deoxys (Defense)", "method": null, "parameter": null},
+            {"species": "Deoxys (Attack)", "method": null, "parameter": null}
+        ]
     },
     "Chimecho": {
         "species": "Chimecho",
@@ -33858,6 +35536,9 @@ export const pokedex = {
             "Hypnosis",
             "Dream Eater"
         ],
-        "weight": 1.0
+        "weight": 1.0,
+        "evolution_family": [
+            {"species": "Chimecho", "method": null, "parameter": null}
+        ]
     }
 }
