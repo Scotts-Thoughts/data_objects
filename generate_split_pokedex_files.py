@@ -48,6 +48,10 @@ class CompactJSONEncoder(json.JSONEncoder):
     def _encode_object(self, o):
         if not o:
             return "{}"
+        elif self._put_dict_on_single_line(o):
+            contents = ", ".join(f"{json.dumps(k)}: {self.encode(v)}" for k, v in o.items())
+            return f"{{{contents}}}"
+
         self.indentation_level += 1
         output = [
             f"{self.indent_str}{json.dumps(k)}: {self.encode(v)}" for k, v in o.items()
@@ -56,8 +60,15 @@ class CompactJSONEncoder(json.JSONEncoder):
         self.indentation_level -= 1
         return "{\n" + ",\n".join(output) + "\n" + self.indent_str + "}"
 
+    def _put_dict_on_single_line(self, o):
+        flat_dict = not any(isinstance(x, dict) or isinstance(x, list) for x in o.values())
+        return (
+            len(o) == 3 and
+            flat_dict
+        )
+
     def _encode_list(self, o):
-        if self._put_on_single_line(o):
+        if self._put_list_on_single_line(o):
             return "[" + ", ".join(self.encode(el) for el in o) + "]"
         elif not o:
             return "[]"
@@ -69,7 +80,7 @@ class CompactJSONEncoder(json.JSONEncoder):
     def iterencode(self, o, **kwargs):
         return self.encode(o)
 
-    def _put_on_single_line(self, o):
+    def _put_list_on_single_line(self, o):
         return (
             len(o) == 2 and
             isinstance(o[0], int) and
