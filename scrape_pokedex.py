@@ -1,12 +1,16 @@
 #!/usr/bin/python3
 """
-Pokédex scraper for Gen 5-9 games using the PokéAPI (https://pokeapi.co).
+Pokédex scraper for Gen 1-9 games using the PokéAPI (https://pokeapi.co).
 
 Uses the structured REST API. Level-1 move ordering is corrected
 by consulting Bulbapedia learnset pages (requires beautifulsoup4).
 
 Games:
-    Black 2 and White 2, X and Y, Omega Ruby and Alpha Sapphire,
+    Red and Blue, Yellow, Gold and Silver, Crystal,
+    Ruby and Sapphire, Emerald, FireRed and LeafGreen,
+    Diamond and Pearl, Platinum, HeartGold and SoulSilver,
+    Black and White, Black 2 and White 2,
+    X and Y, Omega Ruby and Alpha Sapphire,
     Sun and Moon, Ultra Sun and Ultra Moon, Sword and Shield,
     Scarlet and Violet
 
@@ -18,16 +22,21 @@ Usage:
     python scrape_pokedex.py --game "X and Y"        # one game
     python scrape_pokedex.py --no-cache              # bypass cache
     python scrape_pokedex.py --output-dir pokedex    # set output dir
+    python scrape_pokedex.py --diff                  # compare against existing files
+    python scrape_pokedex.py --diff --game "Emerald" # diff a single game
 
 Requirements:
     pip install requests beautifulsoup4
 """
 
 import argparse
+import difflib
 import json
 import os
 import re
+import shutil
 import sys
+import tempfile
 import time
 from pathlib import Path
 
@@ -54,6 +63,72 @@ GEN_TO_ROMAN = {1: "I", 2: "II", 3: "III", 4: "IV", 5: "V",
 #   versions       — used to filter held items (version-specific)
 #   generation     — integer gen number (used for ability/form/stat filtering)
 GAME_CONFIG = {
+    "Red and Blue": {
+        "filename":      "red_blue.js",
+        "version_group": "red-blue",
+        "versions":      ["red", "blue"],
+        "generation":    1,
+    },
+    "Yellow": {
+        "filename":      "yellow.js",
+        "version_group": "yellow",
+        "versions":      ["yellow"],
+        "generation":    1,
+    },
+    "Gold and Silver": {
+        "filename":      "gold_silver.js",
+        "version_group": "gold-silver",
+        "versions":      ["gold", "silver"],
+        "generation":    2,
+    },
+    "Crystal": {
+        "filename":      "crystal.js",
+        "version_group": "crystal",
+        "versions":      ["crystal"],
+        "generation":    2,
+    },
+    "Ruby and Sapphire": {
+        "filename":      "ruby_sapphire.js",
+        "version_group": "ruby-sapphire",
+        "versions":      ["ruby", "sapphire"],
+        "generation":    3,
+    },
+    "Emerald": {
+        "filename":      "emerald.js",
+        "version_group": "emerald",
+        "versions":      ["emerald"],
+        "generation":    3,
+    },
+    "FireRed and LeafGreen": {
+        "filename":      "firered_leafgreen.js",
+        "version_group": "firered-leafgreen",
+        "versions":      ["firered", "leafgreen"],
+        "generation":    3,
+    },
+    "Diamond and Pearl": {
+        "filename":      "diamond_pearl.js",
+        "version_group": "diamond-pearl",
+        "versions":      ["diamond", "pearl"],
+        "generation":    4,
+    },
+    "Platinum": {
+        "filename":      "platinum.js",
+        "version_group": "platinum",
+        "versions":      ["platinum"],
+        "generation":    4,
+    },
+    "HeartGold and SoulSilver": {
+        "filename":      "heartgold_soulsilver.js",
+        "version_group": "heartgold-soulsilver",
+        "versions":      ["heartgold", "soulsilver"],
+        "generation":    4,
+    },
+    "Black and White": {
+        "filename":      "black_white.js",
+        "version_group": "black-white",
+        "versions":      ["black", "white"],
+        "generation":    5,
+    },
     "Black 2 and White 2": {
         "filename":      "black2_white2.js",
         "version_group": "black-2-white-2",
@@ -468,6 +543,26 @@ def get_ability_generation(slug: str, use_cache: bool) -> int:
 # Bulbapedia level-1 move ordering
 # ---------------------------------------------------------------------------
 
+# When Bulbapedia has multiple level columns (one per version pair within
+# a generation), this maps the PokéAPI version_group slug to the header
+# text of the column we should read.  Entries not listed here use the
+# first level column (or the single "Level" column) by default.
+VERSION_GROUP_TO_BP_COLUMN: dict[str, str] = {
+    # Gen 4: columns are "DP" and "PtHGSS"
+    "diamond-pearl":          "DP",
+    "platinum":               "PtHGSS",
+    "heartgold-soulsilver":   "PtHGSS",
+    # Gen 5: columns are "BW" and "B2W2"
+    "black-white":            "BW",
+    "black-2-white-2":        "B2W2",
+    # Gen 6: columns are "XY" and "ORAS"
+    "x-y":                    "XY",
+    "omega-ruby-alpha-sapphire": "ORAS",
+    # Gen 7: columns are "SM" and "USUM"
+    "sun-moon":               "SM",
+    "ultra-sun-ultra-moon":   "USUM",
+}
+
 _bulbapedia_level1_cache: dict[str, list[str] | None] = {}
 
 
@@ -508,19 +603,40 @@ def fetch_bulbapedia_html(url: str, use_cache: bool = True) -> str | None:
     return None
 
 
-def _parse_level1_moves_from_table(table) -> list[str]:
+def _parse_level1_moves_from_table(
+    table,
+    preferred_level_col: str | None = None,
+) -> list[str]:
     """
     Extract level-1 move names from a Bulbapedia sortable learnset table,
     preserving the order they appear on the page.
+
+    preferred_level_col — if set, the header text of the level column to
+        read (e.g. "USUM", "B2W2").  Falls back to the first column when
+        the header is not found or the table has a single "Level" column.
     """
+    # Determine column indices from the header row.
+    # Some generations have multiple level columns (e.g. SM + USUM).
+    move_col = 1   # default fallback
+    level_col = 0  # default: first column
+    header_row = table.find("tr")
+    if header_row:
+        headers = header_row.find_all("th")
+        for i, th in enumerate(headers):
+            text = th.get_text(strip=True)
+            if text == "Move":
+                move_col = i
+            if preferred_level_col and text == preferred_level_col:
+                level_col = i
+
     moves = []
     for row in table.find_all("tr"):
         cells = row.find_all("td")
-        if len(cells) < 2:
+        if len(cells) <= max(move_col, level_col):
             continue
         # Level cell contains <span style="display:none">01</span>1
         # Remove hidden sort-key spans before extracting the visible text.
-        level_cell = cells[0]
+        level_cell = cells[level_col]
         for hidden in level_cell.find_all("span", style=re.compile(r"display:\s*none")):
             hidden.decompose()
         level_text = level_cell.get_text(strip=True)
@@ -531,8 +647,8 @@ def _parse_level1_moves_from_table(table) -> list[str]:
             continue
         if level_text != "1":
             continue
-        # Move name is in the second cell, inside an <a> tag.
-        link = cells[1].find("a")
+        # Move name column, inside an <a> tag.
+        link = cells[move_col].find("a")
         if link:
             moves.append(link.get_text(strip=True))
     return moves
@@ -553,18 +669,21 @@ def get_bulbapedia_level1_order(
     form_name: str | None,
     game_gen: int,
     use_cache: bool,
+    version_group: str = "",
 ) -> list[str] | None:
     """
     Fetch the Bulbapedia learnset page and return the level-1 moves in order.
 
-    species_name — English species name (e.g. "Charizard", "Raichu")
-    form_name    — form sub-heading to look for (e.g. "Alolan Raichu"),
-                   or None for the default / base form.
-    game_gen     — generation number (5-9)
+    species_name  — English species name (e.g. "Charizard", "Raichu")
+    form_name     — form sub-heading to look for (e.g. "Alolan Raichu"),
+                    or None for the default / base form.
+    game_gen      — generation number (1-9)
+    version_group — PokéAPI version-group slug, used to pick the correct
+                    level column when Bulbapedia has multiple per gen.
 
     Returns a list of move names in the correct order, or None on failure.
     """
-    cache_key = f"{species_name}|{form_name}|{game_gen}"
+    cache_key = f"{species_name}|{form_name}|{game_gen}|{version_group}"
     if cache_key in _bulbapedia_level1_cache:
         return _bulbapedia_level1_cache[cache_key]
 
@@ -623,7 +742,8 @@ def get_bulbapedia_level1_order(
         _bulbapedia_level1_cache[cache_key] = None
         return None
 
-    moves = _parse_level1_moves_from_table(target_table)
+    preferred_col = VERSION_GROUP_TO_BP_COLUMN.get(version_group)
+    moves = _parse_level1_moves_from_table(target_table, preferred_col)
     result = moves if moves else None
     _bulbapedia_level1_cache[cache_key] = result
     return result
@@ -635,6 +755,7 @@ def reorder_level1_moves(
     form_name: str | None,
     game_gen: int,
     use_cache: bool,
+    version_group: str = "",
 ) -> list[list]:
     """
     Reorder level-1 moves in level_up according to the order on Bulbapedia.
@@ -644,17 +765,28 @@ def reorder_level1_moves(
     if len(level1) <= 1:
         return level_up
 
-    bp_order = get_bulbapedia_level1_order(species_name, form_name, game_gen, use_cache)
+    bp_order = get_bulbapedia_level1_order(
+        species_name, form_name, game_gen, use_cache, version_group,
+    )
     if not bp_order:
         return level_up
 
     # Build a sort key: position in Bulbapedia list (unknown moves go to end).
     order_map = {name: i for i, name in enumerate(bp_order)}
 
-    non_level1 = [m for m in level_up if m[0] != 1]
     level1.sort(key=lambda m: order_map.get(m[1], len(bp_order)))
 
-    return level1 + non_level1
+    # Re-insert sorted level-1 moves at their original position.
+    result = []
+    level1_iter = iter(level1)
+    for m in level_up:
+        if m[0] == 1:
+            nxt = next(level1_iter, None)
+            if nxt is not None:
+                result.append(nxt)
+        else:
+            result.append(m)
+    return result
 
 
 # ---------------------------------------------------------------------------
@@ -923,24 +1055,42 @@ def build_entry(
     pokemon_slug = pokemon_data["name"]
     base_stats = apply_historical_stats(pokemon_slug, raw_stats, game_gen)
 
+    # Gen 1: a single "Special" stat (no SpA/SpD split).
+    # PokéAPI returns the Gen 2+ split values. The original Special stat
+    # equals what became special_attack in Gen 2; set both to that value.
+    if game_gen <= 1:
+        base_stats["special_defense"] = base_stats["special_attack"]
+
+    # Gen 1-2: EV yield equals base stats (stat experience mechanic).
+    if game_gen <= 2:
+        ev_yield = dict(base_stats)
+
+    # Gen 1-2: weight was not a game mechanic.
+    if game_gen <= 2:
+        weight = None
+
     # Types
     types   = sorted(pokemon_data.get("types", []), key=lambda t: t["slot"])
     type_1  = types[0]["type"]["name"].capitalize() if len(types) > 0 else None
     type_2  = types[1]["type"]["name"].capitalize() if len(types) > 1 else type_1
 
     # Abilities — separate hidden ability from normal abilities.
-    # Also filter out abilities not yet introduced in this game's generation.
+    # Gen 1-2: abilities did not exist.
+    # Gen 3-4: abilities exist but hidden abilities do not (Gen 5 feature).
     abilities = []
     hidden_ability = None
-    for a in sorted(pokemon_data.get("abilities", []), key=lambda a: a["slot"]):
-        ability_slug = a["ability"]["name"]
-        ability_gen  = get_ability_generation(ability_slug, use_cache)
-        if ability_gen > game_gen:
-            continue
-        if a["is_hidden"]:
-            hidden_ability = slug_to_title(ability_slug)
-        else:
-            abilities.append(slug_to_title(ability_slug))
+    if game_gen >= 3:
+        for a in sorted(pokemon_data.get("abilities", []), key=lambda a: a["slot"]):
+            ability_slug = a["ability"]["name"]
+            ability_gen  = get_ability_generation(ability_slug, use_cache)
+            if ability_gen > game_gen:
+                continue
+            if a["is_hidden"]:
+                if game_gen >= 5:
+                    hidden_ability = slug_to_title(ability_slug)
+                # Gen 3-4: skip hidden abilities entirely
+            else:
+                abilities.append(slug_to_title(ability_slug))
 
     # Held items
     common_item, rare_item = parse_held_items(pokemon_data, target_versions)
@@ -962,6 +1112,14 @@ def build_entry(
     ]
     egg_group_1 = raw_egg_groups[0] if len(raw_egg_groups) > 0 else None
     egg_group_2 = raw_egg_groups[1] if len(raw_egg_groups) > 1 else egg_group_1
+
+    # Gen 1: no breeding, no gender, no friendship.
+    if game_gen <= 1:
+        gender_ratio    = None
+        egg_cycles      = None
+        base_friendship = None
+        egg_group_1     = None
+        egg_group_2     = None
 
     # Evolution family
     evo_family = fetch_evolution_family(species_data, use_cache)
@@ -986,9 +1144,10 @@ def build_entry(
     form_heading = display_name_override if display_name_override else None
     level_up = reorder_level1_moves(
         level_up, base_species_name, form_heading, game_gen, use_cache,
+        version_group,
     )
 
-    return {
+    entry = {
         "species":             display_name,
         "rom_id":              dex_num,
         "national_dex_number": dex_num,
@@ -1007,14 +1166,22 @@ def build_entry(
         "egg_group_1":         egg_group_1,
         "egg_group_2":         egg_group_2,
         "abilities":           abilities,
-        "hidden_ability":      hidden_ability,
+    }
+
+    # hidden_ability only exists as a concept from Gen 5 onward.
+    if game_gen >= 5:
+        entry["hidden_ability"] = hidden_ability
+
+    entry.update({
         "level_up_learnset":   level_up,
         "tm_hm_learnset":      tm_hm,
         "tutor_learnset":      tutor,
         "egg_moves":           egg_moves,
         "weight":              weight,
         "evolution_family":    evo_family,
-    }
+    })
+
+    return entry
 
 
 # ---------------------------------------------------------------------------
@@ -1146,7 +1313,7 @@ def export_js(path: str, pokedex: dict) -> None:
     with open(path, "w", encoding="utf-8") as f:
         out = json.dumps(pokedex, cls=CompactJSONEncoder, indent=4)
         f.write("export const pokedex = " + out)
-    print(f"  Written {len(pokedex)} entries → {path}")
+    print(f"  Written {len(pokedex)} entries -> {path}")
 
 
 # ---------------------------------------------------------------------------
@@ -1154,7 +1321,7 @@ def export_js(path: str, pokedex: dict) -> None:
 # ---------------------------------------------------------------------------
 
 def get_all_species(use_cache: bool) -> list[dict]:
-    print("Fetching species list from PokéAPI …")
+    print("Fetching species list from PokeAPI...")
     data = api_get(f"{API_BASE}/pokemon-species?limit=10000", use_cache=use_cache)
     if not data:
         print("ERROR: could not fetch species list")
@@ -1165,12 +1332,188 @@ def get_all_species(use_cache: bool) -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
+# Diff mode
+# ---------------------------------------------------------------------------
+
+def _parse_js_pokedex(path: str) -> dict | None:
+    """Read a pokedex .js file and parse its JSON content."""
+    try:
+        text = Path(path).read_text(encoding="utf-8")
+    except FileNotFoundError:
+        return None
+    # Strip the "export const pokedex = " prefix
+    prefix = "export const pokedex = "
+    if text.startswith(prefix):
+        text = text[len(prefix):]
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        return None
+
+
+def _diff_values(old, new, path="") -> list[str]:
+    """Recursively compare two values and return a list of difference strings."""
+    diffs = []
+    if type(old) != type(new):
+        diffs.append(f"  {path}: {old!r} -> {new!r}")
+    elif isinstance(old, dict):
+        all_keys = set(old) | set(new)
+        for k in sorted(all_keys):
+            sub = f"{path}.{k}" if path else k
+            if k not in old:
+                diffs.append(f"  {sub}: (missing) -> {new[k]!r}")
+            elif k not in new:
+                diffs.append(f"  {sub}: {old[k]!r} -> (missing)")
+            else:
+                diffs.extend(_diff_values(old[k], new[k], sub))
+    elif isinstance(old, list):
+        if old != new:
+            # For short lists, show whole values; for long lists, show count
+            if len(str(old)) + len(str(new)) < 200:
+                diffs.append(f"  {path}: {old!r} -> {new!r}")
+            else:
+                diffs.append(f"  {path}: list differs (old={len(old)} items, new={len(new)} items)")
+    elif old != new:
+        diffs.append(f"  {path}: {old!r} -> {new!r}")
+    return diffs
+
+
+def _write_unified_diff(old_path: str, new_path: str, diff_path: str) -> bool:
+    """
+    Write a unified diff file comparing old_path and new_path.
+    Returns True if differences exist, False if files are identical.
+    """
+    if old_path:
+        try:
+            old_lines = Path(old_path).read_text(encoding="utf-8").splitlines(keepends=True)
+        except FileNotFoundError:
+            old_lines = []
+    else:
+        old_lines = []
+
+    if new_path:
+        try:
+            new_lines = Path(new_path).read_text(encoding="utf-8").splitlines(keepends=True)
+        except FileNotFoundError:
+            new_lines = []
+    else:
+        new_lines = []
+
+    old_label = old_path or "/dev/null"
+    new_label = new_path or "/dev/null"
+
+    diff_lines = list(difflib.unified_diff(
+        old_lines, new_lines,
+        fromfile=old_label, tofile=new_label,
+        lineterm="",
+    ))
+
+    if not diff_lines:
+        return False
+
+    with open(diff_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(diff_lines) + "\n")
+
+    return True
+
+
+def compare_pokedex_files(
+    new_path: str,
+    old_path: str,
+    game_name: str,
+    diff_dir: str | None = None,
+) -> bool:
+    """
+    Compare a newly scraped pokedex file against the existing one.
+    Prints a human-readable summary report.
+    If diff_dir is set, writes a unified diff file there.
+    Returns True if there are differences, False if identical.
+    """
+    old_data = _parse_js_pokedex(old_path)
+    new_data = _parse_js_pokedex(new_path)
+
+    filename = os.path.basename(old_path)
+    print(f"\n{'='*60}")
+    print(f"  {game_name}  ({filename})")
+    print(f"{'='*60}")
+
+    if old_data is None and new_data is None:
+        print("  Both files missing or unparseable.")
+        return False
+    if old_data is None:
+        print(f"  NEW FILE: {new_path} ({len(new_data)} entries)")
+        print(f"  No existing file at {old_path}")
+        if diff_dir:
+            diff_name = Path(filename).stem + ".diff"
+            _write_unified_diff("", new_path, os.path.join(diff_dir, diff_name))
+            print(f"  Diff written to {diff_name}")
+        return True
+    if new_data is None:
+        print(f"  ERROR: could not parse new file {new_path}")
+        return True
+
+    old_keys = set(old_data.keys())
+    new_keys = set(new_data.keys())
+
+    added   = sorted(new_keys - old_keys)
+    removed = sorted(old_keys - new_keys)
+    common  = sorted(old_keys & new_keys)
+
+    changed = []
+    unchanged = 0
+    for name in common:
+        diffs = _diff_values(old_data[name], new_data[name])
+        if diffs:
+            changed.append((name, diffs))
+        else:
+            unchanged += 1
+
+    has_diff = bool(added or removed or changed)
+
+    if added:
+        print(f"\n  Added ({len(added)}):")
+        for name in added:
+            print(f"    + {name}")
+
+    if removed:
+        print(f"\n  Removed ({len(removed)}):")
+        for name in removed:
+            print(f"    - {name}")
+
+    if changed:
+        print(f"\n  Changed ({len(changed)}):")
+        for name, diffs in changed:
+            print(f"    {name}:")
+            for d in diffs:
+                print(f"      {d}")
+
+    print(f"\n  Summary: {len(added)} added, {len(removed)} removed, "
+          f"{len(changed)} changed, {unchanged} unchanged")
+
+    if not has_diff:
+        print("  No differences found.")
+
+    # Write unified diff file
+    if diff_dir and has_diff:
+        diff_name = Path(filename).stem + ".diff"
+        diff_path = os.path.join(diff_dir, diff_name)
+        _write_unified_diff(old_path, new_path, diff_path)
+        print(f"  Diff file: {diff_path}")
+
+    return has_diff
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
 def main() -> None:
+    # Ensure stdout can handle Unicode (e.g. Nidoran♀/♂) on Windows.
+    if sys.stdout.encoding and sys.stdout.encoding.lower() not in ("utf-8", "utf8"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
     parser = argparse.ArgumentParser(
-        description="Scrape Pokédex data for Gen 5-9 games from PokéAPI"
+        description="Scrape Pokedex data for Gen 1-9 games from PokeAPI"
     )
     parser.add_argument(
         "--game",
@@ -1192,6 +1535,11 @@ def main() -> None:
         metavar="DIR",
         help="Output directory for .js files (default: pokedex/)",
     )
+    parser.add_argument(
+        "--diff",
+        action="store_true",
+        help="Scrape to a temp directory and compare against existing files",
+    )
     args = parser.parse_args()
 
     use_cache  = not args.no_cache
@@ -1211,10 +1559,45 @@ def main() -> None:
         else GAME_CONFIG
     )
 
-    for game_name, config in games.items():
-        pokedex  = build_game_pokedex(game_name, config, all_species, use_cache)
-        out_path = os.path.join(output_dir, config["filename"])
-        export_js(out_path, pokedex)
+    if args.diff:
+        # Scrape to a temp directory, then compare against the real output dir.
+        tmp_dir = tempfile.mkdtemp(prefix="pokedex_diff_")
+        diff_dir = os.path.join(tmp_dir, "diffs")
+        os.makedirs(diff_dir, exist_ok=True)
+        print(f"\nDiff mode: scraping to temp dir {tmp_dir}")
+
+        any_diff = False
+        for game_name, config in games.items():
+            pokedex  = build_game_pokedex(game_name, config, all_species, use_cache)
+            tmp_path = os.path.join(tmp_dir, config["filename"])
+            export_js(tmp_path, pokedex)
+
+            old_path = os.path.join(output_dir, config["filename"])
+            has_diff = compare_pokedex_files(
+                tmp_path, old_path, game_name, diff_dir=diff_dir,
+            )
+            if has_diff:
+                any_diff = True
+
+        print(f"\n{'='*60}")
+        if any_diff:
+            diff_files = sorted(os.listdir(diff_dir))
+            print(f"Differences found. {len(diff_files)} diff file(s) written to:")
+            print(f"  {diff_dir}")
+            for df in diff_files:
+                print(f"    {df}")
+            print(f"\nScraped files preserved at:")
+            print(f"  {tmp_dir}")
+        else:
+            print("No differences found across all games.")
+            shutil.rmtree(tmp_dir, ignore_errors=True)
+
+        sys.exit(1 if any_diff else 0)
+    else:
+        for game_name, config in games.items():
+            pokedex  = build_game_pokedex(game_name, config, all_species, use_cache)
+            out_path = os.path.join(output_dir, config["filename"])
+            export_js(out_path, pokedex)
 
     print("\nAll done.")
 
