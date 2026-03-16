@@ -17276,6 +17276,9 @@ export const pokedex = {
             {"species": "Pichu", "method": null, "parameter": null},
             {"species": "Pikachu", "method": null, "parameter": null},
             {"species": "Raichu", "method": null, "parameter": null}
+        ],
+        "light_ball_egg_learnset": [
+            "Volt Tackle"
         ]
     },
     "Cleffa": {

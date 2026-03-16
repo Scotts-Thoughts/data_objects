@@ -19232,6 +19232,9 @@ export const pokedex = {
             {"species": "Pichu", "method": null, "parameter": null},
             {"species": "Pikachu", "method": null, "parameter": null},
             {"species": "Raichu", "method": null, "parameter": null}
+        ],
+        "light_ball_egg_learnset": [
+            "Volt Tackle"
         ]
     },
     "Cleffa": {
@@ -54862,6 +54865,9 @@ export const pokedex = {
         "weight": 0.3,
         "evolution_family": [
             {"species": "Rotom", "method": null, "parameter": null}
+        ],
+        "form_change_learnset": [
+            "Thunder Shock"
         ]
     },
     "Rotom (Heat)": {
@@ -54962,6 +54968,9 @@ export const pokedex = {
         "weight": 0.3,
         "evolution_family": [
             {"species": "Rotom", "method": null, "parameter": null}
+        ],
+        "form_change_learnset": [
+            "Overheat"
         ]
     },
     "Rotom (Wash)": {
@@ -55062,6 +55071,9 @@ export const pokedex = {
         "weight": 0.3,
         "evolution_family": [
             {"species": "Rotom", "method": null, "parameter": null}
+        ],
+        "form_change_learnset": [
+            "Hydro Pump"
         ]
     },
     "Rotom (Frost)": {
@@ -55162,6 +55174,9 @@ export const pokedex = {
         "weight": 0.3,
         "evolution_family": [
             {"species": "Rotom", "method": null, "parameter": null}
+        ],
+        "form_change_learnset": [
+            "Blizzard"
         ]
     },
     "Rotom (Fan)": {
@@ -55262,6 +55277,9 @@ export const pokedex = {
         "weight": 0.3,
         "evolution_family": [
             {"species": "Rotom", "method": null, "parameter": null}
+        ],
+        "form_change_learnset": [
+            "Air Slash"
         ]
     },
     "Rotom (Mow)": {
@@ -55362,6 +55380,9 @@ export const pokedex = {
         "weight": 0.3,
         "evolution_family": [
             {"species": "Rotom", "method": null, "parameter": null}
+        ],
+        "form_change_learnset": [
+            "Leaf Storm"
         ]
     },
     "Uxie": {

@@ -4,7 +4,9 @@
       "WebFetch(domain:bulbapedia.bulbagarden.net)",
       "Bash(python3:*)",
       "Bash(curl:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "WebFetch(domain:pokeapi.co)",
+      "Bash(cd:*)"
     ]
   }
 }

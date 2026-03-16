@@ -714,12 +714,17 @@ def get_bulbapedia_level1_order(
 
     if form_name:
         # Look for an h5 whose text matches form_name, then get its table.
+        # Use word-set matching as a fallback for cases where our display name
+        # format differs from Bulbapedia's heading (e.g. "Meowstic (Female)"
+        # vs "Female Meowstic", "Rotom (Heat)" vs "Heat Rotom").
+        form_words = set(re.sub(r"[()]", "", form_name).lower().split())
         for sibling in node.find_next_siblings():
             if sibling.name == "h4":
                 break
             if sibling.name == "h5":
                 h5_text = sibling.get_text(strip=True)
-                if form_name in h5_text:
+                h5_words = set(h5_text.lower().split())
+                if form_name in h5_text or form_words.issubset(h5_words):
                     for s2 in sibling.find_next_siblings():
                         if s2.name in ("h4", "h5"):
                             break
@@ -965,12 +970,16 @@ def parse_held_items(pokemon_data: dict, target_versions: list[str]) -> tuple[st
 def parse_moves(pokemon_data: dict, version_group: str, use_cache: bool):
     """
     Parse move data from a pokemon_data dict for the given version group.
-    Returns (level_up, tm_hm, tutor, egg_moves).
+    Returns (level_up, tm_hm, tutor, egg_moves, form_change, zygarde_cube,
+             light_ball_egg).
     """
-    level_up:  list[list] = []
-    tm_hm:     list[str]  = []
-    tutor:     list[str]  = []
-    egg_moves: list[str]  = []
+    level_up:       list[list] = []
+    tm_hm:          list[str]  = []
+    tutor:          list[str]  = []
+    egg_moves:      list[str]  = []
+    form_change:    list[str]  = []
+    zygarde_cube:   list[str]  = []
+    light_ball_egg: list[str]  = []
 
     for move_entry in pokemon_data.get("moves", []):
         move_slug = move_entry["move"]["name"]
@@ -994,9 +1003,18 @@ def parse_moves(pokemon_data: dict, version_group: str, use_cache: bool):
             elif method == "egg":
                 if name not in egg_moves:
                     egg_moves.append(name)
+            elif method == "form-change":
+                if name not in form_change:
+                    form_change.append(name)
+            elif method == "zygarde-cube":
+                if name not in zygarde_cube:
+                    zygarde_cube.append(name)
+            elif method == "light-ball-egg":
+                if name not in light_ball_egg:
+                    light_ball_egg.append(name)
 
     level_up.sort(key=lambda x: x[0])
-    return level_up, tm_hm, tutor, egg_moves
+    return level_up, tm_hm, tutor, egg_moves, form_change, zygarde_cube, light_ball_egg
 
 
 # ---------------------------------------------------------------------------
@@ -1025,13 +1043,13 @@ def build_entry(
     Returns None if the Pokémon has no moves in this version group.
     """
     # --- Filter moves for this version group ---
-    level_up, tm_hm, tutor, egg_moves = parse_moves(pokemon_data, version_group, use_cache)
+    level_up, tm_hm, tutor, egg_moves, form_change, zygarde_cube, light_ball_egg = \
+        parse_moves(pokemon_data, version_group, use_cache)
 
     # If this form has no move data and we have a fallback (base form), use it.
     if not level_up and not tm_hm and not tutor and not egg_moves and fallback_moves_data:
-        level_up, tm_hm, tutor, egg_moves = parse_moves(
-            fallback_moves_data, version_group, use_cache
-        )
+        level_up, tm_hm, tutor, egg_moves, form_change, zygarde_cube, light_ball_egg = \
+            parse_moves(fallback_moves_data, version_group, use_cache)
 
     # A Pokémon not in this game has no move data for the version group.
     if not level_up and not tm_hm and not tutor and not egg_moves:
@@ -1180,6 +1198,14 @@ def build_entry(
         "weight":              weight,
         "evolution_family":    evo_family,
     })
+
+    # Special move categories — only include when non-empty to keep data clean.
+    if form_change:
+        entry["form_change_learnset"] = form_change
+    if zygarde_cube:
+        entry["zygarde_cube_learnset"] = zygarde_cube
+    if light_ball_egg:
+        entry["light_ball_egg_learnset"] = light_ball_egg
 
     return entry
 
