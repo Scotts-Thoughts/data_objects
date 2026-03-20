@@ -889,23 +889,134 @@ def derive_form_display_name(
 # Evolution chain parser
 # ---------------------------------------------------------------------------
 
-def _flatten_chain(node: dict, parent_method: str | None, parent_param) -> list[dict]:
+def _parse_evo_details(d: dict) -> dict:
+    """Parse a single PokeAPI evolution_details entry into method/parameter/extras."""
+    trigger = (d.get("trigger") or {}).get("name", "")
+    method = None
+    param = None
+    extras = {}
+
+    # -- Optional qualifiers that can appear on any trigger --
+    time_of_day = d.get("time_of_day", "")
+    if time_of_day:
+        extras["time_of_day"] = time_of_day
+    gender = d.get("gender")
+    if gender is not None:
+        extras["gender"] = "female" if gender == 1 else "male" if gender == 2 else gender
+
+    if trigger == "level-up":
+        if d.get("relative_physical_stats") is not None:
+            method = "stats"
+            param = d["relative_physical_stats"]
+            if d.get("min_level"):
+                extras["min_level"] = d["min_level"]
+        elif d.get("location"):
+            method = "location"
+            param = slug_to_title(d["location"]["name"])
+        elif d.get("known_move"):
+            method = "move"
+            param = slug_to_title(d["known_move"]["name"])
+        elif d.get("min_affection") is not None and d.get("known_move_type"):
+            method = "affection"
+            param = slug_to_title(d["known_move_type"]["name"])
+        elif d.get("known_move_type"):
+            method = "move_type"
+            param = slug_to_title(d["known_move_type"]["name"])
+        elif d.get("held_item"):
+            method = "held_item"
+            param = slug_to_title(d["held_item"]["name"])
+        elif d.get("min_happiness") is not None:
+            method = "friendship"
+            param = None
+        elif d.get("min_beauty") is not None:
+            method = "beauty"
+            param = d["min_beauty"]
+        elif d.get("party_species"):
+            method = "party_species"
+            param = slug_to_title(d["party_species"]["name"])
+        elif d.get("party_type"):
+            method = "party_type"
+            param = slug_to_title(d["party_type"]["name"])
+        elif d.get("needs_overworld_rain"):
+            method = "rain"
+            param = d.get("min_level")
+        elif d.get("turn_upside_down"):
+            method = "upside_down"
+            param = d.get("min_level")
+        elif d.get("min_level"):
+            method = "level"
+            param = d["min_level"]
+        else:
+            method = "level"
+            param = None
+
+    elif trigger == "use-item":
+        method = "item"
+        param = slug_to_title(d["item"]["name"]) if d.get("item") else None
+
+    elif trigger == "trade":
+        method = "trade"
+        if d.get("held_item"):
+            param = slug_to_title(d["held_item"]["name"])
+        elif d.get("trade_species"):
+            param = slug_to_title(d["trade_species"]["name"])
+        else:
+            param = None
+
+    elif trigger == "shed":
+        method = "shed"
+        param = None
+
+    elif trigger == "spin":
+        method = "spin"
+        param = None
+
+    elif trigger in ("tower-of-darkness", "tower-of-waters"):
+        method = trigger.replace("-", "_")
+        param = None
+
+    elif trigger == "three-critical-hits":
+        method = "three_critical_hits"
+        param = None
+
+    elif trigger == "take-damage":
+        method = "take_damage"
+        param = d.get("min_damage_taken")
+
+    elif trigger == "agile-style-move":
+        method = "agile_style_move"
+        param = slug_to_title(d["used_move"]["name"]) if d.get("used_move") else None
+
+    elif trigger == "strong-style-move":
+        method = "strong_style_move"
+        param = slug_to_title(d["used_move"]["name"]) if d.get("used_move") else None
+
+    elif trigger == "recoil-damage":
+        method = "recoil_damage"
+        param = None
+
+    elif trigger == "use-move":
+        method = "use_move"
+        param = slug_to_title(d["known_move"]["name"]) if d.get("known_move") else None
+
+    else:
+        # Covers "other", "three-defeated-bisharp", "gimmmighoul-coins",
+        # and any future triggers added to PokeAPI.
+        method = trigger.replace("-", "_") if trigger else None
+        param = None
+
+    return {"method": method, "parameter": param, **extras}
+
+
+def _flatten_chain(node: dict, parent_evo: dict) -> list[dict]:
     slug = node["species"]["name"]
-    result = [{"species_slug": slug, "method": parent_method, "parameter": parent_param}]
+    result = [{"species_slug": slug, **parent_evo}]
 
     for child in node.get("evolves_to", []):
         details = child.get("evolution_details", [{}])
         d = details[0] if details else {}
-        trigger = (d.get("trigger") or {}).get("name", "")
-
-        if trigger == "level-up" and d.get("min_level"):
-            method = "level"
-            param  = d["min_level"]
-        else:
-            method = None
-            param  = None
-
-        result.extend(_flatten_chain(child, method, param))
+        evo = _parse_evo_details(d)
+        result.extend(_flatten_chain(child, evo))
 
     return result
 
@@ -921,7 +1032,7 @@ def fetch_evolution_family(species_data: dict, use_cache: bool) -> list[dict]:
         slug = species_data["name"]
         return [{"species": slug_to_title(slug), "method": None, "parameter": None}]
 
-    flat = _flatten_chain(chain_data["chain"], None, None)
+    flat = _flatten_chain(chain_data["chain"], {"method": None, "parameter": None})
 
     result = []
     for entry in flat:
@@ -934,9 +1045,8 @@ def fetch_evolution_family(species_data: dict, use_cache: bool) -> list[dict]:
             else:
                 _species_name_cache[s] = slug_to_title(s)
         result.append({
-            "species":   _species_name_cache[s],
-            "method":    entry["method"],
-            "parameter": entry["parameter"],
+            "species": _species_name_cache[s],
+            **{k: v for k, v in entry.items() if k != "species_slug"},
         })
 
     return result
