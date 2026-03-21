@@ -633,6 +633,175 @@ def reorder_level1_moves(
 
 
 # ---------------------------------------------------------------------------
+# Bulbapedia Legends Z-A learnset scraper
+#
+# When PokeAPI has no move data for a ZA mega, fall back to scraping the
+# base Pokémon's Bulbapedia page for the ZA-specific learnset tables.
+#
+# ZA tables are identified either by a green "ZA" game label paragraph
+# or by their unique column structure (has "CD" column instead of Acc./PP).
+# ---------------------------------------------------------------------------
+
+def _find_sortable_table(element):
+    """Find a sortable table: either the element itself or nested inside."""
+    if element.name == "table" and "sortable" in (element.get("class") or []):
+        return element
+    return element.find("table", class_="sortable")
+
+
+def _has_za_label(element) -> bool:
+    """Check if an element is a ZA game-label paragraph."""
+    if element.name != "p":
+        return False
+    for span in element.find_all("span"):
+        if "31CA56" in (span.get("style") or "") and span.get_text(strip=True) == "ZA":
+            return True
+    return False
+
+
+def _is_za_format_table(table) -> bool:
+    """Check if a sortable table uses ZA-format columns (has a CD column)."""
+    header_row = table.find("tr")
+    if not header_row:
+        return False
+    headers = [th.get_text(strip=True) for th in header_row.find_all("th")]
+    return "CD" in headers
+
+
+def _find_za_table_in_section(soup, section_id: str):
+    """Find the ZA-specific sortable table after a Bulbapedia section heading.
+
+    Handles both layouts:
+      - Pokémon in SV + ZA: SV table first, then ZA-labeled table
+      - Pokémon in ZA only: single unlabeled table with ZA column structure
+    """
+    heading_span = soup.find("span", id=section_id)
+    if not heading_span:
+        return None
+
+    node = heading_span.parent  # the <h4>
+
+    # Walk siblings, collecting tables with their preceding label context
+    tables_with_label: list[tuple] = []
+    prev_label: str | None = None
+
+    for sibling in node.find_next_siblings():
+        if sibling.name in ("h3", "h4"):
+            break
+
+        # Detect game-label paragraphs
+        if sibling.name == "p":
+            if _has_za_label(sibling):
+                prev_label = "za"
+            # SV label has red "S" with color #F34134
+            elif sibling.find("span", style=lambda s: s and "F34134" in str(s)):
+                prev_label = "sv"
+            continue
+
+        tbl = _find_sortable_table(sibling)
+        if tbl:
+            tables_with_label.append((tbl, prev_label))
+            prev_label = None
+
+    # Priority 1: table explicitly labeled ZA
+    for tbl, label in tables_with_label:
+        if label == "za":
+            return tbl
+
+    # Priority 2: unlabeled table with ZA column structure (ZA-only Pokémon)
+    for tbl, label in tables_with_label:
+        if label is None and _is_za_format_table(tbl):
+            return tbl
+
+    return None
+
+
+def _parse_za_level_up_table(table) -> list[list]:
+    """Parse a ZA-format level-up table.
+
+    ZA columns: Learn | Plus | Move | Type | Cat. | Power | CD
+    Returns [[level, "Move Name"], ...]
+    """
+    moves = []
+    for row in table.find_all("tr"):
+        cells = row.find_all("td")
+        if len(cells) < 7:
+            continue
+
+        # Level (column 0)
+        level_cell = cells[0]
+        for hidden in level_cell.find_all("span", style=re.compile(r"display:\s*none")):
+            hidden.decompose()
+        level_text = level_cell.get_text(strip=True).rstrip("*")
+
+        if level_text in ("Evo.", "Rem."):
+            level = 0
+        elif level_text.isdigit():
+            level = int(level_text)
+        else:
+            continue
+
+        # Move name (column 2)
+        move_cell = cells[2]
+        link = move_cell.find("a")
+        move_name = link.get_text(strip=True) if link else move_cell.get_text(strip=True)
+        if move_name:
+            moves.append([level, move_name])
+
+    moves.sort(key=lambda x: x[0])
+    return moves
+
+
+def _parse_za_tm_table(table) -> list[str]:
+    """Parse a ZA-format TM table.
+
+    ZA columns: Icon | TM | Move | Type | Cat. | Pwr. | CD
+    Returns ["Move Name", ...]
+    """
+    moves = []
+    for row in table.find_all("tr"):
+        cells = row.find_all("td")
+        if len(cells) < 7:
+            continue
+
+        # Move name (column 2)
+        move_cell = cells[2]
+        link = move_cell.find("a")
+        move_name = link.get_text(strip=True) if link else move_cell.get_text(strip=True)
+        if move_name and move_name not in moves:
+            moves.append(move_name)
+
+    return moves
+
+
+def scrape_bulbapedia_za_learnset(
+    species_name: str, use_cache: bool,
+) -> tuple[list[list], list[str]]:
+    """Scrape Legends Z-A learnset from Bulbapedia for the given species.
+
+    Returns (level_up, tm_moves) where:
+      - level_up: [[level, "Move Name"], ...]
+      - tm_moves: ["Move Name", ...]
+    """
+    url = f"{BULBAPEDIA_BASE}/{species_name.replace(' ', '_')}_(Pok%C3%A9mon)"
+    html = fetch_bulbapedia_html(url, use_cache)
+    if not html:
+        return [], []
+
+    soup = BeautifulSoup(html, "html.parser")
+
+    # Level-up moves
+    level_up_table = _find_za_table_in_section(soup, "By_leveling_up")
+    level_up = _parse_za_level_up_table(level_up_table) if level_up_table else []
+
+    # TM moves
+    tm_table = _find_za_table_in_section(soup, "By_TM")
+    tm_moves = _parse_za_tm_table(tm_table) if tm_table else []
+
+    return level_up, tm_moves
+
+
+# ---------------------------------------------------------------------------
 # Historical stat helpers
 # ---------------------------------------------------------------------------
 
@@ -851,7 +1020,7 @@ def parse_moves(pokemon_data: dict, version_group: str, use_cache: bool):
     return level_up, tm_hm, tutor, egg_moves, form_change
 
 
-def try_parse_moves(pokemon_data: dict, base_pokemon_data: dict,
+def try_parse_moves(pokemon_data: dict, base_pokemon_data: dict | None,
                     version_groups: list[str], use_cache: bool):
     """Try each version group in order until move data is found.
 
@@ -865,10 +1034,11 @@ def try_parse_moves(pokemon_data: dict, base_pokemon_data: dict,
             return level_up, tm_hm, tutor, egg_moves, form_change, vg
 
         # Try base form as fallback for this version group
-        level_up, tm_hm, tutor, egg_moves, form_change = \
-            parse_moves(base_pokemon_data, vg, use_cache)
-        if level_up or tm_hm or tutor or egg_moves:
-            return level_up, tm_hm, tutor, egg_moves, form_change, vg
+        if base_pokemon_data:
+            level_up, tm_hm, tutor, egg_moves, form_change = \
+                parse_moves(base_pokemon_data, vg, use_cache)
+            if level_up or tm_hm or tutor or egg_moves:
+                return level_up, tm_hm, tutor, egg_moves, form_change, vg
 
     return [], [], [], [], [], None
 
@@ -880,24 +1050,47 @@ def try_parse_moves(pokemon_data: dict, base_pokemon_data: dict,
 def build_mega_entry(
     species_data:      dict,
     mega_pokemon_data: dict,
-    base_pokemon_data: dict,
+    base_pokemon_data: dict | None,
     version_groups:    list[str],
     display_name:      str,
     use_cache:         bool,
-) -> tuple[dict | None, str | None]:
+) -> tuple[dict | None, str | None, bool]:
     """Build one Mega Evolution Pokédex entry.
 
-    Tries version groups in order until move data is found.
-    Returns (entry_dict, used_version_group) or (None, None).
+    Tries version groups in order until move data is found.  Falls back to
+    Bulbapedia ZA learnset scraping when PokeAPI has no move data.  If still
+    no move data, builds the entry with empty learnsets.
+
+    Returns (entry_dict, used_version_group, bulbapedia_sourced).
     """
     level_up, tm_hm, tutor, egg_moves, form_change, used_vg = \
         try_parse_moves(mega_pokemon_data, base_pokemon_data,
                         version_groups, use_cache)
 
-    if not level_up and not tm_hm and not tutor and not egg_moves:
-        return None, None
+    has_moves = bool(level_up or tm_hm or tutor or egg_moves)
 
-    vg_config = VERSION_GROUP_CONFIGS[used_vg]
+    # If no PokeAPI move data, try scraping from Bulbapedia (ZA learnsets)
+    bp_sourced = False
+    if not has_moves:
+        base_species_name = (
+            get_english_name(species_data.get("names", []))
+            or slug_to_title(species_data["name"])
+        )
+        bp_level_up, bp_tm = scrape_bulbapedia_za_learnset(
+            base_species_name, use_cache,
+        )
+        if bp_level_up or bp_tm:
+            level_up = bp_level_up
+            tm_hm = bp_tm
+            has_moves = True
+            bp_sourced = True
+
+    # Use the matched version group, or fall back to the first in the list
+    if used_vg:
+        vg_config = VERSION_GROUP_CONFIGS[used_vg]
+    else:
+        used_vg = version_groups[0]
+        vg_config = VERSION_GROUP_CONFIGS[used_vg]
     game_gen = vg_config["generation"]
     target_versions = vg_config["versions"]
 
@@ -959,15 +1152,16 @@ def build_mega_entry(
     # Evolution family
     evo_family = fetch_evolution_family(species_data, use_cache)
 
-    # Reorder level-1 moves via Bulbapedia
-    base_species_name = (
-        get_english_name(species_data.get("names", []))
-        or slug_to_title(species_data["name"])
-    )
-    level_up = reorder_level1_moves(
-        level_up, base_species_name, display_name, game_gen, use_cache,
-        used_vg,
-    )
+    # Reorder level-1 moves via Bulbapedia (skip if already sourced from BP)
+    if not bp_sourced:
+        base_species_name = (
+            get_english_name(species_data.get("names", []))
+            or slug_to_title(species_data["name"])
+        )
+        level_up = reorder_level1_moves(
+            level_up, base_species_name, display_name, game_gen, use_cache,
+            used_vg,
+        )
 
     entry = {
         "species":             display_name,
@@ -1000,7 +1194,7 @@ def build_mega_entry(
     if form_change:
         entry["form_change_learnset"] = form_change
 
-    return entry, used_vg
+    return entry, used_vg, bp_sourced
 
 
 # ---------------------------------------------------------------------------
@@ -1124,13 +1318,23 @@ def main() -> None:
             pokemon_cache[pokemon_slug] = md
         mega_data = pokemon_cache[pokemon_slug]
 
-        # Fetch base form pokemon data (for fallback moves)
+        # Fetch base form pokemon data (for fallback moves).
+        # Use the species data's default variety URL since some species
+        # (e.g. tatsugiri, meowstic, zygarde) have a default variety slug
+        # that differs from the species slug.
         if species_slug not in pokemon_cache:
-            bd = api_get(f"{API_BASE}/pokemon/{species_slug}", use_cache=use_cache)
-            if not bd:
-                print("ERROR (base pokemon fetch failed)")
-                continue
-            pokemon_cache[species_slug] = bd
+            default_variety = next(
+                (v for v in species_data.get("varieties", []) if v["is_default"]),
+                None,
+            )
+            if default_variety:
+                bd = api_get(default_variety["pokemon"]["url"], use_cache=use_cache)
+            else:
+                bd = api_get(f"{API_BASE}/pokemon/{species_slug}", use_cache=use_cache)
+            if bd:
+                pokemon_cache[species_slug] = bd
+            else:
+                pokemon_cache[species_slug] = None
         base_data = pokemon_cache[species_slug]
 
         # Resolve display name
@@ -1141,27 +1345,38 @@ def main() -> None:
 
         display_name = mega_display_name(base_species_name, pokemon_slug, species_slug)
 
-        # Build the entry (tries version groups in priority order)
-        entry, used_vg = build_mega_entry(
+        # Build the entry (tries PokeAPI first, then Bulbapedia for ZA)
+        entry, used_vg, bp_sourced = build_mega_entry(
             species_data, mega_data, base_data,
             version_groups, display_name, use_cache,
         )
 
         if entry:
             pokedex[display_name] = entry
-            if used_vg:
-                counts[used_vg] += 1
-            print(f"ok  (#{species_data['id']}  {display_name}  [{used_vg}])")
+            counts[used_vg] += 1
+            has_moves = bool(entry.get("level_up_learnset") or entry.get("tm_hm_learnset"))
+            if bp_sourced:
+                status = "ok (moves from Bulbapedia)"
+            elif has_moves:
+                status = "ok"
+            else:
+                status = "ok (stats only, no move data)"
+            print(f"{status}  (#{species_data['id']}  {display_name}  [{used_vg}])")
         else:
-            print(f"skip (no move data)")
+            print("ERROR (entry build failed)")
 
     # Report
+    bp_count = sum(1 for k in pokedex
+                   if pokedex[k].get("level_up_learnset") or pokedex[k].get("tm_hm_learnset"))
+    no_moves = len(pokedex) - bp_count if bp_count < len(pokedex) else 0
     print(f"\n{'='*60}")
     print(f"  Total Mega Evolutions scraped: {len(pokedex)}")
     print(f"    X and Y:                     {counts['x-y']}")
     print(f"    Omega Ruby / Alpha Sapphire: {counts['omega-ruby-alpha-sapphire']}")
     print(f"    Legends Z-A:                 {counts['legends-za']}")
     print(f"    Mega Dimension:              {counts['mega-dimension']}")
+    if no_moves:
+        print(f"    (stats only, no moves):      {no_moves}")
     print(f"{'='*60}")
 
     if len(pokedex) < total:

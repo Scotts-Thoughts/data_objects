@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+*.py.tmp*
+
+# Scrape caches
+.scrape_cache/
+.scrape_cache_api/
+.scrape_cache_bulbapedia/
+bulba_cache/
+move_cache/
+pokemondb_move_cache/
