@@ -43,6 +43,8 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
+from scrape_mega_evolutions import XY_MEGAS, ORAS_MEGAS, ZA_MEGAS
+
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -171,6 +173,15 @@ GAME_CONFIG = {
         "versions":      ["scarlet", "violet"],
         "generation":    9,
     },
+    "Legends Z-A": {
+        "filename":      "legends_za.js",
+        "version_group": "legends-za",
+        "versions":      ["legends-za"],
+        "generation":    9,
+        # PokéAPI does not have legends-za data yet; fall back to the most
+        # recent available version group for move data.
+        "fallback_version_group": "scarlet-violet",
+    },
 }
 
 # PokéAPI generation name → integer
@@ -253,9 +264,20 @@ FORM_GENERATION_RULES: list[tuple[str, int, int | None]] = [
     ("hisui",  9, None),   # Hisuian forms: Gen 9 (accessible in SV)
     ("paldea", 9, None),   # Paldean forms: Gen 9+
     # Transformation mechanics
-    ("mega",   6, 7),      # Mega Evolution: Gen 6–7 only (removed in Gen 8)
     ("primal", 6, 7),      # Primal Reversion: Gen 6–7 only
+    # NOTE: Mega Evolutions are handled per-slug via _MEGA_GEN_RANGE below,
+    # NOT by a blanket keyword rule, because different megas were introduced
+    # in different generations.
 ]
+
+# Per-slug generation ranges for Mega Evolutions.
+# XY and ORAS megas: available in Gen 6–7 (removed in Gen 8).
+# ZA megas: introduced in Legends Z-A (Gen 9 only).
+_MEGA_GEN_RANGE: dict[str, tuple[int, int]] = {}
+for _slug, _base, _vgs in XY_MEGAS + ORAS_MEGAS:
+    _MEGA_GEN_RANGE[_slug] = (6, 7)
+for _slug, _base, _vgs in ZA_MEGAS:
+    _MEGA_GEN_RANGE[_slug] = (9, 9)
 
 # ---------------------------------------------------------------------------
 # Historical base stat changes
@@ -828,6 +850,11 @@ def form_valid_for_generation(pokemon_slug: str, species_slug: str, game_gen: in
     always included (e.g. Rotom appliance forms, Deoxys formes, Giratina
     Origin, etc.), subject to the usual move-data availability check.
     """
+    # Mega Evolutions have per-slug generation ranges.
+    if pokemon_slug in _MEGA_GEN_RANGE:
+        min_gen, max_gen = _MEGA_GEN_RANGE[pokemon_slug]
+        return min_gen <= game_gen <= max_gen
+
     # Derive the form suffix: everything after the species slug
     form_suffix = pokemon_slug[len(species_slug):].lstrip("-")
     for (keyword, min_gen, max_gen) in FORM_GENERATION_RULES:
@@ -1140,15 +1167,19 @@ def build_entry(
     use_cache:          bool,
     display_name_override: str | None = None,
     fallback_moves_data:   dict | None = None,
+    fallback_version_group: str | None = None,
 ) -> dict | None:
     """
     Build one Pokédex entry dict for the given game.
 
-    display_name_override — if set, use this as the entry's "species" key
-                            (used for alternate forms like "Mega Venusaur").
-    fallback_moves_data   — if the primary pokemon_data has no moves for this
-                            version group, try this data instead (used for
-                            Mega/Primal forms which inherit the base learnset).
+    display_name_override  — if set, use this as the entry's "species" key
+                             (used for alternate forms like "Mega Venusaur").
+    fallback_moves_data    — if the primary pokemon_data has no moves for this
+                             version group, try this data instead (used for
+                             Mega/Primal forms which inherit the base learnset).
+    fallback_version_group — if the primary version group has no data at all
+                             (e.g. PokéAPI lacks "legends-za"), retry move
+                             parsing with this version group instead.
 
     Returns None if the Pokémon has no moves in this version group.
     """
@@ -1160,6 +1191,14 @@ def build_entry(
     if not level_up and not tm_hm and not tutor and not egg_moves and fallback_moves_data:
         level_up, tm_hm, tutor, egg_moves, form_change, zygarde_cube, light_ball_egg = \
             parse_moves(fallback_moves_data, version_group, use_cache)
+
+    # If the version group itself is missing from PokéAPI, try the fallback VG.
+    if not level_up and not tm_hm and not tutor and not egg_moves and fallback_version_group:
+        level_up, tm_hm, tutor, egg_moves, form_change, zygarde_cube, light_ball_egg = \
+            parse_moves(pokemon_data, fallback_version_group, use_cache)
+        if not level_up and not tm_hm and not tutor and not egg_moves and fallback_moves_data:
+            level_up, tm_hm, tutor, egg_moves, form_change, zygarde_cube, light_ball_egg = \
+                parse_moves(fallback_moves_data, fallback_version_group, use_cache)
 
     # A Pokémon not in this game has no move data for the version group.
     if not level_up and not tm_hm and not tutor and not egg_moves:
@@ -1330,10 +1369,11 @@ def build_game_pokedex(
     all_species: list[dict],
     use_cache: bool,
 ) -> dict:
-    version_group   = config["version_group"]
-    target_versions = config["versions"]
-    game_gen        = config["generation"]
-    total           = len(all_species)
+    version_group          = config["version_group"]
+    target_versions        = config["versions"]
+    game_gen               = config["generation"]
+    fallback_vg            = config.get("fallback_version_group")
+    total                  = len(all_species)
 
     print(f"\n{'='*60}")
     print(f"  {game_name}  (gen {game_gen}, version-group: {version_group})")
@@ -1384,6 +1424,7 @@ def build_game_pokedex(
         base_entry = build_entry(
             species_data, base_pokemon_data,
             version_group, target_versions, game_gen, use_cache,
+            fallback_version_group=fallback_vg,
         )
 
         forms_added = []
@@ -1421,6 +1462,7 @@ def build_game_pokedex(
                 version_group, target_versions, game_gen, use_cache,
                 display_name_override=form_display,
                 fallback_moves_data=fallback,
+                fallback_version_group=fallback_vg,
             )
 
             if form_entry is not None:

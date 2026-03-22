@@ -71,6 +71,18 @@ VERSION_GROUP_CONFIGS = {
     },
 }
 
+# Fallback version groups to try (most recent first) when a ZA mega has no
+# move data from its own version groups or Bulbapedia.  Megas share their base
+# form's movepool, so we pull the base form's moves from the newest available
+# game as a reasonable placeholder until PokéAPI / Bulbapedia have ZA data.
+BASE_FORM_FALLBACK_VGS = [
+    "scarlet-violet",
+    "ultra-sun-ultra-moon",
+    "sun-moon",
+    "omega-ruby-alpha-sapphire",
+    "x-y",
+]
+
 
 # ---------------------------------------------------------------------------
 # Complete Mega Evolution registry
@@ -1084,6 +1096,17 @@ def build_mega_entry(
             tm_hm = bp_tm
             has_moves = True
             bp_sourced = True
+
+    # Last resort: pull the base form's moves from the most recent game
+    # available in PokéAPI.  Megas share their base form's movepool.
+    if not has_moves and base_pokemon_data:
+        for fallback_vg in BASE_FORM_FALLBACK_VGS:
+            level_up, tm_hm, tutor, egg_moves, form_change = \
+                parse_moves(base_pokemon_data, fallback_vg, use_cache)
+            if level_up or tm_hm or tutor or egg_moves:
+                has_moves = True
+                used_vg = None  # keep original vg resolution below
+                break
 
     # Use the matched version group, or fall back to the first in the list
     if used_vg:
