@@ -43170,8 +43170,8 @@ export const pokedex = {
             {"species": "Garchomp", "method": "level", "parameter": 48}
         ]
     },
-    "Garchomp (Mega Z)": {
-        "species": "Garchomp (Mega Z)",
+    "Mega Garchomp Z": {
+        "species": "Mega Garchomp Z",
         "rom_id": 445,
         "national_dex_number": 445,
         "base_stats": {
@@ -43670,8 +43670,8 @@ export const pokedex = {
             }
         ]
     },
-    "Lucario (Mega Z)": {
-        "species": "Lucario (Mega Z)",
+    "Mega Lucario Z": {
+        "species": "Mega Lucario Z",
         "rom_id": 448,
         "national_dex_number": 448,
         "base_stats": {
@@ -77295,8 +77295,8 @@ export const pokedex = {
             {"species": "Magearna", "method": null, "parameter": null}
         ]
     },
-    "Magearna (Original Mega)": {
-        "species": "Magearna (Original Mega)",
+    "Mega Magearna Original": {
+        "species": "Mega Magearna Original",
         "rom_id": 801,
         "national_dex_number": 801,
         "base_stats": {
@@ -95152,8 +95152,8 @@ export const pokedex = {
             {"species": "Tatsugiri", "method": null, "parameter": null}
         ]
     },
-    "Tatsugiri (Curly Mega)": {
-        "species": "Tatsugiri (Curly Mega)",
+    "Mega Tatsugiri Curly": {
+        "species": "Mega Tatsugiri Curly",
         "rom_id": 978,
         "national_dex_number": 978,
         "base_stats": {
@@ -95241,8 +95241,8 @@ export const pokedex = {
             {"species": "Tatsugiri", "method": null, "parameter": null}
         ]
     },
-    "Tatsugiri (Droopy Mega)": {
-        "species": "Tatsugiri (Droopy Mega)",
+    "Mega Tatsugiri Droopy": {
+        "species": "Mega Tatsugiri Droopy",
         "rom_id": 978,
         "national_dex_number": 978,
         "base_stats": {
@@ -95330,8 +95330,8 @@ export const pokedex = {
             {"species": "Tatsugiri", "method": null, "parameter": null}
         ]
     },
-    "Tatsugiri (Stretchy Mega)": {
-        "species": "Tatsugiri (Stretchy Mega)",
+    "Mega Tatsugiri Stretchy": {
+        "species": "Mega Tatsugiri Stretchy",
         "rom_id": 978,
         "national_dex_number": 978,
         "base_stats": {

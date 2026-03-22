@@ -179,8 +179,16 @@ GAME_CONFIG = {
         "versions":      ["legends-za"],
         "generation":    9,
         # PokéAPI does not have legends-za data yet; fall back to the most
-        # recent available version group for move data.
-        "fallback_version_group": "scarlet-violet",
+        # recent available version group for move data.  Includes
+        # mega-dimension (DLC) and older VGs for Pokémon not in SV.
+        "fallback_version_groups": [
+            "mega-dimension",
+            "scarlet-violet",
+            "ultra-sun-ultra-moon",
+            "sun-moon",
+            "omega-ruby-alpha-sapphire",
+            "x-y",
+        ],
     },
 }
 
@@ -278,6 +286,12 @@ for _slug, _base, _vgs in XY_MEGAS + ORAS_MEGAS:
     _MEGA_GEN_RANGE[_slug] = (6, 7)
 for _slug, _base, _vgs in ZA_MEGAS:
     _MEGA_GEN_RANGE[_slug] = (9, 9)
+
+# Lookup: species_slug → list of (mega_pokemon_slug,) for ZA megas.
+# Used to inject ZA megas that PokéAPI doesn't list as species varieties.
+_ZA_MEGA_BY_SPECIES: dict[str, list[str]] = {}
+for _slug, _base, _vgs in ZA_MEGAS:
+    _ZA_MEGA_BY_SPECIES.setdefault(_base, []).append(_slug)
 
 # ---------------------------------------------------------------------------
 # Historical base stat changes
@@ -875,13 +889,16 @@ def derive_form_display_name(
     Derive a human-readable display name for a non-default Pokémon form.
 
     Examples:
-        venusaur  / venusaur-mega        → "Mega Venusaur"
-        charizard / charizard-mega-x     → "Mega Charizard X"
-        kyogre    / kyogre-primal        → "Primal Kyogre"
-        rattata   / rattata-alola        → "Alolan Rattata"
-        meowth    / meowth-galar         → "Galarian Meowth"
-        braviary  / braviary-hisui       → "Hisuian Braviary"
-        giratina  / giratina-origin      → "Giratina (Origin)"
+        venusaur  / venusaur-mega              → "Mega Venusaur"
+        charizard / charizard-mega-x           → "Mega Charizard X"
+        absol     / absol-mega-z               → "Mega Absol Z"
+        tatsugiri / tatsugiri-curly-mega       → "Mega Tatsugiri Curly"
+        magearna  / magearna-original-mega     → "Mega Magearna Original"
+        kyogre    / kyogre-primal              → "Primal Kyogre"
+        rattata   / rattata-alola              → "Alolan Rattata"
+        meowth    / meowth-galar               → "Galarian Meowth"
+        braviary  / braviary-hisui             → "Hisuian Braviary"
+        giratina  / giratina-origin            → "Giratina (Origin)"
     """
     form_suffix = pokemon_slug[len(species_slug):].lstrip("-")
 
@@ -892,6 +909,15 @@ def derive_form_display_name(
         return f"Mega {species_display_name} X"
     if form_suffix == "mega-y":
         return f"Mega {species_display_name} Y"
+    if form_suffix == "mega-z":
+        return f"Mega {species_display_name} Z"
+
+    # Form + mega  (e.g. "curly-mega" → "Mega Tatsugiri Curly",
+    #               "original-mega" → "Mega Magearna Original")
+    if form_suffix.endswith("-mega"):
+        form_part = form_suffix[:-5]  # strip trailing "-mega"
+        form_display = form_part.replace("-", " ").title()
+        return f"Mega {species_display_name} {form_display}"
 
     # Primal Reversion
     if form_suffix == "primal":
@@ -1167,19 +1193,19 @@ def build_entry(
     use_cache:          bool,
     display_name_override: str | None = None,
     fallback_moves_data:   dict | None = None,
-    fallback_version_group: str | None = None,
+    fallback_version_groups: list[str] | None = None,
 ) -> dict | None:
     """
     Build one Pokédex entry dict for the given game.
 
-    display_name_override  — if set, use this as the entry's "species" key
-                             (used for alternate forms like "Mega Venusaur").
-    fallback_moves_data    — if the primary pokemon_data has no moves for this
-                             version group, try this data instead (used for
-                             Mega/Primal forms which inherit the base learnset).
-    fallback_version_group — if the primary version group has no data at all
-                             (e.g. PokéAPI lacks "legends-za"), retry move
-                             parsing with this version group instead.
+    display_name_override    — if set, use this as the entry's "species" key
+                               (used for alternate forms like "Mega Venusaur").
+    fallback_moves_data      — if the primary pokemon_data has no moves for this
+                               version group, try this data instead (used for
+                               Mega/Primal forms which inherit the base learnset).
+    fallback_version_groups  — if the primary version group has no data at all
+                               (e.g. PokéAPI lacks "legends-za"), retry move
+                               parsing with these version groups in order.
 
     Returns None if the Pokémon has no moves in this version group.
     """
@@ -1192,13 +1218,18 @@ def build_entry(
         level_up, tm_hm, tutor, egg_moves, form_change, zygarde_cube, light_ball_egg = \
             parse_moves(fallback_moves_data, version_group, use_cache)
 
-    # If the version group itself is missing from PokéAPI, try the fallback VG.
-    if not level_up and not tm_hm and not tutor and not egg_moves and fallback_version_group:
-        level_up, tm_hm, tutor, egg_moves, form_change, zygarde_cube, light_ball_egg = \
-            parse_moves(pokemon_data, fallback_version_group, use_cache)
-        if not level_up and not tm_hm and not tutor and not egg_moves and fallback_moves_data:
+    # If the version group itself is missing from PokéAPI, try fallback VGs.
+    if not level_up and not tm_hm and not tutor and not egg_moves and fallback_version_groups:
+        for fb_vg in fallback_version_groups:
             level_up, tm_hm, tutor, egg_moves, form_change, zygarde_cube, light_ball_egg = \
-                parse_moves(fallback_moves_data, fallback_version_group, use_cache)
+                parse_moves(pokemon_data, fb_vg, use_cache)
+            if level_up or tm_hm or tutor or egg_moves:
+                break
+            if fallback_moves_data:
+                level_up, tm_hm, tutor, egg_moves, form_change, zygarde_cube, light_ball_egg = \
+                    parse_moves(fallback_moves_data, fb_vg, use_cache)
+                if level_up or tm_hm or tutor or egg_moves:
+                    break
 
     # A Pokémon not in this game has no move data for the version group.
     if not level_up and not tm_hm and not tutor and not egg_moves:
@@ -1236,8 +1267,15 @@ def build_entry(
     if game_gen <= 2:
         weight = None
 
-    # Types
-    types   = sorted(pokemon_data.get("types", []), key=lambda t: t["slot"])
+    # Types — use past_types when scraping a generation before a type change.
+    # PokéAPI's past_types entries list the *last* generation a historical typing
+    # applied.  If any entry's generation >= game_gen, those types were in effect.
+    types = sorted(pokemon_data.get("types", []), key=lambda t: t["slot"])
+    for pt in pokemon_data.get("past_types", []):
+        pt_gen = int(pt["generation"]["url"].rstrip("/").split("/")[-1])
+        if pt_gen >= game_gen:
+            types = sorted(pt["types"], key=lambda t: t["slot"])
+            break
     type_1  = types[0]["type"]["name"].capitalize() if len(types) > 0 else None
     type_2  = types[1]["type"]["name"].capitalize() if len(types) > 1 else type_1
 
@@ -1372,7 +1410,11 @@ def build_game_pokedex(
     version_group          = config["version_group"]
     target_versions        = config["versions"]
     game_gen               = config["generation"]
-    fallback_vg            = config.get("fallback_version_group")
+    # Support both singular and plural fallback config keys.
+    fallback_vgs           = config.get("fallback_version_groups")
+    if not fallback_vgs:
+        single = config.get("fallback_version_group")
+        fallback_vgs = [single] if single else None
     total                  = len(all_species)
 
     print(f"\n{'='*60}")
@@ -1424,7 +1466,7 @@ def build_game_pokedex(
         base_entry = build_entry(
             species_data, base_pokemon_data,
             version_group, target_versions, game_gen, use_cache,
-            fallback_version_group=fallback_vg,
+            fallback_version_groups=fallback_vgs,
         )
 
         forms_added = []
@@ -1462,12 +1504,41 @@ def build_game_pokedex(
                 version_group, target_versions, game_gen, use_cache,
                 display_name_override=form_display,
                 fallback_moves_data=fallback,
-                fallback_version_group=fallback_vg,
+                fallback_version_groups=fallback_vgs,
             )
 
             if form_entry is not None:
                 pokedex[form_display] = form_entry
                 forms_added.append(form_display)
+
+        # ---- Inject ZA megas not listed as PokéAPI varieties ----
+        if version_group == "legends-za" and species_slug in _ZA_MEGA_BY_SPECIES:
+            variety_slugs = {v["pokemon"]["name"] for v in varieties
+                            if not v["is_default"]}
+            for mega_slug in _ZA_MEGA_BY_SPECIES[species_slug]:
+                if mega_slug in variety_slugs:
+                    continue  # already processed in the varieties loop
+                mega_display = derive_form_display_name(
+                    base_display_name, species_slug, mega_slug
+                )
+                if mega_display in pokedex:
+                    continue
+                mega_pokemon_data = api_get(
+                    f"{API_BASE}/pokemon/{mega_slug}", use_cache=use_cache
+                )
+                if not mega_pokemon_data:
+                    continue
+                fallback = base_pokemon_data if base_pokemon_data else None
+                form_entry = build_entry(
+                    species_data, mega_pokemon_data,
+                    version_group, target_versions, game_gen, use_cache,
+                    display_name_override=mega_display,
+                    fallback_moves_data=fallback,
+                    fallback_version_groups=fallback_vgs,
+                )
+                if form_entry is not None:
+                    pokedex[mega_display] = form_entry
+                    forms_added.append(mega_display)
 
         if forms_added:
             print(f"ok  (#{species_data['id']}  {', '.join(forms_added)})")
