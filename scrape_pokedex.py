@@ -790,6 +790,109 @@ def get_bulbapedia_level1_order(
     return result
 
 
+# ---------------------------------------------------------------------------
+# Bulbapedia transfer moves
+# ---------------------------------------------------------------------------
+
+_transfer_moves_cache: dict[str, list[str] | None] = {}
+
+
+def _parse_transfer_moves_from_table(table) -> list[str]:
+    """
+    Extract move names from a Bulbapedia "By transfer from another generation"
+    table.  The Gen column(s) use <th> cells; the Move column is always the
+    first <td> in each data row.
+    """
+    moves: list[str] = []
+    for row in table.find_all("tr"):
+        tds = row.find_all("td")
+        if not tds:
+            continue
+        link = tds[0].find("a")
+        if link:
+            move_name = link.get_text(strip=True)
+            if move_name and move_name not in moves:
+                moves.append(move_name)
+    return moves
+
+
+def get_bulbapedia_transfer_moves(
+    species_name: str,
+    form_name: str | None,
+    game_gen: int,
+    use_cache: bool,
+) -> list[str]:
+    """
+    Fetch the Bulbapedia learnset page and return moves that can only be
+    obtained via transfer from another generation.
+
+    species_name  — English species name (e.g. "Charizard")
+    form_name     — form sub-heading to look for, or None for the base form
+    game_gen      — generation number (1-9)
+
+    Returns a list of move names, or an empty list if no section exists.
+    """
+    cache_key = f"transfer|{species_name}|{form_name}|{game_gen}"
+    if cache_key in _transfer_moves_cache:
+        return _transfer_moves_cache[cache_key] or []
+
+    url = _bulbapedia_learnset_url(species_name, game_gen)
+    html = fetch_bulbapedia_html(url, use_cache)
+    if not html:
+        _transfer_moves_cache[cache_key] = None
+        return []
+
+    soup = BeautifulSoup(html, "html.parser")
+
+    heading = soup.find("span", id="By_transfer_from_another_generation")
+    if not heading:
+        _transfer_moves_cache[cache_key] = None
+        return []
+
+    node = heading.parent  # the <h4> or <h5>
+
+    def _find_sortable_table(element):
+        if element.name == "table" and "sortable" in (element.get("class") or []):
+            return element
+        return element.find("table", class_="sortable")
+
+    target_table = None
+
+    if form_name:
+        form_words = set(re.sub(r"[()]", "", form_name).lower().split())
+        for sibling in node.find_next_siblings():
+            if sibling.name and sibling.name.startswith("h"):
+                break
+            if sibling.name == "h5":
+                h5_text = sibling.get_text(strip=True)
+                h5_words = set(h5_text.lower().split())
+                if form_name in h5_text or form_words.issubset(h5_words):
+                    for s2 in sibling.find_next_siblings():
+                        if s2.name in ("h4", "h5"):
+                            break
+                        tbl = _find_sortable_table(s2)
+                        if tbl:
+                            target_table = tbl
+                            break
+                    break
+    else:
+        for sibling in node.find_next_siblings():
+            if sibling.name and sibling.name.startswith("h"):
+                break
+            tbl = _find_sortable_table(sibling)
+            if tbl:
+                target_table = tbl
+                break
+
+    if not target_table:
+        _transfer_moves_cache[cache_key] = None
+        return []
+
+    moves = _parse_transfer_moves_from_table(target_table)
+    _transfer_moves_cache[cache_key] = moves if moves else None
+    return moves
+
+
 def reorder_level1_moves(
     level_up: list[list],
     species_name: str,
@@ -1282,10 +1385,40 @@ def build_entry(
     # Abilities — separate hidden ability from normal abilities.
     # Gen 1-2: abilities did not exist.
     # Gen 3-4: abilities exist but hidden abilities do not (Gen 5 feature).
+    #
+    # PokéAPI's top-level "abilities" list reflects the *current* generation.
+    # "past_abilities" entries list slots that differed in earlier generations;
+    # each entry names the *last* generation the historical config applied.
+    # If an entry's generation >= game_gen, those overrides are in effect.
     abilities = []
     hidden_ability = None
     if game_gen >= 3:
-        for a in sorted(pokemon_data.get("abilities", []), key=lambda a: a["slot"]):
+        # Build slot→entry mapping from current abilities.
+        effective = {
+            a["slot"]: a
+            for a in pokemon_data.get("abilities", [])
+        }
+
+        # Apply past_abilities overrides.  For a given slot, if multiple
+        # entries qualify (past_gen >= game_gen), pick the one with the
+        # smallest past_gen (most specific to our era).
+        overrides: dict[int, tuple[dict, int]] = {}   # slot → (entry, gen)
+        for pa in pokemon_data.get("past_abilities", []):
+            pa_gen_name = pa.get("generation", {}).get("name", "generation-i")
+            pa_gen = GEN_NAME_TO_NUM.get(pa_gen_name, 1)
+            if pa_gen >= game_gen:
+                for entry in pa.get("abilities", []):
+                    slot = entry["slot"]
+                    if slot not in overrides or pa_gen < overrides[slot][1]:
+                        overrides[slot] = (entry, pa_gen)
+
+        for slot, (entry, _) in overrides.items():
+            if entry["ability"] is None:
+                effective.pop(slot, None)       # slot didn't exist yet
+            else:
+                effective[slot] = entry
+
+        for a in sorted(effective.values(), key=lambda a: a["slot"]):
             ability_slug = a["ability"]["name"]
             ability_gen  = get_ability_generation(ability_slug, use_cache)
             if ability_gen > game_gen:
@@ -1352,6 +1485,11 @@ def build_entry(
         version_group,
     )
 
+    # Scrape transfer-only moves from Bulbapedia.
+    transfer_moves = get_bulbapedia_transfer_moves(
+        base_species_name, form_heading, game_gen, use_cache,
+    )
+
     entry = {
         "species":             display_name,
         "rom_id":              dex_num,
@@ -1387,6 +1525,8 @@ def build_entry(
     })
 
     # Special move categories — only include when non-empty to keep data clean.
+    if transfer_moves:
+        entry["transfer_learnset"] = transfer_moves
     if form_change:
         entry["form_change_learnset"] = form_change
     if zygarde_cube:
