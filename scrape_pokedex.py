@@ -43,7 +43,10 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
-from scrape_mega_evolutions import XY_MEGAS, ORAS_MEGAS, ZA_MEGAS
+from scrape_mega_evolutions import (
+    XY_MEGAS, ORAS_MEGAS, ZA_MEGAS,
+    _find_za_table_in_section, _parse_za_level_up_table, _parse_za_tm_table,
+)
 
 
 # ---------------------------------------------------------------------------
@@ -165,6 +168,18 @@ GAME_CONFIG = {
         "filename":      "sword_shield.js",
         "version_group": "sword-shield",
         "versions":      ["sword", "shield"],
+        "generation":    8,
+    },
+    "Brilliant Diamond and Shining Pearl": {
+        "filename":      "brilliant_diamond_shining_pearl.js",
+        "version_group": "brilliant-diamond-shining-pearl",
+        "versions":      ["brilliant-diamond", "shining-pearl"],
+        "generation":    8,
+    },
+    "Legends Arceus": {
+        "filename":      "legends_arceus.js",
+        "version_group": "legends-arceus",
+        "versions":      ["legends-arceus"],
         "generation":    8,
     },
     "Scarlet and Violet": {
@@ -893,6 +908,38 @@ def get_bulbapedia_transfer_moves(
     return moves
 
 
+# ---------------------------------------------------------------------------
+# Bulbapedia Legends Z-A learnset fallback
+# ---------------------------------------------------------------------------
+
+def scrape_za_learnset(
+    species_name: str, use_cache: bool,
+) -> tuple[list[list], list[str]]:
+    """Scrape Legends Z-A learnset from Bulbapedia for the given species.
+
+    Uses the ZA-specific table parsing functions from scrape_mega_evolutions.
+
+    Returns (level_up, tm_moves) where:
+      - level_up: [[level, "Move Name"], ...]
+      - tm_moves: ["Move Name", ...]
+    """
+    encoded = species_name.replace(" ", "_")
+    url = f"{BULBAPEDIA_BASE}/{encoded}_(Pok%C3%A9mon)"
+    html = fetch_bulbapedia_html(url, use_cache)
+    if not html:
+        return [], []
+
+    soup = BeautifulSoup(html, "html.parser")
+
+    level_up_table = _find_za_table_in_section(soup, "By_leveling_up")
+    level_up = _parse_za_level_up_table(level_up_table) if level_up_table else []
+
+    tm_table = _find_za_table_in_section(soup, "By_TM")
+    tm_moves = _parse_za_tm_table(tm_table) if tm_table else []
+
+    return level_up, tm_moves
+
+
 def reorder_level1_moves(
     level_up: list[list],
     species_name: str,
@@ -1320,6 +1367,30 @@ def build_entry(
     if not level_up and not tm_hm and not tutor and not egg_moves and fallback_moves_data:
         level_up, tm_hm, tutor, egg_moves, form_change, zygarde_cube, light_ball_egg = \
             parse_moves(fallback_moves_data, version_group, use_cache)
+
+    # Legends Z-A: PokéAPI has no data — scrape from Bulbapedia instead.
+    if not level_up and not tm_hm and version_group == "legends-za":
+        base_species = (
+            get_english_name(species_data.get("names", []))
+            or slug_to_title(species_data["name"])
+        )
+        za_level_up, za_tm = scrape_za_learnset(base_species, use_cache)
+        if za_level_up or za_tm:
+            level_up = za_level_up
+            tm_hm = za_tm
+            # Egg moves are shared across Gen IX on Bulbapedia (single table),
+            # so pull them from PokéAPI's scarlet-violet data as a supplement.
+            if not egg_moves and fallback_version_groups:
+                for fb_vg in fallback_version_groups:
+                    _, _, _, egg_moves, form_change, zygarde_cube, light_ball_egg = \
+                        parse_moves(pokemon_data, fb_vg, use_cache)
+                    if egg_moves:
+                        break
+                    if fallback_moves_data:
+                        _, _, _, egg_moves, form_change, zygarde_cube, light_ball_egg = \
+                            parse_moves(fallback_moves_data, fb_vg, use_cache)
+                        if egg_moves:
+                            break
 
     # If the version group itself is missing from PokéAPI, try fallback VGs.
     if not level_up and not tm_hm and not tutor and not egg_moves and fallback_version_groups:
