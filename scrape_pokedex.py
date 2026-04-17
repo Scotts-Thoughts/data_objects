@@ -1393,7 +1393,10 @@ def build_entry(
                             break
 
     # If the version group itself is missing from PokéAPI, try fallback VGs.
-    if not level_up and not tm_hm and not tutor and not egg_moves and fallback_version_groups:
+    # Exception: legends-za must come from Bulbapedia — if that scrape returned
+    # nothing, the Pokémon isn't in ZA, so don't substitute another game's data.
+    if (not level_up and not tm_hm and not tutor and not egg_moves
+            and fallback_version_groups and version_group != "legends-za"):
         for fb_vg in fallback_version_groups:
             level_up, tm_hm, tutor, egg_moves, form_change, zygarde_cube, light_ball_egg = \
                 parse_moves(pokemon_data, fb_vg, use_cache)
