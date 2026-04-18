@@ -295,12 +295,15 @@ FORM_GENERATION_RULES: list[tuple[str, int, int | None]] = [
 
 # Per-slug generation ranges for Mega Evolutions.
 # XY and ORAS megas: available in Gen 6–7 (removed in Gen 8).
-# ZA megas: introduced in Legends Z-A (Gen 9 only).
+# ZA megas are handled separately via _ZA_MEGA_SLUGS because they are tied to
+# a specific game (Legends Z-A), not the whole of Gen 9 — Scarlet/Violet is
+# also Gen 9 but does not have megas.
 _MEGA_GEN_RANGE: dict[str, tuple[int, int]] = {}
 for _slug, _base, _vgs in XY_MEGAS + ORAS_MEGAS:
     _MEGA_GEN_RANGE[_slug] = (6, 7)
-for _slug, _base, _vgs in ZA_MEGAS:
-    _MEGA_GEN_RANGE[_slug] = (9, 9)
+
+_ZA_MEGA_SLUGS: set[str] = {_slug for _slug, _base, _vgs in ZA_MEGAS}
+_ZA_VERSION_GROUP = "legends-za"
 
 # Lookup: species_slug → list of (mega_pokemon_slug,) for ZA megas.
 # Used to inject ZA megas that PokéAPI doesn't list as species varieties.
@@ -1005,7 +1008,12 @@ def apply_historical_stats(slug: str, stats: dict, game_gen: int) -> dict:
 # Form helpers
 # ---------------------------------------------------------------------------
 
-def form_valid_for_generation(pokemon_slug: str, species_slug: str, game_gen: int) -> bool:
+def form_valid_for_generation(
+    pokemon_slug: str,
+    species_slug: str,
+    game_gen: int,
+    version_group: str,
+) -> bool:
     """
     Return True if this alternate form should be included for the given
     game generation based on FORM_GENERATION_RULES.
@@ -1014,7 +1022,12 @@ def form_valid_for_generation(pokemon_slug: str, species_slug: str, game_gen: in
     always included (e.g. Rotom appliance forms, Deoxys formes, Giratina
     Origin, etc.), subject to the usual move-data availability check.
     """
-    # Mega Evolutions have per-slug generation ranges.
+    # ZA Mega Evolutions are exclusive to Legends Z-A, even though SV is
+    # also Gen 9.
+    if pokemon_slug in _ZA_MEGA_SLUGS:
+        return version_group == _ZA_VERSION_GROUP
+
+    # Other Mega Evolutions (XY/ORAS) have per-slug generation ranges.
     if pokemon_slug in _MEGA_GEN_RANGE:
         min_gen, max_gen = _MEGA_GEN_RANGE[pokemon_slug]
         return min_gen <= game_gen <= max_gen
@@ -1697,7 +1710,7 @@ def build_game_pokedex(
             form_slug = variety["pokemon"]["name"]
 
             # Check generation constraints for this form type
-            if not form_valid_for_generation(form_slug, species_slug, game_gen):
+            if not form_valid_for_generation(form_slug, species_slug, game_gen, version_group):
                 continue
 
             form_pokemon_data = api_get(variety["pokemon"]["url"], use_cache=use_cache)
