@@ -263,14 +263,19 @@ EGG_GROUP_MAP = {
 }
 
 # PokéAPI growth-rate slug → our stored string
+# PokéAPI returns "fast-then-very-slow" for Fluctuating and
+# "slow-then-very-fast" for Erratic — the older "fluctuating"/"erratic"
+# slugs are kept as defensive aliases.
 GROWTH_RATE_MAP = {
-    "slow":        "Slow",
-    "medium-slow": "Medium Slow",
-    "medium":      "Medium Fast",   # PokéAPI may use "medium" for medium-fast
-    "medium-fast": "Medium Fast",
-    "fast":        "Fast",
-    "erratic":     "Erratic",
-    "fluctuating": "Fluctuating",
+    "slow":                "Slow",
+    "medium-slow":         "Medium Slow",
+    "medium":              "Medium Fast",   # PokéAPI may use "medium" for medium-fast
+    "medium-fast":         "Medium Fast",
+    "fast":                "Fast",
+    "slow-then-very-fast": "Erratic",
+    "fast-then-very-slow": "Fluctuating",
+    "erratic":             "Erratic",
+    "fluctuating":         "Fluctuating",
 }
 
 # ---------------------------------------------------------------------------
@@ -284,20 +289,28 @@ FORM_GENERATION_RULES: list[tuple[str, int, int | None]] = [
     # Regional forms
     ("alola",  7, None),   # Alolan forms: Gen 7+
     ("galar",  8, None),   # Galarian forms: Gen 8+
-    ("hisui",  9, None),   # Hisuian forms: Gen 9 (accessible in SV)
+    ("hisui",  8, None),   # Hisuian forms: Gen 8+ (introduced in LA, also in SV/LZA)
     ("paldea", 9, None),   # Paldean forms: Gen 9+
     # Transformation mechanics
     ("primal", 6, 7),      # Primal Reversion: Gen 6–7 only
     # NOTE: Mega Evolutions are handled per-slug via _MEGA_GEN_RANGE below,
     # NOT by a blanket keyword rule, because different megas were introduced
     # in different generations.
+    # NOTE: Gigantamax forms are handled via GMAX_VERSION_GROUPS below
+    # because they only exist in Sword/Shield, not in any other Gen 8 game.
 ]
 
+# Gigantamax forms only appear in Sword/Shield, even though they are Gen 8
+# (BDSP and Legends Arceus are also Gen 8 but have no Gigantamax mechanic).
+GMAX_VERSION_GROUPS: set[str] = {"sword-shield"}
+
 # Per-slug generation ranges for Mega Evolutions.
-# XY and ORAS megas: available in Gen 6–7 (removed in Gen 8).
-# ZA megas are handled separately via _ZA_MEGA_SLUGS because they are tied to
-# a specific game (Legends Z-A), not the whole of Gen 9 — Scarlet/Violet is
-# also Gen 9 but does not have megas.
+# XY and ORAS megas: available in Gen 6–7 (removed in Gen 8) AND returning
+# in Legends Z-A (Gen 9), which is handled as a special case in
+# form_valid_for_generation.  Scarlet/Violet is also Gen 9 but does not
+# have megas.
+# ZA megas are handled separately via _ZA_MEGA_SLUGS because they are tied
+# to a specific game (Legends Z-A).
 _MEGA_GEN_RANGE: dict[str, tuple[int, int]] = {}
 for _slug, _base, _vgs in XY_MEGAS + ORAS_MEGAS:
     _MEGA_GEN_RANGE[_slug] = (6, 7)
@@ -403,19 +416,50 @@ STAT_CHANGE_LOG: dict[str, list[tuple[int, dict[str, int]]]] = {
     "aegislash-blade":  [(8, {"attack": 150, "special_defense": 150})],
 
     # =====================================================================
-    # Generation IX changes  (old values apply for Gen 8 games: SwSh)
+    # Generation VIII → IX changes  (old values apply for Gen 8 games)
+    #
+    # Per Bulbapedia, only Cresselia, Zacian (both forms), and Zamazenta
+    # (both forms) had inter-generation stat changes between Gen 8 and Gen 9.
+    #
+    # NOTE: Hisuian Zorua/Zoroark and the Treasures of Ruin (Wo-Chien,
+    # Chien-Pao, Ting-Lu, Chi-Yu) had stat changes WITHIN Gen 9 via patches
+    # (SV launch bugs / 1.0.1 patch).  These are intra-generation patches,
+    # not inter-generation changes:
+    #   - Hisuian Zorua/Zoroark had correct (current) stats in LA the whole
+    #     time; SV 1.0.0 had launch bugs that were corrected in patch 1.2.0.
+    #     We do NOT override them — LA gets PokéAPI's current values, which
+    #     match Bulbapedia's documented LA stats.
+    #   - Treasures of Ruin debuted in SV; they don't appear in any pre-Gen-9
+    #     game so a "for game_gen < 9" override would never trigger.
     # =====================================================================
     "cresselia":         [(9, {"defense": 120, "special_defense": 130})],
-    "zorua-hisui":       [(9, {"hp": 35, "attack": 60, "special_attack": 85, "special_defense": 70})],
-    "zoroark-hisui":     [(9, {"hp": 55, "attack": 100, "special_attack": 125, "special_defense": 110})],
     "zacian":            [(9, {"attack": 130})],
     "zacian-crowned":    [(9, {"attack": 170})],
     "zamazenta":         [(9, {"attack": 130})],
     "zamazenta-crowned": [(9, {"attack": 130, "defense": 145, "special_defense": 145})],
-    "wo-chien":          [(9, {"attack": 90, "special_attack": 100})],
-    "chien-pao":         [(9, {"attack": 130})],
-    "ting-lu":           [(9, {"hp": 165, "defense": 130, "special_attack": 50})],
-    "chi-yu":            [(9, {"special_attack": 145})],
+}
+
+
+# ---------------------------------------------------------------------------
+# Per-version-group base stat overrides
+#
+# Some games change a Pokémon's base stats to compensate for game-specific
+# mechanic differences.  In Pokémon Legends: Z-A, abilities are absent, so
+# Pokémon that relied on Pure Power / Huge Power get a flat Attack boost.
+#
+# Source: https://www.serebii.net/legendsz-a/updatedstats.shtml
+#
+# Format: {pokemon_api_slug: {version_group: {stat_name: NEW_value, ...}}}
+# These overrides take precedence over PokéAPI's current values when
+# scraping the matching version_group.
+# ---------------------------------------------------------------------------
+
+VG_STAT_OVERRIDES: dict[str, dict[str, dict[str, int]]] = {
+    # LZA absence-of-abilities Attack compensations:
+    "meditite":      {"legends-za": {"attack":  56}},   # +16 (Pure Power)
+    "medicham":      {"legends-za": {"attack":  84}},   # +24 (Pure Power)
+    "medicham-mega": {"legends-za": {"attack": 140}},   # +40 (Pure Power)
+    "mawile-mega":   {"legends-za": {"attack": 147}},   # +42 (Huge Power)
 }
 
 
@@ -1004,6 +1048,25 @@ def apply_historical_stats(slug: str, stats: dict, game_gen: int) -> dict:
     return result
 
 
+def apply_version_group_stat_overrides(
+    slug: str, stats: dict, version_group: str,
+) -> dict:
+    """
+    Apply game-specific (per-version-group) base stat overrides.
+
+    Used for games that adjust base stats to compensate for missing
+    mechanics (e.g. Legends Z-A removes the abilities mechanic, so
+    Mawile-Mega / Medicham etc. get flat Attack increases to make up
+    for the loss of Huge Power / Pure Power).
+    """
+    overrides = VG_STAT_OVERRIDES.get(slug, {}).get(version_group)
+    if not overrides:
+        return stats
+    result = dict(stats)
+    result.update(overrides)
+    return result
+
+
 # ---------------------------------------------------------------------------
 # Form helpers
 # ---------------------------------------------------------------------------
@@ -1027,13 +1090,23 @@ def form_valid_for_generation(
     if pokemon_slug in _ZA_MEGA_SLUGS:
         return version_group == _ZA_VERSION_GROUP
 
-    # Other Mega Evolutions (XY/ORAS) have per-slug generation ranges.
+    # Other Mega Evolutions (XY/ORAS) have per-slug generation ranges
+    # AND return in Legends Z-A (Gen 9, but specifically not Scarlet/Violet).
     if pokemon_slug in _MEGA_GEN_RANGE:
         min_gen, max_gen = _MEGA_GEN_RANGE[pokemon_slug]
-        return min_gen <= game_gen <= max_gen
+        if min_gen <= game_gen <= max_gen:
+            return True
+        return version_group == _ZA_VERSION_GROUP
 
     # Derive the form suffix: everything after the species slug
     form_suffix = pokemon_slug[len(species_slug):].lstrip("-")
+
+    # Gigantamax forms exist only in Sword/Shield, even though SwSh is one
+    # of several Gen 8 version groups.  Gating by version group is required
+    # because BDSP and Legends Arceus are also Gen 8 but have no Gigantamax.
+    if "gmax" in form_suffix:
+        return version_group in GMAX_VERSION_GROUPS
+
     for (keyword, min_gen, max_gen) in FORM_GENERATION_RULES:
         if keyword in form_suffix:
             if game_gen < min_gen:
@@ -1375,6 +1448,11 @@ def build_entry(
     # --- Filter moves for this version group ---
     level_up, tm_hm, tutor, egg_moves, form_change, zygarde_cube, light_ball_egg = \
         parse_moves(pokemon_data, version_group, use_cache)
+    # Track whether the level-up moves came directly from Bulbapedia's ZA
+    # table — in that case the order is already authoritative and we must
+    # NOT re-run the level-1 reorder pass (which reads the species page's
+    # first sortable table, often the SV table for combined SV+ZA pages).
+    bulbapedia_za_sourced = False
 
     # If this form has no move data and we have a fallback (base form), use it.
     if not level_up and not tm_hm and not tutor and not egg_moves and fallback_moves_data:
@@ -1391,6 +1469,7 @@ def build_entry(
         if za_level_up or za_tm:
             level_up = za_level_up
             tm_hm = za_tm
+            bulbapedia_za_sourced = True
             # Egg moves are shared across Gen IX on Bulbapedia (single table),
             # so pull them from PokéAPI's scarlet-violet data as a supplement.
             if not egg_moves and fallback_version_groups:
@@ -1442,6 +1521,9 @@ def build_entry(
 
     pokemon_slug = pokemon_data["name"]
     base_stats = apply_historical_stats(pokemon_slug, raw_stats, game_gen)
+    base_stats = apply_version_group_stat_overrides(
+        pokemon_slug, base_stats, version_group,
+    )
 
     # Gen 1: a single "Special" stat (no SpA/SpD split).
     # PokéAPI returns the Gen 2+ split values. The original Special stat
@@ -1560,6 +1642,9 @@ def build_entry(
         _species_name_cache[species_data["name"]] = display_name
 
     # Reorder level-1 moves using Bulbapedia as a reference for correct order.
+    # Skip this when the level-up data came directly from Bulbapedia's ZA
+    # table — the order is already correct, and re-running the reorder pass
+    # would pull from the SV table on combined pages instead.
     base_species_name = (
         get_english_name(species_data.get("names", []))
         or slug_to_title(species_data["name"])
@@ -1567,10 +1652,11 @@ def build_entry(
     # For regional forms, pass the display name as the form sub-heading to
     # locate the correct table on Bulbapedia (e.g. "Alolan Raichu").
     form_heading = display_name_override if display_name_override else None
-    level_up = reorder_level1_moves(
-        level_up, base_species_name, form_heading, game_gen, use_cache,
-        version_group,
-    )
+    if not bulbapedia_za_sourced:
+        level_up = reorder_level1_moves(
+            level_up, base_species_name, form_heading, game_gen, use_cache,
+            version_group,
+        )
 
     # Scrape transfer-only moves from Bulbapedia.
     transfer_moves = get_bulbapedia_transfer_moves(
@@ -1717,10 +1803,15 @@ def build_game_pokedex(
             if not form_pokemon_data:
                 continue
 
-            # Mega/Primal forms typically share the base form's learnset.
-            # Pass base_pokemon_data as a fallback when the form has no moves.
-            is_mega_or_primal = "-mega" in form_slug or "-primal" in form_slug
-            fallback = base_pokemon_data if is_mega_or_primal else None
+            # Mega/Primal/Gigantamax forms share the base form's movepool.
+            # Pass base_pokemon_data as a fallback when the form has no moves
+            # in PokéAPI (which is normal for these transformation forms).
+            is_shared_learnset_form = (
+                "-mega" in form_slug
+                or "-primal" in form_slug
+                or "-gmax" in form_slug
+            )
+            fallback = base_pokemon_data if is_shared_learnset_form else None
 
             form_display = derive_form_display_name(
                 base_display_name, species_slug, form_slug
