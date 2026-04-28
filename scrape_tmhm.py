@@ -45,15 +45,48 @@ NEW_GEN_VERSION_GROUPS = {
     "9": "scarlet-violet",              # TM001-TM171 (or however many exist)
 }
 
-# Which tmhm.js key to use when sorting each scraped pokedex file
-POKEDEX_FILE_TO_GEN = {
-    "black2_white2.js":             "5",   # already in tmhm.js
-    "x_y.js":                       "6",
-    "omega_ruby_alpha_sapphire.js": "6",
-    "sun_moon.js":                  "7",
-    "ultra_sun_ultra_moon.js":      "7",
-    "sword_shield.js":              "8",
-    "scarlet_violet.js":            "9",
+# Which PokéAPI version_group each pokedex file's tm_hm_learnset should be
+# sorted against.  Sorting uses the VG-specific machine list (fetched from
+# PokéAPI) rather than a per-generation tmhm.js entry, so per-game HM
+# differences (HGSS Whirlpool vs DP/Plt Defog at HM05; FRLG missing HM08
+# Dive) sort correctly.
+#
+# Files not in this map are not sorted.  Legends Arceus has no traditional
+# TM/HM mechanic; Legends Z-A has its own Bulbapedia-sourced TM list which
+# is already in correct order.
+POKEDEX_FILE_TO_VG = {
+    "red_blue.js":                          "red-blue",
+    "yellow.js":                            "yellow",
+    "gold_silver.js":                       "gold-silver",
+    "crystal.js":                           "crystal",
+    "ruby_sapphire.js":                     "ruby-sapphire",
+    "emerald.js":                           "emerald",
+    "firered_leafgreen.js":                 "firered-leafgreen",
+    "diamond_pearl.js":                     "diamond-pearl",
+    "platinum.js":                          "platinum",
+    "heartgold_soulsilver.js":              "heartgold-soulsilver",
+    "black_white.js":                       "black-white",
+    "black2_white2.js":                     "black-2-white-2",
+    "x_y.js":                               "x-y",
+    "omega_ruby_alpha_sapphire.js":         "omega-ruby-alpha-sapphire",
+    "sun_moon.js":                          "sun-moon",
+    "ultra_sun_ultra_moon.js":              "ultra-sun-ultra-moon",
+    "sword_shield.js":                      "sword-shield",
+    "brilliant_diamond_shining_pearl.js":   "brilliant-diamond-shining-pearl",
+    "scarlet_violet.js":                    "scarlet-violet",
+}
+
+# Sort-order alias: when PokéAPI's machine data for one VG is incomplete
+# but another VG's TM list is functionally identical, use the other VG's
+# ordering directly.
+#
+# Currently: PokéAPI has only 17 BDSP machines populated (out of ~100
+# in-game), and the partial coverage interleaves HMs with the few TMs in
+# a way that breaks sorting if used as the primary.  BDSP's TM/HM list
+# is identical to Diamond/Pearl's by design (it's a remake), so we use
+# DP's complete ordering directly.
+SORT_VG_ALIAS: dict[str, str] = {
+    "brilliant-diamond-shining-pearl": "diamond-pearl",
 }
 
 # Sort order for machine type prefixes within a learnset
@@ -364,23 +397,80 @@ def step_update_tmhm(use_cache: bool) -> dict:
     return tmhm_data
 
 
-def step_sort_pokedex(tmhm_data: dict) -> None:
-    """Sort tm_hm_learnset in all scraped pokedex files using tmhm_data."""
+def fetch_all_machines(use_cache: bool) -> list[dict]:
+    """Fetch every PokéAPI machine record (~2200 entries when cached).
+
+    Returns a list of dicts with item / move / version_group fields.
+    The caller filters by version_group as needed.
+    """
+    machine_list = api_get(f"{API_BASE}/machine?limit=10000", use_cache=use_cache)
+    if not machine_list:
+        return []
+    stubs = machine_list.get("results", [])
+    machines: list[dict] = []
+    for i, stub in enumerate(stubs, 1):
+        m = api_get(stub["url"], use_cache=use_cache)
+        if m:
+            machines.append(m)
+        if i % 500 == 0:
+            print(f"    [{i}/{len(stubs)}] machines fetched")
+    return machines
+
+
+def build_vg_move_order(
+    all_machines: list[dict], version_group: str, use_cache: bool,
+) -> dict[str, int]:
+    """Build {move_name: sort_index} for the given version_group.
+
+    Uses the VG's own machine list (TM01, TM02, ..., TR01, ..., HM01, ...)
+    so per-game HM differences sort correctly (e.g. HGSS Whirlpool at HM05
+    instead of DP/Plt Defog).
+
+    If `version_group` is in `SORT_VG_ALIAS`, the aliased VG's machine list
+    is used instead — required when PokéAPI's primary data is too sparse
+    to produce a sensible ordering (e.g. BDSP).
+    """
+    sort_vg = SORT_VG_ALIAS.get(version_group, version_group)
+
+    relevant = [
+        m for m in all_machines
+        if m.get("version_group", {}).get("name") == sort_vg
+    ]
+    relevant.sort(key=lambda m: machine_sort_key(machine_key(m["item"]["name"])))
+
+    move_order: dict[str, int] = {}
+    for machine in relevant:
+        name = get_move_display_name(machine["move"]["url"], use_cache)
+        if name and name not in move_order:
+            move_order[name] = len(move_order)
+    return move_order
+
+
+def step_sort_pokedex(use_cache: bool) -> None:
+    """Sort tm_hm_learnset in every configured pokedex file using its
+    PokéAPI version-group's machine ordering."""
     print("\n--- Step 2: Sorting tm_hm_learnsets ---")
 
-    for filename, gen_key in POKEDEX_FILE_TO_GEN.items():
+    print("  Fetching machine data for sort order...")
+    all_machines = fetch_all_machines(use_cache)
+    if not all_machines:
+        print("  ERROR: could not fetch machine data; cannot sort")
+        return
+    print(f"  {len(all_machines)} machine records loaded.")
+
+    for filename, version_group in POKEDEX_FILE_TO_VG.items():
         filepath = os.path.join(POKEDEX_DIR, filename)
         if not os.path.exists(filepath):
             print(f"  {filename}: not found, skipping")
             continue
 
-        if gen_key not in tmhm_data:
-            print(f"  {filename}: no tmhm.js entry for gen '{gen_key}', skipping")
+        move_order = build_vg_move_order(all_machines, version_group, use_cache)
+        if not move_order:
+            print(f"  {filename}: no machines for version_group '{version_group}', skipping")
             continue
 
-        move_order = build_move_order(tmhm_data[gen_key])
-        changed    = sort_pokedex_file(filepath, move_order)
-        print(f"  {filename}: {changed} Pokémon reordered")
+        changed = sort_pokedex_file(filepath, move_order)
+        print(f"  {filename}: {changed} Pokémon reordered  ({version_group}, {len(move_order)} machines)")
 
 
 def main() -> None:
@@ -399,14 +489,12 @@ def main() -> None:
     CACHE_DIR.mkdir(exist_ok=True)
 
     if args.sort_only:
-        tmhm_data = read_tmhm_js()
-        step_sort_pokedex(tmhm_data)
+        step_sort_pokedex(use_cache)
     elif args.tmhm_only:
         step_update_tmhm(use_cache)
     else:
-        tmhm_data = step_update_tmhm(use_cache)
-        if tmhm_data:
-            step_sort_pokedex(tmhm_data)
+        step_update_tmhm(use_cache)
+        step_sort_pokedex(use_cache)
 
     print("\nDone.")
 
