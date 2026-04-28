@@ -732,7 +732,17 @@ def _parse_za_level_up_table(table) -> list[list]:
     """Parse a ZA-format level-up table.
 
     ZA columns: Learn | Plus | Move | Type | Cat. | Power | CD
-    Returns [[level, "Move Name"], ...]
+
+    The "Learn" column contains a level number, "Evo." (learned automatically
+    upon evolution), or "Rem." (only obtainable via the in-menu Move
+    Reminder — typically pre-evolution moves the evolved form doesn't
+    naturally relearn).
+
+    Returns [[level, "Move Name"], ...].  Evo. and Rem. rows both use
+    level 0, matching the convention used elsewhere in the codebase
+    (Move-Reminder-accessible moves are part of the level-up learnset,
+    not the tutor learnset; tutor_learnset is reserved for traditional
+    Move Tutor NPCs in games like BW2/USUM that don't exist in LZA).
     """
     moves = []
     for row in table.find_all("tr"):
@@ -792,7 +802,8 @@ def scrape_bulbapedia_za_learnset(
     """Scrape Legends Z-A learnset from Bulbapedia for the given species.
 
     Returns (level_up, tm_moves) where:
-      - level_up: [[level, "Move Name"], ...]
+      - level_up: [[level, "Move Name"], ...] — includes both Evo. and
+                  Rem. rows at level 0
       - tm_moves: ["Move Name", ...]
     """
     url = f"{BULBAPEDIA_BASE}/{species_name.replace(' ', '_')}_(Pok%C3%A9mon)"
@@ -971,6 +982,79 @@ def fetch_evolution_family(species_data: dict, use_cache: bool) -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
+# Pre-evolution egg-move inheritance
+#
+# PokéAPI lists egg moves only on the base form of an evolution family for
+# Gen 1-7, so evolved Pokémon (including Mega forms, which inherit the base
+# form's movepool) come back with empty egg_moves.  Walk back through
+# evolves_from_species and union the pre-evolutions' egg moves.
+# ---------------------------------------------------------------------------
+
+NO_BREEDING_VERSION_GROUPS: set[str] = {
+    "legends-arceus",
+    "legends-za",
+}
+
+
+def collect_inherited_egg_moves(
+    species_data: dict,
+    version_group: str,
+    use_cache: bool,
+) -> list[str]:
+    """Walk up the evolution chain and collect pre-evolutions' egg moves
+    for the given version_group.  Skipped for breeding-less games."""
+    if version_group in NO_BREEDING_VERSION_GROUPS:
+        return []
+
+    inherited: list[str] = []
+    current = species_data
+    visited: set[str] = {current["name"]}
+
+    while True:
+        evolves_from = current.get("evolves_from_species")
+        if not evolves_from:
+            break
+        pre_url = evolves_from.get("url")
+        if not pre_url:
+            break
+
+        pre_species = api_get(pre_url, use_cache=use_cache)
+        if not pre_species:
+            break
+        pre_slug = pre_species.get("name")
+        if not pre_slug or pre_slug in visited:
+            break
+        visited.add(pre_slug)
+
+        default_variety = next(
+            (v for v in pre_species.get("varieties", []) if v["is_default"]),
+            None,
+        )
+        if not default_variety:
+            current = pre_species
+            continue
+        pre_pokemon = api_get(default_variety["pokemon"]["url"], use_cache=use_cache)
+        if not pre_pokemon:
+            current = pre_species
+            continue
+
+        for move_entry in pre_pokemon.get("moves", []):
+            move_slug = move_entry["move"]["name"]
+            move_url  = move_entry["move"]["url"]
+            for vgd in move_entry.get("version_group_details", []):
+                if (vgd["version_group"]["name"] == version_group
+                        and vgd["move_learn_method"]["name"] == "egg"):
+                    name = get_move_name(move_slug, move_url, use_cache)
+                    if name not in inherited:
+                        inherited.append(name)
+                    break
+
+        current = pre_species
+
+    return inherited
+
+
+# ---------------------------------------------------------------------------
 # Held items
 # ---------------------------------------------------------------------------
 
@@ -1116,6 +1200,17 @@ def build_mega_entry(
         vg_config = VERSION_GROUP_CONFIGS[used_vg]
     game_gen = vg_config["generation"]
     target_versions = vg_config["versions"]
+
+    # Inherit egg moves from pre-evolutions.  PokéAPI lists egg moves only
+    # on base forms for Gen 1-7, so a Mega form (which uses the base form's
+    # movepool) comes back with no egg moves even though they're inheritable
+    # in-game.
+    inherited_eggs = collect_inherited_egg_moves(
+        species_data, used_vg, use_cache,
+    )
+    for em in inherited_eggs:
+        if em not in egg_moves:
+            egg_moves.append(em)
 
     # Basic fields
     dex_num = species_data["id"]

@@ -956,6 +956,101 @@ def get_bulbapedia_transfer_moves(
 
 
 # ---------------------------------------------------------------------------
+# Bulbapedia Legends: Arceus tutor learnset
+#
+# PokéAPI's "tutor" learn-method data for legends-arceus is sparsely
+# populated — most LA Pokémon (Wyrdeer, Kleavor, Decidueye, base-form
+# starters, etc.) have no PokéAPI tutor entries even though Zisu (the
+# in-village Move Tutor) teaches them many moves in-game.  Bulbapedia's
+# species-specific Generation VIII learnset page has a "By tutoring"
+# section with a Game column ("BDSP" / "LA") that we can filter on.
+# ---------------------------------------------------------------------------
+
+def _collect_section_tables(heading_span) -> list:
+    """Yield every <table> that belongs to a Bulbapedia section, handling
+    both layout variants:
+
+    1. Flat layout: heading H4 is followed by sibling <p> / <table>
+       elements until the next heading.
+    2. Sectioned layout: heading H4 is followed by a <section
+       class="mf-section-N collapsible-block"> that contains the section's
+       tables and paragraphs.  (Bulbapedia returns this on some pages.)
+    """
+    if not heading_span:
+        return []
+    node = heading_span.parent
+
+    tables: list = []
+    for sib in node.find_next_siblings():
+        if sib.name in ("h2", "h3", "h4"):
+            break
+        if sib.name == "table":
+            tables.append(sib)
+        elif sib.name == "section":
+            # Sectioned layout: the table(s) live inside the <section>.
+            for child_table in sib.find_all("table", recursive=False):
+                tables.append(child_table)
+    return tables
+
+
+def scrape_la_tutor_moves(
+    species_name: str, use_cache: bool,
+) -> list[str]:
+    """Scrape Move Tutor (Zisu) moves for the given species from
+    Bulbapedia's Generation VIII learnset page, filtered to LA only.
+
+    Returns a list of move names in Bulbapedia's table order.
+    Returns [] if the page can't be fetched or has no LA tutor section.
+    """
+    encoded = species_name.replace(" ", "_")
+    url = f"{BULBAPEDIA_BASE}/{encoded}_(Pok%C3%A9mon)/Generation_VIII_learnset"
+    html = fetch_bulbapedia_html(url, use_cache)
+    if not html:
+        return []
+
+    soup = BeautifulSoup(html, "html.parser")
+    heading = soup.find("span", id="By_tutoring")
+    if not heading:
+        return []
+
+    # The "By tutoring" section can contain multiple stacked tables — one
+    # per game block (e.g. SwSh table, then LA table for a Pokémon that
+    # appears in both).  Walk all sortable tables in the section and
+    # collect every row whose Game column is "LA".
+    moves: list[str] = []
+    for outer in _collect_section_tables(heading):
+        inner = outer.find("table", class_="sortable")
+        if not inner:
+            continue
+
+        for row in inner.find_all("tr"):
+            # Each data row's first <th> is a game-badge link (LA, BDSP,
+            # SwSh, etc.).  Header rows have multiple <th> with no <a>
+            # — those skip naturally because we filter on the link.
+            th = row.find("th")
+            if not th:
+                continue
+            game_link = th.find("a")
+            if not game_link:
+                continue
+            if game_link.get_text(strip=True) != "LA":
+                continue
+
+            tds = row.find_all("td")
+            if not tds:
+                continue
+            move_link = tds[0].find("a")
+            move_name = (
+                move_link.get_text(strip=True) if move_link
+                else tds[0].get_text(strip=True)
+            )
+            if move_name and move_name not in moves:
+                moves.append(move_name)
+
+    return moves
+
+
+# ---------------------------------------------------------------------------
 # Bulbapedia Legends Z-A learnset fallback
 # ---------------------------------------------------------------------------
 
@@ -967,7 +1062,9 @@ def scrape_za_learnset(
     Uses the ZA-specific table parsing functions from scrape_mega_evolutions.
 
     Returns (level_up, tm_moves) where:
-      - level_up: [[level, "Move Name"], ...]
+      - level_up: [[level, "Move Name"], ...] — includes Evo. and Rem.
+                  rows both at level 0 (Move-Reminder-accessible moves
+                  belong with the level-up learnset)
       - tm_moves: ["Move Name", ...]
     """
     encoded = species_name.replace(" ", "_")
@@ -1342,6 +1439,95 @@ def fetch_evolution_family(species_data: dict, use_cache: bool) -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
+# Pre-evolution egg-move inheritance
+#
+# PokéAPI lists egg moves only on the *base* form of an evolution family
+# (e.g. Bellsprout has the egg moves; Weepinbell and Victreebel have empty
+# egg-move lists in PokéAPI for every pre-Gen-9 version group).
+#
+# In-game an evolved Pokémon can know any of its line's egg moves, because
+# the egg hatches as the base form with the egg move and retains it through
+# evolution.  So we walk back through evolves_from_species and union the
+# pre-evolutions' egg moves into the evolved form's list.
+#
+# Skipped for games without a breeding mechanic — see callers.
+# ---------------------------------------------------------------------------
+
+# Games that have no breeding/Eggs mechanic.  Egg moves are not obtainable
+# in these games regardless of what PokéAPI lists, so inheritance is skipped.
+NO_BREEDING_VERSION_GROUPS: set[str] = {
+    "legends-arceus",
+    "legends-za",
+}
+
+
+def collect_inherited_egg_moves(
+    species_data: dict,
+    version_group: str,
+    use_cache: bool,
+) -> list[str]:
+    """
+    Walk up the evolution chain from this species and collect every egg move
+    its pre-evolutions have for the given version_group.
+
+    Returns a list of move display names in PokéAPI traversal order, with
+    duplicates removed.  Egg moves on the species itself are NOT included
+    here — that's parse_moves' job; the caller should union the two lists.
+    """
+    if version_group in NO_BREEDING_VERSION_GROUPS:
+        return []
+
+    inherited: list[str] = []
+    current = species_data
+    visited: set[str] = {current["name"]}
+
+    while True:
+        evolves_from = current.get("evolves_from_species")
+        if not evolves_from:
+            break
+        pre_url = evolves_from.get("url")
+        if not pre_url:
+            break
+
+        pre_species = api_get(pre_url, use_cache=use_cache)
+        if not pre_species:
+            break
+        pre_slug = pre_species.get("name")
+        if not pre_slug or pre_slug in visited:
+            break
+        visited.add(pre_slug)
+
+        # Get the default variety's pokemon data — that's where egg moves live.
+        default_variety = next(
+            (v for v in pre_species.get("varieties", []) if v["is_default"]),
+            None,
+        )
+        if not default_variety:
+            current = pre_species
+            continue
+        pre_pokemon = api_get(default_variety["pokemon"]["url"], use_cache=use_cache)
+        if not pre_pokemon:
+            current = pre_species
+            continue
+
+        # Pull egg moves for this VG.
+        for move_entry in pre_pokemon.get("moves", []):
+            move_slug = move_entry["move"]["name"]
+            move_url  = move_entry["move"]["url"]
+            for vgd in move_entry.get("version_group_details", []):
+                if (vgd["version_group"]["name"] == version_group
+                        and vgd["move_learn_method"]["name"] == "egg"):
+                    name = get_move_name(move_slug, move_url, use_cache)
+                    if name not in inherited:
+                        inherited.append(name)
+                    break
+
+        current = pre_species
+
+    return inherited
+
+
+# ---------------------------------------------------------------------------
 # Held items
 # ---------------------------------------------------------------------------
 
@@ -1470,18 +1656,29 @@ def build_entry(
             level_up = za_level_up
             tm_hm = za_tm
             bulbapedia_za_sourced = True
-            # Egg moves are shared across Gen IX on Bulbapedia (single table),
-            # so pull them from PokéAPI's scarlet-violet data as a supplement.
-            if not egg_moves and fallback_version_groups:
+            # Form-change moves (e.g. Rotom's signature move per appliance,
+            # Mega Evolution form-change moves) are tied to the form, not
+            # to a specific game's breeding/movepool, so we can pull them
+            # from a fallback version group.
+            #
+            # We deliberately do NOT pull egg_moves, light_ball_egg, or
+            # zygarde_cube from fallback VGs: LZA has no breeding/Eggs
+            # mechanic (per Bulbapedia: "Abilities, breeding, and Eggs are
+            # not featured in this game"), and the Zygarde Cube is a
+            # USUM-specific item.  Pulling SV's egg moves into LZA would
+            # be incorrect — those moves are not obtainable in LZA.
+            if not form_change and fallback_version_groups:
                 for fb_vg in fallback_version_groups:
-                    _, _, _, egg_moves, form_change, zygarde_cube, light_ball_egg = \
+                    _, _, _, _, fb_form_change, _, _ = \
                         parse_moves(pokemon_data, fb_vg, use_cache)
-                    if egg_moves:
+                    if fb_form_change:
+                        form_change = fb_form_change
                         break
                     if fallback_moves_data:
-                        _, _, _, egg_moves, form_change, zygarde_cube, light_ball_egg = \
+                        _, _, _, _, fb_form_change, _, _ = \
                             parse_moves(fallback_moves_data, fb_vg, use_cache)
-                        if egg_moves:
+                        if fb_form_change:
+                            form_change = fb_form_change
                             break
 
     # If the version group itself is missing from PokéAPI, try fallback VGs.
@@ -1503,6 +1700,30 @@ def build_entry(
     # A Pokémon not in this game has no move data for the version group.
     if not level_up and not tm_hm and not tutor and not egg_moves:
         return None
+
+    # Inherit egg moves from pre-evolutions.  PokéAPI lists egg moves only
+    # on the base form of each evolution family for older generations
+    # (Gen 1-7 in particular), so an evolved Pokémon's egg_moves field
+    # comes back empty even though it can know those moves in-game.
+    inherited_eggs = collect_inherited_egg_moves(
+        species_data, version_group, use_cache,
+    )
+    for em in inherited_eggs:
+        if em not in egg_moves:
+            egg_moves.append(em)
+
+    # Legends: Arceus tutor moves: PokéAPI's tutor data for legends-arceus
+    # is sparsely populated (Wyrdeer, Kleavor, etc. come back empty), so
+    # supplement from Bulbapedia's Generation VIII learnset page.
+    if version_group == "legends-arceus":
+        base_species = (
+            get_english_name(species_data.get("names", []))
+            or slug_to_title(species_data["name"])
+        )
+        bp_tutors = scrape_la_tutor_moves(base_species, use_cache)
+        for m in bp_tutors:
+            if m not in tutor:
+                tutor.append(m)
 
     # --- Basic fields ---
     # Use the species dex number for both fields; the PokéAPI form id
