@@ -38,6 +38,7 @@ const unobtainable_moves = {
         "ThunderPunch",
     ],
     "FireRed and LeafGreen": [
+        "Waterfall",
         "Sludge Bomb",
         "Facade",
         "Body Slam",
