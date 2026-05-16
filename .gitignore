@@ -10,3 +10,6 @@ __pycache__/
 bulba_cache/
 move_cache/
 pokemondb_move_cache/
+
+# Images
+*.png
