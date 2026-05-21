@@ -793,16 +793,28 @@ def get_bulbapedia_level1_order(
 
     soup = BeautifulSoup(html, "html.parser")
 
-    # Find the "By leveling up" heading (h4 with id="By_leveling_up").
+    # Find the "By leveling up" heading (id="By_leveling_up").  Its tag level
+    # is not fixed: on simple pages it is an <h4>, but when several games share
+    # one game heading (e.g. "Sun, Moon, Ultra Sun and Ultra Moon" on the Gen
+    # VII page) every heading shifts down a level, so it becomes an <h5> and the
+    # per-form sub-headings ("Alolan Raticate") become <h6>.  We therefore work
+    # in terms of heading *rank* relative to the leveling-up heading rather than
+    # hard-coding h4/h5.
     heading = soup.find("span", id="By_leveling_up")
     if not heading:
         _bulbapedia_level1_cache[cache_key] = None
         return None
 
-    # Walk forward from the heading to find the right table.
-    # If form_name is set, look for an h5 matching that form name first.
-    node = heading.parent  # the <h4>
+    node = heading.parent  # the heading tag (h4/h5/...)
     target_table = None
+
+    def _heading_rank(element) -> int | None:
+        """Return 1-6 for an <hN> heading tag, else None."""
+        if element.name and re.fullmatch(r"h[1-6]", element.name):
+            return int(element.name[1])
+        return None
+
+    base_rank = _heading_rank(node) or 4
 
     def _find_sortable_table(element):
         """Find a sortable table: either the element itself or nested inside."""
@@ -811,20 +823,25 @@ def get_bulbapedia_level1_order(
         return element.find("table", class_="sortable")
 
     if form_name:
-        # Look for an h5 whose text matches form_name, then get its table.
-        # Use word-set matching as a fallback for cases where our display name
-        # format differs from Bulbapedia's heading (e.g. "Meowstic (Female)"
-        # vs "Female Meowstic", "Rotom (Heat)" vs "Heat Rotom").
+        # Look for a deeper sub-heading whose text matches form_name, then get
+        # its table.  Use word-set matching as a fallback for cases where our
+        # display name format differs from Bulbapedia's heading (e.g. "Meowstic
+        # (Female)" vs "Female Meowstic", "Rotom (Heat)" vs "Heat Rotom").
         form_words = set(re.sub(r"[()]", "", form_name).lower().split())
         for sibling in node.find_next_siblings():
-            if sibling.name == "h4":
+            rank = _heading_rank(sibling)
+            # A heading at the same or higher level ends this leveling-up block.
+            if rank is not None and rank <= base_rank:
                 break
-            if sibling.name == "h5":
-                h5_text = sibling.get_text(strip=True)
-                h5_words = set(h5_text.lower().split())
-                if form_name in h5_text or form_words.issubset(h5_words):
+            # Form sub-headings sit one or more levels deeper than base_rank.
+            if rank is not None and rank > base_rank:
+                h_text = sibling.get_text(strip=True)
+                h_words = set(h_text.lower().split())
+                if form_name in h_text or form_words.issubset(h_words):
+                    sub_rank = rank
                     for s2 in sibling.find_next_siblings():
-                        if s2.name in ("h4", "h5"):
+                        r2 = _heading_rank(s2)
+                        if r2 is not None and r2 <= sub_rank:
                             break
                         tbl = _find_sortable_table(s2)
                         if tbl:
@@ -832,9 +849,11 @@ def get_bulbapedia_level1_order(
                             break
                     break
     else:
-        # No form specified — find the first sortable table after the heading.
+        # No form specified — find the first sortable table after the heading,
+        # stopping if we reach a heading at the same or higher level.
         for sibling in node.find_next_siblings():
-            if sibling.name == "h4":
+            rank = _heading_rank(sibling)
+            if rank is not None and rank <= base_rank:
                 break
             tbl = _find_sortable_table(sibling)
             if tbl:
