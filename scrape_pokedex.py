@@ -641,6 +641,11 @@ def get_ability_generation(slug: str, use_cache: bool) -> int:
 # Bulbapedia level-1 move ordering
 # ---------------------------------------------------------------------------
 
+# NOTE: As of the verify_level1_order refactor, level-1 ordering is handled by
+# that module (which has the complete, audited column map covering every gen).
+# VERSION_GROUP_TO_BP_COLUMN and get_bulbapedia_level1_order below are retained
+# for reference only and are no longer called by reorder_level1_moves.
+#
 # When Bulbapedia has multiple level columns (one per version pair within
 # a generation), this maps the PokéAPI version_group slug to the header
 # text of the column we should read.  Entries not listed here use the
@@ -1112,35 +1117,47 @@ def reorder_level1_moves(
     version_group: str = "",
 ) -> list[list]:
     """
-    Reorder level-1 moves in level_up according to the order on Bulbapedia.
-    Moves at other levels are not affected.
+    Reorder the level-1 moves in level_up to match Bulbapedia's in-game order.
+    Moves at other levels are untouched.
+
+    Delegates to verify_level1_order — the audited implementation with robust
+    form matching (descriptor-subset, so "Lycanroc (Dusk)" matches the "Dusk
+    Form" heading), per-game column selection, base-table fallback for
+    shared-learnset forms (Mega / Primal / Therian / size forms / …), and a
+    set-equality safety gate so only a pure permutation is ever applied.
+    Run `python verify_level1_order.py --check` after scraping to audit, or
+    `--fix` to correct any orderings this pass could not (e.g. due to a newly
+    cached page).
     """
     level1 = [m for m in level_up if m[0] == 1]
     if len(level1) <= 1:
         return level_up
 
-    bp_order = get_bulbapedia_level1_order(
-        species_name, form_name, game_gen, use_cache, version_group,
+    import verify_level1_order as _v
+    _v.ALLOW_NETWORK = True   # a fresh scrape may need to fetch uncached pages
+
+    # descriptor = words in the form/display name that are not part of the base
+    # species name (empty for the base form).  e.g. "Alolan Raichu" -> {alolan}.
+    descriptor: set[str] = set()
+    if form_name:
+        def _words(s: str) -> set[str]:
+            return set(re.sub(r"[()]", " ", s).lower().split())
+        descriptor = _words(form_name) - _words(species_name)
+
+    bp_order = _v.bulbapedia_level1(
+        species_name, descriptor, game_gen, version_group, use_cache,
     )
     if not bp_order:
         return level_up
 
-    # Build a sort key: position in Bulbapedia list (unknown moves go to end).
-    order_map = {name: i for i, name in enumerate(bp_order)}
+    # Safety gate: only reorder when the level-1 move SET matches exactly, so
+    # the change is guaranteed to be a pure permutation.
+    if (sorted(_v.norm_move(m[1]) for m in level1)
+            != sorted(_v.norm_move(m) for m in bp_order)):
+        return level_up
 
-    level1.sort(key=lambda m: order_map.get(m[1], len(bp_order)))
-
-    # Re-insert sorted level-1 moves at their original position.
-    result = []
-    level1_iter = iter(level1)
-    for m in level_up:
-        if m[0] == 1:
-            nxt = next(level1_iter, None)
-            if nxt is not None:
-                result.append(nxt)
-        else:
-            result.append(m)
-    return result
+    new_level_up, _changed = _v.reordered_level_up(level_up, bp_order)
+    return new_level_up
 
 
 # ---------------------------------------------------------------------------

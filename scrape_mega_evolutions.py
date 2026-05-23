@@ -619,29 +619,34 @@ def reorder_level1_moves(
     use_cache: bool,
     version_group: str = "",
 ) -> list[list]:
+    # Delegates to verify_level1_order (audited: robust form matching,
+    # per-game column selection, base-table fallback, set-equality gate).
     level1 = [m for m in level_up if m[0] == 1]
     if len(level1) <= 1:
         return level_up
 
-    bp_order = get_bulbapedia_level1_order(
-        species_name, form_name, game_gen, use_cache, version_group,
+    import verify_level1_order as _v
+    _v.ALLOW_NETWORK = True   # a fresh scrape may need to fetch uncached pages
+
+    descriptor: set[str] = set()
+    if form_name:
+        def _words(s: str) -> set[str]:
+            return set(re.sub(r"[()]", " ", s).lower().split())
+        descriptor = _words(form_name) - _words(species_name)
+
+    bp_order = _v.bulbapedia_level1(
+        species_name, descriptor, game_gen, version_group, use_cache,
     )
     if not bp_order:
         return level_up
 
-    order_map = {name: i for i, name in enumerate(bp_order)}
-    level1.sort(key=lambda m: order_map.get(m[1], len(bp_order)))
+    # Safety gate: reorder only when the level-1 move SET matches exactly.
+    if (sorted(_v.norm_move(m[1]) for m in level1)
+            != sorted(_v.norm_move(m) for m in bp_order)):
+        return level_up
 
-    result = []
-    level1_iter = iter(level1)
-    for m in level_up:
-        if m[0] == 1:
-            nxt = next(level1_iter, None)
-            if nxt is not None:
-                result.append(nxt)
-        else:
-            result.append(m)
-    return result
+    new_level_up, _changed = _v.reordered_level_up(level_up, bp_order)
+    return new_level_up
 
 
 # ---------------------------------------------------------------------------

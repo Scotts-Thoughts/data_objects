@@ -526,11 +526,11 @@ export const pokedex = {
             "Blaze"
         ],
         "level_up_learnset": [
+            [1, "Heat Wave"],
+            [1, "Metal Claw"],
             [1, "Scratch"],
             [1, "Growl"],
             [1, "Ember"],
-            [1, "Metal Claw"],
-            [1, "Heat Wave"],
             [7, "Ember"],
             [13, "Metal Claw"],
             [20, "Smokescreen"],
@@ -1397,8 +1397,8 @@ export const pokedex = {
         ],
         "level_up_learnset": [
             [1, "Tackle"],
-            [1, "Gust"],
             [1, "Sand Attack"],
+            [1, "Gust"],
             [5, "Sand Attack"],
             [9, "Gust"],
             [13, "Quick Attack"],
@@ -1482,9 +1482,9 @@ export const pokedex = {
         ],
         "level_up_learnset": [
             [1, "Tackle"],
+            [1, "Sand Attack"],
             [1, "Gust"],
             [1, "Quick Attack"],
-            [1, "Sand Attack"],
             [5, "Sand Attack"],
             [9, "Gust"],
             [13, "Quick Attack"],
@@ -2121,8 +2121,8 @@ export const pokedex = {
             "Static"
         ],
         "level_up_learnset": [
-            [1, "Growl"],
             [1, "Thunder Shock"],
+            [1, "Growl"],
             [6, "Tail Whip"],
             [8, "Thunder Wave"],
             [11, "Quick Attack"],
@@ -2220,10 +2220,10 @@ export const pokedex = {
             "Static"
         ],
         "level_up_learnset": [
+            [1, "Thunder Shock"],
             [1, "Tail Whip"],
             [1, "Quick Attack"],
-            [1, "Thunderbolt"],
-            [1, "Thunder Shock"]
+            [1, "Thunderbolt"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -3240,9 +3240,9 @@ export const pokedex = {
         ],
         "level_up_learnset": [
             [1, "Sing"],
+            [1, "Double Slap"],
             [1, "Minimize"],
-            [1, "Metronome"],
-            [1, "Double Slap"]
+            [1, "Metronome"]
         ],
         "tm_hm_learnset": [
             "Focus Punch",
@@ -4634,8 +4634,8 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tri Attack"],
             [1, "Scratch"],
-            [1, "Growl"],
             [1, "Sand Attack"],
+            [1, "Growl"],
             [5, "Growl"],
             [9, "Magnitude"],
             [17, "Dig"],
@@ -5725,8 +5725,8 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Water Gun"],
             [1, "Hypnosis"],
-            [1, "Submission"],
             [1, "Double Slap"],
+            [1, "Submission"],
             [35, "Submission"],
             [51, "Mind Reader"]
         ],
@@ -6625,13 +6625,13 @@ export const pokedex = {
             "Chlorophyll"
         ],
         "level_up_learnset": [
+            [1, "Stockpile"],
+            [1, "Swallow"],
+            [1, "Spit Up"],
             [1, "Vine Whip"],
             [1, "Sweet Scent"],
             [1, "Razor Leaf"],
-            [1, "Sleep Powder"],
-            [1, "Stockpile"],
-            [1, "Spit Up"],
-            [1, "Swallow"]
+            [1, "Sleep Powder"]
         ],
         "tm_hm_learnset": [
             "Toxic",
@@ -7281,10 +7281,10 @@ export const pokedex = {
             "Flash Fire"
         ],
         "level_up_learnset": [
+            [1, "Quick Attack"],
             [1, "Growl"],
             [1, "Tail Whip"],
             [1, "Ember"],
-            [1, "Quick Attack"],
             [5, "Growl"],
             [9, "Tail Whip"],
             [14, "Ember"],
@@ -7676,8 +7676,8 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [1, "Metal Sound"],
-            [1, "Supersonic"],
             [1, "Thunder Shock"],
+            [1, "Supersonic"],
             [6, "Thunder Shock"],
             [11, "Supersonic"],
             [16, "Sonic Boom"],
@@ -8109,11 +8109,11 @@ export const pokedex = {
             "Thick Fat"
         ],
         "level_up_learnset": [
+            [1, "Signal Beam"],
             [1, "Headbutt"],
             [1, "Growl"],
             [1, "Icy Wind"],
             [1, "Aurora Beam"],
-            [1, "Signal Beam"],
             [9, "Growl"],
             [17, "Icy Wind"],
             [21, "Aurora Beam"],
@@ -9064,11 +9064,11 @@ export const pokedex = {
             "Insomnia"
         ],
         "level_up_learnset": [
+            [1, "Nightmare"],
             [1, "Pound"],
             [1, "Hypnosis"],
             [1, "Disable"],
             [1, "Confusion"],
-            [1, "Nightmare"],
             [7, "Disable"],
             [11, "Confusion"],
             [17, "Headbutt"],
@@ -9267,11 +9267,11 @@ export const pokedex = {
             "Shell Armor"
         ],
         "level_up_learnset": [
+            [1, "Metal Claw"],
             [1, "Bubble"],
             [1, "Leer"],
             [1, "Vise Grip"],
             [1, "Harden"],
-            [1, "Metal Claw"],
             [5, "Leer"],
             [12, "Vise Grip"],
             [16, "Harden"],
@@ -11090,9 +11090,9 @@ export const pokedex = {
         ],
         "level_up_learnset": [
             [1, "Bubble"],
+            [1, "Smokescreen"],
             [1, "Leer"],
             [1, "Water Gun"],
-            [1, "Smokescreen"],
             [8, "Smokescreen"],
             [15, "Leer"],
             [22, "Water Gun"],
@@ -12034,8 +12034,8 @@ export const pokedex = {
             "Hyper Cutter"
         ],
         "level_up_learnset": [
-            [1, "Focus Energy"],
             [1, "Vise Grip"],
+            [1, "Focus Energy"],
             [7, "Bind"],
             [13, "Seismic Toss"],
             [19, "Harden"],
@@ -13311,11 +13311,11 @@ export const pokedex = {
             "Battle Armor"
         ],
         "level_up_learnset": [
+            [1, "Fury Cutter"],
             [1, "Scratch"],
             [1, "Harden"],
             [1, "Absorb"],
             [1, "Leer"],
-            [1, "Fury Cutter"],
             [13, "Absorb"],
             [19, "Leer"],
             [25, "Mud Shot"],
@@ -14892,8 +14892,8 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [1, "Leer"],
-            [1, "Ember"],
             [1, "Smokescreen"],
+            [1, "Ember"],
             [6, "Smokescreen"],
             [12, "Ember"],
             [21, "Quick Attack"],
@@ -16326,8 +16326,8 @@ export const pokedex = {
             "Static"
         ],
         "level_up_learnset": [
-            [1, "Charm"],
             [1, "Thunder Shock"],
+            [1, "Charm"],
             [6, "Tail Whip"],
             [8, "Thunder Wave"],
             [11, "Sweet Kiss"]
@@ -16716,11 +16716,11 @@ export const pokedex = {
             "Serene Grace"
         ],
         "level_up_learnset": [
+            [1, "Magical Leaf"],
             [1, "Growl"],
             [1, "Charm"],
             [1, "Metronome"],
             [1, "Sweet Kiss"],
-            [1, "Magical Leaf"],
             [4, "Metronome"],
             [9, "Sweet Kiss"],
             [13, "Yawn"],
@@ -17205,8 +17205,8 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [1, "Growl"],
-            [1, "Thunder Wave"],
             [1, "Thunder Shock"],
+            [1, "Thunder Wave"],
             [9, "Thunder Shock"],
             [18, "Thunder Wave"],
             [27, "Cotton Spore"],
@@ -17694,8 +17694,8 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Water Gun"],
             [1, "Hypnosis"],
-            [1, "Perish Song"],
             [1, "Double Slap"],
+            [1, "Perish Song"],
             [35, "Perish Song"],
             [51, "Swagger"]
         ],
@@ -21875,9 +21875,9 @@ export const pokedex = {
         ],
         "level_up_learnset": [
             [1, "Bubble"],
+            [1, "Smokescreen"],
             [1, "Leer"],
             [1, "Water Gun"],
-            [1, "Smokescreen"],
             [8, "Smokescreen"],
             [15, "Leer"],
             [22, "Water Gun"],
@@ -24979,8 +24979,8 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [1, "Howl"],
-            [1, "Bite"],
             [1, "Sand Attack"],
+            [1, "Bite"],
             [5, "Howl"],
             [9, "Sand Attack"],
             [13, "Bite"],
@@ -26630,11 +26630,11 @@ export const pokedex = {
             "Trace"
         ],
         "level_up_learnset": [
+            [1, "Magical Leaf"],
             [1, "Growl"],
             [1, "Confusion"],
             [1, "Double Team"],
             [1, "Teleport"],
-            [1, "Magical Leaf"],
             [6, "Confusion"],
             [11, "Double Team"],
             [16, "Teleport"],
@@ -28217,8 +28217,8 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [1, "Focus Energy"],
-            [1, "Arm Thrust"],
             [1, "Sand Attack"],
+            [1, "Arm Thrust"],
             [4, "Sand Attack"],
             [10, "Arm Thrust"],
             [13, "Vital Throw"],
@@ -29311,11 +29311,11 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Fire Punch"],
             [1, "Ice Punch"],
+            [1, "Thunder Punch"],
             [1, "Bide"],
             [1, "Meditate"],
             [1, "Confusion"],
             [1, "Detect"],
-            [1, "Thunder Punch"],
             [4, "Meditate"],
             [9, "Confusion"],
             [12, "Detect"],
@@ -31593,11 +31593,11 @@ export const pokedex = {
             "Sand Veil"
         ],
         "level_up_learnset": [
+            [1, "Revenge"],
             [1, "Poison Sting"],
             [1, "Leer"],
             [1, "Absorb"],
             [1, "Growth"],
-            [1, "Revenge"],
             [5, "Absorb"],
             [9, "Growth"],
             [13, "Leech Seed"],
@@ -32538,8 +32538,8 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Bubble"],
             [1, "Harden"],
-            [1, "Leer"],
             [1, "Vise Grip"],
+            [1, "Leer"],
             [7, "Harden"],
             [10, "Vise Grip"],
             [13, "Leer"],
@@ -36885,8 +36885,8 @@ export const pokedex = {
             "Pressure"
         ],
         "level_up_learnset": [
-            [1, "Wrap"],
             [1, "Leer"],
+            [1, "Wrap"],
             [5, "Night Shade"],
             [10, "Teleport"],
             [15, "Taunt"],
@@ -36991,8 +36991,8 @@ export const pokedex = {
             "Pressure"
         ],
         "level_up_learnset": [
-            [1, "Wrap"],
             [1, "Leer"],
+            [1, "Wrap"],
             [5, "Night Shade"],
             [10, "Teleport"],
             [15, "Knock Off"],

@@ -1472,8 +1472,8 @@ export const pokedex = {
         "abilities": [],
         "level_up_learnset": [
             [1, "Tackle"],
-            [1, "Gust"],
             [1, "Sand Attack"],
+            [1, "Gust"],
             [5, "Sand Attack"],
             [9, "Gust"],
             [15, "Quick Attack"],
@@ -1563,9 +1563,9 @@ export const pokedex = {
         "abilities": [],
         "level_up_learnset": [
             [1, "Tackle"],
+            [1, "Sand Attack"],
             [1, "Gust"],
             [1, "Quick Attack"],
-            [1, "Sand Attack"],
             [5, "Sand Attack"],
             [9, "Gust"],
             [15, "Quick Attack"],
@@ -2231,8 +2231,8 @@ export const pokedex = {
         "egg_group_2": "Fairy",
         "abilities": [],
         "level_up_learnset": [
-            [1, "Growl"],
             [1, "Thunder Shock"],
+            [1, "Growl"],
             [6, "Tail Whip"],
             [8, "Thunder Wave"],
             [11, "Quick Attack"],
@@ -2340,10 +2340,10 @@ export const pokedex = {
         "egg_group_2": "Fairy",
         "abilities": [],
         "level_up_learnset": [
+            [1, "Thunder Shock"],
             [1, "Tail Whip"],
             [1, "Quick Attack"],
-            [1, "Thunderbolt"],
-            [1, "Thunder Shock"]
+            [1, "Thunderbolt"]
         ],
         "tm_hm_learnset": [
             "Dynamic Punch",
@@ -3420,9 +3420,9 @@ export const pokedex = {
         "abilities": [],
         "level_up_learnset": [
             [1, "Sing"],
+            [1, "Double Slap"],
             [1, "Metronome"],
-            [1, "Moonlight"],
-            [1, "Double Slap"]
+            [1, "Moonlight"]
         ],
         "tm_hm_learnset": [
             "Dynamic Punch",
@@ -4883,10 +4883,10 @@ export const pokedex = {
         "egg_group_2": "Ground",
         "abilities": [],
         "level_up_learnset": [
+            [1, "Tri Attack"],
             [1, "Scratch"],
             [1, "Growl"],
             [1, "Magnitude"],
-            [1, "Tri Attack"],
             [5, "Growl"],
             [9, "Magnitude"],
             [17, "Dig"],
@@ -6032,8 +6032,8 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Water Gun"],
             [1, "Hypnosis"],
-            [1, "Submission"],
             [1, "Double Slap"],
+            [1, "Submission"],
             [35, "Submission"],
             [51, "Mind Reader"]
         ],
@@ -8068,9 +8068,9 @@ export const pokedex = {
         "abilities": [],
         "level_up_learnset": [
             [1, "Tackle"],
+            [1, "Thunder Shock"],
             [1, "Supersonic"],
             [1, "Sonic Boom"],
-            [1, "Thunder Shock"],
             [6, "Thunder Shock"],
             [11, "Supersonic"],
             [16, "Sonic Boom"],
@@ -11587,9 +11587,9 @@ export const pokedex = {
         "abilities": [],
         "level_up_learnset": [
             [1, "Bubble"],
+            [1, "Smokescreen"],
             [1, "Leer"],
             [1, "Water Gun"],
-            [1, "Smokescreen"],
             [8, "Smokescreen"],
             [15, "Leer"],
             [22, "Water Gun"],
@@ -13522,9 +13522,9 @@ export const pokedex = {
         "egg_group_2": "Mineral",
         "abilities": [],
         "level_up_learnset": [
+            [1, "Conversion 2"],
             [1, "Tackle"],
             [1, "Conversion"],
-            [1, "Conversion 2"],
             [9, "Agility"],
             [12, "Psybeam"],
             [20, "Recover"],
@@ -15570,8 +15570,8 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [1, "Leer"],
-            [1, "Ember"],
             [1, "Smokescreen"],
+            [1, "Ember"],
             [6, "Smokescreen"],
             [12, "Ember"],
             [21, "Quick Attack"],
@@ -16887,8 +16887,8 @@ export const pokedex = {
         "egg_group_2": "NoEggsDiscovered",
         "abilities": [],
         "level_up_learnset": [
-            [1, "Charm"],
             [1, "Thunder Shock"],
+            [1, "Charm"],
             [6, "Tail Whip"],
             [8, "Thunder Wave"],
             [11, "Sweet Kiss"]
@@ -17674,8 +17674,8 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Tackle"],
             [1, "Growl"],
-            [1, "Thunder Wave"],
             [1, "Thunder Shock"],
+            [1, "Thunder Wave"],
             [9, "Thunder Shock"],
             [18, "Thunder Wave"],
             [27, "Cotton Spore"],
@@ -18116,8 +18116,8 @@ export const pokedex = {
         "level_up_learnset": [
             [1, "Water Gun"],
             [1, "Hypnosis"],
-            [1, "Perish Song"],
             [1, "Double Slap"],
+            [1, "Perish Song"],
             [35, "Perish Song"],
             [51, "Swagger"]
         ],
@@ -20250,9 +20250,9 @@ export const pokedex = {
         "egg_group_2": "Water2",
         "abilities": [],
         "level_up_learnset": [
+            [1, "Spikes"],
             [1, "Tackle"],
             [1, "Poison Sting"],
-            [1, "Spikes"],
             [10, "Harden"],
             [10, "Minimize"],
             [19, "Water Gun"],
@@ -21895,9 +21895,9 @@ export const pokedex = {
         "abilities": [],
         "level_up_learnset": [
             [1, "Bubble"],
+            [1, "Smokescreen"],
             [1, "Leer"],
             [1, "Water Gun"],
-            [1, "Smokescreen"],
             [8, "Smokescreen"],
             [15, "Leer"],
             [22, "Water Gun"],
@@ -22145,9 +22145,9 @@ export const pokedex = {
         "egg_group_2": "Mineral",
         "abilities": [],
         "level_up_learnset": [
+            [1, "Conversion 2"],
             [1, "Tackle"],
             [1, "Conversion"],
-            [1, "Conversion 2"],
             [9, "Agility"],
             [12, "Psybeam"],
             [20, "Recover"],
