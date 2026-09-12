@@ -382,32 +382,14 @@ def _bulbapedia_cache_path(url: str) -> Path:
 
 
 def fetch_bulbapedia_html(url: str, use_cache: bool = True) -> str | None:
-    global _last_request_time
+    """Rendered Bulbapedia HTML, via bulba_fetch (bulba_proxy.js clears the
+    Cloudflare challenge; see its header).  Legacy cache files keyed by the
+    old scheme are honoured before asking bulba_fetch."""
     path = _bulbapedia_cache_path(url)
     if use_cache and path.exists():
         return path.read_text(encoding="utf-8")
-
-    elapsed = time.time() - _last_request_time
-    if elapsed < REQUEST_DELAY:
-        time.sleep(REQUEST_DELAY - elapsed)
-
-    for attempt in range(1, MAX_RETRIES + 1):
-        try:
-            resp = requests.get(url, headers=HEADERS, timeout=20)
-            if resp.status_code == 404:
-                return None
-            resp.raise_for_status()
-            _last_request_time = time.time()
-            html = resp.text
-            if use_cache:
-                BULBAPEDIA_CACHE_DIR.mkdir(exist_ok=True)
-                path.write_text(html, encoding="utf-8")
-            return html
-        except requests.RequestException as exc:
-            print(f"    [bulbapedia attempt {attempt}/{MAX_RETRIES}] {exc}")
-            if attempt < MAX_RETRIES:
-                time.sleep(REQUEST_DELAY * (attempt + 1))
-    return None
+    import bulba_fetch as bf
+    return bf.fetch_html(url, use_cache)
 
 
 # ---------------------------------------------------------------------------

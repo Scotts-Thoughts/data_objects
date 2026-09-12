@@ -1,160 +1,167 @@
 # Pokédex Scraping Guide
 
-Scripts for scraping Pokédex data for Gen 5–9 games from [PokéAPI](https://pokeapi.co) and producing `.js` files in the same format as the existing `pokedex/` split files.
+Scripts for producing the per-game Pokédex files (`pokedex/<game>.js`) for
+every mainline game from Red/Blue to Legends: Z-A.
+
+**Two sources, one rule.** Species data (types, abilities, EV yields, catch
+rates, items, evolution families …) comes from [PokéAPI](https://pokeapi.co).
+Every move list — level-up, TM/HM, tutor, egg, prior-evolution, transfer,
+form-change — comes from **Bulbapedia's per-generation learnset pages**, read
+from their wikitext, so each list is exactly Bulbapedia's list in Bulbapedia's
+order. Base stats are taken from Bulbapedia's species page too (it records
+generation-specific values and the Gen I Special stat), with PokéAPI as the
+fallback.
 
 ---
 
 ## Dependencies
 
-### Python version
+- Python **3.10+** with `requests` (`python -m pip install requests`)
+- Node + the `electron` package from the Solodex checkout (`../solodex`) for
+  the Bulbapedia proxy (see next section)
 
-Python **3.10 or newer** is required. Check your version with:
+---
+
+## Bulbapedia is behind Cloudflare — start the proxy first
+
+Bulbapedia answers plain HTTP clients with a 403 "Just a moment…" challenge.
+`bulba_proxy.js` opens a hidden Electron window that clears the challenge and
+then serves fetches on `http://127.0.0.1:8765`. Run it in its own terminal
+before anything that needs uncached pages:
 
 ```bash
-python --version
+cd data_objects
+..\solodex\node_modules\.bin\electron.cmd bulba_proxy.js        # Windows
+../solodex/node_modules/.bin/electron bulba_proxy.js            # macOS/Linux
 ```
 
-### Python packages
-
-Only one external package is needed:
-
-```bash
-python -m pip install requests
-```
+If Cloudflare re-challenges (it does when requests come too fast) the proxy
+shows its window so you can click the checkbox, then carries on. All Python
+helpers detect the proxy automatically (`BULBA_PROXY` env var overrides the
+address) and read from `.scrape_cache_bulbapedia/wikitext/` when a page is
+already cached, so re-runs need no network at all.
 
 ---
 
 ## Scripts
 
-### `scrape_pokedex.py`
-
-Scrapes Pokédex data (base stats, types, abilities, learnsets, evolution families, etc.) for the following games and writes one `.js` file per game into the `pokedex/` directory:
-
-| Game | Output file |
-|---|---|
-| Black 2 and White 2 | `pokedex/black2_white2.js` |
-| X and Y | `pokedex/x_y.js` |
-| Omega Ruby and Alpha Sapphire | `pokedex/omega_ruby_alpha_sapphire.js` |
-| Sun and Moon | `pokedex/sun_moon.js` |
-| Ultra Sun and Ultra Moon | `pokedex/ultra_sun_ultra_moon.js` |
-| Sword and Shield | `pokedex/sword_shield.js` |
-| Scarlet and Violet | `pokedex/scarlet_violet.js` |
-
-**Usage:**
+### `scrape_pokedex.py` — the per-game files
 
 ```bash
-# Scrape all games
-python scrape_pokedex.py
-
-# Scrape a single game
-python scrape_pokedex.py --game "X and Y"
-
-# Write output to a different directory
-python scrape_pokedex.py --output-dir some/other/dir
-
-# Re-fetch all pages even if cached
-python scrape_pokedex.py --no-cache
+python scrape_pokedex.py                          # every game
+python scrape_pokedex.py --game "Platinum"        # one game
+python scrape_pokedex.py --diff --game "X and Y"  # scrape to a temp dir and diff
+python scrape_pokedex.py --no-cache               # re-fetch everything
+python scrape_pokedex.py --output-dir some/dir
 ```
 
-**Valid `--game` values:**
-- `"Black 2 and White 2"`
-- `"X and Y"`
-- `"Omega Ruby and Alpha Sapphire"`
-- `"Sun and Moon"`
-- `"Ultra Sun and Ultra Moon"`
-- `"Sword and Shield"`
-- `"Scarlet and Violet"`
+Game names are the keys of `GAME_CONFIG` (`"Red and Blue"`, `"Yellow"`, …,
+`"Scarlet and Violet"`, `"Legends Z-A"`).
 
-**Runtime:** The first run fetches one API page per Pokémon (1025 species × 2 endpoints each). Expect 20–40 minutes depending on your connection. All responses are cached locally in `.scrape_cache_api/` so subsequent runs complete in seconds.
+The run starts by prefetching every Bulbapedia page the selected games need
+through the MediaWiki API (50 titles per request — a full refresh is ~250
+requests), then walks PokéAPI's species list. It writes
+`scrape_report.json` at the end; read it (see below).
 
----
+**Runtime:** a full scrape from a warm cache takes ~25 minutes of parsing; a
+cold Bulbapedia cache adds ~15 minutes, a cold PokéAPI cache much more.
+
+### `verify_bulbapedia.py` — prove the files match Bulbapedia
+
+```bash
+python verify_bulbapedia.py                        # all files in pokedex/
+python verify_bulbapedia.py --game sun_moon --show 20
+python verify_bulbapedia.py --dir ../solodex/data_objects-main/pokedex
+python verify_bulbapedia.py --pokedex-js ../solodex/data_objects-main/pokedex.js
+python verify_bulbapedia.py --refresh              # re-fetch pages, then compare
+```
+
+Re-derives every entry's lists from the cached wikitext and compares them
+field by field (order included), plus base stats. Exit status 1 on any
+difference. `--refresh` is how you find out whether Bulbapedia has been
+edited since the last scrape.
+
+### `merge_gen1to4_pokedex.py` — the Solodex Gen 1-4 file
+
+Solodex reads Gen 1-4 from a single `pokedex.js` whose stats and other
+species fields were extracted from the ROMs (and are checked against the
+decompilations by `npm run verify:stats`). This script refreshes only the
+learnset fields of that file from the per-game scrape:
+
+```bash
+python merge_gen1to4_pokedex.py --old ../solodex/data_objects-main/pokedex.js \
+    --new-dir pokedex --out ../solodex/data_objects-main/pokedex.js
+```
+
+### `scrape_mega_evolutions.py`
+
+Produces `pokedex/mega_evolution_pokedex.js` (all Mega forms in one file).
+Unchanged apart from fetching through the proxy.
 
 ### `scrape_tmhm.py`
 
-Does two things in sequence:
-
-1. **Updates `tmhm.js`** — Fetches machine (TM/HM/TR) data from PokéAPI for Gen 6–9 and appends the ordered TM lists as new entries (`"6"` through `"9"`) to `tmhm.js`. Existing entries are left untouched.
-
-2. **Sorts `tm_hm_learnset`** — Re-sorts every Pokémon's `tm_hm_learnset` in all seven scraped pokedex files to match the canonical in-game TM order (TMs by number, then TRs for Gen 8, then HMs).
-
-**Run this after `scrape_pokedex.py` has finished.**
-
-**Usage:**
-
-```bash
-# Do both steps (normal usage)
-python scrape_tmhm.py
-
-# Only update tmhm.js, do not touch pokedex files
-python scrape_tmhm.py --tmhm-only
-
-# Only re-sort pokedex files using the existing tmhm.js
-python scrape_tmhm.py --sort-only
-
-# Re-fetch all data even if cached
-python scrape_tmhm.py --no-cache
-```
-
-**Runtime:** The first run fetches details for every machine entry in PokéAPI (~1700+ records). Expect 5–10 minutes. Subsequent runs are instant thanks to the shared `.scrape_cache_api/` cache.
+Maintains `tmhm.js` (TM number → move per generation). Its `--sort-only`
+mode is no longer needed: `tm_hm_learnset` already comes out of the scraper
+in Bulbapedia's TM order, and Solodex sorts by TM number itself.
 
 ---
 
 ## Recommended order of operations
 
 ```bash
-# 1. Install the dependency
-python -m pip install requests
+# 1. terminal A
+..\solodex\node_modules\.bin\electron.cmd bulba_proxy.js
 
-# 2. Scrape all Pokédex data
-python scrape_pokedex.py
-
-# 3. Add TM orderings to tmhm.js and sort the scraped files
-python scrape_tmhm.py
+# 2. terminal B
+python scrape_pokedex.py                      # all games -> pokedex/, scrape_report.json
+python verify_bulbapedia.py                   # must print OK for every game
+python merge_gen1to4_pokedex.py --old ../solodex/data_objects-main/pokedex.js \
+    --new-dir pokedex --out ../solodex/data_objects-main/pokedex.js
+cp pokedex/*.js ../solodex/data_objects-main/pokedex/
+cd ../solodex && npm run verify:stats && npm test
 ```
 
 ---
 
-## Caching
+## Reading `scrape_report.json`
 
-Both scripts share a local cache directory (`.scrape_cache_api/`) that stores every API response as a `.json` file. This means:
-
-- Re-running either script after a completed run is near-instant.
-- If you interrupt a run partway through, the next run picks up where it left off with no duplicate requests.
-- To force a full re-fetch (e.g. after a PokéAPI data update), pass `--no-cache` or delete the `.scrape_cache_api/` directory.
+| key | meaning | action |
+|---|---|---|
+| `pokeapi_fallback` | entries with no Bulbapedia learnset page; lists came from PokéAPI | check the page title; add a name alias if the page exists |
+| `bulbapedia_excluded` | PokéAPI has move data for the game but Bulbapedia's page has no table for that form/game — entry dropped | usually right (Deoxys formes, LGPE-only data); investigate if a whole game's worth appears |
+| `stat_mismatch` | Bulbapedia's block differs from PokéAPI + `STAT_CHANGE_LOG` | Bulbapedia wins; Gen I differences are the Special stat and expected |
+| `no_bulbapedia_stats` | no stat block found for the form/gen; PokéAPI used | check the species page's Base stats headings |
+| `form_unmatched` | form had no heading of its own; base table used | expected for Megas, Gmax, Rotom, Castform … |
+| `unknown_moves` | move names not present in `moves.js` | a spelling Bulbapedia uses that `MOVE_RENAMES` doesn't map yet |
 
 ---
 
 ## What the scraper produces
 
-Each output file contains **base forms plus all mechanically distinct alternate forms** available in that game:
+Each output file contains base forms plus every alternate form with its own
+stats, types or learnset. Battle-only transformations and cosmetic variants
+(Totems, Busted Mimikyu, cap Pikachu, Minior colours, Koraidon/Miraidon
+modes, Squawkabilly plumages …) are excluded — see `EXCLUDED_FORM_PATTERNS`.
 
-| Form type | Games included |
-|---|---|
-| Mega Evolutions | X/Y, ORAS, Sun/Moon, Ultra Sun/Ultra Moon |
-| Primal Reversion (Kyogre, Groudon) | ORAS, Sun/Moon, Ultra Sun/Ultra Moon |
-| Alolan forms | Sun/Moon, Ultra Sun/Ultra Moon |
-| Galarian forms | Sword/Shield |
-| Hisuian forms | Scarlet/Violet |
-| Paldean forms | Scarlet/Violet |
-| Other alternate forms (Rotom, Deoxys, Giratina, etc.) | Any game where they have move data |
+Display names: `"Mega Venusaur"`, `"Primal Kyogre"`, `"Alolan Raichu"`,
+`"Galarian Darmanitan (Zen)"`, `"Paldean Tauros (Combat Breed)"`,
+`"Giratina (Origin)"`, `"Venusaur (Gmax)"`.
 
-Alternate form entries use display names such as `"Mega Venusaur"`, `"Alolan Rattata"`, `"Galarian Meowth"`, `"Giratina (Origin)"`, etc.
+Level-up entries are `[level, move]` with two sentinels: `0` = learned on
+evolution, `-1` = Move Reminder only (Legends: Z-A tables).
 
-## Generation accuracy
+Optional fields, present only when non-empty: `transfer_learnset`,
+`prior_evolution_learnset`, `form_change_learnset`, `zygarde_cube_learnset`,
+`light_ball_egg_learnset`. `learnset_source` is `"bulbapedia"` or
+`"pokeapi"`.
 
-The script applies three layers of generation-specific filtering:
+## Caching
 
-1. **Base stats** — PokéAPI always returns current stats. `STAT_CHANGE_LOG` in the script hardcodes the old values for every Pokémon whose stats changed in Gens 6–9 (sourced from [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Base_stats)). For a Gen 5 game, all Gen 6–9 buffs are undone; for a Gen 6 game, Gen 7–9 buffs are undone; and so on.
+- `.scrape_cache_api/` — PokéAPI JSON.
+- `.scrape_cache_bulbapedia/wikitext/` — Bulbapedia wikitext, one file per
+  title (missing pages are cached as a sentinel).
+- `.scrape_cache_bulbapedia/*.html` — rendered pages, only used by
+  `scrape_mega_evolutions.py`.
 
-2. **Abilities** — Each ability's introduction generation is fetched from PokéAPI and cached. Abilities introduced after the game's generation are excluded. This prevents, e.g., Weezing getting Neutralizing Gas (Gen 8) in an X/Y entry.
-
-3. **Alternate forms** — Form types are gated by generation (see table above). A Galarian form will never appear in an X/Y file; Mega Evolutions won't appear in Sword/Shield or later.
-
-## Known limitations
-
-- **Evolution methods** — Only level-up evolutions are captured with a level number. Trade evolutions, item evolutions, friendship evolutions, etc. are stored as `"method": null, "parameter": null`, consistent with the convention used in the existing hand-crafted files.
-- **Hidden abilities** — Not included in the `abilities` list, matching the style of the existing Gen 1–5 data.
-- **Catch rates** — PokéAPI returns current catch rates. A small number of Pokémon had their catch rate changed across generations; these are not overridden.
-- **Move names** — Fetched from PokéAPI's English name field. A small number of move names changed spelling between generations (e.g. "Vise Grip" / "Vice Grip"). The names in the scraped files reflect the current English name.
-- **Cosmetic forms** — Purely cosmetic variants (Vivillon wing patterns, Furfrou trims, etc.) are included if PokéAPI has separate move data for them. They share identical stats/types/moves with the base form.
-- **Adding future stat changes** — If PokéAPI is updated with new stat changes, add entries to `STAT_CHANGE_LOG` in `scrape_pokedex.py` following the existing pattern.
+Delete a single wikitext file to re-fetch that page, or use `--no-cache` /
+`verify_bulbapedia.py --refresh` for everything.

@@ -1,0 +1,5956 @@
+{
+ "pokeapi_fallback": [],
+ "bulbapedia_excluded": [
+  {
+   "game": "Sword and Shield",
+   "species": "Alolan Raichu"
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Galarian Ponyta"
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Galarian Rapidash"
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Galarian Mr. Mime"
+  },
+  {
+   "game": "Legends Arceus",
+   "species": "Hisuian Qwilfish"
+  }
+ ],
+ "stat_mismatch": [
+  {
+   "game": "Red and Blue",
+   "species": "Charmander",
+   "bulbapedia": {
+    "hp": 39,
+    "attack": 52,
+    "defense": 43,
+    "speed": 65,
+    "special_attack": 50,
+    "special_defense": 50
+   },
+   "pokeapi": {
+    "hp": 39,
+    "attack": 52,
+    "defense": 43,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 65
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Charmeleon",
+   "bulbapedia": {
+    "hp": 58,
+    "attack": 64,
+    "defense": 58,
+    "speed": 80,
+    "special_attack": 65,
+    "special_defense": 65
+   },
+   "pokeapi": {
+    "hp": 58,
+    "attack": 64,
+    "defense": 58,
+    "special_attack": 80,
+    "special_defense": 80,
+    "speed": 80
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Charizard",
+   "bulbapedia": {
+    "hp": 78,
+    "attack": 84,
+    "defense": 78,
+    "speed": 100,
+    "special_attack": 85,
+    "special_defense": 85
+   },
+   "pokeapi": {
+    "hp": 78,
+    "attack": 84,
+    "defense": 78,
+    "special_attack": 109,
+    "special_defense": 109,
+    "speed": 100
+   },
+   "heading": "charizard"
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Sandshrew",
+   "bulbapedia": {
+    "hp": 50,
+    "attack": 75,
+    "defense": 85,
+    "speed": 40,
+    "special_attack": 30,
+    "special_defense": 30
+   },
+   "pokeapi": {
+    "hp": 50,
+    "attack": 75,
+    "defense": 85,
+    "special_attack": 20,
+    "special_defense": 20,
+    "speed": 40
+   },
+   "heading": "sandshrew"
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Sandslash",
+   "bulbapedia": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 110,
+    "speed": 65,
+    "special_attack": 55,
+    "special_defense": 55
+   },
+   "pokeapi": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 110,
+    "special_attack": 45,
+    "special_defense": 45,
+    "speed": 65
+   },
+   "heading": "sandslash"
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Nidoking",
+   "bulbapedia": {
+    "hp": 81,
+    "attack": 92,
+    "defense": 77,
+    "speed": 85,
+    "special_attack": 75,
+    "special_defense": 75
+   },
+   "pokeapi": {
+    "hp": 81,
+    "attack": 92,
+    "defense": 77,
+    "special_attack": 85,
+    "special_defense": 85,
+    "speed": 85
+   },
+   "heading": "generations i-v"
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Vulpix",
+   "bulbapedia": {
+    "hp": 38,
+    "attack": 41,
+    "defense": 40,
+    "speed": 65,
+    "special_attack": 65,
+    "special_defense": 65
+   },
+   "pokeapi": {
+    "hp": 38,
+    "attack": 41,
+    "defense": 40,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 65
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Ninetales",
+   "bulbapedia": {
+    "hp": 73,
+    "attack": 76,
+    "defense": 75,
+    "speed": 100,
+    "special_attack": 100,
+    "special_defense": 100
+   },
+   "pokeapi": {
+    "hp": 73,
+    "attack": 76,
+    "defense": 75,
+    "special_attack": 81,
+    "special_defense": 81,
+    "speed": 100
+   },
+   "heading": "ninetales"
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Jigglypuff",
+   "bulbapedia": {
+    "hp": 115,
+    "attack": 45,
+    "defense": 20,
+    "speed": 20,
+    "special_attack": 25,
+    "special_defense": 25
+   },
+   "pokeapi": {
+    "hp": 115,
+    "attack": 45,
+    "defense": 20,
+    "special_attack": 45,
+    "special_defense": 45,
+    "speed": 20
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Wigglytuff",
+   "bulbapedia": {
+    "hp": 140,
+    "attack": 70,
+    "defense": 45,
+    "speed": 45,
+    "special_attack": 50,
+    "special_defense": 50
+   },
+   "pokeapi": {
+    "hp": 140,
+    "attack": 70,
+    "defense": 45,
+    "special_attack": 75,
+    "special_defense": 75,
+    "speed": 45
+   },
+   "heading": "generations i to v"
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Zubat",
+   "bulbapedia": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 35,
+    "speed": 55,
+    "special_attack": 40,
+    "special_defense": 40
+   },
+   "pokeapi": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 35,
+    "special_attack": 30,
+    "special_defense": 30,
+    "speed": 55
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Golbat",
+   "bulbapedia": {
+    "hp": 75,
+    "attack": 80,
+    "defense": 70,
+    "speed": 90,
+    "special_attack": 75,
+    "special_defense": 75
+   },
+   "pokeapi": {
+    "hp": 75,
+    "attack": 80,
+    "defense": 70,
+    "special_attack": 65,
+    "special_defense": 65,
+    "speed": 90
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Paras",
+   "bulbapedia": {
+    "hp": 35,
+    "attack": 70,
+    "defense": 55,
+    "speed": 25,
+    "special_attack": 55,
+    "special_defense": 55
+   },
+   "pokeapi": {
+    "hp": 35,
+    "attack": 70,
+    "defense": 55,
+    "special_attack": 45,
+    "special_defense": 45,
+    "speed": 25
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Parasect",
+   "bulbapedia": {
+    "hp": 60,
+    "attack": 95,
+    "defense": 80,
+    "speed": 30,
+    "special_attack": 80,
+    "special_defense": 80
+   },
+   "pokeapi": {
+    "hp": 60,
+    "attack": 95,
+    "defense": 80,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 30
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Diglett",
+   "bulbapedia": {
+    "hp": 10,
+    "attack": 55,
+    "defense": 25,
+    "speed": 95,
+    "special_attack": 45,
+    "special_defense": 45
+   },
+   "pokeapi": {
+    "hp": 10,
+    "attack": 55,
+    "defense": 25,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 95
+   },
+   "heading": "diglett"
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Dugtrio",
+   "bulbapedia": {
+    "hp": 35,
+    "attack": 80,
+    "defense": 50,
+    "speed": 120,
+    "special_attack": 70,
+    "special_defense": 70
+   },
+   "pokeapi": {
+    "hp": 35,
+    "attack": 80,
+    "defense": 50,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 120
+   },
+   "heading": "generations i-vi"
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Psyduck",
+   "bulbapedia": {
+    "hp": 50,
+    "attack": 52,
+    "defense": 48,
+    "speed": 55,
+    "special_attack": 50,
+    "special_defense": 50
+   },
+   "pokeapi": {
+    "hp": 50,
+    "attack": 52,
+    "defense": 48,
+    "special_attack": 65,
+    "special_defense": 65,
+    "speed": 55
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Golduck",
+   "bulbapedia": {
+    "hp": 80,
+    "attack": 82,
+    "defense": 78,
+    "speed": 85,
+    "special_attack": 80,
+    "special_defense": 80
+   },
+   "pokeapi": {
+    "hp": 80,
+    "attack": 82,
+    "defense": 78,
+    "special_attack": 95,
+    "special_defense": 95,
+    "speed": 85
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Growlithe",
+   "bulbapedia": {
+    "hp": 55,
+    "attack": 70,
+    "defense": 45,
+    "speed": 60,
+    "special_attack": 50,
+    "special_defense": 50
+   },
+   "pokeapi": {
+    "hp": 55,
+    "attack": 70,
+    "defense": 45,
+    "special_attack": 70,
+    "special_defense": 70,
+    "speed": 60
+   },
+   "heading": "growlithe"
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Arcanine",
+   "bulbapedia": {
+    "hp": 90,
+    "attack": 110,
+    "defense": 80,
+    "speed": 95,
+    "special_attack": 80,
+    "special_defense": 80
+   },
+   "pokeapi": {
+    "hp": 90,
+    "attack": 110,
+    "defense": 80,
+    "special_attack": 100,
+    "special_defense": 100,
+    "speed": 95
+   },
+   "heading": "arcanine"
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Tentacool",
+   "bulbapedia": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 35,
+    "speed": 70,
+    "special_attack": 100,
+    "special_defense": 100
+   },
+   "pokeapi": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 35,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 70
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Tentacruel",
+   "bulbapedia": {
+    "hp": 80,
+    "attack": 70,
+    "defense": 65,
+    "speed": 100,
+    "special_attack": 120,
+    "special_defense": 120
+   },
+   "pokeapi": {
+    "hp": 80,
+    "attack": 70,
+    "defense": 65,
+    "special_attack": 80,
+    "special_defense": 80,
+    "speed": 100
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Slowbro",
+   "bulbapedia": {
+    "hp": 95,
+    "attack": 75,
+    "defense": 110,
+    "speed": 30,
+    "special_attack": 80,
+    "special_defense": 80
+   },
+   "pokeapi": {
+    "hp": 95,
+    "attack": 75,
+    "defense": 110,
+    "special_attack": 100,
+    "special_defense": 100,
+    "speed": 30
+   },
+   "heading": "slowbro"
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Seel",
+   "bulbapedia": {
+    "hp": 65,
+    "attack": 45,
+    "defense": 55,
+    "speed": 45,
+    "special_attack": 70,
+    "special_defense": 70
+   },
+   "pokeapi": {
+    "hp": 65,
+    "attack": 45,
+    "defense": 55,
+    "special_attack": 45,
+    "special_defense": 45,
+    "speed": 45
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Dewgong",
+   "bulbapedia": {
+    "hp": 90,
+    "attack": 70,
+    "defense": 80,
+    "speed": 70,
+    "special_attack": 95,
+    "special_defense": 95
+   },
+   "pokeapi": {
+    "hp": 90,
+    "attack": 70,
+    "defense": 80,
+    "special_attack": 70,
+    "special_defense": 70,
+    "speed": 70
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Drowzee",
+   "bulbapedia": {
+    "hp": 60,
+    "attack": 48,
+    "defense": 45,
+    "speed": 42,
+    "special_attack": 90,
+    "special_defense": 90
+   },
+   "pokeapi": {
+    "hp": 60,
+    "attack": 48,
+    "defense": 45,
+    "special_attack": 43,
+    "special_defense": 43,
+    "speed": 42
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Hypno",
+   "bulbapedia": {
+    "hp": 85,
+    "attack": 73,
+    "defense": 70,
+    "speed": 67,
+    "special_attack": 115,
+    "special_defense": 115
+   },
+   "pokeapi": {
+    "hp": 85,
+    "attack": 73,
+    "defense": 70,
+    "special_attack": 73,
+    "special_defense": 73,
+    "speed": 67
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Chansey",
+   "bulbapedia": {
+    "hp": 250,
+    "attack": 5,
+    "defense": 5,
+    "speed": 50,
+    "special_attack": 105,
+    "special_defense": 105
+   },
+   "pokeapi": {
+    "hp": 250,
+    "attack": 5,
+    "defense": 5,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 50
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Goldeen",
+   "bulbapedia": {
+    "hp": 45,
+    "attack": 67,
+    "defense": 60,
+    "speed": 63,
+    "special_attack": 50,
+    "special_defense": 50
+   },
+   "pokeapi": {
+    "hp": 45,
+    "attack": 67,
+    "defense": 60,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 63
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Seaking",
+   "bulbapedia": {
+    "hp": 80,
+    "attack": 92,
+    "defense": 65,
+    "speed": 68,
+    "special_attack": 80,
+    "special_defense": 80
+   },
+   "pokeapi": {
+    "hp": 80,
+    "attack": 92,
+    "defense": 65,
+    "special_attack": 65,
+    "special_defense": 65,
+    "speed": 68
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Jynx",
+   "bulbapedia": {
+    "hp": 65,
+    "attack": 50,
+    "defense": 35,
+    "speed": 95,
+    "special_attack": 95,
+    "special_defense": 95
+   },
+   "pokeapi": {
+    "hp": 65,
+    "attack": 50,
+    "defense": 35,
+    "special_attack": 115,
+    "special_defense": 115,
+    "speed": 95
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Electabuzz",
+   "bulbapedia": {
+    "hp": 65,
+    "attack": 83,
+    "defense": 57,
+    "speed": 105,
+    "special_attack": 85,
+    "special_defense": 85
+   },
+   "pokeapi": {
+    "hp": 65,
+    "attack": 83,
+    "defense": 57,
+    "special_attack": 95,
+    "special_defense": 95,
+    "speed": 105
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Magmar",
+   "bulbapedia": {
+    "hp": 65,
+    "attack": 95,
+    "defense": 57,
+    "speed": 93,
+    "special_attack": 85,
+    "special_defense": 85
+   },
+   "pokeapi": {
+    "hp": 65,
+    "attack": 95,
+    "defense": 57,
+    "special_attack": 100,
+    "special_defense": 100,
+    "speed": 93
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Tauros",
+   "bulbapedia": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 95,
+    "speed": 110,
+    "special_attack": 70,
+    "special_defense": 70
+   },
+   "pokeapi": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 95,
+    "special_attack": 40,
+    "special_defense": 40,
+    "speed": 110
+   },
+   "heading": "tauros"
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Magikarp",
+   "bulbapedia": {
+    "hp": 20,
+    "attack": 10,
+    "defense": 55,
+    "speed": 80,
+    "special_attack": 20,
+    "special_defense": 20
+   },
+   "pokeapi": {
+    "hp": 20,
+    "attack": 10,
+    "defense": 55,
+    "special_attack": 15,
+    "special_defense": 15,
+    "speed": 80
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Gyarados",
+   "bulbapedia": {
+    "hp": 95,
+    "attack": 125,
+    "defense": 79,
+    "speed": 81,
+    "special_attack": 100,
+    "special_defense": 100
+   },
+   "pokeapi": {
+    "hp": 95,
+    "attack": 125,
+    "defense": 79,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 81
+   },
+   "heading": "gyarados"
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Lapras",
+   "bulbapedia": {
+    "hp": 130,
+    "attack": 85,
+    "defense": 80,
+    "speed": 60,
+    "special_attack": 95,
+    "special_defense": 95
+   },
+   "pokeapi": {
+    "hp": 130,
+    "attack": 85,
+    "defense": 80,
+    "special_attack": 85,
+    "special_defense": 85,
+    "speed": 60
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Eevee",
+   "bulbapedia": {
+    "hp": 55,
+    "attack": 55,
+    "defense": 50,
+    "speed": 55,
+    "special_attack": 65,
+    "special_defense": 65
+   },
+   "pokeapi": {
+    "hp": 55,
+    "attack": 55,
+    "defense": 50,
+    "special_attack": 45,
+    "special_defense": 45,
+    "speed": 55
+   },
+   "heading": "eevee"
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Flareon",
+   "bulbapedia": {
+    "hp": 65,
+    "attack": 130,
+    "defense": 60,
+    "speed": 65,
+    "special_attack": 110,
+    "special_defense": 110
+   },
+   "pokeapi": {
+    "hp": 65,
+    "attack": 130,
+    "defense": 60,
+    "special_attack": 95,
+    "special_defense": 95,
+    "speed": 65
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Porygon",
+   "bulbapedia": {
+    "hp": 65,
+    "attack": 60,
+    "defense": 70,
+    "speed": 40,
+    "special_attack": 75,
+    "special_defense": 75
+   },
+   "pokeapi": {
+    "hp": 65,
+    "attack": 60,
+    "defense": 70,
+    "special_attack": 85,
+    "special_defense": 85,
+    "speed": 40
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Kabuto",
+   "bulbapedia": {
+    "hp": 30,
+    "attack": 80,
+    "defense": 90,
+    "speed": 55,
+    "special_attack": 45,
+    "special_defense": 45
+   },
+   "pokeapi": {
+    "hp": 30,
+    "attack": 80,
+    "defense": 90,
+    "special_attack": 55,
+    "special_defense": 55,
+    "speed": 55
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Kabutops",
+   "bulbapedia": {
+    "hp": 60,
+    "attack": 115,
+    "defense": 105,
+    "speed": 80,
+    "special_attack": 70,
+    "special_defense": 70
+   },
+   "pokeapi": {
+    "hp": 60,
+    "attack": 115,
+    "defense": 105,
+    "special_attack": 65,
+    "special_defense": 65,
+    "speed": 80
+   },
+   "heading": ""
+  },
+  {
+   "game": "Red and Blue",
+   "species": "Articuno",
+   "bulbapedia": {
+    "hp": 90,
+    "attack": 85,
+    "defense": 100,
+    "speed": 85,
+    "special_attack": 125,
+    "special_defense": 125
+   },
+   "pokeapi": {
+    "hp": 90,
+    "attack": 85,
+    "defense": 100,
+    "special_attack": 95,
+    "special_defense": 95,
+    "speed": 85
+   },
+   "heading": "articuno"
+  },
+  {
+   "game": "Yellow",
+   "species": "Charmander",
+   "bulbapedia": {
+    "hp": 39,
+    "attack": 52,
+    "defense": 43,
+    "speed": 65,
+    "special_attack": 50,
+    "special_defense": 50
+   },
+   "pokeapi": {
+    "hp": 39,
+    "attack": 52,
+    "defense": 43,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 65
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Charmeleon",
+   "bulbapedia": {
+    "hp": 58,
+    "attack": 64,
+    "defense": 58,
+    "speed": 80,
+    "special_attack": 65,
+    "special_defense": 65
+   },
+   "pokeapi": {
+    "hp": 58,
+    "attack": 64,
+    "defense": 58,
+    "special_attack": 80,
+    "special_defense": 80,
+    "speed": 80
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Charizard",
+   "bulbapedia": {
+    "hp": 78,
+    "attack": 84,
+    "defense": 78,
+    "speed": 100,
+    "special_attack": 85,
+    "special_defense": 85
+   },
+   "pokeapi": {
+    "hp": 78,
+    "attack": 84,
+    "defense": 78,
+    "special_attack": 109,
+    "special_defense": 109,
+    "speed": 100
+   },
+   "heading": "charizard"
+  },
+  {
+   "game": "Yellow",
+   "species": "Sandshrew",
+   "bulbapedia": {
+    "hp": 50,
+    "attack": 75,
+    "defense": 85,
+    "speed": 40,
+    "special_attack": 30,
+    "special_defense": 30
+   },
+   "pokeapi": {
+    "hp": 50,
+    "attack": 75,
+    "defense": 85,
+    "special_attack": 20,
+    "special_defense": 20,
+    "speed": 40
+   },
+   "heading": "sandshrew"
+  },
+  {
+   "game": "Yellow",
+   "species": "Sandslash",
+   "bulbapedia": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 110,
+    "speed": 65,
+    "special_attack": 55,
+    "special_defense": 55
+   },
+   "pokeapi": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 110,
+    "special_attack": 45,
+    "special_defense": 45,
+    "speed": 65
+   },
+   "heading": "sandslash"
+  },
+  {
+   "game": "Yellow",
+   "species": "Nidoking",
+   "bulbapedia": {
+    "hp": 81,
+    "attack": 92,
+    "defense": 77,
+    "speed": 85,
+    "special_attack": 75,
+    "special_defense": 75
+   },
+   "pokeapi": {
+    "hp": 81,
+    "attack": 92,
+    "defense": 77,
+    "special_attack": 85,
+    "special_defense": 85,
+    "speed": 85
+   },
+   "heading": "generations i-v"
+  },
+  {
+   "game": "Yellow",
+   "species": "Vulpix",
+   "bulbapedia": {
+    "hp": 38,
+    "attack": 41,
+    "defense": 40,
+    "speed": 65,
+    "special_attack": 65,
+    "special_defense": 65
+   },
+   "pokeapi": {
+    "hp": 38,
+    "attack": 41,
+    "defense": 40,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 65
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Ninetales",
+   "bulbapedia": {
+    "hp": 73,
+    "attack": 76,
+    "defense": 75,
+    "speed": 100,
+    "special_attack": 100,
+    "special_defense": 100
+   },
+   "pokeapi": {
+    "hp": 73,
+    "attack": 76,
+    "defense": 75,
+    "special_attack": 81,
+    "special_defense": 81,
+    "speed": 100
+   },
+   "heading": "ninetales"
+  },
+  {
+   "game": "Yellow",
+   "species": "Jigglypuff",
+   "bulbapedia": {
+    "hp": 115,
+    "attack": 45,
+    "defense": 20,
+    "speed": 20,
+    "special_attack": 25,
+    "special_defense": 25
+   },
+   "pokeapi": {
+    "hp": 115,
+    "attack": 45,
+    "defense": 20,
+    "special_attack": 45,
+    "special_defense": 45,
+    "speed": 20
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Wigglytuff",
+   "bulbapedia": {
+    "hp": 140,
+    "attack": 70,
+    "defense": 45,
+    "speed": 45,
+    "special_attack": 50,
+    "special_defense": 50
+   },
+   "pokeapi": {
+    "hp": 140,
+    "attack": 70,
+    "defense": 45,
+    "special_attack": 75,
+    "special_defense": 75,
+    "speed": 45
+   },
+   "heading": "generations i to v"
+  },
+  {
+   "game": "Yellow",
+   "species": "Zubat",
+   "bulbapedia": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 35,
+    "speed": 55,
+    "special_attack": 40,
+    "special_defense": 40
+   },
+   "pokeapi": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 35,
+    "special_attack": 30,
+    "special_defense": 30,
+    "speed": 55
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Golbat",
+   "bulbapedia": {
+    "hp": 75,
+    "attack": 80,
+    "defense": 70,
+    "speed": 90,
+    "special_attack": 75,
+    "special_defense": 75
+   },
+   "pokeapi": {
+    "hp": 75,
+    "attack": 80,
+    "defense": 70,
+    "special_attack": 65,
+    "special_defense": 65,
+    "speed": 90
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Paras",
+   "bulbapedia": {
+    "hp": 35,
+    "attack": 70,
+    "defense": 55,
+    "speed": 25,
+    "special_attack": 55,
+    "special_defense": 55
+   },
+   "pokeapi": {
+    "hp": 35,
+    "attack": 70,
+    "defense": 55,
+    "special_attack": 45,
+    "special_defense": 45,
+    "speed": 25
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Parasect",
+   "bulbapedia": {
+    "hp": 60,
+    "attack": 95,
+    "defense": 80,
+    "speed": 30,
+    "special_attack": 80,
+    "special_defense": 80
+   },
+   "pokeapi": {
+    "hp": 60,
+    "attack": 95,
+    "defense": 80,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 30
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Diglett",
+   "bulbapedia": {
+    "hp": 10,
+    "attack": 55,
+    "defense": 25,
+    "speed": 95,
+    "special_attack": 45,
+    "special_defense": 45
+   },
+   "pokeapi": {
+    "hp": 10,
+    "attack": 55,
+    "defense": 25,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 95
+   },
+   "heading": "diglett"
+  },
+  {
+   "game": "Yellow",
+   "species": "Dugtrio",
+   "bulbapedia": {
+    "hp": 35,
+    "attack": 80,
+    "defense": 50,
+    "speed": 120,
+    "special_attack": 70,
+    "special_defense": 70
+   },
+   "pokeapi": {
+    "hp": 35,
+    "attack": 80,
+    "defense": 50,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 120
+   },
+   "heading": "generations i-vi"
+  },
+  {
+   "game": "Yellow",
+   "species": "Psyduck",
+   "bulbapedia": {
+    "hp": 50,
+    "attack": 52,
+    "defense": 48,
+    "speed": 55,
+    "special_attack": 50,
+    "special_defense": 50
+   },
+   "pokeapi": {
+    "hp": 50,
+    "attack": 52,
+    "defense": 48,
+    "special_attack": 65,
+    "special_defense": 65,
+    "speed": 55
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Golduck",
+   "bulbapedia": {
+    "hp": 80,
+    "attack": 82,
+    "defense": 78,
+    "speed": 85,
+    "special_attack": 80,
+    "special_defense": 80
+   },
+   "pokeapi": {
+    "hp": 80,
+    "attack": 82,
+    "defense": 78,
+    "special_attack": 95,
+    "special_defense": 95,
+    "speed": 85
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Growlithe",
+   "bulbapedia": {
+    "hp": 55,
+    "attack": 70,
+    "defense": 45,
+    "speed": 60,
+    "special_attack": 50,
+    "special_defense": 50
+   },
+   "pokeapi": {
+    "hp": 55,
+    "attack": 70,
+    "defense": 45,
+    "special_attack": 70,
+    "special_defense": 70,
+    "speed": 60
+   },
+   "heading": "growlithe"
+  },
+  {
+   "game": "Yellow",
+   "species": "Arcanine",
+   "bulbapedia": {
+    "hp": 90,
+    "attack": 110,
+    "defense": 80,
+    "speed": 95,
+    "special_attack": 80,
+    "special_defense": 80
+   },
+   "pokeapi": {
+    "hp": 90,
+    "attack": 110,
+    "defense": 80,
+    "special_attack": 100,
+    "special_defense": 100,
+    "speed": 95
+   },
+   "heading": "arcanine"
+  },
+  {
+   "game": "Yellow",
+   "species": "Tentacool",
+   "bulbapedia": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 35,
+    "speed": 70,
+    "special_attack": 100,
+    "special_defense": 100
+   },
+   "pokeapi": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 35,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 70
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Tentacruel",
+   "bulbapedia": {
+    "hp": 80,
+    "attack": 70,
+    "defense": 65,
+    "speed": 100,
+    "special_attack": 120,
+    "special_defense": 120
+   },
+   "pokeapi": {
+    "hp": 80,
+    "attack": 70,
+    "defense": 65,
+    "special_attack": 80,
+    "special_defense": 80,
+    "speed": 100
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Slowbro",
+   "bulbapedia": {
+    "hp": 95,
+    "attack": 75,
+    "defense": 110,
+    "speed": 30,
+    "special_attack": 80,
+    "special_defense": 80
+   },
+   "pokeapi": {
+    "hp": 95,
+    "attack": 75,
+    "defense": 110,
+    "special_attack": 100,
+    "special_defense": 100,
+    "speed": 30
+   },
+   "heading": "slowbro"
+  },
+  {
+   "game": "Yellow",
+   "species": "Seel",
+   "bulbapedia": {
+    "hp": 65,
+    "attack": 45,
+    "defense": 55,
+    "speed": 45,
+    "special_attack": 70,
+    "special_defense": 70
+   },
+   "pokeapi": {
+    "hp": 65,
+    "attack": 45,
+    "defense": 55,
+    "special_attack": 45,
+    "special_defense": 45,
+    "speed": 45
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Dewgong",
+   "bulbapedia": {
+    "hp": 90,
+    "attack": 70,
+    "defense": 80,
+    "speed": 70,
+    "special_attack": 95,
+    "special_defense": 95
+   },
+   "pokeapi": {
+    "hp": 90,
+    "attack": 70,
+    "defense": 80,
+    "special_attack": 70,
+    "special_defense": 70,
+    "speed": 70
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Drowzee",
+   "bulbapedia": {
+    "hp": 60,
+    "attack": 48,
+    "defense": 45,
+    "speed": 42,
+    "special_attack": 90,
+    "special_defense": 90
+   },
+   "pokeapi": {
+    "hp": 60,
+    "attack": 48,
+    "defense": 45,
+    "special_attack": 43,
+    "special_defense": 43,
+    "speed": 42
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Hypno",
+   "bulbapedia": {
+    "hp": 85,
+    "attack": 73,
+    "defense": 70,
+    "speed": 67,
+    "special_attack": 115,
+    "special_defense": 115
+   },
+   "pokeapi": {
+    "hp": 85,
+    "attack": 73,
+    "defense": 70,
+    "special_attack": 73,
+    "special_defense": 73,
+    "speed": 67
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Chansey",
+   "bulbapedia": {
+    "hp": 250,
+    "attack": 5,
+    "defense": 5,
+    "speed": 50,
+    "special_attack": 105,
+    "special_defense": 105
+   },
+   "pokeapi": {
+    "hp": 250,
+    "attack": 5,
+    "defense": 5,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 50
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Goldeen",
+   "bulbapedia": {
+    "hp": 45,
+    "attack": 67,
+    "defense": 60,
+    "speed": 63,
+    "special_attack": 50,
+    "special_defense": 50
+   },
+   "pokeapi": {
+    "hp": 45,
+    "attack": 67,
+    "defense": 60,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 63
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Seaking",
+   "bulbapedia": {
+    "hp": 80,
+    "attack": 92,
+    "defense": 65,
+    "speed": 68,
+    "special_attack": 80,
+    "special_defense": 80
+   },
+   "pokeapi": {
+    "hp": 80,
+    "attack": 92,
+    "defense": 65,
+    "special_attack": 65,
+    "special_defense": 65,
+    "speed": 68
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Jynx",
+   "bulbapedia": {
+    "hp": 65,
+    "attack": 50,
+    "defense": 35,
+    "speed": 95,
+    "special_attack": 95,
+    "special_defense": 95
+   },
+   "pokeapi": {
+    "hp": 65,
+    "attack": 50,
+    "defense": 35,
+    "special_attack": 115,
+    "special_defense": 115,
+    "speed": 95
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Electabuzz",
+   "bulbapedia": {
+    "hp": 65,
+    "attack": 83,
+    "defense": 57,
+    "speed": 105,
+    "special_attack": 85,
+    "special_defense": 85
+   },
+   "pokeapi": {
+    "hp": 65,
+    "attack": 83,
+    "defense": 57,
+    "special_attack": 95,
+    "special_defense": 95,
+    "speed": 105
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Magmar",
+   "bulbapedia": {
+    "hp": 65,
+    "attack": 95,
+    "defense": 57,
+    "speed": 93,
+    "special_attack": 85,
+    "special_defense": 85
+   },
+   "pokeapi": {
+    "hp": 65,
+    "attack": 95,
+    "defense": 57,
+    "special_attack": 100,
+    "special_defense": 100,
+    "speed": 93
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Tauros",
+   "bulbapedia": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 95,
+    "speed": 110,
+    "special_attack": 70,
+    "special_defense": 70
+   },
+   "pokeapi": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 95,
+    "special_attack": 40,
+    "special_defense": 40,
+    "speed": 110
+   },
+   "heading": "tauros"
+  },
+  {
+   "game": "Yellow",
+   "species": "Magikarp",
+   "bulbapedia": {
+    "hp": 20,
+    "attack": 10,
+    "defense": 55,
+    "speed": 80,
+    "special_attack": 20,
+    "special_defense": 20
+   },
+   "pokeapi": {
+    "hp": 20,
+    "attack": 10,
+    "defense": 55,
+    "special_attack": 15,
+    "special_defense": 15,
+    "speed": 80
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Gyarados",
+   "bulbapedia": {
+    "hp": 95,
+    "attack": 125,
+    "defense": 79,
+    "speed": 81,
+    "special_attack": 100,
+    "special_defense": 100
+   },
+   "pokeapi": {
+    "hp": 95,
+    "attack": 125,
+    "defense": 79,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 81
+   },
+   "heading": "gyarados"
+  },
+  {
+   "game": "Yellow",
+   "species": "Lapras",
+   "bulbapedia": {
+    "hp": 130,
+    "attack": 85,
+    "defense": 80,
+    "speed": 60,
+    "special_attack": 95,
+    "special_defense": 95
+   },
+   "pokeapi": {
+    "hp": 130,
+    "attack": 85,
+    "defense": 80,
+    "special_attack": 85,
+    "special_defense": 85,
+    "speed": 60
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Eevee",
+   "bulbapedia": {
+    "hp": 55,
+    "attack": 55,
+    "defense": 50,
+    "speed": 55,
+    "special_attack": 65,
+    "special_defense": 65
+   },
+   "pokeapi": {
+    "hp": 55,
+    "attack": 55,
+    "defense": 50,
+    "special_attack": 45,
+    "special_defense": 45,
+    "speed": 55
+   },
+   "heading": "eevee"
+  },
+  {
+   "game": "Yellow",
+   "species": "Flareon",
+   "bulbapedia": {
+    "hp": 65,
+    "attack": 130,
+    "defense": 60,
+    "speed": 65,
+    "special_attack": 110,
+    "special_defense": 110
+   },
+   "pokeapi": {
+    "hp": 65,
+    "attack": 130,
+    "defense": 60,
+    "special_attack": 95,
+    "special_defense": 95,
+    "speed": 65
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Porygon",
+   "bulbapedia": {
+    "hp": 65,
+    "attack": 60,
+    "defense": 70,
+    "speed": 40,
+    "special_attack": 75,
+    "special_defense": 75
+   },
+   "pokeapi": {
+    "hp": 65,
+    "attack": 60,
+    "defense": 70,
+    "special_attack": 85,
+    "special_defense": 85,
+    "speed": 40
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Kabuto",
+   "bulbapedia": {
+    "hp": 30,
+    "attack": 80,
+    "defense": 90,
+    "speed": 55,
+    "special_attack": 45,
+    "special_defense": 45
+   },
+   "pokeapi": {
+    "hp": 30,
+    "attack": 80,
+    "defense": 90,
+    "special_attack": 55,
+    "special_defense": 55,
+    "speed": 55
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Kabutops",
+   "bulbapedia": {
+    "hp": 60,
+    "attack": 115,
+    "defense": 105,
+    "speed": 80,
+    "special_attack": 70,
+    "special_defense": 70
+   },
+   "pokeapi": {
+    "hp": 60,
+    "attack": 115,
+    "defense": 105,
+    "special_attack": 65,
+    "special_defense": 65,
+    "speed": 80
+   },
+   "heading": ""
+  },
+  {
+   "game": "Yellow",
+   "species": "Articuno",
+   "bulbapedia": {
+    "hp": 90,
+    "attack": 85,
+    "defense": 100,
+    "speed": 85,
+    "special_attack": 125,
+    "special_defense": 125
+   },
+   "pokeapi": {
+    "hp": 90,
+    "attack": 85,
+    "defense": 100,
+    "special_attack": 95,
+    "special_defense": 95,
+    "speed": 85
+   },
+   "heading": "articuno"
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Mawile",
+   "bulbapedia": {
+    "hp": 50,
+    "attack": 147,
+    "defense": 125,
+    "speed": 50,
+    "special_attack": 55,
+    "special_defense": 95
+   },
+   "pokeapi": {
+    "hp": 50,
+    "attack": 105,
+    "defense": 125,
+    "special_attack": 55,
+    "special_defense": 95,
+    "speed": 50
+   },
+   "heading": "pokémon legends: z-a"
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Meditite",
+   "bulbapedia": {
+    "hp": 30,
+    "attack": 56,
+    "defense": 55,
+    "speed": 60,
+    "special_attack": 40,
+    "special_defense": 55
+   },
+   "pokeapi": {
+    "hp": 30,
+    "attack": 40,
+    "defense": 55,
+    "special_attack": 40,
+    "special_defense": 55,
+    "speed": 60
+   },
+   "heading": "pokémon legends: z-a"
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Medicham",
+   "bulbapedia": {
+    "hp": 60,
+    "attack": 84,
+    "defense": 75,
+    "speed": 80,
+    "special_attack": 60,
+    "special_defense": 75
+   },
+   "pokeapi": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 75,
+    "special_attack": 60,
+    "special_defense": 75,
+    "speed": 80
+   },
+   "heading": "pokémon legends: z-a"
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Medicham",
+   "bulbapedia": {
+    "hp": 60,
+    "attack": 140,
+    "defense": 85,
+    "speed": 100,
+    "special_attack": 80,
+    "special_defense": 85
+   },
+   "pokeapi": {
+    "hp": 60,
+    "attack": 100,
+    "defense": 85,
+    "special_attack": 80,
+    "special_defense": 85,
+    "speed": 100
+   },
+   "heading": "pokémon legends: z-a"
+  }
+ ],
+ "no_bulbapedia_stats": [],
+ "unknown_moves": {
+  "Nihil Light": [
+   "Legends Z-A: Zygarde",
+   "Legends Z-A: Zygarde (Complete)",
+   "Legends Z-A: Zygarde (10)",
+   "Legends Z-A: Mega Zygarde"
+  ]
+ },
+ "form_unmatched": [
+  {
+   "game": "Ruby and Sapphire",
+   "species": "Castform (Sunny)",
+   "descriptor": [
+    "sunny"
+   ]
+  },
+  {
+   "game": "Ruby and Sapphire",
+   "species": "Castform (Rainy)",
+   "descriptor": [
+    "rainy"
+   ]
+  },
+  {
+   "game": "Ruby and Sapphire",
+   "species": "Castform (Snowy)",
+   "descriptor": [
+    "snowy"
+   ]
+  },
+  {
+   "game": "Emerald",
+   "species": "Castform (Sunny)",
+   "descriptor": [
+    "sunny"
+   ]
+  },
+  {
+   "game": "Emerald",
+   "species": "Castform (Rainy)",
+   "descriptor": [
+    "rainy"
+   ]
+  },
+  {
+   "game": "Emerald",
+   "species": "Castform (Snowy)",
+   "descriptor": [
+    "snowy"
+   ]
+  },
+  {
+   "game": "FireRed and LeafGreen",
+   "species": "Castform (Sunny)",
+   "descriptor": [
+    "sunny"
+   ]
+  },
+  {
+   "game": "FireRed and LeafGreen",
+   "species": "Castform (Rainy)",
+   "descriptor": [
+    "rainy"
+   ]
+  },
+  {
+   "game": "FireRed and LeafGreen",
+   "species": "Castform (Snowy)",
+   "descriptor": [
+    "snowy"
+   ]
+  },
+  {
+   "game": "Diamond and Pearl",
+   "species": "Castform (Sunny)",
+   "descriptor": [
+    "sunny"
+   ]
+  },
+  {
+   "game": "Diamond and Pearl",
+   "species": "Castform (Rainy)",
+   "descriptor": [
+    "rainy"
+   ]
+  },
+  {
+   "game": "Diamond and Pearl",
+   "species": "Castform (Snowy)",
+   "descriptor": [
+    "snowy"
+   ]
+  },
+  {
+   "game": "Platinum",
+   "species": "Castform (Sunny)",
+   "descriptor": [
+    "sunny"
+   ]
+  },
+  {
+   "game": "Platinum",
+   "species": "Castform (Rainy)",
+   "descriptor": [
+    "rainy"
+   ]
+  },
+  {
+   "game": "Platinum",
+   "species": "Castform (Snowy)",
+   "descriptor": [
+    "snowy"
+   ]
+  },
+  {
+   "game": "Platinum",
+   "species": "Rotom (Heat)",
+   "descriptor": [
+    "heat"
+   ]
+  },
+  {
+   "game": "Platinum",
+   "species": "Rotom (Wash)",
+   "descriptor": [
+    "wash"
+   ]
+  },
+  {
+   "game": "Platinum",
+   "species": "Rotom (Frost)",
+   "descriptor": [
+    "frost"
+   ]
+  },
+  {
+   "game": "Platinum",
+   "species": "Rotom (Fan)",
+   "descriptor": [
+    "fan"
+   ]
+  },
+  {
+   "game": "Platinum",
+   "species": "Rotom (Mow)",
+   "descriptor": [
+    "mow"
+   ]
+  },
+  {
+   "game": "Platinum",
+   "species": "Giratina (Origin)",
+   "descriptor": [
+    "origin"
+   ]
+  },
+  {
+   "game": "HeartGold and SoulSilver",
+   "species": "Castform (Sunny)",
+   "descriptor": [
+    "sunny"
+   ]
+  },
+  {
+   "game": "HeartGold and SoulSilver",
+   "species": "Castform (Rainy)",
+   "descriptor": [
+    "rainy"
+   ]
+  },
+  {
+   "game": "HeartGold and SoulSilver",
+   "species": "Castform (Snowy)",
+   "descriptor": [
+    "snowy"
+   ]
+  },
+  {
+   "game": "HeartGold and SoulSilver",
+   "species": "Rotom (Heat)",
+   "descriptor": [
+    "heat"
+   ]
+  },
+  {
+   "game": "HeartGold and SoulSilver",
+   "species": "Rotom (Wash)",
+   "descriptor": [
+    "wash"
+   ]
+  },
+  {
+   "game": "HeartGold and SoulSilver",
+   "species": "Rotom (Frost)",
+   "descriptor": [
+    "frost"
+   ]
+  },
+  {
+   "game": "HeartGold and SoulSilver",
+   "species": "Rotom (Fan)",
+   "descriptor": [
+    "fan"
+   ]
+  },
+  {
+   "game": "HeartGold and SoulSilver",
+   "species": "Rotom (Mow)",
+   "descriptor": [
+    "mow"
+   ]
+  },
+  {
+   "game": "HeartGold and SoulSilver",
+   "species": "Giratina (Origin)",
+   "descriptor": [
+    "origin"
+   ]
+  },
+  {
+   "game": "Black and White",
+   "species": "Castform (Sunny)",
+   "descriptor": [
+    "sunny"
+   ]
+  },
+  {
+   "game": "Black and White",
+   "species": "Castform (Rainy)",
+   "descriptor": [
+    "rainy"
+   ]
+  },
+  {
+   "game": "Black and White",
+   "species": "Castform (Snowy)",
+   "descriptor": [
+    "snowy"
+   ]
+  },
+  {
+   "game": "Black and White",
+   "species": "Rotom (Heat)",
+   "descriptor": [
+    "heat"
+   ]
+  },
+  {
+   "game": "Black and White",
+   "species": "Rotom (Wash)",
+   "descriptor": [
+    "wash"
+   ]
+  },
+  {
+   "game": "Black and White",
+   "species": "Rotom (Frost)",
+   "descriptor": [
+    "frost"
+   ]
+  },
+  {
+   "game": "Black and White",
+   "species": "Rotom (Fan)",
+   "descriptor": [
+    "fan"
+   ]
+  },
+  {
+   "game": "Black and White",
+   "species": "Rotom (Mow)",
+   "descriptor": [
+    "mow"
+   ]
+  },
+  {
+   "game": "Black and White",
+   "species": "Giratina (Origin)",
+   "descriptor": [
+    "origin"
+   ]
+  },
+  {
+   "game": "Black and White",
+   "species": "Basculin (Blue Striped)",
+   "descriptor": [
+    "blue",
+    "striped"
+   ]
+  },
+  {
+   "game": "Black and White",
+   "species": "Darmanitan (Zen)",
+   "descriptor": [
+    "zen"
+   ]
+  },
+  {
+   "game": "Black and White",
+   "species": "Meloetta (Pirouette)",
+   "descriptor": [
+    "pirouette"
+   ]
+  },
+  {
+   "game": "Black 2 and White 2",
+   "species": "Castform (Sunny)",
+   "descriptor": [
+    "sunny"
+   ]
+  },
+  {
+   "game": "Black 2 and White 2",
+   "species": "Castform (Rainy)",
+   "descriptor": [
+    "rainy"
+   ]
+  },
+  {
+   "game": "Black 2 and White 2",
+   "species": "Castform (Snowy)",
+   "descriptor": [
+    "snowy"
+   ]
+  },
+  {
+   "game": "Black 2 and White 2",
+   "species": "Rotom (Heat)",
+   "descriptor": [
+    "heat"
+   ]
+  },
+  {
+   "game": "Black 2 and White 2",
+   "species": "Rotom (Wash)",
+   "descriptor": [
+    "wash"
+   ]
+  },
+  {
+   "game": "Black 2 and White 2",
+   "species": "Rotom (Frost)",
+   "descriptor": [
+    "frost"
+   ]
+  },
+  {
+   "game": "Black 2 and White 2",
+   "species": "Rotom (Fan)",
+   "descriptor": [
+    "fan"
+   ]
+  },
+  {
+   "game": "Black 2 and White 2",
+   "species": "Rotom (Mow)",
+   "descriptor": [
+    "mow"
+   ]
+  },
+  {
+   "game": "Black 2 and White 2",
+   "species": "Giratina (Origin)",
+   "descriptor": [
+    "origin"
+   ]
+  },
+  {
+   "game": "Black 2 and White 2",
+   "species": "Basculin (Blue Striped)",
+   "descriptor": [
+    "blue",
+    "striped"
+   ]
+  },
+  {
+   "game": "Black 2 and White 2",
+   "species": "Darmanitan (Zen)",
+   "descriptor": [
+    "zen"
+   ]
+  },
+  {
+   "game": "Black 2 and White 2",
+   "species": "Tornadus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "Black 2 and White 2",
+   "species": "Thundurus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "Black 2 and White 2",
+   "species": "Landorus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "Black 2 and White 2",
+   "species": "Meloetta (Pirouette)",
+   "descriptor": [
+    "pirouette"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Venusaur",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Charizard X",
+   "descriptor": [
+    "mega",
+    "x"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Charizard Y",
+   "descriptor": [
+    "mega",
+    "y"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Blastoise",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Beedrill",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Pidgeot",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Alakazam",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Slowbro",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Gengar",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Kangaskhan",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Pinsir",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Gyarados",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Aerodactyl",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Mewtwo X",
+   "descriptor": [
+    "mega",
+    "x"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Mewtwo Y",
+   "descriptor": [
+    "mega",
+    "y"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Ampharos",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Steelix",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Scizor",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Heracross",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Houndoom",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Tyranitar",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Sceptile",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Blaziken",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Swampert",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Gardevoir",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Sableye",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Mawile",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Aggron",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Medicham",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Manectric",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Sharpedo",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Camerupt",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Altaria",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Castform (Sunny)",
+   "descriptor": [
+    "sunny"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Castform (Rainy)",
+   "descriptor": [
+    "rainy"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Castform (Snowy)",
+   "descriptor": [
+    "snowy"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Banette",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Absol",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Glalie",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Salamence",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Metagross",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Latias",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Latios",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Primal Kyogre",
+   "descriptor": [
+    "primal"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Primal Groudon",
+   "descriptor": [
+    "primal"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Rayquaza",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Lopunny",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Garchomp",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Lucario",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Abomasnow",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Gallade",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Rotom (Heat)",
+   "descriptor": [
+    "heat"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Rotom (Wash)",
+   "descriptor": [
+    "wash"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Rotom (Frost)",
+   "descriptor": [
+    "frost"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Rotom (Fan)",
+   "descriptor": [
+    "fan"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Rotom (Mow)",
+   "descriptor": [
+    "mow"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Giratina (Origin)",
+   "descriptor": [
+    "origin"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Audino",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Basculin (Blue Striped)",
+   "descriptor": [
+    "blue",
+    "striped"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Darmanitan (Zen)",
+   "descriptor": [
+    "zen"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Tornadus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Thundurus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Landorus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Meloetta (Pirouette)",
+   "descriptor": [
+    "pirouette"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Floette (Eternal)",
+   "descriptor": [
+    "eternal"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Aegislash (Blade)",
+   "descriptor": [
+    "blade"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Pumpkaboo (Small)",
+   "descriptor": [
+    "small"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Pumpkaboo (Large)",
+   "descriptor": [
+    "large"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Pumpkaboo (Super)",
+   "descriptor": [
+    "super"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Gourgeist (Small)",
+   "descriptor": [
+    "small"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Gourgeist (Large)",
+   "descriptor": [
+    "large"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Gourgeist (Super)",
+   "descriptor": [
+    "super"
+   ]
+  },
+  {
+   "game": "X and Y",
+   "species": "Mega Diancie",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Venusaur",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Charizard X",
+   "descriptor": [
+    "mega",
+    "x"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Charizard Y",
+   "descriptor": [
+    "mega",
+    "y"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Blastoise",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Beedrill",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Pidgeot",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Alakazam",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Slowbro",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Gengar",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Kangaskhan",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Pinsir",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Gyarados",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Aerodactyl",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Mewtwo X",
+   "descriptor": [
+    "mega",
+    "x"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Mewtwo Y",
+   "descriptor": [
+    "mega",
+    "y"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Ampharos",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Steelix",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Scizor",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Heracross",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Houndoom",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Tyranitar",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Sceptile",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Blaziken",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Swampert",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Gardevoir",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Sableye",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Mawile",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Aggron",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Medicham",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Manectric",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Sharpedo",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Camerupt",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Altaria",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Castform (Sunny)",
+   "descriptor": [
+    "sunny"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Castform (Rainy)",
+   "descriptor": [
+    "rainy"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Castform (Snowy)",
+   "descriptor": [
+    "snowy"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Banette",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Absol",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Glalie",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Salamence",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Metagross",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Latias",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Latios",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Primal Kyogre",
+   "descriptor": [
+    "primal"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Primal Groudon",
+   "descriptor": [
+    "primal"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Rayquaza",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Lopunny",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Garchomp",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Lucario",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Abomasnow",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Gallade",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Rotom (Heat)",
+   "descriptor": [
+    "heat"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Rotom (Wash)",
+   "descriptor": [
+    "wash"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Rotom (Frost)",
+   "descriptor": [
+    "frost"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Rotom (Fan)",
+   "descriptor": [
+    "fan"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Rotom (Mow)",
+   "descriptor": [
+    "mow"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Giratina (Origin)",
+   "descriptor": [
+    "origin"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Audino",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Basculin (Blue Striped)",
+   "descriptor": [
+    "blue",
+    "striped"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Darmanitan (Zen)",
+   "descriptor": [
+    "zen"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Tornadus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Thundurus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Landorus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Meloetta (Pirouette)",
+   "descriptor": [
+    "pirouette"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Floette (Eternal)",
+   "descriptor": [
+    "eternal"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Aegislash (Blade)",
+   "descriptor": [
+    "blade"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Pumpkaboo (Small)",
+   "descriptor": [
+    "small"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Pumpkaboo (Large)",
+   "descriptor": [
+    "large"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Pumpkaboo (Super)",
+   "descriptor": [
+    "super"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Gourgeist (Small)",
+   "descriptor": [
+    "small"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Gourgeist (Large)",
+   "descriptor": [
+    "large"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Gourgeist (Super)",
+   "descriptor": [
+    "super"
+   ]
+  },
+  {
+   "game": "Omega Ruby and Alpha Sapphire",
+   "species": "Mega Diancie",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Venusaur",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Charizard X",
+   "descriptor": [
+    "mega",
+    "x"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Charizard Y",
+   "descriptor": [
+    "mega",
+    "y"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Blastoise",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Beedrill",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Pidgeot",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Alakazam",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Slowbro",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Gengar",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Kangaskhan",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Pinsir",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Gyarados",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Aerodactyl",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Mewtwo X",
+   "descriptor": [
+    "mega",
+    "x"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Mewtwo Y",
+   "descriptor": [
+    "mega",
+    "y"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Ampharos",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Steelix",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Scizor",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Heracross",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Houndoom",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Tyranitar",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Sceptile",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Blaziken",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Swampert",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Gardevoir",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Sableye",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Mawile",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Aggron",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Medicham",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Manectric",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Sharpedo",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Camerupt",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Altaria",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Castform (Sunny)",
+   "descriptor": [
+    "sunny"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Castform (Rainy)",
+   "descriptor": [
+    "rainy"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Castform (Snowy)",
+   "descriptor": [
+    "snowy"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Banette",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Absol",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Glalie",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Salamence",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Metagross",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Latias",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Latios",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Primal Kyogre",
+   "descriptor": [
+    "primal"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Primal Groudon",
+   "descriptor": [
+    "primal"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Rayquaza",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Lopunny",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Garchomp",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Lucario",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Abomasnow",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Gallade",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Rotom (Heat)",
+   "descriptor": [
+    "heat"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Rotom (Wash)",
+   "descriptor": [
+    "wash"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Rotom (Frost)",
+   "descriptor": [
+    "frost"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Rotom (Fan)",
+   "descriptor": [
+    "fan"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Rotom (Mow)",
+   "descriptor": [
+    "mow"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Giratina (Origin)",
+   "descriptor": [
+    "origin"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Audino",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Basculin (Blue Striped)",
+   "descriptor": [
+    "blue",
+    "striped"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Darmanitan (Zen)",
+   "descriptor": [
+    "zen"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Tornadus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Thundurus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Landorus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Meloetta (Pirouette)",
+   "descriptor": [
+    "pirouette"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Greninja (Ash)",
+   "descriptor": [
+    "ash"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Floette (Eternal)",
+   "descriptor": [
+    "eternal"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Aegislash (Blade)",
+   "descriptor": [
+    "blade"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Pumpkaboo (Small)",
+   "descriptor": [
+    "small"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Pumpkaboo (Large)",
+   "descriptor": [
+    "large"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Pumpkaboo (Super)",
+   "descriptor": [
+    "super"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Gourgeist (Small)",
+   "descriptor": [
+    "small"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Gourgeist (Large)",
+   "descriptor": [
+    "large"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Gourgeist (Super)",
+   "descriptor": [
+    "super"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Zygarde (Complete)",
+   "descriptor": [
+    "complete"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Zygarde (10)",
+   "descriptor": [
+    "10"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Mega Diancie",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Oricorio (Pom Pom)",
+   "descriptor": [
+    "pom"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Oricorio (Pau)",
+   "descriptor": [
+    "pau"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Oricorio (Sensu)",
+   "descriptor": [
+    "sensu"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Wishiwashi (School)",
+   "descriptor": [
+    "school"
+   ]
+  },
+  {
+   "game": "Sun and Moon",
+   "species": "Minior (Core)",
+   "descriptor": [
+    "core"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Venusaur",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Charizard X",
+   "descriptor": [
+    "mega",
+    "x"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Charizard Y",
+   "descriptor": [
+    "mega",
+    "y"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Blastoise",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Beedrill",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Pidgeot",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Alakazam",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Slowbro",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Gengar",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Kangaskhan",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Pinsir",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Gyarados",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Aerodactyl",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Mewtwo X",
+   "descriptor": [
+    "mega",
+    "x"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Mewtwo Y",
+   "descriptor": [
+    "mega",
+    "y"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Ampharos",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Steelix",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Scizor",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Heracross",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Houndoom",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Tyranitar",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Sceptile",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Blaziken",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Swampert",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Gardevoir",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Sableye",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Mawile",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Aggron",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Medicham",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Manectric",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Sharpedo",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Camerupt",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Altaria",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Castform (Sunny)",
+   "descriptor": [
+    "sunny"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Castform (Rainy)",
+   "descriptor": [
+    "rainy"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Castform (Snowy)",
+   "descriptor": [
+    "snowy"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Banette",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Absol",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Glalie",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Salamence",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Metagross",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Latias",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Latios",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Primal Kyogre",
+   "descriptor": [
+    "primal"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Primal Groudon",
+   "descriptor": [
+    "primal"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Rayquaza",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Lopunny",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Garchomp",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Lucario",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Abomasnow",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Gallade",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Rotom (Heat)",
+   "descriptor": [
+    "heat"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Rotom (Wash)",
+   "descriptor": [
+    "wash"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Rotom (Frost)",
+   "descriptor": [
+    "frost"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Rotom (Fan)",
+   "descriptor": [
+    "fan"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Rotom (Mow)",
+   "descriptor": [
+    "mow"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Giratina (Origin)",
+   "descriptor": [
+    "origin"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Audino",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Basculin (Blue Striped)",
+   "descriptor": [
+    "blue",
+    "striped"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Darmanitan (Zen)",
+   "descriptor": [
+    "zen"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Tornadus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Thundurus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Landorus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Meloetta (Pirouette)",
+   "descriptor": [
+    "pirouette"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Greninja (Ash)",
+   "descriptor": [
+    "ash"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Floette (Eternal)",
+   "descriptor": [
+    "eternal"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Aegislash (Blade)",
+   "descriptor": [
+    "blade"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Pumpkaboo (Small)",
+   "descriptor": [
+    "small"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Pumpkaboo (Large)",
+   "descriptor": [
+    "large"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Pumpkaboo (Super)",
+   "descriptor": [
+    "super"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Gourgeist (Small)",
+   "descriptor": [
+    "small"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Gourgeist (Large)",
+   "descriptor": [
+    "large"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Gourgeist (Super)",
+   "descriptor": [
+    "super"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Zygarde (Complete)",
+   "descriptor": [
+    "complete"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Zygarde (10)",
+   "descriptor": [
+    "10"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Mega Diancie",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Oricorio (Pom Pom)",
+   "descriptor": [
+    "pom"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Oricorio (Pau)",
+   "descriptor": [
+    "pau"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Oricorio (Sensu)",
+   "descriptor": [
+    "sensu"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Wishiwashi (School)",
+   "descriptor": [
+    "school"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Minior (Core)",
+   "descriptor": [
+    "core"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Necrozma (Dusk)",
+   "descriptor": [
+    "dusk"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Necrozma (Dawn)",
+   "descriptor": [
+    "dawn"
+   ]
+  },
+  {
+   "game": "Ultra Sun and Ultra Moon",
+   "species": "Necrozma (Ultra)",
+   "descriptor": [
+    "ultra"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Venusaur (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Charizard (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Blastoise (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Butterfree (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Pikachu (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Meowth (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Machamp (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Gengar (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Kingler (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Lapras (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Eevee (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Snorlax (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Rotom (Heat)",
+   "descriptor": [
+    "heat"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Rotom (Wash)",
+   "descriptor": [
+    "wash"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Rotom (Frost)",
+   "descriptor": [
+    "frost"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Rotom (Fan)",
+   "descriptor": [
+    "fan"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Rotom (Mow)",
+   "descriptor": [
+    "mow"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Giratina (Origin)",
+   "descriptor": [
+    "origin"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Darmanitan (Zen)",
+   "descriptor": [
+    "zen"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Garbodor (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Tornadus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Thundurus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Landorus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Aegislash (Blade)",
+   "descriptor": [
+    "blade"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Pumpkaboo (Small)",
+   "descriptor": [
+    "small"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Pumpkaboo (Large)",
+   "descriptor": [
+    "large"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Pumpkaboo (Super)",
+   "descriptor": [
+    "super"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Gourgeist (Small)",
+   "descriptor": [
+    "small"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Gourgeist (Large)",
+   "descriptor": [
+    "large"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Gourgeist (Super)",
+   "descriptor": [
+    "super"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Zygarde (Complete)",
+   "descriptor": [
+    "complete"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Zygarde (10)",
+   "descriptor": [
+    "10"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Wishiwashi (School)",
+   "descriptor": [
+    "school"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Necrozma (Dusk)",
+   "descriptor": [
+    "dusk"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Necrozma (Dawn)",
+   "descriptor": [
+    "dawn"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Melmetal (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Rillaboom (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Cinderace (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Inteleon (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Corviknight (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Orbeetle (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Drednaw (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Coalossal (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Flapple (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Appletun (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Sandaconda (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Centiskorch (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Hatterene (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Grimmsnarl (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Alcremie (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Eiscue (Noice)",
+   "descriptor": [
+    "noice"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Copperajah (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Duraludon (Gmax)",
+   "descriptor": [
+    "gmax"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Zacian (Crowned)",
+   "descriptor": [
+    "crowned"
+   ]
+  },
+  {
+   "game": "Sword and Shield",
+   "species": "Zamazenta (Crowned)",
+   "descriptor": [
+    "crowned"
+   ]
+  },
+  {
+   "game": "Brilliant Diamond and Shining Pearl",
+   "species": "Giratina (Origin)",
+   "descriptor": [
+    "origin"
+   ]
+  },
+  {
+   "game": "Legends Arceus",
+   "species": "Giratina (Origin)",
+   "descriptor": [
+    "origin"
+   ]
+  },
+  {
+   "game": "Legends Arceus",
+   "species": "Hisuian Samurott",
+   "descriptor": [
+    "hisuian"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Rotom (Heat)",
+   "descriptor": [
+    "heat"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Rotom (Wash)",
+   "descriptor": [
+    "wash"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Rotom (Frost)",
+   "descriptor": [
+    "frost"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Rotom (Fan)",
+   "descriptor": [
+    "fan"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Rotom (Mow)",
+   "descriptor": [
+    "mow"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Dialga (Origin)",
+   "descriptor": [
+    "origin"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Palkia (Origin)",
+   "descriptor": [
+    "origin"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Giratina (Origin)",
+   "descriptor": [
+    "origin"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Tornadus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Thundurus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Landorus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Meloetta (Pirouette)",
+   "descriptor": [
+    "pirouette"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Greninja (Ash)",
+   "descriptor": [
+    "ash"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Oricorio (Pom Pom)",
+   "descriptor": [
+    "pom"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Oricorio (Pau)",
+   "descriptor": [
+    "pau"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Oricorio (Sensu)",
+   "descriptor": [
+    "sensu"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Minior (Core)",
+   "descriptor": [
+    "core"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Necrozma (Dusk)",
+   "descriptor": [
+    "dusk"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Necrozma (Dawn)",
+   "descriptor": [
+    "dawn"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Eiscue (Noice)",
+   "descriptor": [
+    "noice"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Zacian (Crowned)",
+   "descriptor": [
+    "crowned"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Zamazenta (Crowned)",
+   "descriptor": [
+    "crowned"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Basculegion (Female)",
+   "descriptor": [
+    "female"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Enamorus (Therian)",
+   "descriptor": [
+    "therian"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Palafin (Hero)",
+   "descriptor": [
+    "hero"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Gimmighoul (Roaming)",
+   "descriptor": [
+    "roaming"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Ogerpon (Wellspring Mask)",
+   "descriptor": [
+    "mask",
+    "wellspring"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Ogerpon (Hearthflame Mask)",
+   "descriptor": [
+    "hearthflame",
+    "mask"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Ogerpon (Cornerstone Mask)",
+   "descriptor": [
+    "cornerstone",
+    "mask"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Terapagos (Terastal)",
+   "descriptor": [
+    "terastal"
+   ]
+  },
+  {
+   "game": "Scarlet and Violet",
+   "species": "Terapagos (Stellar)",
+   "descriptor": [
+    "stellar"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Venusaur",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Charizard X",
+   "descriptor": [
+    "mega",
+    "x"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Charizard Y",
+   "descriptor": [
+    "mega",
+    "y"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Blastoise",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Beedrill",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Pidgeot",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Raichu X",
+   "descriptor": [
+    "mega",
+    "x"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Raichu Y",
+   "descriptor": [
+    "mega",
+    "y"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Clefable",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Alakazam",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Victreebel",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Slowbro",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Gengar",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Kangaskhan",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Starmie",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Pinsir",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Gyarados",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Aerodactyl",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Dragonite",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Mewtwo X",
+   "descriptor": [
+    "mega",
+    "x"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Mewtwo Y",
+   "descriptor": [
+    "mega",
+    "y"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Meganium",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Feraligatr",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Ampharos",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Steelix",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Scizor",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Heracross",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Skarmory",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Houndoom",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Tyranitar",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Sceptile",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Blaziken",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Swampert",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Gardevoir",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Sableye",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Mawile",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Aggron",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Medicham",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Manectric",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Sharpedo",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Camerupt",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Altaria",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Banette",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Chimecho",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Absol",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Absol Z",
+   "descriptor": [
+    "mega",
+    "z"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Glalie",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Salamence",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Metagross",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Latias",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Latios",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Rayquaza",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Staraptor",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Lopunny",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Garchomp",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Garchomp Z",
+   "descriptor": [
+    "mega",
+    "z"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Lucario",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Lucario Z",
+   "descriptor": [
+    "mega",
+    "z"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Abomasnow",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Gallade",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Froslass",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Rotom (Heat)",
+   "descriptor": [
+    "heat"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Rotom (Wash)",
+   "descriptor": [
+    "wash"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Rotom (Frost)",
+   "descriptor": [
+    "frost"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Rotom (Fan)",
+   "descriptor": [
+    "fan"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Rotom (Mow)",
+   "descriptor": [
+    "mow"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Heatran",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Darkrai",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Emboar",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Excadrill",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Audino",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Scolipede",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Scrafty",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Eelektross",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Chandelure",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Golurk",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Meloetta (Pirouette)",
+   "descriptor": [
+    "pirouette"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Chesnaught",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Delphox",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Greninja (Ash)",
+   "descriptor": [
+    "ash"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Greninja",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Pyroar",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Floette",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Meowstic",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Aegislash (Blade)",
+   "descriptor": [
+    "blade"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Malamar",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Barbaracle",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Dragalge",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Hawlucha",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Pumpkaboo (Small)",
+   "descriptor": [
+    "small"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Pumpkaboo (Large)",
+   "descriptor": [
+    "large"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Pumpkaboo (Super)",
+   "descriptor": [
+    "super"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Gourgeist (Small)",
+   "descriptor": [
+    "small"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Gourgeist (Large)",
+   "descriptor": [
+    "large"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Gourgeist (Super)",
+   "descriptor": [
+    "super"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Zygarde (Complete)",
+   "descriptor": [
+    "complete"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Zygarde (10)",
+   "descriptor": [
+    "10"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Zygarde",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Diancie",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Crabominable",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Golisopod",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Drampa",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Magearna",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Magearna Original",
+   "descriptor": [
+    "mega",
+    "original"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Zeraora",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Falinks",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Scovillain",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Glimmora",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Tatsugiri Curly",
+   "descriptor": [
+    "curly",
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Tatsugiri Droopy",
+   "descriptor": [
+    "droopy",
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Tatsugiri Stretchy",
+   "descriptor": [
+    "mega",
+    "stretchy"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Mega Baxcalibur",
+   "descriptor": [
+    "mega"
+   ]
+  },
+  {
+   "game": "Legends Z-A",
+   "species": "Gimmighoul (Roaming)",
+   "descriptor": [
+    "roaming"
+   ]
+  }
+ ]
+}

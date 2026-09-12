@@ -352,6 +352,7 @@ const unobtainable_moves = {
 
     ],
     "Omega Ruby and Alpha Sapphire": [
+        "Energy Ball",
         "Explosion",
         "Swagger",
         "Payback",
