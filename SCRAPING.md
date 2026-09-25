@@ -81,6 +81,13 @@ field by field (order included), plus base stats. Exit status 1 on any
 difference. `--refresh` is how you find out whether Bulbapedia has been
 edited since the last scrape.
 
+Matching Bulbapedia is not the same as matching the game. Where Bulbapedia's
+own table is wrong (checked against the decompilations, or for Gen 5+ against
+PokéAPI and Showdown together), add a cited entry to `learnset_errata.py`.
+`bulba_learnsets.get_learnsets` applies it, so the scraper and this verifier
+both see the corrected list. Parser mistakes are fixed in `bulba_learnsets.py`
+instead.
+
 ### `merge_gen1to4_pokedex.py` — the Solodex Gen 1-4 file
 
 Solodex reads Gen 1-4 from a single `pokedex.js` whose stats and other

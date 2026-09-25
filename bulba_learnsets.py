@@ -49,6 +49,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 import bulba_fetch as bf
+import learnset_errata
 
 # ---------------------------------------------------------------------------
 # Games
@@ -93,7 +94,7 @@ _MARKERS: dict[int, dict[str, set[str]]] = {
         "Stad2": {"Stadium2"}},
     3: {"RS": {"RS"}, "R": {"RS"}, "S": {"RS"}, "E": {"E"}, "RSE": {"RS", "E"},
         "FRLG": {"FRLG"}, "FR": {"FRLG"}, "LG": {"FRLG"},
-        "RSEFRLG": {"RS", "E", "FRLG"}, "FRLGE": {"FRLG", "E"},
+        "RSEFRLG": {"RS", "E", "FRLG"}, "FRLGE": {"FRLG", "E"}, "RSFRLG": {"RS", "FRLG"},
         "Colo": {"Colo"}, "XD": {"XD"}, "ColoXD": {"Colo", "XD"}},
     4: {"DP": {"DP"}, "D": {"DP"}, "P": {"DP"}, "Pt": {"Pt"}, "HGSS": {"HGSS"},
         "HG": {"HGSS"}, "SS": {"HGSS"}, "DPPt": {"DP", "Pt"},
@@ -317,14 +318,22 @@ def split_template(text: str) -> tuple[str, list[str], dict[str, str]]:
         i += 1
     parts.append("".join(cur))
     name = parts[0].strip()
-    positional: list[str] = []
+    numbered: dict[int, str] = {}
     named: dict[str, str] = {}
+    anon = 0
     for p in parts[1:]:
         m = re.match(r"\s*([A-Za-z][A-Za-z0-9_ -]*?)\s*=(.*)$", p, re.S)
-        if m and not m.group(1).strip().isdigit():
+        n = re.match(r"\s*(\d+)\s*=(.*)$", p, re.S)
+        if m:
             named[m.group(1).strip()] = m.group(2).strip()
+        elif n:
+            # "13=yes" sets positional parameter 13, as MediaWiki does
+            # (Magcargo's Gen III tutor row); it does not advance the count.
+            numbered[int(n.group(1))] = n.group(2).strip()
         else:
-            positional.append(p.strip())
+            anon += 1
+            numbered[anon] = p.strip()
+    positional = [numbered.get(i, "") for i in range(1, max(numbered, default=0) + 1)]
     return name, positional, named
 
 
@@ -429,6 +438,14 @@ class Row:
         if idx is None or idx >= len(self.params):
             return None
         return parse_level(self.params[idx])
+
+    def level_note(self, column: int) -> str | None:
+        """Text of a {{tt|*|…}} note on the level cell, or None."""
+        idx = self.spec.levels[column] - 1 if column < len(self.spec.levels) else None
+        if idx is None or idx >= len(self.params):
+            return None
+        m = re.search(r"\{\{tt\|\*\|([^{}|]*)", self.params[idx], re.I)
+        return m.group(1) if m else None
 
     def tutor_available(self, tag: str) -> bool:
         if not self.spec.flags:
@@ -567,8 +584,16 @@ def _row_games(params: list[str], spec: RowSpec, gen: int) -> set[str] | None:
         bare = p.strip()
         # A bare game token in the trailing (non-stat) parameters, e.g. the
         # "HGSS" on Gen IV rows.  Single letters are only markers on the
-        # Gen I/II templates ("C", "Y"); elsewhere they would be ambiguous.
-        if bare and "{" not in bare and i > spec.move + 3 and (len(bare) > 1 or gen <= 2):
+        # Gen I-III templates ("C", "Y", the "E" on Pichu's Emerald-only
+        # Volt Tackle row); later they would be ambiguous (a stray "X" sits
+        # on Thundurus's Gen VI Bite row, which ORAS has too).
+        # Rows with one level column per game already say which games learn
+        # the move (N/A in the others); a trailing token there is a parameter
+        # the template never renders ({{learnlist/levelIVs|22|36|Thrash|…|||DP}}
+        # would otherwise drop Totodile's Pt/HGSS level).
+        if spec.kind == "level" and len(spec.levels) > 1:
+            continue
+        if bare and "{" not in bare and i > spec.move + 3 and (len(bare) > 1 or gen <= 3):
             exp = expand_marker(bare, gen)
             if exp is not None:
                 games |= exp
@@ -612,6 +637,25 @@ def heading_games(plain: str, gen: int) -> set[str] | None:
     return found or None
 
 
+def _logical_lines(text: str):
+    """Lines of wikitext, with a template that wraps onto the next line(s)
+    joined back into one (Larvesta's Gen VI String Shot breed row lists its
+    fathers over two lines; read line by line, the row was dropped)."""
+    buffered: list[str] = []
+    for raw in text.splitlines():
+        buffered.append(raw)
+        joined = "".join(buffered)
+        if joined.lstrip().startswith("{{") and joined.count("{{") > joined.count("}}"):
+            if len(buffered) < 6:
+                continue
+            # never closes: not a wrapped row, hand the lines back unchanged
+            yield from buffered
+        else:
+            yield joined
+        buffered = []
+    yield from buffered
+
+
 def parse_page(text: str, species: str, gen: int, title: str = "",
                species_page: bool = False) -> Page:
     tables: list[Table] = []
@@ -638,7 +682,7 @@ def parse_page(text: str, species: str, gen: int, title: str = "",
     text = re.sub(r"<!--.*?-->", "", text, flags=re.S)
     text = re.sub(r"<includeonly>.*?</includeonly>", "", text, flags=re.S | re.I)
 
-    for raw in text.splitlines():
+    for raw in _logical_lines(text):
         line = raw.strip()
         if not line:
             continue
@@ -818,8 +862,26 @@ def _pick_tables(page: Page, kind: str, tag: str, descriptor: frozenset[str],
     heading and falling back to the base (unlabelled / first) table."""
     group = "main"
     cands = [t for t in page.tables if t.kind == kind and t.group == group]
+    # "=====All forms=====" (Deoxys's Gen IX TMs): shared by every form, on
+    # top of the form's own table.
+    shared = [t for t in cands if t.form == _ALL_FORMS and t.applies_to(tag, available)]
+    cands = [t for t in cands if t.form != _ALL_FORMS]
     if not cands:
-        return [], False
+        return shared, False
+    chosen, matched = _pick_form_tables(cands, tag, descriptor, available)
+    # An unlabelled table next to one labelled for this game belongs to the
+    # other game(s): Feebas's Gen VIII page has an unlabelled SwSh TM table
+    # followed by a "BDSP" one, and BDSP took both.
+    if any(t.labels is not None and tag in t.labels for t in chosen):
+        chosen = [t for t in chosen if t.labels is not None]
+    return shared + chosen, matched
+
+
+_ALL_FORMS = frozenset({"all"})
+
+
+def _pick_form_tables(cands: list[Table], tag: str, descriptor: frozenset[str],
+                      available: set[str]) -> tuple[list[Table], bool]:
     if descriptor:
         own = [t for t in cands if t.form and descriptor <= t.form]
         if not own:
@@ -864,6 +926,9 @@ def select_learnsets(page: Page, game: str, descriptor: frozenset[str] | set[str
     available = set(page.available) or set(GEN_GAMES[gen])
 
     def row_ok(row: Row) -> bool:
+        # patch=Prior to Version 3.0.0: removed by a game update
+        if row.named.get("patch", "").lower().startswith("prior to"):
+            return False
         return row.games is None or tag in row.games
 
     # --- level-up -------------------------------------------------------
@@ -880,13 +945,26 @@ def select_learnsets(page: Page, game: str, descriptor: frozenset[str] | set[str
             lvl = row.level_for(col)
             if lvl is None:
                 continue
+            # "50{{tt|*|Eternal Flower Floette}}": only that form learns it.
+            # Notes that don't name the species ("Version 2.0.0 onwards" on
+            # Legends: Z-A rows) are not form restrictions.
+            note = row.level_note(col)
+            if note is not None and form_words(page.species) <= form_words(note):
+                note_form = form_words(note) - form_words(page.species)
+                if note_form and not (note_form & descriptor):
+                    continue
             entries.append((lvl, order, row.move))
     if entries or tables:
         ls.found = bool(entries)
     # Stable sort by level keeps Bulbapedia's row order for equal levels.
     # Reminder-only (-1) and evolution (0) moves sort ahead of level 1.
     entries.sort(key=lambda e: (e[0], e[1]))
-    ls.level_up = [[lvl, move] for lvl, _, move in entries]
+    # Identical rows collapse: Legends: Arceus lists Roar of Time twice at 60,
+    # once per forme's power/accuracy.
+    ls.level_up = []
+    for lvl, _, move in entries:
+        if [lvl, move] not in ls.level_up:
+            ls.level_up.append([lvl, move])
 
     # --- TM / HM / TR ----------------------------------------------------
     tables, _ = _pick_tables(page, "tm", tag, descriptor, available)
@@ -964,7 +1042,9 @@ def get_learnsets(species: str, gen: int, game: str,
     page = load_page(species, gen, use_cache)
     if page is None:
         return None
-    return select_learnsets(page, game, descriptor)
+    ls = select_learnsets(page, game, descriptor)
+    learnset_errata.apply_errata(ls, species, game, frozenset(descriptor))
+    return ls
 
 
 # ---------------------------------------------------------------------------

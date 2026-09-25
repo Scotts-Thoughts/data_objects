@@ -1,27 +1,6 @@
 {
  "pokeapi_fallback": [],
- "bulbapedia_excluded": [
-  {
-   "game": "Sword and Shield",
-   "species": "Alolan Raichu"
-  },
-  {
-   "game": "Sword and Shield",
-   "species": "Galarian Ponyta"
-  },
-  {
-   "game": "Sword and Shield",
-   "species": "Galarian Rapidash"
-  },
-  {
-   "game": "Sword and Shield",
-   "species": "Galarian Mr. Mime"
-  },
-  {
-   "game": "Legends Arceus",
-   "species": "Hisuian Qwilfish"
-  }
- ],
+ "bulbapedia_excluded": [],
  "stat_mismatch": [
   {
    "game": "Red and Blue",
