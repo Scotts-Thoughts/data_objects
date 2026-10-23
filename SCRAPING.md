@@ -111,6 +111,33 @@ Maintains `tmhm.js` (TM number → move per generation). Its `--sort-only`
 mode is no longer needed: `tm_hm_learnset` already comes out of the scraper
 in Bulbapedia's TM order, and Solodex sorts by TM number itself.
 
+### `scrape_event_pokemon.py` — event Pokémon
+
+```bash
+python scrape_event_pokemon.py           # events/generation_<n>.js
+python scrape_event_pokemon.py --list    # also event_pokemon_list.md (review list)
+```
+
+Reads every Bulbapedia "List of … event Pokémon distributions" page listed in
+`SOURCE_PAGES` (regional/language lists, PCNY, GTS, game-based, traded, movie
+and Tanabata lists …) and writes one file per generation:
+`eventPokemon = { channel: { event: [pokemon, ...] } }`. Each Pokémon has the
+species fields of the matching `pokedex/*.js` entry (named in
+`pokedex_entry`), then the event data: level, OT/ID, moves, nature, ability,
+item, ball, IVs/EVs, ribbons, games and `distributions` (location, method,
+language, the date text plus ISO `start_date`/`end_date`). The Movie,
+Tanabata and Colosseum Bonus Disc pages only contribute Pokémon that no
+per-region page already lists. Template parsing lives in `event_wikitext.py`,
+date parsing in `event_dates.py`. Item-only distributions and
+never-distributed events are not included.
+
+The same run writes `events/dream_world.js`: the Pokémon Dream World
+(Global Link promotion) Pokémon from "List of Pokémon Global Link
+promotions/Pokémon" (`{{glevent}}`), grouped the same way under
+`"Global Link promotions"`. Each has one distribution per Global Link
+language group (or per country where Bulbapedia gives per-country runs),
+with the password, its translation and the promotion details.
+
 ---
 
 ## Recommended order of operations

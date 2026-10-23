@@ -224,6 +224,11 @@ def parse_page(text: str, page_title: str) -> list[dict]:
             out.append(current)
             i = k
             continue
+        if cname == "G3EventIVs" and out:
+            # sits under its own "IVs" heading right after the Pokémon it describes
+            out[-1]["ivs"] = named
+            i = k
+            continue
         if current is not None and _is_entry(cname):
             current["distributions"].append({"raw": pos, "named": named})
         elif current is not None and _is_footer(cname):
