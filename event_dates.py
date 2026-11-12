@@ -32,6 +32,13 @@ _POINT = re.compile(
     re.I)
 
 
+# Several days of one month: "[... to ]November 2, 6, and 9, 2013".
+_DAY_LIST = re.compile(
+    rf"^(?P<pre>.*?\bto\s+)?(?P<month>{_MONTH_RE})\s+"
+    rf"(?P<days>\d{{1,2}}(?:\s*,\s*\d{{1,2}})*\s*,?\s*and\s+\d{{1,2}})\s*,\s*(?P<year>\d{{4}})$",
+    re.I)
+
+
 def _month_num(s: str | None) -> int | None:
     if not s:
         return None
@@ -96,6 +103,7 @@ def parse_dates(text: str | None) -> list[dict]:
     if not text:
         return []
     t = re.sub(r"\*+", "", text)
+    t = re.sub(r"\s+\?\?(?=\s*,)", "", t)          # "October ??, 2000" -> month precision
     chunks = re.split(rf"\s*;\s*|\s+/\s+|,?\s+and then from\s+|\s+&\s+|(?<=\d{{4}}),\s+(?=[A-Z])"
                       rf"|\s+and\s+(?={_MONTH_RE}\s+\d)", t)
     years = [int(y) for y in re.findall(r"\b(\d{4})\b", t)]
@@ -112,6 +120,16 @@ def parse_dates(text: str | None) -> list[dict]:
                 ps = [_period(c, hint) for c in sub]
                 if all(ps):
                     out.extend(ps)
+                    continue
+            # "November 2, 6, and 9, 2013" / "December 27, 2010 to January 10 and 11, 2011"
+            dl = _DAY_LIST.match(chunk.strip())
+            if dl:
+                days = [int(d) for d in re.findall(r"\d{1,2}", dl.group("days"))]
+                month, year = dl.group("month"), dl.group("year")
+                first = _period(f"{dl.group('pre') or ''}{month} {days[0]}, {year}", hint)
+                rest = [_period(f"{month} {d}, {year}", hint) for d in days[1:]]
+                if first and all(rest):
+                    out.extend([first, *rest])
                     continue
             # "2007 and 2008" style year lists
             ys = re.findall(r"\b(\d{4})\b", chunk)

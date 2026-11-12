@@ -32,6 +32,13 @@ from pathlib import Path
 import bulba_fetch as bf
 import event_dates as edates
 import event_wikitext as ew
+from bulba_learnsets import normalize_move_name
+
+
+def move_name(raw: str | None) -> str | None:
+    """Event pages spell moves as in their generation; use the moves.js name."""
+    m = ew.clean(raw)
+    return normalize_move_name(m) if m else m
 
 # (page title, channel label).  The generation comes from the page title when
 # it names one, otherwise from the template (multi-generation pages such as
@@ -216,7 +223,7 @@ def summarize(ev: dict, channel: str) -> dict:
         gen = ev["generation"]
     species = ew.clean(p.get("pokemon"))
     form = ew.clean(p.get("form"))
-    moves = [ew.clean(p.get(f"move{i}")) for i in range(1, 5)]
+    moves = [move_name(p.get(f"move{i}")) for i in range(1, 5)]
     moves = [m for m in moves if m]
     if ev["generation"] <= 5:
         games = [name for flag, name in OLD_GAME_FLAGS.items()
@@ -365,9 +372,9 @@ def species_data(species: str, form: str, gmax: bool, gen: int, channel: str) ->
         for f in files:
             # the pokedex files spell Farfetch’d / Sirfetch’d with a typographic apostrophe
             dex = load_pokedex(f)
-            entry = dex.get(key) or dex.get(key.replace("'", "’"))
-            if entry:
-                return entry, f"pokedex/{f}.js#{key}"
+            for k in (key, key.replace("'", "’")):
+                if k in dex:
+                    return dex[k], f"pokedex/{f}.js#{k}"
     return {}, None
 
 
@@ -498,7 +505,7 @@ def build_entry(ev: dict, s: dict) -> dict:
 
     gender = ew.clean(p.get("gender"))
     ball = ew.clean(p.get("ball"))
-    moves = [ew.clean(p.get(f"move{i}")) for i in range(1, 5)]
+    moves = [move_name(p.get(f"move{i}")) for i in range(1, 5)]
     relearn = [m for i, m in enumerate(moves, 1)
                if m and p.get(f"move{i}rel", "").strip().lower() == "yes"]
     headings = s["headings"]
@@ -699,7 +706,7 @@ def dream_world_entries(use_cache: bool = True) -> dict[str, list[dict]]:
                 d["details"] = details or None
                 dists.append({k2: v for k2, v in d.items() if v is not None or (k2 == "end_date" and d["start_date"])})
 
-        moves = [ew.clean(pos[n]) for n in (5, 7, 9, 11)]
+        moves = [move_name(pos[n]) for n in (5, 7, 9, 11)]
         rec.update({
             "event_name": event,
             "level": _num(pos[2]),

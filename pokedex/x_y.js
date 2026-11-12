@@ -2355,125 +2355,6 @@ export const pokedex = {
         ],
         "learnset_source": "bulbapedia"
     },
-    "Mega Beedrill": {
-        "species": "Mega Beedrill",
-        "rom_id": 15,
-        "national_dex_number": 15,
-        "base_stats": {
-            "hp": 65,
-            "attack": 150,
-            "defense": 40,
-            "special_attack": 15,
-            "special_defense": 80,
-            "speed": 145
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 2,
-            "defense": 0,
-            "special_attack": 0,
-            "special_defense": 1,
-            "speed": 0
-        },
-        "type_1": "Bug",
-        "type_2": "Poison",
-        "catch_rate": 45,
-        "base_experience": 223,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 127,
-        "egg_cycles": 15,
-        "base_friendship": 70,
-        "growth_rate": "Medium Fast",
-        "egg_group_1": "Bug",
-        "egg_group_2": "Bug",
-        "abilities": [
-            "Adaptability"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Fury Attack"],
-            [10, "Fury Attack"],
-            [13, "Focus Energy"],
-            [16, "Twineedle"],
-            [19, "Rage"],
-            [22, "Pursuit"],
-            [25, "Toxic Spikes"],
-            [28, "Pin Missile"],
-            [31, "Agility"],
-            [34, "Assurance"],
-            [37, "Poison Jab"],
-            [40, "Endeavor"],
-            [45, "Fell Stinger"]
-        ],
-        "tm_hm_learnset": [
-            "Toxic",
-            "Venoshock",
-            "Hidden Power",
-            "Sunny Day",
-            "Hyper Beam",
-            "Protect",
-            "Roost",
-            "Frustration",
-            "Solar Beam",
-            "Return",
-            "Brick Break",
-            "Double Team",
-            "Sludge Bomb",
-            "Aerial Ace",
-            "Facade",
-            "Rest",
-            "Attract",
-            "Thief",
-            "Round",
-            "False Swipe",
-            "Acrobatics",
-            "Payback",
-            "Giga Impact",
-            "Flash",
-            "Swords Dance",
-            "Struggle Bug",
-            "X-Scissor",
-            "Infestation",
-            "Poison Jab",
-            "Swagger",
-            "Sleep Talk",
-            "U-turn",
-            "Substitute",
-            "Rock Smash",
-            "Confide",
-            "Cut"
-        ],
-        "tutor_learnset": [],
-        "egg_moves": [],
-        "weight": 40.5,
-        "evolution_family": [
-            {"species": "Weedle", "method": null, "parameter": null},
-            {"species": "Kakuna", "method": "level", "parameter": 7},
-            {"species": "Beedrill", "method": "level", "parameter": 10}
-        ],
-        "transfer_learnset": [
-            "Air Cutter",
-            "Baton Pass",
-            "Captivate",
-            "Defog",
-            "Double-Edge",
-            "Endure",
-            "Fury Cutter",
-            "Mimic",
-            "Natural Gift",
-            "Ominous Wind",
-            "Silver Wind",
-            "Swift"
-        ],
-        "prior_evolution_learnset": [
-            "Poison Sting",
-            "String Shot",
-            "Bug Bite",
-            "Harden"
-        ],
-        "learnset_source": "bulbapedia"
-    },
     "Pidgey": {
         "species": "Pidgey",
         "rom_id": 16,
@@ -2811,121 +2692,6 @@ export const pokedex = {
         ],
         "learnset_source": "bulbapedia"
     },
-    "Mega Pidgeot": {
-        "species": "Mega Pidgeot",
-        "rom_id": 18,
-        "national_dex_number": 18,
-        "base_stats": {
-            "hp": 83,
-            "attack": 80,
-            "defense": 80,
-            "special_attack": 135,
-            "special_defense": 80,
-            "speed": 121
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "special_attack": 0,
-            "special_defense": 0,
-            "speed": 3
-        },
-        "type_1": "Normal",
-        "type_2": "Flying",
-        "catch_rate": 45,
-        "base_experience": 261,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 127,
-        "egg_cycles": 15,
-        "base_friendship": 70,
-        "growth_rate": "Medium Slow",
-        "egg_group_1": "Flying",
-        "egg_group_2": "Flying",
-        "abilities": [
-            "No Guard"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Hurricane"],
-            [1, "Tackle"],
-            [1, "Sand Attack"],
-            [1, "Gust"],
-            [1, "Quick Attack"],
-            [5, "Sand Attack"],
-            [9, "Gust"],
-            [13, "Quick Attack"],
-            [17, "Whirlwind"],
-            [22, "Twister"],
-            [27, "Feather Dance"],
-            [32, "Agility"],
-            [38, "Wing Attack"],
-            [44, "Roost"],
-            [50, "Tailwind"],
-            [56, "Mirror Move"],
-            [62, "Air Slash"],
-            [68, "Hurricane"]
-        ],
-        "tm_hm_learnset": [
-            "Toxic",
-            "Hidden Power",
-            "Sunny Day",
-            "Hyper Beam",
-            "Protect",
-            "Rain Dance",
-            "Roost",
-            "Frustration",
-            "Return",
-            "Double Team",
-            "Aerial Ace",
-            "Facade",
-            "Rest",
-            "Attract",
-            "Thief",
-            "Round",
-            "Steel Wing",
-            "Giga Impact",
-            "Swagger",
-            "Sleep Talk",
-            "U-turn",
-            "Substitute",
-            "Confide",
-            "Fly"
-        ],
-        "tutor_learnset": [],
-        "egg_moves": [
-            "Air Cutter",
-            "Air Slash",
-            "Brave Bird",
-            "Defog",
-            "Feint Attack",
-            "Foresight",
-            "Pursuit",
-            "Steel Wing",
-            "Uproar"
-        ],
-        "weight": 50.5,
-        "evolution_family": [
-            {"species": "Pidgey", "method": null, "parameter": null},
-            {"species": "Pidgeotto", "method": "level", "parameter": 18},
-            {"species": "Pidgeot", "method": "level", "parameter": 36}
-        ],
-        "transfer_learnset": [
-            "Captivate",
-            "Double-Edge",
-            "Endure",
-            "Mimic",
-            "Mud-Slap",
-            "Natural Gift",
-            "Ominous Wind",
-            "Pluck",
-            "Refresh",
-            "Swift",
-            "Work Up"
-        ],
-        "learnset_source": "bulbapedia"
-    },
     "Rattata": {
         "species": "Rattata",
         "rom_id": 19,
@@ -2956,8 +2722,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Run Away",
             "Guts"
@@ -3076,8 +2842,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Run Away",
             "Guts"
@@ -3436,7 +3202,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Dragon",
         "abilities": [
             "Intimidate",
@@ -3549,14 +3315,14 @@ export const pokedex = {
         "type_1": "Poison",
         "type_2": "Poison",
         "catch_rate": 90,
-        "base_experience": 157,
+        "base_experience": 153,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Dragon",
         "abilities": [
             "Intimidate",
@@ -3686,7 +3452,7 @@ export const pokedex = {
         "egg_cycles": 10,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Static"
@@ -3827,7 +3593,7 @@ export const pokedex = {
         "egg_cycles": 10,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Static"
@@ -3977,8 +3743,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sand Veil"
         ],
@@ -4101,8 +3867,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sand Veil"
         ],
@@ -4233,7 +3999,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Poison Point",
             "Rivalry"
@@ -4633,7 +4399,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Poison Point",
             "Rivalry"
@@ -4752,7 +4518,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Poison Point",
             "Rivalry"
@@ -4871,7 +4637,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Poison Point",
             "Rivalry"
@@ -5347,8 +5113,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Flash Fire"
         ],
@@ -5470,8 +5236,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Flash Fire"
         ],
@@ -6954,8 +6720,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sand Veil",
             "Arena Trap"
@@ -7062,15 +6828,15 @@ export const pokedex = {
         "type_1": "Ground",
         "type_2": "Ground",
         "catch_rate": 50,
-        "base_experience": 149,
+        "base_experience": 142,
         "common_item": null,
         "rare_item": "Soft Sand",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sand Veil",
             "Arena Trap"
@@ -7194,8 +6960,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Pickup",
             "Technician"
@@ -7324,8 +7090,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Limber",
             "Technician"
@@ -7466,7 +7232,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Damp",
             "Cloud Nine"
@@ -7604,7 +7370,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Damp",
             "Cloud Nine"
@@ -7750,8 +7516,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Vital Spirit",
             "Anger Point"
@@ -7891,8 +7657,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Vital Spirit",
             "Anger Point"
@@ -8040,8 +7806,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate",
             "Flash Fire"
@@ -8163,8 +7929,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate",
             "Flash Fire"
@@ -8362,7 +8128,7 @@ export const pokedex = {
             {"species": "Poliwag", "method": null, "parameter": null},
             {"species": "Poliwhirl", "method": "level", "parameter": 25},
             {"species": "Poliwrath", "method": "item", "parameter": "Water Stone"},
-            {"species": "Politoed", "method": "trade", "parameter": "Kings Rock"}
+            {"species": "Politoed", "method": "trade", "parameter": "King's Rock"}
         ],
         "transfer_learnset": [
             "Captivate",
@@ -8401,7 +8167,7 @@ export const pokedex = {
         "catch_rate": 120,
         "base_experience": 135,
         "common_item": null,
-        "rare_item": "Kings Rock",
+        "rare_item": "King's Rock",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -8484,7 +8250,7 @@ export const pokedex = {
             {"species": "Poliwag", "method": null, "parameter": null},
             {"species": "Poliwhirl", "method": "level", "parameter": 25},
             {"species": "Poliwrath", "method": "item", "parameter": "Water Stone"},
-            {"species": "Politoed", "method": "trade", "parameter": "Kings Rock"}
+            {"species": "Politoed", "method": "trade", "parameter": "King's Rock"}
         ],
         "transfer_learnset": [
             "Captivate",
@@ -8529,7 +8295,7 @@ export const pokedex = {
         "catch_rate": 45,
         "base_experience": 230,
         "common_item": null,
-        "rare_item": "Kings Rock",
+        "rare_item": "King's Rock",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -8614,7 +8380,7 @@ export const pokedex = {
             {"species": "Poliwag", "method": null, "parameter": null},
             {"species": "Poliwhirl", "method": "level", "parameter": 25},
             {"species": "Poliwrath", "method": "item", "parameter": "Water Stone"},
-            {"species": "Politoed", "method": "trade", "parameter": "Kings Rock"}
+            {"species": "Politoed", "method": "trade", "parameter": "King's Rock"}
         ],
         "transfer_learnset": [
             "Captivate",
@@ -9059,7 +8825,7 @@ export const pokedex = {
         "type_1": "Psychic",
         "type_2": "Psychic",
         "catch_rate": 50,
-        "base_experience": 270,
+        "base_experience": 266,
         "common_item": null,
         "rare_item": "Twisted Spoon",
         "gender_ratio": 63,
@@ -10611,8 +10377,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Run Away",
             "Flash Fire"
@@ -10721,8 +10487,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Run Away",
             "Flash Fire"
@@ -10928,7 +10694,7 @@ export const pokedex = {
         "evolution_family": [
             {"species": "Slowpoke", "method": null, "parameter": null},
             {"species": "Slowbro", "method": "level", "parameter": 37},
-            {"species": "Slowking", "method": "trade", "parameter": "Kings Rock"}
+            {"species": "Slowking", "method": "trade", "parameter": "King's Rock"}
         ],
         "transfer_learnset": [
             "Body Slam",
@@ -10971,7 +10737,7 @@ export const pokedex = {
         "catch_rate": 75,
         "base_experience": 172,
         "common_item": null,
-        "rare_item": "Kings Rock",
+        "rare_item": "King's Rock",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -11072,157 +10838,7 @@ export const pokedex = {
         "evolution_family": [
             {"species": "Slowpoke", "method": null, "parameter": null},
             {"species": "Slowbro", "method": "level", "parameter": 37},
-            {"species": "Slowking", "method": "trade", "parameter": "Kings Rock"}
-        ],
-        "transfer_learnset": [
-            "Avalanche",
-            "Body Slam",
-            "Brine",
-            "Captivate",
-            "Counter",
-            "Double-Edge",
-            "Dynamic Punch",
-            "Endure",
-            "Fury Cutter",
-            "Mega Kick",
-            "Mega Punch",
-            "Mimic",
-            "Mud-Slap",
-            "Natural Gift",
-            "Nightmare",
-            "Seismic Toss",
-            "Swift",
-            "Telekinesis",
-            "Whirlpool"
-        ],
-        "learnset_source": "bulbapedia"
-    },
-    "Mega Slowbro": {
-        "species": "Mega Slowbro",
-        "rom_id": 80,
-        "national_dex_number": 80,
-        "base_stats": {
-            "hp": 95,
-            "attack": 75,
-            "defense": 180,
-            "special_attack": 130,
-            "special_defense": 80,
-            "speed": 30
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "special_attack": 0,
-            "special_defense": 0,
-            "speed": 0
-        },
-        "type_1": "Water",
-        "type_2": "Psychic",
-        "catch_rate": 75,
-        "base_experience": 207,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 127,
-        "egg_cycles": 20,
-        "base_friendship": 70,
-        "growth_rate": "Medium Fast",
-        "egg_group_1": "Monster",
-        "egg_group_2": "Water1",
-        "abilities": [
-            "Shell Armor"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Heal Pulse"],
-            [1, "Curse"],
-            [1, "Yawn"],
-            [1, "Tackle"],
-            [1, "Growl"],
-            [5, "Growl"],
-            [9, "Water Gun"],
-            [14, "Confusion"],
-            [19, "Disable"],
-            [23, "Headbutt"],
-            [28, "Water Pulse"],
-            [32, "Zen Headbutt"],
-            [36, "Slack Off"],
-            [37, "Withdraw"],
-            [43, "Amnesia"],
-            [49, "Psychic"],
-            [55, "Rain Dance"],
-            [62, "Psych Up"],
-            [68, "Heal Pulse"]
-        ],
-        "tm_hm_learnset": [
-            "Psyshock",
-            "Calm Mind",
-            "Toxic",
-            "Hail",
-            "Hidden Power",
-            "Sunny Day",
-            "Ice Beam",
-            "Blizzard",
-            "Hyper Beam",
-            "Light Screen",
-            "Protect",
-            "Rain Dance",
-            "Safeguard",
-            "Frustration",
-            "Earthquake",
-            "Return",
-            "Dig",
-            "Psychic",
-            "Shadow Ball",
-            "Brick Break",
-            "Double Team",
-            "Flamethrower",
-            "Fire Blast",
-            "Aerial Ace",
-            "Facade",
-            "Rest",
-            "Attract",
-            "Round",
-            "Echoed Voice",
-            "Focus Blast",
-            "Scald",
-            "Fling",
-            "Incinerate",
-            "Giga Impact",
-            "Flash",
-            "Thunder Wave",
-            "Psych Up",
-            "Bulldoze",
-            "Dream Eater",
-            "Grass Knot",
-            "Swagger",
-            "Sleep Talk",
-            "Substitute",
-            "Trick Room",
-            "Rock Smash",
-            "Confide",
-            "Surf",
-            "Strength"
-        ],
-        "tutor_learnset": [],
-        "egg_moves": [
-            "Belch",
-            "Belly Drum",
-            "Block",
-            "Future Sight",
-            "Me First",
-            "Mud Sport",
-            "Sleep Talk",
-            "Snore",
-            "Stomp",
-            "Wonder Room",
-            "Zen Headbutt"
-        ],
-        "weight": 120.0,
-        "evolution_family": [
-            {"species": "Slowpoke", "method": null, "parameter": null},
-            {"species": "Slowbro", "method": "level", "parameter": 37},
-            {"species": "Slowking", "method": "trade", "parameter": "Kings Rock"}
+            {"species": "Slowking", "method": "trade", "parameter": "King's Rock"}
         ],
         "transfer_learnset": [
             "Avalanche",
@@ -11339,7 +10955,7 @@ export const pokedex = {
         "evolution_family": [
             {"species": "Magnemite", "method": null, "parameter": null},
             {"species": "Magneton", "method": "level", "parameter": 30},
-            {"species": "Magnezone", "method": "location", "parameter": "Mt Coronet"}
+            {"species": "Magnezone", "method": "location", "parameter": "Mt. Coronet"}
         ],
         "transfer_learnset": [
             "Double-Edge",
@@ -11450,7 +11066,7 @@ export const pokedex = {
         "evolution_family": [
             {"species": "Magnemite", "method": null, "parameter": null},
             {"species": "Magneton", "method": "level", "parameter": 30},
-            {"species": "Magnezone", "method": "location", "parameter": "Mt Coronet"}
+            {"species": "Magnezone", "method": "location", "parameter": "Mt. Coronet"}
         ],
         "transfer_learnset": [
             "Double-Edge",
@@ -11486,15 +11102,15 @@ export const pokedex = {
         "type_1": "Normal",
         "type_2": "Flying",
         "catch_rate": 45,
-        "base_experience": 132,
+        "base_experience": 123,
         "common_item": null,
-        "rare_item": "Stick",
+        "rare_item": "Leek",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Flying",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Keen Eye",
             "Inner Focus"
@@ -11726,7 +11342,7 @@ export const pokedex = {
         "type_1": "Normal",
         "type_2": "Flying",
         "catch_rate": 45,
-        "base_experience": 165,
+        "base_experience": 161,
         "common_item": null,
         "rare_item": "Sharp Beak",
         "gender_ratio": 127,
@@ -11852,7 +11468,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Thick Fat",
             "Hydration"
@@ -11971,7 +11587,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Thick Fat",
             "Hydration"
@@ -13886,7 +13502,7 @@ export const pokedex = {
         "type_1": "Electric",
         "type_2": "Electric",
         "catch_rate": 60,
-        "base_experience": 172,
+        "base_experience": 168,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 255,
@@ -14115,7 +13731,7 @@ export const pokedex = {
         "type_1": "Grass",
         "type_2": "Psychic",
         "catch_rate": 45,
-        "base_experience": 186,
+        "base_experience": 182,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 127,
@@ -14974,7 +14590,7 @@ export const pokedex = {
         "abilities": [
             "Levitate"
         ],
-        "hidden_ability": "Stench",
+        "hidden_ability": null,
         "level_up_learnset": [
             [1, "Poison Gas"],
             [1, "Tackle"],
@@ -15093,7 +14709,7 @@ export const pokedex = {
         "abilities": [
             "Levitate"
         ],
-        "hidden_ability": "Stench",
+        "hidden_ability": null,
         "level_up_learnset": [
             [1, "Poison Gas"],
             [1, "Tackle"],
@@ -15212,7 +14828,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Lightning Rod",
             "Rock Head"
@@ -15344,7 +14960,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Lightning Rod",
             "Rock Head"
@@ -15885,6 +15501,7 @@ export const pokedex = {
             "Mud-Slap",
             "Natural Gift",
             "Seismic Toss",
+            "Sing",
             "Whirlpool",
             "Wish",
             "Work Up",
@@ -16027,6 +15644,7 @@ export const pokedex = {
             "Mud-Slap",
             "Natural Gift",
             "Seismic Toss",
+            "Sing",
             "Whirlpool",
             "Wish",
             "Work Up",
@@ -17652,8 +17270,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate",
             "Anger Point"
@@ -18227,8 +17845,8 @@ export const pokedex = {
         "egg_cycles": 35,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Run Away",
             "Adaptability"
@@ -18311,7 +17929,7 @@ export const pokedex = {
                 "time_of_day": "night"
             },
             {"species": "Leafeon", "method": "location", "parameter": "Eterna Forest"},
-            {"species": "Glaceon", "method": "location", "parameter": "Sinnoh Route 217"},
+            {"species": "Glaceon", "method": "location", "parameter": "Route 217"},
             {"species": "Sylveon", "method": "affection", "parameter": "Fairy"}
         ],
         "transfer_learnset": [
@@ -18354,8 +17972,8 @@ export const pokedex = {
         "egg_cycles": 35,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Water Absorb"
         ],
@@ -18445,7 +18063,7 @@ export const pokedex = {
                 "time_of_day": "night"
             },
             {"species": "Leafeon", "method": "location", "parameter": "Eterna Forest"},
-            {"species": "Glaceon", "method": "location", "parameter": "Sinnoh Route 217"},
+            {"species": "Glaceon", "method": "location", "parameter": "Route 217"},
             {"species": "Sylveon", "method": "affection", "parameter": "Fairy"}
         ],
         "transfer_learnset": [
@@ -18504,8 +18122,8 @@ export const pokedex = {
         "egg_cycles": 35,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Volt Absorb"
         ],
@@ -18597,7 +18215,7 @@ export const pokedex = {
                 "time_of_day": "night"
             },
             {"species": "Leafeon", "method": "location", "parameter": "Eterna Forest"},
-            {"species": "Glaceon", "method": "location", "parameter": "Sinnoh Route 217"},
+            {"species": "Glaceon", "method": "location", "parameter": "Route 217"},
             {"species": "Sylveon", "method": "affection", "parameter": "Fairy"}
         ],
         "transfer_learnset": [
@@ -18654,8 +18272,8 @@ export const pokedex = {
         "egg_cycles": 35,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Flash Fire"
         ],
@@ -18745,7 +18363,7 @@ export const pokedex = {
                 "time_of_day": "night"
             },
             {"species": "Leafeon", "method": "location", "parameter": "Eterna Forest"},
-            {"species": "Glaceon", "method": "location", "parameter": "Sinnoh Route 217"},
+            {"species": "Glaceon", "method": "location", "parameter": "Route 217"},
             {"species": "Sylveon", "method": "affection", "parameter": "Fairy"}
         ],
         "transfer_learnset": [
@@ -18866,7 +18484,7 @@ export const pokedex = {
         "weight": 36.5,
         "evolution_family": [
             {"species": "Porygon", "method": null, "parameter": null},
-            {"species": "Porygon2", "method": "trade", "parameter": "Up Grade"},
+            {"species": "Porygon2", "method": "trade", "parameter": "Up-Grade"},
             {"species": "Porygon-Z", "method": "trade", "parameter": "Dubious Disc"}
         ],
         "transfer_learnset": [
@@ -21590,8 +21208,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -21708,8 +21326,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -21832,8 +21450,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -22395,8 +22013,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Run Away",
             "Keen Eye"
@@ -22521,8 +22139,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Run Away",
             "Keen Eye"
@@ -22770,7 +22388,7 @@ export const pokedex = {
         "type_1": "Normal",
         "type_2": "Flying",
         "catch_rate": 90,
-        "base_experience": 158,
+        "base_experience": 155,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 127,
@@ -23262,7 +22880,7 @@ export const pokedex = {
         "type_1": "Bug",
         "type_2": "Poison",
         "catch_rate": 90,
-        "base_experience": 140,
+        "base_experience": 137,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 127,
@@ -24677,7 +24295,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Static"
         ],
@@ -24790,7 +24408,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Static"
         ],
@@ -24919,7 +24537,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Static"
         ],
@@ -25059,7 +24677,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Mold Breaker"
         ],
@@ -25724,7 +25342,7 @@ export const pokedex = {
         "catch_rate": 45,
         "base_experience": 225,
         "common_item": null,
-        "rare_item": "Kings Rock",
+        "rare_item": "King's Rock",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -25804,7 +25422,7 @@ export const pokedex = {
             {"species": "Poliwag", "method": null, "parameter": null},
             {"species": "Poliwhirl", "method": "level", "parameter": 25},
             {"species": "Poliwrath", "method": "item", "parameter": "Water Stone"},
-            {"species": "Politoed", "method": "trade", "parameter": "Kings Rock"}
+            {"species": "Politoed", "method": "trade", "parameter": "King's Rock"}
         ],
         "transfer_learnset": [
             "Captivate",
@@ -26224,8 +25842,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Run Away",
             "Pickup"
@@ -26706,7 +26324,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Damp",
             "Water Absorb"
@@ -26831,7 +26449,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Damp",
             "Water Absorb"
@@ -26970,8 +26588,8 @@ export const pokedex = {
         "egg_cycles": 35,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Synchronize"
         ],
@@ -27064,7 +26682,7 @@ export const pokedex = {
                 "time_of_day": "night"
             },
             {"species": "Leafeon", "method": "location", "parameter": "Eterna Forest"},
-            {"species": "Glaceon", "method": "location", "parameter": "Sinnoh Route 217"},
+            {"species": "Glaceon", "method": "location", "parameter": "Route 217"},
             {"species": "Sylveon", "method": "affection", "parameter": "Fairy"}
         ],
         "transfer_learnset": [
@@ -27122,8 +26740,8 @@ export const pokedex = {
         "egg_cycles": 35,
         "base_friendship": 35,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Synchronize"
         ],
@@ -27214,7 +26832,7 @@ export const pokedex = {
                 "time_of_day": "night"
             },
             {"species": "Leafeon", "method": "location", "parameter": "Eterna Forest"},
-            {"species": "Glaceon", "method": "location", "parameter": "Sinnoh Route 217"},
+            {"species": "Glaceon", "method": "location", "parameter": "Route 217"},
             {"species": "Sylveon", "method": "affection", "parameter": "Fairy"}
         ],
         "transfer_learnset": [
@@ -27391,7 +27009,7 @@ export const pokedex = {
             "attack": 0,
             "defense": 0,
             "special_attack": 0,
-            "special_defense": 2,
+            "special_defense": 3,
             "speed": 0
         },
         "type_1": "Water",
@@ -27399,7 +27017,7 @@ export const pokedex = {
         "catch_rate": 70,
         "base_experience": 172,
         "common_item": null,
-        "rare_item": "Kings Rock",
+        "rare_item": "King's Rock",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -27502,7 +27120,7 @@ export const pokedex = {
         "evolution_family": [
             {"species": "Slowpoke", "method": null, "parameter": null},
             {"species": "Slowbro", "method": "level", "parameter": 37},
-            {"species": "Slowking", "method": "trade", "parameter": "Kings Rock"}
+            {"species": "Slowking", "method": "trade", "parameter": "King's Rock"}
         ],
         "transfer_learnset": [
             "Avalanche",
@@ -27800,8 +27418,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Inner Focus",
             "Early Bird"
@@ -28181,8 +27799,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Serene Grace",
             "Run Away"
@@ -28567,145 +28185,6 @@ export const pokedex = {
         ],
         "learnset_source": "bulbapedia"
     },
-    "Mega Steelix": {
-        "species": "Mega Steelix",
-        "rom_id": 208,
-        "national_dex_number": 208,
-        "base_stats": {
-            "hp": 75,
-            "attack": 125,
-            "defense": 230,
-            "special_attack": 55,
-            "special_defense": 95,
-            "speed": 30
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "special_attack": 0,
-            "special_defense": 0,
-            "speed": 0
-        },
-        "type_1": "Steel",
-        "type_2": "Ground",
-        "catch_rate": 25,
-        "base_experience": 214,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 127,
-        "egg_cycles": 25,
-        "base_friendship": 70,
-        "growth_rate": "Medium Fast",
-        "egg_group_1": "Mineral",
-        "egg_group_2": "Mineral",
-        "abilities": [
-            "Sand Force"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Thunder Fang"],
-            [1, "Ice Fang"],
-            [1, "Fire Fang"],
-            [1, "Mud Sport"],
-            [1, "Tackle"],
-            [1, "Harden"],
-            [1, "Bind"],
-            [4, "Curse"],
-            [7, "Rock Throw"],
-            [10, "Rock Tomb"],
-            [13, "Rage"],
-            [16, "Stealth Rock"],
-            [19, "Autotomize"],
-            [20, "Gyro Ball"],
-            [22, "Smack Down"],
-            [25, "Dragon Breath"],
-            [28, "Slam"],
-            [31, "Screech"],
-            [34, "Rock Slide"],
-            [37, "Crunch"],
-            [40, "Iron Tail"],
-            [43, "Dig"],
-            [46, "Stone Edge"],
-            [49, "Double-Edge"],
-            [52, "Sandstorm"]
-        ],
-        "tm_hm_learnset": [
-            "Roar",
-            "Toxic",
-            "Hidden Power",
-            "Sunny Day",
-            "Taunt",
-            "Hyper Beam",
-            "Protect",
-            "Frustration",
-            "Smack Down",
-            "Earthquake",
-            "Return",
-            "Dig",
-            "Double Team",
-            "Sandstorm",
-            "Rock Tomb",
-            "Torment",
-            "Facade",
-            "Rest",
-            "Attract",
-            "Round",
-            "Explosion",
-            "Payback",
-            "Giga Impact",
-            "Rock Polish",
-            "Stone Edge",
-            "Gyro Ball",
-            "Psych Up",
-            "Bulldoze",
-            "Rock Slide",
-            "Dragon Tail",
-            "Swagger",
-            "Sleep Talk",
-            "Substitute",
-            "Flash Cannon",
-            "Rock Smash",
-            "Nature Power",
-            "Dark Pulse",
-            "Confide",
-            "Cut",
-            "Strength"
-        ],
-        "tutor_learnset": [],
-        "egg_moves": [
-            "Block",
-            "Defense Curl",
-            "Flail",
-            "Heavy Slam",
-            "Rock Blast",
-            "Rock Climb",
-            "Rollout",
-            "Rototiller",
-            "Stealth Rock"
-        ],
-        "weight": 740.0,
-        "evolution_family": [
-            {"species": "Onix", "method": null, "parameter": null},
-            {"species": "Steelix", "method": "trade", "parameter": "Metal Coat"}
-        ],
-        "transfer_learnset": [
-            "Ancient Power",
-            "Body Slam",
-            "Captivate",
-            "Endure",
-            "Headbutt",
-            "Mimic",
-            "Mud-Slap",
-            "Natural Gift",
-            "Self-Destruct",
-            "Twister"
-        ],
-        "prior_evolution_learnset": [
-            "Sand Tomb"
-        ],
-        "learnset_source": "bulbapedia"
-    },
     "Snubbull": {
         "species": "Snubbull",
         "rom_id": 209,
@@ -28736,7 +28215,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Intimidate",
@@ -28877,7 +28356,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Intimidate",
@@ -29019,7 +28498,7 @@ export const pokedex = {
         "type_1": "Water",
         "type_2": "Poison",
         "catch_rate": 45,
-        "base_experience": 88,
+        "base_experience": 86,
         "common_item": null,
         "rare_item": "Poison Barb",
         "gender_ratio": 127,
@@ -29803,8 +29282,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 35,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Inner Focus",
             "Keen Eye"
@@ -29959,8 +29438,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Pickup",
             "Quick Feet"
@@ -30105,8 +29584,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Guts",
             "Quick Feet"
@@ -30367,7 +29846,7 @@ export const pokedex = {
         "type_1": "Fire",
         "type_2": "Rock",
         "catch_rate": 75,
-        "base_experience": 151,
+        "base_experience": 144,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 127,
@@ -30505,8 +29984,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Oblivious",
             "Snow Cloak"
@@ -30622,8 +30101,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Oblivious",
             "Snow Cloak"
@@ -30745,7 +30224,7 @@ export const pokedex = {
         "type_1": "Water",
         "type_2": "Rock",
         "catch_rate": 60,
-        "base_experience": 144,
+        "base_experience": 133,
         "common_item": null,
         "rare_item": "Hard Stone",
         "gender_ratio": 191,
@@ -31145,7 +30624,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Vital Spirit",
             "Hustle"
@@ -31246,7 +30725,7 @@ export const pokedex = {
         "type_1": "Water",
         "type_2": "Flying",
         "catch_rate": 25,
-        "base_experience": 170,
+        "base_experience": 163,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 127,
@@ -31503,8 +30982,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 35,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Early Bird",
             "Flash Fire"
@@ -31632,8 +31111,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 35,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Early Bird",
             "Flash Fire"
@@ -31769,8 +31248,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 35,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Solar Power"
         ],
@@ -32025,8 +31504,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Pickup"
         ],
@@ -32129,8 +31608,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sturdy"
         ],
@@ -32320,7 +31799,7 @@ export const pokedex = {
         "weight": 32.5,
         "evolution_family": [
             {"species": "Porygon", "method": null, "parameter": null},
-            {"species": "Porygon2", "method": "trade", "parameter": "Up Grade"},
+            {"species": "Porygon2", "method": "trade", "parameter": "Up-Grade"},
             {"species": "Porygon-Z", "method": "trade", "parameter": "Dubious Disc"}
         ],
         "transfer_learnset": [
@@ -32366,8 +31845,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate",
             "Frisk"
@@ -32496,8 +31975,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Own Tempo",
             "Technician"
@@ -33201,8 +32680,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Thick Fat",
             "Scrappy"
@@ -35166,155 +34645,6 @@ export const pokedex = {
         ],
         "learnset_source": "bulbapedia"
     },
-    "Mega Sceptile": {
-        "species": "Mega Sceptile",
-        "rom_id": 254,
-        "national_dex_number": 254,
-        "base_stats": {
-            "hp": 70,
-            "attack": 110,
-            "defense": 75,
-            "special_attack": 145,
-            "special_defense": 85,
-            "speed": 145
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "special_attack": 0,
-            "special_defense": 0,
-            "speed": 3
-        },
-        "type_1": "Grass",
-        "type_2": "Dragon",
-        "catch_rate": 45,
-        "base_experience": 284,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 31,
-        "egg_cycles": 20,
-        "base_friendship": 70,
-        "growth_rate": "Medium Slow",
-        "egg_group_1": "Monster",
-        "egg_group_2": "Dragon",
-        "abilities": [
-            "Lightning Rod"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Leaf Storm"],
-            [1, "Night Slash"],
-            [1, "Pound"],
-            [1, "Leer"],
-            [1, "Absorb"],
-            [1, "Quick Attack"],
-            [6, "Absorb"],
-            [11, "Quick Attack"],
-            [16, "X-Scissor"],
-            [17, "Pursuit"],
-            [23, "Screech"],
-            [29, "Leaf Blade"],
-            [35, "Agility"],
-            [43, "Slam"],
-            [51, "Detect"],
-            [59, "False Swipe"],
-            [67, "Leaf Storm"]
-        ],
-        "tm_hm_learnset": [
-            "Hone Claws",
-            "Dragon Claw",
-            "Roar",
-            "Toxic",
-            "Hidden Power",
-            "Sunny Day",
-            "Hyper Beam",
-            "Protect",
-            "Safeguard",
-            "Frustration",
-            "Solar Beam",
-            "Earthquake",
-            "Return",
-            "Dig",
-            "Brick Break",
-            "Double Team",
-            "Rock Tomb",
-            "Aerial Ace",
-            "Facade",
-            "Rest",
-            "Attract",
-            "Low Sweep",
-            "Round",
-            "Focus Blast",
-            "Energy Ball",
-            "False Swipe",
-            "Fling",
-            "Acrobatics",
-            "Giga Impact",
-            "Flash",
-            "Swords Dance",
-            "Bulldoze",
-            "Rock Slide",
-            "X-Scissor",
-            "Grass Knot",
-            "Swagger",
-            "Sleep Talk",
-            "Substitute",
-            "Rock Smash",
-            "Nature Power",
-            "Power-Up Punch",
-            "Confide",
-            "Cut",
-            "Strength"
-        ],
-        "tutor_learnset": [
-            "Frenzy Plant",
-            "Grass Pledge"
-        ],
-        "egg_moves": [
-            "Bullet Seed",
-            "Crunch",
-            "Crush Claw",
-            "Double Kick",
-            "Dragon Breath",
-            "Endeavor",
-            "Grass Whistle",
-            "Grassy Terrain",
-            "Leaf Storm",
-            "Leech Seed",
-            "Magical Leaf",
-            "Mud Sport",
-            "Natural Gift",
-            "Razor Wind",
-            "Synthesis",
-            "Worry Seed"
-        ],
-        "weight": 55.2,
-        "evolution_family": [
-            {"species": "Treecko", "method": null, "parameter": null},
-            {"species": "Grovyle", "method": "level", "parameter": 16},
-            {"species": "Sceptile", "method": "level", "parameter": 36}
-        ],
-        "transfer_learnset": [
-            "Body Slam",
-            "Captivate",
-            "Counter",
-            "Double-Edge",
-            "Dynamic Punch",
-            "Endure",
-            "Headbutt",
-            "Mega Kick",
-            "Mega Punch",
-            "Mimic",
-            "Mud-Slap",
-            "Seismic Toss",
-            "Swift"
-        ],
-        "prior_evolution_learnset": [
-            "Giga Drain"
-        ],
-        "learnset_source": "bulbapedia"
-    },
     "Torchic": {
         "species": "Torchic",
         "rom_id": 255,
@@ -35345,8 +34675,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -35468,8 +34798,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -35609,8 +34939,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -35765,8 +35095,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Speed Boost"
         ],
@@ -36293,151 +35623,6 @@ export const pokedex = {
         ],
         "learnset_source": "bulbapedia"
     },
-    "Mega Swampert": {
-        "species": "Mega Swampert",
-        "rom_id": 260,
-        "national_dex_number": 260,
-        "base_stats": {
-            "hp": 100,
-            "attack": 150,
-            "defense": 110,
-            "special_attack": 95,
-            "special_defense": 110,
-            "speed": 70
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 3,
-            "defense": 0,
-            "special_attack": 0,
-            "special_defense": 0,
-            "speed": 0
-        },
-        "type_1": "Water",
-        "type_2": "Ground",
-        "catch_rate": 45,
-        "base_experience": 286,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 31,
-        "egg_cycles": 20,
-        "base_friendship": 70,
-        "growth_rate": "Medium Slow",
-        "egg_group_1": "Monster",
-        "egg_group_2": "Water1",
-        "abilities": [
-            "Swift Swim"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Hammer Arm"],
-            [1, "Tackle"],
-            [1, "Growl"],
-            [1, "Water Gun"],
-            [1, "Mud-Slap"],
-            [6, "Mud-Slap"],
-            [10, "Water Gun"],
-            [15, "Bide"],
-            [16, "Mud Shot"],
-            [20, "Foresight"],
-            [25, "Mud Bomb"],
-            [31, "Take Down"],
-            [39, "Muddy Water"],
-            [46, "Protect"],
-            [52, "Earthquake"],
-            [61, "Endeavor"],
-            [69, "Hammer Arm"]
-        ],
-        "tm_hm_learnset": [
-            "Roar",
-            "Toxic",
-            "Hail",
-            "Hidden Power",
-            "Ice Beam",
-            "Blizzard",
-            "Hyper Beam",
-            "Protect",
-            "Rain Dance",
-            "Frustration",
-            "Earthquake",
-            "Return",
-            "Dig",
-            "Brick Break",
-            "Double Team",
-            "Sludge Wave",
-            "Rock Tomb",
-            "Facade",
-            "Rest",
-            "Attract",
-            "Round",
-            "Echoed Voice",
-            "Focus Blast",
-            "Scald",
-            "Fling",
-            "Giga Impact",
-            "Stone Edge",
-            "Bulldoze",
-            "Rock Slide",
-            "Swagger",
-            "Sleep Talk",
-            "Substitute",
-            "Rock Smash",
-            "Power-Up Punch",
-            "Confide",
-            "Surf",
-            "Strength",
-            "Waterfall"
-        ],
-        "tutor_learnset": [
-            "Hydro Cannon",
-            "Water Pledge"
-        ],
-        "egg_moves": [
-            "Ancient Power",
-            "Avalanche",
-            "Barrier",
-            "Bite",
-            "Counter",
-            "Curse",
-            "Double-Edge",
-            "Ice Ball",
-            "Mirror Coat",
-            "Mud Bomb",
-            "Refresh",
-            "Sludge",
-            "Stomp",
-            "Uproar",
-            "Whirlpool",
-            "Wide Guard",
-            "Yawn"
-        ],
-        "weight": 102.0,
-        "evolution_family": [
-            {"species": "Mudkip", "method": null, "parameter": null},
-            {"species": "Marshtomp", "method": "level", "parameter": 16},
-            {"species": "Swampert", "method": "level", "parameter": 36}
-        ],
-        "transfer_learnset": [
-            "Body Slam",
-            "Captivate",
-            "Defense Curl",
-            "Dynamic Punch",
-            "Endure",
-            "Headbutt",
-            "Mega Kick",
-            "Mega Punch",
-            "Mimic",
-            "Natural Gift",
-            "Rollout",
-            "Seismic Toss"
-        ],
-        "prior_evolution_learnset": [
-            "Mud Sport",
-            "Whirlpool",
-            "Hydro Pump"
-        ],
-        "learnset_source": "bulbapedia"
-    },
     "Poochyena": {
         "species": "Poochyena",
         "rom_id": 261,
@@ -36461,15 +35646,15 @@ export const pokedex = {
         "type_1": "Dark",
         "type_2": "Dark",
         "catch_rate": 255,
-        "base_experience": 56,
+        "base_experience": 44,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Run Away",
             "Quick Feet"
@@ -36588,8 +35773,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate",
             "Quick Feet"
@@ -36709,15 +35894,15 @@ export const pokedex = {
         "type_1": "Normal",
         "type_2": "Normal",
         "catch_rate": 255,
-        "base_experience": 56,
+        "base_experience": 48,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Pickup",
             "Gluttony"
@@ -36845,8 +36030,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Pickup",
             "Gluttony"
@@ -36979,7 +36164,7 @@ export const pokedex = {
         "type_1": "Bug",
         "type_2": "Bug",
         "catch_rate": 255,
-        "base_experience": 56,
+        "base_experience": 39,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 127,
@@ -37209,7 +36394,7 @@ export const pokedex = {
         "type_1": "Bug",
         "type_2": "Bug",
         "catch_rate": 120,
-        "base_experience": 72,
+        "base_experience": 41,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 127,
@@ -37271,7 +36456,7 @@ export const pokedex = {
         "type_1": "Bug",
         "type_2": "Poison",
         "catch_rate": 45,
-        "base_experience": 173,
+        "base_experience": 135,
         "common_item": null,
         "rare_item": "Shed Shell",
         "gender_ratio": 127,
@@ -37766,7 +36951,7 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Grass",
         "abilities": [
             "Chlorophyll",
@@ -37878,7 +37063,7 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Grass",
         "abilities": [
             "Chlorophyll",
@@ -38018,7 +37203,7 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Grass",
         "abilities": [
             "Chlorophyll",
@@ -38273,7 +37458,7 @@ export const pokedex = {
         "type_1": "Normal",
         "type_2": "Flying",
         "catch_rate": 45,
-        "base_experience": 159,
+        "base_experience": 151,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 127,
@@ -38503,7 +37688,7 @@ export const pokedex = {
         "type_1": "Water",
         "type_2": "Flying",
         "catch_rate": 45,
-        "base_experience": 154,
+        "base_experience": 151,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 127,
@@ -38644,7 +37829,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 35,
         "growth_rate": "Slow",
-        "egg_group_1": "HumanLike",
+        "egg_group_1": "Amorphous",
         "egg_group_2": "Amorphous",
         "abilities": [
             "Synchronize",
@@ -38783,7 +37968,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 35,
         "growth_rate": "Slow",
-        "egg_group_1": "HumanLike",
+        "egg_group_1": "Amorphous",
         "egg_group_2": "Amorphous",
         "abilities": [
             "Synchronize",
@@ -38925,7 +38110,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 35,
         "growth_rate": "Slow",
-        "egg_group_1": "HumanLike",
+        "egg_group_1": "Amorphous",
         "egg_group_2": "Amorphous",
         "abilities": [
             "Synchronize",
@@ -39078,7 +38263,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 35,
         "growth_rate": "Slow",
-        "egg_group_1": "HumanLike",
+        "egg_group_1": "Amorphous",
         "egg_group_2": "Amorphous",
         "abilities": [
             "Pixilate"
@@ -39330,7 +38515,7 @@ export const pokedex = {
         "type_1": "Bug",
         "type_2": "Flying",
         "catch_rate": 75,
-        "base_experience": 159,
+        "base_experience": 145,
         "common_item": null,
         "rare_item": "Silver Powder",
         "gender_ratio": 127,
@@ -39713,8 +38898,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Truant"
         ],
@@ -39839,8 +39024,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Vital Spirit"
         ],
@@ -39983,8 +39168,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Truant"
         ],
@@ -40485,7 +39670,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Soundproof"
         ],
@@ -40605,7 +39790,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Soundproof"
         ],
@@ -40741,7 +39926,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Soundproof"
         ],
@@ -41015,7 +40200,7 @@ export const pokedex = {
         "catch_rate": 200,
         "base_experience": 166,
         "common_item": null,
-        "rare_item": "Kings Rock",
+        "rare_item": "King's Rock",
         "gender_ratio": 63,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -41341,7 +40526,7 @@ export const pokedex = {
         "weight": 97.0,
         "evolution_family": [
             {"species": "Nosepass", "method": null, "parameter": null},
-            {"species": "Probopass", "method": "location", "parameter": "Mt Coronet"}
+            {"species": "Probopass", "method": "location", "parameter": "Mt. Coronet"}
         ],
         "transfer_learnset": [
             "Ancient Power",
@@ -41388,7 +40573,7 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Cute Charm",
@@ -41512,14 +40697,14 @@ export const pokedex = {
         "type_1": "Normal",
         "type_2": "Normal",
         "catch_rate": 60,
-        "base_experience": 140,
+        "base_experience": 133,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 191,
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Cute Charm",
@@ -41776,154 +40961,6 @@ export const pokedex = {
         ],
         "learnset_source": "bulbapedia"
     },
-    "Mega Sableye": {
-        "species": "Mega Sableye",
-        "rom_id": 302,
-        "national_dex_number": 302,
-        "base_stats": {
-            "hp": 50,
-            "attack": 85,
-            "defense": 125,
-            "special_attack": 85,
-            "special_defense": 115,
-            "speed": 20
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 1,
-            "defense": 1,
-            "special_attack": 0,
-            "special_defense": 0,
-            "speed": 0
-        },
-        "type_1": "Dark",
-        "type_2": "Ghost",
-        "catch_rate": 45,
-        "base_experience": 168,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 127,
-        "egg_cycles": 25,
-        "base_friendship": 35,
-        "growth_rate": "Medium Slow",
-        "egg_group_1": "HumanLike",
-        "egg_group_2": "HumanLike",
-        "abilities": [
-            "Magic Bounce"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Mean Look"],
-            [1, "Zen Headbutt"],
-            [1, "Leer"],
-            [1, "Scratch"],
-            [4, "Foresight"],
-            [8, "Night Shade"],
-            [11, "Astonish"],
-            [15, "Fury Swipes"],
-            [18, "Fake Out"],
-            [22, "Detect"],
-            [25, "Shadow Sneak"],
-            [29, "Knock Off"],
-            [32, "Feint Attack"],
-            [36, "Punishment"],
-            [39, "Shadow Claw"],
-            [43, "Power Gem"],
-            [46, "Confuse Ray"],
-            [50, "Foul Play"],
-            [53, "Zen Headbutt"],
-            [57, "Shadow Ball"],
-            [60, "Mean Look"]
-        ],
-        "tm_hm_learnset": [
-            "Hone Claws",
-            "Calm Mind",
-            "Toxic",
-            "Hidden Power",
-            "Sunny Day",
-            "Taunt",
-            "Protect",
-            "Rain Dance",
-            "Frustration",
-            "Return",
-            "Dig",
-            "Psychic",
-            "Shadow Ball",
-            "Brick Break",
-            "Double Team",
-            "Rock Tomb",
-            "Aerial Ace",
-            "Torment",
-            "Facade",
-            "Rest",
-            "Attract",
-            "Thief",
-            "Low Sweep",
-            "Round",
-            "Fling",
-            "Incinerate",
-            "Will-O-Wisp",
-            "Embargo",
-            "Shadow Claw",
-            "Payback",
-            "Retaliate",
-            "Flash",
-            "Psych Up",
-            "Poison Jab",
-            "Dream Eater",
-            "Swagger",
-            "Sleep Talk",
-            "Substitute",
-            "Rock Smash",
-            "Snarl",
-            "Dark Pulse",
-            "Power-Up Punch",
-            "Dazzling Gleam",
-            "Confide",
-            "Cut"
-        ],
-        "tutor_learnset": [],
-        "egg_moves": [
-            "Captivate",
-            "Feint",
-            "Flatter",
-            "Imprison",
-            "Mean Look",
-            "Metal Burst",
-            "Moonlight",
-            "Nasty Plot",
-            "Recover",
-            "Sucker Punch",
-            "Trick"
-        ],
-        "weight": 161.0,
-        "evolution_family": [
-            {"species": "Sableye", "method": null, "parameter": null}
-        ],
-        "transfer_learnset": [
-            "Body Slam",
-            "Counter",
-            "Double-Edge",
-            "Dynamic Punch",
-            "Endure",
-            "Fury Cutter",
-            "Headbutt",
-            "Helping Hand",
-            "Mega Kick",
-            "Mega Punch",
-            "Metronome",
-            "Mimic",
-            "Mud-Slap",
-            "Natural Gift",
-            "Nightmare",
-            "Octazooka",
-            "Ominous Wind",
-            "Seismic Toss",
-            "Telekinesis",
-            "Tickle"
-        ],
-        "learnset_source": "bulbapedia"
-    },
     "Mawile": {
         "species": "Mawile",
         "rom_id": 303,
@@ -41954,7 +40991,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Hyper Cutter",
@@ -42098,7 +41135,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Huge Power"
@@ -43211,8 +42248,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Static",
             "Lightning Rod"
@@ -43327,8 +42364,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Static",
             "Lightning Rod"
@@ -43453,8 +42490,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate"
         ],
@@ -43813,7 +42850,7 @@ export const pokedex = {
         "type_1": "Bug",
         "type_2": "Bug",
         "catch_rate": 150,
-        "base_experience": 151,
+        "base_experience": 140,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 0,
@@ -43935,7 +42972,7 @@ export const pokedex = {
         "type_1": "Bug",
         "type_2": "Bug",
         "catch_rate": 150,
-        "base_experience": 151,
+        "base_experience": 140,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 254,
@@ -44654,134 +43691,6 @@ export const pokedex = {
         ],
         "learnset_source": "bulbapedia"
     },
-    "Mega Sharpedo": {
-        "species": "Mega Sharpedo",
-        "rom_id": 319,
-        "national_dex_number": 319,
-        "base_stats": {
-            "hp": 70,
-            "attack": 140,
-            "defense": 70,
-            "special_attack": 110,
-            "special_defense": 65,
-            "speed": 105
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 2,
-            "defense": 0,
-            "special_attack": 0,
-            "special_defense": 0,
-            "speed": 0
-        },
-        "type_1": "Water",
-        "type_2": "Dark",
-        "catch_rate": 60,
-        "base_experience": 196,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 127,
-        "egg_cycles": 20,
-        "base_friendship": 35,
-        "growth_rate": "Slow",
-        "egg_group_1": "Water2",
-        "egg_group_2": "Water2",
-        "abilities": [
-            "Strong Jaw"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Night Slash"],
-            [1, "Feint"],
-            [1, "Leer"],
-            [1, "Bite"],
-            [1, "Rage"],
-            [1, "Focus Energy"],
-            [6, "Rage"],
-            [8, "Focus Energy"],
-            [11, "Scary Face"],
-            [16, "Ice Fang"],
-            [18, "Screech"],
-            [21, "Swagger"],
-            [26, "Assurance"],
-            [28, "Crunch"],
-            [30, "Slash"],
-            [34, "Aqua Jet"],
-            [40, "Taunt"],
-            [45, "Agility"],
-            [50, "Skull Bash"],
-            [56, "Night Slash"]
-        ],
-        "tm_hm_learnset": [
-            "Roar",
-            "Toxic",
-            "Hail",
-            "Hidden Power",
-            "Taunt",
-            "Ice Beam",
-            "Blizzard",
-            "Hyper Beam",
-            "Protect",
-            "Rain Dance",
-            "Frustration",
-            "Earthquake",
-            "Return",
-            "Double Team",
-            "Rock Tomb",
-            "Torment",
-            "Facade",
-            "Rest",
-            "Attract",
-            "Thief",
-            "Round",
-            "Scald",
-            "Payback",
-            "Retaliate",
-            "Giga Impact",
-            "Bulldoze",
-            "Poison Jab",
-            "Swagger",
-            "Sleep Talk",
-            "Substitute",
-            "Rock Smash",
-            "Snarl",
-            "Dark Pulse",
-            "Confide",
-            "Surf",
-            "Strength",
-            "Waterfall"
-        ],
-        "tutor_learnset": [],
-        "egg_moves": [
-            "Ancient Power",
-            "Brine",
-            "Destiny Bond",
-            "Double-Edge",
-            "Hydro Pump",
-            "Swift",
-            "Thrash"
-        ],
-        "weight": 130.3,
-        "evolution_family": [
-            {"species": "Carvanha", "method": null, "parameter": null},
-            {"species": "Sharpedo", "method": "level", "parameter": 30}
-        ],
-        "transfer_learnset": [
-            "Avalanche",
-            "Captivate",
-            "Endure",
-            "Fury Cutter",
-            "Mimic",
-            "Mud-Slap",
-            "Natural Gift",
-            "Refresh",
-            "Whirlpool"
-        ],
-        "prior_evolution_learnset": [
-            "Take Down"
-        ],
-        "learnset_source": "bulbapedia"
-    },
     "Wailmer": {
         "species": "Wailmer",
         "rom_id": 320,
@@ -44812,7 +43721,7 @@ export const pokedex = {
         "egg_cycles": 40,
         "base_friendship": 70,
         "growth_rate": "Fluctuating",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Water2",
         "abilities": [
             "Water Veil",
@@ -44929,7 +43838,7 @@ export const pokedex = {
         "egg_cycles": 40,
         "base_friendship": 70,
         "growth_rate": "Fluctuating",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Water2",
         "abilities": [
             "Water Veil",
@@ -45051,8 +43960,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Oblivious",
             "Simple"
@@ -45172,8 +44081,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Magma Armor",
             "Solid Rock"
@@ -45280,143 +44189,6 @@ export const pokedex = {
         ],
         "learnset_source": "bulbapedia"
     },
-    "Mega Camerupt": {
-        "species": "Mega Camerupt",
-        "rom_id": 323,
-        "national_dex_number": 323,
-        "base_stats": {
-            "hp": 70,
-            "attack": 120,
-            "defense": 100,
-            "special_attack": 145,
-            "special_defense": 105,
-            "speed": 20
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 1,
-            "defense": 0,
-            "special_attack": 1,
-            "special_defense": 0,
-            "speed": 0
-        },
-        "type_1": "Fire",
-        "type_2": "Ground",
-        "catch_rate": 150,
-        "base_experience": 196,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 127,
-        "egg_cycles": 20,
-        "base_friendship": 70,
-        "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
-        "abilities": [
-            "Sheer Force"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Fissure"],
-            [1, "Eruption"],
-            [1, "Growl"],
-            [1, "Tackle"],
-            [1, "Ember"],
-            [1, "Magnitude"],
-            [5, "Ember"],
-            [8, "Magnitude"],
-            [12, "Focus Energy"],
-            [15, "Flame Burst"],
-            [19, "Amnesia"],
-            [22, "Lava Plume"],
-            [26, "Earth Power"],
-            [29, "Curse"],
-            [31, "Take Down"],
-            [33, "Rock Slide"],
-            [39, "Yawn"],
-            [46, "Earthquake"],
-            [52, "Eruption"],
-            [59, "Fissure"]
-        ],
-        "tm_hm_learnset": [
-            "Roar",
-            "Toxic",
-            "Hidden Power",
-            "Sunny Day",
-            "Hyper Beam",
-            "Protect",
-            "Frustration",
-            "Solar Beam",
-            "Earthquake",
-            "Return",
-            "Dig",
-            "Double Team",
-            "Flamethrower",
-            "Sandstorm",
-            "Fire Blast",
-            "Rock Tomb",
-            "Facade",
-            "Flame Charge",
-            "Rest",
-            "Attract",
-            "Round",
-            "Echoed Voice",
-            "Overheat",
-            "Incinerate",
-            "Will-O-Wisp",
-            "Explosion",
-            "Giga Impact",
-            "Rock Polish",
-            "Stone Edge",
-            "Bulldoze",
-            "Rock Slide",
-            "Swagger",
-            "Sleep Talk",
-            "Substitute",
-            "Flash Cannon",
-            "Rock Smash",
-            "Nature Power",
-            "Confide",
-            "Strength"
-        ],
-        "tutor_learnset": [],
-        "egg_moves": [
-            "Ancient Power",
-            "Body Slam",
-            "Defense Curl",
-            "Endure",
-            "Growth",
-            "Heat Wave",
-            "Howl",
-            "Iron Head",
-            "Mud Bomb",
-            "Rollout",
-            "Scary Face",
-            "Spit Up",
-            "Stockpile",
-            "Stomp",
-            "Swallow",
-            "Yawn"
-        ],
-        "weight": 320.5,
-        "evolution_family": [
-            {"species": "Numel", "method": null, "parameter": null},
-            {"species": "Camerupt", "method": "level", "parameter": 33}
-        ],
-        "transfer_learnset": [
-            "Captivate",
-            "Charm",
-            "Headbutt",
-            "Mimic",
-            "Mud-Slap",
-            "Natural Gift",
-            "Self-Destruct"
-        ],
-        "prior_evolution_learnset": [
-            "Double-Edge"
-        ],
-        "learnset_source": "bulbapedia"
-    },
     "Torkoal": {
         "species": "Torkoal",
         "rom_id": 324,
@@ -45447,8 +44219,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "White Smoke"
         ],
@@ -45573,8 +44345,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Thick Fat",
             "Own Tempo"
@@ -45694,8 +44466,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Thick Fat",
             "Own Tempo"
@@ -45832,7 +44604,7 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Own Tempo",
@@ -45968,7 +44740,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Bug",
-        "egg_group_2": "Dragon",
+        "egg_group_2": "Bug",
         "abilities": [
             "Hyper Cutter",
             "Arena Trap"
@@ -46084,7 +44856,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Bug",
-        "egg_group_2": "Dragon",
+        "egg_group_2": "Bug",
         "abilities": [
             "Levitate"
         ],
@@ -46215,7 +44987,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Bug",
-        "egg_group_2": "Dragon",
+        "egg_group_2": "Bug",
         "abilities": [
             "Levitate"
         ],
@@ -46853,145 +45625,6 @@ export const pokedex = {
         ],
         "learnset_source": "bulbapedia"
     },
-    "Mega Altaria": {
-        "species": "Mega Altaria",
-        "rom_id": 334,
-        "national_dex_number": 334,
-        "base_stats": {
-            "hp": 75,
-            "attack": 110,
-            "defense": 110,
-            "special_attack": 110,
-            "special_defense": 105,
-            "speed": 80
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "special_attack": 0,
-            "special_defense": 2,
-            "speed": 0
-        },
-        "type_1": "Dragon",
-        "type_2": "Fairy",
-        "catch_rate": 45,
-        "base_experience": 207,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 127,
-        "egg_cycles": 20,
-        "base_friendship": 70,
-        "growth_rate": "Erratic",
-        "egg_group_1": "Flying",
-        "egg_group_2": "Dragon",
-        "abilities": [
-            "Pixilate"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Sky Attack"],
-            [1, "Pluck"],
-            [1, "Peck"],
-            [1, "Growl"],
-            [1, "Astonish"],
-            [1, "Sing"],
-            [4, "Astonish"],
-            [8, "Sing"],
-            [10, "Fury Attack"],
-            [13, "Safeguard"],
-            [15, "Mist"],
-            [18, "Round"],
-            [21, "Natural Gift"],
-            [25, "Take Down"],
-            [29, "Refresh"],
-            [34, "Dragon Dance"],
-            [35, "Dragon Breath"],
-            [42, "Cotton Guard"],
-            [48, "Dragon Pulse"],
-            [57, "Perish Song"],
-            [60, "Moonblast"],
-            [64, "Sky Attack"]
-        ],
-        "tm_hm_learnset": [
-            "Hone Claws",
-            "Dragon Claw",
-            "Roar",
-            "Toxic",
-            "Hidden Power",
-            "Sunny Day",
-            "Ice Beam",
-            "Hyper Beam",
-            "Protect",
-            "Rain Dance",
-            "Roost",
-            "Safeguard",
-            "Frustration",
-            "Solar Beam",
-            "Earthquake",
-            "Return",
-            "Double Team",
-            "Flamethrower",
-            "Fire Blast",
-            "Aerial Ace",
-            "Facade",
-            "Rest",
-            "Attract",
-            "Thief",
-            "Round",
-            "Echoed Voice",
-            "Steel Wing",
-            "Incinerate",
-            "Giga Impact",
-            "Psych Up",
-            "Bulldoze",
-            "Dream Eater",
-            "Swagger",
-            "Sleep Talk",
-            "Substitute",
-            "Rock Smash",
-            "Dazzling Gleam",
-            "Confide",
-            "Fly"
-        ],
-        "tutor_learnset": [
-            "Draco Meteor"
-        ],
-        "egg_moves": [
-            "Agility",
-            "Dragon Rush",
-            "Feather Dance",
-            "Haze",
-            "Hyper Voice",
-            "Power Swap",
-            "Pursuit",
-            "Rage",
-            "Roost",
-            "Steel Wing"
-        ],
-        "weight": 20.6,
-        "evolution_family": [
-            {"species": "Swablu", "method": null, "parameter": null},
-            {"species": "Altaria", "method": "level", "parameter": 35}
-        ],
-        "transfer_learnset": [
-            "Air Cutter",
-            "Body Slam",
-            "Captivate",
-            "Double-Edge",
-            "Endure",
-            "False Swipe",
-            "Mimic",
-            "Mud-Slap",
-            "Ominous Wind",
-            "Swift",
-            "Twister"
-        ],
-        "prior_evolution_learnset": [
-            "Mirror Move"
-        ],
-        "learnset_source": "bulbapedia"
-    },
     "Zangoose": {
         "species": "Zangoose",
         "rom_id": 335,
@@ -47022,8 +45655,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Erratic",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Immunity"
         ],
@@ -47167,7 +45800,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fluctuating",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Dragon",
         "abilities": [
             "Shed Skin"
@@ -47285,7 +45918,7 @@ export const pokedex = {
         "type_1": "Rock",
         "type_2": "Psychic",
         "catch_rate": 45,
-        "base_experience": 161,
+        "base_experience": 154,
         "common_item": null,
         "rare_item": "Moon Stone",
         "gender_ratio": 255,
@@ -47410,7 +46043,7 @@ export const pokedex = {
         "type_1": "Rock",
         "type_2": "Psychic",
         "catch_rate": 45,
-        "base_experience": 161,
+        "base_experience": 154,
         "common_item": null,
         "rare_item": "Sun Stone",
         "gender_ratio": 255,
@@ -49431,8 +48064,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Color Change"
         ],
@@ -50361,7 +48994,7 @@ export const pokedex = {
         "type_1": "Psychic",
         "type_2": "Psychic",
         "catch_rate": 45,
-        "base_experience": 159,
+        "base_experience": 149,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 127,
@@ -50498,8 +49131,8 @@ export const pokedex = {
         "egg_cycles": 25,
         "base_friendship": 35,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Pressure",
             "Super Luck"
@@ -50655,8 +49288,8 @@ export const pokedex = {
         "egg_cycles": 25,
         "base_friendship": 35,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Magic Bounce"
         ],
@@ -51082,135 +49715,6 @@ export const pokedex = {
         ],
         "learnset_source": "bulbapedia"
     },
-    "Mega Glalie": {
-        "species": "Mega Glalie",
-        "rom_id": 362,
-        "national_dex_number": 362,
-        "base_stats": {
-            "hp": 80,
-            "attack": 120,
-            "defense": 80,
-            "special_attack": 120,
-            "special_defense": 80,
-            "speed": 100
-        },
-        "ev_yield": {
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "special_attack": 0,
-            "special_defense": 0,
-            "speed": 0
-        },
-        "type_1": "Ice",
-        "type_2": "Ice",
-        "catch_rate": 75,
-        "base_experience": 203,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 127,
-        "egg_cycles": 20,
-        "base_friendship": 70,
-        "growth_rate": "Medium Fast",
-        "egg_group_1": "Fairy",
-        "egg_group_2": "Mineral",
-        "abilities": [
-            "Refrigerate"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Sheer Cold"],
-            [1, "Powder Snow"],
-            [1, "Leer"],
-            [1, "Double Team"],
-            [1, "Bite"],
-            [4, "Double Team"],
-            [10, "Bite"],
-            [13, "Icy Wind"],
-            [19, "Headbutt"],
-            [22, "Protect"],
-            [28, "Ice Fang"],
-            [31, "Crunch"],
-            [37, "Ice Beam"],
-            [40, "Hail"],
-            [51, "Blizzard"],
-            [59, "Sheer Cold"]
-        ],
-        "tm_hm_learnset": [
-            "Toxic",
-            "Hail",
-            "Hidden Power",
-            "Taunt",
-            "Ice Beam",
-            "Blizzard",
-            "Hyper Beam",
-            "Light Screen",
-            "Protect",
-            "Rain Dance",
-            "Safeguard",
-            "Frustration",
-            "Earthquake",
-            "Return",
-            "Shadow Ball",
-            "Double Team",
-            "Torment",
-            "Facade",
-            "Rest",
-            "Attract",
-            "Round",
-            "Explosion",
-            "Payback",
-            "Giga Impact",
-            "Flash",
-            "Gyro Ball",
-            "Bulldoze",
-            "Frost Breath",
-            "Swagger",
-            "Sleep Talk",
-            "Substitute",
-            "Dark Pulse",
-            "Confide"
-        ],
-        "tutor_learnset": [],
-        "egg_moves": [
-            "Avalanche",
-            "Bide",
-            "Block",
-            "Disable",
-            "Hex",
-            "Fake Tears",
-            "Rollout",
-            "Spikes",
-            "Switcheroo",
-            "Weather Ball"
-        ],
-        "weight": 350.2,
-        "evolution_family": [
-            {"species": "Snorunt", "method": null, "parameter": null},
-            {"species": "Glalie", "method": "level", "parameter": 42},
-            {
-                "species": "Froslass",
-                "method": "item",
-                "parameter": "Dawn Stone",
-                "gender": "female"
-            }
-        ],
-        "transfer_learnset": [
-            "Body Slam",
-            "Captivate",
-            "Defense Curl",
-            "Double-Edge",
-            "Endure",
-            "Mimic",
-            "Natural Gift",
-            "Self-Destruct",
-            "Sing"
-        ],
-        "prior_evolution_learnset": [
-            "Ice Shard"
-        ],
-        "learnset_source": "bulbapedia"
-    },
     "Spheal": {
         "species": "Spheal",
         "rom_id": 363,
@@ -51242,7 +49746,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Thick Fat",
             "Ice Body"
@@ -51359,7 +49863,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Thick Fat",
             "Ice Body"
@@ -51478,7 +49982,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Thick Fat",
             "Ice Body"
@@ -52493,144 +50997,6 @@ export const pokedex = {
         ],
         "learnset_source": "bulbapedia"
     },
-    "Mega Salamence": {
-        "species": "Mega Salamence",
-        "rom_id": 373,
-        "national_dex_number": 373,
-        "base_stats": {
-            "hp": 95,
-            "attack": 145,
-            "defense": 130,
-            "special_attack": 120,
-            "special_defense": 90,
-            "speed": 120
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 3,
-            "defense": 0,
-            "special_attack": 0,
-            "special_defense": 0,
-            "speed": 0
-        },
-        "type_1": "Dragon",
-        "type_2": "Flying",
-        "catch_rate": 45,
-        "base_experience": 315,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 127,
-        "egg_cycles": 40,
-        "base_friendship": 35,
-        "growth_rate": "Slow",
-        "egg_group_1": "Dragon",
-        "egg_group_2": "Dragon",
-        "abilities": [
-            "Aerilate"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Double-Edge"],
-            [1, "Fire Fang"],
-            [1, "Thunder Fang"],
-            [1, "Rage"],
-            [1, "Leer"],
-            [1, "Bite"],
-            [1, "Headbutt"],
-            [5, "Bite"],
-            [10, "Leer"],
-            [16, "Headbutt"],
-            [20, "Focus Energy"],
-            [25, "Ember"],
-            [30, "Protect"],
-            [32, "Dragon Breath"],
-            [37, "Zen Headbutt"],
-            [43, "Scary Face"],
-            [50, "Fly"],
-            [53, "Crunch"],
-            [61, "Dragon Claw"],
-            [70, "Double-Edge"],
-            [80, "Dragon Tail"]
-        ],
-        "tm_hm_learnset": [
-            "Hone Claws",
-            "Dragon Claw",
-            "Roar",
-            "Toxic",
-            "Hidden Power",
-            "Sunny Day",
-            "Hyper Beam",
-            "Protect",
-            "Rain Dance",
-            "Roost",
-            "Frustration",
-            "Earthquake",
-            "Return",
-            "Brick Break",
-            "Double Team",
-            "Flamethrower",
-            "Fire Blast",
-            "Rock Tomb",
-            "Aerial Ace",
-            "Facade",
-            "Rest",
-            "Attract",
-            "Round",
-            "Steel Wing",
-            "Incinerate",
-            "Shadow Claw",
-            "Giga Impact",
-            "Stone Edge",
-            "Bulldoze",
-            "Rock Slide",
-            "Dragon Tail",
-            "Swagger",
-            "Sleep Talk",
-            "Substitute",
-            "Rock Smash",
-            "Confide",
-            "Cut",
-            "Fly",
-            "Strength"
-        ],
-        "tutor_learnset": [
-            "Draco Meteor"
-        ],
-        "egg_moves": [
-            "Defense Curl",
-            "Dragon Dance",
-            "Dragon Pulse",
-            "Dragon Rage",
-            "Dragon Rush",
-            "Endure",
-            "Fire Fang",
-            "Hydro Pump",
-            "Thrash",
-            "Twister"
-        ],
-        "weight": 112.6,
-        "evolution_family": [
-            {"species": "Bagon", "method": null, "parameter": null},
-            {"species": "Shelgon", "method": "level", "parameter": 30},
-            {"species": "Salamence", "method": "level", "parameter": 50}
-        ],
-        "transfer_learnset": [
-            "Air Cutter",
-            "Body Slam",
-            "Captivate",
-            "Defog",
-            "Fury Cutter",
-            "Mimic",
-            "Mud-Slap",
-            "Natural Gift",
-            "Ominous Wind",
-            "Refresh",
-            "Rollout",
-            "Swift",
-            "Wish"
-        ],
-        "learnset_source": "bulbapedia"
-    },
     "Beldum": {
         "species": "Beldum",
         "rom_id": 374,
@@ -52913,135 +51279,6 @@ export const pokedex = {
         "tutor_learnset": [],
         "egg_moves": [],
         "weight": 550.0,
-        "evolution_family": [
-            {"species": "Beldum", "method": null, "parameter": null},
-            {"species": "Metang", "method": "level", "parameter": 20},
-            {"species": "Metagross", "method": "level", "parameter": 45}
-        ],
-        "transfer_learnset": [
-            "Body Slam",
-            "Defense Curl",
-            "Double-Edge",
-            "Dynamic Punch",
-            "Endure",
-            "Fury Cutter",
-            "Headbutt",
-            "Mimic",
-            "Mud-Slap",
-            "Natural Gift",
-            "Refresh",
-            "Rollout",
-            "Self-Destruct",
-            "Swift",
-            "Telekinesis"
-        ],
-        "prior_evolution_learnset": [
-            "Hold Back"
-        ],
-        "learnset_source": "bulbapedia"
-    },
-    "Mega Metagross": {
-        "species": "Mega Metagross",
-        "rom_id": 376,
-        "national_dex_number": 376,
-        "base_stats": {
-            "hp": 80,
-            "attack": 145,
-            "defense": 150,
-            "special_attack": 105,
-            "special_defense": 110,
-            "speed": 110
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 3,
-            "special_attack": 0,
-            "special_defense": 0,
-            "speed": 0
-        },
-        "type_1": "Steel",
-        "type_2": "Psychic",
-        "catch_rate": 3,
-        "base_experience": 315,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 255,
-        "egg_cycles": 40,
-        "base_friendship": 35,
-        "growth_rate": "Slow",
-        "egg_group_1": "Mineral",
-        "egg_group_2": "Mineral",
-        "abilities": [
-            "Tough Claws"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Magnet Rise"],
-            [1, "Take Down"],
-            [1, "Confusion"],
-            [1, "Metal Claw"],
-            [20, "Confusion"],
-            [20, "Metal Claw"],
-            [23, "Pursuit"],
-            [26, "Miracle Eye"],
-            [29, "Zen Headbutt"],
-            [32, "Bullet Punch"],
-            [35, "Scary Face"],
-            [38, "Agility"],
-            [41, "Psychic"],
-            [44, "Meteor Mash"],
-            [45, "Hammer Arm"],
-            [53, "Iron Defense"],
-            [62, "Hyper Beam"]
-        ],
-        "tm_hm_learnset": [
-            "Hone Claws",
-            "Psyshock",
-            "Toxic",
-            "Hidden Power",
-            "Sunny Day",
-            "Hyper Beam",
-            "Light Screen",
-            "Protect",
-            "Rain Dance",
-            "Frustration",
-            "Earthquake",
-            "Return",
-            "Psychic",
-            "Shadow Ball",
-            "Brick Break",
-            "Double Team",
-            "Reflect",
-            "Sludge Bomb",
-            "Sandstorm",
-            "Rock Tomb",
-            "Aerial Ace",
-            "Facade",
-            "Rest",
-            "Round",
-            "Explosion",
-            "Giga Impact",
-            "Rock Polish",
-            "Flash",
-            "Gyro Ball",
-            "Psych Up",
-            "Bulldoze",
-            "Rock Slide",
-            "Grass Knot",
-            "Swagger",
-            "Sleep Talk",
-            "Substitute",
-            "Flash Cannon",
-            "Rock Smash",
-            "Power-Up Punch",
-            "Confide",
-            "Cut",
-            "Strength"
-        ],
-        "tutor_learnset": [],
-        "egg_moves": [],
-        "weight": 942.9,
         "evolution_family": [
             {"species": "Beldum", "method": null, "parameter": null},
             {"species": "Metang", "method": "level", "parameter": 20},
@@ -53574,147 +51811,6 @@ export const pokedex = {
         ],
         "learnset_source": "bulbapedia"
     },
-    "Mega Latias": {
-        "species": "Mega Latias",
-        "rom_id": 380,
-        "national_dex_number": 380,
-        "base_stats": {
-            "hp": 80,
-            "attack": 100,
-            "defense": 120,
-            "special_attack": 140,
-            "special_defense": 150,
-            "speed": 110
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "special_attack": 0,
-            "special_defense": 3,
-            "speed": 0
-        },
-        "type_1": "Dragon",
-        "type_2": "Psychic",
-        "catch_rate": 3,
-        "base_experience": 315,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 254,
-        "egg_cycles": 120,
-        "base_friendship": 90,
-        "growth_rate": "Slow",
-        "egg_group_1": "NoEggsDiscovered",
-        "egg_group_2": "NoEggsDiscovered",
-        "abilities": [
-            "Levitate"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Healing Wish"],
-            [1, "Dragon Pulse"],
-            [1, "Guard Split"],
-            [1, "Reflect Type"],
-            [1, "Heal Pulse"],
-            [1, "Charm"],
-            [1, "Psywave"],
-            [5, "Wish"],
-            [10, "Helping Hand"],
-            [15, "Safeguard"],
-            [20, "Dragon Breath"],
-            [25, "Water Sport"],
-            [30, "Refresh"],
-            [35, "Mist Ball"],
-            [40, "Zen Headbutt"],
-            [45, "Recover"],
-            [50, "Psycho Shift"],
-            [55, "Charm"],
-            [60, "Psychic"],
-            [65, "Heal Pulse"],
-            [70, "Reflect Type"],
-            [75, "Guard Split"],
-            [80, "Dragon Pulse"],
-            [85, "Healing Wish"]
-        ],
-        "tm_hm_learnset": [
-            "Hone Claws",
-            "Dragon Claw",
-            "Psyshock",
-            "Calm Mind",
-            "Roar",
-            "Toxic",
-            "Hidden Power",
-            "Sunny Day",
-            "Ice Beam",
-            "Hyper Beam",
-            "Light Screen",
-            "Protect",
-            "Rain Dance",
-            "Roost",
-            "Safeguard",
-            "Frustration",
-            "Solar Beam",
-            "Thunderbolt",
-            "Thunder",
-            "Earthquake",
-            "Return",
-            "Psychic",
-            "Shadow Ball",
-            "Double Team",
-            "Reflect",
-            "Sandstorm",
-            "Aerial Ace",
-            "Facade",
-            "Rest",
-            "Attract",
-            "Round",
-            "Steel Wing",
-            "Energy Ball",
-            "Charge Beam",
-            "Shadow Claw",
-            "Retaliate",
-            "Giga Impact",
-            "Flash",
-            "Thunder Wave",
-            "Psych Up",
-            "Bulldoze",
-            "Dream Eater",
-            "Grass Knot",
-            "Swagger",
-            "Sleep Talk",
-            "Substitute",
-            "Confide",
-            "Cut",
-            "Fly",
-            "Surf",
-            "Waterfall"
-        ],
-        "tutor_learnset": [
-            "Draco Meteor"
-        ],
-        "egg_moves": [],
-        "weight": 52.0,
-        "evolution_family": [
-            {"species": "Latias", "method": null, "parameter": null}
-        ],
-        "transfer_learnset": [
-            "Body Slam",
-            "Captivate",
-            "Defog",
-            "Double-Edge",
-            "Endure",
-            "Fury Cutter",
-            "Mimic",
-            "Mud-Slap",
-            "Natural Gift",
-            "Sucker Punch",
-            "Swift",
-            "Telekinesis",
-            "Twister",
-            "Whirlpool"
-        ],
-        "learnset_source": "bulbapedia"
-    },
     "Latios": {
         "species": "Latios",
         "rom_id": 381,
@@ -53854,145 +51950,6 @@ export const pokedex = {
         ],
         "learnset_source": "bulbapedia"
     },
-    "Mega Latios": {
-        "species": "Mega Latios",
-        "rom_id": 381,
-        "national_dex_number": 381,
-        "base_stats": {
-            "hp": 80,
-            "attack": 130,
-            "defense": 100,
-            "special_attack": 160,
-            "special_defense": 120,
-            "speed": 110
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "special_attack": 3,
-            "special_defense": 0,
-            "speed": 0
-        },
-        "type_1": "Dragon",
-        "type_2": "Psychic",
-        "catch_rate": 3,
-        "base_experience": 315,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 0,
-        "egg_cycles": 120,
-        "base_friendship": 90,
-        "growth_rate": "Slow",
-        "egg_group_1": "NoEggsDiscovered",
-        "egg_group_2": "NoEggsDiscovered",
-        "abilities": [
-            "Levitate"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Memento"],
-            [1, "Dragon Pulse"],
-            [1, "Power Split"],
-            [1, "Telekinesis"],
-            [1, "Heal Pulse"],
-            [1, "Dragon Dance"],
-            [1, "Psywave"],
-            [5, "Heal Block"],
-            [10, "Helping Hand"],
-            [15, "Safeguard"],
-            [20, "Dragon Breath"],
-            [25, "Protect"],
-            [30, "Refresh"],
-            [35, "Luster Purge"],
-            [40, "Zen Headbutt"],
-            [45, "Recover"],
-            [50, "Psycho Shift"],
-            [55, "Dragon Dance"],
-            [60, "Psychic"],
-            [65, "Heal Pulse"],
-            [70, "Telekinesis"],
-            [75, "Power Split"],
-            [80, "Dragon Pulse"],
-            [85, "Memento"]
-        ],
-        "tm_hm_learnset": [
-            "Hone Claws",
-            "Dragon Claw",
-            "Psyshock",
-            "Calm Mind",
-            "Roar",
-            "Toxic",
-            "Hidden Power",
-            "Sunny Day",
-            "Ice Beam",
-            "Hyper Beam",
-            "Light Screen",
-            "Protect",
-            "Rain Dance",
-            "Roost",
-            "Safeguard",
-            "Frustration",
-            "Solar Beam",
-            "Thunderbolt",
-            "Thunder",
-            "Earthquake",
-            "Return",
-            "Psychic",
-            "Shadow Ball",
-            "Double Team",
-            "Reflect",
-            "Sandstorm",
-            "Aerial Ace",
-            "Facade",
-            "Rest",
-            "Attract",
-            "Round",
-            "Steel Wing",
-            "Energy Ball",
-            "Charge Beam",
-            "Shadow Claw",
-            "Retaliate",
-            "Giga Impact",
-            "Flash",
-            "Thunder Wave",
-            "Psych Up",
-            "Bulldoze",
-            "Dream Eater",
-            "Grass Knot",
-            "Swagger",
-            "Sleep Talk",
-            "Substitute",
-            "Confide",
-            "Cut",
-            "Fly",
-            "Surf",
-            "Waterfall"
-        ],
-        "tutor_learnset": [
-            "Draco Meteor"
-        ],
-        "egg_moves": [],
-        "weight": 70.0,
-        "evolution_family": [
-            {"species": "Latios", "method": null, "parameter": null}
-        ],
-        "transfer_learnset": [
-            "Body Slam",
-            "Captivate",
-            "Defog",
-            "Double-Edge",
-            "Endure",
-            "Fury Cutter",
-            "Mimic",
-            "Mud-Slap",
-            "Natural Gift",
-            "Swift",
-            "Twister",
-            "Whirlpool"
-        ],
-        "learnset_source": "bulbapedia"
-    },
     "Kyogre": {
         "species": "Kyogre",
         "rom_id": 382,
@@ -54015,7 +51972,7 @@ export const pokedex = {
         },
         "type_1": "Water",
         "type_2": "Water",
-        "catch_rate": 3,
+        "catch_rate": 5,
         "base_experience": 302,
         "common_item": null,
         "rare_item": null,
@@ -54102,115 +52059,6 @@ export const pokedex = {
         ],
         "learnset_source": "bulbapedia"
     },
-    "Primal Kyogre": {
-        "species": "Primal Kyogre",
-        "rom_id": 382,
-        "national_dex_number": 382,
-        "base_stats": {
-            "hp": 100,
-            "attack": 150,
-            "defense": 90,
-            "special_attack": 180,
-            "special_defense": 160,
-            "speed": 90
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "special_attack": 3,
-            "special_defense": 0,
-            "speed": 0
-        },
-        "type_1": "Water",
-        "type_2": "Water",
-        "catch_rate": 3,
-        "base_experience": 347,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 255,
-        "egg_cycles": 120,
-        "base_friendship": 0,
-        "growth_rate": "Slow",
-        "egg_group_1": "NoEggsDiscovered",
-        "egg_group_2": "NoEggsDiscovered",
-        "abilities": [
-            "Primordial Sea"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Water Pulse"],
-            [5, "Scary Face"],
-            [15, "Body Slam"],
-            [20, "Muddy Water"],
-            [30, "Aqua Ring"],
-            [35, "Ice Beam"],
-            [45, "Ancient Power"],
-            [50, "Water Spout"],
-            [60, "Calm Mind"],
-            [65, "Aqua Tail"],
-            [75, "Sheer Cold"],
-            [80, "Double-Edge"],
-            [90, "Hydro Pump"]
-        ],
-        "tm_hm_learnset": [
-            "Calm Mind",
-            "Roar",
-            "Toxic",
-            "Hail",
-            "Hidden Power",
-            "Ice Beam",
-            "Blizzard",
-            "Hyper Beam",
-            "Protect",
-            "Rain Dance",
-            "Safeguard",
-            "Frustration",
-            "Thunderbolt",
-            "Thunder",
-            "Earthquake",
-            "Return",
-            "Brick Break",
-            "Double Team",
-            "Rock Tomb",
-            "Facade",
-            "Rest",
-            "Round",
-            "Scald",
-            "Giga Impact",
-            "Thunder Wave",
-            "Psych Up",
-            "Bulldoze",
-            "Rock Slide",
-            "Swagger",
-            "Sleep Talk",
-            "Substitute",
-            "Rock Smash",
-            "Confide",
-            "Surf",
-            "Strength",
-            "Waterfall"
-        ],
-        "tutor_learnset": [],
-        "egg_moves": [],
-        "weight": 430.0,
-        "evolution_family": [
-            {"species": "Kyogre", "method": null, "parameter": null}
-        ],
-        "transfer_learnset": [
-            "Avalanche",
-            "Brine",
-            "Defense Curl",
-            "Endure",
-            "Headbutt",
-            "Mimic",
-            "Mud-Slap",
-            "Natural Gift",
-            "Swift",
-            "Whirlpool"
-        ],
-        "learnset_source": "bulbapedia"
-    },
     "Groudon": {
         "species": "Groudon",
         "rom_id": 383,
@@ -54233,7 +52081,7 @@ export const pokedex = {
         },
         "type_1": "Ground",
         "type_2": "Ground",
-        "catch_rate": 3,
+        "catch_rate": 5,
         "base_experience": 302,
         "common_item": null,
         "rare_item": null,
@@ -54341,136 +52189,6 @@ export const pokedex = {
         ],
         "learnset_source": "bulbapedia"
     },
-    "Primal Groudon": {
-        "species": "Primal Groudon",
-        "rom_id": 383,
-        "national_dex_number": 383,
-        "base_stats": {
-            "hp": 100,
-            "attack": 180,
-            "defense": 160,
-            "special_attack": 150,
-            "special_defense": 90,
-            "speed": 90
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 3,
-            "defense": 0,
-            "special_attack": 0,
-            "special_defense": 0,
-            "speed": 0
-        },
-        "type_1": "Ground",
-        "type_2": "Fire",
-        "catch_rate": 3,
-        "base_experience": 347,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 255,
-        "egg_cycles": 120,
-        "base_friendship": 0,
-        "growth_rate": "Slow",
-        "egg_group_1": "NoEggsDiscovered",
-        "egg_group_2": "NoEggsDiscovered",
-        "abilities": [
-            "Desolate Land"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Mud Shot"],
-            [5, "Scary Face"],
-            [15, "Lava Plume"],
-            [20, "Hammer Arm"],
-            [30, "Rest"],
-            [35, "Earthquake"],
-            [45, "Ancient Power"],
-            [50, "Eruption"],
-            [60, "Bulk Up"],
-            [65, "Earth Power"],
-            [75, "Fissure"],
-            [80, "Solar Beam"],
-            [90, "Fire Blast"]
-        ],
-        "tm_hm_learnset": [
-            "Hone Claws",
-            "Dragon Claw",
-            "Roar",
-            "Toxic",
-            "Bulk Up",
-            "Hidden Power",
-            "Sunny Day",
-            "Hyper Beam",
-            "Protect",
-            "Safeguard",
-            "Frustration",
-            "Solar Beam",
-            "Smack Down",
-            "Thunderbolt",
-            "Thunder",
-            "Earthquake",
-            "Return",
-            "Dig",
-            "Brick Break",
-            "Double Team",
-            "Flamethrower",
-            "Sandstorm",
-            "Fire Blast",
-            "Rock Tomb",
-            "Aerial Ace",
-            "Facade",
-            "Rest",
-            "Round",
-            "Overheat",
-            "Focus Blast",
-            "Fling",
-            "Incinerate",
-            "Shadow Claw",
-            "Giga Impact",
-            "Rock Polish",
-            "Stone Edge",
-            "Thunder Wave",
-            "Swords Dance",
-            "Psych Up",
-            "Bulldoze",
-            "Rock Slide",
-            "Dragon Tail",
-            "Swagger",
-            "Sleep Talk",
-            "Substitute",
-            "Rock Smash",
-            "Power-Up Punch",
-            "Confide",
-            "Cut",
-            "Strength"
-        ],
-        "tutor_learnset": [],
-        "egg_moves": [],
-        "weight": 999.7,
-        "evolution_family": [
-            {"species": "Groudon", "method": null, "parameter": null}
-        ],
-        "transfer_learnset": [
-            "Body Slam",
-            "Counter",
-            "Defense Curl",
-            "Double-Edge",
-            "Dynamic Punch",
-            "Endure",
-            "Fury Cutter",
-            "Headbutt",
-            "Mega Kick",
-            "Mega Punch",
-            "Mimic",
-            "Mud-Slap",
-            "Natural Gift",
-            "Rollout",
-            "Seismic Toss",
-            "Slash",
-            "Swift"
-        ],
-        "learnset_source": "bulbapedia"
-    },
     "Rayquaza": {
         "species": "Rayquaza",
         "rom_id": 384,
@@ -54493,7 +52211,7 @@ export const pokedex = {
         },
         "type_1": "Dragon",
         "type_2": "Flying",
-        "catch_rate": 45,
+        "catch_rate": 3,
         "base_experience": 306,
         "common_item": null,
         "rare_item": null,
@@ -54583,137 +52301,6 @@ export const pokedex = {
         ],
         "egg_moves": [],
         "weight": 206.5,
-        "evolution_family": [
-            {"species": "Rayquaza", "method": null, "parameter": null}
-        ],
-        "transfer_learnset": [
-            "Avalanche",
-            "Body Slam",
-            "Double-Edge",
-            "Endure",
-            "Fury Cutter",
-            "Headbutt",
-            "Mimic",
-            "Mud-Slap",
-            "Natural Gift",
-            "Swift",
-            "V-create",
-            "Whirlpool"
-        ],
-        "learnset_source": "bulbapedia"
-    },
-    "Mega Rayquaza": {
-        "species": "Mega Rayquaza",
-        "rom_id": 384,
-        "national_dex_number": 384,
-        "base_stats": {
-            "hp": 105,
-            "attack": 180,
-            "defense": 100,
-            "special_attack": 180,
-            "special_defense": 100,
-            "speed": 115
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 2,
-            "defense": 0,
-            "special_attack": 1,
-            "special_defense": 0,
-            "speed": 0
-        },
-        "type_1": "Dragon",
-        "type_2": "Flying",
-        "catch_rate": 45,
-        "base_experience": 351,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 255,
-        "egg_cycles": 120,
-        "base_friendship": 0,
-        "growth_rate": "Slow",
-        "egg_group_1": "NoEggsDiscovered",
-        "egg_group_2": "NoEggsDiscovered",
-        "abilities": [
-            "Delta Stream"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Twister"],
-            [5, "Scary Face"],
-            [15, "Crunch"],
-            [20, "Hyper Voice"],
-            [30, "Rest"],
-            [35, "Air Slash"],
-            [45, "Ancient Power"],
-            [50, "Outrage"],
-            [60, "Dragon Dance"],
-            [65, "Fly"],
-            [75, "Extreme Speed"],
-            [80, "Hyper Beam"],
-            [90, "Dragon Pulse"]
-        ],
-        "tm_hm_learnset": [
-            "Hone Claws",
-            "Dragon Claw",
-            "Roar",
-            "Toxic",
-            "Bulk Up",
-            "Hidden Power",
-            "Sunny Day",
-            "Ice Beam",
-            "Blizzard",
-            "Hyper Beam",
-            "Protect",
-            "Rain Dance",
-            "Frustration",
-            "Solar Beam",
-            "Thunderbolt",
-            "Thunder",
-            "Earthquake",
-            "Return",
-            "Brick Break",
-            "Double Team",
-            "Flamethrower",
-            "Sandstorm",
-            "Fire Blast",
-            "Rock Tomb",
-            "Aerial Ace",
-            "Facade",
-            "Rest",
-            "Round",
-            "Echoed Voice",
-            "Overheat",
-            "Focus Blast",
-            "Energy Ball",
-            "Fling",
-            "Sky Drop",
-            "Incinerate",
-            "Shadow Claw",
-            "Giga Impact",
-            "Stone Edge",
-            "Thunder Wave",
-            "Gyro Ball",
-            "Swords Dance",
-            "Psych Up",
-            "Bulldoze",
-            "Rock Slide",
-            "Dragon Tail",
-            "Swagger",
-            "Sleep Talk",
-            "Substitute",
-            "Rock Smash",
-            "Confide",
-            "Fly",
-            "Surf",
-            "Strength",
-            "Waterfall"
-        ],
-        "tutor_learnset": [
-            "Draco Meteor"
-        ],
-        "egg_moves": [],
-        "weight": 392.0,
         "evolution_family": [
             {"species": "Rayquaza", "method": null, "parameter": null}
         ],
@@ -55777,7 +53364,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Blaze"
@@ -55906,7 +53493,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Blaze"
@@ -56047,7 +53634,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Blaze"
@@ -56201,7 +53788,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Torrent"
         ],
@@ -56319,7 +53906,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Torrent"
         ],
@@ -56446,7 +54033,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Torrent"
         ],
@@ -56933,7 +54520,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Simple",
             "Unaware"
@@ -57048,7 +54635,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Simple",
             "Unaware"
@@ -57340,8 +54927,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Rivalry",
             "Intimidate"
@@ -57454,8 +55041,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 100,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Rivalry",
             "Intimidate"
@@ -57571,8 +55158,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Rivalry",
             "Intimidate"
@@ -59134,7 +56721,7 @@ export const pokedex = {
         "egg_cycles": 10,
         "base_friendship": 100,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Run Away",
@@ -59247,7 +56834,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Swift Swim"
         ],
@@ -59360,7 +56947,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Swift Swim"
         ],
@@ -59928,8 +57515,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 100,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Technician",
             "Pickup"
@@ -60311,7 +57898,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 0,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Run Away",
@@ -60434,7 +58021,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 140,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Cute Charm",
@@ -60524,143 +58111,6 @@ export const pokedex = {
             "Thunder Punch"
         ],
         "weight": 33.3,
-        "evolution_family": [
-            {"species": "Buneary", "method": null, "parameter": null},
-            {"species": "Lopunny", "method": "friendship", "parameter": null}
-        ],
-        "transfer_learnset": [
-            "Captivate",
-            "Fury Cutter",
-            "Headbutt",
-            "Mud-Slap",
-            "Natural Gift",
-            "Swift",
-            "Work Up"
-        ],
-        "prior_evolution_learnset": [
-            "Baby-Doll Eyes"
-        ],
-        "learnset_source": "bulbapedia"
-    },
-    "Mega Lopunny": {
-        "species": "Mega Lopunny",
-        "rom_id": 428,
-        "national_dex_number": 428,
-        "base_stats": {
-            "hp": 65,
-            "attack": 136,
-            "defense": 94,
-            "special_attack": 54,
-            "special_defense": 96,
-            "speed": 135
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "special_attack": 0,
-            "special_defense": 0,
-            "speed": 2
-        },
-        "type_1": "Normal",
-        "type_2": "Fighting",
-        "catch_rate": 60,
-        "base_experience": 203,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 127,
-        "egg_cycles": 20,
-        "base_friendship": 140,
-        "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "HumanLike",
-        "abilities": [
-            "Scrappy"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Healing Wish"],
-            [1, "Bounce"],
-            [1, "Rototiller"],
-            [1, "Mirror Coat"],
-            [1, "Magic Coat"],
-            [1, "Defense Curl"],
-            [1, "Splash"],
-            [1, "Pound"],
-            [1, "Foresight"],
-            [6, "Endure"],
-            [13, "Return"],
-            [16, "Quick Attack"],
-            [23, "Jump Kick"],
-            [26, "Baton Pass"],
-            [33, "Agility"],
-            [36, "Dizzy Punch"],
-            [43, "After You"],
-            [46, "Charm"],
-            [53, "Entrainment"],
-            [56, "Bounce"],
-            [63, "Healing Wish"]
-        ],
-        "tm_hm_learnset": [
-            "Toxic",
-            "Hidden Power",
-            "Sunny Day",
-            "Ice Beam",
-            "Blizzard",
-            "Hyper Beam",
-            "Protect",
-            "Rain Dance",
-            "Frustration",
-            "Solar Beam",
-            "Thunderbolt",
-            "Thunder",
-            "Return",
-            "Dig",
-            "Shadow Ball",
-            "Double Team",
-            "Facade",
-            "Rest",
-            "Attract",
-            "Low Sweep",
-            "Round",
-            "Focus Blast",
-            "Fling",
-            "Charge Beam",
-            "Retaliate",
-            "Giga Impact",
-            "Thunder Wave",
-            "Grass Knot",
-            "Swagger",
-            "Sleep Talk",
-            "Substitute",
-            "Rock Smash",
-            "Power-Up Punch",
-            "Confide",
-            "Cut",
-            "Strength"
-        ],
-        "tutor_learnset": [],
-        "egg_moves": [
-            "Circle Throw",
-            "Copycat",
-            "Cosmic Power",
-            "Double Hit",
-            "Encore",
-            "Fake Out",
-            "Fake Tears",
-            "Fire Punch",
-            "Flail",
-            "Focus Punch",
-            "Ice Punch",
-            "Low Kick",
-            "Mud Sport",
-            "Sky Uppercut",
-            "Sweet Kiss",
-            "Switcheroo",
-            "Teeter Dance",
-            "Thunder Punch"
-        ],
-        "weight": 28.3,
         "evolution_family": [
             {"species": "Buneary", "method": null, "parameter": null},
             {"species": "Lopunny", "method": "friendship", "parameter": null}
@@ -60974,8 +58424,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Limber",
             "Own Tempo"
@@ -61092,8 +58542,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Thick Fat",
             "Own Tempo"
@@ -61334,8 +58784,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Stench",
             "Aftermath"
@@ -61458,8 +58908,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Stench",
             "Aftermath"
@@ -63161,7 +60611,7 @@ export const pokedex = {
         "egg_cycles": 25,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Steadfast",
@@ -63316,7 +60766,7 @@ export const pokedex = {
         "egg_cycles": 25,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Adaptability"
@@ -63470,8 +60920,8 @@ export const pokedex = {
         "egg_cycles": 30,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sand Stream"
         ],
@@ -63572,8 +61022,8 @@ export const pokedex = {
         "egg_cycles": 30,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sand Stream"
         ],
@@ -64670,7 +62120,7 @@ export const pokedex = {
         "catch_rate": 120,
         "base_experience": 67,
         "common_item": null,
-        "rare_item": "Never Melt Ice",
+        "rare_item": "Never-Melt Ice",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -64776,7 +62226,7 @@ export const pokedex = {
         "catch_rate": 60,
         "base_experience": 173,
         "common_item": null,
-        "rare_item": "Never Melt Ice",
+        "rare_item": "Never-Melt Ice",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -64896,7 +62346,7 @@ export const pokedex = {
         "catch_rate": 60,
         "base_experience": 208,
         "common_item": null,
-        "rare_item": "Never Melt Ice",
+        "rare_item": "Never-Melt Ice",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -65021,8 +62471,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 35,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Pressure"
         ],
@@ -65253,7 +62703,7 @@ export const pokedex = {
         "evolution_family": [
             {"species": "Magnemite", "method": null, "parameter": null},
             {"species": "Magneton", "method": "level", "parameter": 30},
-            {"species": "Magnezone", "method": "location", "parameter": "Mt Coronet"}
+            {"species": "Magnezone", "method": "location", "parameter": "Mt. Coronet"}
         ],
         "transfer_learnset": [
             "Endure",
@@ -65437,7 +62887,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Lightning Rod",
             "Solid Rock"
@@ -66257,8 +63707,8 @@ export const pokedex = {
         "egg_cycles": 35,
         "base_friendship": 35,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Leaf Guard"
         ],
@@ -66350,7 +63800,7 @@ export const pokedex = {
                 "time_of_day": "night"
             },
             {"species": "Leafeon", "method": "location", "parameter": "Eterna Forest"},
-            {"species": "Glaceon", "method": "location", "parameter": "Sinnoh Route 217"},
+            {"species": "Glaceon", "method": "location", "parameter": "Route 217"},
             {"species": "Sylveon", "method": "affection", "parameter": "Fairy"}
         ],
         "transfer_learnset": [
@@ -66407,8 +63857,8 @@ export const pokedex = {
         "egg_cycles": 35,
         "base_friendship": 35,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Snow Cloak"
         ],
@@ -66496,7 +63946,7 @@ export const pokedex = {
                 "time_of_day": "night"
             },
             {"species": "Leafeon", "method": "location", "parameter": "Eterna Forest"},
-            {"species": "Glaceon", "method": "location", "parameter": "Sinnoh Route 217"},
+            {"species": "Glaceon", "method": "location", "parameter": "Route 217"},
             {"species": "Sylveon", "method": "affection", "parameter": "Fairy"}
         ],
         "transfer_learnset": [
@@ -66705,8 +64155,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Oblivious",
             "Snow Cloak"
@@ -66906,7 +64356,7 @@ export const pokedex = {
         "weight": 34.0,
         "evolution_family": [
             {"species": "Porygon", "method": null, "parameter": null},
-            {"species": "Porygon2", "method": "trade", "parameter": "Up Grade"},
+            {"species": "Porygon2", "method": "trade", "parameter": "Up-Grade"},
             {"species": "Porygon-Z", "method": "trade", "parameter": "Dubious Disc"}
         ],
         "transfer_learnset": [
@@ -66952,7 +64402,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 35,
         "growth_rate": "Slow",
-        "egg_group_1": "HumanLike",
+        "egg_group_1": "Amorphous",
         "egg_group_2": "Amorphous",
         "abilities": [
             "Steadfast"
@@ -67059,178 +64509,6 @@ export const pokedex = {
             "Synchronoise"
         ],
         "weight": 52.0,
-        "evolution_family": [
-            {"species": "Ralts", "method": null, "parameter": null},
-            {"species": "Kirlia", "method": "level", "parameter": 20},
-            {"species": "Gardevoir", "method": "level", "parameter": 30},
-            {
-                "species": "Gallade",
-                "method": "item",
-                "parameter": "Dawn Stone",
-                "gender": "male"
-            }
-        ],
-        "transfer_learnset": [
-            "Captivate",
-            "Endure",
-            "Headbutt",
-            "Mud-Slap",
-            "Natural Gift",
-            "Swift",
-            "Telekinesis",
-            "Vacuum Wave",
-            "Work Up"
-        ],
-        "prior_evolution_learnset": [
-            "Growl",
-            "Disarming Voice",
-            "Lucky Chant",
-            "Magical Leaf",
-            "Draining Kiss",
-            "Imprison",
-            "Future Sight",
-            "Charm",
-            "Hypnosis"
-        ],
-        "learnset_source": "bulbapedia"
-    },
-    "Mega Gallade": {
-        "species": "Mega Gallade",
-        "rom_id": 475,
-        "national_dex_number": 475,
-        "base_stats": {
-            "hp": 68,
-            "attack": 165,
-            "defense": 95,
-            "special_attack": 65,
-            "special_defense": 115,
-            "speed": 110
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 3,
-            "defense": 0,
-            "special_attack": 0,
-            "special_defense": 0,
-            "speed": 0
-        },
-        "type_1": "Psychic",
-        "type_2": "Fighting",
-        "catch_rate": 45,
-        "base_experience": 278,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 0,
-        "egg_cycles": 20,
-        "base_friendship": 35,
-        "growth_rate": "Slow",
-        "egg_group_1": "HumanLike",
-        "egg_group_2": "Amorphous",
-        "abilities": [
-            "Inner Focus"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Stored Power"],
-            [1, "Close Combat"],
-            [1, "Leaf Blade"],
-            [1, "Night Slash"],
-            [1, "Leer"],
-            [1, "Confusion"],
-            [1, "Double Team"],
-            [1, "Teleport"],
-            [6, "Confusion"],
-            [10, "Double Team"],
-            [12, "Teleport"],
-            [17, "Fury Cutter"],
-            [22, "Slash"],
-            [25, "Heal Pulse"],
-            [31, "Swords Dance"],
-            [36, "Psycho Cut"],
-            [39, "Helping Hand"],
-            [45, "Feint"],
-            [50, "False Swipe"],
-            [53, "Protect"],
-            [59, "Close Combat"],
-            [64, "Stored Power"]
-        ],
-        "tm_hm_learnset": [
-            "Psyshock",
-            "Calm Mind",
-            "Toxic",
-            "Bulk Up",
-            "Hidden Power",
-            "Sunny Day",
-            "Taunt",
-            "Hyper Beam",
-            "Light Screen",
-            "Protect",
-            "Rain Dance",
-            "Safeguard",
-            "Frustration",
-            "Thunderbolt",
-            "Earthquake",
-            "Return",
-            "Psychic",
-            "Shadow Ball",
-            "Brick Break",
-            "Double Team",
-            "Reflect",
-            "Rock Tomb",
-            "Aerial Ace",
-            "Torment",
-            "Facade",
-            "Rest",
-            "Attract",
-            "Thief",
-            "Low Sweep",
-            "Round",
-            "Echoed Voice",
-            "Focus Blast",
-            "False Swipe",
-            "Fling",
-            "Charge Beam",
-            "Will-O-Wisp",
-            "Retaliate",
-            "Giga Impact",
-            "Flash",
-            "Stone Edge",
-            "Thunder Wave",
-            "Swords Dance",
-            "Psych Up",
-            "Bulldoze",
-            "Rock Slide",
-            "X-Scissor",
-            "Poison Jab",
-            "Dream Eater",
-            "Grass Knot",
-            "Swagger",
-            "Sleep Talk",
-            "Substitute",
-            "Trick Room",
-            "Rock Smash",
-            "Power-Up Punch",
-            "Dazzling Gleam",
-            "Confide",
-            "Cut",
-            "Strength"
-        ],
-        "tutor_learnset": [],
-        "egg_moves": [
-            "Ally Switch",
-            "Confuse Ray",
-            "Destiny Bond",
-            "Disable",
-            "Encore",
-            "Grudge",
-            "Mean Look",
-            "Memento",
-            "Misty Terrain",
-            "Shadow Sneak",
-            "Skill Swap",
-            "Synchronoise"
-        ],
-        "weight": 56.4,
         "evolution_family": [
             {"species": "Ralts", "method": null, "parameter": null},
             {"species": "Kirlia", "method": "level", "parameter": 20},
@@ -67377,7 +64655,7 @@ export const pokedex = {
         "weight": 340.0,
         "evolution_family": [
             {"species": "Nosepass", "method": null, "parameter": null},
-            {"species": "Probopass", "method": "location", "parameter": "Mt Coronet"}
+            {"species": "Probopass", "method": "location", "parameter": "Mt. Coronet"}
         ],
         "transfer_learnset": [
             "Ancient Power",
@@ -68671,7 +65949,7 @@ export const pokedex = {
         },
         "type_1": "Steel",
         "type_2": "Dragon",
-        "catch_rate": 3,
+        "catch_rate": 30,
         "base_experience": 306,
         "common_item": null,
         "rare_item": null,
@@ -68793,7 +66071,7 @@ export const pokedex = {
         },
         "type_1": "Water",
         "type_2": "Dragon",
-        "catch_rate": 3,
+        "catch_rate": 30,
         "base_experience": 306,
         "common_item": null,
         "rare_item": null,
@@ -69268,7 +66546,7 @@ export const pokedex = {
         "type_1": "Ghost",
         "type_2": "Dragon",
         "catch_rate": 3,
-        "base_experience": 340,
+        "base_experience": 306,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 255,
@@ -70302,7 +67580,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Grass",
         "abilities": [
             "Overgrow"
@@ -70413,7 +67691,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Grass",
         "abilities": [
             "Overgrow"
@@ -70527,7 +67805,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Grass",
         "abilities": [
             "Overgrow"
@@ -70647,8 +67925,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -70757,8 +68035,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -70883,8 +68161,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -71017,8 +68295,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Torrent"
         ],
@@ -71125,8 +68403,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Torrent"
         ],
@@ -71236,8 +68514,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Torrent"
         ],
@@ -71354,8 +68632,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Run Away",
             "Keen Eye"
@@ -71451,8 +68729,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Illuminate",
             "Keen Eye"
@@ -71569,8 +68847,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Vital Spirit",
             "Pickup"
@@ -71676,8 +68954,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate",
             "Sand Rush"
@@ -71790,8 +69068,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate",
             "Sand Rush"
@@ -71909,8 +69187,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Limber",
             "Unburden"
@@ -72020,8 +69298,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Limber",
             "Unburden"
@@ -72140,8 +69418,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Gluttony"
         ],
@@ -72253,8 +69531,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Gluttony"
         ],
@@ -72370,8 +69648,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Gluttony"
         ],
@@ -72486,8 +69764,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Gluttony"
         ],
@@ -72603,8 +69881,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Gluttony"
         ],
@@ -72718,8 +69996,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Gluttony"
         ],
@@ -72838,8 +70116,8 @@ export const pokedex = {
         "egg_cycles": 10,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Forewarn",
             "Synchronize"
@@ -72950,8 +70228,8 @@ export const pokedex = {
         "egg_cycles": 10,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Forewarn",
             "Synchronize"
@@ -73378,8 +70656,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Lightning Rod",
             "Motor Drive"
@@ -73476,8 +70754,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Lightning Rod",
             "Motor Drive"
@@ -73887,14 +71165,14 @@ export const pokedex = {
         "type_1": "Psychic",
         "type_2": "Flying",
         "catch_rate": 190,
-        "base_experience": 65,
+        "base_experience": 63,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Flying",
         "abilities": [
             "Unaware",
@@ -74015,7 +71293,7 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Flying",
         "abilities": [
             "Unaware",
@@ -74141,8 +71419,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sand Rush",
             "Sand Force"
@@ -74247,8 +71525,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sand Rush",
             "Sand Force"
@@ -74449,134 +71727,6 @@ export const pokedex = {
             "Yawn"
         ],
         "weight": 31.0,
-        "evolution_family": [
-            {"species": "Audino", "method": null, "parameter": null}
-        ],
-        "transfer_learnset": [
-            "Present",
-            "Telekinesis",
-            "Work Up"
-        ],
-        "learnset_source": "bulbapedia"
-    },
-    "Mega Audino": {
-        "species": "Mega Audino",
-        "rom_id": 531,
-        "national_dex_number": 531,
-        "base_stats": {
-            "hp": 103,
-            "attack": 60,
-            "defense": 126,
-            "special_attack": 80,
-            "special_defense": 126,
-            "speed": 50
-        },
-        "ev_yield": {
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "special_attack": 0,
-            "special_defense": 0,
-            "speed": 0
-        },
-        "type_1": "Normal",
-        "type_2": "Fairy",
-        "catch_rate": 255,
-        "base_experience": 425,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 127,
-        "egg_cycles": 20,
-        "base_friendship": 70,
-        "growth_rate": "Fast",
-        "egg_group_1": "Fairy",
-        "egg_group_2": "Fairy",
-        "abilities": [
-            "Healer"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Last Resort"],
-            [1, "Play Nice"],
-            [1, "Pound"],
-            [1, "Growl"],
-            [1, "Helping Hand"],
-            [5, "Refresh"],
-            [10, "Double Slap"],
-            [15, "Attract"],
-            [20, "Secret Power"],
-            [25, "Entrainment"],
-            [30, "Take Down"],
-            [35, "Heal Pulse"],
-            [40, "After You"],
-            [45, "Simple Beam"],
-            [50, "Double-Edge"],
-            [55, "Last Resort"]
-        ],
-        "tm_hm_learnset": [
-            "Psyshock",
-            "Calm Mind",
-            "Toxic",
-            "Hidden Power",
-            "Sunny Day",
-            "Ice Beam",
-            "Blizzard",
-            "Hyper Beam",
-            "Light Screen",
-            "Protect",
-            "Rain Dance",
-            "Safeguard",
-            "Frustration",
-            "Solar Beam",
-            "Thunderbolt",
-            "Thunder",
-            "Return",
-            "Dig",
-            "Psychic",
-            "Shadow Ball",
-            "Double Team",
-            "Reflect",
-            "Flamethrower",
-            "Fire Blast",
-            "Facade",
-            "Rest",
-            "Attract",
-            "Round",
-            "Echoed Voice",
-            "Fling",
-            "Charge Beam",
-            "Incinerate",
-            "Retaliate",
-            "Flash",
-            "Thunder Wave",
-            "Psych Up",
-            "Dream Eater",
-            "Grass Knot",
-            "Swagger",
-            "Sleep Talk",
-            "Substitute",
-            "Trick Room",
-            "Wild Charge",
-            "Power-Up Punch",
-            "Dazzling Gleam",
-            "Confide",
-            "Surf"
-        ],
-        "tutor_learnset": [],
-        "egg_moves": [
-            "Amnesia",
-            "Bestow",
-            "Draining Kiss",
-            "Encore",
-            "Heal Bell",
-            "Healing Wish",
-            "Lucky Chant",
-            "Sleep Talk",
-            "Sweet Kiss",
-            "Wish",
-            "Yawn"
-        ],
-        "weight": 32.0,
         "evolution_family": [
             {"species": "Audino", "method": null, "parameter": null}
         ],
@@ -76752,8 +73902,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate",
             "Moxie"
@@ -76866,8 +74016,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate",
             "Moxie"
@@ -76990,8 +74140,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate",
             "Moxie"
@@ -77126,8 +74276,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Hustle"
         ],
@@ -77238,8 +74388,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sheer Force"
         ],
@@ -77368,8 +74518,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sheer Force"
         ],
@@ -77704,7 +74854,7 @@ export const pokedex = {
         "type_1": "Bug",
         "type_2": "Rock",
         "catch_rate": 75,
-        "base_experience": 170,
+        "base_experience": 166,
         "common_item": null,
         "rare_item": "Hard Stone",
         "gender_ratio": 127,
@@ -77830,7 +74980,7 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 35,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Dragon",
         "abilities": [
             "Shed Skin",
@@ -77954,7 +75104,7 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Dragon",
         "abilities": [
             "Shed Skin",
@@ -79096,8 +76246,8 @@ export const pokedex = {
         "egg_cycles": 25,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Illusion"
         ],
@@ -79208,8 +76358,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Illusion"
         ],
@@ -79336,8 +76486,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Cute Charm",
             "Technician"
@@ -79445,8 +76595,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Cute Charm",
             "Technician"
@@ -80789,8 +77939,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Chlorophyll",
             "Sap Sipper"
@@ -80895,8 +78045,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Chlorophyll",
             "Sap Sipper"
@@ -81010,8 +78160,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Static"
         ],
@@ -83776,8 +80926,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Snow Cloak"
         ],
@@ -83876,15 +81026,15 @@ export const pokedex = {
         "type_1": "Ice",
         "type_2": "Ice",
         "catch_rate": 60,
-        "base_experience": 177,
+        "base_experience": 170,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Snow Cloak"
         ],
@@ -84003,9 +81153,9 @@ export const pokedex = {
         "type_1": "Ice",
         "type_2": "Ice",
         "catch_rate": 25,
-        "base_experience": 180,
+        "base_experience": 170,
         "common_item": null,
-        "rare_item": "Never Melt Ice",
+        "rare_item": "Never-Melt Ice",
         "gender_ratio": 255,
         "egg_cycles": 25,
         "base_friendship": 70,
@@ -84433,7 +81583,7 @@ export const pokedex = {
         "egg_cycles": 25,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Inner Focus",
@@ -84552,7 +81702,7 @@ export const pokedex = {
         "egg_cycles": 25,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Inner Focus",
@@ -85271,8 +82421,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Reckless",
             "Sap Sipper"
@@ -85824,8 +82974,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Gluttony",
             "Flash Fire"
@@ -87030,7 +84180,7 @@ export const pokedex = {
         "type_1": "Flying",
         "type_2": "Flying",
         "catch_rate": 3,
-        "base_experience": 290,
+        "base_experience": 261,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 0,
@@ -87253,7 +84403,7 @@ export const pokedex = {
         "type_1": "Electric",
         "type_2": "Flying",
         "catch_rate": 3,
-        "base_experience": 290,
+        "base_experience": 261,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 0,
@@ -87366,7 +84516,7 @@ export const pokedex = {
         },
         "type_1": "Dragon",
         "type_2": "Fire",
-        "catch_rate": 3,
+        "catch_rate": 45,
         "base_experience": 306,
         "common_item": null,
         "rare_item": null,
@@ -87480,7 +84630,7 @@ export const pokedex = {
         },
         "type_1": "Dragon",
         "type_2": "Electric",
-        "catch_rate": 3,
+        "catch_rate": 45,
         "base_experience": 306,
         "common_item": null,
         "rare_item": null,
@@ -87705,7 +84855,7 @@ export const pokedex = {
         "type_1": "Ground",
         "type_2": "Flying",
         "catch_rate": 3,
-        "base_experience": 300,
+        "base_experience": 270,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 0,
@@ -87922,7 +85072,7 @@ export const pokedex = {
         "type_1": "Dragon",
         "type_2": "Ice",
         "catch_rate": 3,
-        "base_experience": 350,
+        "base_experience": 315,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 255,
@@ -88030,7 +85180,7 @@ export const pokedex = {
         "type_1": "Dragon",
         "type_2": "Ice",
         "catch_rate": 3,
-        "base_experience": 350,
+        "base_experience": 315,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 255,
@@ -88597,8 +85747,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Overgrow"
         ],
@@ -88716,8 +85866,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Overgrow"
         ],
@@ -88837,8 +85987,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Overgrow"
         ],
@@ -88971,8 +86121,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -89079,8 +86229,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -89187,8 +86337,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -89650,8 +86800,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Pickup",
             "Cheek Pouch"
@@ -89758,8 +86908,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Pickup",
             "Cheek Pouch"
@@ -90408,8 +87558,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Rivalry",
             "Unnerve"
@@ -90514,8 +87664,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Rivalry",
             "Unnerve"
@@ -90811,8 +87961,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Fairy",
-        "egg_group_2": "Fairy",
+        "egg_group_1": "NoEggsDiscovered",
+        "egg_group_2": "NoEggsDiscovered",
         "abilities": [
             "Flower Veil"
         ],
@@ -91007,8 +88157,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sap Sipper"
         ],
@@ -91108,8 +88258,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sap Sipper"
         ],
@@ -91216,7 +88366,7 @@ export const pokedex = {
         "egg_cycles": 25,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Iron Fist",
@@ -91328,7 +88478,7 @@ export const pokedex = {
         "egg_cycles": 25,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Iron Fist",
@@ -91459,8 +88609,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Fur Coat"
         ],
@@ -91557,8 +88707,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Keen Eye",
             "Infiltrator"
@@ -91656,8 +88806,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Keen Eye",
             "Infiltrator"
@@ -91772,8 +88922,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Keen Eye",
             "Infiltrator"
@@ -92177,7 +89327,7 @@ export const pokedex = {
         "type_1": "Steel",
         "type_2": "Ghost",
         "catch_rate": 45,
-        "base_experience": 250,
+        "base_experience": 234,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 127,
@@ -94277,8 +91427,8 @@ export const pokedex = {
         "egg_cycles": 35,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Cute Charm"
         ],
@@ -94369,7 +91519,7 @@ export const pokedex = {
                 "time_of_day": "night"
             },
             {"species": "Leafeon", "method": "location", "parameter": "Eterna Forest"},
-            {"species": "Glaceon", "method": "location", "parameter": "Sinnoh Route 217"},
+            {"species": "Glaceon", "method": "location", "parameter": "Route 217"},
             {"species": "Sylveon", "method": "affection", "parameter": "Fairy"}
         ],
         "prior_evolution_learnset": [
@@ -94412,12 +91562,12 @@ export const pokedex = {
         "catch_rate": 100,
         "base_experience": 175,
         "common_item": null,
-        "rare_item": "Kings Rock",
+        "rare_item": "King's Rock",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Flying",
+        "egg_group_1": "HumanLike",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Limber",
@@ -94538,7 +91688,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Cheek Pouch",
@@ -96256,7 +93406,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Monster",
-        "egg_group_2": "Mineral",
+        "egg_group_2": "Monster",
         "abilities": [
             "Own Tempo",
             "Ice Body"
@@ -96356,7 +93506,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Monster",
-        "egg_group_2": "Mineral",
+        "egg_group_2": "Monster",
         "abilities": [
             "Own Tempo",
             "Ice Body"
@@ -96466,7 +93616,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Flying",
-        "egg_group_2": "Dragon",
+        "egg_group_2": "Flying",
         "abilities": [
             "Frisk",
             "Infiltrator"
@@ -96574,7 +93724,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Flying",
-        "egg_group_2": "Dragon",
+        "egg_group_2": "Flying",
         "abilities": [
             "Frisk",
             "Infiltrator"
@@ -97065,107 +94215,6 @@ export const pokedex = {
         "tutor_learnset": [],
         "egg_moves": [],
         "weight": 8.8,
-        "evolution_family": [
-            {"species": "Diancie", "method": null, "parameter": null}
-        ],
-        "learnset_source": "bulbapedia"
-    },
-    "Mega Diancie": {
-        "species": "Mega Diancie",
-        "rom_id": 719,
-        "national_dex_number": 719,
-        "base_stats": {
-            "hp": 50,
-            "attack": 160,
-            "defense": 110,
-            "special_attack": 160,
-            "special_defense": 110,
-            "speed": 110
-        },
-        "ev_yield": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 1,
-            "special_attack": 0,
-            "special_defense": 2,
-            "speed": 0
-        },
-        "type_1": "Rock",
-        "type_2": "Fairy",
-        "catch_rate": 3,
-        "base_experience": 315,
-        "common_item": null,
-        "rare_item": null,
-        "gender_ratio": 255,
-        "egg_cycles": 25,
-        "base_friendship": 70,
-        "growth_rate": "Slow",
-        "egg_group_1": "NoEggsDiscovered",
-        "egg_group_2": "NoEggsDiscovered",
-        "abilities": [
-            "Magic Bounce"
-        ],
-        "hidden_ability": null,
-        "level_up_learnset": [
-            [1, "Tackle"],
-            [1, "Harden"],
-            [5, "Rock Throw"],
-            [8, "Sharpen"],
-            [12, "Smack Down"],
-            [18, "Reflect"],
-            [21, "Stealth Rock"],
-            [27, "Guard Split"],
-            [31, "Ancient Power"],
-            [35, "Flail"],
-            [40, "Skill Swap"],
-            [46, "Trick Room"],
-            [49, "Stone Edge"],
-            [50, "Moonblast"],
-            [50, "Diamond Storm"],
-            [60, "Light Screen"],
-            [70, "Safeguard"]
-        ],
-        "tm_hm_learnset": [
-            "Psyshock",
-            "Calm Mind",
-            "Toxic",
-            "Hail",
-            "Hidden Power",
-            "Sunny Day",
-            "Hyper Beam",
-            "Light Screen",
-            "Protect",
-            "Safeguard",
-            "Frustration",
-            "Smack Down",
-            "Return",
-            "Psychic",
-            "Double Team",
-            "Reflect",
-            "Sandstorm",
-            "Rock Tomb",
-            "Facade",
-            "Rest",
-            "Round",
-            "Explosion",
-            "Giga Impact",
-            "Rock Polish",
-            "Flash",
-            "Stone Edge",
-            "Gyro Ball",
-            "Psych Up",
-            "Rock Slide",
-            "Swagger",
-            "Sleep Talk",
-            "Substitute",
-            "Trick Room",
-            "Nature Power",
-            "Dazzling Gleam",
-            "Confide"
-        ],
-        "tutor_learnset": [],
-        "egg_moves": [],
-        "weight": 27.8,
         "evolution_family": [
             {"species": "Diancie", "method": null, "parameter": null}
         ],

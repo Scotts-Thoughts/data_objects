@@ -1,4 +1,4 @@
-const megaStones = {
+export const megaStones = {
     "Mega Abomasnow":          "Abomasite",
     "Mega Absol":              "Absolite",
     "Mega Absol Z":            "Absolite Z",
@@ -57,6 +57,7 @@ const megaStones = {
     "Mega Lucario":            "Lucarionite",
     "Mega Lucario Z":          "Lucarionite Z",
     "Mega Magearna":           "Magearnite",
+    "Mega Magearna Original":  "Magearnite",
     "Mega Malamar":            "Malamarite",
     "Mega Manectric":          "Manectite",
     "Mega Mawile":             "Mawilite",

@@ -296,7 +296,7 @@ export const eventPokemon = {
                 "type_1": "Normal",
                 "type_2": "Flying",
                 "catch_rate": 45,
-                "base_experience": 216,
+                "base_experience": 211,
                 "gender_ratio": 127,
                 "egg_cycles": 15,
                 "base_friendship": 70,
@@ -902,12 +902,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -1018,7 +1018,7 @@ export const eventPokemon = {
                     "Uproar",
                     "Astonish",
                     "Trick",
-                    "ThunderShock"
+                    "Thunder Shock"
                 ],
                 "ivs": null,
                 "met_location": "Pokémon Cartoon",
@@ -1079,8 +1079,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Gluttony"
                 ],
@@ -1102,7 +1102,7 @@ export const eventPokemon = {
                 "trainer_id": "08103",
                 "moves": [
                     "Bullet Seed",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Rock Tomb",
                     "Dig"
                 ],
@@ -1254,8 +1254,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Own Tempo",
                     "Technician"
@@ -1429,12 +1429,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -1536,8 +1536,8 @@ export const eventPokemon = {
                 "egg_cycles": 35,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Run Away",
                     "Adaptability"
@@ -1657,7 +1657,7 @@ export const eventPokemon = {
                 "ot_gender": "Male",
                 "trainer_id": "07133",
                 "moves": [
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Techno Blast",
                     "Blaze Kick",
                     "Shift Gear"
@@ -1837,8 +1837,22 @@ export const eventPokemon = {
                         "language": null,
                         "location": "Indonesia",
                         "date": "November 2, 6, and 9, 2013",
-                        "start_date": null,
-                        "end_date": null
+                        "start_date": "2013-11-02",
+                        "end_date": "2013-11-09",
+                        "periods": [
+                            {
+                                "start": "2013-11-02",
+                                "end": "2013-11-02"
+                            },
+                            {
+                                "start": "2013-11-06",
+                                "end": "2013-11-06"
+                            },
+                            {
+                                "start": "2013-11-09",
+                                "end": "2013-11-09"
+                            }
+                        ]
                     },
                     {
                         "games": [
@@ -1887,8 +1901,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Torrent"
                 ],
@@ -1983,8 +1997,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Blaze"
                 ],
@@ -2079,7 +2093,7 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "HumanLike",
                 "abilities": [
                     "Blaze"
@@ -2266,12 +2280,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -2367,7 +2381,7 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Grass",
                 "abilities": [
                     "Overgrow"
@@ -2464,7 +2478,7 @@ export const eventPokemon = {
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
                 "egg_group_1": "Water1",
-                "egg_group_2": "Ground",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Torrent"
                 ],
@@ -2673,7 +2687,7 @@ export const eventPokemon = {
                 "moves": [
                     "Techno Blast",
                     "Magnet Bomb",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Signal Beam"
                 ],
                 "ivs": null,
@@ -3003,7 +3017,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Water",
                 "type_2": "Water",
-                "catch_rate": 3,
+                "catch_rate": 5,
                 "base_experience": 302,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -3083,7 +3097,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Ground",
                 "type_2": "Ground",
-                "catch_rate": 3,
+                "catch_rate": 5,
                 "base_experience": 302,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -3114,7 +3128,7 @@ export const eventPokemon = {
                     "Eruption",
                     "Hammer Arm",
                     "Earth Power",
-                    "SolarBeam"
+                    "Solar Beam"
                 ],
                 "ivs": null,
                 "met_location": "Hoenn",
@@ -3282,7 +3296,7 @@ export const eventPokemon = {
                 "ot_gender": "Male",
                 "trainer_id": "09152",
                 "moves": [
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Fire Punch",
                     "Dragon Dance",
                     "Outrage"
@@ -3910,12 +3924,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -4025,7 +4039,7 @@ export const eventPokemon = {
                 "ot_gender": "Male",
                 "trainer_id": "07192",
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Supersonic",
                     "Withdraw",
                     "Bite"
@@ -4927,7 +4941,7 @@ export const eventPokemon = {
                     "Aqua Jet",
                     "Leer",
                     "Double Kick",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ],
                 "ivs": null,
                 "met_location": "Pokémon Movie 12",
@@ -5004,7 +5018,7 @@ export const eventPokemon = {
                 "egg_cycles": 25,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "HumanLike",
                 "abilities": [
                     "Steadfast",
@@ -5170,8 +5184,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Flash Fire"
                 ],
@@ -5193,7 +5207,7 @@ export const eventPokemon = {
                 "trainer_id": "05072",
                 "moves": [
                     "Heat Wave",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Psyshock",
                     "Will-O-Wisp"
                 ],
@@ -5332,12 +5346,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -5422,7 +5436,7 @@ export const eventPokemon = {
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
                 "egg_group_1": "Water1",
-                "egg_group_2": "Ground",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Torrent"
                 ],
@@ -5444,7 +5458,7 @@ export const eventPokemon = {
                 "trainer_id": "04282",
                 "moves": [
                     "Hydro Pump",
-                    "FeatherDance",
+                    "Feather Dance",
                     "Water Sport",
                     "Peck"
                 ],
@@ -5500,12 +5514,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -5583,7 +5597,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Water",
                 "type_2": "Water",
-                "catch_rate": 3,
+                "catch_rate": 5,
                 "base_experience": 302,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -5613,7 +5627,7 @@ export const eventPokemon = {
                 "trainer_id": "03172",
                 "moves": [
                     "Ice Beam",
-                    "AncientPower",
+                    "Ancient Power",
                     "Water Spout",
                     "Thunder"
                 ],
@@ -5666,7 +5680,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Ground",
                 "type_2": "Ground",
-                "catch_rate": 3,
+                "catch_rate": 5,
                 "base_experience": 302,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -5696,9 +5710,9 @@ export const eventPokemon = {
                 "trainer_id": "03172",
                 "moves": [
                     "Earthquake",
-                    "AncientPower",
+                    "Ancient Power",
                     "Eruption",
-                    "SolarBeam"
+                    "Solar Beam"
                 ],
                 "ivs": null,
                 "met_location": "PC Fukuoka",
@@ -5755,7 +5769,7 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 35,
                 "growth_rate": "Slow",
-                "egg_group_1": "HumanLike",
+                "egg_group_1": "Amorphous",
                 "egg_group_2": "Amorphous",
                 "abilities": [
                     "Synchronize",
@@ -6173,7 +6187,7 @@ export const eventPokemon = {
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
                 "egg_group_1": "Water1",
-                "egg_group_2": "Ground",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Thick Fat",
                     "Ice Body"
@@ -6339,8 +6353,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Blaze"
                 ],
@@ -6363,8 +6377,8 @@ export const eventPokemon = {
                 "trainer_id": "03172",
                 "moves": [
                     "Flare Blitz",
-                    "Hi Jump Kick",
-                    "ThunderPunch",
+                    "High Jump Kick",
+                    "Thunder Punch",
                     "Stone Edge"
                 ],
                 "ivs": null,
@@ -6500,12 +6514,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -6527,7 +6541,7 @@ export const eventPokemon = {
                 "ot_gender": "Female",
                 "trainer_id": "03012",
                 "moves": [
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Thunderbolt",
                     "Grass Knot",
                     "Brick Break"
@@ -6583,7 +6597,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Dragon",
                 "type_2": "Flying",
-                "catch_rate": 45,
+                "catch_rate": 3,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -6611,7 +6625,7 @@ export const eventPokemon = {
                 "ot_gender": "Male",
                 "trainer_id": "02102",
                 "moves": [
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Hyper Beam",
                     "Dragon Pulse",
                     "V-create"
@@ -6755,7 +6769,7 @@ export const eventPokemon = {
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
                 "egg_group_1": "Bug",
-                "egg_group_2": "Dragon",
+                "egg_group_2": "Bug",
                 "abilities": [
                     "Hyper Cutter",
                     "Arena Trap"
@@ -7236,7 +7250,7 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Grass",
                 "abilities": [
                     "Overgrow"
@@ -7405,7 +7419,7 @@ export const eventPokemon = {
                 "egg_cycles": 15,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Dragon",
                 "abilities": [
                     "Shed Skin",
@@ -7484,12 +7498,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -7567,12 +7581,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -7650,7 +7664,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Dragon",
                 "type_2": "Fire",
-                "catch_rate": 3,
+                "catch_rate": 45,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -7743,7 +7757,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Dragon",
                 "type_2": "Electric",
-                "catch_rate": 3,
+                "catch_rate": 45,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -8026,8 +8040,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Illusion"
                 ],
@@ -8134,7 +8148,7 @@ export const eventPokemon = {
                 "moves": [
                     "Dark Void",
                     "Ominous Wind",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Nightmare"
                 ],
                 "ivs": null,
@@ -8158,8 +8172,18 @@ export const eventPokemon = {
                         "language": null,
                         "location": "Japan",
                         "date": "December 27, 2010 to January 10 and 11, 2011",
-                        "start_date": null,
-                        "end_date": null
+                        "start_date": "2010-12-27",
+                        "end_date": "2011-01-11",
+                        "periods": [
+                            {
+                                "start": "2010-12-27",
+                                "end": "2011-01-10"
+                            },
+                            {
+                                "start": "2011-01-11",
+                                "end": "2011-01-11"
+                            }
+                        ]
                     }
                 ],
                 "source_page": "List of local Japanese event Pokémon distributions in Generation V"
@@ -8220,7 +8244,7 @@ export const eventPokemon = {
                     "Heal Pulse",
                     "Helping Hand",
                     "Refresh",
-                    "DoubleSlap"
+                    "Double Slap"
                 ],
                 "ivs": null,
                 "met_location": "(Various)",
@@ -8723,8 +8747,8 @@ export const eventPokemon = {
                 "ot_gender": "Male",
                 "trainer_id": "10100",
                 "moves": [
-                    "SmokeScreen",
-                    "Faint Attack",
+                    "Smokescreen",
+                    "Feint Attack",
                     "Fire Spin",
                     "Confuse Ray"
                 ],
@@ -9011,8 +9035,22 @@ export const eventPokemon = {
                         "language": null,
                         "location": "Indonesia",
                         "date": "November 2, 6, and 9, 2013",
-                        "start_date": null,
-                        "end_date": null
+                        "start_date": "2013-11-02",
+                        "end_date": "2013-11-09",
+                        "periods": [
+                            {
+                                "start": "2013-11-02",
+                                "end": "2013-11-02"
+                            },
+                            {
+                                "start": "2013-11-06",
+                                "end": "2013-11-06"
+                            },
+                            {
+                                "start": "2013-11-09",
+                                "end": "2013-11-09"
+                            }
+                        ]
                     },
                     {
                         "games": [
@@ -9245,7 +9283,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Water",
                 "type_2": "Dragon",
-                "catch_rate": 3,
+                "catch_rate": 30,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -9459,7 +9497,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Steel",
                 "type_2": "Dragon",
-                "catch_rate": 3,
+                "catch_rate": 30,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -9723,7 +9761,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Water",
                 "type_2": "Dragon",
-                "catch_rate": 3,
+                "catch_rate": 30,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -9809,7 +9847,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Steel",
                 "type_2": "Dragon",
-                "catch_rate": 3,
+                "catch_rate": 30,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -9903,8 +9941,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Own Tempo",
                     "Technician"
@@ -10535,7 +10573,7 @@ export const eventPokemon = {
                     "Aqua Jet",
                     "Leer",
                     "Double Kick",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ],
                 "ivs": null,
                 "met_location": "Lovely place",
@@ -10809,12 +10847,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -10893,12 +10931,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -11001,12 +11039,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -11168,7 +11206,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Dragon",
                 "type_2": "Fire",
-                "catch_rate": 3,
+                "catch_rate": 45,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -11248,7 +11286,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Dragon",
                 "type_2": "Electric",
-                "catch_rate": 3,
+                "catch_rate": 45,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -11360,7 +11398,7 @@ export const eventPokemon = {
                 "moves": [
                     "Dark Void",
                     "Ominous Wind",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Nightmare"
                 ],
                 "ivs": null,
@@ -11492,8 +11530,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Illusion"
                 ],
@@ -11600,7 +11638,7 @@ export const eventPokemon = {
                 "egg_cycles": 15,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Dragon",
                 "abilities": [
                     "Shed Skin",
@@ -11684,8 +11722,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Illusion"
                 ],
@@ -12192,8 +12230,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Gluttony"
                 ],
@@ -12215,7 +12253,7 @@ export const eventPokemon = {
                 "moves": [
                     "Bullet Seed",
                     "Bite",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Dig"
                 ],
                 "ivs": null,
@@ -12619,7 +12657,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Water",
                 "type_2": "Dragon",
-                "catch_rate": 3,
+                "catch_rate": 30,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -12833,7 +12871,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Steel",
                 "type_2": "Dragon",
-                "catch_rate": 3,
+                "catch_rate": 30,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -13017,8 +13055,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Own Tempo",
                     "Technician"
@@ -13471,7 +13509,7 @@ export const eventPokemon = {
                     "Aqua Jet",
                     "Leer",
                     "Double Kick",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ],
                 "ivs": null,
                 "met_location": "Lovely place",
@@ -13745,12 +13783,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -13829,12 +13867,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -14050,7 +14088,7 @@ export const eventPokemon = {
                 "moves": [
                     "Dark Void",
                     "Ominous Wind",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Nightmare"
                 ],
                 "ivs": null,
@@ -14182,7 +14220,7 @@ export const eventPokemon = {
                 "egg_cycles": 15,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Dragon",
                 "abilities": [
                     "Shed Skin",
@@ -14266,8 +14304,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Illusion"
                 ],
@@ -14960,7 +14998,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Water",
                 "type_2": "Dragon",
-                "catch_rate": 3,
+                "catch_rate": 30,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -15174,7 +15212,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Steel",
                 "type_2": "Dragon",
-                "catch_rate": 3,
+                "catch_rate": 30,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -15358,8 +15396,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Own Tempo",
                     "Technician"
@@ -15812,7 +15850,7 @@ export const eventPokemon = {
                     "Aqua Jet",
                     "Leer",
                     "Double Kick",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ],
                 "ivs": null,
                 "met_location": "Lovely place",
@@ -16086,12 +16124,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -16170,12 +16208,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -16391,7 +16429,7 @@ export const eventPokemon = {
                 "moves": [
                     "Dark Void",
                     "Ominous Wind",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Nightmare"
                 ],
                 "ivs": null,
@@ -16523,7 +16561,7 @@ export const eventPokemon = {
                 "egg_cycles": 15,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Dragon",
                 "abilities": [
                     "Shed Skin",
@@ -16607,8 +16645,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Illusion"
                 ],
@@ -17301,7 +17339,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Water",
                 "type_2": "Dragon",
-                "catch_rate": 3,
+                "catch_rate": 30,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -17515,7 +17553,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Steel",
                 "type_2": "Dragon",
-                "catch_rate": 3,
+                "catch_rate": 30,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -17699,8 +17737,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Own Tempo",
                     "Technician"
@@ -18153,7 +18191,7 @@ export const eventPokemon = {
                     "Aqua Jet",
                     "Leer",
                     "Double Kick",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ],
                 "ivs": null,
                 "met_location": "Lovely place",
@@ -18427,12 +18465,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -18511,12 +18549,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -18732,7 +18770,7 @@ export const eventPokemon = {
                 "moves": [
                     "Dark Void",
                     "Ominous Wind",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Nightmare"
                 ],
                 "ivs": null,
@@ -18864,8 +18902,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Illusion"
                 ],
@@ -18972,7 +19010,7 @@ export const eventPokemon = {
                 "egg_cycles": 15,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Dragon",
                 "abilities": [
                     "Shed Skin",
@@ -19056,8 +19094,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Illusion"
                 ],
@@ -19750,7 +19788,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Water",
                 "type_2": "Dragon",
-                "catch_rate": 3,
+                "catch_rate": 30,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -19964,7 +20002,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Steel",
                 "type_2": "Dragon",
-                "catch_rate": 3,
+                "catch_rate": 30,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -20148,8 +20186,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Own Tempo",
                     "Technician"
@@ -20237,8 +20275,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Pickup",
                     "Technician"
@@ -20691,7 +20729,7 @@ export const eventPokemon = {
                     "Aqua Jet",
                     "Leer",
                     "Double Kick",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ],
                 "ivs": null,
                 "met_location": "Lovely place",
@@ -20965,12 +21003,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -21049,12 +21087,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -21270,7 +21308,7 @@ export const eventPokemon = {
                 "moves": [
                     "Dark Void",
                     "Ominous Wind",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Nightmare"
                 ],
                 "ivs": null,
@@ -21402,7 +21440,7 @@ export const eventPokemon = {
                 "egg_cycles": 15,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Dragon",
                 "abilities": [
                     "Shed Skin",
@@ -21486,8 +21524,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Illusion"
                 ],
@@ -22018,7 +22056,7 @@ export const eventPokemon = {
                 "ot_gender": "Male",
                 "trainer_id": "01014",
                 "moves": [
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Techno Blast",
                     "Blaze Kick",
                     "Shift Gear"
@@ -22078,7 +22116,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Steel",
                 "type_2": "Dragon",
-                "catch_rate": 3,
+                "catch_rate": 30,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -22164,7 +22202,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Water",
                 "type_2": "Dragon",
-                "catch_rate": 3,
+                "catch_rate": 30,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -22344,8 +22382,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Limber",
                     "Unburden"
@@ -22606,8 +22644,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Own Tempo",
                     "Technician"
@@ -22889,7 +22927,7 @@ export const eventPokemon = {
                 "ot_gender": "Male",
                 "trainer_id": "Various",
                 "moves": [
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Fire Punch",
                     "Dragon Dance",
                     "Outrage"
@@ -23304,7 +23342,7 @@ export const eventPokemon = {
                 "moves": [
                     "Techno Blast",
                     "Magnet Bomb",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Signal Beam"
                 ],
                 "ivs": null,
@@ -23365,7 +23403,7 @@ export const eventPokemon = {
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
                 "egg_group_1": "Water1",
-                "egg_group_2": "Ground",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Torrent"
                 ],
@@ -23388,7 +23426,7 @@ export const eventPokemon = {
                 "moves": [
                     "Sing",
                     "Round",
-                    "FeatherDance",
+                    "Feather Dance",
                     "Peck"
                 ],
                 "ivs": null,
@@ -23564,7 +23602,7 @@ export const eventPokemon = {
                     "Aqua Jet",
                     "Leer",
                     "Double Kick",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ],
                 "ivs": null,
                 "met_location": "Pokémon Movie 12",
@@ -23886,12 +23924,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -23970,12 +24008,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -24221,7 +24259,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Dragon",
                 "type_2": "Fire",
-                "catch_rate": 3,
+                "catch_rate": 45,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -24301,7 +24339,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Dragon",
                 "type_2": "Electric",
-                "catch_rate": 3,
+                "catch_rate": 45,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -24497,7 +24535,7 @@ export const eventPokemon = {
                 "moves": [
                     "Dark Void",
                     "Ominous Wind",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Nightmare"
                 ],
                 "ivs": null,
@@ -24557,7 +24595,7 @@ export const eventPokemon = {
                 "egg_cycles": 15,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Dragon",
                 "abilities": [
                     "Shed Skin",
@@ -24641,8 +24679,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Illusion"
                 ],
@@ -24815,8 +24853,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Pickup",
                     "Technician"
@@ -24924,7 +24962,7 @@ export const eventPokemon = {
                 "moves": [
                     "Techno Blast",
                     "Magnet Bomb",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Signal Beam"
                 ],
                 "ivs": null,
@@ -24985,7 +25023,7 @@ export const eventPokemon = {
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
                 "egg_group_1": "Water1",
-                "egg_group_2": "Ground",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Torrent"
                 ],
@@ -25008,7 +25046,7 @@ export const eventPokemon = {
                 "moves": [
                     "Sing",
                     "Round",
-                    "FeatherDance",
+                    "Feather Dance",
                     "Peck"
                 ],
                 "ivs": null,
@@ -25062,7 +25100,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Dragon",
                 "type_2": "Flying",
-                "catch_rate": 45,
+                "catch_rate": 3,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -25091,7 +25129,7 @@ export const eventPokemon = {
                 "trainer_id": "03172",
                 "moves": [
                     "Dragon Pulse",
-                    "AncientPower",
+                    "Ancient Power",
                     "Outrage",
                     "Dragon Dance"
                 ],
@@ -25505,7 +25543,7 @@ export const eventPokemon = {
                 "trainer_id": "06171",
                 "moves": [
                     "Hyper Voice",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Flamethrower",
                     "Focus Blast"
                 ],
@@ -25567,8 +25605,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Illusion"
                 ],
@@ -25651,7 +25689,7 @@ export const eventPokemon = {
                 "egg_cycles": 15,
                 "base_friendship": 35,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Dragon",
                 "abilities": [
                     "Shed Skin",
@@ -25677,7 +25715,7 @@ export const eventPokemon = {
                     "Leer",
                     "Low Kick",
                     "Headbutt",
-                    "Hi Jump Kick"
+                    "High Jump Kick"
                 ],
                 "ivs": null,
                 "met_location": "Pokémon Event",
@@ -25736,8 +25774,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Gluttony"
                 ],
@@ -25759,7 +25797,7 @@ export const eventPokemon = {
                 "moves": [
                     "Bullet Seed",
                     "Bite",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Dig"
                 ],
                 "ivs": null,
@@ -25977,8 +26015,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Snow Cloak"
                 ],
@@ -26255,7 +26293,7 @@ export const eventPokemon = {
                 "moves": [
                     "Techno Blast",
                     "Magnet Bomb",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Signal Beam"
                 ],
                 "ivs": null,
@@ -26339,7 +26377,7 @@ export const eventPokemon = {
                 "moves": [
                     "Dark Void",
                     "Ominous Wind",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Nightmare"
                 ],
                 "ivs": null,
@@ -26393,7 +26431,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Dragon",
                 "type_2": "Fire",
-                "catch_rate": 3,
+                "catch_rate": 45,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -26473,7 +26511,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Dragon",
                 "type_2": "Electric",
-                "catch_rate": 3,
+                "catch_rate": 45,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -26932,7 +26970,7 @@ export const eventPokemon = {
                 "moves": [
                     "Techno Blast",
                     "Magnet Bomb",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Signal Beam"
                 ],
                 "ivs": null,
@@ -27153,7 +27191,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Dragon",
                 "type_2": "Fire",
-                "catch_rate": 3,
+                "catch_rate": 45,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -27233,7 +27271,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Dragon",
                 "type_2": "Electric",
-                "catch_rate": 3,
+                "catch_rate": 45,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -27515,7 +27553,7 @@ export const eventPokemon = {
                 "moves": [
                     "Techno Blast",
                     "Magnet Bomb",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Signal Beam"
                 ],
                 "ivs": null,
@@ -27736,7 +27774,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Dragon",
                 "type_2": "Fire",
-                "catch_rate": 3,
+                "catch_rate": 45,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -27816,7 +27854,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Dragon",
                 "type_2": "Electric",
-                "catch_rate": 3,
+                "catch_rate": 45,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -28098,7 +28136,7 @@ export const eventPokemon = {
                 "moves": [
                     "Techno Blast",
                     "Magnet Bomb",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Signal Beam"
                 ],
                 "ivs": null,
@@ -28319,7 +28357,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Dragon",
                 "type_2": "Fire",
-                "catch_rate": 3,
+                "catch_rate": 45,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -28399,7 +28437,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Dragon",
                 "type_2": "Electric",
-                "catch_rate": 3,
+                "catch_rate": 45,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -28681,7 +28719,7 @@ export const eventPokemon = {
                 "moves": [
                     "Techno Blast",
                     "Magnet Bomb",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Signal Beam"
                 ],
                 "ivs": null,
@@ -28902,7 +28940,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Dragon",
                 "type_2": "Fire",
-                "catch_rate": 3,
+                "catch_rate": 45,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -28982,7 +29020,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Dragon",
                 "type_2": "Electric",
-                "catch_rate": 3,
+                "catch_rate": 45,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -29160,8 +29198,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Pickup",
                     "Technician"
@@ -29571,7 +29609,7 @@ export const eventPokemon = {
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
                 "egg_group_1": "Bug",
-                "egg_group_2": "Dragon",
+                "egg_group_2": "Bug",
                 "abilities": [
                     "Hyper Cutter",
                     "Arena Trap"
@@ -30328,7 +30366,7 @@ export const eventPokemon = {
                 "trainer_id": "11031",
                 "moves": [
                     "Hyper Voice",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Flamethrower",
                     "Focus Blast"
                 ],
@@ -30387,7 +30425,7 @@ export const eventPokemon = {
                 "egg_cycles": 15,
                 "base_friendship": 35,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Dragon",
                 "abilities": [
                     "Shed Skin",
@@ -30413,7 +30451,7 @@ export const eventPokemon = {
                     "Leer",
                     "Low Kick",
                     "Headbutt",
-                    "Hi Jump Kick"
+                    "High Jump Kick"
                 ],
                 "ivs": null,
                 "met_location": "Pokémon Event",
@@ -30472,8 +30510,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Gluttony"
                 ],
@@ -30495,7 +30533,7 @@ export const eventPokemon = {
                 "moves": [
                     "Bullet Seed",
                     "Bite",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Dig"
                 ],
                 "ivs": null,

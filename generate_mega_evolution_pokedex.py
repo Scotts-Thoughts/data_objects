@@ -7,10 +7,13 @@ where it was first introduced.
 Official mega introductions:
   - X/Y: The original 28 megas
   - ORAS: 20 additional megas (Beedrill, Pidgeot, Slowbro, etc.)
-  - Sun/Moon and beyond: no new official megas
+  - Legends: Z-A (and its Mega Dimension DLC): the remaining megas
+    (Clefable, Dragonite, Mega Absol Z, ...)
 
-Custom/fan-made megas that don't appear in the official lists are assigned
-to the earliest game file where they appear in the data.
+Megas not in the X/Y or ORAS lists are taken from the earliest game file
+where they appear, which for all of them is Legends: Z-A.
+
+Writes pokedex/mega_evolution_pokedex.js. Run after scrape_pokedex.py.
 """
 import json
 import os
@@ -108,6 +111,7 @@ GAME_FILES = [
     ("Ultra Sun and Ultra Moon", "pokedex/ultra_sun_ultra_moon.js"),
     ("Sword and Shield",         "pokedex/sword_shield.js"),
     ("Scarlet and Violet",       "pokedex/scarlet_violet.js"),
+    ("Legends Z-A",              "pokedex/legends_za.js"),
 ]
 
 # ---------------------------------------------------------------------------
@@ -182,14 +186,22 @@ def main():
     mega_pokedex = {}
     source_tracking = {}  # For reporting
 
-    for species_name, first_game in sorted(first_appearance.items()):
+    sources = {}
+    for species_name, first_game in first_appearance.items():
         intro_game = get_introduction_game(species_name, first_game)
 
         # If the intro game doesn't have this mega in the data, fall back to
         # the first game where it actually appears
         if intro_game not in game_data or species_name not in game_data[intro_game]:
             intro_game = first_game
+        sources[species_name] = intro_game
 
+    # Order by introducing game, then by position in that game's file
+    # (national dex order, with the Z-A DLC megas after the base game's).
+    game_order = [g for g, _ in GAME_FILES]
+    for species_name in sorted(sources, key=lambda s: (
+            game_order.index(sources[s]), list(game_data[sources[s]]).index(s))):
+        intro_game = sources[species_name]
         mega_pokedex[species_name] = game_data[intro_game][species_name]
 
         if intro_game not in source_tracking:
@@ -197,7 +209,7 @@ def main():
         source_tracking[intro_game].append(species_name)
 
     # Step 3: Write the output file
-    output_path = "mega_evolution_pokedex.js"
+    output_path = "pokedex/mega_evolution_pokedex.js"
     export_js(output_path, mega_pokedex)
 
     # Report

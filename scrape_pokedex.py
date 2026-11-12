@@ -2,8 +2,12 @@
 """
 Pokédex scraper for Gen 1-9 games.
 
-Species data (stats, types, abilities, evolution families, held items …)
-comes from PokéAPI (https://pokeapi.co).  Learnsets come from Bulbapedia:
+Species fields (types, catch rate, base EXP, EV yield, held items, gender
+ratio, egg cycles, friendship, growth rate, egg groups, abilities, weight)
+come from the game's own personal table, as dumped by PKHeX
+(game_species_data.py) — PokéAPI only knows current values.  PokéAPI still
+provides the species list, forms, evolution families and Gen 1-4 weights.
+Learnsets come from Bulbapedia:
 every per-game move list (level-up, TM/HM, tutor, egg, prior-evolution,
 transfer, form-change) is read from the ``Generation N learnset`` wikitext
 via bulba_learnsets.py, so the lists match Bulbapedia's tables in
@@ -57,6 +61,7 @@ import requests
 import bulba_fetch as bf
 import bulba_learnsets as bl
 import bulba_stats as bs
+import game_species_data as gsd
 from scrape_mega_evolutions import XY_MEGAS, ORAS_MEGAS, ZA_MEGAS
 
 # ---------------------------------------------------------------------------
@@ -256,7 +261,7 @@ EGG_GROUP_MAP = {
     "water1":        "Water1",
     "bug":           "Bug",
     "flying":        "Flying",
-    "field":         "Field",
+    "ground":        "Field",    # PokéAPI's slug for the Field group
     "fairy":         "Fairy",
     "plant":         "Grass",
     "humanshape":    "HumanLike",
@@ -322,6 +327,7 @@ _MEGA_GEN_RANGE: dict[str, tuple[int, int]] = {}
 for _slug, _base, _vgs in XY_MEGAS + ORAS_MEGAS:
     _MEGA_GEN_RANGE[_slug] = (6, 7)
 
+_ORAS_MEGA_SLUGS: set[str] = {_slug for _slug, _base, _vgs in ORAS_MEGAS}
 _ZA_MEGA_SLUGS: set[str] = {_slug for _slug, _base, _vgs in ZA_MEGAS}
 _ZA_VERSION_GROUP = "legends-za"
 
@@ -603,8 +609,21 @@ _species_name_cache: dict[str, str] = {}   # slug → English display name
 _ability_gen_cache: dict[str, int] = {}    # ability slug → generation number
 
 
+# Slugs whose English name has punctuation that title-casing loses
+# (held items, evolution items and evolution locations).
+SLUG_NAME_FIXES: dict[str, str] = {
+    "kings-rock":       "King's Rock",
+    "never-melt-ice":   "Never-Melt Ice",
+    "up-grade":         "Up-Grade",
+    "mt-coronet":       "Mt. Coronet",
+    "sinnoh-route-217": "Route 217",
+}
+
+
 def slug_to_title(slug: str) -> str:
     """'thunder-punch' → 'Thunder Punch'  (fast fallback, no API call)."""
+    if slug in SLUG_NAME_FIXES:
+        return SLUG_NAME_FIXES[slug]
     return " ".join(word.capitalize() for word in slug.split("-"))
 
 
@@ -629,6 +648,19 @@ def get_english_name(names_list: list[dict]) -> str | None:
         if entry.get("language", {}).get("name") == "en":
             return entry["name"]
     return None
+
+
+_ability_name_cache: dict[str, str] = {}
+
+
+def get_ability_name(slug: str, use_cache: bool) -> str:
+    """Official English ability name ("Dragon's Maw", "Soul-Heart"), with an
+    ASCII apostrophe like the other species fields."""
+    if slug not in _ability_name_cache:
+        data = api_get(f"{API_BASE}/ability/{slug}", use_cache=use_cache)
+        name = get_english_name((data or {}).get("names", [])) or slug_to_title(slug)
+        _ability_name_cache[slug] = name.replace("’", "'")
+    return _ability_name_cache[slug]
 
 
 def get_ability_generation(slug: str, use_cache: bool) -> int:
@@ -687,6 +719,8 @@ class ScrapeReport:
         self.no_bulbapedia_stats: list[dict] = []
         self.unknown_moves: dict[str, list[str]] = {}
         self.form_unmatched: list[dict] = []       # form descriptor matched no heading
+        self.game_table_unmapped: list[dict] = []  # entry with no game personal-table record
+        self.game_table_stat_mismatch: list[dict] = []  # game table stats != Bulbapedia
 
     def note_moves(self, game: str, display: str, moves: list[str]) -> None:
         known = known_move_names()
@@ -704,6 +738,8 @@ class ScrapeReport:
                 f"stat-mismatch={len(self.stat_mismatch)} "
                 f"no-bulbapedia-stats={len(self.no_bulbapedia_stats)} "
                 f"form-unmatched={len(self.form_unmatched)} "
+                f"game-table-unmapped={len(self.game_table_unmapped)} "
+                f"game-table-stat-mismatch={len(self.game_table_stat_mismatch)} "
                 f"unknown-moves={len(self.unknown_moves)}")
 
 
@@ -773,6 +809,11 @@ def form_valid_for_generation(
 
     # Other Mega Evolutions (XY/ORAS) have per-slug generation ranges
     # AND return in Legends Z-A (Gen 9, but specifically not Scarlet/Violet).
+    # ORAS introduced 20 Mega Evolutions and Primal Reversion; X/Y has neither.
+    if version_group == "x-y" and (pokemon_slug in _ORAS_MEGA_SLUGS
+                                   or pokemon_slug.endswith("-primal")):
+        return False
+
     if pokemon_slug in _MEGA_GEN_RANGE:
         min_gen, max_gen = _MEGA_GEN_RANGE[pokemon_slug]
         if min_gen <= game_gen <= max_gen:
@@ -1425,10 +1466,10 @@ def build_entry(
                 continue
             if a["is_hidden"]:
                 if game_gen >= 5:
-                    hidden_ability = slug_to_title(ability_slug)
+                    hidden_ability = get_ability_name(ability_slug, use_cache)
                 # Gen 3-4: skip hidden abilities entirely
             else:
-                abilities.append(slug_to_title(ability_slug))
+                abilities.append(get_ability_name(ability_slug, use_cache))
 
     # Held items
     common_item, rare_item = parse_held_items(pokemon_data, target_versions)
@@ -1451,8 +1492,46 @@ def build_entry(
     egg_group_1 = raw_egg_groups[0] if len(raw_egg_groups) > 0 else None
     egg_group_2 = raw_egg_groups[1] if len(raw_egg_groups) > 1 else egg_group_1
 
-    # Gen 1: no breeding, no gender, no friendship.
+    # --- The game's own species data overrides PokéAPI's current values ----
+    try:
+        game_fields = gsd.species_fields(game_name, game_gen, dex_num,
+                                         display_name, base_species_name)
+    except (KeyError, ValueError, IndexError) as exc:
+        game_fields = None
+        REPORT.game_table_unmapped.append({"game": game_name, "species": display_name,
+                                           "error": str(exc)})
+    if game_fields is not None:
+        if game_fields["_own_record"] and game_fields["_base_stats"] != base_stats:
+            # Base stats stay Bulbapedia's (verify_bulbapedia checks them);
+            # a disagreement with the game table is only reported.
+            REPORT.game_table_stat_mismatch.append({
+                "game": game_name, "species": display_name,
+                "bulbapedia": base_stats, "game_table": game_fields["_base_stats"]})
+        gf = {k: v for k, v in game_fields.items() if not k.startswith("_")}
+        if gf.get("ev_yield") is None:
+            gf.pop("ev_yield", None)        # Gen 1-2: stat experience, set above
+        type_1 = gf.pop("type_1", type_1)
+        type_2 = gf.pop("type_2", type_2)
+        catch_rate = gf.pop("catch_rate", catch_rate)
+        base_exp = gf.pop("base_experience", base_exp)
+        ev_yield = gf.pop("ev_yield", ev_yield)
+        common_item = gf.pop("common_item", common_item)
+        rare_item = gf.pop("rare_item", rare_item)
+        gender_ratio = gf.pop("gender_ratio", gender_ratio)
+        egg_cycles = gf.pop("egg_cycles", egg_cycles)
+        base_friendship = gf.pop("base_friendship", base_friendship)
+        growth_rate = gf.pop("growth_rate", growth_rate)
+        egg_group_1 = gf.pop("egg_group_1", egg_group_1)
+        egg_group_2 = gf.pop("egg_group_2", egg_group_2)
+        abilities = gf.pop("abilities", abilities)
+        hidden_ability = gf.pop("hidden_ability", hidden_ability)
+        weight = gf.pop("weight", weight)
+        assert not gf, gf
+
+    # Gen 1: no breeding, no gender, no friendship, no held items.
     if game_gen <= 1:
+        common_item     = None
+        rare_item       = None
         gender_ratio    = None
         egg_cycles      = None
         base_friendship = None

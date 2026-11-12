@@ -1,6 +1,6 @@
 """Extract the Pokemon World Tournament (PWT) trainers from a Black 2 / White 2 ROM.
 
-PWT data is NOT in the regular trainer NARC (a/0/9/2 + a/0/9/3, which Frost's
+PWT data is NOT in the regular trainer NARC (BW2: a/0/9/1 + a/0/9/2, which Frost's
 Gen5 editor exposes). It lives in its own files in the same NDS filesystem:
 
     a/2/5/4   pwttr1    68 trainers, each -> set IDs used for 1-on-1 battles
@@ -19,15 +19,21 @@ record (reverse-engineered and verified against Serebii's PWT pages):
                    table lives in the game binary, not in these NARCs)
     offset 11 u8   nature (0-24, standard nature order)
     offset 12 u16  held item
-    offset 14 u8   form
+    offset 14 u8   form (set 191, Wattson's Ampharos, has 5: no such form, the
+                   game reads it as the base form)
     offset 15 u8   (always 0)
 
 PWT Pokemon are always level 50. Ability and IVs are not stored per-Pokemon
 (the game derives them), so they are not emitted.
 
-Names (species / move / item) are decoded from the ROM's own text NARC, the
-same way the editor does it (PPTxtHandler.GetStrings), so the output is fully
-ROM-native and self-consistent.
+Trainer names: text file 409 of a/0/0/2 holds the PWT names in pwt_index order
+(entry pwt_index - 1: 1 Cheren, 2 Roxie, ... 54 Red, 59 Castor ... 68 Bonnie; the
+rosters match each name's type theme). Entries 55-58 (Hilda, Rival, Cheren,
+Colress) only point at placeholder sets 1-6 (a copy of entry 1's roster).
+
+Names are written with the repo's conventions: species = pokedex key by national
+dex number (the form is in "form"), moves = moves.js gen-5 keys by move id,
+held items = ROM text with modern punctuation (generate_black_white_trainers.ITEM_FIXES).
 
 Usage:
     python generate_black2_white2_pwt_trainers.py [--rom PATH] [--out PATH]
@@ -43,7 +49,7 @@ from pathlib import Path
 # Defaults
 # --------------------------------------------------------------------------- #
 ROOT = Path(__file__).resolve().parent
-DEFAULT_ROM = r"P:\Scott's Thoughts Programs\FrostsGen5Editor\my files\5-White2.nds"
+DEFAULT_ROM = str(ROOT.parent / "roms" / "originals" / "5-Black2.nds")  # PWT data is identical in White 2
 DEFAULT_OUT = ROOT / "trainers" / "black2_white2_pwt.js"
 
 # BW2 text-file indices inside the message NARC (from VersionConstants.cs)
@@ -51,6 +57,7 @@ TEXT_NARC_PATH = "a/0/0/2"
 POKEMON_NAME_TEXT_FILE = 90
 MOVE_NAME_TEXT_FILE = 403
 ITEM_NAME_TEXT_FILE = 64
+PWT_TRAINER_NAME_TEXT_FILE = 409
 
 PWT_TR1 = "a/2/5/4"   # 1-on-1 choices
 PWT_TR6 = "a/2/5/5"   # 6-on-6 roster
@@ -216,15 +223,14 @@ def decode_set(f: bytes, names: dict) -> dict:
     item = u16(f, 12)
     nature_idx = f[11]
     return {
-        "species": names["pokemon"][species] if species < len(names["pokemon"]) else f"#{species}",
+        "species": names["pokemon"][species],
         "species_dex": species,
         "level": 50,
         "nature": NATURES[nature_idx] if nature_idx < len(NATURES) else f"#{nature_idx}",
-        "held_item": names["item"][item] if item and item < len(names["item"]) else None,
+        "held_item": names["item"][item] if item else None,
         "ev_spread_index": f[10],
         "form": f[14],
-        "moves": [names["move"][m] if m < len(names["move"]) else f"#{m}"
-                  for m in move_ids if m != 0],
+        "moves": [names["move"][m] for m in move_ids if m != 0],
     }
 
 
@@ -237,12 +243,23 @@ def trainer_sets(entry: bytes) -> list[int]:
 def build(rom_path: str) -> dict:
     nds = NDS(rom_path)
 
+    import json
+    from generate_black_white_trainers import fix_item
+
+    def load_js(path):
+        t = Path(path).read_text(encoding="utf-8")
+        return json.loads(t[t.index("{"):t.rindex("}") + 1])
+
     text_narc = parse_narc(nds.file_by_path(TEXT_NARC_PATH))
+    rom_items = decode_text_file(text_narc[ITEM_NAME_TEXT_FILE])
+    dex = load_js(ROOT / "pokedex" / "black2_white2.js")
+    moves5 = load_js(ROOT / "moves.js")["5"]
     names = {
-        "pokemon": decode_text_file(text_narc[POKEMON_NAME_TEXT_FILE]),
-        "move": decode_text_file(text_narc[MOVE_NAME_TEXT_FILE]),
-        "item": decode_text_file(text_narc[ITEM_NAME_TEXT_FILE]),
+        "pokemon": {v["national_dex_number"]: k for k, v in dex.items() if "(" not in k},
+        "move": {v["rom_id"]: k for k, v in moves5.items()},
+        "item": [fix_item(x) for x in rom_items],
     }
+    trainer_names = decode_text_file(text_narc[PWT_TRAINER_NAME_TEXT_FILE])
 
     pwtpoke = parse_narc(nds.file_by_path(PWT_POKE))
     tr1 = parse_narc(nds.file_by_path(PWT_TR1))
@@ -257,6 +274,7 @@ def build(rom_path: str) -> dict:
             continue
         trainers[str(idx)] = {
             "pwt_index": idx,
+            "name": trainer_names[idx - 1],
             "roster": [decode_set(pwtpoke[s], names) for s in sets_6],
             "single_battle_picks": [decode_set(pwtpoke[s], names) for s in sets_1],
         }
@@ -273,7 +291,8 @@ def to_js(trainers: dict) -> str:
         "// Pokemon World Tournament trainers, extracted from the Black 2 / White 2 ROM.\n"
         "// Source files: a/2/5/5 (pwttr6 roster), a/2/5/4 (pwttr1 1v1), a/2/5/6 (pwtpoke sets).\n"
         "// All PWT Pokemon are level 50. Ability/IVs are game-derived and not stored per-Pokemon.\n"
-        "// ev_spread_index selects an in-game EV preset (the preset table is in the game binary).\n\n"
+        "// ev_spread_index selects an in-game EV preset (the preset table is in the game binary).\n"
+        "// name: ROM text file 409, entry pwt_index - 1. Entries 55-58 only hold placeholder sets.\n\n"
     )
     return header + "export const pwtTrainers = " + body + ";\n"
 

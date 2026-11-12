@@ -1,34 +1,42 @@
 """Produce trainers/black2_white2_challenge.js: the BW2 trainers as fought in
 CHALLENGE MODE.
 
-Challenge Mode in BW2 does not store higher levels. The trainer NARC holds the
-challenge-specific TEAMS (gym leaders / E4 / champion get an extra Pokemon and
-custom move/item sets) at base levels, in a high index block; when Challenge
-Mode is active the field scripts call those alternate trainer IDs. The level
-increase is applied at battle time as a flat per-trainer offset keyed to the
-player's badge count:
+How the game does it (Black 2 ROM, verified by disassembly):
+  * The trainer NARC holds the challenge-specific TEAMS (gym leaders / E4 /
+    champion / rivals get an extra Pokemon and custom move/item sets) in a high
+    index block; when Challenge Mode is active the field scripts branch on
+    GameGetDifficulty (script opcode 0x2AF) and call those trainer IDs instead.
+  * The level increase is applied after the party is built, by arm9
+    0x020185D0: for every enemy Pokemon, level += offset (Easy Mode: -offset,
+    minimum 1; Normal Mode: unchanged), via Pokemon_SetValue(MON_DATA_LEVEL)
+    only. Stats, moves and experience points are NOT recalculated, so a
+    challenge-mode Pokemon keeps its Normal-Mode stats and moves (Bulbapedia's
+    Key System page says the same: Iris's L63 Haxorus has L59 stats).
+  * The offset is a property of the ZONE the battle happens in: bits 13-15 of
+    the u16 at 0x22 of the zone header (a/0/1/2, 48 bytes per zone), read by
+    arm9 0x02018CDC. Values in the ROM: 0-5.
 
-    offset = min(4, floor(badges / 2) + 1)
-    -> +1 (gyms 1-2), +2 (3-4), +3 (5-6), +4 (gyms 7-8, Elite Four, Champion,
-       and all postgame battles; the offset caps at +4)
+This script therefore maps every trainer to the zone(s) it is fought in:
+  1. NPC entities (a/1/2/6, file = zone header u16 @0x16) whose script id is
+     3000 + trainer id;
+  2. otherwise the zone script (a/0/5/6, file = zone header u16 @0x06): the
+     trainer-battle opcodes 0x0085 / 0x0094 with a literal trainer id;
+  3. otherwise SetVar (0x0028) of the variable those opcodes take, in the same
+     script file.
+A trainer found in zones with different offsets takes the highest one.
+Big Stadium / Small Court trainers are picked at run time, so the script scan
+cannot place them reliably (some are also referenced by other zones' scripts);
+the trainers that Bulbapedia's "Big Stadium and Small Court" page lists (matched
+by class, name and levels; every one shows +2 there) are pinned to the stadium
+zone (STADIUM_ZONE) and take its ROM offset (source "zone_stadium"). Trainers
+still not found (Black Tower / White Treehollow, Join Avenue, some rematches)
+get an ESTIMATED offset from their last Pokemon's level, calibrated on the
+zone-mapped trainers; their challenge_level_offset_source is "estimated".
 
-Verified against in-game data (pkmn.net + Bulbapedia) for all 8 gyms, the Elite
-Four (first + rematch) and the Champion: e.g. Marlon's L49 and L51 mons both
-become +4 (53 / 55), and Shauntal's L56/L58 E4 team becomes 60/62 (+4, not +5).
-The offset is per-trainer (not per-level) and never exceeds +4.
-
-Only ~159 of 814 trainers are scripted (gyms/E4/champion/rivals); the other 654
-are generic "trainer's-eye" route trainers not bound to a trainer ID in any
-script, so their badge stage can't be script-derived. We assign the offset by
-the trainer's last (ace) Pokemon level, using brackets calibrated to the gym
-anchors -- which reproduce the exact badge-rule offset at every gym + the E4.
-
-This script TRANSFORMS the existing trainers/black2_white2.js (keeping its
-already-derived natures/abilities/exp). It reads the ROM only for each mon's IV
-byte (to recompute stats at the new level) and the trainer's format byte (to
-know whether moves are custom or default level-up moves). A validation pass
-recomputes everything at the ORIGINAL levels and asserts it reproduces the
-existing file before any offset is applied.
+The transform keeps every field of trainers/black2_white2.js (stats and moves
+unchanged), adds the offset to each level, and sets
+prize_money = money * 4 * (challenge level of the last Pokemon)
+(ov93_021D7FBC: prize byte * level of the last Pokemon * 4).
 
 Usage:
     python generate_black2_white2_challenge_trainers.py [--rom PATH] [--out PATH]
@@ -38,91 +46,67 @@ from __future__ import annotations
 
 import argparse
 import json
-import math
-import re
 from pathlib import Path
 
 from generate_black2_white2_pwt_trainers import NDS, parse_narc, decode_text_file, u16
 
 ROOT = Path(__file__).resolve().parent
-DEFAULT_ROM = r"P:\Scott's Thoughts Programs\FrostsGen5Editor\my files\5-White2.nds"
+DEFAULT_ROM = str(ROOT.parent / "roms" / "originals" / "5-Black2.nds")
 TRAINERS_JS = ROOT / "trainers" / "black2_white2.js"
 POKEDEX_JS = ROOT / "pokedex" / "black2_white2.js"
 DEFAULT_OUT = ROOT / "trainers" / "black2_white2_challenge.js"
 
 TRDATA_PATH = "a/0/9/1"
-TRPOKE_PATH = "a/0/9/2"
 TEXT_NARC_PATH = "a/0/0/2"
 SCRIPT_NARC_PATH = "a/0/5/6"
+ZONE_HEADERS_PATH = "a/0/1/2"
+ZONE_ENTITIES_PATH = "a/1/2/6"
 TRAINER_NAME_TEXT_FILE = 382
-# script opcodes that start a trainer battle, each followed by a 2-byte trainer id
+# script opcodes (u16) that start a trainer battle, each followed by a u16 trainer id
 TRAINER_BATTLE_OPCODES = (0x85, 0x94)
+SETVAR_OPCODE = 0x28
+NPC_TRAINER_SCRIPT_BASE = 3000
+# Big Stadium / Small Court (Nimbasa City): zone 42, and the trainer ids fought
+# there per Bulbapedia's "Big Stadium and Small Court" page.
+STADIUM_ZONE = 42
+STADIUM_TRAINERS = frozenset([
+    1, 2, 3, 7, 8, 9, 13, 14, 15, 17, 18, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 48, 49, 50, 51,
+    52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75,
+    76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 95, 96, 98, 99, 100, 103, 104,
+    105, 106, 107, 108, 110, 111, 112, 115, 116, 117, 119, 120, 121, 122, 123, 124, 125, 126, 127,
+    128, 129, 131, 132, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241,
+    242, 243, 244, 245, 246, 247, 248, 249, 250, 251,
+])
 
-# Nature -> (increased_stat, decreased_stat); stat keys match base_stats.
-NATURE_EFFECT = {
-    "Hardy": (None, None), "Lonely": ("attack", "defense"), "Brave": ("attack", "speed"),
-    "Adamant": ("attack", "special_attack"), "Naughty": ("attack", "special_defense"),
-    "Bold": ("defense", "attack"), "Docile": (None, None), "Relaxed": ("defense", "speed"),
-    "Impish": ("defense", "special_attack"), "Lax": ("defense", "special_defense"),
-    "Timid": ("speed", "attack"), "Hasty": ("speed", "defense"), "Serious": (None, None),
-    "Jolly": ("speed", "special_attack"), "Naive": ("speed", "special_defense"),
-    "Modest": ("special_attack", "attack"), "Mild": ("special_attack", "defense"),
-    "Quiet": ("special_attack", "speed"), "Bashful": (None, None),
-    "Rash": ("special_attack", "special_defense"), "Calm": ("special_defense", "attack"),
-    "Gentle": ("special_defense", "defense"), "Sassy": ("special_defense", "speed"),
-    "Careful": ("special_defense", "special_attack"), "Quirky": (None, None),
-}
-
-# Ace (last-mon) level brackets -> challenge offset. Calibrated to the gym/E4/
-# champion anchors: Cheren 13/Roxie 18 (+1), Burgh 24/Elesa 30 (+2), Clay 33/
-# Skyla 39 (+3), Drayden 48/Marlon 51/Elite Four 56-58/Champion 59+ (+4). The
-# offset caps at +4 -- every 8-badge battle (E4, Champion, postgame) is +4.
-def ace_offset(ace_level: int) -> int:
-    if ace_level <= 21:
-        return 1
-    if ace_level <= 32:
-        return 2
-    if ace_level <= 43:
-        return 3
-    return 4
-
-
-# Known gym/E4/champion trainer rom_ids -> (badge stage offset). Used only to
-# VALIDATE that ace_offset() reproduces the badge rule at the anchors.
+# Known gym/E4/champion trainer rom_ids -> offset documented on Bulbapedia
+# (Cheren +1 ... Marlon/E4/Iris +4). Used only to VALIDATE the zone offsets.
 ANCHOR_OFFSETS = {
-    # gym leaders: normal block (153-160) and challenge block (764-771)
-    156: 1, 764: 1,   # Cheren  (gym 1, 0 badges)
-    157: 1, 765: 1,   # Roxie   (gym 2, 1 badge)
-    154: 2, 766: 2,   # Burgh   (gym 3, 2 badges)
-    153: 2, 767: 2,   # Elesa   (gym 4, 3 badges)
-    158: 3, 768: 3,   # Clay    (gym 5, 4 badges)
-    155: 3, 769: 3,   # Skyla   (gym 6, 5 badges)
-    159: 4, 770: 4,   # Drayden (gym 7, 6 badges)
-    160: 4, 771: 4,   # Marlon  (gym 8, 7 badges)
-    # Elite Four (8 badges) first battle: normal 38-41, challenge 772-775 (+4)
-    38: 4, 39: 4, 40: 4, 41: 4, 772: 4, 773: 4, 774: 4, 775: 4,
-    # Elite Four rematch (postgame, 8 badges): normal 143-146, challenge 777-780
-    143: 4, 144: 4, 145: 4, 146: 4, 777: 4, 778: 4, 779: 4, 780: 4,
-    # Champion Iris first 341/776 and rematch 536/781 (+4)
-    341: 4, 776: 4, 536: 4, 781: 4,
+    156: 1, 764: 1,   # Cheren
+    157: 1, 765: 1,   # Roxie
+    154: 2, 766: 2,   # Burgh
+    153: 2, 767: 2,   # Elesa
+    158: 3, 768: 3,   # Clay
+    155: 3, 769: 3,   # Skyla
+    159: 4, 770: 4,   # Drayden
+    160: 4, 771: 4,   # Marlon
+    38: 4, 39: 4, 40: 4, 41: 4, 772: 4, 773: 4, 774: 4, 775: 4,     # Elite Four
+    143: 4, 144: 4, 145: 4, 146: 4, 777: 4, 778: 4, 779: 4, 780: 4,  # E4 rematch
+    341: 4, 776: 4, 536: 4, 781: 4,   # Champion Iris
 }
 
 
-def fmt_flags(byte0: int) -> tuple[bool, bool]:
-    return bool(byte0 & 1), bool((byte0 >> 1) & 1)  # (unique_moves, held_items)
-
-
-def calc_stat(stat: str, base: int, iv: int, level: int, nature: str) -> int:
-    common = (2 * base + iv) * level // 100  # EV = 0 for trainer Pokemon
-    if stat == "hp":
-        return common + level + 10
-    val = common + 5
-    inc, dec = NATURE_EFFECT[nature]
-    if inc == stat:
-        val = math.floor(val * 1.1)
-    elif dec == stat:
-        val = math.floor(val * 0.9)
-    return val
+def estimated_offset(ace_level: int) -> int:
+    """Most common zone offset for zone-mapped trainers with this last-Pokemon
+    level. Only used for trainers that could not be mapped to a zone."""
+    if ace_level <= 14:
+        return 1
+    if ace_level <= 25:
+        return 2
+    if ace_level <= 36:
+        return 3
+    if ace_level <= 59:
+        return 4
+    return 5
 
 
 # --------------------------------------------------------------------------- #
@@ -134,50 +118,68 @@ def load_js_object(path: Path) -> dict:
     return json.loads(txt)
 
 
-def norm_move(m: str) -> str:
-    return re.sub(r"[^a-z0-9]", "", m.lower())
+def _script_refs(b: bytes, num_trainers: int):
+    literal, varrefs = set(), set()
+    for i in range(len(b) - 5):
+        if u16(b, i) in TRAINER_BATTLE_OPCODES:
+            a = u16(b, i + 2)
+            if 1 <= a < num_trainers:
+                literal.add(a)
+            elif 0x8000 <= a < 0x8100:
+                varrefs.add(a)
+    via_var = set()
+    if varrefs:
+        for i in range(len(b) - 5):
+            if u16(b, i) == SETVAR_OPCODE and u16(b, i + 2) in varrefs:
+                v = u16(b, i + 4)
+                if 1 <= v < num_trainers:
+                    via_var.add(v)
+    return literal, via_var
 
 
-def build_move_spelling_map(trainers: dict) -> dict[str, str]:
-    """Map normalized move name -> the spelling used in the trainers file, so
-    re-derived moves match the file's gen-5 conventions (e.g. 'DoubleSlap')."""
-    canon = {}
-    for t in trainers.values():
-        for mon in t.get("party", []):
-            for name in mon.get("moves", []):
-                canon.setdefault(norm_move(name), name)
-    return canon
-
-
-def level_up_moves_at(learnset: list, level: int) -> list[str]:
-    """Last 4 level-up moves learnable by `level`, in learn order."""
-    learned = [name for (lvl, name) in learnset if lvl <= level]
-    return learned[-4:]
-
-
-def find_dex_entry(species: str, mon: dict, iv: int, pokedex: dict):
-    """Return the pokedex entry (base species or the correct forme) whose base
-    stats reproduce the mon's recorded stats. Handles formes (Rotom, Wormadam)
-    where the trainers file stores only the base species name."""
-    base = pokedex.get(species)
-    candidates = [species] + [k for k in pokedex if k.startswith(species + " (")]
-    stats = mon.get("stats")
-    if stats is None:
-        return base
-    nature = mon.get("nature") or "Hardy"
-    lvl = mon["level"]
-    for key in candidates:
-        dex = pokedex.get(key)
-        if dex is None:
+def build_zone_offsets(nds: NDS, num_trainers: int) -> dict[int, tuple[int, str, list[int]]]:
+    """trainer id -> (offset, source, all candidate offsets)."""
+    zones = parse_narc(nds.file_by_path(ZONE_HEADERS_PATH))[0]
+    entities = parse_narc(nds.file_by_path(ZONE_ENTITIES_PATH))
+    scripts = parse_narc(nds.file_by_path(SCRIPT_NARC_PATH))
+    refs: dict[int, dict[str, set[int]]] = {}
+    cache = {}
+    for z in range(len(zones) // 48):
+        rec = zones[z * 48:(z + 1) * 48]
+        offset = u16(rec, 0x22) >> 13
+        ent, scr = u16(rec, 0x16), u16(rec, 0x06)
+        if ent < len(entities) and len(entities[ent]) >= 8:
+            b = entities[ent]
+            base = 8 + b[4] * 0x14
+            for k in range(b[5]):
+                s = u16(b, base + k * 0x24 + 0x0A)
+                if NPC_TRAINER_SCRIPT_BASE < s < NPC_TRAINER_SCRIPT_BASE + num_trainers:
+                    refs.setdefault(s - NPC_TRAINER_SCRIPT_BASE, {}).setdefault("npc", set()).add(offset)
+        if scr < len(scripts):
+            if scr not in cache:
+                cache[scr] = _script_refs(scripts[scr], num_trainers)
+            literal, via_var = cache[scr]
+            for t in literal:
+                refs.setdefault(t, {}).setdefault("script", set()).add(offset)
+            for t in via_var:
+                refs.setdefault(t, {}).setdefault("script_var", set()).add(offset)
+    out = {}
+    stadium_offset = u16(zones, STADIUM_ZONE * 48 + 0x22) >> 13
+    for t in STADIUM_TRAINERS:
+        others = sorted(set().union(*refs[t].values())) if t in refs else []
+        out[t] = (stadium_offset, "zone_stadium", others)
+    for t, by in refs.items():
+        if t in out:
             continue
-        bs = dex["base_stats"]
-        if all(calc_stat(s, bs[s], iv, lvl, nature) == stats[s]
-               for s in ("hp", "attack", "defense", "speed", "special_attack", "special_defense")):
-            return dex
-    return base
+        for how in ("npc", "script", "script_var"):
+            if how in by:
+                offs = sorted(by[how])
+                out[t] = (max(offs), "zone" if len(offs) == 1 else "zone_max_of_several", offs)
+                break
+    return out
 
 
-def build_variant_map(rom_path: str, num_trainers: int):
+def build_variant_map(nds: NDS, num_trainers: int):
     """Derive which rom_ids are challenge-mode-specific teams.
 
     A difficulty-gated battle is emitted as `if challenge: battle(C) else
@@ -189,161 +191,70 @@ def build_variant_map(rom_path: str, num_trainers: int):
     GameGetDifficulty (opcode 0x2AF) are considered. Returns
     (challenge_to_normal, normal_to_challenge).
     """
-    nds = NDS(rom_path)
     names = decode_text_file(parse_narc(nds.file_by_path(TEXT_NARC_PATH))[TRAINER_NAME_TEXT_FILE])
     scripts = parse_narc(nds.file_by_path(SCRIPT_NARC_PATH))
 
     def name_of(tid):
         return names[tid] if tid < len(names) else str(tid)
 
-    challenge_to_normal, normal_to_challenge = {}, {}
+    challenge_to_normal = {}
     for b in scripts:
         if b"\xaf\x02" not in bytes(b):  # script does not branch on difficulty
             continue
-        # ordered, de-duplicated trainer battle references
         refs = []
         for i in range(len(b) - 3):
             if b[i] in TRAINER_BATTLE_OPCODES and b[i + 1] == 0x00:
                 tid = u16(b, i + 2)
                 if 1 <= tid < num_trainers and (not refs or refs[-1] != tid):
                     refs.append(tid)
-        # pair adjacent same-name references; higher rom_id = challenge variant
         j = 0
         while j + 1 < len(refs):
             a, c = refs[j], refs[j + 1]
             if a != c and name_of(a) == name_of(c):
-                challenge, normal = max(a, c), min(a, c)
-                challenge_to_normal[challenge] = normal
+                challenge_to_normal[max(a, c)] = min(a, c)
                 j += 2
             else:
                 j += 1
-
-    # Drop chained pairings: generic-named rivals can list several adjacent
-    # starter-variant challenge teams, daisy-chaining (695<-694<-693). A real
-    # normal team is never itself a challenge variant of something else.
-    challenge_to_normal = {c: n for c, n in challenge_to_normal.items()
-                           if n not in challenge_to_normal}
+    # Drop chained pairings (generic-named rivals list several adjacent
+    # starter-variant challenge teams): a real normal team is never itself a
+    # challenge variant of something else.
+    challenge_to_normal = {c: n for c, n in challenge_to_normal.items() if n not in challenge_to_normal}
     normal_to_challenge = {n: c for c, n in challenge_to_normal.items()}
     return challenge_to_normal, normal_to_challenge
-
-
-def read_rom_trainers(rom_path: str) -> dict[int, dict]:
-    nds = NDS(rom_path)
-    trdata = parse_narc(nds.file_by_path(TRDATA_PATH))
-    trpoke = parse_narc(nds.file_by_path(TRPOKE_PATH))
-    out = {}
-    for i in range(len(trdata)):
-        d = trdata[i]
-        unique_moves, held_items = fmt_flags(d[0])
-        npok = d[3]
-        stride = 8 + (8 if unique_moves else 0) + (2 if held_items else 0)
-        pk = trpoke[i]
-        ivbytes = []
-        for k in range(npok):
-            p = k * stride
-            ivbytes.append(pk[p] if p < len(pk) else 0)
-        out[i] = {"unique_moves": unique_moves, "iv_bytes": ivbytes}
-    return out
 
 
 # --------------------------------------------------------------------------- #
 # Core
 # --------------------------------------------------------------------------- #
-def iv_from_byte(b: int) -> int:
-    return b * 31 // 255
-
-
-def recompute_party(party, rom_iv_bytes, pokedex, canon_moves, level_delta, unique_moves):
-    """Return a new party list with levels shifted by level_delta, stats
-    recomputed at the new level, and (for default-move trainers) movesets
-    re-derived only when the higher level actually learns a new move."""
-    new_party = []
-    for idx, mon in enumerate(party):
-        iv = iv_from_byte(rom_iv_bytes[idx] if idx < len(rom_iv_bytes) else 0)
-        dex = find_dex_entry(mon["species"], mon, iv, pokedex)
-        new_level = mon["level"] + level_delta
-        new_mon = dict(mon)
-        new_mon["level"] = new_level
-
-        if dex is not None and "stats" in mon:
-            bs = dex["base_stats"]
-            nature = mon.get("nature") or "Hardy"
-            new_mon["stats"] = {
-                s: calc_stat(s, bs[s], iv, new_level, nature)
-                for s in ("hp", "attack", "defense", "speed", "special_attack", "special_defense")
-            }
-            if not unique_moves and "moves" in mon and level_delta:
-                # Level-up moves are FIFO: a higher level only *adds* the moves
-                # learned in (orig_level, new_level], pushing out the oldest.
-                # Keep the file's original moves (and spelling); append the
-                # newly-learned ones so retained moves stay byte-identical.
-                ls = dex["level_up_learnset"]
-                before = {norm_move(n) for (lvl, n) in ls if lvl <= mon["level"]}
-                gained = [n for (lvl, n) in ls
-                          if mon["level"] < lvl <= new_level and norm_move(n) not in before]
-                if gained:
-                    gained = [canon_moves.get(norm_move(m), m) for m in gained]
-                    new_mon["moves"] = (mon["moves"] + gained)[-4:]
-        new_party.append(new_mon)
-    return new_party
-
-
-def validate(trainers, rom, pokedex, canon_moves):
-    """Run the transform at offset 0 and assert it reproduces the existing file.
-    Returns (stat_mismatch, move_mismatch) lists."""
-    stat_bad, move_bad = [], []
-    for rid_s, t in trainers.items():
-        rid = int(rid_s)
-        party = t.get("party", [])
-        if not party:
-            continue
-        rinfo = rom.get(rid, {"unique_moves": False, "iv_bytes": []})
-        rebuilt = recompute_party(party, rinfo["iv_bytes"], pokedex, canon_moves, 0, rinfo["unique_moves"])
-        for idx, (orig, new) in enumerate(zip(party, rebuilt)):
-            if "stats" in orig and new.get("stats") != orig["stats"]:
-                stat_bad.append((rid, idx, orig["species"], new.get("stats"), orig["stats"]))
-            if "moves" in orig and new.get("moves") != orig["moves"]:
-                move_bad.append((rid, idx, orig["species"], new.get("moves"), orig["moves"]))
-    return stat_bad, move_bad
-
-
 def build(rom_path: str):
     trainers = load_js_object(TRAINERS_JS)
-    pokedex = load_js_object(POKEDEX_JS)
-    rom = read_rom_trainers(rom_path)
-    canon_moves = build_move_spelling_map(trainers)
-    challenge_to_normal, normal_to_challenge = build_variant_map(rom_path, len(trainers))
+    nds = NDS(rom_path)
+    num = len(parse_narc(nds.file_by_path(TRDATA_PATH)))
+    assert num == len(trainers), (num, len(trainers))
+    challenge_to_normal, normal_to_challenge = build_variant_map(nds, num)
+    zone_offsets = build_zone_offsets(nds, num)
     print(f"Variant map: {len(challenge_to_normal)} challenge-specific teams paired to their normal entries")
 
-    # ---- validation: prove the transform reproduces the existing file ----
-    stat_bad, move_bad = validate(trainers, rom, pokedex, canon_moves)
-    print(f"Validation: {len(stat_bad)} stat mismatches, {len(move_bad)} default-move mismatches")
-    for m in stat_bad[:8]:
-        print("  STAT", m)
-    for m in move_bad[:8]:
-        print("  MOVE", m)
+    with_party = [int(k) for k, t in trainers.items() if t.get("party")]
+    mapped = [t for t in with_party if t in zone_offsets]
+    print(f"Zone offsets: {len(mapped)} of {len(with_party)} trainers with parties mapped to a zone; "
+          f"{len(with_party) - len(mapped)} estimated")
+    several = [(t, zone_offsets[t][2]) for t in mapped if zone_offsets[t][1] == "zone_max_of_several"]
+    stadium_conflicts = [(t, zone_offsets[t][2]) for t in mapped if zone_offsets[t][1] == "zone_stadium"
+                         and zone_offsets[t][2] and zone_offsets[t][2] != [zone_offsets[t][0]]]
+    if stadium_conflicts:
+        print("  stadium trainers also referenced by zones with other offsets (stadium used):", stadium_conflicts)
+    if several:
+        print("  found in zones with different offsets (highest used):", several)
 
-    # ---- anchor check: ace brackets must match the badge rule at gyms/E4 ----
-    anchor_fail = []
-    for rid, expected in ANCHOR_OFFSETS.items():
-        t = trainers.get(str(rid))
-        if not t or not t.get("party"):
-            continue
-        ace = t["party"][-1]["level"]
-        if ace_offset(ace) != expected:
-            anchor_fail.append((rid, ace, ace_offset(ace), expected))
-    if anchor_fail:
-        print("  ANCHOR MISMATCHES:", anchor_fail)
-    else:
-        print(f"Anchor check: ace brackets match the badge rule for all {len(ANCHOR_OFFSETS)} gym/E4/champion entries")
+    fail = [(rid, zone_offsets.get(rid, (None,))[0], exp) for rid, exp in ANCHOR_OFFSETS.items()
+            if zone_offsets.get(rid, (None,))[0] != exp]
+    print("Anchor check:", "OK" if not fail else f"MISMATCHES {fail}")
 
-    # ---- transform ----
     out = {}
     for rid_s, t in trainers.items():
         rid = int(rid_s)
         new_t = dict(t)
-        # mark whether this entry is a challenge-mode-specific team and cross-link
-        # it to its normal/challenge counterpart where one exists
         new_t["is_challenge_variant"] = rid in challenge_to_normal
         if rid in challenge_to_normal:
             new_t["normal_rom_id"] = challenge_to_normal[rid]
@@ -353,16 +264,19 @@ def build(rom_path: str):
         if not party:
             out[rid_s] = new_t
             continue
-        ace_level = party[-1]["level"]
-        offset = ANCHOR_OFFSETS.get(rid, ace_offset(ace_level))
-        rinfo = rom.get(rid, {"unique_moves": False, "iv_bytes": []})
-        new_party = recompute_party(
-            party, rinfo["iv_bytes"], pokedex, canon_moves, offset, rinfo["unique_moves"],
-        )
+        if rid in zone_offsets:
+            offset, source, _ = zone_offsets[rid]
+        else:
+            offset, source = estimated_offset(party[-1]["level"]), "estimated"
+        new_party = []
+        for mon in party:
+            m = dict(mon)
+            m["level"] = mon["level"] + offset  # stats/moves stay at the Normal-Mode level
+            new_party.append(m)
         new_t["challenge_level_offset"] = offset
+        new_t["challenge_level_offset_source"] = source
         new_t["party"] = new_party
-        # prize money = base rate byte * level of LAST Pokemon (gen5 formula)
-        new_t["prize_money"] = t.get("money", 0) * new_party[-1]["level"]
+        new_t["prize_money"] = t.get("money", 0) * 4 * new_party[-1]["level"]
         out[rid_s] = new_t
     return out
 
@@ -371,10 +285,12 @@ def to_js(trainers: dict) -> str:
     header = (
         "// BW2 trainers as fought in CHALLENGE MODE.\n"
         "// Generated by generate_black2_white2_challenge_trainers.py from black2_white2.js + ROM.\n"
-        "// Each Pokemon's level is the base level + challenge_level_offset (=min(4, floor(badges/2)+1),\n"
-        "// assigned per trainer by ace-level bracket). Stats recomputed; default movesets re-derived at\n"
-        "// the new level (custom movesets kept). 'money' is the unchanged base prize rate; 'prize_money'\n"
-        "// is the actual reward = money * last Pokemon's level.\n"
+        "// Each Pokemon's level is the base level + challenge_level_offset, the offset stored in the header\n"
+        "// of the zone the battle is in (source \"zone\" / \"zone_max_of_several\" / \"zone_stadium\";\n"
+        "// \"estimated\" = trainer not located, offset guessed from its last Pokemon's level).\n"
+        "// The game changes only the level: stats and moves are the\n"
+        "// Normal-Mode ones and are kept unchanged. 'money' is the raw prize byte; 'prize_money' is the\n"
+        "// actual reward = money * 4 * last Pokemon's challenge level.\n"
         "// 'is_challenge_variant' marks the challenge-mode-specific teams (gyms/E4/champion/rivals); these\n"
         "// are the entries actually fought in Challenge Mode. 'normal_rom_id'/'challenge_rom_id' cross-link\n"
         "// a battle's normal and challenge versions.\n\n"

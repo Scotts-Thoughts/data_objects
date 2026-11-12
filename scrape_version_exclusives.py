@@ -211,26 +211,22 @@ def bulba_get(url: str, use_cache: bool = True) -> str | None:
     if use_cache and path.exists():
         return path.read_text(encoding="utf-8")
 
-    elapsed = time.time() - _last_request_time
-    if elapsed < REQUEST_DELAY:
-        time.sleep(REQUEST_DELAY - elapsed)
+    # Bulbapedia is behind Cloudflare: go through bulba_fetch, which uses the
+    # bulba_proxy.js proxy when it is running (see SCRAPING.md).
+    from bulba_fetch import fetch_url
 
     for attempt in range(1, MAX_RETRIES + 1):
-        try:
-            resp = requests.get(url, headers=HEADERS, timeout=30)
-            if resp.status_code == 404:
-                return None
-            resp.raise_for_status()
-            _last_request_time = time.time()
-            html = resp.text
+        status, html = fetch_url(url)
+        if status == 404:
+            return None
+        if status == 200:
             if use_cache:
                 BULBA_CACHE_DIR.mkdir(exist_ok=True)
                 path.write_text(html, encoding="utf-8")
             return html
-        except requests.RequestException as exc:
-            print(f"    [bulbapedia attempt {attempt}/{MAX_RETRIES}] {exc}")
-            if attempt < MAX_RETRIES:
-                time.sleep(REQUEST_DELAY * (attempt + 1))
+        print(f"    [bulbapedia attempt {attempt}/{MAX_RETRIES}] HTTP {status}")
+        if attempt < MAX_RETRIES:
+            time.sleep(REQUEST_DELAY * (attempt + 1))
     return None
 
 
@@ -239,8 +235,8 @@ def bulba_get(url: str, use_cache: bool = True) -> str | None:
 # ---------------------------------------------------------------------------
 
 _POKEMON_NAME_FIXUPS = {
-    "nidoran-f":    "Nidoran F",
-    "nidoran-m":    "Nidoran M",
+    "nidoran-f":    "Nidoran♀",
+    "nidoran-m":    "Nidoran♂",
     "mr-mime":      "Mr. Mime",
     "mime-jr":      "Mime Jr.",
     "type-null":    "Type: Null",
@@ -255,7 +251,7 @@ _POKEMON_NAME_FIXUPS = {
     "porygon-z":    "Porygon-Z",
     "mr-rime":      "Mr. Rime",
     "sirfetchd":    "Sirfetch'd",
-    "farfetchd":    "Farfetch'd",
+    "farfetchd":    "Farfetch’d",
     "flabebe":      "Flabébé",
     "chi-yu":       "Chi-Yu",
     "chien-pao":    "Chien-Pao",
@@ -322,11 +318,11 @@ def pokemon_display_name(slug: str) -> str:
 #   "Necrozma Dawn Wings Necrozma"          →  "Necrozma (Dawn)"
 #   "Basculin Red-Striped Form"             →  "Basculin"
 #   "Basculin Blue-Striped Form"            →  "Basculin (Blue Striped)"
-#   "Tauros Paldean Form Blaze Breed"       →  "Tauros (Paldea Blaze Breed)"
+#   "Tauros Paldean Form Blaze Breed"       →  "Paldean Tauros (Blaze Breed)"
 #   "Shellos West Sea"                      →  "Shellos (West Sea)"
-#   "Machamp Gigantamax Machamp"            →  "Gigantamax Machamp"
+#   "Machamp Gigantamax Machamp"            →  "Machamp (Gmax)"
 #   "Pikachu Partner"                       →  "Partner Pikachu"
-#   "Nidoran♀" / "Nidoran♂"                 →  "Nidoran F" / "Nidoran M"
+#   "Farfetch'd"                            →  "Farfetch’d" (as in pokedex/*.js)
 
 _REGIONAL_FORMS = ["Alolan", "Galarian", "Hisuian", "Paldean"]
 
@@ -337,14 +333,13 @@ def normalize_bulba_name(raw: str) -> str:
     name = name.replace("\u00a0", " ")
     name = re.sub(r"\s+", " ", name)
 
-    # Nidoran gender symbols
-    name = name.replace("Nidoran♀", "Nidoran F")
-    name = name.replace("Nidoran♂", "Nidoran M")
+    # Apostrophes as spelled in pokedex/*.js (Farfetch’d, Sirfetch’d)
+    name = name.replace("etch'd", "etch’d")
 
     # Tauros Paldean breed forms — check BEFORE the generic regional-form rule.
     m = re.match(r"^Tauros Paldean Form (\w+) Breed$", name)
     if m:
-        return f"Tauros (Paldea {m.group(1)} Breed)"
+        return f"Paldean Tauros ({m.group(1)} Breed)"
 
     # Regional forms: "{Species} {Regional} Form" → "{Regional} {Species}"
     for region in _REGIONAL_FORMS:
@@ -363,14 +358,19 @@ def normalize_bulba_name(raw: str) -> str:
     if m:
         return f"Primal {m.group(1)}"
 
-    # Gigantamax: "{Species} Gigantamax {Species}" → "Gigantamax {Species}"
+    # Gigantamax: "{Species} Gigantamax {Species}" → "{Species} (Gmax)"
     m = re.match(r"^(\S+) Gigantamax \1$", name)
     if m:
-        return f"Gigantamax {m.group(1)}"
+        return f"{m.group(1)} (Gmax)"
 
     # Partner Pikachu / Eevee from LGPE
     if name == "Pikachu Partner": return "Partner Pikachu"
     if name == "Eevee Partner":   return "Partner Eevee"
+
+    # Deoxys formes (FireRed: Attack, LeafGreen: Defense)
+    m = re.match(r"^Deoxys (\w+) Forme$", name)
+    if m:
+        return f"Deoxys ({m.group(1)})"
 
     # Kyurem Black/White
     m = re.match(r"^Kyurem (Black|White) Kyurem$", name)

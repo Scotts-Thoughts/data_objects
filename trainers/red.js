@@ -13284,7 +13284,7 @@ const trainers_red = {
     "ROCKET 7": {
         "trainer_class": "ROCKET",
         "trainer_name": "ROCKET 7",
-        "trainer_location": "ROCKET Hideout",
+        "trainer_location": "Game Corner",
         "pokemon": [
             {
                 "name": "Raticate",

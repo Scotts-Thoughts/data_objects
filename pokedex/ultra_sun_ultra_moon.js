@@ -3328,8 +3328,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Run Away",
             "Guts"
@@ -3467,8 +3467,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Gluttony",
             "Hustle"
@@ -3608,8 +3608,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Run Away",
             "Guts"
@@ -3760,8 +3760,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Gluttony",
             "Hustle"
@@ -4178,7 +4178,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Dragon",
         "abilities": [
             "Intimidate",
@@ -4319,7 +4319,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Dragon",
         "abilities": [
             "Intimidate",
@@ -4472,7 +4472,7 @@ export const pokedex = {
         "egg_cycles": 10,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Static"
@@ -4644,7 +4644,7 @@ export const pokedex = {
         "egg_cycles": 10,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Static"
@@ -4817,14 +4817,14 @@ export const pokedex = {
         "type_1": "Electric",
         "type_2": "Psychic",
         "catch_rate": 75,
-        "base_experience": 243,
+        "base_experience": 218,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 10,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Surge Surfer"
@@ -5017,8 +5017,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sand Veil"
         ],
@@ -5159,8 +5159,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Snow Cloak"
         ],
@@ -5309,8 +5309,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sand Veil"
         ],
@@ -5459,8 +5459,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Snow Cloak"
         ],
@@ -5614,7 +5614,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Poison Point",
             "Rivalry"
@@ -6080,7 +6080,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Poison Point",
             "Rivalry"
@@ -6216,7 +6216,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Poison Point",
             "Rivalry"
@@ -6355,7 +6355,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Poison Point",
             "Rivalry"
@@ -6955,8 +6955,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Flash Fire"
         ],
@@ -7094,8 +7094,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Snow Cloak"
         ],
@@ -7234,8 +7234,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Flash Fire"
         ],
@@ -7379,8 +7379,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Snow Cloak"
         ],
@@ -9145,8 +9145,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sand Veil",
             "Arena Trap"
@@ -9269,8 +9269,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sand Veil",
             "Tangling Hair"
@@ -9395,8 +9395,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sand Veil",
             "Arena Trap"
@@ -9530,8 +9530,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sand Veil",
             "Tangling Hair"
@@ -9667,8 +9667,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Pickup",
             "Technician"
@@ -9825,8 +9825,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Pickup",
             "Technician"
@@ -9985,8 +9985,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Limber",
             "Technician"
@@ -10154,8 +10154,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Fur Coat",
             "Technician"
@@ -10327,7 +10327,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Damp",
             "Cloud Nine"
@@ -10487,7 +10487,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Damp",
             "Cloud Nine"
@@ -10659,8 +10659,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Vital Spirit",
             "Anger Point"
@@ -10832,8 +10832,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Vital Spirit",
             "Anger Point"
@@ -11011,8 +11011,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate",
             "Flash Fire"
@@ -11149,8 +11149,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate",
             "Flash Fire"
@@ -11369,7 +11369,7 @@ export const pokedex = {
             {"species": "Poliwag", "method": null, "parameter": null},
             {"species": "Poliwhirl", "method": "level", "parameter": 25},
             {"species": "Poliwrath", "method": "item", "parameter": "Water Stone"},
-            {"species": "Politoed", "method": "trade", "parameter": "Kings Rock"}
+            {"species": "Politoed", "method": "trade", "parameter": "King's Rock"}
         ],
         "transfer_learnset": [
             "Amnesia",
@@ -11418,7 +11418,7 @@ export const pokedex = {
         "catch_rate": 120,
         "base_experience": 135,
         "common_item": null,
-        "rare_item": "Kings Rock",
+        "rare_item": "King's Rock",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -11505,7 +11505,7 @@ export const pokedex = {
             {"species": "Poliwag", "method": null, "parameter": null},
             {"species": "Poliwhirl", "method": "level", "parameter": 25},
             {"species": "Poliwrath", "method": "item", "parameter": "Water Stone"},
-            {"species": "Politoed", "method": "trade", "parameter": "Kings Rock"}
+            {"species": "Politoed", "method": "trade", "parameter": "King's Rock"}
         ],
         "transfer_learnset": [
             "Amnesia",
@@ -11566,7 +11566,7 @@ export const pokedex = {
         "catch_rate": 45,
         "base_experience": 230,
         "common_item": null,
-        "rare_item": "Kings Rock",
+        "rare_item": "King's Rock",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -11659,7 +11659,7 @@ export const pokedex = {
             {"species": "Poliwag", "method": null, "parameter": null},
             {"species": "Poliwhirl", "method": "level", "parameter": 25},
             {"species": "Poliwrath", "method": "item", "parameter": "Water Stone"},
-            {"species": "Politoed", "method": "trade", "parameter": "Kings Rock"}
+            {"species": "Politoed", "method": "trade", "parameter": "King's Rock"}
         ],
         "transfer_learnset": [
             "Amnesia",
@@ -14489,8 +14489,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Run Away",
             "Flash Fire"
@@ -14613,8 +14613,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Run Away",
             "Flash Fire"
@@ -14850,7 +14850,7 @@ export const pokedex = {
         "evolution_family": [
             {"species": "Slowpoke", "method": null, "parameter": null},
             {"species": "Slowbro", "method": "level", "parameter": 37},
-            {"species": "Slowking", "method": "trade", "parameter": "Kings Rock"}
+            {"species": "Slowking", "method": "trade", "parameter": "King's Rock"}
         ],
         "transfer_learnset": [
             "Bide",
@@ -14910,7 +14910,7 @@ export const pokedex = {
         "catch_rate": 75,
         "base_experience": 172,
         "common_item": null,
-        "rare_item": "Kings Rock",
+        "rare_item": "King's Rock",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -15028,7 +15028,7 @@ export const pokedex = {
         "evolution_family": [
             {"species": "Slowpoke", "method": null, "parameter": null},
             {"species": "Slowbro", "method": "level", "parameter": 37},
-            {"species": "Slowking", "method": "trade", "parameter": "Kings Rock"}
+            {"species": "Slowking", "method": "trade", "parameter": "King's Rock"}
         ],
         "transfer_learnset": [
             "Avalanche",
@@ -15097,7 +15097,7 @@ export const pokedex = {
         "catch_rate": 75,
         "base_experience": 207,
         "common_item": null,
-        "rare_item": "Kings Rock",
+        "rare_item": "King's Rock",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -15214,7 +15214,7 @@ export const pokedex = {
         "evolution_family": [
             {"species": "Slowpoke", "method": null, "parameter": null},
             {"species": "Slowbro", "method": "level", "parameter": 37},
-            {"species": "Slowking", "method": "trade", "parameter": "Kings Rock"}
+            {"species": "Slowking", "method": "trade", "parameter": "King's Rock"}
         ],
         "transfer_learnset": [
             "Avalanche",
@@ -15360,7 +15360,7 @@ export const pokedex = {
         "evolution_family": [
             {"species": "Magnemite", "method": null, "parameter": null},
             {"species": "Magneton", "method": "level", "parameter": 30},
-            {"species": "Magnezone", "method": "location", "parameter": "Mt Coronet"}
+            {"species": "Magnezone", "method": "location", "parameter": "Mt. Coronet"}
         ],
         "transfer_learnset": [
             "Bide",
@@ -15489,7 +15489,7 @@ export const pokedex = {
         "evolution_family": [
             {"species": "Magnemite", "method": null, "parameter": null},
             {"species": "Magneton", "method": "level", "parameter": 30},
-            {"species": "Magnezone", "method": "location", "parameter": "Mt Coronet"}
+            {"species": "Magnezone", "method": "location", "parameter": "Mt. Coronet"}
         ],
         "transfer_learnset": [
             "Bide",
@@ -15534,13 +15534,13 @@ export const pokedex = {
         "catch_rate": 45,
         "base_experience": 132,
         "common_item": null,
-        "rare_item": "Stick",
+        "rare_item": "Leek",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Flying",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Keen Eye",
             "Inner Focus"
@@ -15954,7 +15954,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Thick Fat",
             "Hydration"
@@ -16092,7 +16092,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Thick Fat",
             "Hydration"
@@ -16389,7 +16389,7 @@ export const pokedex = {
             "Poison Touch",
             "Gluttony"
         ],
-        "hidden_ability": "Power Of Alchemy",
+        "hidden_ability": "Power of Alchemy",
         "level_up_learnset": [
             [1, "Pound"],
             [1, "Poison Gas"],
@@ -16690,7 +16690,7 @@ export const pokedex = {
             "Poison Touch",
             "Gluttony"
         ],
-        "hidden_ability": "Power Of Alchemy",
+        "hidden_ability": "Power of Alchemy",
         "level_up_learnset": [
             [0, "Venom Drench"],
             [1, "Venom Drench"],
@@ -20248,7 +20248,7 @@ export const pokedex = {
         "abilities": [
             "Levitate"
         ],
-        "hidden_ability": "Stench",
+        "hidden_ability": null,
         "level_up_learnset": [
             [1, "Poison Gas"],
             [1, "Tackle"],
@@ -20378,7 +20378,7 @@ export const pokedex = {
         "abilities": [
             "Levitate"
         ],
-        "hidden_ability": "Stench",
+        "hidden_ability": null,
         "level_up_learnset": [
             [0, "Double Hit"],
             [1, "Double Hit"],
@@ -20510,7 +20510,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Lightning Rod",
             "Rock Head"
@@ -20668,7 +20668,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Lightning Rod",
             "Rock Head"
@@ -23431,8 +23431,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate",
             "Anger Point"
@@ -23918,8 +23918,8 @@ export const pokedex = {
         "type_2": "Ice",
         "catch_rate": 45,
         "base_experience": 187,
-        "common_item": null,
-        "rare_item": "Mystic Water",
+        "common_item": "Mystic Water",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 40,
         "base_friendship": 70,
@@ -24124,8 +24124,8 @@ export const pokedex = {
         "egg_cycles": 35,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Run Away",
             "Adaptability"
@@ -24216,7 +24216,7 @@ export const pokedex = {
                 "time_of_day": "night"
             },
             {"species": "Leafeon", "method": "location", "parameter": "Eterna Forest"},
-            {"species": "Glaceon", "method": "location", "parameter": "Sinnoh Route 217"},
+            {"species": "Glaceon", "method": "location", "parameter": "Route 217"},
             {"species": "Sylveon", "method": "affection", "parameter": "Fairy"}
         ],
         "transfer_learnset": [
@@ -24266,8 +24266,8 @@ export const pokedex = {
         "egg_cycles": 35,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Water Absorb"
         ],
@@ -24369,7 +24369,7 @@ export const pokedex = {
                 "time_of_day": "night"
             },
             {"species": "Leafeon", "method": "location", "parameter": "Eterna Forest"},
-            {"species": "Glaceon", "method": "location", "parameter": "Sinnoh Route 217"},
+            {"species": "Glaceon", "method": "location", "parameter": "Route 217"},
             {"species": "Sylveon", "method": "affection", "parameter": "Fairy"}
         ],
         "transfer_learnset": [
@@ -24438,8 +24438,8 @@ export const pokedex = {
         "egg_cycles": 35,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Volt Absorb"
         ],
@@ -24541,7 +24541,7 @@ export const pokedex = {
                 "time_of_day": "night"
             },
             {"species": "Leafeon", "method": "location", "parameter": "Eterna Forest"},
-            {"species": "Glaceon", "method": "location", "parameter": "Sinnoh Route 217"},
+            {"species": "Glaceon", "method": "location", "parameter": "Route 217"},
             {"species": "Sylveon", "method": "affection", "parameter": "Fairy"}
         ],
         "transfer_learnset": [
@@ -24607,8 +24607,8 @@ export const pokedex = {
         "egg_cycles": 35,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Flash Fire"
         ],
@@ -24707,7 +24707,7 @@ export const pokedex = {
                 "time_of_day": "night"
             },
             {"species": "Leafeon", "method": "location", "parameter": "Eterna Forest"},
-            {"species": "Glaceon", "method": "location", "parameter": "Sinnoh Route 217"},
+            {"species": "Glaceon", "method": "location", "parameter": "Route 217"},
             {"species": "Sylveon", "method": "affection", "parameter": "Fairy"}
         ],
         "transfer_learnset": [
@@ -24855,7 +24855,7 @@ export const pokedex = {
         "weight": 36.5,
         "evolution_family": [
             {"species": "Porygon", "method": null, "parameter": null},
-            {"species": "Porygon2", "method": "trade", "parameter": "Up Grade"},
+            {"species": "Porygon2", "method": "trade", "parameter": "Up-Grade"},
             {"species": "Porygon-Z", "method": "trade", "parameter": "Dubious Disc"}
         ],
         "transfer_learnset": [
@@ -25781,8 +25781,8 @@ export const pokedex = {
         "type_2": "Normal",
         "catch_rate": 25,
         "base_experience": 189,
-        "common_item": null,
-        "rare_item": "Leftovers",
+        "common_item": "Leftovers",
+        "rare_item": null,
         "gender_ratio": 31,
         "egg_cycles": 40,
         "base_friendship": 70,
@@ -27412,8 +27412,8 @@ export const pokedex = {
         "type_2": "Psychic",
         "catch_rate": 45,
         "base_experience": 270,
-        "common_item": null,
-        "rare_item": "Lum Berry",
+        "common_item": "Lum Berry",
+        "rare_item": null,
         "gender_ratio": 255,
         "egg_cycles": 120,
         "base_friendship": 100,
@@ -28130,8 +28130,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -28258,8 +28258,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -28393,8 +28393,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -29030,8 +29030,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Run Away",
             "Keen Eye"
@@ -29180,8 +29180,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Run Away",
             "Keen Eye"
@@ -31663,7 +31663,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Static"
         ],
@@ -31789,7 +31789,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Static"
         ],
@@ -31931,7 +31931,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Static"
         ],
@@ -32088,7 +32088,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Mold Breaker"
         ],
@@ -32844,7 +32844,7 @@ export const pokedex = {
         "catch_rate": 45,
         "base_experience": 225,
         "common_item": null,
-        "rare_item": "Kings Rock",
+        "rare_item": "King's Rock",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -32930,7 +32930,7 @@ export const pokedex = {
             {"species": "Poliwag", "method": null, "parameter": null},
             {"species": "Poliwhirl", "method": "level", "parameter": 25},
             {"species": "Poliwrath", "method": "item", "parameter": "Water Stone"},
-            {"species": "Politoed", "method": "trade", "parameter": "Kings Rock"}
+            {"species": "Politoed", "method": "trade", "parameter": "King's Rock"}
         ],
         "transfer_learnset": [
             "Captivate",
@@ -33401,8 +33401,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Run Away",
             "Pickup"
@@ -33936,7 +33936,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Damp",
             "Water Absorb"
@@ -34074,7 +34074,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Damp",
             "Water Absorb"
@@ -34226,8 +34226,8 @@ export const pokedex = {
         "egg_cycles": 35,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Synchronize"
         ],
@@ -34336,7 +34336,7 @@ export const pokedex = {
                 "time_of_day": "night"
             },
             {"species": "Leafeon", "method": "location", "parameter": "Eterna Forest"},
-            {"species": "Glaceon", "method": "location", "parameter": "Sinnoh Route 217"},
+            {"species": "Glaceon", "method": "location", "parameter": "Route 217"},
             {"species": "Sylveon", "method": "affection", "parameter": "Fairy"}
         ],
         "transfer_learnset": [
@@ -34397,8 +34397,8 @@ export const pokedex = {
         "egg_cycles": 35,
         "base_friendship": 35,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Synchronize"
         ],
@@ -34502,7 +34502,7 @@ export const pokedex = {
                 "time_of_day": "night"
             },
             {"species": "Leafeon", "method": "location", "parameter": "Eterna Forest"},
-            {"species": "Glaceon", "method": "location", "parameter": "Sinnoh Route 217"},
+            {"species": "Glaceon", "method": "location", "parameter": "Route 217"},
             {"species": "Sylveon", "method": "affection", "parameter": "Fairy"}
         ],
         "transfer_learnset": [
@@ -34698,7 +34698,7 @@ export const pokedex = {
             "attack": 0,
             "defense": 0,
             "special_attack": 0,
-            "special_defense": 2,
+            "special_defense": 3,
             "speed": 0
         },
         "type_1": "Water",
@@ -34706,7 +34706,7 @@ export const pokedex = {
         "catch_rate": 70,
         "base_experience": 172,
         "common_item": null,
-        "rare_item": "Kings Rock",
+        "rare_item": "King's Rock",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -34826,7 +34826,7 @@ export const pokedex = {
         "evolution_family": [
             {"species": "Slowpoke", "method": null, "parameter": null},
             {"species": "Slowbro", "method": "level", "parameter": 37},
-            {"species": "Slowking", "method": "trade", "parameter": "Kings Rock"}
+            {"species": "Slowking", "method": "trade", "parameter": "King's Rock"}
         ],
         "transfer_learnset": [
             "Avalanche",
@@ -35151,8 +35151,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Inner Focus",
             "Early Bird"
@@ -35587,8 +35587,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Serene Grace",
             "Run Away"
@@ -36201,7 +36201,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Intimidate",
@@ -36362,7 +36362,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Intimidate",
@@ -36967,8 +36967,8 @@ export const pokedex = {
         "type_2": "Rock",
         "catch_rate": 190,
         "base_experience": 177,
-        "common_item": null,
-        "rare_item": "Berry Juice",
+        "common_item": "Berry Juice",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -37390,8 +37390,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 35,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Inner Focus",
             "Keen Eye"
@@ -37562,8 +37562,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Pickup",
             "Quick Feet"
@@ -37724,8 +37724,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Guts",
             "Quick Feet"
@@ -38166,8 +38166,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Oblivious",
             "Snow Cloak"
@@ -38292,8 +38292,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Oblivious",
             "Snow Cloak"
@@ -38865,7 +38865,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Vital Spirit",
             "Hustle"
@@ -39271,8 +39271,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 35,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Early Bird",
             "Flash Fire"
@@ -39414,8 +39414,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 35,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Early Bird",
             "Flash Fire"
@@ -39567,8 +39567,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 35,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Solar Power"
         ],
@@ -39851,8 +39851,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Pickup"
         ],
@@ -39971,8 +39971,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sturdy"
         ],
@@ -40201,7 +40201,7 @@ export const pokedex = {
         "weight": 32.5,
         "evolution_family": [
             {"species": "Porygon", "method": null, "parameter": null},
-            {"species": "Porygon2", "method": "trade", "parameter": "Up Grade"},
+            {"species": "Porygon2", "method": "trade", "parameter": "Up-Grade"},
             {"species": "Porygon-Z", "method": "trade", "parameter": "Dubious Disc"}
         ],
         "transfer_learnset": [
@@ -40250,8 +40250,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate",
             "Frisk"
@@ -40398,8 +40398,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Own Tempo",
             "Technician"
@@ -41179,14 +41179,14 @@ export const pokedex = {
         "type_2": "Normal",
         "catch_rate": 45,
         "base_experience": 172,
-        "common_item": null,
-        "rare_item": "Moomoo Milk",
+        "common_item": "Moomoo Milk",
+        "rare_item": null,
         "gender_ratio": 254,
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Thick Fat",
             "Scrappy"
@@ -42709,8 +42709,8 @@ export const pokedex = {
         "type_2": "Flying",
         "catch_rate": 3,
         "base_experience": 306,
-        "common_item": null,
-        "rare_item": "Sacred Ash",
+        "common_item": "Sacred Ash",
+        "rare_item": null,
         "gender_ratio": 255,
         "egg_cycles": 120,
         "base_friendship": 0,
@@ -42854,8 +42854,8 @@ export const pokedex = {
         "type_2": "Grass",
         "catch_rate": 45,
         "base_experience": 270,
-        "common_item": null,
-        "rare_item": "Lum Berry",
+        "common_item": "Lum Berry",
+        "rare_item": null,
         "gender_ratio": 255,
         "egg_cycles": 120,
         "base_friendship": 100,
@@ -43642,8 +43642,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -43775,8 +43775,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -43930,8 +43930,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -44103,8 +44103,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Speed Boost"
         ],
@@ -44895,8 +44895,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Run Away",
             "Quick Feet"
@@ -45028,8 +45028,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate",
             "Quick Feet"
@@ -45176,8 +45176,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Pickup",
             "Gluttony"
@@ -45321,8 +45321,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Pickup",
             "Gluttony"
@@ -46336,7 +46336,7 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Grass",
         "abilities": [
             "Chlorophyll",
@@ -46458,7 +46458,7 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Grass",
         "abilities": [
             "Chlorophyll",
@@ -46610,7 +46610,7 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Grass",
         "abilities": [
             "Chlorophyll",
@@ -47026,7 +47026,7 @@ export const pokedex = {
         "type_2": "Flying",
         "catch_rate": 190,
         "base_experience": 54,
-        "common_item": "Pretty Wing",
+        "common_item": "Pretty Feather",
         "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
@@ -47151,7 +47151,7 @@ export const pokedex = {
         "type_2": "Flying",
         "catch_rate": 45,
         "base_experience": 154,
-        "common_item": "Pretty Wing",
+        "common_item": "Pretty Feather",
         "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
@@ -47307,7 +47307,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 35,
         "growth_rate": "Slow",
-        "egg_group_1": "HumanLike",
+        "egg_group_1": "Amorphous",
         "egg_group_2": "Amorphous",
         "abilities": [
             "Synchronize",
@@ -47469,7 +47469,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 35,
         "growth_rate": "Slow",
-        "egg_group_1": "HumanLike",
+        "egg_group_1": "Amorphous",
         "egg_group_2": "Amorphous",
         "abilities": [
             "Synchronize",
@@ -47634,7 +47634,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 35,
         "growth_rate": "Slow",
-        "egg_group_1": "HumanLike",
+        "egg_group_1": "Amorphous",
         "egg_group_2": "Amorphous",
         "abilities": [
             "Synchronize",
@@ -47812,7 +47812,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 35,
         "growth_rate": "Slow",
-        "egg_group_1": "HumanLike",
+        "egg_group_1": "Amorphous",
         "egg_group_2": "Amorphous",
         "abilities": [
             "Pixilate"
@@ -48522,8 +48522,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Truant"
         ],
@@ -48662,8 +48662,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Vital Spirit"
         ],
@@ -48820,8 +48820,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Truant"
         ],
@@ -49367,7 +49367,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Soundproof"
         ],
@@ -49502,7 +49502,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Soundproof"
         ],
@@ -49656,7 +49656,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Soundproof"
         ],
@@ -49961,7 +49961,7 @@ export const pokedex = {
         "catch_rate": 200,
         "base_experience": 166,
         "common_item": null,
-        "rare_item": "Kings Rock",
+        "rare_item": "King's Rock",
         "gender_ratio": 63,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -50327,7 +50327,7 @@ export const pokedex = {
         "weight": 97.0,
         "evolution_family": [
             {"species": "Nosepass", "method": null, "parameter": null},
-            {"species": "Probopass", "method": "location", "parameter": "Mt Coronet"}
+            {"species": "Probopass", "method": "location", "parameter": "Mt. Coronet"}
         ],
         "transfer_learnset": [
             "Ancient Power",
@@ -50377,7 +50377,7 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Cute Charm",
@@ -50523,7 +50523,7 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Cute Charm",
@@ -51021,7 +51021,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Hyper Cutter",
@@ -51183,7 +51183,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Huge Power"
@@ -52468,8 +52468,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Static",
             "Lightning Rod"
@@ -52592,8 +52592,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Static",
             "Lightning Rod"
@@ -52726,8 +52726,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate"
         ],
@@ -54244,7 +54244,7 @@ export const pokedex = {
         "egg_cycles": 40,
         "base_friendship": 70,
         "growth_rate": "Fluctuating",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Water2",
         "abilities": [
             "Water Veil",
@@ -54369,7 +54369,7 @@ export const pokedex = {
         "egg_cycles": 40,
         "base_friendship": 70,
         "growth_rate": "Fluctuating",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Water2",
         "abilities": [
             "Water Veil",
@@ -54505,8 +54505,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Oblivious",
             "Simple"
@@ -54635,8 +54635,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Magma Armor",
             "Solid Rock"
@@ -54784,8 +54784,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sheer Force"
         ],
@@ -54932,8 +54932,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "White Smoke",
             "Drought"
@@ -55065,8 +55065,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Thick Fat",
             "Own Tempo"
@@ -55204,8 +55204,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Thick Fat",
             "Own Tempo"
@@ -55369,7 +55369,7 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Own Tempo",
@@ -55531,7 +55531,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Bug",
-        "egg_group_2": "Dragon",
+        "egg_group_2": "Bug",
         "abilities": [
             "Hyper Cutter",
             "Arena Trap"
@@ -55651,7 +55651,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Bug",
-        "egg_group_2": "Dragon",
+        "egg_group_2": "Bug",
         "abilities": [
             "Levitate"
         ],
@@ -55796,7 +55796,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Bug",
-        "egg_group_2": "Dragon",
+        "egg_group_2": "Bug",
         "abilities": [
             "Levitate"
         ],
@@ -56703,8 +56703,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Erratic",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Immunity"
         ],
@@ -56866,7 +56866,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fluctuating",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Dragon",
         "abilities": [
             "Shed Skin"
@@ -58877,8 +58877,8 @@ export const pokedex = {
         "type_2": "Normal",
         "catch_rate": 45,
         "base_experience": 147,
-        "common_item": null,
-        "rare_item": "Mystic Water",
+        "common_item": "Mystic Water",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 25,
         "base_friendship": 70,
@@ -59004,8 +59004,8 @@ export const pokedex = {
         "type_2": "Fire",
         "catch_rate": 45,
         "base_experience": 147,
-        "common_item": null,
-        "rare_item": "Mystic Water",
+        "common_item": "Mystic Water",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 25,
         "base_friendship": 70,
@@ -59131,8 +59131,8 @@ export const pokedex = {
         "type_2": "Water",
         "catch_rate": 45,
         "base_experience": 147,
-        "common_item": null,
-        "rare_item": "Mystic Water",
+        "common_item": "Mystic Water",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 25,
         "base_friendship": 70,
@@ -59258,8 +59258,8 @@ export const pokedex = {
         "type_2": "Ice",
         "catch_rate": 45,
         "base_experience": 147,
-        "common_item": null,
-        "rare_item": "Mystic Water",
+        "common_item": "Mystic Water",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 25,
         "base_friendship": 70,
@@ -59391,8 +59391,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Color Change"
         ],
@@ -60614,8 +60614,8 @@ export const pokedex = {
         "egg_cycles": 25,
         "base_friendship": 35,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Pressure",
             "Super Luck"
@@ -60789,8 +60789,8 @@ export const pokedex = {
         "egg_cycles": 25,
         "base_friendship": 35,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Magic Bounce"
         ],
@@ -61424,7 +61424,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Thick Fat",
             "Ice Body"
@@ -61553,7 +61553,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Thick Fat",
             "Ice Body"
@@ -61685,7 +61685,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Thick Fat",
             "Ice Body"
@@ -65335,8 +65335,8 @@ export const pokedex = {
         "type_2": "Psychic",
         "catch_rate": 3,
         "base_experience": 270,
-        "common_item": null,
-        "rare_item": "Star Piece",
+        "common_item": "Star Piece",
+        "rare_item": null,
         "gender_ratio": 255,
         "egg_cycles": 120,
         "base_friendship": 100,
@@ -66534,7 +66534,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Blaze"
@@ -66679,7 +66679,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Blaze"
@@ -66836,7 +66836,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Blaze"
@@ -67007,7 +67007,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Torrent"
         ],
@@ -67135,7 +67135,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Torrent"
         ],
@@ -67274,7 +67274,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Torrent"
         ],
@@ -67801,7 +67801,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Simple",
             "Unaware"
@@ -67932,7 +67932,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Simple",
             "Unaware"
@@ -68261,8 +68261,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Rivalry",
             "Intimidate"
@@ -68383,8 +68383,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 100,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Rivalry",
             "Intimidate"
@@ -68508,8 +68508,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Rivalry",
             "Intimidate"
@@ -70254,7 +70254,7 @@ export const pokedex = {
         "egg_cycles": 10,
         "base_friendship": 100,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Run Away",
@@ -70384,7 +70384,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Swift Swim"
         ],
@@ -70509,7 +70509,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Swift Swim"
         ],
@@ -71130,8 +71130,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 100,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Technician",
             "Pickup"
@@ -71570,7 +71570,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 0,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Run Away",
@@ -71715,7 +71715,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 140,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Cute Charm",
@@ -71877,7 +71877,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 140,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Scrappy"
@@ -72334,8 +72334,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Limber",
             "Own Tempo"
@@ -72464,8 +72464,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Thick Fat",
             "Own Tempo"
@@ -72743,8 +72743,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Stench",
             "Aftermath"
@@ -72876,8 +72876,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Stench",
             "Aftermath"
@@ -74479,8 +74479,8 @@ export const pokedex = {
         "type_2": "Normal",
         "catch_rate": 50,
         "base_experience": 78,
-        "common_item": null,
-        "rare_item": "Leftovers",
+        "common_item": "Leftovers",
+        "rare_item": null,
         "gender_ratio": 31,
         "egg_cycles": 40,
         "base_friendship": 70,
@@ -74780,7 +74780,7 @@ export const pokedex = {
         "egg_cycles": 25,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Steadfast",
@@ -74952,7 +74952,7 @@ export const pokedex = {
         "egg_cycles": 25,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Adaptability"
@@ -75123,8 +75123,8 @@ export const pokedex = {
         "egg_cycles": 30,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sand Stream"
         ],
@@ -75233,8 +75233,8 @@ export const pokedex = {
         "egg_cycles": 30,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sand Stream"
         ],
@@ -76440,7 +76440,7 @@ export const pokedex = {
         "catch_rate": 120,
         "base_experience": 67,
         "common_item": null,
-        "rare_item": "Never Melt Ice",
+        "rare_item": "Never-Melt Ice",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -76558,7 +76558,7 @@ export const pokedex = {
         "catch_rate": 60,
         "base_experience": 173,
         "common_item": null,
-        "rare_item": "Never Melt Ice",
+        "rare_item": "Never-Melt Ice",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -76694,7 +76694,7 @@ export const pokedex = {
         "catch_rate": 60,
         "base_experience": 208,
         "common_item": null,
-        "rare_item": "Never Melt Ice",
+        "rare_item": "Never-Melt Ice",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -76835,8 +76835,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 35,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Pressure"
         ],
@@ -77095,7 +77095,7 @@ export const pokedex = {
         "evolution_family": [
             {"species": "Magnemite", "method": null, "parameter": null},
             {"species": "Magneton", "method": "level", "parameter": 30},
-            {"species": "Magnezone", "method": "location", "parameter": "Mt Coronet"}
+            {"species": "Magnezone", "method": "location", "parameter": "Mt. Coronet"}
         ],
         "transfer_learnset": [
             "Endure",
@@ -77297,7 +77297,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Slow",
         "egg_group_1": "Monster",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Lightning Rod",
             "Solid Rock"
@@ -78224,8 +78224,8 @@ export const pokedex = {
         "egg_cycles": 35,
         "base_friendship": 35,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Leaf Guard"
         ],
@@ -78329,7 +78329,7 @@ export const pokedex = {
                 "time_of_day": "night"
             },
             {"species": "Leafeon", "method": "location", "parameter": "Eterna Forest"},
-            {"species": "Glaceon", "method": "location", "parameter": "Sinnoh Route 217"},
+            {"species": "Glaceon", "method": "location", "parameter": "Route 217"},
             {"species": "Sylveon", "method": "affection", "parameter": "Fairy"}
         ],
         "transfer_learnset": [
@@ -78389,8 +78389,8 @@ export const pokedex = {
         "egg_cycles": 35,
         "base_friendship": 35,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Snow Cloak"
         ],
@@ -78491,7 +78491,7 @@ export const pokedex = {
                 "time_of_day": "night"
             },
             {"species": "Leafeon", "method": "location", "parameter": "Eterna Forest"},
-            {"species": "Glaceon", "method": "location", "parameter": "Sinnoh Route 217"},
+            {"species": "Glaceon", "method": "location", "parameter": "Route 217"},
             {"species": "Sylveon", "method": "affection", "parameter": "Fairy"}
         ],
         "transfer_learnset": [
@@ -78715,8 +78715,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Oblivious",
             "Snow Cloak"
@@ -78946,7 +78946,7 @@ export const pokedex = {
         "weight": 34.0,
         "evolution_family": [
             {"species": "Porygon", "method": null, "parameter": null},
-            {"species": "Porygon2", "method": "trade", "parameter": "Up Grade"},
+            {"species": "Porygon2", "method": "trade", "parameter": "Up-Grade"},
             {"species": "Porygon-Z", "method": "trade", "parameter": "Dubious Disc"}
         ],
         "transfer_learnset": [
@@ -78992,7 +78992,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 35,
         "growth_rate": "Slow",
-        "egg_group_1": "HumanLike",
+        "egg_group_1": "Amorphous",
         "egg_group_2": "Amorphous",
         "abilities": [
             "Steadfast"
@@ -79196,7 +79196,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 35,
         "growth_rate": "Slow",
-        "egg_group_1": "HumanLike",
+        "egg_group_1": "Amorphous",
         "egg_group_2": "Amorphous",
         "abilities": [
             "Inner Focus"
@@ -79501,7 +79501,7 @@ export const pokedex = {
         "weight": 340.0,
         "evolution_family": [
             {"species": "Nosepass", "method": null, "parameter": null},
-            {"species": "Probopass", "method": "location", "parameter": "Mt Coronet"}
+            {"species": "Probopass", "method": "location", "parameter": "Mt. Coronet"}
         ],
         "transfer_learnset": [
             "Ancient Power",
@@ -81668,7 +81668,7 @@ export const pokedex = {
         "type_1": "Ghost",
         "type_2": "Dragon",
         "catch_rate": 3,
-        "base_experience": 340,
+        "base_experience": 306,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 255,
@@ -82301,8 +82301,8 @@ export const pokedex = {
         "type_2": "Grass",
         "catch_rate": 45,
         "base_experience": 270,
-        "common_item": null,
-        "rare_item": "Lum Berry",
+        "common_item": "Lum Berry",
+        "rare_item": null,
         "gender_ratio": 255,
         "egg_cycles": 120,
         "base_friendship": 100,
@@ -82411,8 +82411,8 @@ export const pokedex = {
         "type_2": "Flying",
         "catch_rate": 45,
         "base_experience": 270,
-        "common_item": null,
-        "rare_item": "Lum Berry",
+        "common_item": "Lum Berry",
+        "rare_item": null,
         "gender_ratio": 255,
         "egg_cycles": 120,
         "base_friendship": 100,
@@ -82849,7 +82849,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Grass",
         "abilities": [
             "Overgrow"
@@ -82974,7 +82974,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Grass",
         "abilities": [
             "Overgrow"
@@ -83102,7 +83102,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Grass",
         "abilities": [
             "Overgrow"
@@ -83240,8 +83240,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -83364,8 +83364,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -83506,8 +83506,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -83658,8 +83658,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Torrent"
         ],
@@ -83778,8 +83778,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Torrent"
         ],
@@ -83901,8 +83901,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Torrent"
         ],
@@ -84038,8 +84038,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Run Away",
             "Keen Eye"
@@ -84159,8 +84159,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Illuminate",
             "Keen Eye"
@@ -84306,8 +84306,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Vital Spirit",
             "Pickup"
@@ -84426,8 +84426,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate",
             "Sand Rush"
@@ -84553,8 +84553,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate",
             "Sand Rush"
@@ -84688,8 +84688,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Limber",
             "Unburden"
@@ -84814,8 +84814,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Limber",
             "Unburden"
@@ -84951,8 +84951,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Gluttony"
         ],
@@ -85085,8 +85085,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Gluttony"
         ],
@@ -85224,8 +85224,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Gluttony"
         ],
@@ -85359,8 +85359,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Gluttony"
         ],
@@ -85500,8 +85500,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Gluttony"
         ],
@@ -85636,8 +85636,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Gluttony"
         ],
@@ -85778,8 +85778,8 @@ export const pokedex = {
         "egg_cycles": 10,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Forewarn",
             "Synchronize"
@@ -85909,8 +85909,8 @@ export const pokedex = {
         "egg_cycles": 10,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Forewarn",
             "Synchronize"
@@ -86379,8 +86379,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Lightning Rod",
             "Motor Drive"
@@ -86489,8 +86489,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Lightning Rod",
             "Motor Drive"
@@ -86961,7 +86961,7 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Flying",
         "abilities": [
             "Unaware",
@@ -87102,7 +87102,7 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Flying",
         "abilities": [
             "Unaware",
@@ -87250,8 +87250,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sand Rush",
             "Sand Force"
@@ -87363,8 +87363,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sand Rush",
             "Sand Force"
@@ -90248,8 +90248,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate",
             "Moxie"
@@ -90375,8 +90375,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate",
             "Moxie"
@@ -90516,8 +90516,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Intimidate",
             "Moxie"
@@ -90675,8 +90675,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Hustle"
         ],
@@ -90801,8 +90801,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sheer Force"
         ],
@@ -90944,8 +90944,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sheer Force"
         ],
@@ -91459,7 +91459,7 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 35,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Dragon",
         "abilities": [
             "Shed Skin",
@@ -91604,7 +91604,7 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Dragon",
         "abilities": [
             "Shed Skin",
@@ -92932,8 +92932,8 @@ export const pokedex = {
         "egg_cycles": 25,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Illusion"
         ],
@@ -93058,8 +93058,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Illusion"
         ],
@@ -93204,8 +93204,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Cute Charm",
             "Technician"
@@ -93328,8 +93328,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Cute Charm",
             "Technician"
@@ -94535,7 +94535,7 @@ export const pokedex = {
         "catch_rate": 255,
         "base_experience": 61,
         "common_item": null,
-        "rare_item": "Never Melt Ice",
+        "rare_item": "Never-Melt Ice",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -94646,7 +94646,7 @@ export const pokedex = {
         "catch_rate": 120,
         "base_experience": 138,
         "common_item": null,
-        "rare_item": "Never Melt Ice",
+        "rare_item": "Never-Melt Ice",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -94759,7 +94759,7 @@ export const pokedex = {
         "type_2": "Ice",
         "catch_rate": 45,
         "base_experience": 241,
-        "common_item": "Never Melt Ice",
+        "common_item": "Never-Melt Ice",
         "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
@@ -94884,8 +94884,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Chlorophyll",
             "Sap Sipper"
@@ -95000,8 +95000,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Chlorophyll",
             "Sap Sipper"
@@ -95127,8 +95127,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Static"
         ],
@@ -98267,8 +98267,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Snow Cloak",
             "Slush Rush"
@@ -98387,8 +98387,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Snow Cloak",
             "Slush Rush"
@@ -98527,7 +98527,7 @@ export const pokedex = {
         "catch_rate": 25,
         "base_experience": 180,
         "common_item": null,
-        "rare_item": "Never Melt Ice",
+        "rare_item": "Never-Melt Ice",
         "gender_ratio": 255,
         "egg_cycles": 25,
         "base_friendship": 70,
@@ -99010,7 +99010,7 @@ export const pokedex = {
         "egg_cycles": 25,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Inner Focus",
@@ -99141,7 +99141,7 @@ export const pokedex = {
         "egg_cycles": 25,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Inner Focus",
@@ -99969,8 +99969,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Reckless",
             "Sap Sipper"
@@ -100570,8 +100570,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Gluttony",
             "Flash Fire"
@@ -101329,8 +101329,8 @@ export const pokedex = {
         "type_2": "Fire",
         "catch_rate": 15,
         "base_experience": 248,
-        "common_item": null,
-        "rare_item": "Silver Powder",
+        "common_item": "Silver Powder",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 40,
         "base_friendship": 70,
@@ -101937,7 +101937,7 @@ export const pokedex = {
         "type_1": "Flying",
         "type_2": "Flying",
         "catch_rate": 3,
-        "base_experience": 290,
+        "base_experience": 261,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 0,
@@ -102191,7 +102191,7 @@ export const pokedex = {
         "type_1": "Electric",
         "type_2": "Flying",
         "catch_rate": 3,
-        "base_experience": 290,
+        "base_experience": 261,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 0,
@@ -102702,7 +102702,7 @@ export const pokedex = {
         "type_1": "Ground",
         "type_2": "Flying",
         "catch_rate": 3,
-        "base_experience": 300,
+        "base_experience": 270,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 0,
@@ -102950,7 +102950,7 @@ export const pokedex = {
         "type_1": "Dragon",
         "type_2": "Ice",
         "catch_rate": 3,
-        "base_experience": 350,
+        "base_experience": 315,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 255,
@@ -103073,7 +103073,7 @@ export const pokedex = {
         "type_1": "Dragon",
         "type_2": "Ice",
         "catch_rate": 3,
-        "base_experience": 350,
+        "base_experience": 315,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 255,
@@ -103314,8 +103314,8 @@ export const pokedex = {
         "type_2": "Psychic",
         "catch_rate": 3,
         "base_experience": 270,
-        "common_item": null,
-        "rare_item": "Star Piece",
+        "common_item": "Star Piece",
+        "rare_item": null,
         "gender_ratio": 255,
         "egg_cycles": 120,
         "base_friendship": 100,
@@ -103466,8 +103466,8 @@ export const pokedex = {
         "type_2": "Fighting",
         "catch_rate": 3,
         "base_experience": 270,
-        "common_item": null,
-        "rare_item": "Star Piece",
+        "common_item": "Star Piece",
+        "rare_item": null,
         "gender_ratio": 255,
         "egg_cycles": 120,
         "base_friendship": 100,
@@ -103757,8 +103757,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Overgrow"
         ],
@@ -103901,8 +103901,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Overgrow"
         ],
@@ -104048,8 +104048,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Overgrow"
         ],
@@ -104209,8 +104209,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -104329,8 +104329,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -104463,8 +104463,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -104997,12 +104997,12 @@ export const pokedex = {
         "base_experience": 288,
         "common_item": null,
         "rare_item": null,
-        "gender_ratio": 31,
+        "gender_ratio": 0,
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Water1",
-        "egg_group_2": "Water1",
+        "egg_group_1": "NoEggsDiscovered",
+        "egg_group_2": "NoEggsDiscovered",
         "abilities": [
             "Battle Bond"
         ],
@@ -105141,8 +105141,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Pickup",
             "Cheek Pouch"
@@ -105261,8 +105261,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Pickup",
             "Cheek Pouch"
@@ -105990,8 +105990,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Rivalry",
             "Unnerve"
@@ -106108,8 +106108,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Rivalry",
             "Unnerve"
@@ -106455,8 +106455,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Fairy",
-        "egg_group_2": "Fairy",
+        "egg_group_1": "NoEggsDiscovered",
+        "egg_group_2": "NoEggsDiscovered",
         "abilities": [
             "Flower Veil"
         ],
@@ -106687,8 +106687,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sap Sipper"
         ],
@@ -106801,8 +106801,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Sap Sipper"
         ],
@@ -106927,7 +106927,7 @@ export const pokedex = {
         "egg_cycles": 25,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Iron Fist",
@@ -107067,7 +107067,7 @@ export const pokedex = {
         "egg_cycles": 25,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Iron Fist",
@@ -107235,8 +107235,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Fur Coat"
         ],
@@ -107346,8 +107346,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Keen Eye",
             "Infiltrator"
@@ -107469,8 +107469,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Keen Eye",
             "Infiltrator"
@@ -107611,8 +107611,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Keen Eye",
             "Infiltrator"
@@ -108081,7 +108081,7 @@ export const pokedex = {
         "type_1": "Steel",
         "type_2": "Ghost",
         "catch_rate": 45,
-        "base_experience": 250,
+        "base_experience": 234,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 127,
@@ -110478,8 +110478,8 @@ export const pokedex = {
         "egg_cycles": 35,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Cute Charm"
         ],
@@ -110581,7 +110581,7 @@ export const pokedex = {
                 "time_of_day": "night"
             },
             {"species": "Leafeon", "method": "location", "parameter": "Eterna Forest"},
-            {"species": "Glaceon", "method": "location", "parameter": "Sinnoh Route 217"},
+            {"species": "Glaceon", "method": "location", "parameter": "Route 217"},
             {"species": "Sylveon", "method": "affection", "parameter": "Fairy"}
         ],
         "transfer_learnset": [
@@ -110629,12 +110629,12 @@ export const pokedex = {
         "catch_rate": 100,
         "base_experience": 175,
         "common_item": null,
-        "rare_item": "Kings Rock",
+        "rare_item": "King's Rock",
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Flying",
+        "egg_group_1": "HumanLike",
         "egg_group_2": "HumanLike",
         "abilities": [
             "Limber",
@@ -110780,7 +110780,7 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Cheek Pouch",
@@ -112099,8 +112099,8 @@ export const pokedex = {
         "type_2": "Grass",
         "catch_rate": 120,
         "base_experience": 67,
-        "common_item": null,
-        "rare_item": "Miracle Seed",
+        "common_item": "Miracle Seed",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -112630,8 +112630,8 @@ export const pokedex = {
         "type_2": "Grass",
         "catch_rate": 60,
         "base_experience": 173,
-        "common_item": null,
-        "rare_item": "Miracle Seed",
+        "common_item": "Miracle Seed",
+        "rare_item": null,
         "gender_ratio": 127,
         "egg_cycles": 20,
         "base_friendship": 70,
@@ -112772,7 +112772,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Monster",
-        "egg_group_2": "Mineral",
+        "egg_group_2": "Monster",
         "abilities": [
             "Own Tempo",
             "Ice Body"
@@ -112881,7 +112881,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Monster",
-        "egg_group_2": "Mineral",
+        "egg_group_2": "Monster",
         "abilities": [
             "Own Tempo",
             "Ice Body"
@@ -113008,7 +113008,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Flying",
-        "egg_group_2": "Dragon",
+        "egg_group_2": "Flying",
         "abilities": [
             "Frisk",
             "Infiltrator"
@@ -113133,7 +113133,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
         "egg_group_1": "Flying",
-        "egg_group_2": "Dragon",
+        "egg_group_2": "Flying",
         "abilities": [
             "Frisk",
             "Infiltrator"
@@ -113620,7 +113620,7 @@ export const pokedex = {
         "type_1": "Dragon",
         "type_2": "Ground",
         "catch_rate": 3,
-        "base_experience": 354,
+        "base_experience": 319,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 255,
@@ -113739,7 +113739,7 @@ export const pokedex = {
         "type_1": "Dragon",
         "type_2": "Ground",
         "catch_rate": 3,
-        "base_experience": 243,
+        "base_experience": 219,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 255,
@@ -114866,8 +114866,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -114977,8 +114977,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -115091,8 +115091,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Blaze"
         ],
@@ -115237,7 +115237,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Torrent"
         ],
@@ -115346,7 +115346,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Torrent"
         ],
@@ -115457,7 +115457,7 @@ export const pokedex = {
         "base_friendship": 70,
         "growth_rate": "Medium Slow",
         "egg_group_1": "Water1",
-        "egg_group_2": "Ground",
+        "egg_group_2": "Field",
         "abilities": [
             "Torrent"
         ],
@@ -115911,8 +115911,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Stakeout",
             "Strong Jaw"
@@ -116021,8 +116021,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Stakeout",
             "Strong Jaw"
@@ -117360,8 +117360,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Keen Eye",
             "Vital Spirit"
@@ -117471,8 +117471,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Keen Eye",
             "Sand Rush"
@@ -117597,8 +117597,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Keen Eye",
             "Vital Spirit"
@@ -117731,8 +117731,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Tough Claws"
         ],
@@ -118287,8 +118287,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Own Tempo",
             "Stamina"
@@ -118389,8 +118389,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Own Tempo",
             "Stamina"
@@ -119412,8 +119412,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Fluffy",
             "Klutz"
@@ -119526,8 +119526,8 @@ export const pokedex = {
         "egg_cycles": 15,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Fluffy",
             "Klutz"
@@ -120115,8 +120115,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Inner Focus",
             "Telepathy"
@@ -120244,8 +120244,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Receiver"
         ],
@@ -121015,7 +121015,7 @@ export const pokedex = {
         "egg_group_1": "NoEggsDiscovered",
         "egg_group_2": "NoEggsDiscovered",
         "abilities": [
-            "Rks System"
+            "RKS System"
         ],
         "hidden_ability": null,
         "level_up_learnset": [
@@ -121246,7 +121246,7 @@ export const pokedex = {
         },
         "type_1": "Rock",
         "type_2": "Flying",
-        "catch_rate": 30,
+        "catch_rate": 255,
         "base_experience": 175,
         "common_item": null,
         "rare_item": null,
@@ -121363,8 +121363,8 @@ export const pokedex = {
         "egg_cycles": 20,
         "base_friendship": 70,
         "growth_rate": "Slow",
-        "egg_group_1": "Ground",
-        "egg_group_2": "Ground",
+        "egg_group_1": "Field",
+        "egg_group_2": "Field",
         "abilities": [
             "Comatose"
         ],
@@ -121592,7 +121592,7 @@ export const pokedex = {
         "egg_cycles": 10,
         "base_friendship": 70,
         "growth_rate": "Medium Fast",
-        "egg_group_1": "Ground",
+        "egg_group_1": "Field",
         "egg_group_2": "Fairy",
         "abilities": [
             "Iron Barbs",
@@ -124336,7 +124336,7 @@ export const pokedex = {
         "type_1": "Psychic",
         "type_2": "Steel",
         "catch_rate": 255,
-        "base_experience": 340,
+        "base_experience": 306,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 255,
@@ -124469,7 +124469,7 @@ export const pokedex = {
         "type_1": "Psychic",
         "type_2": "Ghost",
         "catch_rate": 255,
-        "base_experience": 340,
+        "base_experience": 306,
         "common_item": null,
         "rare_item": null,
         "gender_ratio": 255,
@@ -124745,7 +124745,7 @@ export const pokedex = {
         "egg_group_1": "NoEggsDiscovered",
         "egg_group_2": "NoEggsDiscovered",
         "abilities": [
-            "Soul Heart"
+            "Soul-Heart"
         ],
         "hidden_ability": null,
         "level_up_learnset": [

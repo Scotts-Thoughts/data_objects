@@ -137,7 +137,7 @@ export const trainers = {
                     "Leech Seed",
                     "Mega Drain",
                     "Headbutt",
-                    "PoisonPowder"
+                    "Poison Powder"
                 ]
             },
             {
@@ -156,7 +156,7 @@ export const trainers = {
                     "special_defense": 51
                 },
                 "moves": [
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Stun Spore",
                     "Sleep Powder",
                     "Acid"
@@ -214,7 +214,7 @@ export const trainers = {
                     "Leech Seed",
                     "Mega Drain",
                     "Headbutt",
-                    "PoisonPowder"
+                    "Poison Powder"
                 ]
             },
             {
@@ -233,7 +233,7 @@ export const trainers = {
                     "special_defense": 57
                 },
                 "moves": [
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Stun Spore",
                     "Sleep Powder",
                     "Acid"
@@ -258,7 +258,7 @@ export const trainers = {
                     "Mega Drain",
                     "Leech Seed",
                     "Magical Leaf",
-                    "GrassWhistle"
+                    "Grass Whistle"
                 ]
             }
         ]
@@ -310,7 +310,7 @@ export const trainers = {
                     "special_defense": 57
                 },
                 "moves": [
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Stun Spore",
                     "Sleep Powder",
                     "Acid"
@@ -334,7 +334,7 @@ export const trainers = {
                 "moves": [
                     "Leech Seed",
                     "Magical Leaf",
-                    "GrassWhistle",
+                    "Grass Whistle",
                     "Giga Drain"
                 ]
             }
@@ -367,7 +367,7 @@ export const trainers = {
                 "moves": [
                     "Dig",
                     "Slash",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Poison Sting"
                 ]
             }
@@ -400,7 +400,7 @@ export const trainers = {
                 "moves": [
                     "Dig",
                     "Slash",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Poison Sting"
                 ]
             }
@@ -433,7 +433,7 @@ export const trainers = {
                 "moves": [
                     "Dig",
                     "Slash",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Poison Sting"
                 ]
             }
@@ -466,7 +466,7 @@ export const trainers = {
                 "moves": [
                     "Dig",
                     "Slash",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Poison Sting"
                 ]
             }
@@ -499,7 +499,7 @@ export const trainers = {
                 "moves": [
                     "Dig",
                     "Slash",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Poison Sting"
                 ]
             }
@@ -588,7 +588,7 @@ export const trainers = {
                     "Tail Whip",
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             },
             {
@@ -610,7 +610,7 @@ export const trainers = {
                     "Tail Whip",
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -642,7 +642,7 @@ export const trainers = {
                 "moves": [
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Double-Edge"
                 ]
             },
@@ -664,7 +664,7 @@ export const trainers = {
                 "moves": [
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Double-Edge"
                 ]
             }
@@ -697,7 +697,7 @@ export const trainers = {
                 "moves": [
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Double-Edge"
                 ]
             },
@@ -719,7 +719,7 @@ export const trainers = {
                 "moves": [
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Double-Edge"
                 ]
             }
@@ -752,7 +752,7 @@ export const trainers = {
                 "moves": [
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Double-Edge"
                 ]
             },
@@ -774,7 +774,7 @@ export const trainers = {
                 "moves": [
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Double-Edge"
                 ]
             }
@@ -805,7 +805,7 @@ export const trainers = {
                     "special_defense": 16
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Headbutt",
                     "Tail Whip",
                     "Surf"
@@ -838,7 +838,7 @@ export const trainers = {
                     "special_defense": 38
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Pin Missile",
                     "Tail Whip",
                     "Surf"
@@ -871,7 +871,7 @@ export const trainers = {
                     "special_defense": 42
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Pin Missile",
                     "Tail Whip",
                     "Surf"
@@ -904,7 +904,7 @@ export const trainers = {
                     "special_defense": 46
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Pin Missile",
                     "Tail Whip",
                     "Surf"
@@ -937,7 +937,7 @@ export const trainers = {
                     "special_defense": 50
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Pin Missile",
                     "Tail Whip",
                     "Surf"
@@ -947,7 +947,7 @@ export const trainers = {
     },
     "687": {
         "rom_id": 687,
-        "name": "Sis And Bro Rita & sam",
+        "name": "Sis And Bro Rita & Sam",
         "trainer_class": "Sis And Bro",
         "location": "Route124",
         "money": 816,
@@ -1002,7 +1002,7 @@ export const trainers = {
     },
     "688": {
         "rom_id": 688,
-        "name": "Sis And Bro Rita & sam Rematch 1",
+        "name": "Sis And Bro Rita & Sam Rematch 1",
         "trainer_class": "Sis And Bro",
         "location": "Route124",
         "money": 960,
@@ -1057,7 +1057,7 @@ export const trainers = {
     },
     "689": {
         "rom_id": 689,
-        "name": "Sis And Bro Rita & sam Rematch 2",
+        "name": "Sis And Bro Rita & Sam Rematch 2",
         "trainer_class": "Sis And Bro",
         "location": "Route124",
         "money": 1032,
@@ -1112,7 +1112,7 @@ export const trainers = {
     },
     "690": {
         "rom_id": 690,
-        "name": "Sis And Bro Rita & sam Rematch 3",
+        "name": "Sis And Bro Rita & Sam Rematch 3",
         "trainer_class": "Sis And Bro",
         "location": "Route124",
         "money": 1104,
@@ -1167,7 +1167,7 @@ export const trainers = {
     },
     "691": {
         "rom_id": 691,
-        "name": "Sis And Bro Rita & sam Rematch 4",
+        "name": "Sis And Bro Rita & Sam Rematch 4",
         "trainer_class": "Sis And Bro",
         "location": "Route124",
         "money": 1176,
@@ -1451,7 +1451,7 @@ export const trainers = {
                     "Mega Drain",
                     "Leech Seed",
                     "Magical Leaf",
-                    "GrassWhistle"
+                    "Grass Whistle"
                 ]
             }
         ]
@@ -1530,7 +1530,7 @@ export const trainers = {
                     "Mega Drain",
                     "Leech Seed",
                     "Magical Leaf",
-                    "GrassWhistle"
+                    "Grass Whistle"
                 ]
             }
         ]
@@ -1608,7 +1608,7 @@ export const trainers = {
                 "moves": [
                     "Leech Seed",
                     "Magical Leaf",
-                    "GrassWhistle",
+                    "Grass Whistle",
                     "Giga Drain"
                 ]
             }
@@ -1686,7 +1686,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Focus Energy",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Arm Thrust",
                     "Vital Throw"
                 ]
@@ -1925,7 +1925,7 @@ export const trainers = {
                     "Fake Out",
                     "Whirlwind",
                     "Knock Off",
-                    "SmellingSalt"
+                    "Smelling Salts"
                 ]
             }
         ]
@@ -2004,7 +2004,7 @@ export const trainers = {
                     "Fake Out",
                     "Whirlwind",
                     "Knock Off",
-                    "SmellingSalt"
+                    "Smelling Salts"
                 ]
             }
         ]
@@ -2037,7 +2037,7 @@ export const trainers = {
                     "Fury Swipes",
                     "Fake Out",
                     "Detect",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             }
         ]
@@ -2069,7 +2069,7 @@ export const trainers = {
                 "moves": [
                     "Fake Out",
                     "Detect",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Knock Off"
                 ]
             }
@@ -2123,7 +2123,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Detect",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Knock Off",
                     "Confuse Ray"
                 ]
@@ -2178,7 +2178,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Detect",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Knock Off",
                     "Confuse Ray"
                 ]
@@ -2232,7 +2232,7 @@ export const trainers = {
                     "special_defense": 67
                 },
                 "moves": [
-                    "Faint Attack",
+                    "Feint Attack",
                     "Knock Off",
                     "Confuse Ray",
                     "Shadow Ball"
@@ -2324,7 +2324,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Headbutt",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Mud Sport"
                 ]
@@ -2358,7 +2358,7 @@ export const trainers = {
                     "special_defense": 46
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Mud Sport",
                     "Fury Swipes"
@@ -2393,7 +2393,7 @@ export const trainers = {
                     "special_defense": 50
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Mud Sport",
                     "Fury Swipes"
@@ -2431,7 +2431,7 @@ export const trainers = {
                     "Fury Swipes",
                     "Mud Sport",
                     "Odor Sleuth",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             }
         ]
@@ -2464,7 +2464,7 @@ export const trainers = {
                     "Bind",
                     "Lick",
                     "Fury Swipes",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             },
             {
@@ -2519,7 +2519,7 @@ export const trainers = {
                     "Bind",
                     "Lick",
                     "Fury Swipes",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             },
             {
@@ -2574,7 +2574,7 @@ export const trainers = {
                     "Bind",
                     "Lick",
                     "Fury Swipes",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             },
             {
@@ -2629,7 +2629,7 @@ export const trainers = {
                     "Bind",
                     "Lick",
                     "Fury Swipes",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             },
             {
@@ -2684,7 +2684,7 @@ export const trainers = {
                     "Bind",
                     "Lick",
                     "Fury Swipes",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             },
             {
@@ -2773,7 +2773,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Headbutt",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Mud Sport"
                 ]
@@ -2807,7 +2807,7 @@ export const trainers = {
                     "special_defense": 45
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Mud Sport",
                     "Fury Swipes"
@@ -2842,7 +2842,7 @@ export const trainers = {
                     "special_defense": 49
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Mud Sport",
                     "Fury Swipes"
@@ -2880,7 +2880,7 @@ export const trainers = {
                     "Fury Swipes",
                     "Mud Sport",
                     "Odor Sleuth",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             }
         ]
@@ -3242,7 +3242,7 @@ export const trainers = {
                 "moves": [
                     "Camouflage",
                     "Swift",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize"
                 ]
             },
@@ -3649,7 +3649,7 @@ export const trainers = {
                 "moves": [
                     "Metal Sound",
                     "Tackle",
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic"
                 ]
             },
@@ -3693,7 +3693,7 @@ export const trainers = {
                 "moves": [
                     "Metal Sound",
                     "Tackle",
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic"
                 ]
             }
@@ -3724,9 +3724,9 @@ export const trainers = {
                     "special_defense": 28
                 },
                 "moves": [
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave"
                 ]
             },
@@ -3768,9 +3768,9 @@ export const trainers = {
                     "special_defense": 35
                 },
                 "moves": [
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave"
                 ]
             }
@@ -3802,7 +3802,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark"
                 ]
@@ -3846,7 +3846,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark"
                 ]
@@ -3879,7 +3879,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark"
                 ]
@@ -3923,7 +3923,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark"
                 ]
@@ -3956,7 +3956,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark"
                 ]
@@ -4000,7 +4000,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark"
                 ]
@@ -4308,7 +4308,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Headbutt",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Mud Sport"
                 ]
@@ -4362,7 +4362,7 @@ export const trainers = {
                     "special_defense": 26
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Mud Sport",
                     "Pin Missile"
@@ -4417,7 +4417,7 @@ export const trainers = {
                     "special_defense": 44
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Mud Sport",
                     "Fury Swipes"
@@ -4472,7 +4472,7 @@ export const trainers = {
                     "special_defense": 21
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Poison Sting",
                     "Slash",
                     "Swift"
@@ -4516,7 +4516,7 @@ export const trainers = {
                     "special_defense": 43
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Mud Sport",
                     "Fury Swipes"
@@ -4571,7 +4571,7 @@ export const trainers = {
                     "special_defense": 38
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Poison Sting",
                     "Slash",
                     "Swift"
@@ -4593,7 +4593,7 @@ export const trainers = {
                     "special_defense": 51
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Mud Sport",
                     "Fury Swipes"
@@ -4603,7 +4603,7 @@ export const trainers = {
     },
     "681": {
         "rom_id": 681,
-        "name": "Old Couple John & jay",
+        "name": "Old Couple John & Jay",
         "trainer_class": "Old Couple",
         "location": "MeteorFalls",
         "money": 3200,
@@ -4658,7 +4658,7 @@ export const trainers = {
     },
     "682": {
         "rom_id": 682,
-        "name": "Old Couple John & jay Rematch 1",
+        "name": "Old Couple John & Jay Rematch 1",
         "trainer_class": "Old Couple",
         "location": "MeteorFalls",
         "money": 3440,
@@ -4713,7 +4713,7 @@ export const trainers = {
     },
     "683": {
         "rom_id": 683,
-        "name": "Old Couple John & jay Rematch 2",
+        "name": "Old Couple John & Jay Rematch 2",
         "trainer_class": "Old Couple",
         "location": "MeteorFalls",
         "money": 3680,
@@ -4768,7 +4768,7 @@ export const trainers = {
     },
     "684": {
         "rom_id": 684,
-        "name": "Old Couple John & jay Rematch 3",
+        "name": "Old Couple John & Jay Rematch 3",
         "trainer_class": "Old Couple",
         "location": "MeteorFalls",
         "money": 3920,
@@ -4823,7 +4823,7 @@ export const trainers = {
     },
     "685": {
         "rom_id": 685,
-        "name": "Old Couple John & jay Rematch 4",
+        "name": "Old Couple John & Jay Rematch 4",
         "trainer_class": "Old Couple",
         "location": "MeteorFalls",
         "money": 4160,
@@ -4904,7 +4904,7 @@ export const trainers = {
                     "Quick Attack",
                     "Sweet Scent",
                     "Water Sport",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             },
             {
@@ -4926,7 +4926,7 @@ export const trainers = {
                     "Quick Attack",
                     "Sweet Scent",
                     "Water Sport",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             },
             {
@@ -4948,7 +4948,7 @@ export const trainers = {
                     "Quick Attack",
                     "Sweet Scent",
                     "Water Sport",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -4980,7 +4980,7 @@ export const trainers = {
                 "moves": [
                     "Sweet Scent",
                     "Water Sport",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Agility"
                 ]
             },
@@ -5002,7 +5002,7 @@ export const trainers = {
                 "moves": [
                     "Sweet Scent",
                     "Water Sport",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Agility"
                 ]
             },
@@ -5024,7 +5024,7 @@ export const trainers = {
                 "moves": [
                     "Sweet Scent",
                     "Water Sport",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Agility"
                 ]
             }
@@ -5057,7 +5057,7 @@ export const trainers = {
                 "moves": [
                     "Sweet Scent",
                     "Water Sport",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Agility"
                 ]
             },
@@ -5079,7 +5079,7 @@ export const trainers = {
                 "moves": [
                     "Sweet Scent",
                     "Water Sport",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Agility"
                 ]
             },
@@ -5134,7 +5134,7 @@ export const trainers = {
                 "moves": [
                     "Sweet Scent",
                     "Water Sport",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Agility"
                 ]
             },
@@ -5177,7 +5177,7 @@ export const trainers = {
                 "moves": [
                     "Sweet Scent",
                     "Water Sport",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Agility"
                 ]
             },
@@ -5230,7 +5230,7 @@ export const trainers = {
                     "special_defense": 50
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Agility",
                     "Mist",
                     "Haze"
@@ -5274,7 +5274,7 @@ export const trainers = {
                     "special_defense": 46
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Agility",
                     "Mist",
                     "Haze"
@@ -5574,7 +5574,7 @@ export const trainers = {
                     "Psywave",
                     "Cosmic Power",
                     "Rock Slide",
-                    "SolarBeam"
+                    "Solar Beam"
                 ]
             },
             {
@@ -5968,7 +5968,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Headbutt",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Fury Swipes"
                 ]
@@ -6023,7 +6023,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Headbutt",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Fury Swipes"
                 ]
@@ -6078,7 +6078,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Headbutt",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Fury Swipes"
                 ]
@@ -6264,7 +6264,7 @@ export const trainers = {
                     "Leech Seed",
                     "Mega Drain",
                     "Headbutt",
-                    "PoisonPowder"
+                    "Poison Powder"
                 ]
             },
             {
@@ -6592,7 +6592,7 @@ export const trainers = {
                     "Hidden Power",
                     "Mind Reader",
                     "Calm Mind",
-                    "Hi Jump Kick"
+                    "High Jump Kick"
                 ]
             }
         ]
@@ -6669,14 +6669,14 @@ export const trainers = {
                     "Hidden Power",
                     "Mind Reader",
                     "Calm Mind",
-                    "Hi Jump Kick"
+                    "High Jump Kick"
                 ]
             }
         ]
     },
     "287": {
         "rom_id": 287,
-        "name": "Sr And Jr Anna & meg",
+        "name": "Sr And Jr Anna & Meg",
         "trainer_class": "Sr And Jr",
         "location": "Route117",
         "money": 576,
@@ -6731,7 +6731,7 @@ export const trainers = {
     },
     "288": {
         "rom_id": 288,
-        "name": "Sr And Jr Anna & meg Rematch 1",
+        "name": "Sr And Jr Anna & Meg Rematch 1",
         "trainer_class": "Sr And Jr",
         "location": "Route117",
         "money": 896,
@@ -6786,7 +6786,7 @@ export const trainers = {
     },
     "289": {
         "rom_id": 289,
-        "name": "Sr And Jr Anna & meg Rematch 2",
+        "name": "Sr And Jr Anna & Meg Rematch 2",
         "trainer_class": "Sr And Jr",
         "location": "Route117",
         "money": 992,
@@ -6841,7 +6841,7 @@ export const trainers = {
     },
     "290": {
         "rom_id": 290,
-        "name": "Sr And Jr Anna & meg Rematch 3",
+        "name": "Sr And Jr Anna & Meg Rematch 3",
         "trainer_class": "Sr And Jr",
         "location": "Route117",
         "money": 1088,
@@ -6896,7 +6896,7 @@ export const trainers = {
     },
     "291": {
         "rom_id": 291,
-        "name": "Sr And Jr Anna & meg Rematch 4",
+        "name": "Sr And Jr Anna & Meg Rematch 4",
         "trainer_class": "Sr And Jr",
         "location": "Route117",
         "money": 1184,
@@ -7252,7 +7252,7 @@ export const trainers = {
                     "Tail Whip",
                     "Attract",
                     "Sing",
-                    "DoubleSlap"
+                    "Double Slap"
                 ]
             }
         ]
@@ -7282,10 +7282,10 @@ export const trainers = {
                     "special_defense": 20
                 },
                 "moves": [
-                    "DoubleSlap",
+                    "Double Slap",
                     "Assist",
                     "Charm",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             }
         ]
@@ -7315,10 +7315,10 @@ export const trainers = {
                     "special_defense": 23
                 },
                 "moves": [
-                    "DoubleSlap",
+                    "Double Slap",
                     "Assist",
                     "Charm",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             }
         ]
@@ -7351,7 +7351,7 @@ export const trainers = {
                     "Growl",
                     "Attract",
                     "Sing",
-                    "DoubleSlap"
+                    "Double Slap"
                 ]
             }
         ]
@@ -7384,7 +7384,7 @@ export const trainers = {
                     "Growl",
                     "Attract",
                     "Sing",
-                    "DoubleSlap"
+                    "Double Slap"
                 ]
             }
         ]
@@ -7449,7 +7449,7 @@ export const trainers = {
                 "moves": [
                     "Arm Thrust",
                     "Knock Off",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Dig"
                 ]
             }
@@ -7482,7 +7482,7 @@ export const trainers = {
                 "moves": [
                     "Arm Thrust",
                     "Knock Off",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Dig"
                 ]
             }
@@ -7515,7 +7515,7 @@ export const trainers = {
                 "moves": [
                     "Arm Thrust",
                     "Belly Drum",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Dig"
                 ]
             }
@@ -7548,7 +7548,7 @@ export const trainers = {
                 "moves": [
                     "Arm Thrust",
                     "Belly Drum",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Dig"
                 ]
             }
@@ -7692,7 +7692,7 @@ export const trainers = {
                     "Hidden Power",
                     "Mind Reader",
                     "Calm Mind",
-                    "Hi Jump Kick"
+                    "High Jump Kick"
                 ]
             },
             {
@@ -7714,7 +7714,7 @@ export const trainers = {
                     "Fake Out",
                     "Whirlwind",
                     "Knock Off",
-                    "SmellingSalt"
+                    "Smelling Salts"
                 ]
             }
         ]
@@ -7747,7 +7747,7 @@ export const trainers = {
                     "Hidden Power",
                     "Mind Reader",
                     "Calm Mind",
-                    "Hi Jump Kick"
+                    "High Jump Kick"
                 ]
             },
             {
@@ -7769,7 +7769,7 @@ export const trainers = {
                     "Fake Out",
                     "Whirlwind",
                     "Knock Off",
-                    "SmellingSalt"
+                    "Smelling Salts"
                 ]
             }
         ]
@@ -7802,7 +7802,7 @@ export const trainers = {
                     "Hidden Power",
                     "Mind Reader",
                     "Calm Mind",
-                    "Hi Jump Kick"
+                    "High Jump Kick"
                 ]
             },
             {
@@ -7824,7 +7824,7 @@ export const trainers = {
                     "Fake Out",
                     "Whirlwind",
                     "Knock Off",
-                    "SmellingSalt"
+                    "Smelling Salts"
                 ]
             }
         ]
@@ -7887,7 +7887,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Headbutt",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Mud Sport"
                 ]
@@ -7941,7 +7941,7 @@ export const trainers = {
                     "special_defense": 42
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Mud Sport",
                     "Fury Swipes"
@@ -7996,7 +7996,7 @@ export const trainers = {
                     "special_defense": 46
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Mud Sport",
                     "Fury Swipes"
@@ -8296,7 +8296,7 @@ export const trainers = {
                     "Supersonic",
                     "Constrict",
                     "Acid",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             },
             {
@@ -8393,7 +8393,7 @@ export const trainers = {
                 "moves": [
                     "Constrict",
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap"
                 ]
             },
@@ -8514,7 +8514,7 @@ export const trainers = {
                 "moves": [
                     "Constrict",
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap"
                 ]
             }
@@ -8546,9 +8546,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic",
-                    "SonicBoom"
+                    "Sonic Boom"
                 ]
             }
         ]
@@ -8579,7 +8579,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark"
                 ]
@@ -8612,7 +8612,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark"
                 ]
@@ -8645,7 +8645,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark"
                 ]
@@ -8677,7 +8677,7 @@ export const trainers = {
                     "special_defense": 58
                 },
                 "moves": [
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark",
                     "Lock-On"
@@ -8711,9 +8711,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic",
-                    "SonicBoom"
+                    "Sonic Boom"
                 ]
             }
         ]
@@ -8744,7 +8744,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark"
                 ]
@@ -8777,7 +8777,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark"
                 ]
@@ -8810,7 +8810,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark"
                 ]
@@ -8842,7 +8842,7 @@ export const trainers = {
                     "special_defense": 52
                 },
                 "moves": [
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark",
                     "Lock-On"
@@ -8877,7 +8877,7 @@ export const trainers = {
                 "moves": [
                     "Camouflage",
                     "Swift",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize"
                 ]
             }
@@ -8909,7 +8909,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Swift",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize",
                     "Light Screen"
                 ]
@@ -8941,7 +8941,7 @@ export const trainers = {
                     "special_defense": 46
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize",
                     "Light Screen",
                     "Cosmic Power"
@@ -9042,7 +9042,7 @@ export const trainers = {
                 "moves": [
                     "Camouflage",
                     "Swift",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize"
                 ]
             }
@@ -9074,7 +9074,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Swift",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize",
                     "Light Screen"
                 ]
@@ -9106,7 +9106,7 @@ export const trainers = {
                     "special_defense": 52
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize",
                     "Light Screen",
                     "Cosmic Power"
@@ -9538,7 +9538,7 @@ export const trainers = {
                     "Safeguard",
                     "Mist",
                     "Take Down",
-                    "DragonBreath"
+                    "Dragon Breath"
                 ]
             },
             {
@@ -9560,7 +9560,7 @@ export const trainers = {
                     "Safeguard",
                     "Mist",
                     "Take Down",
-                    "DragonBreath"
+                    "Dragon Breath"
                 ]
             }
         ]
@@ -9592,7 +9592,7 @@ export const trainers = {
                 "moves": [
                     "Mist",
                     "Take Down",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Dragon Dance"
                 ]
             },
@@ -9614,7 +9614,7 @@ export const trainers = {
                 "moves": [
                     "Mist",
                     "Take Down",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Dragon Dance"
                 ]
             }
@@ -9647,7 +9647,7 @@ export const trainers = {
                 "moves": [
                     "Mist",
                     "Take Down",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Dragon Dance"
                 ]
             },
@@ -9669,7 +9669,7 @@ export const trainers = {
                 "moves": [
                     "Mist",
                     "Take Down",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Dragon Dance"
                 ]
             }
@@ -9701,7 +9701,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Ember",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Scary Face",
                     "Crunch"
                 ]
@@ -9723,7 +9723,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Take Down",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Dragon Dance",
                     "Refresh"
                 ]
@@ -9745,7 +9745,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Take Down",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Dragon Dance",
                     "Refresh"
                 ]
@@ -9778,7 +9778,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Take Down",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Dragon Dance",
                     "Refresh"
                 ]
@@ -9800,7 +9800,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Take Down",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Dragon Dance",
                     "Refresh"
                 ]
@@ -9823,7 +9823,7 @@ export const trainers = {
                 "moves": [
                     "Ember",
                     "Protect",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Scary Face"
                 ]
             }
@@ -9967,7 +9967,7 @@ export const trainers = {
                     "Safeguard",
                     "Mist",
                     "Take Down",
-                    "DragonBreath"
+                    "Dragon Breath"
                 ]
             }
         ]
@@ -10022,7 +10022,7 @@ export const trainers = {
                     "Safeguard",
                     "Mist",
                     "Take Down",
-                    "DragonBreath"
+                    "Dragon Breath"
                 ]
             }
         ]
@@ -10054,7 +10054,7 @@ export const trainers = {
                 "moves": [
                     "Mist",
                     "Take Down",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Dragon Dance"
                 ]
             },
@@ -10110,7 +10110,7 @@ export const trainers = {
                     "Poison Gas",
                     "Tackle",
                     "Smog",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -10154,7 +10154,7 @@ export const trainers = {
                     "Poison Gas",
                     "Tackle",
                     "Smog",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -10209,7 +10209,7 @@ export const trainers = {
                     "Poison Gas",
                     "Tackle",
                     "Sludge",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -10253,7 +10253,7 @@ export const trainers = {
                     "Poison Gas",
                     "Tackle",
                     "Sludge",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -10308,7 +10308,7 @@ export const trainers = {
                     "Poison Gas",
                     "Tackle",
                     "Sludge",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -10330,7 +10330,7 @@ export const trainers = {
                     "Poison Gas",
                     "Tackle",
                     "Sludge",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -10528,7 +10528,7 @@ export const trainers = {
                     "Poison Gas",
                     "Tackle",
                     "Sludge",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -10550,7 +10550,7 @@ export const trainers = {
                     "Poison Gas",
                     "Tackle",
                     "Sludge",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -10624,7 +10624,7 @@ export const trainers = {
                     "special_defense": 18
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Arm Thrust",
                     "Vital Throw",
                     "Fake Out"
@@ -10770,7 +10770,7 @@ export const trainers = {
                     "Hidden Power",
                     "Mind Reader",
                     "Calm Mind",
-                    "Hi Jump Kick"
+                    "High Jump Kick"
                 ]
             },
             {
@@ -10825,7 +10825,7 @@ export const trainers = {
                     "Hidden Power",
                     "Mind Reader",
                     "Calm Mind",
-                    "Hi Jump Kick"
+                    "High Jump Kick"
                 ]
             },
             {
@@ -10847,7 +10847,7 @@ export const trainers = {
                     "Fake Out",
                     "Whirlwind",
                     "Knock Off",
-                    "SmellingSalt"
+                    "Smelling Salts"
                 ]
             }
         ]
@@ -10978,7 +10978,7 @@ export const trainers = {
                 "moves": [
                     "Leech Seed",
                     "Mega Drain",
-                    "GrassWhistle",
+                    "Grass Whistle",
                     "Sunny Day"
                 ]
             },
@@ -11033,7 +11033,7 @@ export const trainers = {
                 "moves": [
                     "Leech Seed",
                     "Giga Drain",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Sunny Day"
                 ]
             },
@@ -11185,7 +11185,7 @@ export const trainers = {
                     "special_defense": 52
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize",
                     "Light Screen",
                     "Cosmic Power"
@@ -11340,7 +11340,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Sweet Scent",
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Stun Spore",
                     "Sleep Powder"
                 ]
@@ -11416,7 +11416,7 @@ export const trainers = {
                     "special_defense": 42
                 },
                 "moves": [
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Stun Spore",
                     "Sleep Powder",
                     "Acid"
@@ -11493,7 +11493,7 @@ export const trainers = {
                     "special_defense": 51
                 },
                 "moves": [
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Stun Spore",
                     "Sleep Powder",
                     "Acid"
@@ -11570,7 +11570,7 @@ export const trainers = {
                     "special_defense": 57
                 },
                 "moves": [
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Stun Spore",
                     "Sleep Powder",
                     "Acid"
@@ -11671,7 +11671,7 @@ export const trainers = {
                 "moves": [
                     "Mist",
                     "Take Down",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Dragon Dance"
                 ]
             }
@@ -11679,7 +11679,7 @@ export const trainers = {
     },
     "481": {
         "rom_id": 481,
-        "name": "Twins Amy & liv",
+        "name": "Twins Amy & Liv",
         "trainer_class": "Twins",
         "location": "Route103",
         "money": 384,
@@ -11734,7 +11734,7 @@ export const trainers = {
     },
     "482": {
         "rom_id": 482,
-        "name": "Twins Amy & liv Rematch 1",
+        "name": "Twins Amy & Liv Rematch 1",
         "trainer_class": "Twins",
         "location": "Route103",
         "money": 648,
@@ -11789,7 +11789,7 @@ export const trainers = {
     },
     "487": {
         "rom_id": 487,
-        "name": "Twins Amy & liv Rematch 2",
+        "name": "Twins Amy & Liv Rematch 2",
         "trainer_class": "Twins",
         "location": "Route103",
         "money": 720,
@@ -11844,7 +11844,7 @@ export const trainers = {
     },
     "488": {
         "rom_id": 488,
-        "name": "Twins Amy & liv Rematch 3",
+        "name": "Twins Amy & Liv Rematch 3",
         "trainer_class": "Twins",
         "location": "Route103",
         "money": 792,
@@ -11899,7 +11899,7 @@ export const trainers = {
     },
     "489": {
         "rom_id": 489,
-        "name": "Twins Amy & liv Rematch 4",
+        "name": "Twins Amy & Liv Rematch 4",
         "trainer_class": "Twins",
         "location": "Route103",
         "money": 864,
@@ -12001,7 +12001,7 @@ export const trainers = {
                 "moves": [
                     "Constrict",
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap"
                 ]
             },
@@ -12077,7 +12077,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap",
                     "Barrier"
                 ]
@@ -12154,7 +12154,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap",
                     "Barrier"
                 ]
@@ -12231,7 +12231,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap",
                     "Barrier"
                 ]
@@ -12330,7 +12330,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap",
                     "Barrier"
                 ]
@@ -12552,7 +12552,7 @@ export const trainers = {
                     "Nature Power",
                     "Fake Out",
                     "Torment",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             }
         ]
@@ -12825,7 +12825,7 @@ export const trainers = {
                     "Tail Whip",
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             },
             {
@@ -12868,7 +12868,7 @@ export const trainers = {
                 "moves": [
                     "Attract",
                     "Sing",
-                    "DoubleSlap",
+                    "Double Slap",
                     "Assist"
                 ]
             },
@@ -12968,7 +12968,7 @@ export const trainers = {
                     "Tail Whip",
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             },
             {
@@ -13012,7 +13012,7 @@ export const trainers = {
                     "Growl",
                     "Attract",
                     "Sing",
-                    "DoubleSlap"
+                    "Double Slap"
                 ]
             },
             {
@@ -13110,7 +13110,7 @@ export const trainers = {
                 "moves": [
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Double-Edge"
                 ]
             },
@@ -13155,7 +13155,7 @@ export const trainers = {
                     "Growl",
                     "Attract",
                     "Sing",
-                    "DoubleSlap"
+                    "Double Slap"
                 ]
             },
             {
@@ -13254,7 +13254,7 @@ export const trainers = {
                     "Tail Whip",
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             },
             {
@@ -13276,7 +13276,7 @@ export const trainers = {
                     "Mega Drain",
                     "Leech Seed",
                     "Magical Leaf",
-                    "GrassWhistle"
+                    "Grass Whistle"
                 ]
             },
             {
@@ -13298,7 +13298,7 @@ export const trainers = {
                     "Growl",
                     "Attract",
                     "Sing",
-                    "DoubleSlap"
+                    "Double Slap"
                 ]
             },
             {
@@ -13417,7 +13417,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Howl",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             },
             {
@@ -13460,7 +13460,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Focus Energy",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Arm Thrust"
                 ]
             }
@@ -13515,7 +13515,7 @@ export const trainers = {
                 "moves": [
                     "Tail Whip",
                     "Headbutt",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth"
                 ]
             },
@@ -13557,7 +13557,7 @@ export const trainers = {
                     "special_defense": 31
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bite",
                     "Odor Sleuth",
                     "Roar"
@@ -13657,7 +13657,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Headbutt",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Mud Sport"
                 ]
@@ -13700,7 +13700,7 @@ export const trainers = {
                     "special_defense": 35
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bite",
                     "Odor Sleuth",
                     "Roar"
@@ -13800,7 +13800,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Headbutt",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Mud Sport"
                 ]
@@ -13942,7 +13942,7 @@ export const trainers = {
                     "special_defense": 39
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Mud Sport",
                     "Fury Swipes"
@@ -14065,7 +14065,7 @@ export const trainers = {
                     "special_defense": 42
                 },
                 "moves": [
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Stun Spore",
                     "Sleep Powder",
                     "Acid"
@@ -14122,7 +14122,7 @@ export const trainers = {
                     "special_defense": 46
                 },
                 "moves": [
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Stun Spore",
                     "Sleep Powder",
                     "Acid"
@@ -14147,7 +14147,7 @@ export const trainers = {
                     "Mega Drain",
                     "Leech Seed",
                     "Magical Leaf",
-                    "GrassWhistle"
+                    "Grass Whistle"
                 ]
             }
         ]
@@ -14179,7 +14179,7 @@ export const trainers = {
                     "special_defense": 51
                 },
                 "moves": [
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Stun Spore",
                     "Sleep Powder",
                     "Acid"
@@ -14203,7 +14203,7 @@ export const trainers = {
                 "moves": [
                     "Leech Seed",
                     "Magical Leaf",
-                    "GrassWhistle",
+                    "Grass Whistle",
                     "Giga Drain"
                 ]
             }
@@ -14260,7 +14260,7 @@ export const trainers = {
                 "moves": [
                     "Leech Seed",
                     "Magical Leaf",
-                    "GrassWhistle",
+                    "Grass Whistle",
                     "Giga Drain"
                 ]
             }
@@ -14316,7 +14316,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Magical Leaf",
-                    "GrassWhistle",
+                    "Grass Whistle",
                     "Giga Drain",
                     "Sweet Scent"
                 ]
@@ -14962,7 +14962,7 @@ export const trainers = {
                 "moves": [
                     "Sweet Scent",
                     "Water Sport",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Agility"
                 ]
             },
@@ -15039,7 +15039,7 @@ export const trainers = {
                 "moves": [
                     "Sweet Scent",
                     "Water Sport",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Agility"
                 ]
             },
@@ -15238,7 +15238,7 @@ export const trainers = {
                     "Mud Sport",
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -15260,7 +15260,7 @@ export const trainers = {
                     "Mud Sport",
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -15282,7 +15282,7 @@ export const trainers = {
                     "Mud Sport",
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -15304,7 +15304,7 @@ export const trainers = {
                     "Mud Sport",
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             }
         ]
@@ -15336,7 +15336,7 @@ export const trainers = {
                 "moves": [
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout"
                 ]
             },
@@ -15358,7 +15358,7 @@ export const trainers = {
                 "moves": [
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout"
                 ]
             },
@@ -15381,7 +15381,7 @@ export const trainers = {
                     "Mud Sport",
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -15403,7 +15403,7 @@ export const trainers = {
                     "Mud Sport",
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             }
         ]
@@ -15435,7 +15435,7 @@ export const trainers = {
                 "moves": [
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout"
                 ]
             },
@@ -15457,7 +15457,7 @@ export const trainers = {
                 "moves": [
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout"
                 ]
             },
@@ -15479,7 +15479,7 @@ export const trainers = {
                 "moves": [
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout"
                 ]
             },
@@ -15501,7 +15501,7 @@ export const trainers = {
                 "moves": [
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout"
                 ]
             }
@@ -15534,7 +15534,7 @@ export const trainers = {
                 "moves": [
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout"
                 ]
             },
@@ -15556,7 +15556,7 @@ export const trainers = {
                 "moves": [
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout"
                 ]
             },
@@ -15578,7 +15578,7 @@ export const trainers = {
                 "moves": [
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout"
                 ]
             },
@@ -15600,7 +15600,7 @@ export const trainers = {
                 "moves": [
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout"
                 ]
             }
@@ -15608,7 +15608,7 @@ export const trainers = {
     },
     "642": {
         "rom_id": 642,
-        "name": "Young Couple Lois & hal",
+        "name": "Young Couple Lois & Hal",
         "trainer_class": "Young Couple",
         "location": "AbandonedShip",
         "money": 1728,
@@ -15663,7 +15663,7 @@ export const trainers = {
     },
     "643": {
         "rom_id": 643,
-        "name": "Young Couple Lois & hal Rematch 1",
+        "name": "Young Couple Lois & Hal Rematch 1",
         "trainer_class": "Young Couple",
         "location": "AbandonedShip",
         "money": 1920,
@@ -15718,7 +15718,7 @@ export const trainers = {
     },
     "644": {
         "rom_id": 644,
-        "name": "Young Couple Lois & hal Rematch 2",
+        "name": "Young Couple Lois & Hal Rematch 2",
         "trainer_class": "Young Couple",
         "location": "AbandonedShip",
         "money": 2112,
@@ -15773,7 +15773,7 @@ export const trainers = {
     },
     "645": {
         "rom_id": 645,
-        "name": "Young Couple Lois & hal Rematch 3",
+        "name": "Young Couple Lois & Hal Rematch 3",
         "trainer_class": "Young Couple",
         "location": "AbandonedShip",
         "money": 2304,
@@ -15828,7 +15828,7 @@ export const trainers = {
     },
     "646": {
         "rom_id": 646,
-        "name": "Young Couple Lois & hal Rematch 4",
+        "name": "Young Couple Lois & Hal Rematch 4",
         "trainer_class": "Young Couple",
         "location": "AbandonedShip",
         "money": 2496,
@@ -15911,7 +15911,7 @@ export const trainers = {
                 "moves": [
                     "Aerial Ace",
                     "Safeguard",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Dragon Dance"
                 ]
             },
@@ -15934,7 +15934,7 @@ export const trainers = {
                     "Sing",
                     "Assist",
                     "Charm",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             },
             {
@@ -16035,7 +16035,7 @@ export const trainers = {
                 "moves": [
                     "Aerial Ace",
                     "Safeguard",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Dragon Dance"
                 ]
             },
@@ -16058,7 +16058,7 @@ export const trainers = {
                     "Sing",
                     "Assist",
                     "Charm",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             },
             {
@@ -16159,7 +16159,7 @@ export const trainers = {
                 "moves": [
                     "Aerial Ace",
                     "Safeguard",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Dragon Dance"
                 ]
             },
@@ -16182,7 +16182,7 @@ export const trainers = {
                     "Sing",
                     "Assist",
                     "Charm",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             },
             {
@@ -16283,7 +16283,7 @@ export const trainers = {
                 "moves": [
                     "Aerial Ace",
                     "Safeguard",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Dragon Dance"
                 ]
             },
@@ -16306,7 +16306,7 @@ export const trainers = {
                     "Sing",
                     "Assist",
                     "Charm",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             },
             {
@@ -16901,7 +16901,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Howl",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             }
         ]
@@ -16933,7 +16933,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Howl",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             },
             {
@@ -16954,7 +16954,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Howl",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             }
         ]
@@ -16986,7 +16986,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Howl",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bite"
                 ]
             },
@@ -17008,7 +17008,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Howl",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bite"
                 ]
             }
@@ -17041,7 +17041,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Howl",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bite"
                 ]
             },
@@ -17063,7 +17063,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Howl",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bite"
                 ]
             }
@@ -17117,7 +17117,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Howl",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bite",
                     "Odor Sleuth"
                 ]
@@ -17172,7 +17172,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Howl",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bite",
                     "Odor Sleuth"
                 ]
@@ -17206,7 +17206,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Howl",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             }
         ]
@@ -18030,7 +18030,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Howl",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bite",
                     "Odor Sleuth"
                 ]
@@ -18277,7 +18277,7 @@ export const trainers = {
                     "special_defense": 38
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bite",
                     "Odor Sleuth",
                     "Roar"
@@ -18464,7 +18464,7 @@ export const trainers = {
                     "special_defense": 46
                 },
                 "moves": [
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Stun Spore",
                     "Sleep Powder",
                     "Acid"
@@ -18521,7 +18521,7 @@ export const trainers = {
                 "moves": [
                     "Dig",
                     "Slash",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Poison Sting"
                 ]
             },
@@ -18543,7 +18543,7 @@ export const trainers = {
                 "moves": [
                     "Dig",
                     "Slash",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Poison Sting"
                 ]
             },
@@ -18565,7 +18565,7 @@ export const trainers = {
                 "moves": [
                     "Dig",
                     "Slash",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Poison Sting"
                 ]
             }
@@ -18598,7 +18598,7 @@ export const trainers = {
                 "moves": [
                     "Dig",
                     "Slash",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Poison Sting"
                 ]
             },
@@ -18620,7 +18620,7 @@ export const trainers = {
                 "moves": [
                     "Dig",
                     "Slash",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Poison Sting"
                 ]
             }
@@ -18628,7 +18628,7 @@ export const trainers = {
     },
     "51": {
         "rom_id": 51,
-        "name": "Interviewer Gabby & ty",
+        "name": "Interviewer Gabby & Ty",
         "trainer_class": "Interviewer",
         "location": null,
         "money": 1824,
@@ -18652,9 +18652,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic",
-                    "SonicBoom"
+                    "Sonic Boom"
                 ]
             },
             {
@@ -18683,7 +18683,7 @@ export const trainers = {
     },
     "52": {
         "rom_id": 52,
-        "name": "Interviewer Gabby & ty 2",
+        "name": "Interviewer Gabby & Ty 2",
         "trainer_class": "Interviewer",
         "location": null,
         "money": 2592,
@@ -18707,7 +18707,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark"
                 ]
@@ -18738,7 +18738,7 @@ export const trainers = {
     },
     "53": {
         "rom_id": 53,
-        "name": "Interviewer Gabby & ty 3",
+        "name": "Interviewer Gabby & Ty 3",
         "trainer_class": "Interviewer",
         "location": null,
         "money": 2880,
@@ -18762,7 +18762,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark"
                 ]
@@ -18793,7 +18793,7 @@ export const trainers = {
     },
     "54": {
         "rom_id": 54,
-        "name": "Interviewer Gabby & ty 4",
+        "name": "Interviewer Gabby & Ty 4",
         "trainer_class": "Interviewer",
         "location": null,
         "money": 3168,
@@ -18817,7 +18817,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark"
                 ]
@@ -18848,7 +18848,7 @@ export const trainers = {
     },
     "55": {
         "rom_id": 55,
-        "name": "Interviewer Gabby & ty 5",
+        "name": "Interviewer Gabby & Ty 5",
         "trainer_class": "Interviewer",
         "location": null,
         "money": 3456,
@@ -18871,7 +18871,7 @@ export const trainers = {
                     "special_defense": 59
                 },
                 "moves": [
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark",
                     "Lock-On"
@@ -18903,7 +18903,7 @@ export const trainers = {
     },
     "56": {
         "rom_id": 56,
-        "name": "Interviewer Gabby & ty 6",
+        "name": "Interviewer Gabby & Ty 6",
         "trainer_class": "Interviewer",
         "location": null,
         "money": 3744,
@@ -18926,7 +18926,7 @@ export const trainers = {
                     "special_defense": 63
                 },
                 "moves": [
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Metal Sound",
                     "Thunderbolt"
@@ -18984,7 +18984,7 @@ export const trainers = {
                     "Tail Whip",
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -19017,7 +19017,7 @@ export const trainers = {
                     "Tail Whip",
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -19105,7 +19105,7 @@ export const trainers = {
                     "Tail Whip",
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -19141,7 +19141,7 @@ export const trainers = {
                     "Growl",
                     "Attract",
                     "Sing",
-                    "DoubleSlap"
+                    "Double Slap"
                 ]
             }
         ]
@@ -19154,8 +19154,8 @@ export const trainers = {
         "money": 1296,
         "is_double_battle": false,
         "items": [
-            "Guard Spec",
-            "Guard Spec"
+            "Guard Spec.",
+            "Guard Spec."
         ],
         "party": [
             {
@@ -19175,7 +19175,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Headbutt",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Mud Sport"
                 ]
@@ -19211,7 +19211,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Headbutt",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Mud Sport"
                 ]
@@ -19305,7 +19305,7 @@ export const trainers = {
                 "moves": [
                     "Bite",
                     "Dig",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Sand Tomb"
                 ]
             },
@@ -19350,7 +19350,7 @@ export const trainers = {
                     "Thunderbolt",
                     "Supersonic",
                     "Thunder Wave",
-                    "SonicBoom"
+                    "Sonic Boom"
                 ]
             },
             {
@@ -19370,7 +19370,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Giga Drain",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Double Team",
                     "Swagger"
                 ]
@@ -19404,7 +19404,7 @@ export const trainers = {
                     "special_defense": 73
                 },
                 "moves": [
-                    "Faint Attack",
+                    "Feint Attack",
                     "Knock Off",
                     "Confuse Ray",
                     "Shadow Ball"
@@ -19428,7 +19428,7 @@ export const trainers = {
                 "moves": [
                     "Mind Reader",
                     "Calm Mind",
-                    "Hi Jump Kick",
+                    "High Jump Kick",
                     "Psych Up"
                 ]
             },
@@ -19541,7 +19541,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Ingrain",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Spikes",
                     "Needle Arm"
                 ]
@@ -19857,7 +19857,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap",
                     "Barrier"
                 ]
@@ -19893,7 +19893,7 @@ export const trainers = {
                 "moves": [
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout"
                 ]
             },
@@ -19974,7 +19974,7 @@ export const trainers = {
                     "Growl",
                     "Attract",
                     "Sing",
-                    "DoubleSlap"
+                    "Double Slap"
                 ]
             }
         ]
@@ -20008,7 +20008,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Headbutt",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth",
                     "Mud Sport"
                 ]
@@ -20079,7 +20079,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Baton Pass",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Fake Tears",
                     "Bite"
                 ]
@@ -20102,7 +20102,7 @@ export const trainers = {
                 "moves": [
                     "Mega Drain",
                     "Magical Leaf",
-                    "GrassWhistle",
+                    "Grass Whistle",
                     "Leech Seed"
                 ]
             },
@@ -20249,7 +20249,7 @@ export const trainers = {
                     "special_defense": 72
                 },
                 "moves": [
-                    "GrassWhistle",
+                    "Grass Whistle",
                     "Giga Drain",
                     "Sweet Scent",
                     "Ingrain"
@@ -20284,7 +20284,7 @@ export const trainers = {
                     "special_defense": 115
                 },
                 "moves": [
-                    "AncientPower",
+                    "Ancient Power",
                     "Sandstorm",
                     "Hyper Beam",
                     "Cosmic Power"
@@ -20343,7 +20343,7 @@ export const trainers = {
                 "moves": [
                     "Mind Reader",
                     "Calm Mind",
-                    "Hi Jump Kick",
+                    "High Jump Kick",
                     "Psych Up"
                 ]
             },
@@ -20398,7 +20398,7 @@ export const trainers = {
                     "special_defense": 51
                 },
                 "moves": [
-                    "Faint Attack",
+                    "Feint Attack",
                     "Baton Pass",
                     "Crunch",
                     "Iron Defense"
@@ -20420,7 +20420,7 @@ export const trainers = {
                     "special_defense": 66
                 },
                 "moves": [
-                    "Faint Attack",
+                    "Feint Attack",
                     "Knock Off",
                     "Confuse Ray",
                     "Shadow Ball"
@@ -20513,7 +20513,7 @@ export const trainers = {
                     "Curse",
                     "Spite",
                     "Will-O-Wisp",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             }
         ]
@@ -20908,7 +20908,7 @@ export const trainers = {
                     "Tail Whip",
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -21061,7 +21061,7 @@ export const trainers = {
                 "moves": [
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Double-Edge"
                 ]
             }
@@ -21239,7 +21239,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Rollout",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Double-Edge",
                     "Rain Dance"
                 ]
@@ -21426,7 +21426,7 @@ export const trainers = {
                     "Supersonic",
                     "Constrict",
                     "Acid",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             },
             {
@@ -21481,7 +21481,7 @@ export const trainers = {
                     "Supersonic",
                     "Constrict",
                     "Acid",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             },
             {
@@ -21503,7 +21503,7 @@ export const trainers = {
                     "Supersonic",
                     "Constrict",
                     "Acid",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -21536,7 +21536,7 @@ export const trainers = {
                     "Supersonic",
                     "Constrict",
                     "Acid",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -21569,7 +21569,7 @@ export const trainers = {
                     "Supersonic",
                     "Constrict",
                     "Acid",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             },
             {
@@ -21711,7 +21711,7 @@ export const trainers = {
                 "moves": [
                     "Constrict",
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap"
                 ]
             },
@@ -21733,7 +21733,7 @@ export const trainers = {
                 "moves": [
                     "Constrict",
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap"
                 ]
             },
@@ -21755,7 +21755,7 @@ export const trainers = {
                 "moves": [
                     "Constrict",
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap"
                 ]
             }
@@ -21821,7 +21821,7 @@ export const trainers = {
                 "moves": [
                     "Camouflage",
                     "Swift",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize"
                 ]
             },
@@ -21874,7 +21874,7 @@ export const trainers = {
                     "special_defense": 22
                 },
                 "moves": [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
                     "Water Gun",
                     "Twister"
@@ -22017,7 +22017,7 @@ export const trainers = {
                     "special_defense": 22
                 },
                 "moves": [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
                     "Water Gun",
                     "Twister"
@@ -22129,7 +22129,7 @@ export const trainers = {
                 "moves": [
                     "Constrict",
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap"
                 ]
             }
@@ -22228,7 +22228,7 @@ export const trainers = {
                 "moves": [
                     "Constrict",
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap"
                 ]
             },
@@ -22283,7 +22283,7 @@ export const trainers = {
                 "moves": [
                     "Constrict",
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap"
                 ]
             },
@@ -22338,7 +22338,7 @@ export const trainers = {
                 "moves": [
                     "Camouflage",
                     "Swift",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize"
                 ]
             },
@@ -22393,7 +22393,7 @@ export const trainers = {
                 "moves": [
                     "Constrict",
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap"
                 ]
             },
@@ -22437,7 +22437,7 @@ export const trainers = {
                 "moves": [
                     "Constrict",
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap"
                 ]
             }
@@ -22614,7 +22614,7 @@ export const trainers = {
                     "Fake Out",
                     "Whirlwind",
                     "Knock Off",
-                    "SmellingSalt"
+                    "Smelling Salts"
                 ]
             },
             {
@@ -22636,7 +22636,7 @@ export const trainers = {
                     "Fake Out",
                     "Whirlwind",
                     "Knock Off",
-                    "SmellingSalt"
+                    "Smelling Salts"
                 ]
             },
             {
@@ -22931,9 +22931,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic",
-                    "SonicBoom"
+                    "Sonic Boom"
                 ]
             }
         ]
@@ -22997,9 +22997,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic",
-                    "SonicBoom"
+                    "Sonic Boom"
                 ]
             },
             {
@@ -23054,7 +23054,7 @@ export const trainers = {
                     "Charge",
                     "Tackle",
                     "Screech",
-                    "SonicBoom"
+                    "Sonic Boom"
                 ]
             },
             {
@@ -23076,7 +23076,7 @@ export const trainers = {
                     "Charge",
                     "Tackle",
                     "Screech",
-                    "SonicBoom"
+                    "Sonic Boom"
                 ]
             },
             {
@@ -23098,7 +23098,7 @@ export const trainers = {
                     "Charge",
                     "Tackle",
                     "Screech",
-                    "SonicBoom"
+                    "Sonic Boom"
                 ]
             }
         ]
@@ -23459,7 +23459,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Dig",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Poison Sting",
                     "Slash"
                 ]
@@ -23514,7 +23514,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Poison Sting",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Scratch",
                     "Dig"
                 ]
@@ -23570,7 +23570,7 @@ export const trainers = {
                 "moves": [
                     "Tail Whip",
                     "Headbutt",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth"
                 ]
             },
@@ -23625,7 +23625,7 @@ export const trainers = {
                 "moves": [
                     "Scratch",
                     "Defense Curl",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Poison Sting"
                 ]
             },
@@ -23678,7 +23678,7 @@ export const trainers = {
                     "special_defense": 62
                 },
                 "moves": [
-                    "Faint Attack",
+                    "Feint Attack",
                     "Fury Swipes",
                     "Psybeam",
                     "Screech"
@@ -23736,7 +23736,7 @@ export const trainers = {
                     "Lick",
                     "Scratch",
                     "Bind",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             }
         ]
@@ -23768,7 +23768,7 @@ export const trainers = {
                 "moves": [
                     "Scratch",
                     "Defense Curl",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Poison Sting"
                 ]
             }
@@ -23802,7 +23802,7 @@ export const trainers = {
                     "Quick Attack",
                     "Sweet Scent",
                     "Water Sport",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -23980,7 +23980,7 @@ export const trainers = {
                 "moves": [
                     "Harden",
                     "Leech Life",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Fury Swipes"
                 ]
             },
@@ -24738,7 +24738,7 @@ export const trainers = {
                 "moves": [
                     "Roar",
                     "Take Down",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Crunch"
                 ]
             },
@@ -24781,7 +24781,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Leech Seed",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Needle Arm",
                     "Cotton Spore"
                 ]
@@ -24885,7 +24885,7 @@ export const trainers = {
                     "Shadow Ball",
                     "Spite",
                     "Will-O-Wisp",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             },
             {
@@ -24907,7 +24907,7 @@ export const trainers = {
                     "Shadow Ball",
                     "Psychic",
                     "Attract",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             },
             {
@@ -25131,7 +25131,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Take Down",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Dragon Dance",
                     "Refresh"
                 ]
@@ -25153,7 +25153,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Dig",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Fly",
                     "Sandstorm"
                 ]
@@ -25176,8 +25176,8 @@ export const trainers = {
                 "moves": [
                     "Flamethrower",
                     "Crunch",
-                    "DragonBreath",
-                    "Sand-Attack"
+                    "Dragon Breath",
+                    "Sand Attack"
                 ]
             },
             {
@@ -25314,7 +25314,7 @@ export const trainers = {
                 "moves": [
                     "Arm Thrust",
                     "Knock Off",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bulk Up"
                 ]
             }
@@ -25349,8 +25349,8 @@ export const trainers = {
                 },
                 "moves": [
                     "Supersonic",
-                    "SonicBoom",
-                    "ThunderShock",
+                    "Sonic Boom",
+                    "Thunder Shock",
                     "Thunder Wave"
                 ]
             },
@@ -25371,9 +25371,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Rollout",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Spark",
-                    "SonicBoom"
+                    "Sonic Boom"
                 ]
             },
             {
@@ -25393,7 +25393,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Shock Wave",
                     "Thunder Wave"
                 ]
@@ -25511,7 +25511,7 @@ export const trainers = {
                     "Encore",
                     "Facade",
                     "Yawn",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             },
             {
@@ -25531,7 +25531,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Slash",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Facade",
                     "Encore"
                 ]
@@ -25555,7 +25555,7 @@ export const trainers = {
                     "Focus Punch",
                     "Slack Off",
                     "Facade",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             }
         ]
@@ -25632,7 +25632,7 @@ export const trainers = {
                     "special_defense": 57
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Fury Attack",
                     "Steel Wing",
                     "Aerial Ace"
@@ -25655,7 +25655,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Earthquake",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Dragon Dance",
                     "Aerial Ace"
                 ]
@@ -25715,7 +25715,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Sunny Day",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Psychic",
                     "Flamethrower"
                 ]
@@ -25927,7 +25927,7 @@ export const trainers = {
                 "moves": [
                     "Absorb",
                     "Sweet Scent",
-                    "PoisonPowder"
+                    "Poison Powder"
                 ]
             },
             {
@@ -26009,7 +26009,7 @@ export const trainers = {
     },
     "286": {
         "rom_id": 286,
-        "name": "Sr And Jr Kate & joy",
+        "name": "Sr And Jr Kate & Joy",
         "trainer_class": "Sr And Jr",
         "location": "Route121",
         "money": 1024,
@@ -26057,7 +26057,7 @@ export const trainers = {
                     "Focus Punch",
                     "Yawn",
                     "Slack Off",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             }
         ]
@@ -26067,7 +26067,7 @@ export const trainers = {
         "name": "Winstrate Victor",
         "trainer_class": "Winstrate",
         "location": "Route111",
-        "money": 640,
+        "money": 320,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -26112,7 +26112,7 @@ export const trainers = {
                     "Growl",
                     "Tail Whip",
                     "Headbutt",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             }
         ]
@@ -26144,7 +26144,7 @@ export const trainers = {
                 "moves": [
                     "Assist",
                     "Charm",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Heal Bell"
                 ]
             },
@@ -26166,7 +26166,7 @@ export const trainers = {
                 "moves": [
                     "Assist",
                     "Charm",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Heal Bell"
                 ]
             },
@@ -26188,7 +26188,7 @@ export const trainers = {
                 "moves": [
                     "Assist",
                     "Charm",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Heal Bell"
                 ]
             },
@@ -26210,7 +26210,7 @@ export const trainers = {
                 "moves": [
                     "Assist",
                     "Charm",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Heal Bell"
                 ]
             },
@@ -26232,7 +26232,7 @@ export const trainers = {
                 "moves": [
                     "Assist",
                     "Charm",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Heal Bell"
                 ]
             },
@@ -26254,7 +26254,7 @@ export const trainers = {
                 "moves": [
                     "Assist",
                     "Charm",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Heal Bell"
                 ]
             }
@@ -26265,7 +26265,7 @@ export const trainers = {
         "name": "Winstrate Victoria",
         "trainer_class": "Winstrate",
         "location": "Route111",
-        "money": 680,
+        "money": 340,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -26374,7 +26374,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Rollout",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Double-Edge",
                     "Rain Dance"
                 ]
@@ -26397,7 +26397,7 @@ export const trainers = {
                 "moves": [
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Double-Edge"
                 ]
             }
@@ -26408,7 +26408,7 @@ export const trainers = {
         "name": "Winstrate Vicky",
         "trainer_class": "Winstrate",
         "location": "Route111",
-        "money": 720,
+        "money": 360,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -26428,7 +26428,7 @@ export const trainers = {
                     "special_defense": 29
                 },
                 "moves": [
-                    "Hi Jump Kick",
+                    "High Jump Kick",
                     "Meditate",
                     "Confusion",
                     "Detect"
@@ -26678,7 +26678,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Headbutt",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Growl",
                     "Thunderbolt"
                 ]
@@ -26713,7 +26713,7 @@ export const trainers = {
                     "Scratch",
                     "Harden",
                     "Leech Life",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             },
             {
@@ -26735,7 +26735,7 @@ export const trainers = {
                     "Scratch",
                     "Harden",
                     "Leech Life",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             }
         ]
@@ -26768,7 +26768,7 @@ export const trainers = {
                     "Scratch",
                     "Harden",
                     "Leech Life",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             },
             {
@@ -26790,7 +26790,7 @@ export const trainers = {
                     "Scratch",
                     "Harden",
                     "Leech Life",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             }
         ]
@@ -26821,8 +26821,8 @@ export const trainers = {
                 },
                 "moves": [
                     "Bite",
-                    "Sand-Attack",
-                    "Faint Attack"
+                    "Sand Attack",
+                    "Feint Attack"
                 ]
             },
             {
@@ -26843,7 +26843,7 @@ export const trainers = {
                 "moves": [
                     "Tail Whip",
                     "Headbutt",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Odor Sleuth"
                 ]
             }
@@ -26910,7 +26910,7 @@ export const trainers = {
                     "Growl",
                     "Tail Whip",
                     "Headbutt",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             },
             {
@@ -26932,7 +26932,7 @@ export const trainers = {
                     "Growl",
                     "Tail Whip",
                     "Headbutt",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             }
         ]
@@ -27015,7 +27015,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Howl",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             },
             {
@@ -27118,7 +27118,7 @@ export const trainers = {
                 "moves": [
                     "Reflect",
                     "Light Screen",
-                    "AncientPower",
+                    "Ancient Power",
                     "Earthquake"
                 ]
             },
@@ -27140,7 +27140,7 @@ export const trainers = {
                 "moves": [
                     "Thunder",
                     "Earthquake",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Dragon Claw"
                 ]
             },
@@ -27161,7 +27161,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Giga Drain",
-                    "AncientPower",
+                    "Ancient Power",
                     "Sludge Bomb",
                     "Confuse Ray"
                 ]
@@ -27183,7 +27183,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Water Pulse",
-                    "AncientPower",
+                    "Ancient Power",
                     "Aerial Ace",
                     "Slash"
                 ]
@@ -27791,7 +27791,7 @@ export const trainers = {
                     "Supersonic",
                     "Constrict",
                     "Acid",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -27998,7 +27998,7 @@ export const trainers = {
                 "moves": [
                     "Metal Sound",
                     "Tackle",
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic"
                 ]
             }
@@ -28030,9 +28030,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic",
-                    "SonicBoom"
+                    "Sonic Boom"
                 ]
             },
             {
@@ -28052,9 +28052,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic",
-                    "SonicBoom"
+                    "Sonic Boom"
                 ]
             }
         ]
@@ -28086,7 +28086,7 @@ export const trainers = {
                 "moves": [
                     "Metal Sound",
                     "Tackle",
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic"
                 ]
             },
@@ -28108,7 +28108,7 @@ export const trainers = {
                 "moves": [
                     "Metal Sound",
                     "Tackle",
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic"
                 ]
             },
@@ -28161,7 +28161,7 @@ export const trainers = {
                 "moves": [
                     "Camouflage",
                     "Swift",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize"
                 ]
             },
@@ -28183,7 +28183,7 @@ export const trainers = {
                 "moves": [
                     "Camouflage",
                     "Swift",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize"
                 ]
             },
@@ -28205,7 +28205,7 @@ export const trainers = {
                 "moves": [
                     "Camouflage",
                     "Swift",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize"
                 ]
             },
@@ -28227,7 +28227,7 @@ export const trainers = {
                 "moves": [
                     "Camouflage",
                     "Swift",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize"
                 ]
             }
@@ -28260,7 +28260,7 @@ export const trainers = {
                 "moves": [
                     "Camouflage",
                     "Swift",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize"
                 ]
             }
@@ -28293,7 +28293,7 @@ export const trainers = {
                 "moves": [
                     "Camouflage",
                     "Swift",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize"
                 ]
             }
@@ -28348,7 +28348,7 @@ export const trainers = {
                 "moves": [
                     "Camouflage",
                     "Swift",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize"
                 ]
             }
@@ -28403,7 +28403,7 @@ export const trainers = {
                 "moves": [
                     "Camouflage",
                     "Swift",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize"
                 ]
             },
@@ -28480,7 +28480,7 @@ export const trainers = {
                 "moves": [
                     "Camouflage",
                     "Swift",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize"
                 ]
             },
@@ -28524,7 +28524,7 @@ export const trainers = {
                 "moves": [
                     "Camouflage",
                     "Swift",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize"
                 ]
             }
@@ -28557,7 +28557,7 @@ export const trainers = {
                 "moves": [
                     "Camouflage",
                     "Swift",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize"
                 ]
             }
@@ -28634,7 +28634,7 @@ export const trainers = {
                 "moves": [
                     "Camouflage",
                     "Swift",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize"
                 ]
             },
@@ -28690,7 +28690,7 @@ export const trainers = {
                     "Headbutt",
                     "Focus Energy",
                     "Ember",
-                    "DragonBreath"
+                    "Dragon Breath"
                 ]
             }
         ]
@@ -29523,7 +29523,7 @@ export const trainers = {
                     "special_defense": 20
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Fury Swipes",
                     "Mind Reader",
                     "False Swipe"
@@ -29546,9 +29546,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Smog",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Sludge",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ]
             },
             {
@@ -29647,7 +29647,7 @@ export const trainers = {
                 "ability": "Wonder Guard",
                 "held_item": null,
                 "stats": {
-                    "hp": 30,
+                    "hp": 1,
                     "attack": 41,
                     "defense": 20,
                     "speed": 21,
@@ -29656,7 +29656,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Leech Life",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Fury Swipes",
                     "Mind Reader"
                 ]
@@ -29678,8 +29678,8 @@ export const trainers = {
                 },
                 "moves": [
                     "Bite",
-                    "Sand-Attack",
-                    "Faint Attack"
+                    "Sand Attack",
+                    "Feint Attack"
                 ]
             },
             {
@@ -29732,7 +29732,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Leech Life",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Fury Swipes",
                     "Mind Reader"
                 ]
@@ -29754,7 +29754,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Leech Life",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Fury Swipes",
                     "Mind Reader"
                 ]
@@ -30107,7 +30107,7 @@ export const trainers = {
                     "Tail Whip",
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -30206,7 +30206,7 @@ export const trainers = {
                     "Tail Whip",
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             },
             {
@@ -30281,7 +30281,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Bubble",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
                     "Water Gun"
                 ]
@@ -30305,7 +30305,7 @@ export const trainers = {
                     "Tail Whip",
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -30382,7 +30382,7 @@ export const trainers = {
                     "Tail Whip",
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             },
             {
@@ -30513,7 +30513,7 @@ export const trainers = {
                 "moves": [
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Double-Edge"
                 ]
             },
@@ -30678,7 +30678,7 @@ export const trainers = {
                 "moves": [
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Double-Edge"
                 ]
             },
@@ -30863,7 +30863,7 @@ export const trainers = {
                     "special_defense": 21
                 },
                 "moves": [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
                     "Water Gun",
                     "Twister"
@@ -30975,7 +30975,7 @@ export const trainers = {
                 "moves": [
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Double-Edge"
                 ]
             },
@@ -31020,7 +31020,7 @@ export const trainers = {
                     "Tail Whip",
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -31138,7 +31138,7 @@ export const trainers = {
                     "special_defense": 22
                 },
                 "moves": [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
                     "Water Gun",
                     "Twister"
@@ -31160,7 +31160,7 @@ export const trainers = {
                     "special_defense": 35
                 },
                 "moves": [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
                     "Water Gun",
                     "Twister"
@@ -31359,7 +31359,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Dig",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Poison Sting",
                     "Slash"
                 ]
@@ -31413,7 +31413,7 @@ export const trainers = {
                     "special_defense": 19
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Poison Sting",
                     "Slash",
                     "Dig"
@@ -31558,7 +31558,7 @@ export const trainers = {
                 "moves": [
                     "Attract",
                     "Sing",
-                    "DoubleSlap",
+                    "Double Slap",
                     "Assist"
                 ]
             },
@@ -31697,7 +31697,7 @@ export const trainers = {
     },
     "483": {
         "rom_id": 483,
-        "name": "Twins Gina & mia",
+        "name": "Twins Gina & Mia",
         "trainer_class": "Twins",
         "location": "Route104",
         "money": 192,
@@ -31750,7 +31750,7 @@ export const trainers = {
     },
     "484": {
         "rom_id": 484,
-        "name": "Twins Miu & yuki",
+        "name": "Twins Miu & Yuki",
         "trainer_class": "Twins",
         "location": "Route123",
         "money": 648,
@@ -31805,7 +31805,7 @@ export const trainers = {
     },
     "485": {
         "rom_id": 485,
-        "name": "Twins Amy & liv",
+        "name": "Twins Amy & Liv",
         "trainer_class": "Twins",
         "location": "Route104",
         "money": 216,
@@ -31856,7 +31856,7 @@ export const trainers = {
     },
     "486": {
         "rom_id": 486,
-        "name": "Twins Gina & mia 2",
+        "name": "Twins Gina & Mia 2",
         "trainer_class": "Twins",
         "location": "Route104",
         "money": 240,
@@ -32115,7 +32115,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap",
                     "Barrier"
                 ]
@@ -32955,7 +32955,7 @@ export const trainers = {
                 "moves": [
                     "Aerial Ace",
                     "Safeguard",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Dragon Dance"
                 ]
             },
@@ -32978,7 +32978,7 @@ export const trainers = {
                     "Sing",
                     "Assist",
                     "Charm",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             },
             {
@@ -33391,7 +33391,7 @@ export const trainers = {
                     "Leech Seed",
                     "Mega Drain",
                     "Headbutt",
-                    "PoisonPowder"
+                    "Poison Powder"
                 ]
             },
             {
@@ -33412,7 +33412,7 @@ export const trainers = {
                 "moves": [
                     "Double Kick",
                     "Peck",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bulk Up"
                 ]
             }
@@ -33553,7 +33553,7 @@ export const trainers = {
                     "Leech Seed",
                     "Mega Drain",
                     "Headbutt",
-                    "PoisonPowder"
+                    "Poison Powder"
                 ]
             },
             {
@@ -33944,7 +33944,7 @@ export const trainers = {
                     "Leech Seed",
                     "Mega Drain",
                     "Headbutt",
-                    "PoisonPowder"
+                    "Poison Powder"
                 ]
             },
             {
@@ -33965,7 +33965,7 @@ export const trainers = {
                 "moves": [
                     "Double Kick",
                     "Peck",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bulk Up"
                 ]
             }
@@ -34106,7 +34106,7 @@ export const trainers = {
                     "Leech Seed",
                     "Mega Drain",
                     "Headbutt",
-                    "PoisonPowder"
+                    "Poison Powder"
                 ]
             },
             {
@@ -34183,7 +34183,7 @@ export const trainers = {
                     "Growl",
                     "Tail Whip",
                     "Headbutt",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             },
             {
@@ -34204,7 +34204,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Uproar",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             },
             {
@@ -34225,7 +34225,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Howl",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bite"
                 ]
             }
@@ -34368,7 +34368,7 @@ export const trainers = {
                 "moves": [
                     "Attract",
                     "Sing",
-                    "DoubleSlap",
+                    "Double Slap",
                     "Assist"
                 ]
             }
@@ -34482,7 +34482,7 @@ export const trainers = {
                 "moves": [
                     "Pin Missile",
                     "Ingrain",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Spikes"
                 ]
             }
@@ -34617,7 +34617,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Magical Leaf",
-                    "GrassWhistle",
+                    "Grass Whistle",
                     "Giga Drain",
                     "Sweet Scent"
                 ]
@@ -34654,7 +34654,7 @@ export const trainers = {
                 "moves": [
                     "Smog",
                     "Curse",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Fire Spin"
                 ]
             },
@@ -35149,7 +35149,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Howl",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             }
         ]
@@ -35181,7 +35181,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Howl",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             },
             {
@@ -35202,7 +35202,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Howl",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             }
         ]
@@ -35234,7 +35234,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Howl",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bite"
                 ]
             },
@@ -35256,7 +35256,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Howl",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bite"
                 ]
             }
@@ -35289,7 +35289,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Howl",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bite"
                 ]
             },
@@ -35311,7 +35311,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Howl",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bite"
                 ]
             }
@@ -35365,7 +35365,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Howl",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bite",
                     "Odor Sleuth"
                 ]
@@ -35420,7 +35420,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Howl",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bite",
                     "Odor Sleuth"
                 ]
@@ -35454,7 +35454,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Howl",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             }
         ]
@@ -36331,7 +36331,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Howl",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bite",
                     "Odor Sleuth"
                 ]
@@ -36633,7 +36633,7 @@ export const trainers = {
                     "special_defense": 34
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bite",
                     "Odor Sleuth",
                     "Roar"
@@ -36774,7 +36774,7 @@ export const trainers = {
         "name": "Winstrate Vivi",
         "trainer_class": "Winstrate",
         "location": "Route111",
-        "money": 600,
+        "money": 300,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -36872,7 +36872,7 @@ export const trainers = {
                 "moves": [
                     "Absorb",
                     "Sweet Scent",
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Stun Spore"
                 ]
             }
@@ -37322,7 +37322,7 @@ export const trainers = {
                     "special_defense": 22
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Fury Swipes",
                     "Mind Reader",
                     "False Swipe"
@@ -37344,7 +37344,7 @@ export const trainers = {
                     "special_defense": 18
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Fury Swipes",
                     "Mind Reader",
                     "False Swipe"
@@ -37654,7 +37654,7 @@ export const trainers = {
                     "Mud Sport",
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -37698,7 +37698,7 @@ export const trainers = {
                     "Mud Sport",
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             }
         ]
@@ -37805,7 +37805,7 @@ export const trainers = {
                     "Mud-Slap",
                     "Psybeam",
                     "Rock Tomb",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -37827,7 +37827,7 @@ export const trainers = {
                     "Mud-Slap",
                     "Psybeam",
                     "Rock Tomb",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             }
         ]
@@ -37999,7 +37999,7 @@ export const trainers = {
     },
     "640": {
         "rom_id": 640,
-        "name": "Young Couple Dez & luke",
+        "name": "Young Couple Dez & Luke",
         "trainer_class": "Young Couple",
         "location": "MtPyre",
         "money": 2048,
@@ -38025,7 +38025,7 @@ export const trainers = {
                     "Growl",
                     "Attract",
                     "Sing",
-                    "DoubleSlap"
+                    "Double Slap"
                 ]
             },
             {
@@ -38054,7 +38054,7 @@ export const trainers = {
     },
     "641": {
         "rom_id": 641,
-        "name": "Young Couple Lea & jed",
+        "name": "Young Couple Lea & Jed",
         "trainer_class": "Young Couple",
         "location": "SSTidalRooms",
         "money": 2880,
@@ -38169,7 +38169,7 @@ export const trainers = {
                 "moves": [
                     "Flamethrower",
                     "Fury Swipes",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Bind"
                 ]
             }
@@ -38203,7 +38203,7 @@ export const trainers = {
                     "Bide",
                     "Detect",
                     "Confusion",
-                    "ThunderPunch"
+                    "Thunder Punch"
                 ]
             }
         ]
@@ -38267,9 +38267,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Sludge",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ]
             },
             {
@@ -38291,7 +38291,7 @@ export const trainers = {
                     "Tackle",
                     "Poison Gas",
                     "Sludge",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ]
             }
         ]
@@ -38324,7 +38324,7 @@ export const trainers = {
                     "Poison Gas",
                     "Tackle",
                     "Sludge",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ]
             },
             {
@@ -38343,7 +38343,7 @@ export const trainers = {
                     "special_defense": 34
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Double Team",
                     "Fury Cutter",
                     "Swords Dance"
@@ -38399,9 +38399,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Sludge",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ]
             },
             {
@@ -38720,7 +38720,7 @@ export const trainers = {
                     "Leech Seed",
                     "Mega Drain",
                     "Headbutt",
-                    "PoisonPowder"
+                    "Poison Powder"
                 ]
             },
             {
@@ -38740,7 +38740,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Peck",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bulk Up",
                     "Quick Attack"
                 ]
@@ -38797,7 +38797,7 @@ export const trainers = {
                     "Leech Seed",
                     "Mega Drain",
                     "Headbutt",
-                    "PoisonPowder"
+                    "Poison Powder"
                 ]
             },
             {
@@ -39017,7 +39017,7 @@ export const trainers = {
                     "Leech Seed",
                     "Mega Drain",
                     "Headbutt",
-                    "PoisonPowder"
+                    "Poison Powder"
                 ]
             },
             {
@@ -39037,7 +39037,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Peck",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Bulk Up",
                     "Quick Attack"
                 ]
@@ -39094,7 +39094,7 @@ export const trainers = {
                     "Leech Seed",
                     "Mega Drain",
                     "Headbutt",
-                    "PoisonPowder"
+                    "Poison Powder"
                 ]
             },
             {
@@ -39192,7 +39192,7 @@ export const trainers = {
                 "moves": [
                     "Constrict",
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap"
                 ]
             },
@@ -39269,7 +39269,7 @@ export const trainers = {
                 "moves": [
                     "Constrict",
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap"
                 ]
             },
@@ -39313,7 +39313,7 @@ export const trainers = {
                 "moves": [
                     "Constrict",
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap"
                 ]
             }
@@ -39464,7 +39464,7 @@ export const trainers = {
                 "moves": [
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Double-Edge"
                 ]
             }
@@ -39521,7 +39521,7 @@ export const trainers = {
                 "moves": [
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout"
                 ]
             },
@@ -39631,7 +39631,7 @@ export const trainers = {
                 "moves": [
                     "Constrict",
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap"
                 ]
             },
@@ -39653,7 +39653,7 @@ export const trainers = {
                 "moves": [
                     "Constrict",
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap"
                 ]
             },
@@ -39697,7 +39697,7 @@ export const trainers = {
                 "moves": [
                     "Constrict",
                     "Acid",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Wrap"
                 ]
             }
@@ -39936,7 +39936,7 @@ export const trainers = {
     },
     "677": {
         "rom_id": 677,
-        "name": "Twins Tori & tia",
+        "name": "Twins Tori & Tia",
         "trainer_class": "Twins",
         "location": "Route113",
         "money": 480,
@@ -39991,7 +39991,7 @@ export const trainers = {
     },
     "678": {
         "rom_id": 678,
-        "name": "Sr And Jr Kim & iris",
+        "name": "Sr And Jr Kim & Iris",
         "trainer_class": "Sr And Jr",
         "location": "Route125",
         "money": 1152,
@@ -40046,7 +40046,7 @@ export const trainers = {
     },
     "679": {
         "rom_id": 679,
-        "name": "Sr And Jr Tyra & ivy",
+        "name": "Sr And Jr Tyra & Ivy",
         "trainer_class": "Sr And Jr",
         "location": "Route114",
         "money": 672,
@@ -40101,7 +40101,7 @@ export const trainers = {
     },
     "680": {
         "rom_id": 680,
-        "name": "Young Couple Mel & paul",
+        "name": "Young Couple Mel & Paul",
         "trainer_class": "Young Couple",
         "location": "Route109",
         "money": 1728,
@@ -40156,7 +40156,7 @@ export const trainers = {
     },
     "686": {
         "rom_id": 686,
-        "name": "Sis And Bro Reli & ian",
+        "name": "Sis And Bro Reli & Ian",
         "trainer_class": "Sis And Bro",
         "location": "Route131",
         "money": 816,
@@ -40181,7 +40181,7 @@ export const trainers = {
                 "moves": [
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Double-Edge"
                 ]
             },
@@ -40211,7 +40211,7 @@ export const trainers = {
     },
     "692": {
         "rom_id": 692,
-        "name": "Sis And Bro Lisa & ray",
+        "name": "Sis And Bro Lisa & Ray",
         "trainer_class": "Sis And Bro",
         "location": "Route107",
         "money": 624,
@@ -40259,7 +40259,7 @@ export const trainers = {
                     "Supersonic",
                     "Constrict",
                     "Acid",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]

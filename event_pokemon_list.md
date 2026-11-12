@@ -105,14 +105,14 @@ Total event Pokémon: 2126.
 - Nintendo Space World '99 Mew: **Mew** — Lv. 5 — OT マクハリ / ID 00000-65535 — Pound — Red (JP), Green (JP), Blue (JP), Yellow — August 27 to 29, 1999
 - Fearow: **Fearow** — Lv. 25 — OT Unknown / ID Unknown — Growl; Leer; Fury Attack; Pay Day — Red (JP), Green (JP), Blue (JP) — August 1998
 - Rapidash: **Rapidash** — Lv. 40 — OT Unknown / ID Unknown — Ember; Fire Spin; Stomp; Pay Day — Red (JP), Green (JP), Blue (JP) — August 1998
-- Summer 1998 Pokémon Battle Tour Pikachu: **Pikachu** — Lv. 5 — OT イマクニ / ID 00000-65535 — ThunderShock; Growl; Surf — Red (JP), Green (JP), Blue (JP) — July 19 to August 23, 1998
+- Summer 1998 Pokémon Battle Tour Pikachu: **Pikachu** — Lv. 5 — OT イマクニ / ID 00000-65535 — Thunder Shock; Growl; Surf — Red (JP), Green (JP), Blue (JP) — July 19 to August 23, 1998
 - University Magikarp: **Magikarp** — Lv. 15 — OT Unknown / ID Unknown — Splash; Dragon Rage — Red (JP), Green (JP), Blue (JP) — July 1998
 - Next Generation World Hobby Fair Dome Cup Mew: **Mew** — Lv. 5 — OT フクオカ / トウキョー / オーサカ / サッポロ / ナゴヤ / ID 00000-65535 — Pound — Red (JP), Green (JP), Blue (JP) — December 7, 1997 to February 15, 1998
 - Nintendo Space World '97 Mew: **Mew** — Lv. 5 — OT マリオ / クッパ / ルイージ / ピーチ / ヨッシー / ドンキー / ID 00000-65535 — Pound — Red (JP), Green (JP), Blue (JP) — November 22 to 24, 1997
-- Nintendo 64 Surfing Pikachu: **Pikachu** — Lv. 5 — OT ニンテン / ID 00000-65535 — ThunderShock; Growl; Surf — Red (JP), Green (JP), Blue (JP) — September 21 to October 31, 1997
-- Flying Pikachu: **Pikachu** — Lv. 5 — OT コロコロ / ID Unknown — ThunderShock; Growl; Fly — Red (JP), Green (JP), Blue (JP) — October 15 to November 14, 1997; October 30 to November 29, 1997
-- Surfing Pikachu: **Pikachu** — Lv. 5 — OT コロコロ / ID Unknown — ThunderShock; Growl; Surf — Red (JP), Green (JP), Blue (JP) — August 30 to September 30, 1997; September 13 to October 14, 1997
-- Pokémon 2 Idea Contest Surfing Pikachu: **Pikachu** — Lv. 5 — OT コロコロ / ID Unknown — ThunderShock; Growl; Surf — Red (JP), Green (JP), Blue (JP) — June 12, 1997
+- Nintendo 64 Surfing Pikachu: **Pikachu** — Lv. 5 — OT ニンテン / ID 00000-65535 — Thunder Shock; Growl; Surf — Red (JP), Green (JP), Blue (JP) — September 21 to October 31, 1997
+- Flying Pikachu: **Pikachu** — Lv. 5 — OT コロコロ / ID Unknown — Thunder Shock; Growl; Fly — Red (JP), Green (JP), Blue (JP) — October 15 to November 14, 1997; October 30 to November 29, 1997
+- Surfing Pikachu: **Pikachu** — Lv. 5 — OT コロコロ / ID Unknown — Thunder Shock; Growl; Surf — Red (JP), Green (JP), Blue (JP) — August 30 to September 30, 1997; September 13 to October 14, 1997
+- Pokémon 2 Idea Contest Surfing Pikachu: **Pikachu** — Lv. 5 — OT コロコロ / ID Unknown — Thunder Shock; Growl; Surf — Red (JP), Green (JP), Blue (JP) — June 12, 1997
 - CoroCoro 20th Anniversary Mew: **Mew** — Lv. 5 — OT コロコロ / ID Unknown — Pound — Red (JP), Green (JP), Blue (JP) — June 12, 1997
 - 4th Next Generation World Hobby Fair Mew: **Mew** — Lv. 5 — OT コロコロ / ID Unknown — Pound — Red (JP), Green (JP) — August 23 to 24, 1996
 - Pokémon 2 Production Start announcement Mew: **Mew** — Lv. 5 — OT コロコロ / ID Unknown — Pound — Red (JP), Green (JP) — July 15 to August 9, 1996
@@ -144,7 +144,7 @@ Total event Pokémon: 2126.
 - U.S. Toys "R" Us Mew: **Mew** — Lv. 5 — OT YOSHIBA / YOSHIBB / YOSHIRA / YOSHIRB / ID 00000-65535 — Pound — Red, Blue, Yellow — December 8 to 12, 1999
 - Nintendo Power Mew: **Mew** — Lv. 5 — OT YOSHIRA / YOSHIRB / ID 00000-65535 — Pound — Red, Blue, Yellow — November 1999 to January 2, 2000
 - Pokémon League Nintendo Training Tour '99 Mew: **Mew** — Lv. 5 — OT YOSHIRA / YOSHIRB / ID 00000-65535 — Pound — Red, Blue, Yellow — October 9 to November 7, 1999
-- Nintendo Power Pikachu: **Pikachu** — Lv. 5 — OT ??? / ID 00000-65535 — ThunderShock; Growl; Surf — Red, Blue, Yellow — October to November 1, 1999
+- Nintendo Power Pikachu: **Pikachu** — Lv. 5 — OT ??? / ID 00000-65535 — Thunder Shock; Growl; Surf — Red, Blue, Yellow — October to November 1, 1999
 - Poké Tour Mew: **Mew** — Lv. 5 — OT NAL / AUS / ID 00000-65535 — Pound — Red, Blue, Yellow — September 18 to October 9, 1999
 - Pokémon Power Mew: **Mew** — Lv. 5 — OT MARIO / ID 00000-65535 — Pound — Red, Blue — December 1998 to February 1, 1999
 
@@ -182,14 +182,14 @@ Total event Pokémon: 2126.
 
 ### Japanese events
 
-- Bulbasaur: **Bulbasaur** — Lv. 5 — Egg — Tackle; Growl; AncientPower — Gold, Silver, Crystal — April 27 to May 12, 2002
+- Bulbasaur: **Bulbasaur** — Lv. 5 — Egg — Tackle; Growl; Ancient Power — Gold, Silver, Crystal — April 27 to May 12, 2002
 - Charmander: **Charmander** — Lv. 5 — Egg — Scratch; Growl; Crunch — Gold, Silver, Crystal — April 27 to May 12, 2002
 - Totodile: **Totodile** — Lv. 5 — Egg — Scratch; Leer; Submission — Gold, Silver, Crystal — April 27 to May 12, 2002
 - Hoothoot: **Hoothoot** — Lv. 5 — Egg — Tackle; Growl; Night Shade — Gold, Silver, Crystal — April 27 to May 12, 2002
 - Pichu
-  - **Pichu** — Lv. 5 — Egg — ThunderShock; Charm; Sing — Gold, Silver, Crystal — April 27 to May 12, 2002
-  - **Pichu** — Lv. 5 — Egg — ThunderShock; Charm; Petal Dance — Gold, Silver, Crystal — March 16 to April 7, 2002
-  - **Pichu** — Lv. 5 — Egg — ThunderShock; Charm; Sing — Gold, Silver, Crystal — December 15, 2001 to January 14, 2002
+  - **Pichu** — Lv. 5 — Egg — Thunder Shock; Charm; Sing — Gold, Silver, Crystal — April 27 to May 12, 2002
+  - **Pichu** — Lv. 5 — Egg — Thunder Shock; Charm; Petal Dance — Gold, Silver, Crystal — March 16 to April 7, 2002
+  - **Pichu** — Lv. 5 — Egg — Thunder Shock; Charm; Sing — Gold, Silver, Crystal — December 15, 2001 to January 14, 2002
 - Psyduck: **Psyduck** — Lv. 5 — Egg — Scratch; Tail Whip; Petal Dance — Gold, Silver, Crystal — March 16 to April 7, 2002
 - Chikorita
   - **Chikorita** — Lv. 5 — Egg — Tackle; Growl; Petal Dance — Gold, Silver, Crystal — March 16 to April 7, 2002
@@ -220,13 +220,13 @@ Total event Pokémon: 2126.
 
 ### Pokémon Center New York
 
-- AncientPower Bulbasaur: **Bulbasaur** — Lv. 5 — Egg — Tackle; Growl; AncientPower — Gold, Silver, Crystal — December 28, 2001 to January 31, 2002; January 17 to 23, 2003
-- Shiny Venusaur: **Venusaur** ★ — Lv. 40 — OT PCNYa/b/c/d / ID 00000-65535 — PoisonPowder; Sleep Powder; Razor Leaf; Sweet Scent — Gold, Silver, Crystal — March 15 to 21, 2002; September 27 to October 3, 2002; February 14 to 20, 2003
+- AncientPower Bulbasaur: **Bulbasaur** — Lv. 5 — Egg — Tackle; Growl; Ancient Power — Gold, Silver, Crystal — December 28, 2001 to January 31, 2002; January 17 to 23, 2003
+- Shiny Venusaur: **Venusaur** ★ — Lv. 40 — OT PCNYa/b/c/d / ID 00000-65535 — Poison Powder; Sleep Powder; Razor Leaf; Sweet Scent — Gold, Silver, Crystal — March 15 to 21, 2002; September 27 to October 3, 2002; February 14 to 20, 2003
 - Crunch Charmander: **Charmander** — Lv. 5 — Egg — Scratch; Growl; Crunch — Gold, Silver, Crystal — December 28, 2001 to January 31, 2002; January 17 to 23, 2003
 - Shiny Charizard: **Charizard** ★ — Lv. 40 — OT PCNYa/b/c/d / ID 00000-65535 — Rage; Scary Face; Flamethrower; Wing Attack — Gold, Silver, Crystal — March 15 to 21, 2002; September 27 to October 3, 2002; February 14 to 20, 2003
 - Zap Cannon Squirtle: **Squirtle** — Lv. 5 — Egg — Tackle; Tail Whip; Zap Cannon — Gold, Silver, Crystal — December 28, 2001 to January 31, 2002; January 17 to 23, 2003
 - Shiny Blastoise: **Blastoise** ★ — Lv. 40 — OT PCNYa/b/c/d / ID 00000-65535 — Water Gun; Bite; Rapid Spin; Protect — Gold, Silver, Crystal — March 15 to 21, 2002; September 27 to October 3, 2002; February 14 to 20, 2003
-- SonicBoom Spearow: **Spearow** — Lv. 5 — Egg — Peck; Growl; SonicBoom — Gold, Silver, Crystal — August 30 to September 26, 2002
+- SonicBoom Spearow: **Spearow** — Lv. 5 — Egg — Peck; Growl; Sonic Boom — Gold, Silver, Crystal — August 30 to September 26, 2002
 - Lovely Kiss Nidoran♀: **Nidoran♀** — Lv. 5 — Egg — Growl; Tackle; Lovely Kiss — Gold, Silver, Crystal — February 1 to 14, 2002
 - Moonlight Nidoran♀: **Nidoran♀** — Lv. 5 — Egg — Growl; Tackle; Moonlight — Gold, Silver, Crystal — August 9 to 29, 2002
 - Sweet Kiss Nidoran♀: **Nidoran♀** — Lv. 5 — Egg — Growl; Tackle; Sweet Kiss — Gold, Silver, Crystal — February 1 to 14, 2002
@@ -259,16 +259,16 @@ Total event Pokémon: 2126.
 - Agility Voltorb: **Voltorb** — Lv. 5 — Egg — Tackle; Agility — Gold, Silver, Crystal — October 4 to 10, 2002
 - Sweet Scent Exeggcute: **Exeggcute** — Lv. 5 — Egg — Barrage; Hypnosis; Sweet Scent — Gold, Silver, Crystal — November 29 to December 5, 2002
 - Fury Attack Cubone: **Cubone** — Lv. 5 — Egg — Growl; Tail Whip; Fury Attack — Gold, Silver, Crystal — December 13 to 19, 2002
-- DoubleSlap Lickitung: **Lickitung** — Lv. 5 — Egg — Lick; DoubleSlap — Gold, Silver, Crystal — January 10 to 16, 2003
+- DoubleSlap Lickitung: **Lickitung** — Lv. 5 — Egg — Lick; Double Slap — Gold, Silver, Crystal — January 10 to 16, 2003
 - Sweet Scent Chansey: **Chansey** — Lv. 5 — Egg — Pound; Sweet Scent — Gold, Silver, Crystal — August 9 to 29, 2002
 - Synthesis Tangela: **Tangela** — Lv. 5 — Egg — Constrict; Sleep Powder; Synthesis — Gold, Silver, Crystal — November 1 to 7, 2002; January 3 to 9, 2003
-- Faint Attack Kangaskhan: **Kangaskhan** — Lv. 5 — Egg — Comet Punch; Faint Attack — Gold, Silver, Crystal — August 9 to 29, 2002; December 13 to 19, 2002
+- Faint Attack Kangaskhan: **Kangaskhan** — Lv. 5 — Egg — Comet Punch; Feint Attack — Gold, Silver, Crystal — August 9 to 29, 2002; December 13 to 19, 2002
 - Haze Horsea: **Horsea** — Lv. 5 — Egg — Bubble; Haze — Gold, Silver, Crystal — June 8 to 21, 2002
 - Swords Dance Goldeen: **Goldeen** — Lv. 5 — Egg — Peck; Tail Whip; Swords Dance — Gold, Silver, Crystal — June 8 to 21, 2002; November 8 to 14, 2002; January 17 to 23, 2003
 - Twister Staryu: **Staryu** — Lv. 5 — Egg — Tackle; Harden; Twister — Gold, Silver, Crystal — November 8 to 14, 2002; December 27, 2002 to January 2, 2003
 - Mind Reader Mr. Mime: **Mr. Mime** — Lv. 5 — Egg — Barrier; Mind Reader — Gold, Silver, Crystal — November 29 to December 5, 2002
-- SonicBoom Scyther: **Scyther** — Lv. 5 — Egg — Quick Attack; Leer; SonicBoom — Gold, Silver, Crystal — February 28 to March 6, 2003
-- Rock Throw Pinsir: **Pinsir** — Lv. 5 — Egg — ViceGrip; Rock Throw — Gold, Silver, Crystal — February 28 to March 6, 2003
+- SonicBoom Scyther: **Scyther** — Lv. 5 — Egg — Quick Attack; Leer; Sonic Boom — Gold, Silver, Crystal — February 28 to March 6, 2003
+- Rock Throw Pinsir: **Pinsir** — Lv. 5 — Egg — Vise Grip; Rock Throw — Gold, Silver, Crystal — February 28 to March 6, 2003
 - Quick Attack Tauros: **Tauros** — Lv. 5 — Egg — Tackle; Tail Whip; Quick Attack — Gold, Silver, Crystal — August 9 to 29, 2002
 - Bubble Magikarp: **Magikarp** — Lv. 5 — Egg — Splash; Bubble — Gold, Silver, Crystal — January 24 to 30, 2003
 - Reversal Magikarp: **Magikarp** — Lv. 5 — Egg — Splash; Reversal — Gold, Silver, Crystal — June 8 to 21, 2002
@@ -289,9 +289,9 @@ Total event Pokémon: 2126.
 - Shiny Mewtwo: **Mewtwo** ★ — Lv. 70 — OT PCNYa/b/c/d / ID 00000-65535 — Psych Up; Future Sight; Mist; Psychic — Gold, Silver, Crystal — September 27 to October 3, 2002; February 14 to 20, 2003
 - Shiny Mew: **Mew** ★ — Lv. 5 — OT PCNYa/b/c/d / ID 00000-65535 — Pound — Gold, Silver, Crystal — November 22 to 28, 2002
 - Petal Dance Chikorita: **Chikorita** — Lv. 5 — Egg — Tackle; Growl; Petal Dance — Gold, Silver, Crystal — December 28, 2001 to January 31, 2002; April 12 to June 7, 2002; January 17 to 23, 2003
-- Shiny Meganium: **Meganium** ★ — Lv. 40 — OT PCNYa/b/c/d / ID 00000-65535 — Reflect; PoisonPowder; Synthesis; Body Slam — Gold, Silver, Crystal — December 6 to 12, 2002
+- Shiny Meganium: **Meganium** ★ — Lv. 40 — OT PCNYa/b/c/d / ID 00000-65535 — Reflect; Poison Powder; Synthesis; Body Slam — Gold, Silver, Crystal — December 6 to 12, 2002
 - Double-Edge Cyndaquil: **Cyndaquil** — Lv. 5 — Egg — Tackle; Leer; Double-Edge — Gold, Silver, Crystal — December 28, 2001 to January 31, 2002; January 17 to 23, 2003
-- Shiny Typhlosion: **Typhlosion** ★ — Lv. 40 — OT PCNYa/b/c/d / ID 00000-65535 — SmokeScreen; Ember; Quick Attack; Flame Wheel — Gold, Silver, Crystal — December 6 to 12, 2002
+- Shiny Typhlosion: **Typhlosion** ★ — Lv. 40 — OT PCNYa/b/c/d / ID 00000-65535 — Smokescreen; Ember; Quick Attack; Flame Wheel — Gold, Silver, Crystal — December 6 to 12, 2002
 - Submission Totodile: **Totodile** — Lv. 5 — Egg — Scratch; Leer; Submission — Gold, Silver, Crystal — December 28, 2001 to January 31, 2002; January 17 to 23, 2003
 - Shiny Feraligatr: **Feraligatr** ★ — Lv. 40 — OT PCNYa/b/c/d / ID 00000-65535 — Water Gun; Bite; Scary Face; Slash — Gold, Silver, Crystal — December 6 to 12, 2002
 - Dizzy Punch Sentret: **Sentret** — Lv. 5 — Egg — Tackle; Defense Curl; Dizzy Punch — Gold, Silver, Crystal — January 10 to 16, 2003
@@ -299,10 +299,10 @@ Total event Pokémon: 2126.
 - Barrier Ledyba: **Ledyba** — Lv. 5 — Egg — Tackle; Barrier — Gold, Silver, Crystal — February 28 to March 6, 2003
 - Growth Spinarak: **Spinarak** — Lv. 5 — Egg — Poison Sting; String Shot; Growth — Gold, Silver, Crystal — February 28 to March 6, 2003
 - Light Screen Chinchou: **Chinchou** — Lv. 5 — Egg — Bubble; Thunder Wave; Supersonic; Light Screen — Gold, Silver, Crystal — July 12 to August 8, 2002
-- Dizzy Punch Pichu: **Pichu** — Lv. 5 — Egg — ThunderShock; Charm; Dizzy Punch — Gold, Silver, Crystal — October 4 to 10, 2002
-- Petal Dance Pichu: **Pichu** — Lv. 5 — Egg — ThunderShock; Charm; Petal Dance — Gold, Silver, Crystal — April 12 to May 4, 2002
-- Scary Face Pichu: **Pichu** — Lv. 5 — Egg — ThunderShock; Charm; Scary Face — Gold, Silver, Crystal — October 25 to 31, 2002
-- Sing Pichu: **Pichu** — Lv. 5 — Egg — ThunderShock; Charm; Sing — Gold, Silver, Crystal — March 22 to April 11, 2002
+- Dizzy Punch Pichu: **Pichu** — Lv. 5 — Egg — Thunder Shock; Charm; Dizzy Punch — Gold, Silver, Crystal — October 4 to 10, 2002
+- Petal Dance Pichu: **Pichu** — Lv. 5 — Egg — Thunder Shock; Charm; Petal Dance — Gold, Silver, Crystal — April 12 to May 4, 2002
+- Scary Face Pichu: **Pichu** — Lv. 5 — Egg — Thunder Shock; Charm; Scary Face — Gold, Silver, Crystal — October 25 to 31, 2002
+- Sing Pichu: **Pichu** — Lv. 5 — Egg — Thunder Shock; Charm; Sing — Gold, Silver, Crystal — March 22 to April 11, 2002
 - Petal Dance Cleffa: **Cleffa** — Lv. 5 — Egg — Pound; Charm; Encore; Petal Dance — Gold, Silver, Crystal — April 12 to May 4, 2002
 - Scary Face Cleffa: **Cleffa** — Lv. 5 — Egg — Pound; Charm; Encore; Scary Face — Gold, Silver, Crystal — October 25 to 31, 2002
 - Swift Cleffa: **Cleffa** — Lv. 5 — Egg — Pound; Charm; Encore; Swift — Gold, Silver, Crystal — March 22 to April 11, 2002
@@ -346,9 +346,9 @@ Total event Pokémon: 2126.
 - Petal Dance Smoochum: **Smoochum** — Lv. 5 — Egg — Pound; Lick; Petal Dance — Gold, Silver, Crystal — April 12 to May 4, 2002
 - Dizzy Punch Elekid: **Elekid** — Lv. 5 — Egg — Quick Attack; Leer; Dizzy Punch — Gold, Silver, Crystal — October 4 to 10, 2002
 - Pursuit Elekid: **Elekid** — Lv. 5 — Egg — Quick Attack; Leer; Pursuit — Gold, Silver, Crystal — March 22 to April 11, 2002
-- Faint Attack Magby: **Magby** — Lv. 5 — Egg — Ember; Faint Attack — Gold, Silver, Crystal — March 22 to April 11, 2002
+- Faint Attack Magby: **Magby** — Lv. 5 — Egg — Ember; Feint Attack — Gold, Silver, Crystal — March 22 to April 11, 2002
 - Mega Kick Miltank: **Miltank** — Lv. 5 — Egg — Tackle; Growl; Mega Kick — Gold, Silver, Crystal — January 10 to 16, 2003
-- Shiny Raikou: **Raikou** ★ — Lv. 40 — OT PCNYa/b/c/d / ID 00000-65535 — Leer; ThunderShock; Roar; Quick Attack — Gold, Silver, Crystal — November 22 to 29, 2001; December 7 to 20, 2001; June 22 to 28, 2002; July 5 to 11, 2002; November 15 to 21, 2002
+- Shiny Raikou: **Raikou** ★ — Lv. 40 — OT PCNYa/b/c/d / ID 00000-65535 — Leer; Thunder Shock; Roar; Quick Attack — Gold, Silver, Crystal — November 22 to 29, 2001; December 7 to 20, 2001; June 22 to 28, 2002; July 5 to 11, 2002; November 15 to 21, 2002
 - Shiny Entei: **Entei** ★ — Lv. 40 — OT PCNYa/b/c/d / ID 00000-65535 — Leer; Ember; Roar; Fire Spin — Gold, Silver, Crystal — November 22 to 29, 2001; December 7 to 20, 2001; June 22 to 28, 2002; July 5 to 11, 2002; November 15 to 21, 2002
 - Shiny Suicune: **Suicune** ★ — Lv. 40 — OT PCNYa/b/c/d / ID 00000-65535 — Leer; Water Gun; Roar; Gust — Gold, Silver, Crystal — November 22 to 29, 2001; December 7 to 20, 2001; June 22 to 28, 2002; July 5 to 11, 2002; November 15 to 21, 2002
 - Suicune: **Suicune** — Lv. ? — OT PCNYa/b/c/d / ID 00000-65535 — Gold, Silver, Crystal — October 18 to 24, 2002
@@ -373,24 +373,24 @@ Total event Pokémon: 2126.
 - PokéPark Jirachi: **Jirachi** — Lv. 30 — OT ポケパーク / ポケパーク / ID 60731 / 60830 — Wish; Psychic; Helping Hand; Rest — Ruby, Sapphire, FireRed, LeafGreen, Emerald — July 24 to 31, 2006; August 23 to 30, 2006
 - Mitsurin Celebi: **Celebi** — Lv. 10 — OT ミツリン / ミツリン / ID 60720 — Leech Seed; Recover; Heal Bell; Safeguard — Ruby, Sapphire, FireRed, LeafGreen, Emerald — July 20 to September 3, 2006
 - 2006 Tanabata Jirachi: **Jirachi** — Lv. 5 — OT タナバタ / タナバタ / ID 60707 — Wish; Confusion; Rest — Ruby, Sapphire, FireRed, LeafGreen, Emerald — July 15 to July 31, 2006  _(also listed in: Tanabata events — 2006)_
-- PokéPark Celebi: **Celebi** — Lv. 30 — OT ポケパーク / ポケパーク / ID 60623 — Heal Bell; Safeguard; AncientPower; Future Sight — Ruby, Sapphire, FireRed, LeafGreen, Emerald — June 23 to September 24, 2006
+- PokéPark Celebi: **Celebi** — Lv. 30 — OT ポケパーク / ポケパーク / ID 60623 — Heal Bell; Safeguard; Ancient Power; Future Sight — Ruby, Sapphire, FireRed, LeafGreen, Emerald — June 23 to September 24, 2006
 - PokéPark Mew: **Mew** — Lv. 30 — OT ポケパーク / ポケパーク / ID 60510 — Pound; Transform; Mega Punch; Metronome — Ruby, Sapphire, FireRed, LeafGreen, Emerald — May 10 to June 4, 2006
-- Regirock: **Regirock** — Lv. 40 — OT ハドウ / ハドウ / ID 50901 — Curse; Superpower; AncientPower; Hyper Beam — Ruby, Sapphire, FireRed, LeafGreen, Emerald — September 1 to 25, 2005
-- Regice: **Regice** — Lv. 40 — OT ハドウ / ハドウ / ID 50901 — Curse; Superpower; AncientPower; Hyper Beam — Ruby, Sapphire, FireRed, LeafGreen, Emerald — September 1 to 25, 2005
-- Registeel: **Registeel** — Lv. 40 — OT ハドウ / ハドウ / ID 50901 — Curse; Superpower; AncientPower; Hyper Beam — Ruby, Sapphire, FireRed, LeafGreen, Emerald — September 1 to 25, 2005
+- Regirock: **Regirock** — Lv. 40 — OT ハドウ / ハドウ / ID 50901 — Curse; Superpower; Ancient Power; Hyper Beam — Ruby, Sapphire, FireRed, LeafGreen, Emerald — September 1 to 25, 2005
+- Regice: **Regice** — Lv. 40 — OT ハドウ / ハドウ / ID 50901 — Curse; Superpower; Ancient Power; Hyper Beam — Ruby, Sapphire, FireRed, LeafGreen, Emerald — September 1 to 25, 2005
+- Registeel: **Registeel** — Lv. 40 — OT ハドウ / ハドウ / ID 50901 — Curse; Superpower; Ancient Power; Hyper Beam — Ruby, Sapphire, FireRed, LeafGreen, Emerald — September 1 to 25, 2005
 - Pokémon Sunday Wobbuffet: **Wobbuffet** — Lv. 5 — OT サンデ－ / サンデ－ / ID 50701 — Counter; Mirror Coat; Safeguard; Destiny Bond — Ruby, Sapphire, FireRed, LeafGreen, Emerald — July 17 to August 21, 2005
 - Festa Metang: **Metang** — Lv. 30 — OT フェスタ / ID 02005 — Take Down; Confusion; Metal Claw; Refresh — Ruby, Sapphire, FireRed, LeafGreen, Emerald — July 17 to August 21, 2005
 - 2005 Tanabata Jirachi: **Jirachi** — Lv. 5 — OT タナバタ / ID 50707 — Wish; Confusion; Rest — Ruby, Sapphire, FireRed, LeafGreen, Emerald — July 17 to August 21, 2005  _(also listed in: Tanabata events — 2005)_
 - Sapporo Pikachu: **Pikachu** — Lv. 10 — OT サッポロ / ID 50701 — Growl; Tail Whip; Thunder Wave; Fly — Ruby, Sapphire, FireRed, LeafGreen, Emerald — July 1 to August 21, 2005
 - GW Pikachu: **Pikachu** — Lv. 10 — OT ＧＷ / ＧＷ / ID 50425 — Growl; Tail Whip; Thunder Wave; Fly — Ruby, Sapphire, FireRed, LeafGreen, Emerald — April 25 to May 8, 2005
 - Hadō Mew: **Mew** — Lv. 10 — OT ハドウ / ハドウ / ID 50716 — Pound; Transform — Ruby, Sapphire, FireRed, LeafGreen, Emerald — June 25 to August 31, 2005
-- Yokohama Pikachu: **Pikachu** — Lv. 10 — OT ヨコハマ / ID 50319 — ThunderShock; Growl; Thunder Wave; Surf — Ruby, Sapphire, FireRed, LeafGreen, Emerald — March 19 to April 3, 2005
+- Yokohama Pikachu: **Pikachu** — Lv. 10 — OT ヨコハマ / ID 50319 — Thunder Shock; Growl; Thunder Wave; Surf — Ruby, Sapphire, FireRed, LeafGreen, Emerald — March 19 to April 3, 2005
 - PokéPark Meowth: **Meowth** — Lv. 5 — OT ポケパーク / ID 50318 — Scratch; Growl — Ruby, Sapphire, FireRed, LeafGreen, Emerald — March 18 to September 25, 2005
 - Psyduck: **Psyduck** — Lv. 5 — Egg — Water Sport; Scratch; Tail Whip; Mud Sport — Ruby, Sapphire, FireRed, LeafGreen, Emerald — March 12 to May 8, 2005
-- Pichu: **Pichu** — Lv. 5 — Egg — ThunderShock; Charm; Follow Me — Ruby, Sapphire, FireRed, LeafGreen, Emerald — March 12 to May 8, 2005
+- Pichu: **Pichu** — Lv. 5 — Egg — Thunder Shock; Charm; Follow Me — Ruby, Sapphire, FireRed, LeafGreen, Emerald — March 12 to May 8, 2005
 - Igglybuff: **Igglybuff** — Lv. 5 — Egg — Sing; Charm; Defense Curl; Tickle — Ruby, Sapphire, FireRed, LeafGreen, Emerald — March 12 to May 8, 2005
 - Corsola: **Corsola** — Lv. 5 — Egg — Tackle; Mud Sport — Ruby, Sapphire, FireRed, LeafGreen, Emerald — March 12 to May 8, 2005
-- Taillow: **Taillow** — Lv. 5 — Egg — Peck; Growl; Focus Energy; FeatherDance — Ruby, Sapphire, FireRed, LeafGreen, Emerald — March 12 to May 8, 2005
+- Taillow: **Taillow** — Lv. 5 — Egg — Peck; Growl; Focus Energy; Feather Dance — Ruby, Sapphire, FireRed, LeafGreen, Emerald — March 12 to May 8, 2005
 - Surskit: **Surskit** — Lv. 5 — Egg — Bubble; Mud Sport — Ruby, Sapphire, FireRed, LeafGreen, Emerald — March 12 to May 8, 2005
 - Whismur: **Whismur** — Lv. 5 — Egg — Pound; Uproar; Teeter Dance — Ruby, Sapphire, FireRed, LeafGreen, Emerald — March 12 to May 8, 2005
 - Skitty: **Skitty** — Lv. 5 — Egg — Growl; Tackle; Tail Whip; Rollout — Ruby, Sapphire, FireRed, LeafGreen, Emerald — March 12 to May 8, 2005
@@ -401,18 +401,18 @@ Total event Pokémon: 2126.
 - Cacnea: **Cacnea** — Lv. 5 — Egg — Poison Sting; Leer; Absorb; Encore — Ruby, Sapphire, FireRed, LeafGreen, Emerald — March 12 to May 8, 2005
 - Corphish: **Corphish** — Lv. 5 — Egg — Bubble; Water Sport — Ruby, Sapphire, FireRed, LeafGreen, Emerald — March 12 to May 8, 2005
 - Wynaut: **Wynaut** — Lv. 5 — Egg — Splash; Charm; Encore; Tickle — Ruby, Sapphire, FireRed, LeafGreen, Emerald — March 12 to May 8, 2005
-- All Nippon Airways Pikachu: **Pikachu** — Lv. 10 — OT ＡＮＡ / ID 41205 — Fly; ThunderShock; Tail Whip; Thunder Wave — Ruby, Sapphire, FireRed, LeafGreen, Emerald — December 5 to 25, 2004
+- All Nippon Airways Pikachu: **Pikachu** — Lv. 10 — OT ＡＮＡ / ID 41205 — Fly; Thunder Shock; Tail Whip; Thunder Wave — Ruby, Sapphire, FireRed, LeafGreen, Emerald — December 5 to 25, 2004
 - 2004 Tanabata Jirachi: **Jirachi** — Lv. 5 — OT タナバタ / ID 40707 — Wish; Confusion; Rest — Ruby, Sapphire, FireRed, LeafGreen — July 1 to 7, 2004; July 17 to August 15, 2004  _(also listed in: Tanabata events — 2004)_
 - Oddish: **Oddish** — Lv. 5 — Egg — Absorb; Leech Seed — FireRed, LeafGreen — March 21 to April 4, 2004
 - Meowth: **Meowth** — Lv. 5 — Egg — Scratch; Growl; Petal Dance — FireRed, LeafGreen — March 21 to April 4, 2004
 - Poliwag: **Poliwag** — Lv. 5 — Egg — Bubble; Sweet Kiss — FireRed, LeafGreen — March 21 to April 4, 2004
 - Bellsprout: **Bellsprout** — Lv. 5 — Egg — Vine Whip; Teeter Dance — FireRed, LeafGreen — March 21 to April 4, 2004
 - Berry Program Update Zigzagoon: **Zigzagoon** ★ — Lv. 5 — OT サファイア / ルビ－ / ID 21121 — Tackle; Growl; Tail Whip — Ruby, Sapphire — December 29, 2003 to March 31, 2004
-- Pokémon Stamp Ruby and Sapphire Contest Pichu: **Pichu** — Lv. 5 — OT Unknown / ID Unknown — ThunderShock; Charm; Teeter Dance — Ruby, Sapphire — December 29, 2003
+- Pokémon Stamp Ruby and Sapphire Contest Pichu: **Pichu** — Lv. 5 — OT Unknown / ID Unknown — Thunder Shock; Charm; Teeter Dance — Ruby, Sapphire — December 29, 2003
 - Pokémon Stamp Ruby and Sapphire Absol: **Absol** — Lv. 5 — OT Unknown / ID Unknown — Scratch; Leer; Wish — Ruby, Sapphire — October 3, 2003
 - Wishing Star Jirachi: **Jirachi** — Lv. 5 — OT ネガイボシ / ネガイボシ / ID 30719 — Wish; Confusion; Rest — Ruby, Sapphire — June 21 to 22, 2003; July 19 to August 24, 2003
-- Teeter Dance Pichu: **Pichu** — Lv. 5 — Egg — ThunderShock; Charm; Teeter Dance — Ruby, Sapphire — April 25 to May 18, 2003
-- Wish Pichu: **Pichu** — Lv. 5 — Egg — ThunderShock; Charm; Wish — Ruby, Sapphire — April 25 to May 18, 2003
+- Teeter Dance Pichu: **Pichu** — Lv. 5 — Egg — Thunder Shock; Charm; Teeter Dance — Ruby, Sapphire — April 25 to May 18, 2003
+- Wish Pichu: **Pichu** — Lv. 5 — Egg — Thunder Shock; Charm; Wish — Ruby, Sapphire — April 25 to May 18, 2003
 - Charm Ralts: **Ralts** — Lv. 5 — Egg — Growl; Charm — Ruby, Sapphire — April 25 to May 18, 2003
 - Wish Ralts: **Ralts** — Lv. 5 — Egg — Growl; Wish — Ruby, Sapphire — April 25 to May 18, 2003
 - Spite Absol: **Absol** — Lv. 5 — Egg — Scratch; Leer; Spite — Ruby, Sapphire — April 25 to May 18, 2003
@@ -507,8 +507,8 @@ Total event Pokémon: 2126.
 - Machamp: **Machamp** — Lv. 30 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Karate Chop; Seismic Toss; Foresight; Revenge — Ruby, Sapphire — August 21 to 27, 2004
 - Ludicolo: **Ludicolo** — Lv. 20 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Astonish; Growl; Absorb; Nature Power — Ruby, Sapphire — August 21 to 27, 2004
 - Shiftry: **Shiftry** — Lv. 20 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Pound; Harden; Growth; Nature Power — Ruby, Sapphire — August 21 to 27, 2004
-- Golem: **Golem** — Lv. 30 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Rock Throw; Magnitude; Selfdestruct; Rollout — Ruby, Sapphire — August 21 to 27, 2004
-- Armaldo: **Armaldo** — Lv. 40 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Water Gun; Metal Claw; Protect; AncientPower — Ruby, Sapphire — August 14 to 20, 2004
+- Golem: **Golem** — Lv. 30 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Rock Throw; Magnitude; Self-Destruct; Rollout — Ruby, Sapphire — August 21 to 27, 2004
+- Armaldo: **Armaldo** — Lv. 40 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Water Gun; Metal Claw; Protect; Ancient Power — Ruby, Sapphire — August 14 to 20, 2004
 - Sableye: **Sableye** — Lv. 18 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Foresight; Night Shade; Astonish; Fury Swipes — Ruby, Sapphire — August 14 to 20, 2004
 - Mawile: **Mawile** — Lv. 18 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Astonish; Fake Tears; Bite; Sweet Scent — Ruby, Sapphire — August 14 to 20, 2004
 - Cradily: **Cradily** — Lv. 40 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Acid; Ingrain; Confuse Ray; Amnesia — Ruby, Sapphire — August 14 to 20, 2004
@@ -517,15 +517,15 @@ Total event Pokémon: 2126.
   - **Seviper** — Lv. 18 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Wrap; Lick; Bite; Poison Tail — Ruby, Sapphire — August 7 to 13, 2004
   - **Seviper** — Lv. 30 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Poison Tail; Screech; Glare; Crunch — Ruby, Sapphire — July 10 to 16, 2004
 - Milotic: **Milotic** — Lv. 35 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Water Pulse; Twister; Recover; Rain Dance — Ruby, Sapphire — August 7 to 13, 2004
-- Kingdra: **Kingdra** — Lv. 35 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — SmokeScreen; Leer; Water Gun; Twister — Ruby, Sapphire — August 7 to 13, 2004
+- Kingdra: **Kingdra** — Lv. 35 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Smokescreen; Leer; Water Gun; Twister — Ruby, Sapphire — August 7 to 13, 2004
 - Azurill: **Azurill** — Lv. 5 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Splash; Charm — Ruby, Sapphire — July 31 to August 6, 2004
 - Wynaut: **Wynaut** — Lv. 5 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Splash; Charm; Encore — Ruby, Sapphire — July 31 to August 6, 2004
 - Gorebyss: **Gorebyss** — Lv. 20 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Whirlpool; Confusion; Agility — Ruby, Sapphire — July 31 to August 6, 2004
 - Huntail: **Huntail** — Lv. 20 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Whirlpool; Bite; Screech — Ruby, Sapphire — July 31 to August 6, 2004
 - Flygon
-  - **Flygon** — Lv. 45 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Sand Tomb; Crunch; DragonBreath; Screech — Ruby, Sapphire — July 10 to 16, 2004
-  - **Flygon** — Lv. 45 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Sand Tomb; Crunch; DragonBreath; Screech — Ruby, Sapphire — November 22 to 28, 2003
-  - **Flygon** — Lv. 45 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Sand Tomb; Crunch; DragonBreath; Flamethrower — Ruby, Sapphire — September 29 to October 3, 2003
+  - **Flygon** — Lv. 45 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Sand Tomb; Crunch; Dragon Breath; Screech — Ruby, Sapphire — July 10 to 16, 2004
+  - **Flygon** — Lv. 45 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Sand Tomb; Crunch; Dragon Breath; Screech — Ruby, Sapphire — November 22 to 28, 2003
+  - **Flygon** — Lv. 45 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Sand Tomb; Crunch; Dragon Breath; Flamethrower — Ruby, Sapphire — September 29 to October 3, 2003
 - Spite Absol: **Absol** — Lv. 35 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Razor Wind; Bite; Swords Dance; Spite — Ruby, Sapphire — July 10 to 16, 2004
 - Wish Absol: **Absol** — Lv. 35 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Razor Wind; Bite; Swords Dance; Wish — Ruby, Sapphire — July 10 to 16, 2004
 - Houndour: **Houndour** — Lv. 5 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Leer; Ember — Ruby, Sapphire — May 15 to 22, 2004
@@ -533,10 +533,10 @@ Total event Pokémon: 2126.
 - Gardevoir: **Gardevoir** — Lv. 35 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Teleport; Calm Mind; Psychic; Imprison — Ruby, Sapphire — Unknown
 - Tropius: **Tropius** — Lv. 30 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Razor Leaf; Stomp; Sweet Scent; Whirlwind — Ruby, Sapphire — Unknown
 - Salamence
-  - **Salamence** — Lv. 50 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Protect; DragonBreath; Scary Face; Fly — Ruby, Sapphire — Unknown
-  - **Salamence** — Lv. 50 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Protect; DragonBreath; Scary Face; Fly — Ruby, Sapphire — November 22 to 28, 2003
-  - **Salamence** — Lv. 50 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Protect; DragonBreath; Thrash; Fly — Ruby, Sapphire — September 29 to October 3, 2003
-- Altaria: **Altaria** — Lv. 45 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Take Down; DragonBreath; Dragon Dance; Refresh — Ruby, Sapphire — November 22 to 28, 2003
+  - **Salamence** — Lv. 50 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Protect; Dragon Breath; Scary Face; Fly — Ruby, Sapphire — Unknown
+  - **Salamence** — Lv. 50 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Protect; Dragon Breath; Scary Face; Fly — Ruby, Sapphire — November 22 to 28, 2003
+  - **Salamence** — Lv. 50 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Protect; Dragon Breath; Thrash; Fly — Ruby, Sapphire — September 29 to October 3, 2003
+- Altaria: **Altaria** — Lv. 45 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Take Down; Dragon Breath; Dragon Dance; Refresh — Ruby, Sapphire — November 22 to 28, 2003
 - Seadra: **Seadra** — Lv. 32 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Smokescreen; Leer; Water Gun; Twister — Ruby, Sapphire — November 22 to 28, 2003
 - Level 50 Exploud: **Exploud** — Lv. 50 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Stomp; Hyper Voice; Shadow Ball; Roar — Ruby, Sapphire — October 25 to 31, 2003
 - Level 100 Exploud: **Exploud** — Lv. 100 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Roar; Shadow Ball; Brick Break; Hyper Voice — Ruby, Sapphire — October 25 to 31, 2003
@@ -544,16 +544,16 @@ Total event Pokémon: 2126.
 - Level 100 Aggron: **Aggron** — Lv. 100 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Iron Tail; Dragon Claw; Ice Beam; Double-Edge — Ruby, Sapphire — October 25 to 31, 2003
 - Level 50 Wailord: **Wailord** — Lv. 50 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Water Pulse; Blizzard; Rest; Water Spout — Ruby, Sapphire — October 25 to 31, 2003
 - Level 100 Wailord: **Wailord** — Lv. 100 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Blizzard; Water Spout; Earthquake; Hydro Pump — Ruby, Sapphire — October 25 to 31, 2003
-- Level 50 Crawdaunt: **Crawdaunt** — Lv. 50 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Dig; BubbleBeam; Crabhammer; Swords Dance — Ruby, Sapphire — October 25 to 31, 2003
+- Level 50 Crawdaunt: **Crawdaunt** — Lv. 50 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Dig; Bubble Beam; Crabhammer; Swords Dance — Ruby, Sapphire — October 25 to 31, 2003
 - Level 100 Crawdaunt: **Crawdaunt** — Lv. 100 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Toxic; Crabhammer; Hail; Guillotine — Ruby, Sapphire — October 25 to 31, 2003
 - Shedinja: **Shedinja** — Lv. 50 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Spite; Confuse Ray; Shadow Ball; Grudge — Ruby, Sapphire — October 18 to 24, 2003
-- Cacturne: **Cacturne** — Lv. 50 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Faint Attack; Spikes; Needle Arm; Cotton Spore — Ruby, Sapphire — October 18 to 24, 2003
+- Cacturne: **Cacturne** — Lv. 50 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Feint Attack; Spikes; Needle Arm; Cotton Spore — Ruby, Sapphire — October 18 to 24, 2003
 - Shuppet: **Shuppet** — Lv. 25 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Screech; Night Shade; Curse; Spite — Ruby, Sapphire — October 18 to 24, 2003
 - Duskull: **Duskull** — Lv. 25 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Disable; Foresight; Astonish; Confuse Ray — Ruby, Sapphire — October 18 to 24, 2003
 - Ice Beam Seadra: **Seadra** — Lv. 45 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Dragon Rage; Hydro Pump; Twister; Ice Beam — Ruby, Sapphire — September 29 to October 3, 2003
 - Leer Seadra: **Seadra** — Lv. 45 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Dragon Rage; Hydro Pump; Twister; Leer — Ruby, Sapphire — September 29 to October 3, 2003
-- Flamethrower Altaria: **Altaria** — Lv. 45 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Aerial Ace; DragonBreath; Dragon Dance; Flamethrower — Ruby, Sapphire — September 29 to October 3, 2003
-- Ice Beam Altaria: **Altaria** — Lv. 45 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Take Down; DragonBreath; Dragon Dance; Ice Beam — Ruby, Sapphire — September 29 to October 3, 2003
+- Flamethrower Altaria: **Altaria** — Lv. 45 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Aerial Ace; Dragon Breath; Dragon Dance; Flamethrower — Ruby, Sapphire — September 29 to October 3, 2003
+- Ice Beam Altaria: **Altaria** — Lv. 45 — OT PCNYc / PCNYc / PCNYd / PCNYd / ID 00001-65535 — Take Down; Dragon Breath; Dragon Dance; Ice Beam — Ruby, Sapphire — September 29 to October 3, 2003
 - Pikachu: **Pikachu** — Lv. 50 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Thunderbolt; Agility; Thunder; Light Screen — Ruby, Sapphire — August 30 to September 4, 2003
 - Gloom: **Gloom** — Lv. 50 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Sleep Powder; Acid; Moonlight; Petal Dance — Ruby, Sapphire — August 30 to September 4, 2003
 - Staryu: **Staryu** — Lv. 50 — OT PCNYb / PCNYb / PCNYc / PCNYc / ID 00001-65535 — Minimize; Light Screen; Cosmic Power; Hydro Pump — Ruby, Sapphire — August 30 to September 4, 2003
@@ -561,16 +561,16 @@ Total event Pokémon: 2126.
 ### Gather More Pokémon! Campaign
 
 - Pikachu
-  - **Pikachu** — Lv. 10 — OT (Various) / ID 60505 — ThunderShock; Growl; Tail Whip; Thunder Wave — Ruby, Sapphire, FireRed, LeafGreen, Emerald — April 22 to May 7, 2006; May 3 to 8, 2006
-  - **Pikachu** — Lv. 10 — OT (Various) / ID 60321 — ThunderShock; Growl; Tail Whip; Thunder Wave — Ruby, Sapphire, FireRed, LeafGreen, Emerald — March 21 to April 9, 2006; March 28 to April 5, 2006
-  - **Pikachu** — Lv. 10 — OT (Various) / ID 60114 — ThunderShock; Growl; Tail Whip; Thunder Wave — Ruby, Sapphire, FireRed, LeafGreen, Emerald — January 14 to 29, 2006
+  - **Pikachu** — Lv. 10 — OT (Various) / ID 60505 — Thunder Shock; Growl; Tail Whip; Thunder Wave — Ruby, Sapphire, FireRed, LeafGreen, Emerald — April 22 to May 7, 2006; May 3 to 8, 2006
+  - **Pikachu** — Lv. 10 — OT (Various) / ID 60321 — Thunder Shock; Growl; Tail Whip; Thunder Wave — Ruby, Sapphire, FireRed, LeafGreen, Emerald — March 21 to April 9, 2006; March 28 to April 5, 2006
+  - **Pikachu** — Lv. 10 — OT (Various) / ID 60114 — Thunder Shock; Growl; Tail Whip; Thunder Wave — Ruby, Sapphire, FireRed, LeafGreen, Emerald — January 14 to 29, 2006
 - Hoothoot: **Hoothoot** — Lv. 10 — OT (Various) / ID 60505 — Tackle; Growl; Foresight — Ruby, Sapphire, FireRed, LeafGreen, Emerald — April 22 to May 7, 2006; May 3 to 8, 2006
-- Mareep: **Mareep** — Lv. 10 — OT (Various) / ID 60505 — Tackle; Growl; ThunderShock — Ruby, Sapphire, FireRed, LeafGreen, Emerald — April 22 to May 7, 2006; May 3 to 8, 2006
-- Aipom: **Aipom** — Lv. 10 — OT (Various) / ID 60505 — Scratch; Tail Whip; Sand-Attack — Ruby, Sapphire, FireRed, LeafGreen, Emerald — April 22 to May 7, 2006; May 3 to 8, 2006
+- Mareep: **Mareep** — Lv. 10 — OT (Various) / ID 60505 — Tackle; Growl; Thunder Shock — Ruby, Sapphire, FireRed, LeafGreen, Emerald — April 22 to May 7, 2006; May 3 to 8, 2006
+- Aipom: **Aipom** — Lv. 10 — OT (Various) / ID 60505 — Scratch; Tail Whip; Sand Attack — Ruby, Sapphire, FireRed, LeafGreen, Emerald — April 22 to May 7, 2006; May 3 to 8, 2006
 - Sunkern: **Sunkern** — Lv. 10 — OT (Various) / ID 60505 — Absorb; Growth — Ruby, Sapphire, FireRed, LeafGreen, Emerald — April 22 to May 7, 2006; May 3 to 8, 2006
 - Wobbuffet: **Wobbuffet** — Lv. 10 — OT (Various) / ID 60505 — Counter; Mirror Coat; Safeguard; Destiny Bond — Ruby, Sapphire, FireRed, LeafGreen, Emerald — April 22 to May 7, 2006; May 3 to 8, 2006
-- Pineco: **Pineco** — Lv. 10 — OT (Various) / ID 60505 — Tackle; Protect; Selfdestruct — Ruby, Sapphire, FireRed, LeafGreen, Emerald — April 22 to May 7, 2006; May 3 to 8, 2006
-- Gligar: **Gligar** — Lv. 10 — OT (Various) / ID 60505 — Poison Sting; Sand-Attack — Ruby, Sapphire, FireRed, LeafGreen, Emerald — April 22 to May 7, 2006; May 3 to 8, 2006
+- Pineco: **Pineco** — Lv. 10 — OT (Various) / ID 60505 — Tackle; Protect; Self-Destruct — Ruby, Sapphire, FireRed, LeafGreen, Emerald — April 22 to May 7, 2006; May 3 to 8, 2006
+- Gligar: **Gligar** — Lv. 10 — OT (Various) / ID 60505 — Poison Sting; Sand Attack — Ruby, Sapphire, FireRed, LeafGreen, Emerald — April 22 to May 7, 2006; May 3 to 8, 2006
 - Snubbull: **Snubbull** — Lv. 10 — OT (Various) / ID 60505 — Tackle; Scary Face; Tail Whip; Charm — Ruby, Sapphire, FireRed, LeafGreen, Emerald — April 22 to May 7, 2006; May 3 to 8, 2006
 - Shuckle: **Shuckle** — Lv. 10 — OT (Various) / ID 60505 — Constrict; Withdraw; Wrap — Ruby, Sapphire, FireRed, LeafGreen, Emerald — April 22 to May 7, 2006; May 3 to 8, 2006
 - Teddiursa: **Teddiursa** — Lv. 10 — OT (Various) / ID 60505 — Scratch; Leer; Lick — Ruby, Sapphire, FireRed, LeafGreen, Emerald — April 22 to May 7, 2006; May 3 to 8, 2006
@@ -604,7 +604,7 @@ Total event Pokémon: 2126.
 - Chansey: **Chansey** — Lv. 10 — OT (Various) / ID 60114 — Pound; Growl; Tail Whip; Refresh — Ruby, Sapphire, FireRed, LeafGreen, Emerald — January 14 to 29, 2006
 - Kangaskhan: **Kangaskhan** — Lv. 10 — OT (Various) / ID 60114 — Comet Punch; Leer; Bite — Ruby, Sapphire, FireRed, LeafGreen, Emerald — January 14 to 29, 2006
 - Scyther: **Scyther** — Lv. 10 — OT (Various) / ID 60114 — Quick Attack; Leer; Focus Energy — Ruby, Sapphire, FireRed, LeafGreen, Emerald — January 14 to 29, 2006
-- Electabuzz: **Electabuzz** — Lv. 10 — OT (Various) / ID 60114 — Quick Attack; Leer; ThunderPunch — Ruby, Sapphire, FireRed, LeafGreen, Emerald — January 14 to 29, 2006
+- Electabuzz: **Electabuzz** — Lv. 10 — OT (Various) / ID 60114 — Quick Attack; Leer; Thunder Punch — Ruby, Sapphire, FireRed, LeafGreen, Emerald — January 14 to 29, 2006
 - Magmar: **Magmar** — Lv. 10 — OT (Various) / ID 60114 — Ember; Leer; Smog; Fire Punch — Ruby, Sapphire, FireRed, LeafGreen, Emerald — January 14 to 29, 2006
 - Tauros: **Tauros** — Lv. 10 — OT (Various) / ID 60114 — Tackle; Tail Whip; Rage; Horn Attack — Ruby, Sapphire, FireRed, LeafGreen, Emerald — January 14 to 29, 2006
 - Murkrow: **Murkrow** — Lv. 10 — OT (Various) / ID 60114 — Peck; Astonish — Ruby, Sapphire, FireRed, LeafGreen, Emerald — January 14 to 29, 2006
@@ -614,7 +614,7 @@ Total event Pokémon: 2126.
 - Delibird: **Delibird** — Lv. 10 — OT (Various) / ID 60114 — Present — Ruby, Sapphire, FireRed, LeafGreen, Emerald — January 14 to 29, 2006
 - Mantine: **Mantine** — Lv. 10 — OT (Various) / ID 60114 — Tackle; Bubble; Supersonic — Ruby, Sapphire, FireRed, LeafGreen, Emerald — January 14 to 29, 2006
 - Chikorita: **Chikorita** — Lv. 10 — OT (Various) / ID 51224 — Tackle; Growl; Razor Leaf — Ruby, Sapphire, FireRed, LeafGreen, Emerald — December 9, 2005 to January 1, 2006; December 17 to 31, 2005; / December 17, 2005 to January 10, 2006
-- Cyndaquil: **Cyndaquil** — Lv. 10 — OT (Various) / ID 51224 — Tackle; Leer; SmokeScreen — Ruby, Sapphire, FireRed, LeafGreen, Emerald — December 9, 2005 to January 1, 2006; December 17 to 31, 2005; / December 17, 2005 to January 10, 2006
+- Cyndaquil: **Cyndaquil** — Lv. 10 — OT (Various) / ID 51224 — Tackle; Leer; Smokescreen — Ruby, Sapphire, FireRed, LeafGreen, Emerald — December 9, 2005 to January 1, 2006; December 17 to 31, 2005; / December 17, 2005 to January 10, 2006
 - Totodile: **Totodile** — Lv. 10 — OT (Various) / ID 51224 — Scratch; Leer; Rage — Ruby, Sapphire, FireRed, LeafGreen, Emerald — December 9, 2005 to January 1, 2006; December 17 to 31, 2005; / December 17, 2005 to January 10, 2006
 - Treecko: **Treecko** — Lv. 10 — OT (Various) / ID 51126 — Pound; Leer; Absorb — Ruby, Sapphire, FireRed, LeafGreen, Emerald — November 26 to December 11, 2005; December 9 to 11, 2005
 - Torchic: **Torchic** — Lv. 10 — OT (Various) / ID 51126 — Scratch; Growl; Focus Energy; Ember — Ruby, Sapphire, FireRed, LeafGreen, Emerald — November 26 to December 11, 2005; December 9 to 11, 2005
@@ -622,7 +622,7 @@ Total event Pokémon: 2126.
 
 ### Party of the Decade
 
-- Bulbasaur: **Bulbasaur** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 06808 — Sweet Scent; Growth; Synthesis; SolarBeam — Ruby, Sapphire, FireRed, LeafGreen, Emerald — August 8, 2006
+- Bulbasaur: **Bulbasaur** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 06808 — Sweet Scent; Growth; Synthesis; Solar Beam — Ruby, Sapphire, FireRed, LeafGreen, Emerald — August 8, 2006
 - Charizard: **Charizard** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 06808 — Wing Attack; Slash; Dragon Rage; Fire Spin — Ruby, Sapphire, FireRed, LeafGreen, Emerald — August 8, 2006
 - Blastoise: **Blastoise** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 06808 — Protect; Rain Dance; Skull Bash; Hydro Pump — Ruby, Sapphire, FireRed, LeafGreen, Emerald — August 8, 2006
 - Pikachu: **Pikachu** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 06808 — Thunderbolt; Fly; Thunder; Light Screen — Ruby, Sapphire, FireRed, LeafGreen, Emerald — August 8, 2006
@@ -633,7 +633,7 @@ Total event Pokémon: 2126.
 - Dragonite: **Dragonite** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 06808 — Agility; Safeguard; Wing Attack; Outrage — Ruby, Sapphire, FireRed, LeafGreen, Emerald — August 8, 2006
 - Typhlosion: **Typhlosion** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 06808 — Quick Attack; Flame Wheel; Swift; Flamethrower — Ruby, Sapphire, FireRed, LeafGreen, Emerald — August 8, 2006
 - Espeon: **Espeon** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 06808 — Psybeam; Psych Up; Psychic; Morning Sun — Ruby, Sapphire, FireRed, LeafGreen, Emerald — August 8, 2006
-- Umbreon: **Umbreon** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 06808 — Faint Attack; Mean Look; Screech; Moonlight — Ruby, Sapphire, FireRed, LeafGreen, Emerald — August 8, 2006
+- Umbreon: **Umbreon** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 06808 — Feint Attack; Mean Look; Screech; Moonlight — Ruby, Sapphire, FireRed, LeafGreen, Emerald — August 8, 2006
 - Raikou: **Raikou** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 06808 — Quick Attack; Spark; Reflect; Crunch — Ruby, Sapphire, FireRed, LeafGreen, Emerald — August 8, 2006
 - Entei: **Entei** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 06808 — Fire Spin; Stomp; Flamethrower; Swagger — Ruby, Sapphire, FireRed, LeafGreen, Emerald — August 8, 2006
 - Suicune: **Suicune** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 06808 — Gust; Aurora Beam; Mist; Mirror Coat — Ruby, Sapphire, FireRed, LeafGreen, Emerald — August 8, 2006
@@ -645,8 +645,8 @@ Total event Pokémon: 2126.
 
 ### Journey Across America
 
-- Celebi: **Celebi** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 00010 — AncientPower; Future Sight; Baton Pass; Perish Song — Ruby, Sapphire, FireRed, LeafGreen, Emerald — February 25 to July 23, 2006
-- Bulbasaur: **Bulbasaur** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 00010 — Sweet Scent; Growth; Synthesis; SolarBeam — Ruby, Sapphire, FireRed, LeafGreen, Emerald — February 25 to July 23, 2006
+- Celebi: **Celebi** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 00010 — Ancient Power; Future Sight; Baton Pass; Perish Song — Ruby, Sapphire, FireRed, LeafGreen, Emerald — February 25 to July 23, 2006
+- Bulbasaur: **Bulbasaur** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 00010 — Sweet Scent; Growth; Synthesis; Solar Beam — Ruby, Sapphire, FireRed, LeafGreen, Emerald — February 25 to July 23, 2006
 - Charizard: **Charizard** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 00010 — Wing Attack; Slash; Dragon Rage; Fire Spin — Ruby, Sapphire, FireRed, LeafGreen, Emerald — February 25 to July 23, 2006
 - Blastoise: **Blastoise** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 00010 — Protect; Rain Dance; Skull Bash; Hydro Pump — Ruby, Sapphire, FireRed, LeafGreen, Emerald — February 25 to July 23, 2006
 - Pikachu: **Pikachu** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 00010 — Thunderbolt; Agility; Thunder; Light Screen — Ruby, Sapphire, FireRed, LeafGreen, Emerald — February 25 to July 23, 2006
@@ -657,7 +657,7 @@ Total event Pokémon: 2126.
 - Dragonite: **Dragonite** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 00010 — Agility; Safeguard; Wing Attack; Outrage — Ruby, Sapphire, FireRed, LeafGreen, Emerald — February 25 to July 23, 2006
 - Typhlosion: **Typhlosion** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 00010 — Quick Attack; Flame Wheel; Swift; Flamethrower — Ruby, Sapphire, FireRed, LeafGreen, Emerald — February 25 to July 23, 2006
 - Espeon: **Espeon** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 00010 — Psybeam; Psych Up; Psychic; Morning Sun — Ruby, Sapphire, FireRed, LeafGreen, Emerald — February 25 to July 23, 2006
-- Umbreon: **Umbreon** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 00010 — Faint Attack; Mean Look; Screech; Moonlight — Ruby, Sapphire, FireRed, LeafGreen, Emerald — February 25 to July 23, 2006
+- Umbreon: **Umbreon** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 00010 — Feint Attack; Mean Look; Screech; Moonlight — Ruby, Sapphire, FireRed, LeafGreen, Emerald — February 25 to July 23, 2006
 - Raikou: **Raikou** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 00010 — Quick Attack; Spark; Reflect; Crunch — Ruby, Sapphire, FireRed, LeafGreen, Emerald — February 25 to July 23, 2006
 - Entei: **Entei** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 00010 — Fire Spin; Stomp; Flamethrower; Swagger — Ruby, Sapphire, FireRed, LeafGreen, Emerald — February 25 to July 23, 2006
 - Suicune: **Suicune** — Lv. 70 — OT 10 ANIV / 10 ANIV / ID 00010 — Gust; Aurora Beam; Mist; Mirror Coat — Ruby, Sapphire, FireRed, LeafGreen, Emerald — February 25 to July 23, 2006
@@ -672,7 +672,7 @@ Total event Pokémon: 2126.
 - Ekans: **Ekans** — Lv. 14 — OT JEREMY / ID 24680 — Wrap; Leer; Poison Sting; Bite — FireRed, LeafGreen — September 25, 2004
 - Sandshrew: **Sandshrew** — Lv. 12 — OT JEREMY / ID 13579 — Scratch; Defense Curl; Sand Attack — FireRed, LeafGreen — September 25, 2004
 - Vulpix: **Vulpix** — Lv. 18 — OT JEREMY / ID 13579 — Tail Whip; Roar; Quick Attack; Will-O-Wisp — FireRed, LeafGreen — September 25, 2004
-- Oddish: **Oddish** — Lv. 26 — OT JEREMY / ID 24680 — PoisonPowder; Stun Spore; Sleep Powder; Acid — FireRed, LeafGreen — September 25, 2004
+- Oddish: **Oddish** — Lv. 26 — OT JEREMY / ID 24680 — Poison Powder; Stun Spore; Sleep Powder; Acid — FireRed, LeafGreen — September 25, 2004
 - Psyduck: **Psyduck** — Lv. 27 — OT JEREMY / ID 24680 — Tail Whip; Disable; Confusion; Screech — FireRed, LeafGreen — September 25, 2004
 - Growlithe: **Growlithe** — Lv. 32 — OT JEREMY / ID 24680 — Leer; Odor Sleuth; Take Down; Flame Wheel — FireRed, LeafGreen — September 25, 2004
 - Machoke: **Machoke** — Lv. 38 — OT JEREMY / ID 13579 — Seismic Toss; Foresight; Revenge; Vital Throw — FireRed, LeafGreen — September 25, 2004
@@ -687,9 +687,9 @@ Total event Pokémon: 2126.
 - Channel Jirachi: **Jirachi** — Lv. 5 — OT CHANNEL / CHANNEL / ID 40122 — Wish; Confusion; Rest — Ruby, Sapphire, FireRed, LeafGreen, Emerald
 - Wishmaker Jirachi: **Jirachi** — Lv. 5 — OT WISHMKR / ID 20043 — Wish; Confusion; Rest — Ruby, Sapphire, Colosseum
 - Ageto Celebi: **Celebi** — Lv. 10 — OT アゲト / ID 31121 — Confusion; Recover; Heal Bell; Safeguard — Ruby, Sapphire, FireRed, LeafGreen, Emerald, Colosseum  _(also listed in: Pokémon Colosseum Bonus Disc — Ageto Celebi)_
-- Colosseum Pikachu: **Pikachu** — Lv. 10 — OT コロシアム / ID 31121 — ThunderShock; Growl; Tail Whip; Thunder Wave — Ruby, Sapphire, FireRed, LeafGreen, Emerald, Colosseum  _(also listed in: Pokémon Colosseum Bonus Disc — Colosseum Pikachu)_
+- Colosseum Pikachu: **Pikachu** — Lv. 10 — OT コロシアム / ID 31121 — Thunder Shock; Growl; Tail Whip; Thunder Wave — Ruby, Sapphire, FireRed, LeafGreen, Emerald, Colosseum  _(also listed in: Pokémon Colosseum Bonus Disc — Colosseum Pikachu)_
 - Swablu Egg: **Swablu** — Lv. 5 — Egg — Peck; Growl; False Swipe — Ruby, Sapphire, FireRed, LeafGreen, Emerald, Pokémon Box
-- Zigzagoon Egg: **Zigzagoon** — Lv. 5 — Egg — Tackle; Growl; Tail Whip; ExtremeSpeed — Ruby, Sapphire, FireRed, LeafGreen, Emerald, Pokémon Box
+- Zigzagoon Egg: **Zigzagoon** — Lv. 5 — Egg — Tackle; Growl; Tail Whip; Extreme Speed — Ruby, Sapphire, FireRed, LeafGreen, Emerald, Pokémon Box
 - Skitty Egg: **Skitty** — Lv. 5 — Egg — Tackle; Growl; Tail Whip; Pay Day — Ruby, Sapphire, FireRed, LeafGreen, Emerald, Pokémon Box
 - Pichu Egg: **Pichu** — Lv. 5 — Egg — Thunder Shock; Charm; Surf — Ruby, Sapphire, FireRed, LeafGreen, Emerald, Pokémon Box
 
@@ -697,19 +697,19 @@ Total event Pokémon: 2126.
 
 ### Local Japanese events
 
-- 2010 Birthday Chimchar: **Chimchar** — Lv. 40 — OT ナゴヤ / ID 09120 — Flamethrower; ThunderPunch; Grass Knot; Helping Hand — Diamond, Pearl, Platinum, HeartGold, SoulSilver — September 12 to November 3, 2010
-- 7-Eleven Pikachu: **Pikachu** — Lv. 20 — OT セブン / ID 08200 — Present; Quick Attack; ThunderShock; Tail Whip — Diamond, Pearl, Platinum, HeartGold, SoulSilver — August 20 to September 5, 2010
+- 2010 Birthday Chimchar: **Chimchar** — Lv. 40 — OT ナゴヤ / ID 09120 — Flamethrower; Thunder Punch; Grass Knot; Helping Hand — Diamond, Pearl, Platinum, HeartGold, SoulSilver — September 12 to November 3, 2010
+- 7-Eleven Pikachu: **Pikachu** — Lv. 20 — OT セブン / ID 08200 — Present; Quick Attack; Thunder Shock; Tail Whip — Diamond, Pearl, Platinum, HeartGold, SoulSilver — August 20 to September 5, 2010
 - 2010 World Championships Crobat: **Crobat** — Lv. 30 — OT WORLD10 / ID 08150 — Heat Wave; Air Slash; Sludge Bomb; Super Fang — Diamond, Pearl, Platinum, HeartGold, SoulSilver — August 15, 2010
 - 2010 Birthday Charmander: **Charmander** — Lv. 40 — OT トウキョー / ID 07200 — Return; Hidden Power; Quick Attack; Howl — Diamond, Pearl, Platinum, HeartGold, SoulSilver — July 20 to November 3, 2010
 - Cinema Celebi: **Celebi** — Lv. 50 — OT えいがかん / ID 07100 — Leaf Storm; Recover; Nasty Plot; Healing Wish — Diamond, Pearl, Platinum, HeartGold, SoulSilver — July 3, 2010; July 10 to September 30, 2010  _(also listed in: Movie events — Eigakan Celebi)_
-- Raikou: **Raikou** ★ — Lv. 30 — OT クラウン / ID 06180 — Zap Cannon; Weather Ball; Aura Sphere; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — June 18 to August 31, 2010  _(also listed in: Movie events — Eigakan Raikou)_
-- Entei: **Entei** ★ — Lv. 30 — OT クラウン / ID 06180 — Flare Blitz; Crush Claw; Howl; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — June 18 to August 31, 2010  _(also listed in: Movie events — Eigakan Entei)_
-- Suicune: **Suicune** ★ — Lv. 30 — OT クラウン / ID 06180 — Sheer Cold; Aqua Ring; Air Slash; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — June 18 to August 31, 2010  _(also listed in: Movie events — Eigakan Suicune)_
+- Raikou: **Raikou** ★ — Lv. 30 — OT クラウン / ID 06180 — Zap Cannon; Weather Ball; Aura Sphere; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — June 18 to August 31, 2010  _(also listed in: Movie events — Eigakan Raikou)_
+- Entei: **Entei** ★ — Lv. 30 — OT クラウン / ID 06180 — Flare Blitz; Crush Claw; Howl; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — June 18 to August 31, 2010  _(also listed in: Movie events — Eigakan Entei)_
+- Suicune: **Suicune** ★ — Lv. 30 — OT クラウン / ID 06180 — Sheer Cold; Aqua Ring; Air Slash; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — June 18 to August 31, 2010  _(also listed in: Movie events — Eigakan Suicune)_
 - 2010 World Championships Eevee: **Eevee** ★ — Lv. 50 — OT ＷＣＳ / ID 01110 — Iron Tail; Trump Card; Flail; Quick Attack — HeartGold, SoulSilver — January 11 to May 9, 2010
 - 2009 Birthday Pikachu: **Pikachu** — Lv. 40 — OT ヨコハマ / ID 12269 — Surf; Thunder; Protect — Diamond, Pearl, Platinum, HeartGold, SoulSilver — December 26, 2009 to November 3, 2010
 - Ario Pikachu: **Pikachu** — Lv. 20 — OT アリオ / ID 11219 — Present; Quick Attack; Thunder Wave; Tail Whip — Diamond, Pearl, Platinum, HeartGold, SoulSilver — November 21 to 23, 2009
 - Kyoto Cross Media Experience 2009 Pikachu: **Pikachu** — Lv. 30 — OT キョウト / ID 10039 — Last Resort; Present; Thunderbolt; Quick Attack — Diamond, Pearl, Platinum, HeartGold, SoulSilver — October 3 to 4, 2009
-- 2009 Birthday Chimchar: **Chimchar** — Lv. 40 — OT ナゴヤ / ID 09129 — Flamethrower; ThunderPunch; Grass Knot; Helping Hand — Diamond, Pearl, Platinum, HeartGold, SoulSilver — September 12, 2009 to September 11, 2010
+- 2009 Birthday Chimchar: **Chimchar** — Lv. 40 — OT ナゴヤ / ID 09129 — Flamethrower; Thunder Punch; Grass Knot; Helping Hand — Diamond, Pearl, Platinum, HeartGold, SoulSilver — September 12, 2009 to September 11, 2010
 - 2009 World Championships Weavile: **Weavile** — Lv. 30 — OT WORLD09 / ID 08159 — Fake Out; Ice Shard; Night Slash; Brick Break — Diamond, Pearl, Platinum — August 15, 2009
 - 2009 Birthday Charmander: **Charmander** — Lv. 40 — OT トウキョー / ID 07209 — Return; Hidden Power; Quick Attack; Howl — Diamond, Pearl, Platinum, HeartGold, SoulSilver — July 20, 2009 to July 19, 2010
 - Cinema Arceus: **Arceus** — Lv. 100 — OT えいがかん / ID 07189 — Judgment; Roar of Time; Spacial Rend; Shadow Force — Diamond, Pearl, Platinum — July 5, 2009; July 11 to 12, 2009; July 18 to September 30, 2009  _(also listed in: Movie events — Eigakan Arceus)_
@@ -725,12 +725,12 @@ Total event Pokémon: 2126.
 - 2008 Birthday Charmander: **Charmander** — Lv. 40 — OT トウキョー / ID 07208 — Return; Hidden Power; Quick Attack; Howl — Diamond, Pearl — July 20, 2008 to July 19, 2009
 - Cinema Shaymin: **Shaymin** — Lv. 50 — OT えいがかん / ID 07198 — Seed Flare; Aromatherapy; Substitute; Energy Ball — Diamond, Pearl — July 6, 2008; July 19 to September 30, 2008  _(also listed in: Movie events — Eigakan Shaymin)_
 - Movie Regigigas: **Regigigas** — Lv. 100 — OT テンイむら / ID 07198 — Iron Head; Rock Slide; Icy Wind; Crush Grip — Diamond, Pearl — June 20 to August 31, 2008  _(also listed in: Movie events — Eigakan Regigigas)_
-- McDonald's Pikachu: **Pikachu** — Lv. 20 — OT マック / ID 05308 — Quick Attack; ThunderShock; Tail Whip; Present — Diamond, Pearl — May 30 to June 19, 2008
+- McDonald's Pikachu: **Pikachu** — Lv. 20 — OT マック / ID 05308 — Quick Attack; Thunder Shock; Tail Whip; Present — Diamond, Pearl — May 30 to June 19, 2008
 - Salamence: **Salamence** — Lv. 50 — OT さいきょう / ID 02158 — Hydro Pump; Stone Edge; Fire Blast; Dragon Claw — Diamond, Pearl — February 15 to March 14, 2008
 - Dragonite: **Dragonite** — Lv. 50 — OT さいきょう / ID 01158 — Draco Meteor; Thunderbolt; Outrage; Dragon Dance — Diamond, Pearl — January 15 to February 14, 2008
 - Milotic: **Milotic** — Lv. 50 — OT さいきょう / ID 12157 — Rain Dance; Recover; Hydro Pump; Ice Beam — Diamond, Pearl — December 15, 2007 to January 14, 2008
 - Magmortar: **Magmortar** — Lv. 50 — OT さいきょう / ID 12017 — Confuse Ray; Fire Punch; Lava Plume; Flamethrower — Diamond, Pearl — December 1 to 14, 2007
-- Electivire: **Electivire** — Lv. 50 — OT さいきょう / ID 11157 — Light Screen; ThunderPunch; Discharge; Thunderbolt — Diamond, Pearl — November 15 to 30, 2007
+- Electivire: **Electivire** — Lv. 50 — OT さいきょう / ID 11157 — Light Screen; Thunder Punch; Discharge; Thunderbolt — Diamond, Pearl — November 15 to 30, 2007
 - Golgo Octillery: **Octillery** — Lv. 50 — OT ごるこ / ID 10147 — Octazooka; Ice Beam; Signal Beam; Hyper Beam — Diamond, Pearl — October 14 to 31, 2007
 - 2007 Birthday Charmander: **Charmander** — Lv. 40 — OT トウキョー / ID 07207 — Return; Hidden Power; Quick Attack; Howl — Diamond, Pearl — July 20, 2007 to July 19, 2008
 - Second distribution: **Manaphy** — Lv. 50 — OT パルシティ / ID 07157 — Heart Swap; Water Pulse; Whirlpool; Acid Armor — Diamond, Pearl — July 28 to 29, August 3 to 5, / August 10 to 12, August 17 to 19, / August 31 to September 2, 2007
@@ -741,23 +741,23 @@ Total event Pokémon: 2126.
 - Makuhari PalCity Mew: **Mew** — Lv. 50 — OT パルシティ / ID 07157 — Mega Punch; Metronome; Teleport; Aura Sphere — Diamond, Pearl — August 3 to 5, 2007
 - Nagoya PalCity Mew: **Mew** — Lv. 50 — OT パルシティ / ID 07157 — Psychic; Metronome; Teleport; Aura Sphere — Diamond, Pearl — August 10 to 12, 2007
 - Yokohama PalCity Mew: **Mew** — Lv. 50 — OT パルシティ / ID 07157 — Barrier; Metronome; Teleport; Aura Sphere — Diamond, Pearl — August 17 to 19, 2007
-- Osaka PalCity Mew: **Mew** — Lv. 50 — OT パルシティ / ID 07157 — AncientPower; Metronome; Teleport; Aura Sphere — Diamond, Pearl — August 31 to September 2, 2007
+- Osaka PalCity Mew: **Mew** — Lv. 50 — OT パルシティ / ID 07157 — Ancient Power; Metronome; Teleport; Aura Sphere — Diamond, Pearl — August 31 to September 2, 2007
 - Cinema Darkrai: **Darkrai** — Lv. 50 — OT えいがかん / ID 07147 — Roar of Time; Spacial Rend; Nightmare; Hypnosis — Diamond, Pearl — July 1, 2007; July 14 to September 9, 2007  _(also listed in: Movie events — Eigakan Darkrai)_
 - 2007 Tanabata Jirachi: **Jirachi** — Lv. 5 — OT タナバタ / ID 07077 — Wish; Confusion; Rest — Diamond, Pearl — July 1 to 22, 2007  _(also listed in: Tanabata events — 2007)_
-- 10th Movie Deoxys: **Deoxys** — Lv. 50 — OT １０ｔｈ / ID 07147 — Psycho Boost; Zap Cannon; Iron Defense; ExtremeSpeed — Diamond, Pearl — June 23 to September 2, 2007  _(also listed in: Movie events — １０ｔｈ Deoxys)_
+- 10th Movie Deoxys: **Deoxys** — Lv. 50 — OT １０ｔｈ / ID 07147 — Psycho Boost; Zap Cannon; Iron Defense; Extreme Speed — Diamond, Pearl — June 23 to September 2, 2007  _(also listed in: Movie events — １０ｔｈ Deoxys)_
 - Yamamoto Whiscash: **Whiscash** — Lv. 51 — OT やまもと / ID 03217 — Earthquake; Aqua Tail; Zen Headbutt; Giga Impact — Diamond, Pearl — March 21 to April 9, 2007
-- Shokotan Tropius: **Tropius** — Lv. 53 — OT しょこたん / ID 02027 — Air Slash; Synthesis; Sunny Day; SolarBeam — Diamond, Pearl — February 3 to February 12, 2007
+- Shokotan Tropius: **Tropius** — Lv. 53 — OT しょこたん / ID 02027 — Air Slash; Synthesis; Sunny Day; Solar Beam — Diamond, Pearl — February 3 to February 12, 2007
 - World Hobby Fair Manaphy: **Manaphy** — Lv. 5 — OT みずのたみ / ID 12226 — Tail Glow; Bubble; Water Sport — Diamond, Pearl — January 14 to March 11, 2007  _(also listed in: Movie events — World Hobby Fair Manaphy)_
-- Electabuzz: **Electabuzz** — Lv. 30 — OT フェスタ / ID 11256 — Low Kick; Shock Wave; Light Screen; ThunderPunch — Pearl — November 25, 2006 to January 31, 2007
-- Magmar: **Magmar** — Lv. 30 — OT フェスタ / ID 11256 — SmokeScreen; Fire Spin; Confuse Ray; Fire Punch — Diamond — November 25, 2006 to January 31, 2007
+- Electabuzz: **Electabuzz** — Lv. 30 — OT フェスタ / ID 11256 — Low Kick; Shock Wave; Light Screen; Thunder Punch — Pearl — November 25, 2006 to January 31, 2007
+- Magmar: **Magmar** — Lv. 30 — OT フェスタ / ID 11256 — Smokescreen; Fire Spin; Confuse Ray; Fire Punch — Diamond — November 25, 2006 to January 31, 2007
 - Concert Chatot: **Chatot** — Lv. 25 — OT コンサート / ID 10286 — Mirror Move; Fury Attack; Chatter; Taunt — Diamond, Pearl — October 28 to December 10, 2006
 
 ### Local English events
 
-- GameStop Suicune: **Suicune** ★ — Lv. 30 — OT GAMESTP / ID 01311 — Sheer Cold; Aqua Ring; Air Slash; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — January 31 to February 6, 2011  _(also listed in: Movie events — GameStop Suicune)_
+- GameStop Suicune: **Suicune** ★ — Lv. 30 — OT GAMESTP / ID 01311 — Sheer Cold; Aqua Ring; Air Slash; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — January 31 to February 6, 2011  _(also listed in: Movie events — GameStop Suicune)_
 - Ash's Pikachu: **Pikachu** — Lv. 50 — OT Ash / ID 01301 — Volt Tackle; Iron Tail; Quick Attack; Thunderbolt — Diamond, Pearl, Platinum, HeartGold, SoulSilver — 2011
-- GameStop Entei: **Entei** ★ — Lv. 30 — OT GAMESTP / ID 01171 — Flare Blitz; Crush Claw; Howl; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — January 17 to 23, 2011  _(also listed in: Movie events — GameStop Entei)_
-- GameStop Raikou: **Raikou** ★ — Lv. 30 — OT GAMESTP / ID 01031 — Zap Cannon; Weather Ball; Aura Sphere; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — January 3 to 9, 2011  _(also listed in: Movie events — GameStop Raikou)_
+- GameStop Entei: **Entei** ★ — Lv. 30 — OT GAMESTP / ID 01171 — Flare Blitz; Crush Claw; Howl; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — January 17 to 23, 2011  _(also listed in: Movie events — GameStop Entei)_
+- GameStop Raikou: **Raikou** ★ — Lv. 30 — OT GAMESTP / ID 01031 — Zap Cannon; Weather Ball; Aura Sphere; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — January 3 to 9, 2011  _(also listed in: Movie events — GameStop Raikou)_
 - European Winter 2011 Celebi: **Celebi** — Lv. 50 — OT WIN2011 / ID 01211 — Leaf Storm; Recover; Nasty Plot; Healing Wish — Diamond, Pearl, Platinum, HeartGold, SoulSilver — 2011
 - Americas Winter 2011 Celebi: **Celebi** — Lv. 50 — OT WIN2011 / ID 02211 — Leaf Storm; Recover; Nasty Plot; Healing Wish — Diamond, Pearl, Platinum, HeartGold, SoulSilver — 2011  _(also listed in: Movie events — North America Winter 2011 Celebi)_
 - 2010 World Championships Crobat: **Crobat** — Lv. 30 — OT WORLD10 / ID 08150 — Heat Wave; Air Slash; Sludge Bomb; Super Fang — Diamond, Pearl, Platinum, HeartGold, SoulSilver — August 15, 2010
@@ -776,12 +776,12 @@ Total event Pokémon: 2126.
 - Movie 11 Shaymin: **Shaymin** — Lv. 50 — OT Movie11 / ID 04019 — Seed Flare; Aromatherapy; Substitute; Energy Ball — Diamond, Pearl — 2009  _(also listed in: Movie events — Europe Movie 11 Shaymin)_
 - Toys "R" Us Regigigas: **Regigigas** — Lv. 100 — OT TRU / ID 03089 — Iron Head; Rock Slide; Icy Wind; Crush Grip — Diamond, Pearl — March 8 to 21, 2009  _(also listed in: Movie events — Toys "R" Us Regigigas)_
 - Toys "R" Us Shaymin: **Shaymin** — Lv. 50 — OT TRU / ID 02089 — Seed Flare; Aromatherapy; Substitute; Energy Ball — Diamond, Pearl — February 8 to 14, 2009  _(also listed in: Movie events — Toys "R" Us Shaymin)_
-- Nintendo Zone Pikachu: **Pikachu** — Lv. 20 — OT Nzone / ID 10278 — Present; Quick Attack; ThunderShock; Tail Whip — Diamond, Pearl — November 17 to December 31, 2008
+- Nintendo Zone Pikachu: **Pikachu** — Lv. 20 — OT Nzone / ID 10278 — Present; Quick Attack; Thunder Shock; Tail Whip — Diamond, Pearl — November 17 to December 31, 2008
 - Toys "R" Us Dragonite: **Dragonite** — Lv. 50 — OT TRU / ID 11088 — Draco Meteor; Thunderbolt; Outrage; Dragon Dance — Diamond, Pearl — November 8 to 9, 2008
 - Australian Alamos Darkrai: **Darkrai** — Lv. 50 — OT ALAMOS / ID 10308 — Roar of Time; Spacial Rend; Nightmare; Hypnosis — Diamond, Pearl — October 30 to November 9, 2008  _(also listed in: Movie events — Target & Toys "R" Us Darkrai)_
 - 2008 World Championships Lucario: **Lucario** — Lv. 30 — OT WORLD08 / ID 08178 — Force Palm; Bone Rush; Sunny Day; Blaze Kick — Diamond, Pearl — August 17, 2008
 - European Alamos Darkrai: **Darkrai** — Lv. 50 — OT ALAMOS / ID 07038 — Roar of Time; Spacial Rend; Nightmare; Hypnosis — Diamond, Pearl — 2008  _(also listed in: Movie events — Europe Alamos Darkrai)_
-- GameStop Deoxys: **Deoxys** — Lv. 50 — OT Gamestp / ID 06218 — Psycho Boost; Zap Cannon; Iron Defense; ExtremeSpeed — Diamond, Pearl — June 20 to July 13, 2008  _(also listed in: Movie events — GameStop Deoxys)_
+- GameStop Deoxys: **Deoxys** — Lv. 50 — OT Gamestp / ID 06218 — Psycho Boost; Zap Cannon; Iron Defense; Extreme Speed — Diamond, Pearl — June 20 to July 13, 2008  _(also listed in: Movie events — GameStop Deoxys)_
 - Nintendo World Store Darkrai: **Darkrai** — Lv. 50 — OT ALAMOS / ID 05318 — Roar of Time; Spacial Rend; Nightmare; Hypnosis — Diamond, Pearl — June 1 to 30, 2008  _(also listed in: Movie events — Nintendo World Store Darkrai; Movie events — Toys "R" Us Darkrai)_
 - Toys "R" Us Darkrai: **Darkrai** — Lv. 50 — OT ALAMOS / ID 05318 — Roar of Time; Spacial Rend; Nightmare; Hypnosis — Diamond, Pearl — May 31 to June 1, 2008
 - JB Hi-Fi Manaphy: **Manaphy** — Lv. 50 — OT JBHF / ID 11077 — Heart Swap; Water Pulse; Whirlpool; Acid Armor — Diamond, Pearl — November 7 to 13, 2007  _(also listed in: Movie events — JB Hi-Fi Manaphy)_
@@ -794,7 +794,7 @@ Total event Pokémon: 2126.
 
 - Winter 2011 Celebi: **Celebi** — Lv. 50 — OT WIN2011 / ID 01211 — Leaf Storm; Recover; Nasty Plot; Healing Wish — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 18 to 27, 2011
 - 2010 World Championships Crobat: **Crobat** — Lv. 30 — OT WORLD10 / ID 08150 — Heat Wave; Air Slash; Sludge Bomb; Super Fang — Diamond, Pearl, Platinum, HeartGold, SoulSilver — August 15, 2010
-- Nintendo Zone Pikachu: **Pikachu** — Lv. 20 — OT NZone / ID 07310 — Present; Quick Attack; ThunderShock; Tail Whip — Diamond, Pearl, Platinum, HeartGold, SoulSilver — July 31 to August 27, 2010
+- Nintendo Zone Pikachu: **Pikachu** — Lv. 20 — OT NZone / ID 07310 — Present; Quick Attack; Thunder Shock; Tail Whip — Diamond, Pearl, Platinum, HeartGold, SoulSilver — July 31 to August 27, 2010
 - Video Game Championships 2010 Eevee: **Eevee** ★ — Lv. 50 — OT VGC10 / ID 05080 — Iron Tail; Trump Card; Flail; Quick Attack — HeartGold, SoulSilver — June 5, 2010
 - Michina Arceus: **Arceus** — Lv. 100 — OT MICHINA / ID 02010 — Judgment; Roar of Time; Spacial Rend; Shadow Force — Diamond, Pearl, Platinum — February 17 to April 9, 2010
 - Summer 2009 Regigigas: **Regigigas** — Lv. 100 — OT EUSMR09 / ID 07189 — Iron Head; Rock Slide; Icy Wind; Crush Grip — Diamond, Pearl, Platinum — August 29 to October 4, 2009
@@ -845,11 +845,11 @@ Total event Pokémon: 2126.
 - Pokémon Love Manaphy: **Manaphy** — Lv. 50 — OT 포켓몬사랑 / ID 03121 — Aqua Ring; Water Pulse; Water Sport; Heart Swap — Diamond, Pearl, Platinum, HeartGold, SoulSilver — March 12 to April 17, 2011
 - Goone's Scizor: **Scizor** — Lv. 50 — OT 달건 / ID 01071 — X-Scissor; Swords Dance; Iron Defense; Agility — Diamond, Pearl, Platinum, HeartGold, SoulSilver — January 7 to 31, 2011
 - Cinema Celebi: **Celebi** — Lv. 50 — OT 영화관 / ID 12230 — Leaf Storm; Recover; Nasty Plot; Healing Wish — Diamond, Pearl, Platinum, HeartGold, SoulSilver — December 23, 2010 to February 28, 2011  _(also listed in: Movie events — Cinema Celebi)_
-- Crown City Suicune: **Suicune** ★ — Lv. 30 — OT 크라운시티 / ID 12160 — Sheer Cold; Aqua Ring; Air Slash; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — December 16, 2010 to January 9, 2011  _(also listed in: Movie events — Crown City Suicune)_
-- Crown City Entei: **Entei** ★ — Lv. 30 — OT 크라운시티 / ID 12160 — Flare Blitz; Crush Claw; Howl; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — December 16, 2010 to January 9, 2011  _(also listed in: Movie events — Crown City Entei)_
-- Crown City Raikou: **Raikou** ★ — Lv. 30 — OT 크라운시티 / ID 12160 — Zap Cannon; Weather Ball; Aura Sphere; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — December 16, 2010 to January 9, 2011  _(also listed in: Movie events — Crown City Raikou)_
-- Shinsegae Entei: **Entei** ★ — Lv. 30 — OT 크라운시티 / ID 10300 — Flare Blitz; Crush Claw; Howl; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — October 30 to November 28, 2010  _(also listed in: Movie events — Shinsegae Entei)_
-- Shinsegae Raikou: **Raikou** ★ — Lv. 30 — OT 크라운시티 / ID 09180 — Zap Cannon; Weather Ball; Aura Sphere; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — September 18 to October 24, 2010  _(also listed in: Movie events — Shinsegae Raikou)_
+- Crown City Suicune: **Suicune** ★ — Lv. 30 — OT 크라운시티 / ID 12160 — Sheer Cold; Aqua Ring; Air Slash; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — December 16, 2010 to January 9, 2011  _(also listed in: Movie events — Crown City Suicune)_
+- Crown City Entei: **Entei** ★ — Lv. 30 — OT 크라운시티 / ID 12160 — Flare Blitz; Crush Claw; Howl; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — December 16, 2010 to January 9, 2011  _(also listed in: Movie events — Crown City Entei)_
+- Crown City Raikou: **Raikou** ★ — Lv. 30 — OT 크라운시티 / ID 12160 — Zap Cannon; Weather Ball; Aura Sphere; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — December 16, 2010 to January 9, 2011  _(also listed in: Movie events — Crown City Raikou)_
+- Shinsegae Entei: **Entei** ★ — Lv. 30 — OT 크라운시티 / ID 10300 — Flare Blitz; Crush Claw; Howl; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — October 30 to November 28, 2010  _(also listed in: Movie events — Shinsegae Entei)_
+- Shinsegae Raikou: **Raikou** ★ — Lv. 30 — OT 크라운시티 / ID 09180 — Zap Cannon; Weather Ball; Aura Sphere; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — September 18 to October 24, 2010  _(also listed in: Movie events — Shinsegae Raikou)_
 - Summer Festival Milotic: **Milotic** ★ — Lv. 50 — OT 캐릭터페어 / ID 07210 — Rain Dance; Recover; Hydro Pump; Icy Wind — HeartGold, SoulSilver — July 21 to 25, 2010
 - Times Square Shaymin: **Shaymin** — Lv. 30 — OT 타임스퀘어 / ID 05010 — Growth; Magical Leaf; Leech Seed; Return — Diamond, Pearl, Platinum, HeartGold, SoulSilver — May 1 to 2, 2010
 - Nintendo of Korea Jirachi: **Jirachi** — Lv. 5 — OT 한국닌텐도 / ID 01300 — Wish; Confusion; Rest — Diamond, Pearl, Platinum — January 30 to 31, 2010
@@ -860,14 +860,14 @@ Total event Pokémon: 2126.
 - Feebas: **Feebas** — Lv. 5 — OT 신세계 / ID 07049 — Splash; Mirror Coat — Diamond, Pearl, Platinum — July 4 to 5, 2009
 - Munchlax: **Munchlax** — Lv. 5 — OT 신세계 / ID 07049 — Metronome; Odor Sleuth; Tackle; Curse — Diamond, Pearl, Platinum — July 4 to 5, 2009
 - Nintendo of Korea Regigigas: **Regigigas** — Lv. 100 — OT 한국닌텐도 / ID 06209 — Iron Head; Rock Slide; Icy Wind; Crush Grip — Diamond, Pearl — June 20 to 21, 2009  _(also listed in: Movie events — Nintendo of Korea Regigigas)_
-- Battle Series 2009 Arcanine: **Arcanine** — Lv. 50 — OT 배틀시리즈 / ID 06069 — Flare Blitz; Thunder Fang; Crunch; ExtremeSpeed — Diamond, Pearl — June 6 to 7, 2009
+- Battle Series 2009 Arcanine: **Arcanine** — Lv. 50 — OT 배틀시리즈 / ID 06069 — Flare Blitz; Thunder Fang; Crunch; Extreme Speed — Diamond, Pearl — June 6 to 7, 2009
 - Nintendo of Korea Mew: **Mew** — Lv. 50 — OT 한국닌텐도 / ID 03219 — Metronome; Psychic; Teleport; Aura Sphere — Diamond, Pearl — March 21 to 22, 2009
 - Nintendo of Korea Darkrai: **Darkrai** — Lv. 50 — OT 한국닌텐도 / ID 11088 — Roar of Time; Spacial Rend; Nightmare; Hypnosis — Diamond, Pearl — November 8 to 9, 2008  _(also listed in: Movie events — Nintendo of Korea Darkrai)_
-- Pikachu Cafe Tangrowth: **Tangrowth** — Lv. 50 — OT 피카츄카페 / ID 10038 — Sunny Day; Morning Sun; AncientPower; Natural Gift — Diamond, Pearl — October 3, 2008
-- Nintendo of Korea Deoxys: **Deoxys** — Lv. 50 — OT 한국닌텐도 / ID 08308 — Psycho Boost; Zap Cannon; Iron Defense; ExtremeSpeed — Diamond, Pearl — August 30 to 31, 2008  _(also listed in: Movie events — Nintendo of Korea Deoxys)_
-- Electivire: **Electivire** — Lv. 50 — OT 피카츄 카페 / ID 06298 — Light Screen; ThunderPunch; Discharge; Thunderbolt — Diamond, Pearl — June 29, 2008
+- Pikachu Cafe Tangrowth: **Tangrowth** — Lv. 50 — OT 피카츄카페 / ID 10038 — Sunny Day; Morning Sun; Ancient Power; Natural Gift — Diamond, Pearl — October 3, 2008
+- Nintendo of Korea Deoxys: **Deoxys** — Lv. 50 — OT 한국닌텐도 / ID 08308 — Psycho Boost; Zap Cannon; Iron Defense; Extreme Speed — Diamond, Pearl — August 30 to 31, 2008  _(also listed in: Movie events — Nintendo of Korea Deoxys)_
+- Electivire: **Electivire** — Lv. 50 — OT 피카츄 카페 / ID 06298 — Light Screen; Thunder Punch; Discharge; Thunderbolt — Diamond, Pearl — June 29, 2008
 - Magmortar: **Magmortar** — Lv. 50 — OT 피카츄 카페 / ID 06298 — Confuse Ray; Fire Punch; Lava Plume; Flamethrower — Diamond, Pearl — June 29, 2008
-- Nintendo of Korea Rayquaza: **Rayquaza** — Lv. 70 — OT 한국닌텐도 / ID 05318 — Fly; ExtremeSpeed; Outrage; Draco Meteor — Diamond, Pearl — May 31 to June 1, 2008  _(also listed in: Movie events — Nintendo of Korea Rayquaza)_
+- Nintendo of Korea Rayquaza: **Rayquaza** — Lv. 70 — OT 한국닌텐도 / ID 05318 — Fly; Extreme Speed; Outrage; Draco Meteor — Diamond, Pearl — May 31 to June 1, 2008  _(also listed in: Movie events — Nintendo of Korea Rayquaza)_
 - Nintendo of Korea Manaphy: **Manaphy** — Lv. 1 — OT 한국닌텐도 / ID 03298 — Tail Glow; Bubble; Water Sport — Diamond, Pearl — March 29 to 30, 2008  _(also listed in: Movie events — Nintendo of Korea Manaphy)_
 
 ### Wi-Fi Japanese events
@@ -881,45 +881,45 @@ Total event Pokémon: 2126.
 
 ### Wi-Fi English events
 
-- Winter 2011 Suicune: **Suicune** ★ — Lv. 30 — OT WIN2011 / ID 02211 — Sheer Cold; Aqua Ring; Air Slash; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 21 to 27, 2011
-- Winter 2011 Entei: **Entei** ★ — Lv. 30 — OT WIN2011 / ID 02141 — Flare Blitz; Crush Claw; Howl; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 14 to 20, 2011
-- Winter 2011 Raikou: **Raikou** ★ — Lv. 30 — OT WIN2011 / ID 02071 — Zap Cannon; Weather Ball; Aura Sphere; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 7 to 13, 2011
+- Winter 2011 Suicune: **Suicune** ★ — Lv. 30 — OT WIN2011 / ID 02211 — Sheer Cold; Aqua Ring; Air Slash; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 21 to 27, 2011
+- Winter 2011 Entei: **Entei** ★ — Lv. 30 — OT WIN2011 / ID 02141 — Flare Blitz; Crush Claw; Howl; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 14 to 20, 2011
+- Winter 2011 Raikou: **Raikou** ★ — Lv. 30 — OT WIN2011 / ID 02071 — Zap Cannon; Weather Ball; Aura Sphere; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 7 to 13, 2011
 - Fall 2010 Mew: **Mew** — Lv. 5 — OT FAL2010 / ID 10160 — Pound — HeartGold, SoulSilver — October 15 to 30, 2010
 - Summer 2010 Jirachi: **Jirachi** — Lv. 5 — OT SMR2010 / ID 06260 — Wish; Confusion; Rest; Draco Meteor — Diamond, Pearl, Platinum, HeartGold, SoulSilver — June 26 to July 16, 2010
 - Spring 2010 Pikachu-colored Pichu: **Pichu** ★ — Lv. 30 — OT SPR2010 / ID 03050 — Charge; Volt Tackle; Endeavor; Endure — Diamond, Pearl, Platinum — March 5 to 25, 2010
 
 ### Wi-Fi German events
 
-- Winter 2011 Suicune: **Suicune** ★ — Lv. 30 — OT WIN2011 / ID 02211 — Sheer Cold; Aqua Ring; Air Slash; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 21 to 27, 2011
-- Winter 2011 Entei: **Entei** ★ — Lv. 30 — OT WIN2011 / ID 02141 — Flare Blitz; Crush Claw; Howl; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 14 to 20, 2011
-- Winter 2011 Raikou: **Raikou** ★ — Lv. 30 — OT WIN2011 / ID 02071 — Zap Cannon; Weather Ball; Aura Sphere; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 7 to 13, 2011
+- Winter 2011 Suicune: **Suicune** ★ — Lv. 30 — OT WIN2011 / ID 02211 — Sheer Cold; Aqua Ring; Air Slash; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 21 to 27, 2011
+- Winter 2011 Entei: **Entei** ★ — Lv. 30 — OT WIN2011 / ID 02141 — Flare Blitz; Crush Claw; Howl; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 14 to 20, 2011
+- Winter 2011 Raikou: **Raikou** ★ — Lv. 30 — OT WIN2011 / ID 02071 — Zap Cannon; Weather Ball; Aura Sphere; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 7 to 13, 2011
 - Fall 2010 Mew: **Mew** — Lv. 5 — OT HRB2010 / ID 10160 — Pound — HeartGold, SoulSilver — October 15 to 30, 2010
 - Summer 2010 Jirachi: **Jirachi** — Lv. 5 — OT SO2010 / ID 06260 — Wish; Confusion; Rest; Draco Meteor — Diamond, Pearl, Platinum, HeartGold, SoulSilver — June 26 to July 16, 2010
 - Spring 2010 Pichu: **Pichu** ★ — Lv. 30 — OT FRü2010 / ID 03050 — Charge; Volt Tackle; Endeavor; Endure — Diamond, Pearl, Platinum — March 5 to 25, 2010
 
 ### Wi-Fi Spanish events
 
-- Winter 2011 Suicune: **Suicune** ★ — Lv. 30 — OT INV2011 / ID 02211 — Sheer Cold; Aqua Ring; Air Slash; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 21 to 27, 2011
-- Winter 2011 Entei: **Entei** ★ — Lv. 30 — OT INV2011 / ID 02141 — Flare Blitz; Crush Claw; Howl; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 14 to 20, 2011
-- Winter 2011 Raikou: **Raikou** ★ — Lv. 30 — OT INV2011 / ID 02071 — Zap Cannon; Weather Ball; Aura Sphere; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 7 to 13, 2011
+- Winter 2011 Suicune: **Suicune** ★ — Lv. 30 — OT INV2011 / ID 02211 — Sheer Cold; Aqua Ring; Air Slash; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 21 to 27, 2011
+- Winter 2011 Entei: **Entei** ★ — Lv. 30 — OT INV2011 / ID 02141 — Flare Blitz; Crush Claw; Howl; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 14 to 20, 2011
+- Winter 2011 Raikou: **Raikou** ★ — Lv. 30 — OT INV2011 / ID 02071 — Zap Cannon; Weather Ball; Aura Sphere; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 7 to 13, 2011
 - Fall 2010 Mew: **Mew** — Lv. 5 — OT OTO2010 / ID 10160 — Pound — HeartGold, SoulSilver — October 15 to 30, 2010
 - Summer 2010 Jirachi: **Jirachi** — Lv. 5 — OT VER2010 / ID 06260 — Wish; Confusion; Rest; Draco Meteor — Diamond, Pearl, Platinum, HeartGold, SoulSilver — June 26 to July 16, 2010
 - Spring 2010 Pichu: **Pichu** ★ — Lv. 30 — OT PRI2010 / ID 03050 — Charge; Volt Tackle; Endeavor; Endure — Diamond, Pearl, Platinum — March 5 to 25, 2010
 
 ### Wi-Fi French events
 
-- Winter 2011 Suicune: **Suicune** ★ — Lv. 30 — OT HVR2011 / ID 02211 — Sheer Cold; Aqua Ring; Air Slash; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 21 to 27, 2011
-- Winter 2011 Entei: **Entei** ★ — Lv. 30 — OT HVR2011 / ID 02141 — Flare Blitz; Crush Claw; Howl; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 14 to 20, 2011
-- Winter 2011 Raikou: **Raikou** ★ — Lv. 30 — OT HVR2011 / ID 02071 — Zap Cannon; Weather Ball; Aura Sphere; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 7 to 13, 2011
+- Winter 2011 Suicune: **Suicune** ★ — Lv. 30 — OT HVR2011 / ID 02211 — Sheer Cold; Aqua Ring; Air Slash; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 21 to 27, 2011
+- Winter 2011 Entei: **Entei** ★ — Lv. 30 — OT HVR2011 / ID 02141 — Flare Blitz; Crush Claw; Howl; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 14 to 20, 2011
+- Winter 2011 Raikou: **Raikou** ★ — Lv. 30 — OT HVR2011 / ID 02071 — Zap Cannon; Weather Ball; Aura Sphere; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 7 to 13, 2011
 - Fall 2010 Mew: **Mew** — Lv. 5 — OT AUT2010 / ID 10160 — Pound — HeartGold, SoulSilver — October 15 to 30, 2010
 - Summer 2010 Jirachi: **Jirachi** — Lv. 5 — OT ETE2010 / ID 06260 — Wish; Confusion; Rest; Draco Meteor — Diamond, Pearl, Platinum, HeartGold, SoulSilver — June 26 to July 16, 2010
 - Spring 2010 Pichu: **Pichu** ★ — Lv. 30 — OT PRI2010 / ID 03050 — Charge; Volt Tackle; Endeavor; Endure — Diamond, Pearl, Platinum — March 5 to 25, 2010
 
 ### Wi-Fi Italian events
 
-- Winter 2011 Suicune: **Suicune** ★ — Lv. 30 — OT INV2011 / ID 02211 — Sheer Cold; Aqua Ring; Air Slash; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 21 to 27, 2011
-- Winter 2011 Entei: **Entei** ★ — Lv. 30 — OT INV2011 / ID 02141 — Flare Blitz; Crush Claw; Howl; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 14 to 20, 2011
-- Winter 2011 Raikou: **Raikou** ★ — Lv. 30 — OT INV2011 / ID 02071 — Zap Cannon; Weather Ball; Aura Sphere; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 7 to 13, 2011
+- Winter 2011 Suicune: **Suicune** ★ — Lv. 30 — OT INV2011 / ID 02211 — Sheer Cold; Aqua Ring; Air Slash; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 21 to 27, 2011
+- Winter 2011 Entei: **Entei** ★ — Lv. 30 — OT INV2011 / ID 02141 — Flare Blitz; Crush Claw; Howl; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 14 to 20, 2011
+- Winter 2011 Raikou: **Raikou** ★ — Lv. 30 — OT INV2011 / ID 02071 — Zap Cannon; Weather Ball; Aura Sphere; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 7 to 13, 2011
 - Fall 2010 Mew: **Mew** — Lv. 5 — OT AUT2010 / ID 10160 — Pound — HeartGold, SoulSilver — October 15 to 30, 2010
 - Summer 2010 Jirachi: **Jirachi** — Lv. 5 — OT EST2010 / ID 06260 — Wish; Confusion; Rest; Draco Meteor — Diamond, Pearl, Platinum, HeartGold, SoulSilver — June 26 to July 16, 2010
 - Spring 2010 Pichu: **Pichu** ★ — Lv. 30 — OT PRI2010 / ID 03050 — Charge; Volt Tackle; Endeavor; Endure — Diamond, Pearl, Platinum — March 5 to 25, 2010
@@ -967,17 +967,17 @@ Total event Pokémon: 2126.
 ### Game-based distributions
 
 - International Oblivia Shaymin: **Shaymin** — Lv. 30 — OT Oblivia / ID 03060 — Growth; Magical Leaf; Leech Seed; Synthesis — Diamond, Pearl, Platinum, HeartGold, SoulSilver
-- International Oblivia Heatran: **Heatran** — Lv. 50 — OT Oblivia / ID 03060 — Eruption; Magma Storm; Earth Power; AncientPower — Diamond, Pearl, Platinum, HeartGold, SoulSilver
+- International Oblivia Heatran: **Heatran** — Lv. 50 — OT Oblivia / ID 03060 — Eruption; Magma Storm; Earth Power; Ancient Power — Diamond, Pearl, Platinum, HeartGold, SoulSilver
 - International Oblivia Deoxys Normal Forme: **Deoxys** — Lv. 50 — OT Oblivia / ID 03060 — Psycho Boost; Leer; Wrap; Night Shade — Diamond, Pearl, Platinum, HeartGold, SoulSilver
 - International Oblivia Deoxys Attack Forme: **Deoxys** — Lv. 50 — OT Oblivia / ID 03060 — Psycho Boost; Meteor Mash; Superpower; Hyper Beam — Diamond, Pearl, Platinum, HeartGold, SoulSilver
 - International Oblivia Deoxys Defense Forme: **Deoxys** — Lv. 50 — OT Oblivia / ID 03060 — Psycho Boost; Detect; Counter; Mirror Coat — Diamond, Pearl, Platinum, HeartGold, SoulSilver
-- International Oblivia Deoxys Speed Forme: **Deoxys** — Lv. 50 — OT Oblivia / ID 03060 — Psycho Boost; Swift; Double Team; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver
-- Japanese Oblivia Heatran: **Heatran** — Lv. 50 — OT オブリビア / ID 03060 — Eruption; Magma Storm; Earth Power; AncientPower — Diamond, Pearl, Platinum, HeartGold, SoulSilver
+- International Oblivia Deoxys Speed Forme: **Deoxys** — Lv. 50 — OT Oblivia / ID 03060 — Psycho Boost; Swift; Double Team; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver
+- Japanese Oblivia Heatran: **Heatran** — Lv. 50 — OT オブリビア / ID 03060 — Eruption; Magma Storm; Earth Power; Ancient Power — Diamond, Pearl, Platinum, HeartGold, SoulSilver
 - Japanese Oblivia Shaymin: **Shaymin** — Lv. 30 — OT オブリビア / ID 03060 — Growth; Magical Leaf; Leech Seed; Synthesis — Diamond, Pearl, Platinum, HeartGold, SoulSilver
 - Japanese Oblivia Deoxys Normal Forme: **Deoxys** — Lv. 50 — OT オブリビア / ID 03060 — Psycho Boost; Leer; Wrap; Night Shade — Diamond, Pearl, Platinum, HeartGold, SoulSilver
 - Japanese Oblivia Deoxys Attack Forme: **Deoxys** — Lv. 50 — OT オブリビア / ID 03060 — Psycho Boost; Meteor Mash; Superpower; Hyper Beam — Diamond, Pearl, Platinum, HeartGold, SoulSilver
 - Japanese Oblivia Deoxys Defense Forme: **Deoxys** — Lv. 50 — OT オブリビア / ID 03060 — Psycho Boost; Detect; Counter; Mirror Coat — Diamond, Pearl, Platinum, HeartGold, SoulSilver
-- Japanese Oblivia Deoxys Speed Forme: **Deoxys** — Lv. 50 — OT オブリビア / ID 03060 — Psycho Boost; Swift; Double Team; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver
+- Japanese Oblivia Deoxys Speed Forme: **Deoxys** — Lv. 50 — OT オブリビア / ID 03060 — Psycho Boost; Swift; Double Team; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver
 - Japanese Almia Darkrai: **Darkrai** — Lv. 50 — OT アルミア / ID 03208 — Dark Void; Dark Pulse; Shadow Ball; Double Team — Diamond, Pearl, Platinum, HeartGold, SoulSilver
 - International Almia Darkrai: **Darkrai** — Lv. 50 — OT Almia / ID 03208 — Dark Void; Dark Pulse; Shadow Ball; Double Team — Diamond, Pearl, Platinum, HeartGold, SoulSilver
 - English Riolu: **Riolu** — Lv. 30 — OT Kyle / ID 03208 — Aura Sphere; Shadow Claw; Bullet Punch; Drain Punch — Diamond, Pearl, Platinum, HeartGold, SoulSilver
@@ -990,28 +990,28 @@ Total event Pokémon: 2126.
   - **Pikachu** — Lv. 10 — OT PKTOPIA / ID 12077 — Volt Tackle; Surf; Tail Whip; Thunder Wave — Diamond, Pearl, Platinum, HeartGold, SoulSilver
   - **Pikachu** — Lv. 10 — OT PKTOPIA / ID 06257 — Volt Tackle; Surf; Tail Whip; Thunder Wave — Diamond, Pearl, Platinum, HeartGold, SoulSilver
 - Electivire
-  - **Electivire** — Lv. 50 — OT PKTOPIA / ID 12077 — ThunderPunch; Ice Punch; Cross Chop; Earthquake — Diamond, Pearl, Platinum, HeartGold, SoulSilver
-  - **Electivire** — Lv. 50 — OT PKTOPIA / ID 06257 — ThunderPunch; Ice Punch; Cross Chop; Earthquake — Diamond, Pearl, Platinum, HeartGold, SoulSilver
+  - **Electivire** — Lv. 50 — OT PKTOPIA / ID 12077 — Thunder Punch; Ice Punch; Cross Chop; Earthquake — Diamond, Pearl, Platinum, HeartGold, SoulSilver
+  - **Electivire** — Lv. 50 — OT PKTOPIA / ID 06257 — Thunder Punch; Ice Punch; Cross Chop; Earthquake — Diamond, Pearl, Platinum, HeartGold, SoulSilver
 - Magmortar
-  - **Magmortar** — Lv. 50 — OT PKTOPIA / ID 12077 — Flamethrower; Psychic; Hyper Beam; SolarBeam — Diamond, Pearl, Platinum, HeartGold, SoulSilver
-  - **Magmortar** — Lv. 50 — OT PKTOPIA / ID 06257 — Flamethrower; Psychic; Hyper Beam; SolarBeam — Diamond, Pearl, Platinum, HeartGold, SoulSilver
+  - **Magmortar** — Lv. 50 — OT PKTOPIA / ID 12077 — Flamethrower; Psychic; Hyper Beam; Solar Beam — Diamond, Pearl, Platinum, HeartGold, SoulSilver
+  - **Magmortar** — Lv. 50 — OT PKTOPIA / ID 06257 — Flamethrower; Psychic; Hyper Beam; Solar Beam — Diamond, Pearl, Platinum, HeartGold, SoulSilver
 - Japanese Pokémon Battle Revolution Pikachu: **Pikachu** — Lv. 10 — OT ポケトピア / ID 12146 — Volt Tackle; Surf; Tail Whip; Thunder Wave — Diamond, Pearl, Platinum, HeartGold, SoulSilver
 
 ### Movie events
 
-- Gamestop Keldeo: **Keldeo** — Lv. 15 — OT EST2012 / ÉTÉ2012 / SMR2012 / VER2012 / ID 08272 — Aqua Jet; Leer; Double Kick; BubbleBeam — Black, White — August 27 to October 6, 2012
+- Gamestop Keldeo: **Keldeo** — Lv. 15 — OT EST2012 / ÉTÉ2012 / SMR2012 / VER2012 / ID 08272 — Aqua Jet; Leer; Double Kick; Bubble Beam — Black, White — August 27 to October 6, 2012
 - Movie 14 Victini: **Victini** — Lv. 50 — OT Movie14 / ID 12031 — V-create; Fusion Flare; Fusion Bolt; Searing Shot — Black, White — December 3 to 31, 2011
 - Europe Winter 2011 Celebi: **Celebi** — Lv. 50 — OT WIN2011, HVR2011, / INV2011 / ID 02211 — Leaf Storm; Recover; Nasty Plot; Healing Wish — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 1 to March 3, February 4 to March 3, / February 14 to March 4, February 14 to March 4, / February 18 to 27, February 19 to 27, February 26, 2011
-- Europe and North America Winter 2011 Suicune: **Suicune** ★ — Lv. 30 — OT WIN2011, HVR2011, / INV2011 / ID 02211 — Sheer Cold; Aqua Ring; Air Slash; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 21 to 27, 2011
-- Europe and North America Winter 2011 Entei: **Entei** ★ — Lv. 30 — OT WIN2011, HVR2011, / INV2011 / ID 02141 — Flare Blitz; Crush Claw; Howl; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 14 to 20, 2011
-- Europe and North America Winter 2011 Raikou: **Raikou** ★ — Lv. 30 — OT WIN2011, HVR2011, / INV2011 / ID 02071 — Zap Cannon; Weather Ball; Aura Sphere; ExtremeSpeed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 7 to 13, 2011
+- Europe and North America Winter 2011 Suicune: **Suicune** ★ — Lv. 30 — OT WIN2011, HVR2011, / INV2011 / ID 02211 — Sheer Cold; Aqua Ring; Air Slash; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 21 to 27, 2011
+- Europe and North America Winter 2011 Entei: **Entei** ★ — Lv. 30 — OT WIN2011, HVR2011, / INV2011 / ID 02141 — Flare Blitz; Crush Claw; Howl; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 14 to 20, 2011
+- Europe and North America Winter 2011 Raikou: **Raikou** ★ — Lv. 30 — OT WIN2011, HVR2011, / INV2011 / ID 02071 — Zap Cannon; Weather Ball; Aura Sphere; Extreme Speed — Diamond, Pearl, Platinum, HeartGold, SoulSilver — February 7 to 13, 2011
 - Europe and North America Spring 2010 Pichu: **Pichu** ★ — Lv. 30 — OT SPR2010, FRü2010, / PRI2010 / ID 03050 — Charge; Volt Tackle; Endeavor; Endure — March 5 to 25, 2010
 - Time Square Shaymin: **Shaymin** — Lv. 30 — OT 타임스퀘어 / ID 05010 — Seed Flare; Aromatherapy; Substitute; Energy Ball — HeartGold, SoulSilver — May 1 to 2, 2009
 - Aura Mew: **Mew** — Lv. 10 — OT Aura / ID 20078 — Pound; Transform — Ruby, Sapphire, FireRed, LeafGreen, Emerald — 2007
 - Mystery Mew: **Mew** — Lv. 10 — OT MYSTRY / ID 06930 — Pound; Transform — Ruby, Sapphire, FireRed, LeafGreen, Emerald — September 30, 2006
-- Hadou Regirock: **Regirock** — Lv. 40 — OT ハドウ / ID 50901 — Curse; Superpower; AncientPower; Hyper Beam — Ruby, Sapphire, FireRed, LeafGreen, Emerald — September 1 to 25, 2005
-- Hadou Regice: **Regice** — Lv. 40 — OT ハドウ / ID 50901 — Curse; Superpower; AncientPower; Hyper Beam — Ruby, Sapphire, FireRed, LeafGreen, Emerald — September 1 to 25, 2005
-- Hadou Registeel: **Registeel** — Lv. 40 — OT ハドウ / ID 50901 — Curse; Superpower; AncientPower; Hyper Beam — Ruby, Sapphire, FireRed, LeafGreen, Emerald — September 1 to 25, 2005
+- Hadou Regirock: **Regirock** — Lv. 40 — OT ハドウ / ID 50901 — Curse; Superpower; Ancient Power; Hyper Beam — Ruby, Sapphire, FireRed, LeafGreen, Emerald — September 1 to 25, 2005
+- Hadou Regice: **Regice** — Lv. 40 — OT ハドウ / ID 50901 — Curse; Superpower; Ancient Power; Hyper Beam — Ruby, Sapphire, FireRed, LeafGreen, Emerald — September 1 to 25, 2005
+- Hadou Registeel: **Registeel** — Lv. 40 — OT ハドウ / ID 50901 — Curse; Superpower; Ancient Power; Hyper Beam — Ruby, Sapphire, FireRed, LeafGreen, Emerald — September 1 to 25, 2005
 - Hadou Mew: **Mew** — Lv. 10 — OT ハドウ / ID 50716 — Pound; Transform — Ruby, Sapphire, FireRed, LeafGreen, Emerald — April 16 to May 8, 2005
 - Doel Deoxys: **Deoxys** — Lv. 70 — OT DOEL / ID 28606 — Cosmic Power; Recover; Psycho Boost; Hyper Beam — Ruby, Sapphire, FireRed, LeafGreen, Emerald — May 25 to 26, 2006
 - Space Center Deoxys: **Deoxys** — Lv. 70 — OT SPACE C / ID 00010 — Cosmic Power; Recover; Psycho Boost; Hyper Beam — Ruby, Sapphire, FireRed, LeafGreen, Emerald — March 10 to 19, 2006
@@ -1034,14 +1034,14 @@ Total event Pokémon: 2126.
 - Iris's Haxorus: **Haxorus** — Lv. 59 — OT アイリス / ID 06232 — Earthquake; Dual Chop; X-Scissor; Dragon Dance — Black, White, Black 2, White 2 — August 17 to 18, 2013
 - Alder's Volcarona: **Volcarona** — Lv. 77 — OT アデク / ID 09180 — Bug Buzz; Overheat; Hyper Beam; Quiver Dance — Black, White, Black 2, White 2 — August 17 to 18, 2013
 - Ash's Pikachu: **Pikachu** — Lv. 50 — OT サトシ / ID 08103 — Thunderbolt; Quick Attack; Iron Tail; Electro Ball — Black, White, Black 2, White 2 — August 10 to September 6, 2013
-- Professor Oak's Rotom: **Rotom** — Lv. 10 — OT オーキド / ID 08103 — Uproar; Astonish; Trick; ThunderShock — Black, White, Black 2, White 2 — August 10 to September 6, 2013
-- Cilan's Pansage: **Pansage** — Lv. 30 — OT デント / ID 08103 — Bullet Seed; SolarBeam; Rock Tomb; Dig — Black, White, Black 2, White 2 — August 10 to September 6, 2013
+- Professor Oak's Rotom: **Rotom** — Lv. 10 — OT オーキド / ID 08103 — Uproar; Astonish; Trick; Thunder Shock — Black, White, Black 2, White 2 — August 10 to September 6, 2013
+- Cilan's Pansage: **Pansage** — Lv. 30 — OT デント / ID 08103 — Bullet Seed; Solar Beam; Rock Tomb; Dig — Black, White, Black 2, White 2 — August 10 to September 6, 2013
 - Iris's Axew: **Axew** — Lv. 30 — OT アイリス / ID 08103 — Dragon Rage; Scratch; Outrage; Giga Impact — Black, White, Black 2, White 2 — August 10 to September 6, 2013
 - 2013 World Championships Smeargle: **Smeargle** — Lv. 50 — OT WORLD13 / ID 08113 — False Swipe; Spore; Odor Sleuth; Mean Look — Black, White, Black 2, White 2 — August 10 to 11, 2013
 - 2013 Tanabata Jirachi: **Jirachi** — Lv. 50 — OT たなばた / ID 08013 — Draco Meteor; Meteor Mash; Wish; Follow Me — Black, White, Black 2, White 2 — August 1 to 31, 2013  _(also listed in: Tanabata events — 2013)_
 - Strongest Class Pikachu: **Pikachu** — Lv. 100 — OT イベント / ID 07263 — Thunder; Volt Tackle; Grass Knot; Quick Attack — Black, White, Black 2, White 2 — 2013
 - Kiyo Eevee: **Eevee** — Lv. 50 — OT キヨ / ID 37379 — Sing; Return; Echoed Voice; Attract — Black, White, Black 2, White 2 — July 13, 2013; July 14 to September 1, 2013
-- Cinema Genesect: **Genesect** ★ — Lv. 100 — OT えいがかん / ID 07133 — ExtremeSpeed; Techno Blast; Blaze Kick; Shift Gear — Black, White, Black 2, White 2 — 2013
+- Cinema Genesect: **Genesect** ★ — Lv. 100 — OT えいがかん / ID 07133 — Extreme Speed; Techno Blast; Blaze Kick; Shift Gear — Black, White, Black 2, White 2 — 2013
 - Pokémon Hills Mewtwo: **Mewtwo** — Lv. 100 — OT Ｐヒルズ / ID 06153 — Psystrike; Ice Beam; Heal Pulse; Hurricane — Black, White, Black 2, White 2 — 2013
 - Samurott: **Samurott** — Lv. 100 — OT ＰＣＦ / ID 06263 — Hydro Pump; Ice Beam; Megahorn; Superpower — Black, White, Black 2, White 2 — June 26 to July 2, 2013; July 3 to 7, 2013
 - Emboar: **Emboar** — Lv. 100 — OT ＰＣＯ / ID 06193 — Flare Blitz; Hammer Arm; Wild Charge; Head Smash — Black, White, Black 2, White 2 — June 19 to 25, 2013; July 3 to 7, 2013
@@ -1051,18 +1051,18 @@ Total event Pokémon: 2126.
 - Serperior: **Serperior** — Lv. 100 — OT ＰＣＴＨ / ID 05223 — Leaf Storm; Substitute; Giga Drain; Leech Seed — Black, White, Black 2, White 2 — May 22 to 28, 2013; July 3 to 7, 2013
 - Empoleon: **Empoleon** — Lv. 100 — OT ＰＣＳ / ID 05153 — Hydro Pump; Ice Beam; Aqua Jet; Grass Knot — Black, White, Black 2, White 2 — May 15 to 21, 2013; July 3 to 7, 2013
 - Pokémon Center Nagoya Magikarp: **Magikarp** ★ — Lv. 99 — OT ナゴヤ / ID 03203 — Flail; Hydro Pump; Bounce; Splash — Black, White, Black 2, White 2 — March 20 to May 6, 2013
-- P2 Laboratory Genesect: **Genesect** — Lv. 50 — OT Ｐ２ラボ / ID 01113 — Techno Blast; Magnet Bomb; SolarBeam; Signal Beam — Black, White, Black 2, White 2 — 2013
+- P2 Laboratory Genesect: **Genesect** — Lv. 50 — OT Ｐ２ラボ / ID 01113 — Techno Blast; Magnet Bomb; Solar Beam; Signal Beam — Black, White, Black 2, White 2 — 2013
 - Second distribution: **Deoxys** — Lv. 100 — OT マスダ / ID 12152 — Nasty Plot; Dark Pulse; Recover; Psycho Boost — Black, White, Black 2, White 2 — March 20 to May 6, 2013
 - First distribution: **Deoxys** — Lv. 100 — OT マスダ / ID 12152 — Nasty Plot; Dark Pulse; Recover; Psycho Boost — Black 2, White 2 — December 15 to 23, 2012
 - Pokémon Center Tohoku Victini: **Victini** — Lv. 100 — OT トウホク / ID 11252 — V-create; Blue Flare; Bolt Strike; Glaciate — Black, White, Black 2, White 2 — November 25, 2012 to January 6, 2013
 - Kyogre
   - **Kyogre** — Lv. 100 — OT サファイア / ID 11212 — Water Spout; Thunder; Ice Beam; Sheer Cold — White 2 — November 21, 2012 to January 10, 2013
-  - **Kyogre** — Lv. 80 — OT フクオカ / ID 03172 — Ice Beam; AncientPower; Water Spout; Thunder — Black, White — April 16 to May 6, 2012
+  - **Kyogre** — Lv. 80 — OT フクオカ / ID 03172 — Ice Beam; Ancient Power; Water Spout; Thunder — Black, White — April 16 to May 6, 2012
 - Groudon
-  - **Groudon** — Lv. 100 — OT ルビー / ID 11212 — Eruption; Hammer Arm; Earth Power; SolarBeam — Black 2 — November 21, 2012 to January 10, 2013
-  - **Groudon** — Lv. 80 — OT フクオカ / ID 03172 — Earthquake; AncientPower; Eruption; SolarBeam — Black, White — March 17 to April 15, 2012
+  - **Groudon** — Lv. 100 — OT ルビー / ID 11212 — Eruption; Hammer Arm; Earth Power; Solar Beam — Black 2 — November 21, 2012 to January 10, 2013
+  - **Groudon** — Lv. 80 — OT フクオカ / ID 03172 — Earthquake; Ancient Power; Eruption; Solar Beam — Black, White — March 17 to April 15, 2012
 - 2012 Birthday Audino: **Audino** — Lv. 30 — OT (Various) / ID 11042 — Heal Pulse; Helping Hand; Refresh; Present — Black, White, Black 2, White 2 — November 4, 2012 to October 11, 2013
-- Dragonite: **Dragonite** — Lv. 100 — OT PC / ID 09152 — ExtremeSpeed; Fire Punch; Dragon Dance; Outrage — Black 2, White 2 — September 15 to October 28, 2012
+- Dragonite: **Dragonite** — Lv. 100 — OT PC / ID 09152 — Extreme Speed; Fire Punch; Dragon Dance; Outrage — Black 2, White 2 — September 15 to October 28, 2012
 - Scizor: **Scizor** — Lv. 100 — OT PC / ID 09152 — Bullet Punch; Bug Bite; Roost; Swords Dance — Black 2, White 2 — September 15 to October 28, 2012
 - Tyranitar: **Tyranitar** — Lv. 100 — OT PC / ID 09152 — Fire Blast; Ice Beam; Stone Edge; Crunch — Black 2, White 2 — September 15 to October 28, 2012
 - Metagross
@@ -1073,7 +1073,7 @@ Total event Pokémon: 2126.
 - Charmander: **Charmander** — Lv. 1 — Egg — False Swipe; Block; Blast Burn; Acrobatics — Black 2, White 2 — September 1 to 30, 2012
 - Squirtle: **Squirtle** — Lv. 1 — Egg — False Swipe; Block; Hydro Cannon; Follow Me — Black 2, White 2 — September 1 to 30, 2012
 - 2012 World Championships Pikachu: **Pikachu** — Lv. 50 — OT WORLD12 / ID 08122 — Fly; Thunderbolt; Grass Knot; Protect — Black, White — August 12, 2012
-- Omanyte: **Omanyte** — Lv. 15 — OT キャンプ / ID 07192 — BubbleBeam; Supersonic; Withdraw; Bite — Black, White, Black 2, White 2 — July 21, 2012 to September 30, 2013
+- Omanyte: **Omanyte** — Lv. 15 — OT キャンプ / ID 07192 — Bubble Beam; Supersonic; Withdraw; Bite — Black, White, Black 2, White 2 — July 21, 2012 to September 30, 2013
 - Kabuto: **Kabuto** — Lv. 15 — OT キャンプ / ID 07192 — Confuse Ray; Dig; Scratch; Harden — Black, White, Black 2, White 2 — July 21, 2012 to September 30, 2013
 - Aerodactyl: **Aerodactyl** — Lv. 15 — OT キャンプ / ID 07192 — Steel Wing; Ice Fang; Fire Fang; Thunder Fang — Black, White, Black 2, White 2 — July 21, 2012 to September 30, 2013
 - Lileep: **Lileep** — Lv. 15 — OT キャンプ / ID 07192 — Recover; Rock Slide; Constrict; Acid — Black, White, Black 2, White 2 — July 21, 2012 to September 30, 2013
@@ -1083,13 +1083,13 @@ Total event Pokémon: 2126.
 - Tirtouga: **Tirtouga** — Lv. 15 — OT キャンプ / ID 07192 — Bite; Protect; Aqua Jet; Body Slam — Black, White, Black 2, White 2 — July 21, 2012 to September 30, 2013
 - Archen: **Archen** — Lv. 15 — OT キャンプ / ID 07192 — Head Smash; Wing Attack; Double Team; Scary Face — Black, White, Black 2, White 2 — July 21, 2012 to September 30, 2013
 - Cinema Meloetta: **Meloetta** — Lv. 15 — OT えいがかん / ID 07142 — Round; Quick Attack; Confusion — Black, White, Black 2, White 2 — 2012
-- Shokotan Keldeo: **Keldeo** — Lv. 15 — OT しょこたん / ID 06232 — Aqua Jet; Leer; Double Kick; BubbleBeam — Black, White, Black 2, White 2 — 2012
+- Shokotan Keldeo: **Keldeo** — Lv. 15 — OT しょこたん / ID 06232 — Aqua Jet; Leer; Double Kick; Bubble Beam — Black, White, Black 2, White 2 — 2012
 - Lucario: **Lucario** — Lv. 50 — OT PC / ID 06012 — Bullet Punch; Close Combat; Stone Edge; Shadow Claw — Black, White — June 1 to 22, 2012
 - Whimsicott: **Whimsicott** — Lv. 50 — OT PC / ID 06012 — Swagger; Giga Drain; Beat Up; Helping Hand — Black, White — June 1 to 22, 2012
-- Ninetales: **Ninetales** — Lv. 50 — OT PC / ID 05072 — Heat Wave; SolarBeam; Psyshock; Will-O-Wisp — Black, White — May 7 to 31, 2012
+- Ninetales: **Ninetales** — Lv. 50 — OT PC / ID 05072 — Heat Wave; Solar Beam; Psyshock; Will-O-Wisp — Black, White — May 7 to 31, 2012
 - Chandelure: **Chandelure** — Lv. 50 — OT PC / ID 05072 — Heat Wave; Shadow Ball; Energy Ball; Psychic — Black, White — May 7 to 31, 2012
 - Pika Pika Carnival Pikachu: **Pikachu** — Lv. 100 — OT おまつり / ID 05112 — Thunder; Volt Tackle; Grass Knot; Quick Attack — Black, White — May 11 to 20, 2012
-- Pokémon Searcher BW Piplup: **Piplup** — Lv. 15 — OT サーチャー / ID 04282 — Hydro Pump; FeatherDance; Water Sport; Peck — Black, White — April 28 to May 6, 2012
+- Pokémon Searcher BW Piplup: **Piplup** — Lv. 15 — OT サーチャー / ID 04282 — Hydro Pump; Feather Dance; Water Sport; Peck — Black, White — April 28 to May 6, 2012
 - Pikachu Festival Pikachu: **Pikachu** — Lv. 100 — OT トウホク / ID 03232 — Thunder; Volt Tackle; Grass Knot; Quick Attack — Black, White — March 23 to April 8, 2012
 - Gardevoir: **Gardevoir** — Lv. 50 — OT (Various) / ID 03172 — Hypnosis; Thunderbolt; Focus Blast; Psychic — Black, White — April 23 to May 6, 2012
 - Salamence: **Salamence** — Lv. 50 — OT (Various) / ID 03172 — Dragon Dance; Dragon Claw; Outrage; Aerial Ace — Black, White — April 23 to May 6, 2012
@@ -1097,10 +1097,10 @@ Total event Pokémon: 2126.
 - Milotic: **Milotic** — Lv. 50 — OT (Various) / ID 03172 — Recover; Hydro Pump; Ice Beam; Mirror Coat — Black, White — April 2 to 22, 2012
 - Walrein: **Walrein** — Lv. 50 — OT (Various) / ID 03172 — Ice Beam; Surf; Hail; Sheer Cold — Black, White — April 2 to 22, 2012
 - Sceptile: **Sceptile** — Lv. 50 — OT (Various) / ID 03172 — Leaf Storm; Dragon Pulse; Focus Blast; Rock Slide — Black, White — March 17 to April 1, 2012
-- Blaziken: **Blaziken** — Lv. 50 — OT (Various) / ID 03172 — Flare Blitz; Hi Jump Kick; ThunderPunch; Stone Edge — Black, White — March 17 to April 1, 2012
+- Blaziken: **Blaziken** — Lv. 50 — OT (Various) / ID 03172 — Flare Blitz; High Jump Kick; Thunder Punch; Stone Edge — Black, White — March 17 to April 1, 2012
 - Swampert: **Swampert** — Lv. 50 — OT (Various) / ID 03172 — Earthquake; Ice Beam; Hydro Pump; Hammer Arm — Black, White — March 17 to April 1, 2012
-- ExtremeSpeed Pikachu: **Pikachu** — Lv. 50 — OT さくら / ID 03012 — ExtremeSpeed; Thunderbolt; Grass Knot; Brick Break — Black, White — March 1 to May 6, 2012
-- 15th Anniversary Rayquaza: **Rayquaza** — Lv. 100 — OT せんきょ / ID 02102 — ExtremeSpeed; Hyper Beam; Dragon Pulse; V-create — Black, White — February 10 to 27, 2012
+- ExtremeSpeed Pikachu: **Pikachu** — Lv. 50 — OT さくら / ID 03012 — Extreme Speed; Thunderbolt; Grass Knot; Brick Break — Black, White — March 1 to May 6, 2012
+- 15th Anniversary Rayquaza: **Rayquaza** — Lv. 100 — OT せんきょ / ID 02102 — Extreme Speed; Hyper Beam; Dragon Pulse; V-create — Black, White — February 10 to 27, 2012
 - Horsea: **Horsea** ★ — Lv. 1 — Egg — Bubble — Black, White — January 6 to February 5, 2012
 - Trapinch: **Trapinch** ★ — Lv. 1 — Egg — Bite — Black, White — January 6 to February 5, 2012
 - Swablu: **Swablu** ★ — Lv. 1 — Egg — Peck; Growl — Black, White — January 6 to February 5, 2012
@@ -1118,14 +1118,14 @@ Total event Pokémon: 2126.
 - Eind Victini: **Victini** — Lv. 50 — OT アイント / ID 04161 — V-create; Fusion Flare; Fusion Bolt; Searing Shot — Black, White — April 16 to August 31, 2011  _(also listed in: Movie events — Eind Victini)_
 - Pokémon Searcher BW Axew: **Axew** — Lv. 10 — OT サーチャー / ID 03191 — Dragon Rage; Return; Endure; Dragon Claw — Black, White — March 19 to April 3, / April 29 to May 8, 2011
 - Pokémon Smash! Zoroark: **Zoroark** — Lv. 50 — OT ポケスマ！ / ID 01161 — Agility; Embargo; Punishment; Snarl — Black, White — January 16 to February 6, 2011
-- Winter Vacation Darkrai: **Darkrai** — Lv. 50 — OT ＡＮＡ / ふゆやすみ / ID 12270 — Dark Void; Ominous Wind; Faint Attack; Nightmare — Black, White — December 27, 2010 to January 10 and 11, 2011
-- 2010 Birthday Audino: **Audino** — Lv. 30 — OT (Various) / ID 11040 — Heal Pulse; Helping Hand; Refresh; DoubleSlap — Black, White — November 4, 2010 to November 3, 2011
+- Winter Vacation Darkrai: **Darkrai** — Lv. 50 — OT ＡＮＡ / ふゆやすみ / ID 12270 — Dark Void; Ominous Wind; Feint Attack; Nightmare — Black, White — December 27, 2010 to January 10 and 11, 2011
+- 2010 Birthday Audino: **Audino** — Lv. 30 — OT (Various) / ID 11040 — Heal Pulse; Helping Hand; Refresh; Double Slap — Black, White — November 4, 2010 to November 3, 2011
 - Machoke: **Machoke** — Lv. 30 — OT (Various) / ID 10100 — Low Sweep; Foresight; Seismic Toss; Revenge — Black, White — October 10 to November 28, 2010
 - Slowpoke: **Slowpoke** — Lv. 30 — OT (Various) / ID 10100 — Confusion; Disable; Headbutt; Water Pulse — Black, White — October 10 to November 28, 2010
 - Haunter: **Haunter** — Lv. 30 — OT (Various) / ID 10100 — Confuse Ray; Sucker Punch; Shadow Punch; Payback — Black, White — October 10 to November 28, 2010
 - Scyther: **Scyther** — Lv. 30 — OT (Various) / ID 10100 — Agility; Wing Attack; Fury Cutter; Slash — Black, White — October 10 to November 28, 2010
 - Electabuzz: **Electabuzz** — Lv. 30 — OT (Various) / ID 10100 — Low Kick; Swift; Shock Wave; Light Screen — Black, White — October 10 to November 28, 2010
-- Magmar: **Magmar** — Lv. 30 — OT (Various) / ID 10100 — SmokeScreen; Faint Attack; Fire Spin; Confuse Ray — Black, White — October 10 to November 28, 2010
+- Magmar: **Magmar** — Lv. 30 — OT (Various) / ID 10100 — Smokescreen; Feint Attack; Fire Spin; Confuse Ray — Black, White — October 10 to November 28, 2010
 - Karrablast: **Karrablast** — Lv. 30 — OT (Various) / ID 10100 — Fury Attack; Headbutt; False Swipe; Bug Buzz — Black, White — October 10 to November 28, 2010
 - Shelmet: **Shelmet** — Lv. 30 — OT (Various) / ID 10100 — Struggle Bug; Mega Drain; Yawn; Protect — Black, White — October 10 to November 28, 2010
 
@@ -1146,20 +1146,20 @@ Total event Pokémon: 2126.
 - Toler Webb's Ludicolo: **Ludicolo** — Lv. 30 — OT Toler / ID 04143 — Scald; Giga Drain; Ice Beam; Sunny Day — Black, White, Black 2, White 2 — April 14, 2013
 - Spring 2013 Meloetta: **Meloetta** — Lv. 50 — OT SPR2013 / ID 03013 — Round; Teeter Dance; Psychic; Close Combat — Black, White, Black 2, White 2 — 2013 and 2014
 - Abram Burrows's Cloyster: **Cloyster** — Lv. 30 — OT Abram / ID 01203 — Icicle Spear; Rock Blast; Hidden Power; Razor Shell — Black, White, Black 2, White 2 — January 20, 2013
-- Summer 2012 Keldeo: **Keldeo** — Lv. 15 — OT SMR2012 / ID 08272 — Aqua Jet; Leer; Double Kick; BubbleBeam — Black, White — 2012 and 2013
+- Summer 2012 Keldeo: **Keldeo** — Lv. 15 — OT SMR2012 / ID 08272 — Aqua Jet; Leer; Double Kick; Bubble Beam — Black, White — 2012 and 2013
 - 2012 World Championships Pikachu: **Pikachu** — Lv. 50 — OT WORLD12 / ID 08122 — Fly; Thunderbolt; Grass Knot; Protect — Black, White — August 12, 2012
 - Summer 2012 Pikachu: **Pikachu** — Lv. 100 — OT SMR2012 / ID 07012 — Thunder; Volt Tackle; Grass Knot; Quick Attack — Black, White — 2012
 - Pika Pika Carnival Pikachu: **Pikachu** — Lv. 100 — OT Fes / ID 05112 — Thunder; Volt Tackle; Grass Knot; Quick Attack — Black, White — May 11 to 20, 2012
 - Video Game Championships 2012 Larvitar: **Larvitar** ★ — Lv. 5 — OT VGC12 / ID 03032 — Bite; Leer; Sandstorm; Superpower — Black, White — 2012
 - Reshiram: **Reshiram** — Lv. 100 — OT SPR2012 / ID 03102 — Blue Flare; Fusion Flare; Mist; Draco Meteor — White — February 18, 2012
 - Zekrom: **Zekrom** — Lv. 100 — OT SPR2012 / ID 03102 — Bolt Strike; Fusion Bolt; Haze; Outrage — Black — February 18, 2012
-- Winter 2011 Darkrai: **Darkrai** — Lv. 50 — OT 2011WIN / ID 11011 — Dark Void; Ominous Wind; Faint Attack; Nightmare — Black, White — 2011 and 2012
+- Winter 2011 Darkrai: **Darkrai** — Lv. 50 — OT 2011WIN / ID 11011 — Dark Void; Ominous Wind; Feint Attack; Nightmare — Black, White — 2011 and 2012
 - Zoroark Month Zoroark: **Zoroark** — Lv. 50 — OT EVENT11 / ID 09161 — Agility; Embargo; Punishment; Snarl — Black, White — September 18 to 25, 2011
 - 2011 World Championships Scrafty: **Scrafty** — Lv. 50 — OT WORLD11 / WORLD11 / ID 08141 — Fire Punch; Payback; Drain Punch; Substitute — Black, White — August 14, 2011
 - Summer 2011 Zoroark: **Zoroark** — Lv. 50 — OT SMR2011 / ID 06011 — Agility; Embargo; Punishment; Snarl — Black, White — June 11 to October 23, 2011
 - Karrablast: **Karrablast** — Lv. 50 — OT SMR2011 / ID 06011 — Megahorn; Take Down; X-Scissor; Flail — Black, White — July 15 to 17, 2011
 - Shelmet: **Shelmet** — Lv. 50 — OT SMR2011 / ID 06011 — Encore; Giga Drain; Body Slam; Bug Buzz — Black, White — July 15 to 17, 2011
-- Cilan's Pansage: **Pansage** — Lv. 1 — Egg — Bullet Seed; Bite; SolarBeam; Dig — Black, White — April 27 to May 31, 2011
+- Cilan's Pansage: **Pansage** — Lv. 1 — Egg — Bullet Seed; Bite; Solar Beam; Dig — Black, White — April 27 to May 31, 2011
 - Ash's Pidove: **Pidove** — Lv. 1 — Egg — Gust; Quick Attack; Air Cutter — Black, White — April 27 to May 31, 2011
 - Iris's Axew: **Axew** — Lv. 1 — Egg — Scratch; Dragon Rage — Black, White — April 27 to May 31, 2011
 
@@ -1171,11 +1171,11 @@ Total event Pokémon: 2126.
 - 2013 World Championships Smeargle: **Smeargle** — Lv. 50 — OT WORLD13 / ID 08113 — False Swipe; Spore; Odor Sleuth; Mean Look — Black, White, Black 2, White 2 — August 10 to 11, 2013
 - Video Game Championships 2013 Metagross: **Metagross** ★ — Lv. 45 — OT Ray / ID 05113 — Meteor Mash; Earthquake; Zen Headbutt; Protect — Black, White, Black 2, White 2 — 2013
 - Spring 2013 Meloetta: **Meloetta** — Lv. 50 — OT FRÜ2013 / ID 03013 — Round; Teeter Dance; Psychic; Close Combat — Black, White, Black 2, White 2 — 2013 and 2014
-- Summer 2012 Keldeo: **Keldeo** — Lv. 15 — OT SMR2012 / ID 08272 — Aqua Jet; Leer; Double Kick; BubbleBeam — Black, White — 2012 and 2013
+- Summer 2012 Keldeo: **Keldeo** — Lv. 15 — OT SMR2012 / ID 08272 — Aqua Jet; Leer; Double Kick; Bubble Beam — Black, White — 2012 and 2013
 - 2012 World Championships Pikachu: **Pikachu** — Lv. 50 — OT WORLD12 / ID 08122 — Fly; Thunderbolt; Grass Knot; Protect — Black, White — August 12, 2012
 - Summer 2012 Pikachu: **Pikachu** — Lv. 100 — OT SMR2012 / ID 07012 — Thunder; Volt Tackle; Grass Knot; Quick Attack — Black, White — 2012
 - Video Game Championships 2012 Larvitar: **Larvitar** ★ — Lv. 5 — OT VGC12 / ID 03032 — Bite; Leer; Sandstorm; Superpower — Black, White — 2012
-- Winter 2011 Darkrai: **Darkrai** — Lv. 50 — OT 2011WIN / ID 11011 — Dark Void; Ominous Wind; Faint Attack; Nightmare — Black, White — 2011 and 2012
+- Winter 2011 Darkrai: **Darkrai** — Lv. 50 — OT 2011WIN / ID 11011 — Dark Void; Ominous Wind; Feint Attack; Nightmare — Black, White — 2011 and 2012
 - 2011 World Championships Scrafty: **Scrafty** — Lv. 50 — OT WORLD11 / WORLD11 / ID 08141 — Fire Punch; Payback; Drain Punch; Substitute — Black, White — August 14, 2011
 - Summer 2011 Zoroark: **Zoroark** — Lv. 50 — OT SMR2011 / ID 06011 — Agility; Embargo; Punishment; Snarl — Black, White — August 27 to October 1, 2011
 - Karrablast: **Karrablast** — Lv. 50 — OT SMR2011 / ID 06011 — Megahorn; Take Down; X-Scissor; Flail — Black, White — 2011
@@ -1189,11 +1189,11 @@ Total event Pokémon: 2126.
 - 2013 World Championships Smeargle: **Smeargle** — Lv. 50 — OT WORLD13 / ID 08113 — False Swipe; Spore; Odor Sleuth; Mean Look — Black, White, Black 2, White 2 — August 10 to 11, 2013
 - Video Game Championships 2013 Metagross: **Metagross** ★ — Lv. 45 — OT Ray / ID 05113 — Meteor Mash; Earthquake; Zen Headbutt; Protect — Black, White, Black 2, White 2 — 2013
 - Spring 2013 Meloetta: **Meloetta** — Lv. 50 — OT PRI2013 / ID 03013 — Round; Teeter Dance; Psychic; Close Combat — Black, White, Black 2, White 2 — 2013 and 2014
-- Summer 2012 Keldeo: **Keldeo** — Lv. 15 — OT VER2012 / ID 08272 — Aqua Jet; Leer; Double Kick; BubbleBeam — Black, White — 2012 and 2013
+- Summer 2012 Keldeo: **Keldeo** — Lv. 15 — OT VER2012 / ID 08272 — Aqua Jet; Leer; Double Kick; Bubble Beam — Black, White — 2012 and 2013
 - 2012 World Championships Pikachu: **Pikachu** — Lv. 50 — OT WORLD12 / ID 08122 — Fly; Thunderbolt; Grass Knot; Protect — Black, White — August 12, 2012
 - Summer 2012 Pikachu: **Pikachu** — Lv. 100 — OT VER2012 / ID 07012 — Thunder; Volt Tackle; Grass Knot; Quick Attack — Black, White — 2012
 - Video Game Championships 2012 Larvitar: **Larvitar** ★ — Lv. 5 — OT VGC12 / ID 03032 — Bite; Leer; Sandstorm; Superpower — Black, White — 2012
-- Winter 2011 Darkrai: **Darkrai** — Lv. 50 — OT 2011INV / ID 11011 — Dark Void; Ominous Wind; Faint Attack; Nightmare — Black, White — 2011 and 2012
+- Winter 2011 Darkrai: **Darkrai** — Lv. 50 — OT 2011INV / ID 11011 — Dark Void; Ominous Wind; Feint Attack; Nightmare — Black, White — 2011 and 2012
 - 2011 World Championships Scrafty: **Scrafty** — Lv. 50 — OT WORLD11 / WORLD11 / ID 08141 — Fire Punch; Payback; Drain Punch; Substitute — Black, White — August 14, 2011
 - Summer 2011 Zoroark: **Zoroark** — Lv. 50 — OT VER2011 / ID 06011 — Agility; Embargo; Punishment; Snarl — Black, White — 11 June 2011 & 18 June 2011
 - Karrablast: **Karrablast** — Lv. 50 — OT VER2011 / ID 06011 — Megahorn; Take Down; X-Scissor; Flail — Black, White — June 11 and 18, 2011
@@ -1207,11 +1207,11 @@ Total event Pokémon: 2126.
 - 2013 World Championships Smeargle: **Smeargle** — Lv. 50 — OT WORLD13 / ID 08113 — False Swipe; Spore; Odor Sleuth; Mean Look — Black, White, Black 2, White 2 — August 10 to 11, 2013
 - Video Game Championships 2013 Metagross: **Metagross** ★ — Lv. 45 — OT Ray / ID 05113 — Meteor Mash; Earthquake; Zen Headbutt; Protect — Black, White, Black 2, White 2 — 2013
 - Spring 2013 Meloetta: **Meloetta** — Lv. 50 — OT PRI2013 / ID 03013 — Round; Teeter Dance; Psychic; Close Combat — Black, White, Black 2, White 2 — 2013 and 2014
-- Summer 2012 Keldeo: **Keldeo** — Lv. 15 — OT ÉTÉ2012 / ID 08272 — Aqua Jet; Leer; Double Kick; BubbleBeam — Black, White — 2012 and 2013
+- Summer 2012 Keldeo: **Keldeo** — Lv. 15 — OT ÉTÉ2012 / ID 08272 — Aqua Jet; Leer; Double Kick; Bubble Beam — Black, White — 2012 and 2013
 - 2012 World Championships Pikachu: **Pikachu** — Lv. 50 — OT WORLD12 / ID 08122 — Fly; Thunderbolt; Grass Knot; Protect — Black, White — August 12, 2012
 - Summer 2012 Pikachu: **Pikachu** — Lv. 100 — OT ÉTÉ2012 / ID 07012 — Thunder; Volt Tackle; Grass Knot; Quick Attack — Black, White — 2012
 - Video Game Championships 2012 Larvitar: **Larvitar** ★ — Lv. 5 — OT VGC12 / ID 03032 — Bite; Leer; Sandstorm; Superpower — Black, White — 2012
-- Winter 2011 Darkrai: **Darkrai** — Lv. 50 — OT 2011HVR / ID 11011 — Dark Void; Ominous Wind; Faint Attack; Nightmare — Black, White — 2011 and 2012
+- Winter 2011 Darkrai: **Darkrai** — Lv. 50 — OT 2011HVR / ID 11011 — Dark Void; Ominous Wind; Feint Attack; Nightmare — Black, White — 2011 and 2012
 - Zoroark Month Zoroark: **Zoroark** — Lv. 50 — OT ÉVNMT11 / ID 09161 — Agility; Embargo; Punishment; Snarl — Black, White — September 18 to 24, 2011
 - 2011 World Championships Scrafty: **Scrafty** — Lv. 50 — OT WORLD11 / WORLD11 / ID 08141 — Fire Punch; Payback; Drain Punch; Substitute — Black, White — August 14, 2011
 - Summer 2011 Zoroark: **Zoroark** — Lv. 50 — OT ÉTÉ2011 / ID 06011 — Agility; Embargo; Punishment; Snarl — Black, White — 2011
@@ -1227,11 +1227,11 @@ Total event Pokémon: 2126.
 - Team Rocket Meowth: **Meowth** — Lv. 15 — OT ROCKET / ID 07133 — Fury Swipes; Sing; Nasty Plot; Snatch — Black, White, Black 2, White 2 — July 13 to 14, 2013
 - Video Game Championships 2013 Metagross: **Metagross** ★ — Lv. 45 — OT Ray / ID 05113 — Meteor Mash; Earthquake; Zen Headbutt; Protect — Black, White, Black 2, White 2 — 2013
 - Spring 2013 Meloetta: **Meloetta** — Lv. 50 — OT PRI2013 / ID 03013 — Round; Teeter Dance; Psychic; Close Combat — Black, White, Black 2, White 2 — 2013 and 2014
-- Summer 2012 Keldeo: **Keldeo** — Lv. 15 — OT EST2012 / ID 08272 — Aqua Jet; Leer; Double Kick; BubbleBeam — Black, White — 2012 and 2013
+- Summer 2012 Keldeo: **Keldeo** — Lv. 15 — OT EST2012 / ID 08272 — Aqua Jet; Leer; Double Kick; Bubble Beam — Black, White — 2012 and 2013
 - 2012 World Championships Pikachu: **Pikachu** — Lv. 50 — OT WORLD12 / ID 08122 — Fly; Thunderbolt; Grass Knot; Protect — Black, White — August 12, 2012
 - Summer 2012 Pikachu: **Pikachu** — Lv. 100 — OT EST2012 / ID 07012 — Thunder; Volt Tackle; Grass Knot; Quick Attack — Black, White — 2012
 - Video Game Championships 2012 Larvitar: **Larvitar** ★ — Lv. 5 — OT VGC12 / ID 03032 — Bite; Leer; Sandstorm; Superpower — Black, White — 2012
-- Winter 2011 Darkrai: **Darkrai** — Lv. 50 — OT 2011INV / ID 11011 — Dark Void; Ominous Wind; Faint Attack; Nightmare — Black, White — 2011 and 2012
+- Winter 2011 Darkrai: **Darkrai** — Lv. 50 — OT 2011INV / ID 11011 — Dark Void; Ominous Wind; Feint Attack; Nightmare — Black, White — 2011 and 2012
 - 2011 World Championships Scrafty: **Scrafty** — Lv. 50 — OT WORLD11 / WORLD11 / ID 08141 — Fire Punch; Payback; Drain Punch; Substitute — Black, White — August 14, 2011
 - Summer 2011 Zoroark: **Zoroark** — Lv. 50 — OT EST2011 / ID 06011 — Agility; Embargo; Punishment; Snarl — Black, White — July 20 to October 23, 2011 & June 18 to 19, 2011
 - Karrablast: **Karrablast** — Lv. 50 — OT EST2011 / ID 06011 — Megahorn; Take Down; X-Scissor; Flail — Black, White — July 20 to October 23, 2011 & July 24 to August 31, 2011
@@ -1239,7 +1239,7 @@ Total event Pokémon: 2126.
 
 ### Local Korean events
 
-- Cinema Genesect: **Genesect** ★ — Lv. 100 — OT 영화관 / ID 01014 — ExtremeSpeed; Techno Blast; Blaze Kick; Shift Gear — Black, White, Black 2, White 2 — January 9 to 15, 2014
+- Cinema Genesect: **Genesect** ★ — Lv. 100 — OT 영화관 / ID 01014 — Extreme Speed; Techno Blast; Blaze Kick; Shift Gear — Black, White, Black 2, White 2 — January 9 to 15, 2014
 - Dialga: **Dialga** ★ — Lv. 100 — OT 10/12 / ID 09143 — Dragon Pulse; Draco Meteor; Roar of Time; Aura Sphere — Black, White, Black 2, White 2 — September 14 to October 6, 2013
 - Palkia: **Palkia** ★ — Lv. 100 — OT 10/12 / ID 09143 — Hydro Pump; Draco Meteor; Spacial Rend; Aura Sphere — Black, White, Black 2, White 2 — September 14 to October 6, 2013
 - Giratina: **Giratina** ★ — Lv. 100 — OT 10/12 / ID 09143 — Dragon Pulse; Dragon Claw; Aura Sphere; Shadow Force — Black, White, Black 2, White 2 — September 14 to October 6, 2013
@@ -1249,15 +1249,15 @@ Total event Pokémon: 2126.
 - 2013 World Championships Smeargle: **Smeargle** — Lv. 50 — OT WORLD13 / ID 08113 — False Swipe; Spore; Odor Sleuth; Mean Look — Black, White, Black 2, White 2 — August 10 to 11, 2013
 - Character Fair Jirachi: **Jirachi** — Lv. 50 — OT 캐릭터페어 / ID 07173 — Wish; Healing Wish; Cosmic Power; Meteor Mash — Black, White, Black 2, White 2 — July 17 to 21, 2013
 - Team Plasma Deoxys: **Deoxys** — Lv. 100 — OT 플라스마단 / ID 05043 — Nasty Plot; Dark Pulse; Recover; Psycho Boost — Black 2, White 2 — May 4 to 5, 2013
-- Dragonite: **Dragonite** — Lv. 100 — OT Various / ID Various — ExtremeSpeed; Fire Punch; Dragon Dance; Outrage — Black 2, White 2 — February 24 to May 5, 2013
+- Dragonite: **Dragonite** — Lv. 100 — OT Various / ID Various — Extreme Speed; Fire Punch; Dragon Dance; Outrage — Black 2, White 2 — February 24 to May 5, 2013
 - Scizor: **Scizor** — Lv. 100 — OT Various / ID Various — Bullet Punch; Bug Bite; Roost; Swords Dance — Black 2, White 2 — February 24 to May 5, 2013
 - Tyranitar: **Tyranitar** — Lv. 100 — OT Various / ID Various — Fire Blast; Ice Beam; Stone Edge; Crunch — Black 2, White 2 — February 24 to May 5, 2013
 - Metagross: **Metagross** — Lv. 100 — OT Various / ID Various — Bullet Punch; Zen Headbutt; Hammer Arm; Ice Punch — Black 2, White 2 — February 24 to May 5, 2013
 - Garchomp: **Garchomp** — Lv. 100 — OT Various / ID Various — Outrage; Earthquake; Swords Dance; Stone Edge — Black 2, White 2 — February 24 to May 5, 2013
-- Plasma Genesect: **Genesect** — Lv. 50 — OT 플라스마단 / ID 01193 — Techno Blast; Magnet Bomb; SolarBeam; Signal Beam — Black 2, White 2 — January 19 to February 11, 2013
-- Concert Piplup: **Piplup** — Lv. 15 — OT 음악회 / ID 12152 — Sing; Round; FeatherDance; Peck — Black, White, Black 2, White 2 — December 22 to 25, 2012
+- Plasma Genesect: **Genesect** — Lv. 50 — OT 플라스마단 / ID 01193 — Techno Blast; Magnet Bomb; Solar Beam; Signal Beam — Black 2, White 2 — January 19 to February 11, 2013
+- Concert Piplup: **Piplup** — Lv. 15 — OT 음악회 / ID 12152 — Sing; Round; Feather Dance; Peck — Black, White, Black 2, White 2 — December 22 to 25, 2012
 - Cinema Meloetta: **Meloetta** — Lv. 15 — OT 영화관 / ID 12192 — Round; Quick Attack; Confusion — Black, White, Black 2, White 2 — December 19, 2012 to February 28, 2013
-- Sacred Swordsman Keldeo: **Keldeo** — Lv. 15 — OT 성검사 / ID 12192 — Aqua Jet; Leer; Double Kick; BubbleBeam — Black, White, Black 2, White 2 — December 11, 2012; December 19, 2012 to January 6, 2013
+- Sacred Swordsman Keldeo: **Keldeo** — Lv. 15 — OT 성검사 / ID 12192 — Aqua Jet; Leer; Double Kick; Bubble Beam — Black, White, Black 2, White 2 — December 11, 2012; December 19, 2012 to January 6, 2013
 - Bulbasaur: **Bulbasaur** — Lv. 1 — Egg — False Swipe; Block; Frenzy Plant; Weather Ball — Black, White, Black 2, White 2 — November 8 to 11, 2012
 - Charmander: **Charmander** — Lv. 1 — Egg — False Swipe; Block; Blast Burn; Acrobatics — Black, White, Black 2, White 2 — November 8 to 11, 2012
 - Squirtle: **Squirtle** — Lv. 1 — Egg — False Swipe; Block; Hydro Cannon; Follow Me — Black, White, Black 2, White 2 — November 8 to 11, 2012
@@ -1268,7 +1268,7 @@ Total event Pokémon: 2126.
 - Reshiram: **Reshiram** — Lv. 100 — OT 지우 / ID 12221 — Blue Flare; Fusion Flare; Mist; Draco Meteor — White — December 22, 2011 to February 29, 2012
 - Zekrom: **Zekrom** — Lv. 100 — OT 지우 / ID 12221 — Bolt Strike; Fusion Bolt; Haze; Outrage — Black — December 22, 2011 to February 29, 2012
 - Eind Victini: **Victini** — Lv. 50 — OT 아인트 / ID 12221 — V-create; Fusion Flare; Fusion Bolt; Searing Shot — Black, White — December 22, 2011 to January 8, 2012
-- Homeplus Darkrai: **Darkrai** — Lv. 50 — OT 홈플러스 / ID 09031 — Dark Void; Ominous Wind; Faint Attack; Nightmare — Black, White — September 3 to 25, 2011
+- Homeplus Darkrai: **Darkrai** — Lv. 50 — OT 홈플러스 / ID 09031 — Dark Void; Ominous Wind; Feint Attack; Nightmare — Black, White — September 3 to 25, 2011
 - 2011 World Championships Scrafty: **Scrafty** — Lv. 50 — OT WORLD11 / WORLD11 / ID 08141 — Fire Punch; Payback; Drain Punch; Substitute — Black, White — August 14, 2011
 - Station Zoroark: **Zoroark** — Lv. 50 — OT 방송국 / ID 06261 — Agility; Embargo; Punishment; Snarl — Black, White — June 26 to August 28, 2011
 
@@ -1276,17 +1276,17 @@ Total event Pokémon: 2126.
 
 - Decolora Jirachi: **Jirachi** — Lv. 50 — OT デコロラ / ID 07013 — Healing Wish; Psychic; Swift; Meteor Mash — Black, White, Black 2, White 2 — July 1 to 31, 2013
 - Team Rocket Meowth: **Meowth** — Lv. 15 — OT Ｒだん / ID 12072 — Fury Swipes; Sing; Nasty Plot; Snatch — Black 2, White 2 — December 7, 2012 to January 10, 2013
-- Plasma Genesect: **Genesect** — Lv. 50 — OT プラズマ / ID 08112 — Techno Blast; Magnet Bomb; SolarBeam; Signal Beam — Black 2, White 2 — August 11 to September 14, 2012
-- Recital Piplup: **Piplup** — Lv. 15 — OT リサイタル / ID 07202 — Sing; Round; FeatherDance; Peck — Black 2, White 2 — July 20 to August 9, 2012
-- Nobunaga's Black Rayquaza: **Rayquaza** ★ — Lv. 70 — OT ノブナガ / ID 03172 — Dragon Pulse; AncientPower; Outrage; Dragon Dance — Black, White — March 17 to April 16, 2012
+- Plasma Genesect: **Genesect** — Lv. 50 — OT プラズマ / ID 08112 — Techno Blast; Magnet Bomb; Solar Beam; Signal Beam — Black 2, White 2 — August 11 to September 14, 2012
+- Recital Piplup: **Piplup** — Lv. 15 — OT リサイタル / ID 07202 — Sing; Round; Feather Dance; Peck — Black 2, White 2 — July 20 to August 9, 2012
+- Nobunaga's Black Rayquaza: **Rayquaza** ★ — Lv. 70 — OT ノブナガ / ID 03172 — Dragon Pulse; Ancient Power; Outrage; Dragon Dance — Black, White — March 17 to April 16, 2012
 - Tornadus: **Tornadus** — Lv. 70 — OT ミロスとう / ID 12161 — Hurricane; Hammer Arm; Air Slash; Hidden Power — White — December 16, 2011 to January 10, 2012
 - Thundurus: **Thundurus** — Lv. 70 — OT ミロスとう / ID 12161 — Thunder; Hammer Arm; Focus Blast; Wild Charge — Black — December 16, 2011 to January 10, 2012
 - Pokémon Smash! Mewtwo: **Mewtwo** — Lv. 70 — OT ポケスマ！ / ID 09261 — Psystrike; Shadow Ball; Aura Sphere; Electro Ball — Black, White — September 26 to October 31, 2011
 - Juanita's Golurk: **Golurk** ★ — Lv. 70 — OT ジャンタ / ID 06171 — Shadow Punch; Hyper Beam; Gyro Ball; Hammer Arm — White — June 17 to September 8, 2011  _(also listed in: Movie events — Juanita (Janta)'s Golurk)_
-- Carlita's Hydreigon: **Hydreigon** ★ — Lv. 70 — OT カリータ / ID 06171 — Hyper Voice; DragonBreath; Flamethrower; Focus Blast — Black — June 17 to September 8, 2011  _(also listed in: Movie events — Carlita (Karita)'s Hydreigon)_
+- Carlita's Hydreigon: **Hydreigon** ★ — Lv. 70 — OT カリータ / ID 06171 — Hyper Voice; Dragon Breath; Flamethrower; Focus Blast — Black — June 17 to September 8, 2011  _(also listed in: Movie events — Carlita (Karita)'s Hydreigon)_
 - Pokémon Smash! Zoroark: **Zoroark** — Lv. 50 — OT ポケスマ！ / ID 01161 — Agility; Embargo; Punishment; Snarl — Black, White — February 15 to March 14, 2011
-- Ash's Scraggy: **Scraggy** — Lv. 1 — OT サトシ / ID 01281 — Leer; Low Kick; Headbutt; Hi Jump Kick — Black, White — January 28 to February 10, 2011
-- Cilan's Pansage: **Pansage** — Lv. 1 — Egg — Bullet Seed; Bite; SolarBeam; Dig — Black, White — December 17, 2010 to January 11, 2011
+- Ash's Scraggy: **Scraggy** — Lv. 1 — OT サトシ / ID 01281 — Leer; Low Kick; Headbutt; High Jump Kick — Black, White — January 28 to February 10, 2011
+- Cilan's Pansage: **Pansage** — Lv. 1 — Egg — Bullet Seed; Bite; Solar Beam; Dig — Black, White — December 17, 2010 to January 11, 2011
 - Ash's Pidove: **Pidove** — Lv. 1 — Egg — Gust; Quick Attack; Air Cutter — Black, White — December 17, 2010 to January 11, 2011
 - Iris's Axew: **Axew** — Lv. 1 — Egg — Scratch; Dragon Rage — Black, White — December 17, 2010 to January 11, 2011
 - Pokémon Smash! Cubchoo: **Cubchoo** — Lv. 15 — OT ポケスマ / ID 10220 — Powder Snow; Growl; Bide; Icy Wind — Black, White — October 22 to November 29, 2010
@@ -1295,8 +1295,8 @@ Total event Pokémon: 2126.
 
 - Plasma Deoxys: **Deoxys** — Lv. 100 — OT Plasma / ID 05083 — Nasty Plot; Dark Pulse; Recover; Psycho Boost — Black 2, White 2 — May 8 to 31, 2013
 - Winter 2013 Keldeo: **Keldeo** — Lv. 50 — OT WIN2013 / ID 01163 — Sacred Sword; Hydro Pump; Aqua Jet; Swords Dance — Black 2, White 2 — January 25 to February 12, 2013
-- Plasma Genesect: **Genesect** — Lv. 15 — OT Plasma / ID 10072 — Techno Blast; Magnet Bomb; SolarBeam; Signal Beam — Black 2, White 2 — October 7 to November 12, 2012
-- May 2012 Darkrai: **Darkrai** — Lv. 50 — OT 2012MAY / ID 05092 — Dark Void; Ominous Wind; Faint Attack; Nightmare — Black, White — May 9 to June 10, 2012
+- Plasma Genesect: **Genesect** — Lv. 15 — OT Plasma / ID 10072 — Techno Blast; Magnet Bomb; Solar Beam; Signal Beam — Black 2, White 2 — October 7 to November 12, 2012
+- May 2012 Darkrai: **Darkrai** — Lv. 50 — OT 2012MAY / ID 05092 — Dark Void; Ominous Wind; Feint Attack; Nightmare — Black, White — May 9 to June 10, 2012
 - Reshiram: **Reshiram** — Lv. 100 — OT SPR2012 / ID 03102 — Blue Flare; Fusion Flare; Mist; Draco Meteor — White — March 10 to April 8, 2012
 - Zekrom: **Zekrom** — Lv. 100 — OT SPR2012 / ID 03102 — Bolt Strike; Fusion Bolt; Haze; Outrage — Black — March 10 to April 8, 2012
 - February 2012 Mewtwo: **Mewtwo** — Lv. 70 — OT FEB2012 / ID 02112 — Psystrike; Shadow Ball; Aura Sphere; Electro Ball — Black, White — February 12 to 26, 2012
@@ -1306,7 +1306,7 @@ Total event Pokémon: 2126.
 
 - Plasma Deoxys: **Deoxys** — Lv. 100 — OT Plasma / ID 06013 — Nasty Plot; Dark Pulse; Recover; Psycho Boost — Black 2, White 2 — July 1 to 22, 2013
 - Winter 2013 Keldeo: **Keldeo** — Lv. 50 — OT WIN2013 / ID 01163 — Sacred Sword; Hydro Pump; Aqua Jet; Swords Dance — Black 2, White 2 — January 25 to February 12, 2013
-- Plasma Genesect: **Genesect** — Lv. 15 — OT Plasma / ID 10072 — Techno Blast; Magnet Bomb; SolarBeam; Signal Beam — Black 2, White 2 — October 11 to November 12, 2012
+- Plasma Genesect: **Genesect** — Lv. 15 — OT Plasma / ID 10072 — Techno Blast; Magnet Bomb; Solar Beam; Signal Beam — Black 2, White 2 — October 11 to November 12, 2012
 - Spring 2012 Mewtwo: **Mewtwo** — Lv. 70 — OT FRÜ2012 / ID 05012 — Psystrike; Shadow Ball; Aura Sphere; Electro Ball — Black, White — May 1 to 31, 2012
 - Movie 14 Victini: **Victini** — Lv. 50 — OT FILM14 / FILM14 / ID 12031 — V-create; Fusion Flare; Fusion Bolt; Searing Shot — Black, White — April 10 to 30, 2012
 - Reshiram: **Reshiram** — Lv. 100 — OT FRÜ2012 / ID 03102 — Blue Flare; Fusion Flare; Mist; Draco Meteor — White — March 10 to April 8, 2012
@@ -1316,7 +1316,7 @@ Total event Pokémon: 2126.
 
 - Plasma Deoxys: **Deoxys** — Lv. 100 — OT Plasma / ID 06013 — Nasty Plot; Dark Pulse; Recover; Psycho Boost — Black 2, White 2 — July 1 to 22, 2013
 - Winter 2013 Keldeo: **Keldeo** — Lv. 50 — OT INV2013 / ID 01163 — Sacred Sword; Hydro Pump; Aqua Jet; Swords Dance — Black 2, White 2 — January 25 to February 12, 2013
-- Plasma Genesect: **Genesect** — Lv. 15 — OT Plasma / ID 10072 — Techno Blast; Magnet Bomb; SolarBeam; Signal Beam — Black 2, White 2 — October 11 to November 12, 2012
+- Plasma Genesect: **Genesect** — Lv. 15 — OT Plasma / ID 10072 — Techno Blast; Magnet Bomb; Solar Beam; Signal Beam — Black 2, White 2 — October 11 to November 12, 2012
 - Spring 2012 Mewtwo: **Mewtwo** — Lv. 70 — OT PRI2012 / ID 05012 — Psystrike; Shadow Ball; Aura Sphere; Electro Ball — Black, White — May 1 to 31, 2012
 - Movie 14 Victini: **Victini** — Lv. 50 — OT PELI14 / PELI14 / ID 12031 — V-create; Fusion Flare; Fusion Bolt; Searing Shot — Black, White — April 10 to 30, 2012
 - Reshiram: **Reshiram** — Lv. 100 — OT PRI2012 / ID 03102 — Blue Flare; Fusion Flare; Mist; Draco Meteor — White — March 10 to April 8, 2012
@@ -1326,7 +1326,7 @@ Total event Pokémon: 2126.
 
 - Plasma Deoxys: **Deoxys** — Lv. 100 — OT Plasma / ID 06013 — Nasty Plot; Dark Pulse; Recover; Psycho Boost — Black 2, White 2 — July 1 to 22, 2013
 - Winter 2013 Keldeo: **Keldeo** — Lv. 50 — OT HVR2013 / ID 01163 — Sacred Sword; Hydro Pump; Aqua Jet; Swords Dance — Black 2, White 2 — January 16 to February 12, 2013
-- Plasma Genesect: **Genesect** — Lv. 15 — OT Plasma / ID 10072 — Techno Blast; Magnet Bomb; SolarBeam; Signal Beam — Black 2, White 2 — October 11 to November 12, 2012
+- Plasma Genesect: **Genesect** — Lv. 15 — OT Plasma / ID 10072 — Techno Blast; Magnet Bomb; Solar Beam; Signal Beam — Black 2, White 2 — October 11 to November 12, 2012
 - Movie 14 Victini: **Victini** — Lv. 50 — OT FILM14 / FILM14 / ID 06012 — V-create; Fusion Flare; Fusion Bolt; Searing Shot — Black, White — June 1 to 30, 2012
 - Spring 2012 Mewtwo: **Mewtwo** — Lv. 70 — OT PRI2012 / ID 02112 — Psystrike; Shadow Ball; Aura Sphere; Electro Ball — Black, White — March 26 to May 1, 2012
 - Reshiram: **Reshiram** — Lv. 100 — OT PRI2012 / ID 03102 — Blue Flare; Fusion Flare; Mist; Draco Meteor — White — March 10 to 25, 2012
@@ -1336,7 +1336,7 @@ Total event Pokémon: 2126.
 
 - Plasma Deoxys: **Deoxys** — Lv. 100 — OT Plasma / ID 06013 — Nasty Plot; Dark Pulse; Recover; Psycho Boost — Black 2, White 2 — July 1 to 22, 2013
 - Winter 2013 Keldeo: **Keldeo** — Lv. 50 — OT INV2013 / ID 01163 — Sacred Sword; Hydro Pump; Aqua Jet; Swords Dance — Black 2, White 2 — January 25 to February 12, 2013
-- Plasma Genesect: **Genesect** — Lv. 15 — OT Plasma / ID 10072 — Techno Blast; Magnet Bomb; SolarBeam; Signal Beam — Black 2, White 2 — October 11 to November 12, 2012
+- Plasma Genesect: **Genesect** — Lv. 15 — OT Plasma / ID 10072 — Techno Blast; Magnet Bomb; Solar Beam; Signal Beam — Black 2, White 2 — October 11 to November 12, 2012
 - Spring 2012 Mewtwo: **Mewtwo** — Lv. 70 — OT PRI2012 / ID 05012 — Psystrike; Shadow Ball; Aura Sphere; Electro Ball — Black, White — May 1 to 31, 2012
 - Movie 14 Victini: **Victini** — Lv. 50 — OT FILM14 / FILM14 / ID 12031 — V-create; Fusion Flare; Fusion Bolt; Searing Shot — Black, White — April 10 to 30, 2012
 - Reshiram: **Reshiram** — Lv. 100 — OT PRI2012 / ID 03102 — Blue Flare; Fusion Flare; Mist; Draco Meteor — White — March 10 to April 8, 2012
@@ -1359,9 +1359,9 @@ Total event Pokémon: 2126.
 - Thundurus: **Thundurus** — Lv. 70 — OT 삼로스섬 / ID 05142 — Thunder; Hammer Arm; Focus Blast; Wild Charge — Black — May 14 to July 5, 2012
 - Strongest Return Mewtwo: **Mewtwo** — Lv. 70 — OT 최강의귀환 / ID 03042 — Psystrike; Shadow Ball; Aura Sphere; Electro Ball — Black, White — March 15 to May 10, 2012
 - Juanita's Golurk: **Golurk** ★ — Lv. 70 — OT 잔타 / ID 11031 — Shadow Punch; Hyper Beam; Gyro Ball; Hammer Arm — White — November 3, 2011 to January 31, 2012
-- Carlita's Hydreigon: **Hydreigon** ★ — Lv. 70 — OT 카리타 / ID 11031 — Hyper Voice; DragonBreath; Flamethrower; Focus Blast — Black — November 3, 2011 to January 31, 2012
-- Ash's Scraggy: **Scraggy** — Lv. 1 — OT 지우 / ID 06281 — Leer; Low Kick; Headbutt; Hi Jump Kick — Black, White — June 28 to July 17, 2011
-- Cilan's Pansage: **Pansage** — Lv. 1 — Egg — Bullet Seed; Bite; SolarBeam; Dig — Black, White — June 1 to 26, 2011
+- Carlita's Hydreigon: **Hydreigon** ★ — Lv. 70 — OT 카리타 / ID 11031 — Hyper Voice; Dragon Breath; Flamethrower; Focus Blast — Black — November 3, 2011 to January 31, 2012
+- Ash's Scraggy: **Scraggy** — Lv. 1 — OT 지우 / ID 06281 — Leer; Low Kick; Headbutt; High Jump Kick — Black, White — June 28 to July 17, 2011
+- Cilan's Pansage: **Pansage** — Lv. 1 — Egg — Bullet Seed; Bite; Solar Beam; Dig — Black, White — June 1 to 26, 2011
 - Ash's Pidove: **Pidove** — Lv. 1 — Egg — Gust; Quick Attack; Air Cutter — Black, White — June 1 to 26, 2011
 - Iris's Axew: **Axew** — Lv. 1 — Egg — Scratch; Dragon Rage — Black, White — June 1 to 26, 2011
 
@@ -1390,7 +1390,7 @@ Total event Pokémon: 2126.
 
 - Yveltal: **Yveltal** ★ — Lv. 100 — OT XYZ / ID 05206 — Oblivion Wing; Sucker Punch; Dark Pulse; Foul Play — X, Y, Omega Ruby and Alpha Sapphire — May 20 to 26, 2016
 - Xerneas: **Xerneas** ★ — Lv. 100 — OT XYZ / ID 05116 — Geomancy; Moonblast; Aromatherapy; Focus Blast — X, Y, Omega Ruby and Alpha Sapphire — May 11 to 17, 2016
-- Zygarde: **Zygarde** — Lv. 100 — OT XYZ / ID 05026 — Land's Wrath; Extreme Speed; Glare; Outrage — X, Y, Omega Ruby and Alpha Sapphire — April 30 to May 8, 2016
+- Zygarde: **Zygarde** — Lv. 100 — OT XYZ / ID 05026 — Land’s Wrath; Extreme Speed; Glare; Outrage — X, Y, Omega Ruby and Alpha Sapphire — April 30 to May 8, 2016
 - Meloetta: **Meloetta (Aria Forme)** — Lv. 100 — OT GF / ID 12016 — Quick Attack; Confusion; Round — X, Y, Omega Ruby and Alpha Sapphire — December 1 to 24, 2016
 - Keldeo: **Keldeo (Ordinary Form)** — Lv. 100 — OT GF / ID 10016 — Aqua Jet; Leer; Double Kick; Bubble Beam — X, Y, Omega Ruby and Alpha Sapphire — October 1 to 24, 2016
 - Victini: **Victini** — Lv. 100 — OT GF / ID 09016 — Incinerate; Quick Attack; Endure; Confusion — X, Y, Omega Ruby and Alpha Sapphire — September 1 to 24, 2016
@@ -1412,7 +1412,7 @@ Total event Pokémon: 2126.
 
 ### Nintendo Network (PAL)
 
-- Descartes Zygarde: **Zygarde** — Lv. 100 — OT Cartesio / Descartes / ID 05026 — Land's Wrath; Extreme Speed; Glare; Outrage — X, Y, Omega Ruby and Alpha Sapphire — April 29 to May 26, 2016
+- Descartes Zygarde: **Zygarde** — Lv. 100 — OT Cartesio / Descartes / ID 05026 — Land’s Wrath; Extreme Speed; Glare; Outrage — X, Y, Omega Ruby and Alpha Sapphire — April 29 to May 26, 2016
 - Meloetta: **Meloetta (Aria Forme)** — Lv. 100 — OT GF / ID 12016 — Quick Attack; Confusion; Round — X, Y, Omega Ruby and Alpha Sapphire — December 1 to 24, 2016
 - Keldeo: **Keldeo (Ordinary Form)** — Lv. 100 — OT GF / ID 10016 — Aqua Jet; Leer; Double Kick; Bubble Beam — X, Y, Omega Ruby and Alpha Sapphire — October 1 to 24, 2016
 - Victini: **Victini** — Lv. 100 — OT GF / ID 09016 — Incinerate; Quick Attack; Endure; Confusion — X, Y, Omega Ruby and Alpha Sapphire — September 1 to 24, 2016
@@ -1478,7 +1478,7 @@ Total event Pokémon: 2126.
 - Smeargle: **Smeargle** — Lv. 40 — OT ﻿ＡＤサカイ / ID 11195 — Sketch; Fury Swipes; Seismic Toss; Flamethrower — X, Y, Omega Ruby and Alpha Sapphire — November 19, 2015 to May 31, 2016
 - Zoroark: **Zoroark** — Lv. 45 — OT サダ / ID 11195 — Scary Face; Fury Swipes; Nasty Plot; Punishment — X, Y, Omega Ruby and Alpha Sapphire — November 19, 2015 to May 31, 2016
 - Mighty Hoopa: **Hoopa (Hoopa Confined)** — Lv. 50 — OT Mighty / ID 07185 — Hyperspace Hole; Psychic; Astonish; Nasty Plot — X, Y, Omega Ruby and Alpha Sapphire — November 3 to 30, 2015
-- Zygarde: **Zygarde** — Lv. 100 — OT ＸＹ＆Ｚ / ID 11125 — Land's Wrath; Extreme Speed; Glare; Outrage — X, Y, Omega Ruby and Alpha Sapphire — November 12, 2015 to January 12, 2016
+- Zygarde: **Zygarde** — Lv. 100 — OT ＸＹ＆Ｚ / ID 11125 — Land’s Wrath; Extreme Speed; Glare; Outrage — X, Y, Omega Ruby and Alpha Sapphire — November 12, 2015 to January 12, 2016
 - Yveltal: **Yveltal** ★ — Lv. 100 — OT ＸＹ＆Ｚ / ID 11055 — Oblivion Wing; Sucker Punch; Dark Pulse; Foul Play — X, Y, Omega Ruby and Alpha Sapphire — November 5, 2015 to January 12, 2016
 - Xerneas: **Xerneas** ★ — Lv. 100 — OT ＸＹ＆Ｚ / ID 10295 — Geomancy; Moonblast; Aromatherapy; Focus Blast — X, Y, Omega Ruby and Alpha Sapphire — October 29, 2015 to January 12, 2016
 - Universe Diancie: **Diancie** — Lv. 50 — OT Universe / ID 10045 — Diamond Storm; Moonblast; Reflect; Return — X, Y, Omega Ruby and Alpha Sapphire — October 15 to November 30, 2015
@@ -1623,7 +1623,7 @@ Total event Pokémon: 2126.
 - Articuno: **Articuno** — Lv. 70 — OT 포켓몬영화 / ID 04296 — Freeze-Dry; Ice Beam; Hail; Reflect — Omega Ruby and Alpha Sapphire — May 2 to July 31, 2016
 - Zapdos: **Zapdos** — Lv. 70 — OT 포켓몬영화 / ID 04296 — Discharge; Thunder Shock; Rain Dance; Agility — Omega Ruby and Alpha Sapphire — May 2 to July 31, 2016
 - Moltres: **Moltres** — Lv. 70 — OT 포켓몬영화 / ID 04296 — Sky Attack; Heat Wave; Sunny Day; Safeguard — Omega Ruby and Alpha Sapphire — May 2 to July 31, 2016
-- Zygarde: **Zygarde** — Lv. 100 — OT XY&Z / ID 03196 — Land's Wrath; Extreme Speed; Glare; Outrage — Omega Ruby and Alpha Sapphire — April 20 to June 30, 2016
+- Zygarde: **Zygarde** — Lv. 100 — OT XY&Z / ID 03196 — Land’s Wrath; Extreme Speed; Glare; Outrage — Omega Ruby and Alpha Sapphire — April 20 to June 30, 2016
 - Yveltal: **Yveltal** ★ — Lv. 100 — OT XY&Z / ID 04206 — Oblivion Wing; Sucker Punch; Dark Pulse; Foul Play — Omega Ruby and Alpha Sapphire — April 20 to June 30, 2016
 - Xerneas: **Xerneas** ★ — Lv. 100 — OT XY&Z / ID 03226 — Geomancy; Moonblast; Aromatherapy; Focus Blast — Omega Ruby and Alpha Sapphire — March 22 to June 30, 2016
 - Lance's Dragonite: **Dragonite** — Lv. 62 — OT 목호 / ID 03046 — Agility; Slam; Barrier; Hyper Beam — Omega Ruby and Alpha Sapphire — March 15 to April 27, 2016
@@ -1697,7 +1697,7 @@ Total event Pokémon: 2126.
 - Pokémon General Election 720 Simisear: **Simisear** — Lv. 5 — OT そうせんきょ / ID 00720 — Work Up; Hone Claws; Power-Up Punch; Giga Impact — X, Y, Omega Ruby and Alpha Sapphire — June 25 to July 15, 2016 … June 25 to July 15, 2016 (2 runs)
 - Mark McQuillan's Machamp: **Machamp** ★ — Lv. 50 — OT ﻿ScreenPeekaz / ID 05146 — Dynamic Punch; Stone Edge; Wide Guard; Knock Off — Omega Ruby and Alpha Sapphire — May 14 to 15, 2016 … July 2 to 3, 2016 (5 runs)
 - 2016 Korean World Championship Series Mewtwo: **Mewtwo** ★ — Lv. 100 — OT WCSK16 / ID 05056 — Psystrike; Psychic; Recover; Aura Sphere — X, Y, Omega Ruby and Alpha Sapphire — May 5 to 8, 2016
-- XY&Z Zygarde: **Zygarde** — Lv. 100 — OT XY&Z / ID 03196 — Land's Wrath; Extreme Speed; Glare; Outrage — Omega Ruby and Alpha Sapphire — March 19 to 20, 2016
+- XY&Z Zygarde: **Zygarde** — Lv. 100 — OT XY&Z / ID 03196 — Land’s Wrath; Extreme Speed; Glare; Outrage — Omega Ruby and Alpha Sapphire — March 19 to 20, 2016
 - Pokémon Center Kyoto Ho-Oh: **Ho-Oh** ★ — Lv. 50 — OT ﻿ＰＣキョウト / ID 03166 — Sacred Fire; Brave Bird; Recover; Celebrate — Omega Ruby and Alpha Sapphire — March 15, 2016 … March 16 to May 8, 2016 (3 runs)
 - Junichi Masuda's Psyduck: **Psyduck** — Lv. 20 — OT マスダ / ID 02276 — Confusion; Disable; Psych Up; Amnesia — Omega Ruby and Alpha Sapphire — March 5, 2016 … October 16, 2016 (11 runs)
 - Game Freak Mew: **Mew** — Lv. 5 — OT 게임프리크 / ID 22796 — Pound — Omega Ruby and Alpha Sapphire — February 27 to 28, 2016
@@ -1765,7 +1765,7 @@ Total event Pokémon: 2126.
 - Dongdaemun Design Plaza: **Pachirisu** — Lv. 50 — OT 박세준 / ID 11154 — Nuzzle; Super Fang; Follow Me; Protect — X and Y — November 15 to 16, 2014
 - Tretta Rotom: **Rotom** — Lv. 10 — OT トレッタ / ID 09254 — Shock Wave; Astonish; Trick; Thunder Wave — X and Y — October 15 to December 3, 2014
 - Halloween Gengar: **Gengar** ★ — Lv. 25 — OT ハロウィン / ID 09134 — Shadow Ball; Sludge Wave; Confuse Ray; Astonish — X and Y — September 13 to October 14, 2014 … September 13 to October 14, 2014 (12 runs)
-- 2014 World Championships Aegislash: **Aegislash** — Lv. 50 — OT WORLD14 / ID 08164 — Wide Guard; King's Shield; Shadow Ball; Flash Cannon — X and Y — August 16 to 17, 2014
+- 2014 World Championships Aegislash: **Aegislash** — Lv. 50 — OT WORLD14 / ID 08164 — Wide Guard; King’s Shield; Shadow Ball; Flash Cannon — X and Y — August 16 to 17, 2014
 - Landmark Tower Pikachu: **Pikachu** — Lv. 10 — OT みなとみらい / ID 08094 — Thunderbolt; Quick Attack; Surf; Hold Hands — X and Y — August 9 to 17, 2014
 - Cosmo World Pikachu: **Pikachu** — Lv. 10 — OT みなとみらい / ID 08094 — Thunderbolt; Quick Attack; Surf; Hold Hands — X and Y — August 9 to 17, 2014
 - Red Brick Warehouse Pikachu: **Pikachu** — Lv. 10 — OT みなとみらい / ID 08094 — Thunderbolt; Quick Attack; Surf; Hold Hands — X and Y — August 9 to 17, 2014
@@ -1843,7 +1843,7 @@ Total event Pokémon: 2126.
 
 - Fire Fang Rockruff: **Rockruff** — Lv. 10 — OT (Player's) / ID (Player's) — Tackle; Bite; Fire Fang; Happy Hour — Ultra Sun and Ultra Moon — November 17, 2017 to January 10, 2018
 - Thunder Fang Rockruff: **Rockruff** — Lv. 10 — OT (Player's) / ID (Player's) — Tackle; Bite; Thunder Fang; Happy Hour — Ultra Moon — November 17, 2017 to January 10, 2018
-- Melemele Island Shiny Tapu Koko: **Tapu Koko** ★ — Lv. 60 — OT Melemele / ID 170714 — Nature's Madness; Discharge; Agility; Electro Ball — Sun and Moon — July 14 to August 14, 2017
+- Melemele Island Shiny Tapu Koko: **Tapu Koko** ★ — Lv. 60 — OT Melemele / ID 170714 — Nature’s Madness; Discharge; Agility; Electro Ball — Sun and Moon — July 14 to August 14, 2017
 - Snorlium Z Munchlax: **Munchlax** — Lv. 5 — OT (Player's) / ID (Player's) — Tackle; Metronome; Hold Back; Happy Hour — Sun and Moon — November 18, 2016 to January 11, 2017
 
 ### Nintendo Network (PAL)
@@ -1872,11 +1872,11 @@ Total event Pokémon: 2126.
   - **Tornadus** — Lv. 100 — OT 2018 Legends / Légendes2018 / Legenden2018 / Leggende2018 / Leyendas2018 / ID 070618 — Hurricane; Heat Wave; Grass Knot; Tailwind — Ultra Moon — July 6 to 22, 2018
   - **Raikou** — Lv. 100 — OT 2018 Legends / Légendes2018 / Legenden2018 / Leggende2018 / Leyendas2018 / ID 042218 — Thunderbolt; Volt Switch; Extrasensory; Calm Mind — Ultra Moon — April 4 to 25, 2018
   - **Heatran** — Lv. 100 — OT 2018 Legends / Légendes2018 / Legenden2018 / Leggende2018 / Leyendas2018 / ID 030118 — Magma Storm; Heat Wave; Earth Power; Flash Cannon — Ultra Moon — March 1 to 24, 2018
-- Pokémon Sun and Moon: **Zygarde** ★ — Lv. 60 — OT 2018 Legends / Légendes2018 / Legenden2018 / Leggende2018 / Leyendas2018 / ID 060218 — Land's Wrath; Glare; Safeguard; Dragon Breath — Sun and Moon — June 1 to 22, 2018
+- Pokémon Sun and Moon: **Zygarde** ★ — Lv. 60 — OT 2018 Legends / Légendes2018 / Legenden2018 / Leggende2018 / Leyendas2018 / ID 060218 — Land’s Wrath; Glare; Safeguard; Dragon Breath — Sun and Moon — June 1 to 22, 2018
 - Pokémon Ultra Sun and Ultra Moon: **Zygarde** ★ — Lv. 100 — OT 2018 Legends / Légendes2018 / Legenden2018 / Leggende2018 / Leyendas2018 / ID 060218 — Thousand Arrows; Outrage; Extreme Speed; Dragon Dance — Ultra Sun and Ultra Moon — June 1 to 22, 2018
 - Fire Fang Rockruff: **Rockruff** — Lv. 10 — OT (Player's) / ID (Player's) — Tackle; Bite; Fire Fang; Happy Hour — Ultra Sun and Ultra Moon — November 17, 2017 to January 10, 2018
 - Thunder Fang Rockruff: **Rockruff** — Lv. 10 — OT (Player's) / ID (Player's) — Tackle; Bite; Thunder Fang; Happy Hour — Ultra Moon — November 17, 2017 to January 10, 2018
-- Melemele Island Shiny Tapu Koko: **Tapu Koko** ★ — Lv. 60 — OT Melemele / Mele-Mele / Mele Mele / ID 170714 — Nature's Madness; Discharge; Agility; Electro Ball — Sun and Moon — July 14 to August 14, 2017
+- Melemele Island Shiny Tapu Koko: **Tapu Koko** ★ — Lv. 60 — OT Melemele / Mele-Mele / Mele Mele / ID 170714 — Nature’s Madness; Discharge; Agility; Electro Ball — Sun and Moon — July 14 to August 14, 2017
 - Snorlium Z Munchlax: **Munchlax** — Lv. 5 — OT (Player's) / ID (Player's) — Tackle; Metronome; Hold Back; Happy Hour — Sun and Moon — November 18, 2016 to January 11, 2017
 
 ### Nintendo Network (Korea)
@@ -1894,11 +1894,11 @@ Total event Pokémon: 2126.
 - Fennel's Munna: **Munna** — Lv. 39 — OT マコモ / ID 100918 — Hypnosis; Dream Eater; Rest; Sleep Talk — Sun, Moon, Ultra Sun and Ultra Moon — November 25, 2019 to February 24, 2020
 - Shiny Lunala: **Lunala** ★ — Lv. 60 — OT げっしょく / ID 191026 — Moongeist Beam; Psyshock; Moonblast; Moonlight — Sun, Moon, Ultra Sun and Ultra Moon — December 19, 2019 to February 3, 2020
 - Shiny Solgaleo: **Solgaleo** ★ — Lv. 60 — OT にっしょく / ID 191026 — Sunsteel Strike; Zen Headbutt; Noble Roar; Morning Sun — Sun, Moon, Ultra Sun and Ultra Moon — December 19, 2019 to February 3, 2020
-- Melemele Island Shiny Tapu Koko: **Tapu Koko** ★ — Lv. 60 — OT メレメレ / ID 191004 — Thunderbolt; Dazzling Gleam; Volt Switch; Nature's Madness — Ultra Sun and Ultra Moon — October 18 to November 30, 2019
+- Melemele Island Shiny Tapu Koko: **Tapu Koko** ★ — Lv. 60 — OT メレメレ / ID 191004 — Thunderbolt; Dazzling Gleam; Volt Switch; Nature’s Madness — Ultra Sun and Ultra Moon — October 18 to November 30, 2019
 - Secret Shiny Necrozma: **Necrozma** ★ — Lv. 75 — OT ひみつ / ID 000132 — Light Screen; Substitute; Moonlight — Sun, Moon, Ultra Sun and Ultra Moon — September 6, 2019 to February 3, 2020
-- Poni Island Shiny Tapu Fini: **Tapu Fini** ★ — Lv. 60 — OT ポニ / ID 190419 — Nature's Madness; Muddy Water; Aqua Ring; Hydro Pump — Ultra Sun and Ultra Moon — May 21 to June 28, 2019 / June 11 to July 30, 2019
-- Ula'ula Island Shiny Tapu Bulu: **Tapu Bulu** ★ — Lv. 60 — OT ウラウラ / ID 190222 — Nature's Madness; Zen Headbutt; Megahorn; Skull Bash — Ultra Sun and Ultra Moon — March 19, 2019 to April 29, 2019
-- Akala Island Shiny Tapu Lele: **Tapu Lele** ★ — Lv. 60 — OT アーカラ / ID 181130 — Nature's Madness; Extrasensory; Flatter; Moonblast — Ultra Sun and Ultra Moon — December 18, 2018 to January 31, 2019
+- Poni Island Shiny Tapu Fini: **Tapu Fini** ★ — Lv. 60 — OT ポニ / ID 190419 — Nature’s Madness; Muddy Water; Aqua Ring; Hydro Pump — Ultra Sun and Ultra Moon — May 21 to June 28, 2019 / June 11 to July 30, 2019
+- Ula'ula Island Shiny Tapu Bulu: **Tapu Bulu** ★ — Lv. 60 — OT ウラウラ / ID 190222 — Nature’s Madness; Zen Headbutt; Megahorn; Skull Bash — Ultra Sun and Ultra Moon — March 19, 2019 to April 29, 2019
+- Akala Island Shiny Tapu Lele: **Tapu Lele** ★ — Lv. 60 — OT アーカラ / ID 181130 — Nature’s Madness; Extrasensory; Flatter; Moonblast — Ultra Sun and Ultra Moon — December 18, 2018 to January 31, 2019
 - Fula City Zeraora: **Zeraora** — Lv. 50 — OT フウラシティ / ID 180713 — Plasma Fists; Thunder Punch; Close Combat; Thunder — Ultra Sun and Ultra Moon — December 1, 2018 to March 31, 2019
 - Asian Fula City Lugia: **Lugia** — Lv. 100 — OT フウラシティ / ID 180413 — Aeroblast; Hurricane; Defog; Tailwind — Sun, Moon, Ultra Sun and Ultra Moon — November 12, 2018 to March 31, 2019
 - Ultra Spooky Cup Shiny Mimikyu: **Mimikyu** ★ — Lv. 50 — OT PGL / ID 181026 — Mimic; Snatch; Trick; Destiny Bond — Ultra Sun and Ultra Moon — November 13 to December 30, 2018
@@ -1930,14 +1930,14 @@ Total event Pokémon: 2126.
 - Lillie's Alolan Vulpix: **Vulpix (Alola Form)** — Lv. 10 — OT リーリエ / ID 170705 — Powder Snow — Sun and Moon — July 5 to 24, 2017
 - Kiawe's Turtonator: **Turtonator** — Lv. 30 — OT カキ / ID 170626 — Flamethrower; Shell Trap; Dragon Tail — Sun and Moon — June 26 to July 14, 2017
 - Mallow's Steenee: **Steenee** — Lv. 20 — OT マオ / ID 170617 — Magical Leaf; Double Slap; Sweet Scent — Sun and Moon — June 17 to July 4, 2017
-- Taiwanese Melemele Island Shiny Tapu Koko: **Tapu Koko** ★ — Lv. 60 — OT Melemele / ID 170428 — Nature's Madness; Discharge; Agility; Electro Ball — Sun and Moon — April 28 to June 30, 2017
+- Taiwanese Melemele Island Shiny Tapu Koko: **Tapu Koko** ★ — Lv. 60 — OT Melemele / ID 170428 — Nature’s Madness; Discharge; Agility; Electro Ball — Sun and Moon — April 28 to June 30, 2017
 - Original Cap: **Pikachu (Original Cap)** — Lv. 1 — OT サトシ / ID 970401 — Thunderbolt; Quick Attack; Thunder; Agility — Sun and Moon — April 15 to May 1, 2017 … July 19 to 31, 2017 (2 runs)
 - Hoenn Cap: **Pikachu (Hoenn Cap)** — Lv. 6 — OT サトシ / ID 021121 — Thunderbolt; Quick Attack; Thunder; Iron Tail — Sun and Moon — May 3 to 15, 2017 … August 2 to 14, 2017 (2 runs)
 - Sinnoh Cap: **Pikachu (Sinnoh Cap)** — Lv. 10 — OT サトシ / ID 060928 — Thunderbolt; Quick Attack; Iron Tail; Volt Tackle — Sun and Moon — May 17 to 29, 2017 … August 16 to 28, 2017 (2 runs)
 - Unova Cap: **Pikachu (Unova Cap)** — Lv. 14 — OT サトシ / ID 100923 — Thunderbolt; Quick Attack; Iron Tail; Volt Tackle — Sun and Moon — May 31 to June 12, 2017 … August 30 to September 11, 2017 (2 runs)
 - Kalos Cap: **Pikachu (Kalos Cap)** — Lv. 17 — OT サトシ / ID 131017 — Thunderbolt; Quick Attack; Iron Tail; Electro Ball — Sun and Moon — June 14 to 26, 2017 … September 13 to 25, 2017 (2 runs)
 - Alola Cap: **Pikachu (Alola Cap)** — Lv. 20 — OT サトシ / ID 161117 — Thunderbolt; Quick Attack; Iron Tail; Electro Ball — Sun and Moon — June 28 to July 17, 2017 … September 27 to October 9, 2017 (2 runs)
-- Japanese Melemele Island Shiny Tapu Koko: **Tapu Koko** ★ — Lv. 60 — OT メレメレ / ID 170317 — Nature's Madness; Discharge; Agility; Electro Ball — Sun and Moon — March 17 to May 31, 2017
+- Japanese Melemele Island Shiny Tapu Koko: **Tapu Koko** ★ — Lv. 60 — OT メレメレ / ID 170317 — Nature’s Madness; Discharge; Agility; Electro Ball — Sun and Moon — March 17 to May 31, 2017
 - CoroCoro Charizard: **Charizard** — Lv. 40 — OT コロコロ / ID 565640 — Dragon Claw; Dragon Rage; Fly; Flare Blitz — Sun and Moon — March 15 to May 14, 2017
 - Tohoku Pikachu: **Pikachu** — Lv. 10 — OT トウホク / ID 201703 — Bestow; Hold Hands; Return; Play Nice — Sun and Moon — March 11 to April 20, 2017
 - Lunar Magikarp: **Magikarp** ★ — Lv. 19 — OT Lunar / ID 170128 — Splash; Bounce — Sun and Moon — January 26 to February 6, 2017
@@ -1945,12 +1945,12 @@ Total event Pokémon: 2126.
 ### Serial code (Americas)
 
 - Fennel's Munna: **Munna** — Lv. 39 — OT Fennel / Oryse / Prof. Oryza / ID 100918 — Hypnosis; Dream Eater; Rest; Sleep Talk — Sun, Moon, Ultra Sun and Ultra Moon — November 25, 2019 to February 24, 2020
-- Melemele Island Shiny Tapu Koko: **Tapu Koko** ★ — Lv. 60 — OT Melemele / ID 191004 — Thunderbolt; Dazzling Gleam; Volt Switch; Nature's Madness — Ultra Sun and Ultra Moon — October 18 to November 30, 2019
+- Melemele Island Shiny Tapu Koko: **Tapu Koko** ★ — Lv. 60 — OT Melemele / ID 191004 — Thunderbolt; Dazzling Gleam; Volt Switch; Nature’s Madness — Ultra Sun and Ultra Moon — October 18 to November 30, 2019
 - Shiny Lunala: **Lunala** ★ — Lv. 60 — OT Eclipse / ID 100419 — Moongeist Beam; Psyshock; Moonblast; Moonlight — Sun and Ultra Sun — October 21, 2019 to January 15, 2020
 - Shiny Solgaleo: **Solgaleo** ★ — Lv. 60 — OT Eclipse / ID 100419 — Sunsteel Strike; Zen Headbutt; Noble Roar; Morning Sun — Moon and Ultra Moon — October 21, 2019 to January 15, 2020
-- Poni Island Shiny Tapu Fini: **Tapu Fini** ★ — Lv. 60 — OT Poni / ID 190524 — Nature's Madness; Muddy Water; Aqua Ring; Hydro Pump — Ultra Sun and Ultra Moon — June 11 to July 30, 2019
-- Ula'ula Island Shiny Tapu Bulu: **Tapu Bulu** ★ — Lv. 60 — OT Ula'ula / Ula-Ula / ID 190222 — Nature's Madness; Zen Headbutt; Megahorn; Skull Bash — Ultra Sun and Ultra Moon — March 19, 2019 to April 29, 2019
-- Akala Island Shiny Tapu Lele: **Tapu Lele** ★ — Lv. 60 — OT Akala / ID 181130 — Nature's Madness; Extrasensory; Flatter; Moonblast — Ultra Sun and Ultra Moon — December 18, 2018 to January 31, 2019
+- Poni Island Shiny Tapu Fini: **Tapu Fini** ★ — Lv. 60 — OT Poni / ID 190524 — Nature’s Madness; Muddy Water; Aqua Ring; Hydro Pump — Ultra Sun and Ultra Moon — June 11 to July 30, 2019
+- Ula'ula Island Shiny Tapu Bulu: **Tapu Bulu** ★ — Lv. 60 — OT Ula'ula / Ula-Ula / ID 190222 — Nature’s Madness; Zen Headbutt; Megahorn; Skull Bash — Ultra Sun and Ultra Moon — March 19, 2019 to April 29, 2019
+- Akala Island Shiny Tapu Lele: **Tapu Lele** ★ — Lv. 60 — OT Akala / ID 181130 — Nature’s Madness; Extrasensory; Flatter; Moonblast — Ultra Sun and Ultra Moon — December 18, 2018 to January 31, 2019
 - Asian Fula City Zeraora: **Zeraora** — Lv. 50 — OT フウラシティ / ID 180713 — Plasma Fists; Thunder Punch; Close Combat; Thunder — Ultra Sun and Ultra Moon — December 1, 2018 to March 31, 2019
 - Fula City Lugia: **Lugia** — Lv. 100 — OT フウラシティ / ID 180413 — Aeroblast; Hurricane; Defog; Tailwind — Sun, Moon, Ultra Sun and Ultra Moon — November 12, 2018 to March 31, 2019
 - Ultra Spooky Cup Shiny Mimikyu: **Mimikyu** ★ — Lv. 50 — OT PGL / ID 102618 — Mimic; Snatch; Trick; Destiny Bond — Ultra Sun and Ultra Moon — November 13 to December 30, 2018
@@ -1996,7 +1996,7 @@ Total event Pokémon: 2126.
   - **Raikou** — Lv. 100 — OT 2018 Legends / Légendes2018 / Leyendas2018 / ID 042218 — Thunderbolt; Volt Switch; Extrasensory; Calm Mind — Ultra Moon — April 2 to July 23, 2018
   - **Heatran** — Lv. 100 — OT 2018 Legends / Légendes2018 / Leyendas2018 / ID 030118 — Magma Storm; Heat Wave; Earth Power; Flash Cannon — Ultra Moon — March 16 to June 28, 2018
   - **Dialga** — Lv. 100 — OT 2018 Legends / Légendes2018 / Leyendas2018 / ID 020218 — Roar of Time; Aura Sphere; Draco Meteor; Flash Cannon — Ultra Moon — February 2 to May 28, 2018
-- Pokémon Sun and Moon: **Zygarde** ★ — Lv. 60 — OT 2018 Legends / Légendes2018 / Leyendas2018 / ID 060218 — Land's Wrath; Glare; Safeguard; Dragon Breath — Sun and Moon — June 1 to September 27, 2018
+- Pokémon Sun and Moon: **Zygarde** ★ — Lv. 60 — OT 2018 Legends / Légendes2018 / Leyendas2018 / ID 060218 — Land’s Wrath; Glare; Safeguard; Dragon Breath — Sun and Moon — June 1 to September 27, 2018
 - Pokémon Ultra Sun and Ultra Moon: **Zygarde** ★ — Lv. 100 — OT 2018 Legends / Légendes2018 / Leyendas2018 / ID 060218 — Thousand Arrows; Outrage; Extreme Speed; Dragon Dance — Ultra Sun and Ultra Moon — June 1 to September 27, 2018
 - Asian Mount Tensei Marshadow: **Marshadow** — Lv. 50 — OT MT. Tensei / ID 100917 — Spectral Thief; Close Combat; Force Palm; Shadow Ball — Ultra Sun and Ultra Moon — November 17, 2017 to February 16, 2018 … March 29 to May 31, 2018 (2 runs)
 - Singapore Ash's Pikachu: **Pikachu (Original Cap)** — Lv. 1 — OT Ash / ID 090898 — Thunderbolt; Quick Attack; Thunder; Agility — Sun and Moon — November 10 to 23, 2017
@@ -2019,13 +2019,13 @@ Total event Pokémon: 2126.
 
 - Fennel's Munna: **Munna** — Lv. 39 — OT Fennel / Oryse / Vivian / Zania / Prof. Oryza / ID 100918 — Hypnosis; Dream Eater; Rest; Sleep Talk — Sun, Moon, Ultra Sun and Ultra Moon — November 25, 2019 to February 24, 2020
 - Melemele Island Shiny Tapu Koko
-  - **Tapu Koko** ★ — Lv. 60 — OT Melemele / Mele-Mele / ID 191004 — Thunderbolt; Dazzling Gleam; Volt Switch; Nature's Madness — Ultra Sun and Ultra Moon — October 18 to November 30, 2019
-  - **Tapu Koko** ★ — Lv. 60 — OT Melemele / ID 170428 — Nature's Madness; Discharge; Agility; Electro Ball — Sun and Moon — April 28 to June 30, 2017
+  - **Tapu Koko** ★ — Lv. 60 — OT Melemele / Mele-Mele / ID 191004 — Thunderbolt; Dazzling Gleam; Volt Switch; Nature’s Madness — Ultra Sun and Ultra Moon — October 18 to November 30, 2019
+  - **Tapu Koko** ★ — Lv. 60 — OT Melemele / ID 170428 — Nature’s Madness; Discharge; Agility; Electro Ball — Sun and Moon — April 28 to June 30, 2017
 - Shiny Lunala: **Lunala** ★ — Lv. 60 — OT Eclipse / ID 100419 — Moongeist Beam; Psyshock; Moonblast; Moonlight — Sun and Ultra Sun — October 1 to November 15, 2019
 - Shiny Solgaleo: **Solgaleo** ★ — Lv. 60 — OT Eclipse / ID 100419 — Sunsteel Strike; Zen Headbutt; Noble Roar; Morning Sun — Moon and Ultra Moon — October 1 to November 15, 2019
-- Poni Island Shiny Tapu Fini: **Tapu Fini** ★ — Lv. 60 — OT Poni / ID 190524 — Nature's Madness; Muddy Water; Aqua Ring; Hydro Pump — Ultra Sun and Ultra Moon — June 11 to July 30, 2019
-- Ula'ula Island Shiny Tapu Bulu: **Tapu Bulu** ★ — Lv. 60 — OT Ula'ula / Ula-Ula / ID 190222 — Nature's Madness; Zen Headbutt; Megahorn; Skull Bash — Ultra Sun and Ultra Moon — March 19 to April 30, 2019
-- Akala Island Shiny Tapu Lele: **Tapu Lele** ★ — Lv. 60 — OT Akala / ID 181130 — Nature's Madness; Extrasensory; Flatter; Moonblast — Ultra Sun and Ultra Moon — December 18, 2018 to January 31, 2019
+- Poni Island Shiny Tapu Fini: **Tapu Fini** ★ — Lv. 60 — OT Poni / ID 190524 — Nature’s Madness; Muddy Water; Aqua Ring; Hydro Pump — Ultra Sun and Ultra Moon — June 11 to July 30, 2019
+- Ula'ula Island Shiny Tapu Bulu: **Tapu Bulu** ★ — Lv. 60 — OT Ula'ula / Ula-Ula / ID 190222 — Nature’s Madness; Zen Headbutt; Megahorn; Skull Bash — Ultra Sun and Ultra Moon — March 19 to April 30, 2019
+- Akala Island Shiny Tapu Lele: **Tapu Lele** ★ — Lv. 60 — OT Akala / ID 181130 — Nature’s Madness; Extrasensory; Flatter; Moonblast — Ultra Sun and Ultra Moon — December 18, 2018 to January 31, 2019
 - Asian Fula City Zeraora: **Zeraora** — Lv. 50 — OT フウラシティ / ID 180713 — Plasma Fists; Thunder Punch; Close Combat; Thunder — Ultra Sun and Ultra Moon — December 1, 2018 to March 31, 2019
 - Fula City Lugia: **Lugia** — Lv. 100 — OT フウラシティ / ID 180413 — Aeroblast; Hurricane; Defog; Tailwind — Sun, Moon, Ultra Sun and Ultra Moon — November 12, 2018 to March 31, 2019
 - Ultra Spooky Cup Shiny Mimikyu: **Mimikyu** ★ — Lv. 50 — OT PGL / ID 102618 — Mimic; Snatch; Trick; Destiny Bond — Ultra Sun and Ultra Moon — November 13 to December 30, 2018
@@ -2074,10 +2074,10 @@ Total event Pokémon: 2126.
 - Shiny Necrozma: **Necrozma** ★ — Lv. 75 — OT 이클립스 / ID 191115 — Stealth Rock; Iron Defense; Wring Out; Prismatic Laser — Sun, Moon, Ultra Sun and Ultra Moon — November 15 to December 31, 2019
 - Shiny Lunala: **Lunala** ★ — Lv. 60 — OT 이클립스 / ID 191115 — Moongeist Beam; Psyshock; Moonblast; Moonlight — Sun and Ultra Sun — November 15 to December 31, 2019
 - Shiny Solgaleo: **Solgaleo** ★ — Lv. 60 — OT 이클립스 / ID 191115 — Sunsteel Strike; Zen Headbutt; Noble Roar; Morning Sun — Moon and Ultra Moon — November 15 to December 31, 2019
-- Melemele Island Shiny Tapu Koko: **Tapu Koko** ★ — Lv. 60 — OT 멜레멜레 / ID 191004 — Thunderbolt; Dazzling Gleam; Volt Switch; Nature's Madness — Ultra Sun and Ultra Moon — October 18 to November 30, 2019
-- Poni Island Shiny Tapu Fini: **Tapu Fini** ★ — Lv. 60 — OT 포니 / ID 180524 — Nature's Madness; Muddy Water; Aqua Ring; Hydro Pump — Ultra Sun and Ultra Moon — June 11 to July 30, 2019
-- Ula'ula Island Shiny Tapu Bulu: **Tapu Bulu** ★ — Lv. 60 — OT 울라울라 / ID 190222 — Nature's Madness; Zen Headbutt; Megahorn; Skull Bash — Ultra Sun and Ultra Moon — March 19 to April 30, 2019
-- Akala Island Shiny Tapu Lele: **Tapu Lele** ★ — Lv. 60 — OT 아칼라 / ID 181130 — Nature's Madness; Extrasensory; Flatter; Moonblast — Ultra Sun and Ultra Moon — December 18, 2018 to January 31, 2019
+- Melemele Island Shiny Tapu Koko: **Tapu Koko** ★ — Lv. 60 — OT 멜레멜레 / ID 191004 — Thunderbolt; Dazzling Gleam; Volt Switch; Nature’s Madness — Ultra Sun and Ultra Moon — October 18 to November 30, 2019
+- Poni Island Shiny Tapu Fini: **Tapu Fini** ★ — Lv. 60 — OT 포니 / ID 180524 — Nature’s Madness; Muddy Water; Aqua Ring; Hydro Pump — Ultra Sun and Ultra Moon — June 11 to July 30, 2019
+- Ula'ula Island Shiny Tapu Bulu: **Tapu Bulu** ★ — Lv. 60 — OT 울라울라 / ID 190222 — Nature’s Madness; Zen Headbutt; Megahorn; Skull Bash — Ultra Sun and Ultra Moon — March 19 to April 30, 2019
+- Akala Island Shiny Tapu Lele: **Tapu Lele** ★ — Lv. 60 — OT 아칼라 / ID 181130 — Nature’s Madness; Extrasensory; Flatter; Moonblast — Ultra Sun and Ultra Moon — December 18, 2018 to January 31, 2019
 - Fula City Zeraora: **Zeraora** — Lv. 50 — OT 후우라시티 / ID 181219 — Plasma Fists; Thunder Punch; Close Combat; Thunder — Ultra Sun and Ultra Moon — December 19, 2018 to February 28, 2019
 - Fula City Lugia: **Lugia** — Lv. 100 — OT 후우라시티 / ID 181219 — Aeroblast; Hurricane; Defog; Tailwind — Sun, Moon, Ultra Sun and Ultra Moon — December 19, 2018 to February 28, 2019
 - Ultra Spooky Cup Shiny Mimikyu: **Mimikyu** ★ — Lv. 50 — OT PGL / ID 181026 — Mimic; Snatch; Trick; Destiny Bond — Ultra Sun and Ultra Moon — November 13 to December 30, 2018
@@ -2122,7 +2122,7 @@ Total event Pokémon: 2126.
 - Unova Cap: **Pikachu (Unova Cap)** — Lv. 13 — OT Ash / ID 021211 — Thunderbolt; Quick Attack; Iron Tail; Volt Tackle — Sun and Moon — October 10 to 16, 2017
 - Kalos Cap: **Pikachu (Kalos Cap)** — Lv. 17 — OT Ash / ID 011814 — Thunderbolt; Quick Attack; Iron Tail; Electro Ball — Sun and Moon — October 17 to 23, 2017
 - Alola Cap: **Pikachu (Alola Cap)** — Lv. 19 — OT Ash / ID 120516 — Thunderbolt; Quick Attack; Iron Tail; Electro Ball — Sun and Moon — October 24 to 30, 2017
-- Melemele Island Tapu Koko: **Tapu Koko** ★ — Lv. 60 — OT Melemele / ID 170428 — Nature's Madness; Discharge; Agility; Electro Ball — Sun and Moon — April 28 to June 30, 2017
+- Melemele Island Tapu Koko: **Tapu Koko** ★ — Lv. 60 — OT Melemele / ID 170428 — Nature’s Madness; Discharge; Agility; Electro Ball — Sun and Moon — April 28 to June 30, 2017
 - Lunar Magikarp: **Magikarp** ★ — Lv. 19 — OT Lunar / ID 170128 — Splash; Bounce — Sun and Moon — January 26 to February 6, 2017
 
 ### Local events
@@ -2224,7 +2224,7 @@ Total event Pokémon: 2126.
   - **Drampa** — Lv. 1 — Egg — Play Nice; Echoed Voice; Hurricane — Sun and Moon — April 29 to May 7, 2017
   - **Drampa** — Lv. 1 — Egg — Play Nice; Echoed Voice; Hurricane — Sun and Moon — March 18 to April 9, 2017
 - Pokémon Center Bewear: **Bewear** — Lv. 50 — OT ポケセン / ID 170415 — Baby-Doll Eyes; Brutal Swing; Superpower; Bind — Sun and Moon — April 15 to May 7, 2017
-- Melemele Island Tapu Koko: **Tapu Koko** ★ — Lv. 60 — OT 멜레멜레 / ID 170408 — Nature's Madness; Discharge; Agility; Electro Ball — Sun and Moon — April 8 to 9, 2017
+- Melemele Island Tapu Koko: **Tapu Koko** ★ — Lv. 60 — OT 멜레멜레 / ID 170408 — Nature’s Madness; Discharge; Agility; Electro Ball — Sun and Moon — April 8 to 9, 2017
 - Pokémon Center Sapporo Alolan Vulpix: **Vulpix (Alolan Form)** — Lv. 10 — OT サッポロ / ID 161201 — Celebrate; Tail Whip; Baby-Doll Eyes; Ice Shard — Sun and Moon — November 30, 2016 / December 1, 2016 to January 31, 2017 … February 1 to March 12, 2017 (2 runs)
 - Eevee: **Eevee** — Lv. 10 — OT ポケセン♪ / ID 161118 / 171101 / 181101 — Celebrate; Sand Attack; Baby-Doll Eyes — Sun and Moon / Sun, Moon, Ultra Sun and Ultra Moon — November 18, 2016 to October 31, 2017 … November 1, 2017 to November 15, 2018 (2 runs)
 - Comfey: **Comfey** — Lv. 10 — OT ポケセン♪ / ID 161118 / 171101 / 181101 — Celebrate; Leech Seed; Draining Kiss; Magical Leaf — Sun and Moon / Sun, Moon, Ultra Sun and Ultra Moon — November 18, 2016 to October 31, 2017 … November 1, 2017 to November 15, 2018 (2 runs)
@@ -2519,7 +2519,7 @@ Total event Pokémon: 2126.
 - 2023 Pokémon World Championships Stretchy Form Tatsugiri: **Tatsugiri (Stretchy Form)** — Lv. 50 — OT Worlds23 / WCS23 / ID 230811 — Draco Meteor; Muddy Water; Helping Hand; Celebrate — Scarlet and Violet — August 7 to 31, 2023
 - Chaiyawat Traiwichcha's Grimmsnarl: **Grimmsnarl** ★ — Lv. 50 — OT Nontaro / ID 230728 — Thunder Wave; Spirit Break; Reflect; Light Screen — Scarlet and Violet — July 27 to August 18, 2023
 - Dark Terastal Charizard: **Charizard** — Lv. 50 — OT (Player's) / ID (Player's) — Crunch; Flare Blitz; Acrobatics; Belly Drum — Scarlet and Violet — July 21 to August 31, 2023
-- Paul Chua's Arcanine: **Arcanine** ★ — Lv. 50 — OT Paul / ID 230630 — Flare Blitz; Will-o-Wisp; Protect; Extreme Speed — Scarlet and Violet — June 30 to July 3, 2023
+- Paul Chua's Arcanine: **Arcanine** ★ — Lv. 50 — OT Paul / ID 230630 — Flare Blitz; Will-O-Wisp; Protect; Extreme Speed — Scarlet and Violet — June 30 to July 3, 2023
 - Wonseok Jung's East Sea Gastrodon: **Gastrodon (East Sea)** — Lv. 50 — OT 정원석 / ID 230603 — Earth Power; Ice Beam; Yawn; Protect — Scarlet and Violet — June 17 to 19, 2023
 - Yasuharu Shimizu's Bronzong: **Bronzong** — Lv. 50 — OT そらみつ / ID 230610 — Body Press; Iron Defense; Protect; Trick Room — Scarlet and Violet — June 10 to 11, 2023
 - Marcus's Bronzong: **Bronzong** — Lv. 50 — OT 기신 / ID 230531 — Flash Cannon; Gyro Ball; Psychic; Hypnosis — Scarlet and Violet — May 31 to July 31, 2023

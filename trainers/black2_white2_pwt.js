@@ -2,10 +2,12 @@
 // Source files: a/2/5/5 (pwttr6 roster), a/2/5/4 (pwttr1 1v1), a/2/5/6 (pwtpoke sets).
 // All PWT Pokemon are level 50. Ability/IVs are game-derived and not stored per-Pokemon.
 // ev_spread_index selects an in-game EV preset (the preset table is in the game binary).
+// name: ROM text file 409, entry pwt_index - 1. Entries 55-58 only hold placeholder sets.
 
 export const pwtTrainers = {
     "1": {
         "pwt_index": 1,
+        "name": "Cheren",
         "roster": [
             {
                 "species": "Stoutland",
@@ -118,6 +120,7 @@ export const pwtTrainers = {
     },
     "2": {
         "pwt_index": 2,
+        "name": "Roxie",
         "roster": [
             {
                 "species": "Scolipede",
@@ -230,6 +233,7 @@ export const pwtTrainers = {
     },
     "3": {
         "pwt_index": 3,
+        "name": "Burgh",
         "roster": [
             {
                 "species": "Leavanny",
@@ -296,7 +300,7 @@ export const pwtTrainers = {
                 "species_dex": 617,
                 "level": 50,
                 "nature": "Timid",
-                "held_item": "BrightPowder",
+                "held_item": "Bright Powder",
                 "ev_spread_index": 24,
                 "form": 0,
                 "moves": [
@@ -342,6 +346,7 @@ export const pwtTrainers = {
     },
     "4": {
         "pwt_index": 4,
+        "name": "Elesa",
         "roster": [
             {
                 "species": "Zebstrika",
@@ -412,7 +417,7 @@ export const pwtTrainers = {
                 "ev_spread_index": 3,
                 "form": 0,
                 "moves": [
-                    "ThunderPunch",
+                    "Thunder Punch",
                     "Fire Punch",
                     "Dragon Claw",
                     "Brick Break"
@@ -454,6 +459,7 @@ export const pwtTrainers = {
     },
     "5": {
         "pwt_index": 5,
+        "name": "Clay",
         "roster": [
             {
                 "species": "Excadrill",
@@ -566,6 +572,7 @@ export const pwtTrainers = {
     },
     "6": {
         "pwt_index": 6,
+        "name": "Skyla",
         "roster": [
             {
                 "species": "Swanna",
@@ -678,6 +685,7 @@ export const pwtTrainers = {
     },
     "7": {
         "pwt_index": 7,
+        "name": "Drayden",
         "roster": [
             {
                 "species": "Haxorus",
@@ -790,6 +798,7 @@ export const pwtTrainers = {
     },
     "8": {
         "pwt_index": 8,
+        "name": "Marlon",
         "roster": [
             {
                 "species": "Jellicent",
@@ -902,6 +911,7 @@ export const pwtTrainers = {
     },
     "9": {
         "pwt_index": 9,
+        "name": "Bianca",
         "roster": [
             {
                 "species": "Musharna",
@@ -1014,6 +1024,7 @@ export const pwtTrainers = {
     },
     "10": {
         "pwt_index": 10,
+        "name": "Chili",
         "roster": [
             {
                 "species": "Simisear",
@@ -1086,8 +1097,8 @@ export const pwtTrainers = {
                 "moves": [
                     "Overheat",
                     "Dragon Pulse",
-                    "SolarBeam",
-                    "ExtremeSpeed"
+                    "Solar Beam",
+                    "Extreme Speed"
                 ]
             },
             {
@@ -1126,6 +1137,7 @@ export const pwtTrainers = {
     },
     "11": {
         "pwt_index": 11,
+        "name": "Cress",
         "roster": [
             {
                 "species": "Simipour",
@@ -1238,6 +1250,7 @@ export const pwtTrainers = {
     },
     "12": {
         "pwt_index": 12,
+        "name": "Cilan",
         "roster": [
             {
                 "species": "Simisage",
@@ -1350,6 +1363,7 @@ export const pwtTrainers = {
     },
     "13": {
         "pwt_index": 13,
+        "name": "Lenora",
         "roster": [
             {
                 "species": "Watchog",
@@ -1462,6 +1476,7 @@ export const pwtTrainers = {
     },
     "14": {
         "pwt_index": 14,
+        "name": "Brycen",
         "roster": [
             {
                 "species": "Cryogonal",
@@ -1483,7 +1498,7 @@ export const pwtTrainers = {
                 "species_dex": 614,
                 "level": 50,
                 "nature": "Adamant",
-                "held_item": "BrightPowder",
+                "held_item": "Bright Powder",
                 "ev_spread_index": 10,
                 "form": 0,
                 "moves": [
@@ -1574,6 +1589,7 @@ export const pwtTrainers = {
     },
     "15": {
         "pwt_index": 15,
+        "name": "Blue",
         "roster": [
             {
                 "species": "Aerodactyl",
@@ -1647,7 +1663,7 @@ export const pwtTrainers = {
                     "Flare Blitz",
                     "Close Combat",
                     "Wild Charge",
-                    "ExtremeSpeed"
+                    "Extreme Speed"
                 ]
             },
             {
@@ -1686,6 +1702,7 @@ export const pwtTrainers = {
     },
     "16": {
         "pwt_index": 16,
+        "name": "Lance",
         "roster": [
             {
                 "species": "Dragonite",
@@ -1696,7 +1713,7 @@ export const pwtTrainers = {
                 "ev_spread_index": 10,
                 "form": 0,
                 "moves": [
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Ice Punch",
                     "Fire Punch",
                     "Draco Meteor"
@@ -1771,7 +1788,7 @@ export const pwtTrainers = {
                 "ev_spread_index": 24,
                 "form": 0,
                 "moves": [
-                    "SolarBeam",
+                    "Solar Beam",
                     "Draco Meteor",
                     "Earth Power",
                     "U-turn"
@@ -1788,7 +1805,7 @@ export const pwtTrainers = {
                 "ev_spread_index": 10,
                 "form": 0,
                 "moves": [
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Ice Punch",
                     "Fire Punch",
                     "Draco Meteor"
@@ -1798,6 +1815,7 @@ export const pwtTrainers = {
     },
     "17": {
         "pwt_index": 17,
+        "name": "Steven",
         "roster": [
             {
                 "species": "Metagross",
@@ -1910,6 +1928,7 @@ export const pwtTrainers = {
     },
     "18": {
         "pwt_index": 18,
+        "name": "Wallace",
         "roster": [
             {
                 "species": "Milotic",
@@ -2022,6 +2041,7 @@ export const pwtTrainers = {
     },
     "19": {
         "pwt_index": 19,
+        "name": "Cynthia",
         "roster": [
             {
                 "species": "Garchomp",
@@ -2079,7 +2099,7 @@ export const pwtTrainers = {
                 "moves": [
                     "Close Combat",
                     "Stone Edge",
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Dark Pulse"
                 ]
             },
@@ -2134,6 +2154,7 @@ export const pwtTrainers = {
     },
     "20": {
         "pwt_index": 20,
+        "name": "Alder",
         "roster": [
             {
                 "species": "Volcarona",
@@ -2246,6 +2267,7 @@ export const pwtTrainers = {
     },
     "21": {
         "pwt_index": 21,
+        "name": "Brock",
         "roster": [
             {
                 "species": "Onix",
@@ -2303,7 +2325,7 @@ export const pwtTrainers = {
                 "moves": [
                     "Stone Edge",
                     "Payback",
-                    "ThunderPunch",
+                    "Thunder Punch",
                     "Ice Punch"
                 ]
             },
@@ -2358,6 +2380,7 @@ export const pwtTrainers = {
     },
     "22": {
         "pwt_index": 22,
+        "name": "Misty",
         "roster": [
             {
                 "species": "Starmie",
@@ -2470,6 +2493,7 @@ export const pwtTrainers = {
     },
     "23": {
         "pwt_index": 23,
+        "name": "Lt. Surge",
         "roster": [
             {
                 "species": "Raichu",
@@ -2582,6 +2606,7 @@ export const pwtTrainers = {
     },
     "24": {
         "pwt_index": 24,
+        "name": "Erika",
         "roster": [
             {
                 "species": "Vileplume",
@@ -2640,7 +2665,7 @@ export const pwtTrainers = {
                     "Psychic",
                     "Psyshock",
                     "Leaf Storm",
-                    "AncientPower"
+                    "Ancient Power"
                 ]
             },
             {
@@ -2652,8 +2677,8 @@ export const pwtTrainers = {
                 "ev_spread_index": 20,
                 "form": 0,
                 "moves": [
-                    "SolarBeam",
-                    "AncientPower",
+                    "Solar Beam",
+                    "Ancient Power",
                     "Focus Blast",
                     "Synthesis"
                 ]
@@ -2694,6 +2719,7 @@ export const pwtTrainers = {
     },
     "25": {
         "pwt_index": 25,
+        "name": "Sabrina",
         "roster": [
             {
                 "species": "Alakazam",
@@ -2806,6 +2832,7 @@ export const pwtTrainers = {
     },
     "26": {
         "pwt_index": 26,
+        "name": "Blaine",
         "roster": [
             {
                 "species": "Arcanine",
@@ -2818,7 +2845,7 @@ export const pwtTrainers = {
                 "moves": [
                     "Overheat",
                     "Close Combat",
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Bulldoze"
                 ]
             },
@@ -2910,7 +2937,7 @@ export const pwtTrainers = {
                 "moves": [
                     "Overheat",
                     "Close Combat",
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Bulldoze"
                 ]
             }
@@ -2918,6 +2945,7 @@ export const pwtTrainers = {
     },
     "27": {
         "pwt_index": 27,
+        "name": "Giovanni",
         "roster": [
             {
                 "species": "Rhyperior",
@@ -3030,6 +3058,7 @@ export const pwtTrainers = {
     },
     "28": {
         "pwt_index": 28,
+        "name": "Falkner",
         "roster": [
             {
                 "species": "Pidgeot",
@@ -3142,6 +3171,7 @@ export const pwtTrainers = {
     },
     "29": {
         "pwt_index": 29,
+        "name": "Bugsy",
         "roster": [
             {
                 "species": "Scizor",
@@ -3254,6 +3284,7 @@ export const pwtTrainers = {
     },
     "30": {
         "pwt_index": 30,
+        "name": "Whitney",
         "roster": [
             {
                 "species": "Miltank",
@@ -3279,7 +3310,7 @@ export const pwtTrainers = {
                 "ev_spread_index": 5,
                 "form": 0,
                 "moves": [
-                    "Softboiled",
+                    "Soft-Boiled",
                     "Flamethrower",
                     "Grass Knot",
                     "Toxic"
@@ -3366,6 +3397,7 @@ export const pwtTrainers = {
     },
     "31": {
         "pwt_index": 31,
+        "name": "Morty",
         "roster": [
             {
                 "species": "Gengar",
@@ -3478,6 +3510,7 @@ export const pwtTrainers = {
     },
     "32": {
         "pwt_index": 32,
+        "name": "Chuck",
         "roster": [
             {
                 "species": "Poliwrath",
@@ -3503,7 +3536,7 @@ export const pwtTrainers = {
                 "ev_spread_index": 10,
                 "form": 0,
                 "moves": [
-                    "DynamicPunch",
+                    "Dynamic Punch",
                     "Stone Edge",
                     "Ice Punch",
                     "Earthquake"
@@ -3534,7 +3567,7 @@ export const pwtTrainers = {
                 "form": 0,
                 "moves": [
                     "Drain Punch",
-                    "ThunderPunch",
+                    "Thunder Punch",
                     "Ice Punch",
                     "Double Team"
                 ]
@@ -3548,7 +3581,7 @@ export const pwtTrainers = {
                 "ev_spread_index": 10,
                 "form": 0,
                 "moves": [
-                    "Hi Jump Kick",
+                    "High Jump Kick",
                     "Fake Out",
                     "Bulldoze",
                     "Stone Edge"
@@ -3590,6 +3623,7 @@ export const pwtTrainers = {
     },
     "33": {
         "pwt_index": 33,
+        "name": "Jasmine",
         "roster": [
             {
                 "species": "Steelix",
@@ -3675,7 +3709,7 @@ export const pwtTrainers = {
                 "ev_spread_index": 10,
                 "form": 0,
                 "moves": [
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Crunch",
                     "Aura Sphere",
                     "Stone Edge"
@@ -3702,6 +3736,7 @@ export const pwtTrainers = {
     },
     "34": {
         "pwt_index": 34,
+        "name": "Pryce",
         "roster": [
             {
                 "species": "Mamoswine",
@@ -3814,6 +3849,7 @@ export const pwtTrainers = {
     },
     "35": {
         "pwt_index": 35,
+        "name": "Clair",
         "roster": [
             {
                 "species": "Dragonite",
@@ -3826,7 +3862,7 @@ export const pwtTrainers = {
                 "moves": [
                     "Draco Meteor",
                     "Earthquake",
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Outrage"
                 ]
             },
@@ -3926,6 +3962,7 @@ export const pwtTrainers = {
     },
     "36": {
         "pwt_index": 36,
+        "name": "Janine",
         "roster": [
             {
                 "species": "Venomoth",
@@ -4038,6 +4075,7 @@ export const pwtTrainers = {
     },
     "37": {
         "pwt_index": 37,
+        "name": "Roxanne",
         "roster": [
             {
                 "species": "Probopass",
@@ -4150,6 +4188,7 @@ export const pwtTrainers = {
     },
     "38": {
         "pwt_index": 38,
+        "name": "Brawly",
         "roster": [
             {
                 "species": "Hariyama",
@@ -4205,7 +4244,7 @@ export const pwtTrainers = {
                 "ev_spread_index": 10,
                 "form": 0,
                 "moves": [
-                    "DynamicPunch",
+                    "Dynamic Punch",
                     "Stone Edge",
                     "Fire Punch",
                     "Earthquake"
@@ -4220,7 +4259,7 @@ export const pwtTrainers = {
                 "ev_spread_index": 10,
                 "form": 0,
                 "moves": [
-                    "Hi Jump Kick",
+                    "High Jump Kick",
                     "Fake Out",
                     "Aerial Ace",
                     "Drain Punch"
@@ -4262,6 +4301,7 @@ export const pwtTrainers = {
     },
     "39": {
         "pwt_index": 39,
+        "name": "Wattson",
         "roster": [
             {
                 "species": "Manectric",
@@ -4333,7 +4373,7 @@ export const pwtTrainers = {
                 "form": 5,
                 "moves": [
                     "Fire Punch",
-                    "ThunderPunch",
+                    "Thunder Punch",
                     "Bulldoze",
                     "Brick Break"
                 ]
@@ -4374,6 +4414,7 @@ export const pwtTrainers = {
     },
     "40": {
         "pwt_index": 40,
+        "name": "Flannery",
         "roster": [
             {
                 "species": "Torkoal",
@@ -4429,7 +4470,7 @@ export const pwtTrainers = {
                 "ev_spread_index": 10,
                 "form": 0,
                 "moves": [
-                    "Hi Jump Kick",
+                    "High Jump Kick",
                     "Earthquake",
                     "Flame Charge",
                     "Stone Edge"
@@ -4486,6 +4527,7 @@ export const pwtTrainers = {
     },
     "41": {
         "pwt_index": 41,
+        "name": "Norman",
         "roster": [
             {
                 "species": "Slaking",
@@ -4598,6 +4640,7 @@ export const pwtTrainers = {
     },
     "42": {
         "pwt_index": 42,
+        "name": "Winona",
         "roster": [
             {
                 "species": "Altaria",
@@ -4625,7 +4668,7 @@ export const pwtTrainers = {
                 "moves": [
                     "Psychic",
                     "Air Slash",
-                    "AncientPower",
+                    "Ancient Power",
                     "Thunder Wave"
                 ]
             },
@@ -4670,7 +4713,7 @@ export const pwtTrainers = {
                 "moves": [
                     "Sunny Day",
                     "Air Slash",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Attract"
                 ]
             },
@@ -4710,6 +4753,7 @@ export const pwtTrainers = {
     },
     "43": {
         "pwt_index": 43,
+        "name": "Tate",
         "roster": [
             {
                 "species": "Solrock",
@@ -4822,6 +4866,7 @@ export const pwtTrainers = {
     },
     "44": {
         "pwt_index": 44,
+        "name": "Liza",
         "roster": [
             {
                 "species": "Lunatone",
@@ -4934,6 +4979,7 @@ export const pwtTrainers = {
     },
     "45": {
         "pwt_index": 45,
+        "name": "Juan",
         "roster": [
             {
                 "species": "Kingdra",
@@ -5046,6 +5092,7 @@ export const pwtTrainers = {
     },
     "46": {
         "pwt_index": 46,
+        "name": "Roark",
         "roster": [
             {
                 "species": "Rampardos",
@@ -5103,7 +5150,7 @@ export const pwtTrainers = {
                 "moves": [
                     "Rock Slide",
                     "X-Scissor",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Shell Smash"
                 ]
             },
@@ -5158,6 +5205,7 @@ export const pwtTrainers = {
     },
     "47": {
         "pwt_index": 47,
+        "name": "Gardenia",
         "roster": [
             {
                 "species": "Roserade",
@@ -5183,7 +5231,7 @@ export const pwtTrainers = {
                 "ev_spread_index": 36,
                 "form": 0,
                 "moves": [
-                    "SolarBeam",
+                    "Solar Beam",
                     "Air Slash",
                     "Synthesis",
                     "Sunny Day"
@@ -5270,6 +5318,7 @@ export const pwtTrainers = {
     },
     "48": {
         "pwt_index": 48,
+        "name": "Fantina",
         "roster": [
             {
                 "species": "Mismagius",
@@ -5382,6 +5431,7 @@ export const pwtTrainers = {
     },
     "49": {
         "pwt_index": 49,
+        "name": "Maylene",
         "roster": [
             {
                 "species": "Lucario",
@@ -5394,7 +5444,7 @@ export const pwtTrainers = {
                 "moves": [
                     "Ice Punch",
                     "Close Combat",
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Swords Dance"
                 ]
             },
@@ -5452,9 +5502,9 @@ export const pwtTrainers = {
                 "ev_spread_index": 10,
                 "form": 0,
                 "moves": [
-                    "Hi Jump Kick",
+                    "High Jump Kick",
                     "Zen Headbutt",
-                    "ThunderPunch",
+                    "Thunder Punch",
                     "Ice Punch"
                 ]
             },
@@ -5486,7 +5536,7 @@ export const pwtTrainers = {
                 "moves": [
                     "Ice Punch",
                     "Close Combat",
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Swords Dance"
                 ]
             }
@@ -5494,6 +5544,7 @@ export const pwtTrainers = {
     },
     "50": {
         "pwt_index": 50,
+        "name": "Wake",
         "roster": [
             {
                 "species": "Floatzel",
@@ -5522,7 +5573,7 @@ export const pwtTrainers = {
                     "Hydro Pump",
                     "Blizzard",
                     "Grass Knot",
-                    "FeatherDance"
+                    "Feather Dance"
                 ]
             },
             {
@@ -5606,6 +5657,7 @@ export const pwtTrainers = {
     },
     "51": {
         "pwt_index": 51,
+        "name": "Byron",
         "roster": [
             {
                 "species": "Bastiodon",
@@ -5718,6 +5770,7 @@ export const pwtTrainers = {
     },
     "52": {
         "pwt_index": 52,
+        "name": "Candice",
         "roster": [
             {
                 "species": "Froslass",
@@ -5830,6 +5883,7 @@ export const pwtTrainers = {
     },
     "53": {
         "pwt_index": 53,
+        "name": "Volkner",
         "roster": [
             {
                 "species": "Electivire",
@@ -5942,6 +5996,7 @@ export const pwtTrainers = {
     },
     "54": {
         "pwt_index": 54,
+        "name": "Red",
         "roster": [
             {
                 "species": "Venusaur",
@@ -6054,6 +6109,7 @@ export const pwtTrainers = {
     },
     "55": {
         "pwt_index": 55,
+        "name": "Hilda",
         "roster": [
             {
                 "species": "Stoutland",
@@ -6166,6 +6222,7 @@ export const pwtTrainers = {
     },
     "56": {
         "pwt_index": 56,
+        "name": "Rival",
         "roster": [
             {
                 "species": "Stoutland",
@@ -6278,6 +6335,7 @@ export const pwtTrainers = {
     },
     "57": {
         "pwt_index": 57,
+        "name": "Cheren",
         "roster": [
             {
                 "species": "Stoutland",
@@ -6390,6 +6448,7 @@ export const pwtTrainers = {
     },
     "58": {
         "pwt_index": 58,
+        "name": "Colress",
         "roster": [
             {
                 "species": "Stoutland",
@@ -6502,6 +6561,7 @@ export const pwtTrainers = {
     },
     "59": {
         "pwt_index": 59,
+        "name": "Castor",
         "roster": [
             {
                 "species": "Muk",
@@ -6515,7 +6575,7 @@ export const pwtTrainers = {
                     "Shadow Sneak",
                     "Gunk Shot",
                     "Ice Punch",
-                    "ThunderPunch"
+                    "Thunder Punch"
                 ]
             },
             {
@@ -6607,13 +6667,14 @@ export const pwtTrainers = {
                     "Shadow Sneak",
                     "Gunk Shot",
                     "Ice Punch",
-                    "ThunderPunch"
+                    "Thunder Punch"
                 ]
             }
         ]
     },
     "60": {
         "pwt_index": 60,
+        "name": "Homer",
         "roster": [
             {
                 "species": "Krookodile",
@@ -6726,13 +6787,14 @@ export const pwtTrainers = {
     },
     "61": {
         "pwt_index": 61,
+        "name": "Delphine",
         "roster": [
             {
                 "species": "Starmie",
                 "species_dex": 121,
                 "level": 50,
                 "nature": "Timid",
-                "held_item": "BrightPowder",
+                "held_item": "Bright Powder",
                 "ev_spread_index": 24,
                 "form": 0,
                 "moves": [
@@ -6824,7 +6886,7 @@ export const pwtTrainers = {
                 "species_dex": 121,
                 "level": 50,
                 "nature": "Timid",
-                "held_item": "BrightPowder",
+                "held_item": "Bright Powder",
                 "ev_spread_index": 24,
                 "form": 0,
                 "moves": [
@@ -6838,6 +6900,7 @@ export const pwtTrainers = {
     },
     "62": {
         "pwt_index": 62,
+        "name": "Walter",
         "roster": [
             {
                 "species": "Heracross",
@@ -6950,6 +7013,7 @@ export const pwtTrainers = {
     },
     "63": {
         "pwt_index": 63,
+        "name": "Ferly",
         "roster": [
             {
                 "species": "Cofagrigus",
@@ -7062,6 +7126,7 @@ export const pwtTrainers = {
     },
     "64": {
         "pwt_index": 64,
+        "name": "Drakon",
         "roster": [
             {
                 "species": "Salamence",
@@ -7174,6 +7239,7 @@ export const pwtTrainers = {
     },
     "65": {
         "pwt_index": 65,
+        "name": "Margaret",
         "roster": [
             {
                 "species": "Aggron",
@@ -7286,6 +7352,7 @@ export const pwtTrainers = {
     },
     "66": {
         "pwt_index": 66,
+        "name": "Vito",
         "roster": [
             {
                 "species": "Shiftry",
@@ -7398,6 +7465,7 @@ export const pwtTrainers = {
     },
     "67": {
         "pwt_index": 67,
+        "name": "Impera",
         "roster": [
             {
                 "species": "Umbreon",
@@ -7510,6 +7578,7 @@ export const pwtTrainers = {
     },
     "68": {
         "pwt_index": 68,
+        "name": "Bonnie",
         "roster": [
             {
                 "species": "Drapion",
@@ -7598,7 +7667,7 @@ export const pwtTrainers = {
                     "Dark Pulse",
                     "Foul Play",
                     "Fire Blast",
-                    "SolarBeam"
+                    "Solar Beam"
                 ]
             }
         ],

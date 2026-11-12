@@ -80,12 +80,17 @@ REGIONAL_DEXES: list[tuple[str, list[str]]] = [
                                                            "isle-of-armor",
                                                            "crown-tundra"]),
     ("legends_arceus_regional_dex.js",                    ["hisui"]),
-    # Gen 9 — Paldea (+ DLC).  Legends Z-A intentionally omitted (PokéAPI
-    # doesn't have its data yet).
+    # Gen 9 — Paldea (+ DLC) and Lumiose (+ the Mega Dimension DLC's
+    # Hyperspace dex).
     ("scarlet_violet_regional_dex.js",                    ["paldea",
                                                            "kitakami",
                                                            "blueberry"]),
+    ("legends_za_regional_dex.js",                        ["lumiose-city",
+                                                           "hyperspace"]),
 ]
+
+# The Unova dexes start at #000 (Victini) in-game; PokéAPI numbers them from 1.
+ZERO_BASED_DEXES = {"original-unova", "updated-unova"}
 
 
 # ---------------------------------------------------------------------------
@@ -191,14 +196,15 @@ def fetch_pokedex(pokedex_name: str, use_cache: bool
 def build_merged_dex(pokedex_names: list[str], use_cache: bool
                      ) -> tuple[dict[int, str], list[tuple[str, int, int]]]:
     """
-    Concatenate one or more pokedexes into a single 1..N numbering.
+    Concatenate one or more pokedexes into a single 1..N numbering
+    (0..N-1 when the first dex is in ZERO_BASED_DEXES).
     Returns (merged_dict, boundaries) where boundaries is a list of
     (pokedex_name, start, end) tuples describing where each sub-dex sits
     in the merged numbering.
     """
     merged: dict[int, str] = {}
     boundaries: list[tuple[str, int, int]] = []
-    cursor = 0
+    cursor = -1 if pokedex_names[0] in ZERO_BASED_DEXES else 0
 
     for pdx_name in pokedex_names:
         entries = fetch_pokedex(pdx_name, use_cache=use_cache)

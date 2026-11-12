@@ -367,6 +367,18 @@ def _fetch_bulba_wikitext(move_name: str) -> str | None:
     return wikitext
 
 
+def _infobox_header(lines: list) -> str:
+    """Join MoveInfobox lines up to the first section heading or nested
+    learnset template. (A fixed 50-line cap used to cut off the flag fields
+    of long infoboxes such as Thunder and Fly, so their flags went unchecked.)"""
+    out = []
+    for line in lines:
+        if line.startswith("==") or line.lstrip().startswith("{{Moveentry"):
+            break
+        out.append(line)
+    return '\n'.join(out)
+
+
 def _parse_bulba_infobox(wikitext: str) -> dict:
     """Extract current power/accuracy/pp/type/category from MoveInfobox."""
     m = re.search(r'\{\{MoveInfobox\b(.*?)\n\}\}', wikitext, re.DOTALL)
@@ -375,11 +387,10 @@ def _parse_bulba_infobox(wikitext: str) -> dict:
 
     full_infobox = m.group(1)
 
-    # The MoveInfobox header fields are in the first ~50 lines before
-    # Pokemon learn-set entries start. Limit parsing to the header portion
-    # to avoid matching |type= from nested Moveentry templates.
+    # Limit parsing to the header portion to avoid matching |type= from
+    # nested Moveentry templates.
     infobox_lines = full_infobox.split('\n')
-    infobox = '\n'.join(infobox_lines[:50])
+    infobox = _infobox_header(infobox_lines)
 
     stats = {}
 
@@ -441,10 +452,34 @@ def _parse_bulba_infobox(wikitext: str) -> dict:
     return stats
 
 
+_NONE_TOKENS = ("—", "-", "???", "varies", "n/a", "")
+
+
+def _parse_bulba_value(raw: str):
+    """Parse a Bulbapedia infobox value token: '100', '100%', '+2', '-6',
+    em dash / 'Varies' (-> None). Returns (ok, value)."""
+    raw = raw.strip().replace("−", "-").rstrip("%").strip()
+    if raw.lower() in _NONE_TOKENS:
+        return True, None
+    m = re.fullmatch(r'([+-]?\d+)', raw)
+    if m:
+        return True, int(m.group(1))
+    return False, None
+
+
 def _parse_bulba_gen_history(wikitext: str) -> list:
     """
     Parse {{tt|current|tooltip}} templates for historical per-gen values.
-    Returns [(field, gen_start, gen_end, value), ...].
+    Returns [(field, gen_start, gen_end, value), ...]; value may be None
+    (the move had no power/accuracy in that range).
+
+    Handles tooltips such as
+      "75 in Generations I-IV, 90 in Generation V"   (comma-separated)
+      "+2 in Generation II; 3 in Generation III-IV"   (semicolon-separated)
+      "100% in Generations II-III", "(em dash) in Generations II and III",
+      "Varies in Generations II-V", "10 prior to Generation IX",
+      "60 in Generation VIII", "10 in P:LA" (Legends: Arceus -> Gen 8).
+    Segments naming other variant games (LGPE, etc.) are ignored.
     """
     m = re.search(r'\{\{MoveInfobox\b(.*?)\n\}\}', wikitext, re.DOTALL)
     if not m:
@@ -452,47 +487,72 @@ def _parse_bulba_gen_history(wikitext: str) -> list:
 
     # Limit to header portion of infobox
     infobox_lines = m.group(1).split('\n')
-    infobox = '\n'.join(infobox_lines[:50])
-    field_map = {"power": "power", "accuracy": "accuracy", "basepp": "pp"}
+    infobox = _infobox_header(infobox_lines)
+    field_map = {"power": "power", "accuracy": "accuracy", "basepp": "pp",
+                 "priority": "priority"}
     results = []
+    val_re = r'([+\-−]?\d+%?|—|Varies|N/A)'
 
     for wiki_field, our_field in field_map.items():
-        fm = re.search(rf'^{wiki_field}\s*=\s*(.*)', infobox, re.MULTILINE)
-        if not fm:
-            fm = re.search(rf'\|{wiki_field}\s*=\s*(.*)', infobox)
+        fm = re.search(rf'^\|?{wiki_field}\s*=\s*(.*)', infobox, re.MULTILINE)
         if not fm:
             continue
         raw = fm.group(1).strip()
 
-        tt = re.match(r'\{\{tt\|[^|]+\|([^}]+)\}\}', raw)
+        tt = re.search(r'\{\{tt\|[^|]*\|([^}]+)\}\}', raw)
         if not tt:
             continue
         tooltip = tt.group(1)
 
-        for segment in tooltip.split(";"):
+        for segment in re.split(r'[;,]', tooltip):
             segment = segment.strip()
 
             rm = re.search(
-                r'(\d+)\s+in\s+Generations?\s+([IVX]+)\s*[-–to ]*\s*([IVX]*)',
+                val_re + r'\s+in\s+Generations?\s+([IVX]+)'
+                r'(?:\s*(?:-|–|to|and)\s*([IVX]+))?',
                 segment
             )
             if rm:
-                val = int(rm.group(1))
+                ok, val = _parse_bulba_value(rm.group(1))
                 start = _ROMAN.get(rm.group(2).strip(), 0)
-                end_str = rm.group(3).strip()
-                end = _ROMAN.get(end_str, 0) if end_str else start
-                if start:
-                    results.append((our_field, start, end or start, val))
+                end = _ROMAN.get((rm.group(3) or "").strip(), 0) or start
+                if ok and start:
+                    results.append((our_field, start, end, val))
                 continue
 
-            rm = re.search(r'(\d+)\s+prior\s+to\s+Generation\s+([IVX]+)', segment)
+            rm = re.search(val_re + r'\s+prior\s+to\s+Generation\s+([IVX]+)',
+                           segment)
             if rm:
-                val = int(rm.group(1))
+                ok, val = _parse_bulba_value(rm.group(1))
                 before_gen = _ROMAN.get(rm.group(2).strip(), 0)
-                if before_gen:
+                if ok and before_gen:
                     results.append((our_field, 1, before_gen - 1, val))
+                continue
+
+            rm = re.search(val_re + r'\s+in\s+P:LA', segment)
+            if rm:
+                ok, val = _parse_bulba_value(rm.group(1))
+                if ok:
+                    results.append((our_field, 8, 8, val))
 
     return results
+
+
+def _bulba_current_value(wikitext: str, wiki_field: str):
+    """Displayed (latest-gen) value of an infobox field -> (known, value)."""
+    m = re.search(r'\{\{MoveInfobox\b(.*?)\n\}\}', wikitext, re.DOTALL)
+    if not m:
+        return False, None
+    infobox = _infobox_header(m.group(1).split('\n'))
+    fm = re.search(rf'^\|?{wiki_field}\s*=\s*(.*)', infobox, re.MULTILINE)
+    if not fm:
+        return False, None
+    raw = fm.group(1).strip().rstrip(' |')
+    tt = re.match(r'(.*?)\{\{tt\|([^|]*)\|', raw)
+    if tt:
+        # "+1{{tt|*|...}}" keeps the value outside the template
+        raw = tt.group(1).strip() or tt.group(2).strip()
+    return _parse_bulba_value(raw)
 
 
 def verify_against_bulbapedia(moves_data: dict, target_gens: list[int]) -> list[dict]:
@@ -536,41 +596,41 @@ def verify_against_bulbapedia(moves_data: dict, target_gens: list[int]) -> list[
             if not our_data:
                 continue
 
-            # Check numeric fields
-            for field in ("power", "pp", "accuracy"):
-                # Find applicable historical value for this gen
-                bulba_val = None
+            # Check numeric fields (+ priority). A tooltip range covering
+            # this gen wins; otherwise the displayed (current) value applies,
+            # unless the gen predates every documented range.
+            for field, wiki_field in (("power", "power"), ("pp", "basepp"),
+                                      ("accuracy", "accuracy"),
+                                      ("priority", "priority")):
+                ranges = [(s, e, v) for f, s, e, v in gen_history if f == field]
+                covering = [v for s, e, v in ranges if s <= gen <= e]
+                if covering:
+                    known, bulba_val = True, covering[0]
+                elif ranges and gen < min(s for s, e, v in ranges):
+                    known, bulba_val = False, None
+                else:
+                    known, bulba_val = _bulba_current_value(wikitext, wiki_field)
+                    if field == "priority" and not known:
+                        known, bulba_val = True, 0
 
-                # Check tooltip history ranges
-                for hfield, start, end, val in gen_history:
-                    if hfield == field and start <= gen <= end:
-                        bulba_val = val
-                        break
-
-                # If no historical range covers this gen, use current value
-                # (but only for the latest gen or gens after all historical ranges)
-                if bulba_val is None:
-                    # Check if any range exists for this field
-                    field_ranges = [(s, e, v) for f, s, e, v in gen_history if f == field]
-                    if field_ranges:
-                        max_covered = max(e for s, e, v in field_ranges)
-                        if gen > max_covered:
-                            bulba_val = bulba_current.get(field)
-                    else:
-                        # No history at all --current value applies to all gens
-                        bulba_val = bulba_current.get(field)
-
-                if bulba_val is not None:
-                    our_val = our_data.get(field)
-                    if our_val != bulba_val:
-                        discrepancies.append({
-                            "source": "Bulbapedia",
-                            "gen": gen,
-                            "move": move_name,
-                            "field": field,
-                            "ours": our_val,
-                            "theirs": bulba_val,
-                        })
+                if not known:
+                    continue
+                if field == "pp" and bulba_val is None:
+                    continue  # Shadow moves list PP as N/A
+                our_val = our_data.get(field)
+                # moves.js uses null for "no power / never misses", and 1 as a
+                # placeholder power for fixed/variable-damage moves.
+                if field == "power" and our_val == 1 and bulba_val is None:
+                    continue
+                if our_val != bulba_val:
+                    discrepancies.append({
+                        "source": "Bulbapedia",
+                        "gen": gen,
+                        "move": move_name,
+                        "field": field,
+                        "ours": our_val,
+                        "theirs": bulba_val,
+                    })
 
             # Check type and category (from current infobox --mainly for latest gen)
             if gen == latest_gen:

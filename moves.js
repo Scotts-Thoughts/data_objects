@@ -275,7 +275,7 @@ export const moves = {
             "makes_contact": false,
             "affected_by_protect": false,
             "affected_by_magic_coat": false,
-            "affected_by_snatch": false,
+            "affected_by_snatch": true,
             "affected_by_mirror_move": false,
             "affected_by_kings_rock": false,
             "description": "A frenetic dance to uplift the fighting spirit. This sharply boosts the user's Attack stat."
@@ -372,12 +372,12 @@ export const moves = {
             "effect": "semi_invulnerable_turn",
             "effect_chance": null,
             "target": "Foe Or Ally",
-            "makes_contact": false,
-            "affected_by_protect": false,
+            "makes_contact": true,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user flies up into the sky on the first turn, then attacks on the next turn."
         },
         "Bind": {
@@ -549,7 +549,7 @@ export const moves = {
             "power": null,
             "accuracy": 100,
             "priority": 0,
-            "effect": "stat_change",
+            "effect": "lower_enemy_accuracy_1",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -969,7 +969,7 @@ export const moves = {
             "power": null,
             "accuracy": 90,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "fixed_damage",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -1209,7 +1209,7 @@ export const moves = {
             "power": 65,
             "accuracy": 100,
             "priority": 0,
-            "effect": "damage_lower_stat",
+            "effect": "may_lower_enemy_speed_1",
             "effect_chance": 10,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -1405,7 +1405,7 @@ export const moves = {
             "move": "Absorb",
             "type": "Grass",
             "category": "Special",
-            "pp": 25,
+            "pp": 20,
             "power": 20,
             "accuracy": 100,
             "priority": 0,
@@ -1509,7 +1509,7 @@ export const moves = {
             "power": 120,
             "accuracy": 100,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "charge_turn",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -1713,10 +1713,10 @@ export const moves = {
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
-            "affected_by_magic_coat": false,
+            "affected_by_protect": true,
+            "affected_by_magic_coat": true,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "The user launches a weak jolt of electricity that paralyzes the target."
         },
@@ -1733,11 +1733,11 @@ export const moves = {
             "effect_chance": 30,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis."
         },
         "Rock Throw": {
@@ -2027,7 +2027,7 @@ export const moves = {
             "category": "Status",
             "pp": 10,
             "power": null,
-            "accuracy": null,
+            "accuracy": 100,
             "priority": 0,
             "effect": "mimic",
             "effect_chance": null,
@@ -2149,7 +2149,7 @@ export const moves = {
             "power": null,
             "accuracy": 100,
             "priority": 0,
-            "effect": "stat_change",
+            "effect": "lower_enemy_accuracy_1",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -2389,7 +2389,7 @@ export const moves = {
             "power": 130,
             "accuracy": 100,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "self_destruct",
             "effect_chance": null,
             "target": "Others",
             "makes_contact": false,
@@ -2536,7 +2536,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "The user charges at the target and may make it flinch."
         },
@@ -2689,7 +2689,7 @@ export const moves = {
             "power": null,
             "accuracy": null,
             "priority": 0,
-            "effect": "heal_self",
+            "effect": "recover",
             "effect_chance": null,
             "target": "Self",
             "makes_contact": false,
@@ -2709,7 +2709,7 @@ export const moves = {
             "power": 85,
             "accuracy": 90,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "recoil_on_miss",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": true,
@@ -2756,8 +2756,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user eats the dreams of a sleeping target. The user's HP is restored by up to half the damage taken by the target."
         },
         "Poison Gas": {
@@ -3136,7 +3136,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "Large boulders are hurled at opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch."
         },
@@ -3287,7 +3287,7 @@ export const moves = {
             "category": "Physical",
             "pp": 10,
             "power": 50,
-            "accuracy": null,
+            "accuracy": 100,
             "priority": 0,
             "effect": "half_recoil_on_hit",
             "effect_chance": 10,
@@ -3577,7 +3577,7 @@ export const moves = {
             "makes_contact": false,
             "affected_by_protect": false,
             "affected_by_magic_coat": false,
-            "affected_by_snatch": false,
+            "affected_by_snatch": true,
             "affected_by_mirror_move": false,
             "affected_by_kings_rock": false,
             "description": "A dance that in­ creases ATTACK."
@@ -3674,12 +3674,12 @@ export const moves = {
             "effect": "semi_invulnerable_turn",
             "effect_chance": null,
             "target": "Foe Or Ally",
-            "makes_contact": false,
-            "affected_by_protect": false,
+            "makes_contact": true,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "1st turn: Fly 2nd turn: Attack"
         },
         "Bind": {
@@ -3851,7 +3851,7 @@ export const moves = {
             "power": null,
             "accuracy": 100,
             "priority": 0,
-            "effect": "stat_change",
+            "effect": "lower_enemy_accuracy_1",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -4271,7 +4271,7 @@ export const moves = {
             "power": null,
             "accuracy": 90,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "fixed_damage",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -4511,7 +4511,7 @@ export const moves = {
             "power": 65,
             "accuracy": 100,
             "priority": 0,
-            "effect": "damage_lower_stat",
+            "effect": "may_lower_enemy_speed_1",
             "effect_chance": 10,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -4707,7 +4707,7 @@ export const moves = {
             "move": "Absorb",
             "type": "Grass",
             "category": "Special",
-            "pp": 25,
+            "pp": 20,
             "power": 20,
             "accuracy": 100,
             "priority": 0,
@@ -4811,7 +4811,7 @@ export const moves = {
             "power": 120,
             "accuracy": 100,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "charge_turn_unless_in_sun",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -5015,10 +5015,10 @@ export const moves = {
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
-            "affected_by_magic_coat": false,
+            "affected_by_protect": true,
+            "affected_by_magic_coat": true,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "A move that may cause paralysis."
         },
@@ -5035,11 +5035,11 @@ export const moves = {
             "effect_chance": 30,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "An attack that may cause paralysis."
         },
         "Rock Throw": {
@@ -5329,7 +5329,7 @@ export const moves = {
             "category": "Status",
             "pp": 10,
             "power": null,
-            "accuracy": null,
+            "accuracy": 100,
             "priority": 0,
             "effect": "mimic",
             "effect_chance": null,
@@ -5451,7 +5451,7 @@ export const moves = {
             "power": null,
             "accuracy": 100,
             "priority": 0,
-            "effect": "stat_change",
+            "effect": "lower_enemy_accuracy_1",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -5629,7 +5629,7 @@ export const moves = {
             "category": "Physical",
             "pp": 10,
             "power": null,
-            "accuracy": null,
+            "accuracy": 100,
             "priority": 0,
             "effect": "bide",
             "effect_chance": null,
@@ -5691,7 +5691,7 @@ export const moves = {
             "power": 200,
             "accuracy": 100,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "self_destruct",
             "effect_chance": null,
             "target": "Others",
             "makes_contact": false,
@@ -5838,7 +5838,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "An aquatic charge attack."
         },
@@ -5991,7 +5991,7 @@ export const moves = {
             "power": null,
             "accuracy": null,
             "priority": 0,
-            "effect": "heal_self",
+            "effect": "recover",
             "effect_chance": null,
             "target": "Self",
             "makes_contact": false,
@@ -6011,7 +6011,7 @@ export const moves = {
             "power": 85,
             "accuracy": 90,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "recoil_on_miss",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": true,
@@ -6058,8 +6058,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "Steals HP from a sleeping victim."
         },
         "Poison Gas": {
@@ -6438,7 +6438,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "An attack that may cause flinching."
         },
@@ -6589,7 +6589,7 @@ export const moves = {
             "category": "Physical",
             "pp": 1,
             "power": 50,
-            "accuracy": null,
+            "accuracy": 100,
             "priority": 0,
             "effect": "half_recoil_on_hit",
             "effect_chance": 10,
@@ -6689,7 +6689,7 @@ export const moves = {
             "category": "Status",
             "pp": 5,
             "power": null,
-            "accuracy": null,
+            "accuracy": 100,
             "priority": 0,
             "effect": "next_attack_guaranteed_hit",
             "effect_chance": null,
@@ -6709,7 +6709,7 @@ export const moves = {
             "category": "Status",
             "pp": 15,
             "power": null,
-            "accuracy": 100,
+            "accuracy": null,
             "priority": 0,
             "effect": "nightmare",
             "effect_chance": null,
@@ -6991,7 +6991,7 @@ export const moves = {
             "power": 60,
             "accuracy": null,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "always_hit",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -7149,7 +7149,7 @@ export const moves = {
             "category": "Status",
             "pp": 40,
             "power": null,
-            "accuracy": null,
+            "accuracy": 100,
             "priority": 0,
             "effect": "identify_enemy",
             "effect_chance": null,
@@ -7269,7 +7269,7 @@ export const moves = {
             "category": "Status",
             "pp": 5,
             "power": null,
-            "accuracy": null,
+            "accuracy": 100,
             "priority": 0,
             "effect": "next_attack_guaranteed_hit",
             "effect_chance": null,
@@ -7689,7 +7689,7 @@ export const moves = {
             "category": "Status",
             "pp": 20,
             "power": null,
-            "accuracy": null,
+            "accuracy": 100,
             "priority": 0,
             "effect": "pain_split",
             "effect_chance": null,
@@ -8028,7 +8028,7 @@ export const moves = {
             "type": "Normal",
             "category": "Physical",
             "pp": 15,
-            "power": 60,
+            "power": null,
             "accuracy": 100,
             "priority": 0,
             "effect": "hidden_power",
@@ -8211,7 +8211,7 @@ export const moves = {
             "power": 60,
             "accuracy": 100,
             "priority": 0,
-            "effect": "damage_raise_stat",
+            "effect": "may_raise_self_all_stats_1",
             "effect_chance": 10,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -8461,7 +8461,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A fiery punch that may burn the foe."
         },
         "Ice Punch": {
@@ -8481,7 +8481,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "An icy punch that may freeze the foe."
         },
         "Thunder Punch": {
@@ -8501,7 +8501,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "An electrified punch that may paralyze the foe."
         },
         "Scratch": {
@@ -8560,7 +8560,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "A powerful pincer attack that may cause fainting."
         },
@@ -8599,7 +8599,7 @@ export const moves = {
             "makes_contact": false,
             "affected_by_protect": false,
             "affected_by_magic_coat": false,
-            "affected_by_snatch": false,
+            "affected_by_snatch": true,
             "affected_by_mirror_move": false,
             "affected_by_kings_rock": false,
             "description": "A fighting dance that sharply raises ATTACK."
@@ -8677,7 +8677,7 @@ export const moves = {
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
@@ -8696,12 +8696,12 @@ export const moves = {
             "effect": "semi_invulnerable_turn",
             "effect_chance": null,
             "target": "Foe Or Ally",
-            "makes_contact": false,
-            "affected_by_protect": false,
+            "makes_contact": true,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "Flies up on the first turn, then strikes the next turn."
         },
         "Bind": {
@@ -8861,7 +8861,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "A fast kick delivered from a rapid spin."
         },
         "Sand Attack": {
@@ -8873,7 +8873,7 @@ export const moves = {
             "power": null,
             "accuracy": 100,
             "priority": 0,
-            "effect": "stat_change",
+            "effect": "lower_enemy_accuracy_1",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -8960,7 +8960,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "A one-hit KO attack that uses a horn like a drill."
         },
@@ -9001,7 +9001,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A full-body slam that may cause paralysis."
         },
         "Wrap": {
@@ -9121,7 +9121,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A toxic attack with barbs, etc., that may poison."
         },
         "Twineedle": {
@@ -9141,7 +9141,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Stingers on the forelegs jab the foe twice."
         },
         "Pin Missile": {
@@ -9237,7 +9237,7 @@ export const moves = {
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
@@ -9293,7 +9293,7 @@ export const moves = {
             "power": null,
             "accuracy": 90,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "fixed_damage",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -9341,7 +9341,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Sprays a hide-melting acid. May lower DEFENSE."
         },
         "Ember": {
@@ -9361,7 +9361,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A weak fire attack that may inflict a burn."
         },
         "Flamethrower": {
@@ -9381,7 +9381,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A powerful fire attack that may inflict a burn."
         },
         "Mist": {
@@ -9481,7 +9481,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Blasts the foe with an icy beam that may freeze it."
         },
         "Blizzard": {
@@ -9501,7 +9501,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Hits the foe with an icy storm that may freeze it."
         },
         "Psybeam": {
@@ -9521,7 +9521,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Fires a peculiar ray that may confuse the foe."
         },
         "Bubble Beam": {
@@ -9533,7 +9533,7 @@ export const moves = {
             "power": 65,
             "accuracy": 100,
             "priority": 0,
-            "effect": "damage_lower_stat",
+            "effect": "may_lower_enemy_speed_1",
             "effect_chance": 10,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -9541,7 +9541,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Forcefully sprays bubbles that may lower SPEED."
         },
         "Aurora Beam": {
@@ -9561,7 +9561,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Fires a rainbow-colored beam that may lower ATTACK."
         },
         "Hyper Beam": {
@@ -9680,8 +9680,8 @@ export const moves = {
             "affected_by_protect": false,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": true,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": false,
             "description": "Retaliates any physical hit with double the power."
         },
         "Seismic Toss": {
@@ -9729,7 +9729,7 @@ export const moves = {
             "move": "Absorb",
             "type": "Grass",
             "category": "Special",
-            "pp": 25,
+            "pp": 20,
             "power": 20,
             "accuracy": 100,
             "priority": 0,
@@ -9741,7 +9741,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "An attack that absorbs half the damage inflicted."
         },
         "Mega Drain": {
@@ -9761,7 +9761,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "An attack that absorbs half the damage inflicted."
         },
         "Leech Seed": {
@@ -9833,7 +9833,7 @@ export const moves = {
             "power": 120,
             "accuracy": 100,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "charge_turn_unless_in_sun",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -10001,7 +10001,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "An electrical attack that may paralyze the foe."
         },
         "Thunderbolt": {
@@ -10021,7 +10021,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A strong electrical attack that may paralyze the foe."
         },
         "Thunder Wave": {
@@ -10037,10 +10037,10 @@ export const moves = {
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
-            "affected_by_magic_coat": false,
+            "affected_by_protect": true,
+            "affected_by_magic_coat": true,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "A weak jolt of electricity that paralyzes the foe."
         },
@@ -10057,10 +10057,10 @@ export const moves = {
             "effect_chance": 30,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "A lightning attack that may cause paralysis."
         },
@@ -10120,7 +10120,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "A one-hit KO move that drops the foe in a fissure."
         },
@@ -10181,7 +10181,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A psychic attack that may cause confusion."
         },
         "Psychic": {
@@ -10201,7 +10201,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A powerful psychic attack that may lower SP. DEF."
         },
         "Hypnosis": {
@@ -10473,7 +10473,7 @@ export const moves = {
             "power": null,
             "accuracy": 100,
             "priority": 0,
-            "effect": "stat_change",
+            "effect": "lower_enemy_accuracy_1",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -10597,7 +10597,7 @@ export const moves = {
             "effect_chance": null,
             "target": "All",
             "makes_contact": false,
-            "affected_by_protect": false,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": false,
@@ -10651,7 +10651,7 @@ export const moves = {
             "category": "Physical",
             "pp": 10,
             "power": null,
-            "accuracy": null,
+            "accuracy": 100,
             "priority": 0,
             "effect": "bide",
             "effect_chance": null,
@@ -10713,7 +10713,7 @@ export const moves = {
             "power": 200,
             "accuracy": 100,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "self_destruct",
             "effect_chance": null,
             "target": "Others",
             "makes_contact": false,
@@ -10761,7 +10761,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Licks with a long tongue to injure. May also paralyze."
         },
         "Smog": {
@@ -10781,7 +10781,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "An exhaust-gas attack that may also poison."
         },
         "Sludge": {
@@ -10801,7 +10801,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Sludge is hurled to inflict damage. May also poison."
         },
         "Bone Club": {
@@ -10841,7 +10841,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Incinerates everything it strikes. May cause a burn."
         },
         "Waterfall": {
@@ -10860,8 +10860,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "Charges the foe with speed to climb waterfalls."
         },
         "Clamp": {
@@ -10961,7 +10961,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Constricts to inflict pain. May lower SPEED."
         },
         "Amnesia": {
@@ -11013,14 +11013,14 @@ export const moves = {
             "power": null,
             "accuracy": null,
             "priority": 0,
-            "effect": "heal_self",
+            "effect": "recover",
             "effect_chance": null,
             "target": "Self",
             "makes_contact": false,
             "affected_by_protect": false,
             "affected_by_magic_coat": false,
             "affected_by_snatch": true,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "Recovers up to half the user’s maximum HP."
         },
@@ -11033,7 +11033,7 @@ export const moves = {
             "power": 85,
             "accuracy": 90,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "recoil_on_miss",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": true,
@@ -11080,7 +11080,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "Takes one half the damage inflicted on a sleeping foe."
         },
@@ -11141,7 +11141,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "An attack that steals half the damage inflicted."
         },
         "Lovely Kiss": {
@@ -11181,7 +11181,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "Searches out weak spots, then strikes the next turn."
         },
         "Transform": {
@@ -11221,7 +11221,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "An attack using bubbles. May lower the foe’s SPEED."
         },
         "Dizzy Punch": {
@@ -11241,7 +11241,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A rhythmic punch that may confuse the foe."
         },
         "Spore": {
@@ -11460,7 +11460,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "Large boulders are hurled. May cause flinching."
         },
@@ -11541,7 +11541,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Fires three types of beams at the same time."
         },
         "Super Fang": {
@@ -11611,7 +11611,7 @@ export const moves = {
             "category": "Physical",
             "pp": 1,
             "power": 50,
-            "accuracy": null,
+            "accuracy": 100,
             "priority": 0,
             "effect": "half_recoil_on_hit",
             "effect_chance": 10,
@@ -11681,7 +11681,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "While attacking, it may steal the foe’s held item."
         },
         "Spider Web": {
@@ -11711,7 +11711,7 @@ export const moves = {
             "category": "Status",
             "pp": 5,
             "power": null,
-            "accuracy": null,
+            "accuracy": 100,
             "priority": 0,
             "effect": "next_attack_guaranteed_hit",
             "effect_chance": null,
@@ -11731,7 +11731,7 @@ export const moves = {
             "category": "Status",
             "pp": 15,
             "power": null,
-            "accuracy": 100,
+            "accuracy": null,
             "priority": 0,
             "effect": "nightmare",
             "effect_chance": null,
@@ -11761,7 +11761,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A fiery charge attack that may inflict a burn."
         },
         "Snore": {
@@ -11781,7 +11781,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "A loud attack that can be used only while asleep."
         },
         "Curse": {
@@ -11941,7 +11941,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Blasts the foe with a snowy gust. May cause freezing."
         },
         "Protect": {
@@ -12013,7 +12013,7 @@ export const moves = {
             "power": 60,
             "accuracy": null,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "always_hit",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -12081,7 +12081,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Sludge is hurled to inflict damage. May also poison."
         },
         "Mud-Slap": {
@@ -12101,7 +12101,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Hurls mud in the foe’s face to reduce its accuracy."
         },
         "Octazooka": {
@@ -12121,7 +12121,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Fires a lump of ink to damage and cut accuracy."
         },
         "Spikes": {
@@ -12161,7 +12161,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Powerful and sure to cause paralysis, but inaccurate."
         },
         "Foresight": {
@@ -12171,7 +12171,7 @@ export const moves = {
             "category": "Status",
             "pp": 40,
             "power": null,
-            "accuracy": null,
+            "accuracy": 100,
             "priority": 0,
             "effect": "identify_enemy",
             "effect_chance": null,
@@ -12241,7 +12241,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A chilling attack that lowers the foe’s SPEED."
         },
         "Detect": {
@@ -12291,7 +12291,7 @@ export const moves = {
             "category": "Status",
             "pp": 5,
             "power": null,
-            "accuracy": null,
+            "accuracy": 100,
             "priority": 0,
             "effect": "next_attack_guaranteed_hit",
             "effect_chance": null,
@@ -12477,7 +12477,7 @@ export const moves = {
             "effect_chance": null,
             "target": "Self",
             "makes_contact": false,
-            "affected_by_protect": false,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": true,
             "affected_by_mirror_move": false,
@@ -12501,7 +12501,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "An electrified tackle that may paralyze the foe."
         },
         "Fury Cutter": {
@@ -12661,7 +12661,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A gift in the form of a bomb. May restore HP."
         },
         "Frustration": {
@@ -12741,7 +12741,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A mystical fire attack that may inflict a burn."
         },
         "Magnitude": {
@@ -12781,7 +12781,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Powerful and sure to cause confusion, but inaccurate."
         },
         "Megahorn": {
@@ -12881,7 +12881,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Inflicts bad damage if used on a foe switching out."
         },
         "Rapid Spin": {
@@ -12941,7 +12941,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Attacks with a rock-hard tail. May lower DEFENSE."
         },
         "Metal Claw": {
@@ -12961,7 +12961,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A claw attack that may raise the user’s ATTACK."
         },
         "Vital Throw": {
@@ -13050,7 +13050,7 @@ export const moves = {
             "type": "Normal",
             "category": "Physical",
             "pp": 15,
-            "power": 60,
+            "power": null,
             "accuracy": 100,
             "priority": 0,
             "effect": "hidden_power",
@@ -13101,7 +13101,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "Whips up a vicious twister to tear at the foe."
         },
         "Rain Dance": {
@@ -13161,7 +13161,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Crunches with sharp fangs. May lower SP. DEF."
         },
         "Mirror Coat": {
@@ -13180,8 +13180,8 @@ export const moves = {
             "affected_by_protect": false,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": true,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": false,
             "description": "Counters the foe’s special attack at double the power."
         },
         "Psych Up": {
@@ -13233,7 +13233,7 @@ export const moves = {
             "power": 60,
             "accuracy": 100,
             "priority": 0,
-            "effect": "damage_raise_stat",
+            "effect": "may_raise_self_all_stats_1",
             "effect_chance": 10,
             "target": "Foe Or Ally",
             "makes_contact": true,
@@ -13241,7 +13241,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "An attack that may raise all stats."
         },
         "Shadow Ball": {
@@ -13261,7 +13261,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Hurls a black blob that may lower the foe’s SP. DEF."
         },
         "Future Sight": {
@@ -13301,7 +13301,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A rock-crushing attack that may lower DEFENSE."
         },
         "Whirlpool": {
@@ -13410,7 +13410,7 @@ export const moves = {
             "type": "Normal",
             "category": "Physical",
             "pp": 10,
-            "power": null,
+            "power": 100,
             "accuracy": 100,
             "priority": 0,
             "effect": "spit_up",
@@ -13461,7 +13461,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Exhales a hot breath on the foe. May inflict a burn."
         },
         "Hail": {
@@ -13477,7 +13477,7 @@ export const moves = {
             "effect_chance": null,
             "target": "All",
             "makes_contact": false,
-            "affected_by_protect": false,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": false,
@@ -13551,7 +13551,7 @@ export const moves = {
             "category": "Status",
             "pp": 10,
             "power": null,
-            "accuracy": 100,
+            "accuracy": null,
             "priority": 0,
             "effect": "memento",
             "effect_chance": null,
@@ -13580,7 +13580,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "Boosts ATTACK when burned, paralyzed, or poisoned."
         },
@@ -13601,7 +13601,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": false,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A powerful loyalty attack. The user flinches if hit."
         },
         "Smelling Salts": {
@@ -13613,7 +13613,7 @@ export const moves = {
             "power": 60,
             "accuracy": 100,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "smellingsalt",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": true,
@@ -13621,7 +13621,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Powerful against paralyzed foes, but also heals them."
         },
         "Follow Me": {
@@ -13698,7 +13698,7 @@ export const moves = {
             "target": "Foe Or Ally",
             "makes_contact": false,
             "affected_by_protect": true,
-            "affected_by_magic_coat": true,
+            "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": false,
             "affected_by_kings_rock": false,
@@ -13777,7 +13777,7 @@ export const moves = {
             "effect_chance": null,
             "target": "Self",
             "makes_contact": false,
-            "affected_by_protect": false,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": false,
@@ -13841,7 +13841,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Boosts strength sharply, but lowers abilities."
         },
         "Magic Coat": {
@@ -13921,7 +13921,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "Destroys barriers such as REFLECT and causes damage."
         },
         "Yawn": {
@@ -13961,7 +13961,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Knocks down the foe’s held item to prevent its use."
         },
         "Endeavor": {
@@ -14037,7 +14037,7 @@ export const moves = {
             "effect_chance": null,
             "target": "Self",
             "makes_contact": false,
-            "affected_by_protect": false,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": false,
@@ -14077,10 +14077,10 @@ export const moves = {
             "effect_chance": null,
             "target": "Self",
             "makes_contact": false,
-            "affected_by_protect": false,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "If the user faints, deletes all PP of foe’s last move."
         },
@@ -14100,7 +14100,7 @@ export const moves = {
             "affected_by_protect": false,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "Steals the effects of the move the target uses next."
         },
@@ -14121,7 +14121,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "An attack with effects that vary by location."
         },
         "Dive": {
@@ -14221,7 +14221,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Attacks with a burst of light. May lower SP. DEF."
         },
         "Mist Ball": {
@@ -14241,7 +14241,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Attacks with a flurry of down. May lower SP. ATK."
         },
         "Feather Dance": {
@@ -14253,7 +14253,7 @@ export const moves = {
             "power": null,
             "accuracy": 100,
             "priority": 0,
-            "effect": "stat_change",
+            "effect": "lower_enemy_attack_2",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -14301,7 +14301,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A kick with a high critical- hit ratio. May cause a burn."
         },
         "Mud Sport": {
@@ -14401,7 +14401,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A loud attack that uses sound waves to injure."
         },
         "Poison Fang": {
@@ -14421,7 +14421,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A sharp-fanged attack. May badly poison the foe."
         },
         "Crush Claw": {
@@ -14441,7 +14441,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Tears at the foe with sharp claws. May lower DEFENSE."
         },
         "Blast Burn": {
@@ -14631,7 +14631,7 @@ export const moves = {
             "category": "Status",
             "pp": 40,
             "power": null,
-            "accuracy": null,
+            "accuracy": 100,
             "priority": 0,
             "effect": "identify_enemy",
             "effect_chance": null,
@@ -14661,7 +14661,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Stops the foe from moving with rocks and cuts SPEED."
         },
         "Silver Wind": {
@@ -14713,7 +14713,7 @@ export const moves = {
             "power": null,
             "accuracy": 55,
             "priority": 0,
-            "effect": "put_to_sleep",
+            "effect": "sleep",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -14741,7 +14741,7 @@ export const moves = {
             "affected_by_magic_coat": true,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "Makes the foe laugh to lower ATTACK and DEFENSE."
         },
         "Cosmic Power": {
@@ -14781,7 +14781,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Inflicts more damage if the user’s HP is high."
         },
         "Signal Beam": {
@@ -14900,7 +14900,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "A chilling attack that causes fainting if it hits."
         },
@@ -15060,8 +15060,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "Slashes the foe with sharp claws."
         },
         "Frenzy Plant": {
@@ -15181,7 +15181,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Cutely begs to obtain an item held by the foe."
         },
         "Volt Tackle": {
@@ -15903,7 +15903,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is punched with a fiery fist. It may leave the target with a burn."
         },
         "Ice Punch": {
@@ -15923,7 +15923,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is punched with an icy fist. It may leave the target frozen."
         },
         "Thunder Punch": {
@@ -15943,7 +15943,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is punched with an electrified fist. It may leave the target with paralysis."
         },
         "Scratch": {
@@ -16002,7 +16002,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "A vicious, tearing attack with pincers. The foe will faint instantly if this attack hits."
         },
@@ -16041,7 +16041,7 @@ export const moves = {
             "makes_contact": false,
             "affected_by_protect": false,
             "affected_by_magic_coat": false,
-            "affected_by_snatch": false,
+            "affected_by_snatch": true,
             "affected_by_mirror_move": false,
             "affected_by_kings_rock": false,
             "description": "A frenetic dance to uplift the fighting spirit. It sharply raises the user’s Attack stat."
@@ -16119,7 +16119,7 @@ export const moves = {
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
@@ -16138,12 +16138,12 @@ export const moves = {
             "effect": "semi_invulnerable_turn",
             "effect_chance": null,
             "target": "Foe Or Ally",
-            "makes_contact": false,
-            "affected_by_protect": false,
+            "makes_contact": true,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user soars, then strikes on the second turn. It can also be used for flying to any familiar town."
         },
         "Bind": {
@@ -16272,7 +16272,7 @@ export const moves = {
             "type": "Fighting",
             "category": "Physical",
             "pp": 25,
-            "power": 100,
+            "power": 85,
             "accuracy": 95,
             "priority": 0,
             "effect": "recoil_on_miss",
@@ -16303,7 +16303,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "The user lashes  out with a quick, spinning kick. It may also make the target flinch."
         },
         "Sand Attack": {
@@ -16315,7 +16315,7 @@ export const moves = {
             "power": null,
             "accuracy": 100,
             "priority": 0,
-            "effect": "stat_change",
+            "effect": "lower_enemy_accuracy_1",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -16402,7 +16402,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "The foe is stabbed with a horn rotating like a drill. The foe instantly faints if it hits."
         },
@@ -16443,7 +16443,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user drops onto the foe with its full body weight. It may leave the foe paralyzed."
         },
         "Wrap": {
@@ -16563,7 +16563,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is stabbed with a poisonous barb of some sort. It may also poison the target."
         },
         "Twineedle": {
@@ -16583,7 +16583,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is stabbed twice by a pair of stingers. It may also poison the target."
         },
         "Pin Missile": {
@@ -16679,7 +16679,7 @@ export const moves = {
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
@@ -16735,7 +16735,7 @@ export const moves = {
             "power": null,
             "accuracy": 90,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "fixed_damage",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -16783,7 +16783,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is attacked with a spray of harsh acid. It may also lower the target’s Sp. Def stat."
         },
         "Ember": {
@@ -16803,7 +16803,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is attacked with small flames. The target may also be left with a burn."
         },
         "Flamethrower": {
@@ -16823,7 +16823,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is scorched with an intense blast of fire. The target may also be left with a burn."
         },
         "Mist": {
@@ -16923,7 +16923,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is struck with an icy-cold beam of energy. It may also freeze the target solid."
         },
         "Blizzard": {
@@ -16943,7 +16943,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A howling blizzard is summoned to strike the foe. It may also freeze the target solid."
         },
         "Psybeam": {
@@ -16963,7 +16963,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is attacked with a peculiar ray. It may also leave the target confused."
         },
         "Bubble Beam": {
@@ -16975,7 +16975,7 @@ export const moves = {
             "power": 65,
             "accuracy": 100,
             "priority": 0,
-            "effect": "damage_lower_stat",
+            "effect": "may_lower_enemy_speed_1",
             "effect_chance": 10,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -16983,7 +16983,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A spray of bubbles is forcefully ejected at the foe. It may also lower the target’s Speed stat."
         },
         "Aurora Beam": {
@@ -17003,7 +17003,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is hit with a rainbow-colored beam. It may also lower the target’s Attack stat."
         },
         "Hyper Beam": {
@@ -17123,7 +17123,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": false,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A retaliation move that counters any physical attack, inflicting double the damage taken."
         },
         "Seismic Toss": {
@@ -17183,7 +17183,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target."
         },
         "Mega Drain": {
@@ -17203,7 +17203,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target."
         },
         "Leech Seed": {
@@ -17275,7 +17275,7 @@ export const moves = {
             "power": 120,
             "accuracy": 100,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "charge_turn_unless_in_sun",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -17443,7 +17443,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A jolt of electricity is hurled at the foe to inflict damage. It may also leave the foe paralyzed."
         },
         "Thunderbolt": {
@@ -17463,7 +17463,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A strong electric blast is loosed at the foe. It may also leave the foe paralyzed."
         },
         "Thunder Wave": {
@@ -17479,10 +17479,10 @@ export const moves = {
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
-            "affected_by_magic_coat": false,
+            "affected_by_protect": true,
+            "affected_by_magic_coat": true,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "A weak electric charge is launched at the foe. It causes paralysis if it hits."
         },
@@ -17499,10 +17499,10 @@ export const moves = {
             "effect_chance": 30,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "A wicked thunderbolt is dropped on the foe to inflict damage. It may also leave the target paralyzed."
         },
@@ -17562,7 +17562,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "The user opens up a fissure in the ground and drops the foe in. The target instantly faints if it hits."
         },
@@ -17623,7 +17623,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is hit by a weak telekinetic force. It may also leave the foe confused."
         },
         "Psychic": {
@@ -17643,7 +17643,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is hit by a strong telekinetic force. It may also reduce the foe’s Sp. Def stat."
         },
         "Hypnosis": {
@@ -17915,7 +17915,7 @@ export const moves = {
             "power": null,
             "accuracy": 100,
             "priority": 0,
-            "effect": "stat_change",
+            "effect": "lower_enemy_accuracy_1",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -18155,7 +18155,7 @@ export const moves = {
             "power": 200,
             "accuracy": 100,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "self_destruct",
             "effect_chance": null,
             "target": "Others",
             "makes_contact": false,
@@ -18203,7 +18203,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is licked with a long tongue, causing damage. It may also paralyze the target."
         },
         "Smog": {
@@ -18223,7 +18223,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is attacked with a discharge of filthy gases. It may also poison the target."
         },
         "Sludge": {
@@ -18243,7 +18243,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Unsanitary sludge is hurled at the foe. It may also poison the target."
         },
         "Bone Club": {
@@ -18283,7 +18283,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn."
         },
         "Waterfall": {
@@ -18302,8 +18302,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user charges at the foe rapidly, and may make it flinch. It can also be used to climb a waterfall."
         },
         "Clamp": {
@@ -18403,7 +18403,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is attacked with long, creeping tentacles or vines. It may also lower the target’s Speed."
         },
         "Amnesia": {
@@ -18455,7 +18455,7 @@ export const moves = {
             "power": null,
             "accuracy": null,
             "priority": 0,
-            "effect": "heal_self",
+            "effect": "recover",
             "effect_chance": null,
             "target": "Self",
             "makes_contact": false,
@@ -18475,7 +18475,7 @@ export const moves = {
             "power": 100,
             "accuracy": 90,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "recoil_on_miss",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": true,
@@ -18522,7 +18522,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "An attack that works only on a sleeping foe. It absorbs half the damage caused to heal the user’s HP."
         },
@@ -18583,7 +18583,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A blood-draining attack. The user’s HP is restored by half the damage taken by the target."
         },
         "Lovely Kiss": {
@@ -18623,7 +18623,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "A second-turn attack move with a high critical-hit ratio. It may also make the target flinch."
         },
         "Transform": {
@@ -18663,7 +18663,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A spray of countless bubbles is jetted at the foe. It may also lower the target’s Speed stat."
         },
         "Dizzy Punch": {
@@ -18683,7 +18683,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is hit with rhythmically launched punches that may also leave it confused."
         },
         "Spore": {
@@ -18902,7 +18902,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "Large boulders are hurled at the foe to inflict damage. It may also make the target flinch."
         },
@@ -18983,7 +18983,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user strikes with a simultaneous three- beam attack. May also paralyze, burn, or freeze the target."
         },
         "Super Fang": {
@@ -19123,7 +19123,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user attacks and steals the foe’s held item simultaneously. It can’t steal if the user holds an item."
         },
         "Spider Web": {
@@ -19203,7 +19203,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user cloaks itself in fire and charges at the foe. It may also leave the target with a burn."
         },
         "Snore": {
@@ -19223,7 +19223,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "An attack that can be used only if the user is asleep. The harsh noise may also make the foe flinch."
         },
         "Curse": {
@@ -19383,7 +19383,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user attacks with a chilling gust of powdery snow. It may also freeze the target."
         },
         "Protect": {
@@ -19455,7 +19455,7 @@ export const moves = {
             "power": 60,
             "accuracy": null,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "always_hit",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": true,
@@ -19523,7 +19523,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user attacks by hurling filthy sludge at the foe. It may also poison the target."
         },
         "Mud-Slap": {
@@ -19543,7 +19543,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user hurls mud in the foe’s face to inflict damage and lower its accuracy."
         },
         "Octazooka": {
@@ -19563,7 +19563,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user attacks by spraying ink in the foe’s face or eyes. It may also lower the target’s accuracy."
         },
         "Spikes": {
@@ -19603,7 +19603,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user fires an electric blast like a cannon to inflict damage and cause paralysis."
         },
         "Foresight": {
@@ -19683,7 +19683,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user attacks with a gust of chilled air. It also lowers the target’s Speed stat."
         },
         "Detect": {
@@ -19943,7 +19943,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user throws an electrically charged tackle at the foe. It may also leave the target paralyzed."
         },
         "Fury Cutter": {
@@ -20103,7 +20103,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user attacks by giving the foe a booby-trapped gift. It restores HP sometimes, however."
         },
         "Frustration": {
@@ -20183,7 +20183,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is razed with a mystical fire of great intensity. It may also leave the target with a burn."
         },
         "Magnitude": {
@@ -20223,7 +20223,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is punched with the user’s full, concentrated power. It confuses the foe if it hits."
         },
         "Megahorn": {
@@ -20323,7 +20323,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "An attack move that inflicts double damage if used on a foe that is switching out of battle."
         },
         "Rapid Spin": {
@@ -20383,7 +20383,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is slammed with a steel-hard tail. It may also lower the target’s Defense stat."
         },
         "Metal Claw": {
@@ -20403,7 +20403,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The foe is raked with steel claws. It may also raise the user’s Attack stat."
         },
         "Vital Throw": {
@@ -20492,7 +20492,7 @@ export const moves = {
             "type": "Normal",
             "category": "Special",
             "pp": 15,
-            "power": 60,
+            "power": null,
             "accuracy": 100,
             "priority": 0,
             "effect": "hidden_power",
@@ -20543,7 +20543,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "The user whips up a vicious tornado to tear at the foe. It may also make the foe flinch."
         },
         "Rain Dance": {
@@ -20603,7 +20603,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user crunches up the foe with sharp fangs. It may also lower the target’s Defense stat."
         },
         "Mirror Coat": {
@@ -20623,7 +20623,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": false,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A retaliation move that counters any special attack, inflicting double the damage taken."
         },
         "Psych Up": {
@@ -20675,7 +20675,7 @@ export const moves = {
             "power": 60,
             "accuracy": 100,
             "priority": 0,
-            "effect": "damage_raise_stat",
+            "effect": "may_raise_self_all_stats_1",
             "effect_chance": 10,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -20683,7 +20683,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user attacks with a prehistoric power. It may also raise all the user’s stats at once."
         },
         "Shadow Ball": {
@@ -20703,7 +20703,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user hurls a shadowy blob at the foe. It may also lower the foe’s Sp. Def stat."
         },
         "Future Sight": {
@@ -20743,7 +20743,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user hits with a punch that may lower the target’s Defense. It can also smash cracked boulders."
         },
         "Whirlpool": {
@@ -20903,7 +20903,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user exhales a heated breath on the foe to attack. It may also leave the target with a burn."
         },
         "Hail": {
@@ -20919,7 +20919,7 @@ export const moves = {
             "effect_chance": null,
             "target": "All",
             "makes_contact": false,
-            "affected_by_protect": false,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": false,
@@ -21022,7 +21022,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "An attack move that doubles its power if the user is poisoned, paralyzed, or has a burn."
         },
@@ -21043,7 +21043,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": false,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user focuses its mind before launching a punch. It will fail if the user is hit before it is used."
         },
         "Smelling Salts": {
@@ -21055,7 +21055,7 @@ export const moves = {
             "power": 60,
             "accuracy": 100,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "smellingsalt",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": true,
@@ -21063,7 +21063,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "This attack inflicts double damage on a paralyzed foe. It also cures the foe’s paralysis, however."
         },
         "Follow Me": {
@@ -21140,7 +21140,7 @@ export const moves = {
             "target": "Foe Or Ally",
             "makes_contact": false,
             "affected_by_protect": true,
-            "affected_by_magic_coat": true,
+            "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
@@ -21283,7 +21283,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user attacks the foe with great power. However, it also lowers the user’s Attack and Defense."
         },
         "Magic Coat": {
@@ -21363,7 +21363,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "The user attacks with tough fists, etc. It can also break any barrier such as Light Screen and Reflect."
         },
         "Yawn": {
@@ -21403,7 +21403,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user slaps down the foe’s held item, preventing the item from being used during the battle."
         },
         "Endeavor": {
@@ -21563,7 +21563,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user attacks with a secret power. Its added effects vary depending on the user’s environment."
         },
         "Dive": {
@@ -21663,7 +21663,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user looses a damaging burst of light. It may also reduce the target’s Sp. Def stat."
         },
         "Mist Ball": {
@@ -21683,7 +21683,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "A mistlike flurry of down envelops and damages the foe. It may also lower the target’s Sp. Atk."
         },
         "Feather Dance": {
@@ -21695,7 +21695,7 @@ export const moves = {
             "power": null,
             "accuracy": 100,
             "priority": 0,
-            "effect": "stat_change",
+            "effect": "lower_enemy_attack_2",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -21743,7 +21743,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user launches a kick with a high critical-hit ratio. It may also leave the target with a burn."
         },
         "Mud Sport": {
@@ -21843,7 +21843,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user lets loose a horribly echoing shout with the power to inflict damage."
         },
         "Poison Fang": {
@@ -21863,7 +21863,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user bites the foe with toxic fangs. It may also leave the foe badly poisoned."
         },
         "Crush Claw": {
@@ -21883,7 +21883,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user slashes the foe with hard and sharp claws. It may also lower the target’s Defense."
         },
         "Blast Burn": {
@@ -22103,7 +22103,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "Boulders are hurled at the foe. It also lowers the foe’s Speed by preventing its movement."
         },
         "Silver Wind": {
@@ -22155,7 +22155,7 @@ export const moves = {
             "power": null,
             "accuracy": 55,
             "priority": 0,
-            "effect": "put_to_sleep",
+            "effect": "sleep",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -22223,7 +22223,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user spouts water to damage the foe. The lower the user’s HP, the less powerful it becomes."
         },
         "Signal Beam": {
@@ -22342,7 +22342,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "The foe is attacked with a blast of absolute-zero cold. The foe instantly faints if it hits."
         },
@@ -22502,8 +22502,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user slashes the foe with huge, sharp claws."
         },
         "Frenzy Plant": {
@@ -22623,7 +22623,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user endearingly approaches the foe, then steals the item the foe is holding."
         },
         "Volt Tackle": {
@@ -23043,7 +23043,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": false,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "An attack that hits a foe using Protect or Detect. It also lifts the effects of those moves."
         },
         "Pluck": {
@@ -23243,7 +23243,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user flings its held item at the foe to attack. Its power and effects depend on the item."
         },
         "Psycho Shift": {
@@ -23392,7 +23392,7 @@ export const moves = {
             "type": "Normal",
             "category": "Status",
             "pp": 20,
-            "power": 0,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "me_first",
@@ -23472,7 +23472,7 @@ export const moves = {
             "type": "Dark",
             "category": "Physical",
             "pp": 5,
-            "power": 60,
+            "power": null,
             "accuracy": 100,
             "priority": 0,
             "effect": "punishment",
@@ -23643,7 +23643,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user cloaks itself in fire and charges at the foe. The user sustains serious damage, too."
         },
         "Force Palm": {
@@ -23722,8 +23722,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The foe is stabbed with a tentacle or arm steeped in poison. It may also poison the foe."
         },
         "Dark Pulse": {
@@ -23742,8 +23742,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch."
         },
         "Night Slash": {
@@ -23823,7 +23823,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "The user attacks with a blade of air that slices even the sky. It may also make the target flinch."
         },
         "X-Scissor": {
@@ -23842,8 +23842,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user slashes at the foe by crossing its scythes or claws as if they were a pair of scissors."
         },
         "Bug Buzz": {
@@ -23863,7 +23863,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user vibrates its wings to generate a damaging sound wave. It may also lower the foe’s Sp. Def stat."
         },
         "Dragon Pulse": {
@@ -23883,7 +23883,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "The foe is attacked with a shock wave generated by the user’s gaping mouth."
         },
         "Dragon Rush": {
@@ -23903,7 +23903,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch."
         },
         "Power Gem": {
@@ -23983,7 +23983,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user heightens its mental focus and unleashes its power. It may also lower the target’s Sp. Def."
         },
         "Energy Ball": {
@@ -24003,7 +24003,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_kings_rock": false,
             "description": "The user draws power from nature and fires it at the foe. It may also lower the target’s Sp. Def."
         },
         "Brave Bird": {
@@ -24082,8 +24082,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user charges at the foe using every bit of its power. The user must rest on the next turn."
         },
         "Nasty Plot": {
@@ -24203,7 +24203,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "The user bites with electrified fangs. It may also make the foe flinch or become paralyzed."
         },
         "Ice Fang": {
@@ -24223,7 +24223,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "The user bites with cold-infused fangs. It may also make the foe flinch or freeze."
         },
         "Fire Fang": {
@@ -24243,7 +24243,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "The user bites with flame-cloaked fangs. It may also make the foe flinch or sustain a burn."
         },
         "Shadow Sneak": {
@@ -24323,7 +24323,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "The user focuses its willpower to its head and rams the foe. It may also make the target flinch."
         },
         "Mirror Shot": {
@@ -24442,8 +24442,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "Comets are summoned down from the sky. The attack’s recoil sharply reduces the user’s Sp. Atk stat."
         },
         "Discharge": {
@@ -24603,7 +24603,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "The foe slams the target with its steel-hard head. It may also make the target flinch."
         },
         "Magnet Bomb": {
@@ -24722,8 +24722,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": true,
-            "affected_by_kings_rock": true,
+            "affected_by_mirror_move": false,
+            "affected_by_kings_rock": false,
             "description": "The user attacks using a sound wave based on words it has learned. It may also confuse the foe."
         },
         "Judgment": {
@@ -25743,7 +25743,7 @@ export const moves = {
             "makes_contact": false,
             "affected_by_protect": false,
             "affected_by_magic_coat": false,
-            "affected_by_snatch": false,
+            "affected_by_snatch": true,
             "affected_by_mirror_move": false,
             "affected_by_kings_rock": false,
             "description": "A frenetic dance to uplift the fighting spirit. It sharply raises the user’s Attack stat."
@@ -25840,12 +25840,12 @@ export const moves = {
             "effect": "semi_invulnerable_turn",
             "effect_chance": null,
             "target": "Foe Or Ally",
-            "makes_contact": false,
-            "affected_by_protect": false,
+            "makes_contact": true,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user soars, then strikes its target on the second turn. It can also be used for flying to any familiar town."
         },
         "Bind": {
@@ -26017,7 +26017,7 @@ export const moves = {
             "power": null,
             "accuracy": 100,
             "priority": 0,
-            "effect": "stat_change",
+            "effect": "lower_enemy_accuracy_1",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -26437,7 +26437,7 @@ export const moves = {
             "power": null,
             "accuracy": 90,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "fixed_damage",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -26677,7 +26677,7 @@ export const moves = {
             "power": 65,
             "accuracy": 100,
             "priority": 0,
-            "effect": "damage_lower_stat",
+            "effect": "may_lower_enemy_speed_1",
             "effect_chance": 10,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -26977,7 +26977,7 @@ export const moves = {
             "power": 120,
             "accuracy": 100,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "charge_turn_unless_in_sun",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -27181,10 +27181,10 @@ export const moves = {
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
-            "affected_by_magic_coat": false,
+            "affected_by_protect": true,
+            "affected_by_magic_coat": true,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "A weak electric charge is launched at the target. It causes paralysis if it hits."
         },
@@ -27201,11 +27201,11 @@ export const moves = {
             "effect_chance": 30,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "A wicked thunderbolt is dropped on the target to inflict damage. It may also leave the target with paralysis."
         },
         "Rock Throw": {
@@ -27617,7 +27617,7 @@ export const moves = {
             "power": null,
             "accuracy": 100,
             "priority": 0,
-            "effect": "stat_change",
+            "effect": "lower_enemy_accuracy_1",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -27857,7 +27857,7 @@ export const moves = {
             "power": 200,
             "accuracy": 100,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "self_destruct",
             "effect_chance": null,
             "target": "Others",
             "makes_contact": false,
@@ -28004,7 +28004,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "The user charges at the target and may make it flinch. It can also be used to climb a waterfall."
         },
@@ -28157,7 +28157,7 @@ export const moves = {
             "power": null,
             "accuracy": null,
             "priority": 0,
-            "effect": "heal_self",
+            "effect": "recover",
             "effect_chance": null,
             "target": "Self",
             "makes_contact": false,
@@ -28177,7 +28177,7 @@ export const moves = {
             "power": 130,
             "accuracy": 90,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "recoil_on_miss",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": true,
@@ -28195,7 +28195,7 @@ export const moves = {
             "category": "Status",
             "pp": 30,
             "power": null,
-            "accuracy": 100,
+            "accuracy": 90,
             "priority": 0,
             "effect": "paralyze",
             "effect_chance": null,
@@ -28224,8 +28224,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal the user’s HP."
         },
         "Poison Gas": {
@@ -28604,7 +28604,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "Large boulders are hurled at the opposing team to inflict damage. It may also make the targets flinch."
         },
@@ -29157,7 +29157,7 @@ export const moves = {
             "power": 60,
             "accuracy": null,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "always_hit",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": true,
@@ -30194,7 +30194,7 @@ export const moves = {
             "type": "Normal",
             "category": "Special",
             "pp": 15,
-            "power": 60,
+            "power": null,
             "accuracy": 100,
             "priority": 0,
             "effect": "hidden_power",
@@ -30377,7 +30377,7 @@ export const moves = {
             "power": 60,
             "accuracy": 100,
             "priority": 0,
-            "effect": "damage_raise_stat",
+            "effect": "may_raise_self_all_stats_1",
             "effect_chance": 10,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -30724,8 +30724,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "An attack move that doubles its power if the user is poisoned, burned, or has paralysis."
         },
         "Focus Punch": {
@@ -30757,7 +30757,7 @@ export const moves = {
             "power": 60,
             "accuracy": 100,
             "priority": 0,
-            "effect": "basic_hit",
+            "effect": "smellingsalt",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": true,
@@ -31065,7 +31065,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "The user attacks with a swift chop. It can also break any barrier such as Light Screen and Reflect."
         },
         "Yawn": {
@@ -31397,7 +31397,7 @@ export const moves = {
             "power": null,
             "accuracy": 100,
             "priority": 0,
-            "effect": "stat_change",
+            "effect": "lower_enemy_attack_2",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -31857,7 +31857,7 @@ export const moves = {
             "power": null,
             "accuracy": 55,
             "priority": 0,
-            "effect": "put_to_sleep",
+            "effect": "sleep",
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
@@ -32204,8 +32204,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user slashes the target with huge, sharp claws."
         },
         "Frenzy Plant": {
@@ -33424,8 +33424,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The target is stabbed with a tentacle or arm steeped in poison. It may also poison the target."
         },
         "Dark Pulse": {
@@ -33444,7 +33444,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch."
         },
@@ -33544,8 +33544,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors."
         },
         "Bug Buzz": {
@@ -33585,7 +33585,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "The target is attacked with a shock wave generated by the user’s gaping mouth."
         },
         "Dragon Rush": {
@@ -33784,8 +33784,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user charges at the target using every bit of its power. The user must rest on the next turn."
         },
         "Nasty Plot": {
@@ -34144,8 +34144,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "Comets are summoned down from the sky onto the target. The attack’s recoil harshly reduces the user’s Sp. Atk stat."
         },
         "Discharge": {
@@ -37285,7 +37285,7 @@ export const moves = {
             "makes_contact": false,
             "affected_by_protect": false,
             "affected_by_magic_coat": false,
-            "affected_by_snatch": false,
+            "affected_by_snatch": true,
             "affected_by_mirror_move": false,
             "affected_by_kings_rock": false,
             "description": "A frenetic dance to uplift the fighting spirit. This sharply raises the user’s Attack stat."
@@ -37382,12 +37382,12 @@ export const moves = {
             "effect": "basic_hit",
             "effect_chance": null,
             "target": "Foe Or Ally",
-            "makes_contact": false,
-            "affected_by_protect": false,
+            "makes_contact": true,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user soars and then strikes its target on the next turn. This can also be used to fly to any familiar town."
         },
         "Bind": {
@@ -38723,10 +38723,10 @@ export const moves = {
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
-            "affected_by_magic_coat": false,
+            "affected_by_protect": true,
+            "affected_by_magic_coat": true,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "The user launches a weak jolt of electricity that paralyzes the target."
         },
@@ -38743,11 +38743,11 @@ export const moves = {
             "effect_chance": 30,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis."
         },
         "Rock Throw": {
@@ -39546,7 +39546,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "The user charges at the target and may make it flinch. This can also be used to climb a waterfall."
         },
@@ -39766,8 +39766,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal its own HP."
         },
         "Poison Gas": {
@@ -40146,7 +40146,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "Large boulders are hurled at the opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch."
         },
@@ -42266,8 +42266,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "An attack move that doubles its power if the user is poisoned, burned, or has paralysis."
         },
         "Focus Punch": {
@@ -42607,7 +42607,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect."
         },
         "Yawn": {
@@ -43746,8 +43746,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user slashes the target with huge, sharp claws."
         },
         "Frenzy Plant": {
@@ -44966,8 +44966,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The target is stabbed with a tentacle or arm steeped in poison. This may also poison the target."
         },
         "Dark Pulse": {
@@ -44986,7 +44986,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch."
         },
@@ -45086,8 +45086,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors."
         },
         "Bug Buzz": {
@@ -45127,7 +45127,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "The target is attacked with a shock wave generated by the user’s gaping mouth."
         },
         "Dragon Rush": {
@@ -45326,8 +45326,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user charges at the target using every bit of its power. The user can’t move on the next turn."
         },
         "Nasty Plot": {
@@ -45686,8 +45686,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "Comets are summoned down from the sky onto the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat."
         },
         "Discharge": {
@@ -48874,7 +48874,7 @@ export const moves = {
             "rom_id": 594,
             "move": "Water Shuriken",
             "type": "Water",
-            "category": "Special",
+            "category": "Physical",
             "pp": 20,
             "power": 15,
             "accuracy": 100,
@@ -50067,7 +50067,7 @@ export const moves = {
             "makes_contact": false,
             "affected_by_protect": false,
             "affected_by_magic_coat": false,
-            "affected_by_snatch": false,
+            "affected_by_snatch": true,
             "affected_by_mirror_move": false,
             "affected_by_kings_rock": false,
             "description": "A frenetic dance to uplift the fighting spirit. This sharply raises the user’s Attack stat."
@@ -50164,12 +50164,12 @@ export const moves = {
             "effect": "basic_hit",
             "effect_chance": null,
             "target": "Foe Or Ally",
-            "makes_contact": false,
-            "affected_by_protect": false,
+            "makes_contact": true,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user soars and then strikes its target on the next turn."
         },
         "Bind": {
@@ -51505,10 +51505,10 @@ export const moves = {
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
-            "affected_by_magic_coat": false,
+            "affected_by_protect": true,
+            "affected_by_magic_coat": true,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "The user launches a weak jolt of electricity that paralyzes the target."
         },
@@ -51525,11 +51525,11 @@ export const moves = {
             "effect_chance": 30,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis."
         },
         "Rock Throw": {
@@ -52328,7 +52328,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "The user charges at the target and may make it flinch."
         },
@@ -52548,8 +52548,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal its own HP."
         },
         "Poison Gas": {
@@ -52928,7 +52928,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "Large boulders are hurled at the opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch."
         },
@@ -55048,8 +55048,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "This attack move doubles its power if the user is poisoned, burned, or paralyzed."
         },
         "Focus Punch": {
@@ -55389,7 +55389,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect."
         },
         "Yawn": {
@@ -56528,8 +56528,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user slashes the target with huge sharp claws."
         },
         "Frenzy Plant": {
@@ -57748,8 +57748,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The target is stabbed with a tentacle or arm steeped in poison. This may also poison the target."
         },
         "Dark Pulse": {
@@ -57768,7 +57768,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch."
         },
@@ -57868,8 +57868,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors."
         },
         "Bug Buzz": {
@@ -57909,7 +57909,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "The target is attacked with a shock wave generated by the user’s gaping mouth."
         },
         "Dragon Rush": {
@@ -58108,8 +58108,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user charges at the target using every bit of its power. The user can’t move on the next turn."
         },
         "Nasty Plot": {
@@ -58468,8 +58468,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "Comets are summoned down from the sky onto the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat."
         },
         "Discharge": {
@@ -64909,7 +64909,7 @@ export const moves = {
             "makes_contact": false,
             "affected_by_protect": false,
             "affected_by_magic_coat": false,
-            "affected_by_snatch": false,
+            "affected_by_snatch": true,
             "affected_by_mirror_move": false,
             "affected_by_kings_rock": false,
             "description": "A frenetic dance to uplift the fighting spirit. This sharply raises the user’s Attack stat."
@@ -65006,12 +65006,12 @@ export const moves = {
             "effect": "basic_hit",
             "effect_chance": null,
             "target": "Foe Or Ally",
-            "makes_contact": false,
-            "affected_by_protect": false,
+            "makes_contact": true,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user flies up into the sky and then strikes its target on the next turn."
         },
         "Bind": {
@@ -66347,10 +66347,10 @@ export const moves = {
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
-            "affected_by_magic_coat": false,
+            "affected_by_protect": true,
+            "affected_by_magic_coat": true,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "The user launches a weak jolt of electricity that paralyzes the target."
         },
@@ -66367,11 +66367,11 @@ export const moves = {
             "effect_chance": 30,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis."
         },
         "Rock Throw": {
@@ -67170,7 +67170,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "The user charges at the target and may make it flinch."
         },
@@ -67390,8 +67390,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user eats the dreams of a sleeping target. The user’s HP is restored by half the damage taken by the target."
         },
         "Poison Gas": {
@@ -67770,7 +67770,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "Large boulders are hurled at opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch."
         },
@@ -69890,8 +69890,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "This attack move doubles its power if the user is poisoned, burned, or paralyzed."
         },
         "Focus Punch": {
@@ -70231,7 +70231,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect."
         },
         "Yawn": {
@@ -71370,8 +71370,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user slashes the target with huge sharp claws."
         },
         "Frenzy Plant": {
@@ -72590,8 +72590,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The target is stabbed with a tentacle, arm, or the like steeped in poison. This may also poison the target."
         },
         "Dark Pulse": {
@@ -72610,7 +72610,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch."
         },
@@ -72710,8 +72710,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors."
         },
         "Bug Buzz": {
@@ -72751,7 +72751,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "The target is attacked with a shock wave generated by the user’s gaping mouth."
         },
         "Dragon Rush": {
@@ -72950,8 +72950,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user charges at the target using every bit of its power. The user can’t move on the next turn."
         },
         "Nasty Plot": {
@@ -73310,8 +73310,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "Comets are summoned down from the sky onto the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat."
         },
         "Discharge": {
@@ -78839,8 +78839,8 @@ export const moves = {
             "move": "Zippy Zap",
             "type": "Electric",
             "category": "Physical",
-            "pp": 15,
-            "power": 50,
+            "pp": 10,
+            "power": 80,
             "accuracy": 100,
             "priority": 2,
             "effect": "damage_raise_stat",
@@ -78919,8 +78919,8 @@ export const moves = {
             "move": "Bouncy Bubble",
             "type": "Water",
             "category": "Special",
-            "pp": 15,
-            "power": 90,
+            "pp": 20,
+            "power": 60,
             "accuracy": 100,
             "priority": 0,
             "effect": "drain_hp",
@@ -78939,8 +78939,8 @@ export const moves = {
             "move": "Buzzy Buzz",
             "type": "Electric",
             "category": "Special",
-            "pp": 15,
-            "power": 90,
+            "pp": 20,
+            "power": 60,
             "accuracy": 100,
             "priority": 0,
             "effect": "may_paralyze",
@@ -78959,8 +78959,8 @@ export const moves = {
             "move": "Sizzly Slide",
             "type": "Fire",
             "category": "Physical",
-            "pp": 15,
-            "power": 90,
+            "pp": 20,
+            "power": 60,
             "accuracy": 100,
             "priority": 0,
             "effect": "may_burn",
@@ -78980,8 +78980,8 @@ export const moves = {
             "type": "Psychic",
             "category": "Special",
             "pp": 15,
-            "power": 90,
-            "accuracy": 100,
+            "power": 80,
+            "accuracy": 95,
             "priority": 0,
             "effect": "basic_hit",
             "effect_chance": null,
@@ -79000,8 +79000,8 @@ export const moves = {
             "type": "Dark",
             "category": "Special",
             "pp": 15,
-            "power": 90,
-            "accuracy": 100,
+            "power": 80,
+            "accuracy": 95,
             "priority": 0,
             "effect": "basic_hit",
             "effect_chance": null,
@@ -79019,9 +79019,9 @@ export const moves = {
             "move": "Sappy Seed",
             "type": "Grass",
             "category": "Physical",
-            "pp": 15,
-            "power": 90,
-            "accuracy": 100,
+            "pp": 10,
+            "power": 100,
+            "accuracy": 90,
             "priority": 0,
             "effect": "may_leech_seed",
             "effect_chance": 100,
@@ -79039,9 +79039,9 @@ export const moves = {
             "move": "Freezy Frost",
             "type": "Ice",
             "category": "Special",
-            "pp": 15,
-            "power": 90,
-            "accuracy": 100,
+            "pp": 10,
+            "power": 100,
+            "accuracy": 90,
             "priority": 0,
             "effect": "basic_hit",
             "effect_chance": null,
@@ -79059,9 +79059,9 @@ export const moves = {
             "move": "Sparkly Swirl",
             "type": "Fairy",
             "category": "Special",
-            "pp": 15,
-            "power": 90,
-            "accuracy": 100,
+            "pp": 5,
+            "power": 120,
+            "accuracy": 85,
             "priority": 0,
             "effect": "basic_hit",
             "effect_chance": null,
@@ -79400,7 +79400,7 @@ export const moves = {
             "type": "Fire",
             "category": "Physical",
             "pp": 10,
-            "power": 100,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -79420,7 +79420,7 @@ export const moves = {
             "type": "Bug",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -79440,7 +79440,7 @@ export const moves = {
             "type": "Electric",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -79460,7 +79460,7 @@ export const moves = {
             "type": "Normal",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -79480,7 +79480,7 @@ export const moves = {
             "type": "Fighting",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -79500,7 +79500,7 @@ export const moves = {
             "type": "Ghost",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -79520,7 +79520,7 @@ export const moves = {
             "type": "Ice",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -79540,7 +79540,7 @@ export const moves = {
             "type": "Poison",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -79560,7 +79560,7 @@ export const moves = {
             "type": "Water",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -79580,7 +79580,7 @@ export const moves = {
             "type": "Flying",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -79600,7 +79600,7 @@ export const moves = {
             "type": "Fairy",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -79620,7 +79620,7 @@ export const moves = {
             "type": "Dragon",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -79640,7 +79640,7 @@ export const moves = {
             "type": "Psychic",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -79660,7 +79660,7 @@ export const moves = {
             "type": "Rock",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -79680,7 +79680,7 @@ export const moves = {
             "type": "Ground",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -79700,7 +79700,7 @@ export const moves = {
             "type": "Dark",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -79720,7 +79720,7 @@ export const moves = {
             "type": "Grass",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -79740,7 +79740,7 @@ export const moves = {
             "type": "Steel",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -79761,7 +79761,7 @@ export const moves = {
             "category": "Status",
             "pp": 5,
             "power": null,
-            "accuracy": 100,
+            "accuracy": null,
             "priority": 0,
             "effect": "stat_change",
             "effect_chance": 100,
@@ -80840,7 +80840,7 @@ export const moves = {
             "type": "Normal",
             "category": "Status",
             "pp": 10,
-            "power": 0,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -81000,7 +81000,7 @@ export const moves = {
             "type": "Fighting",
             "category": "Status",
             "pp": 10,
-            "power": 0,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -81100,7 +81100,7 @@ export const moves = {
             "type": "Steel",
             "category": "Status",
             "pp": 10,
-            "power": 0,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -81240,7 +81240,7 @@ export const moves = {
             "type": "Psychic",
             "category": "Status",
             "pp": 5,
-            "power": 0,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -81259,8 +81259,8 @@ export const moves = {
             "move": "Take Heart",
             "type": "Psychic",
             "category": "Status",
-            "pp": 15,
-            "power": 0,
+            "pp": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -81911,7 +81911,7 @@ export const moves = {
             "makes_contact": false,
             "affected_by_protect": false,
             "affected_by_magic_coat": false,
-            "affected_by_snatch": false,
+            "affected_by_snatch": true,
             "affected_by_mirror_move": false,
             "affected_by_kings_rock": false,
             "description": "A frenetic dance to uplift the fighting spirit. This sharply boosts the user's Attack stat."
@@ -82008,12 +82008,12 @@ export const moves = {
             "effect": "basic_hit",
             "effect_chance": null,
             "target": "Foe Or Ally",
-            "makes_contact": false,
-            "affected_by_protect": false,
+            "makes_contact": true,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user flies up into the sky on the first turn, then attacks on the next turn."
         },
         "Bind": {
@@ -83349,10 +83349,10 @@ export const moves = {
             "effect_chance": null,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
-            "affected_by_magic_coat": false,
+            "affected_by_protect": true,
+            "affected_by_magic_coat": true,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "The user launches a weak jolt of electricity that paralyzes the target."
         },
@@ -83369,11 +83369,11 @@ export const moves = {
             "effect_chance": 30,
             "target": "Foe Or Ally",
             "makes_contact": false,
-            "affected_by_protect": false,
+            "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis."
         },
         "Rock Throw": {
@@ -84172,7 +84172,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "The user charges at the target and may make it flinch."
         },
@@ -84392,8 +84392,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user eats the dreams of a sleeping target. The user's HP is restored by up to half the damage taken by the target."
         },
         "Poison Gas": {
@@ -84772,7 +84772,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "Large boulders are hurled at opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch."
         },
@@ -86892,8 +86892,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "This move's power is doubled if the user is poisoned, burned, or paralyzed."
         },
         "Focus Punch": {
@@ -87233,7 +87233,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "The user attacks with a swift chop. This move can also break barriers, such as Light Screen and Reflect."
         },
         "Yawn": {
@@ -88372,8 +88372,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user slashes the target with huge, sharp claws to inflict damage."
         },
         "Frenzy Plant": {
@@ -89592,8 +89592,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The target is stabbed with a tentacle, an arm, or the like steeped in poison. This may also poison the target."
         },
         "Dark Pulse": {
@@ -89612,7 +89612,7 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
+            "affected_by_mirror_move": true,
             "affected_by_kings_rock": false,
             "description": "The user releases a horrible aura imbued with ill intent. This may also make the target flinch."
         },
@@ -89712,8 +89712,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user slashes at the target by crossing its scythes, claws, or the like as if they were a pair of scissors."
         },
         "Bug Buzz": {
@@ -89753,7 +89753,7 @@ export const moves = {
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
             "affected_by_mirror_move": true,
-            "affected_by_kings_rock": false,
+            "affected_by_kings_rock": true,
             "description": "The target is attacked with a shock wave generated by the user's gaping mouth."
         },
         "Dragon Rush": {
@@ -89952,8 +89952,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "The user charges at the target using every bit of its power. The user can't move on the next turn."
         },
         "Nasty Plot": {
@@ -90312,8 +90312,8 @@ export const moves = {
             "affected_by_protect": true,
             "affected_by_magic_coat": false,
             "affected_by_snatch": false,
-            "affected_by_mirror_move": false,
-            "affected_by_kings_rock": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": true,
             "description": "Comets are summoned down from the sky onto the target. The recoil from this move harshly lowers the user’s Sp. Atk stat."
         },
         "Discharge": {
@@ -95841,8 +95841,8 @@ export const moves = {
             "move": "Zippy Zap",
             "type": "Electric",
             "category": "Physical",
-            "pp": 15,
-            "power": 50,
+            "pp": 10,
+            "power": 80,
             "accuracy": 100,
             "priority": 2,
             "effect": "damage_raise_stat",
@@ -95921,8 +95921,8 @@ export const moves = {
             "move": "Bouncy Bubble",
             "type": "Water",
             "category": "Special",
-            "pp": 15,
-            "power": 90,
+            "pp": 20,
+            "power": 60,
             "accuracy": 100,
             "priority": 0,
             "effect": "drain_hp",
@@ -95941,8 +95941,8 @@ export const moves = {
             "move": "Buzzy Buzz",
             "type": "Electric",
             "category": "Special",
-            "pp": 15,
-            "power": 90,
+            "pp": 20,
+            "power": 60,
             "accuracy": 100,
             "priority": 0,
             "effect": "may_paralyze",
@@ -95961,8 +95961,8 @@ export const moves = {
             "move": "Sizzly Slide",
             "type": "Fire",
             "category": "Physical",
-            "pp": 15,
-            "power": 90,
+            "pp": 20,
+            "power": 60,
             "accuracy": 100,
             "priority": 0,
             "effect": "may_burn",
@@ -95982,8 +95982,8 @@ export const moves = {
             "type": "Psychic",
             "category": "Special",
             "pp": 15,
-            "power": 90,
-            "accuracy": 100,
+            "power": 80,
+            "accuracy": 95,
             "priority": 0,
             "effect": "basic_hit",
             "effect_chance": null,
@@ -96002,8 +96002,8 @@ export const moves = {
             "type": "Dark",
             "category": "Special",
             "pp": 15,
-            "power": 90,
-            "accuracy": 100,
+            "power": 80,
+            "accuracy": 95,
             "priority": 0,
             "effect": "basic_hit",
             "effect_chance": null,
@@ -96021,9 +96021,9 @@ export const moves = {
             "move": "Sappy Seed",
             "type": "Grass",
             "category": "Physical",
-            "pp": 15,
-            "power": 90,
-            "accuracy": 100,
+            "pp": 10,
+            "power": 100,
+            "accuracy": 90,
             "priority": 0,
             "effect": "may_leech_seed",
             "effect_chance": 100,
@@ -96041,9 +96041,9 @@ export const moves = {
             "move": "Freezy Frost",
             "type": "Ice",
             "category": "Special",
-            "pp": 15,
-            "power": 90,
-            "accuracy": 100,
+            "pp": 10,
+            "power": 100,
+            "accuracy": 90,
             "priority": 0,
             "effect": "basic_hit",
             "effect_chance": null,
@@ -96061,9 +96061,9 @@ export const moves = {
             "move": "Sparkly Swirl",
             "type": "Fairy",
             "category": "Special",
-            "pp": 15,
-            "power": 90,
-            "accuracy": 100,
+            "pp": 5,
+            "power": 120,
+            "accuracy": 85,
             "priority": 0,
             "effect": "basic_hit",
             "effect_chance": null,
@@ -96402,7 +96402,7 @@ export const moves = {
             "type": "Fire",
             "category": "Physical",
             "pp": 10,
-            "power": 100,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -96422,7 +96422,7 @@ export const moves = {
             "type": "Bug",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -96442,7 +96442,7 @@ export const moves = {
             "type": "Electric",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -96462,7 +96462,7 @@ export const moves = {
             "type": "Normal",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -96482,7 +96482,7 @@ export const moves = {
             "type": "Fighting",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -96502,7 +96502,7 @@ export const moves = {
             "type": "Ghost",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -96522,7 +96522,7 @@ export const moves = {
             "type": "Ice",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -96542,7 +96542,7 @@ export const moves = {
             "type": "Poison",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -96562,7 +96562,7 @@ export const moves = {
             "type": "Water",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -96582,7 +96582,7 @@ export const moves = {
             "type": "Flying",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -96602,7 +96602,7 @@ export const moves = {
             "type": "Fairy",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -96622,7 +96622,7 @@ export const moves = {
             "type": "Dragon",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -96642,7 +96642,7 @@ export const moves = {
             "type": "Psychic",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -96662,7 +96662,7 @@ export const moves = {
             "type": "Rock",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -96682,7 +96682,7 @@ export const moves = {
             "type": "Ground",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -96702,7 +96702,7 @@ export const moves = {
             "type": "Dark",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -96722,7 +96722,7 @@ export const moves = {
             "type": "Grass",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -96742,7 +96742,7 @@ export const moves = {
             "type": "Steel",
             "category": "Physical",
             "pp": 10,
-            "power": 10,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -96763,7 +96763,7 @@ export const moves = {
             "category": "Status",
             "pp": 5,
             "power": null,
-            "accuracy": 100,
+            "accuracy": null,
             "priority": 0,
             "effect": "stat_change",
             "effect_chance": 100,
@@ -97842,7 +97842,7 @@ export const moves = {
             "type": "Normal",
             "category": "Status",
             "pp": 10,
-            "power": 0,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -98002,7 +98002,7 @@ export const moves = {
             "type": "Fighting",
             "category": "Status",
             "pp": 10,
-            "power": 0,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -98102,7 +98102,7 @@ export const moves = {
             "type": "Steel",
             "category": "Status",
             "pp": 10,
-            "power": 0,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -98242,7 +98242,7 @@ export const moves = {
             "type": "Psychic",
             "category": "Status",
             "pp": 5,
-            "power": 0,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -98262,7 +98262,7 @@ export const moves = {
             "type": "Psychic",
             "category": "Status",
             "pp": 15,
-            "power": 0,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -98302,7 +98302,7 @@ export const moves = {
             "type": "Bug",
             "category": "Status",
             "pp": 10,
-            "power": 0,
+            "power": null,
             "accuracy": null,
             "priority": 4,
             "effect": "basic_hit",
@@ -98422,7 +98422,7 @@ export const moves = {
             "type": "Grass",
             "category": "Status",
             "pp": 15,
-            "power": 0,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -98522,7 +98522,7 @@ export const moves = {
             "type": "Normal",
             "category": "Status",
             "pp": 1,
-            "power": 0,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -98602,7 +98602,7 @@ export const moves = {
             "type": "Normal",
             "category": "Status",
             "pp": 10,
-            "power": 0,
+            "power": null,
             "accuracy": 100,
             "priority": 0,
             "effect": "basic_hit",
@@ -98622,7 +98622,7 @@ export const moves = {
             "type": "Normal",
             "category": "Status",
             "pp": 10,
-            "power": 0,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -98802,7 +98802,7 @@ export const moves = {
             "type": "Dark",
             "category": "Special",
             "pp": 10,
-            "power": 1,
+            "power": null,
             "accuracy": 90,
             "priority": 0,
             "effect": "basic_hit",
@@ -98862,7 +98862,7 @@ export const moves = {
             "type": "Normal",
             "category": "Status",
             "pp": 10,
-            "power": 0,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -98882,7 +98882,7 @@ export const moves = {
             "type": "Ice",
             "category": "Status",
             "pp": 10,
-            "power": 0,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -98902,7 +98902,7 @@ export const moves = {
             "type": "Normal",
             "category": "Status",
             "pp": 10,
-            "power": 0,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -98922,7 +98922,7 @@ export const moves = {
             "type": "Ice",
             "category": "Status",
             "pp": 10,
-            "power": 0,
+            "power": null,
             "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
@@ -99142,7 +99142,7 @@ export const moves = {
             "type": "Dark",
             "category": "Physical",
             "pp": 10,
-            "power": 1,
+            "power": null,
             "accuracy": 100,
             "priority": 0,
             "effect": "basic_hit",
@@ -99422,8 +99422,8 @@ export const moves = {
             "type": "Fire",
             "category": "Status",
             "pp": 10,
-            "power": 0,
-            "accuracy": 0,
+            "power": null,
+            "accuracy": null,
             "priority": 4,
             "effect": "basic_hit",
             "effect_chance": null,
@@ -99483,7 +99483,7 @@ export const moves = {
             "category": "Special",
             "pp": 10,
             "power": 50,
-            "accuracy": 0,
+            "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
             "effect_chance": null,
@@ -99502,7 +99502,7 @@ export const moves = {
             "type": "Steel",
             "category": "Physical",
             "pp": 10,
-            "power": 0,
+            "power": null,
             "accuracy": 100,
             "priority": 0,
             "effect": "basic_hit",
@@ -99522,8 +99522,8 @@ export const moves = {
             "type": "Dragon",
             "category": "Status",
             "pp": 15,
-            "power": 0,
-            "accuracy": 0,
+            "power": null,
+            "accuracy": null,
             "priority": 0,
             "effect": "basic_hit",
             "effect_chance": null,
@@ -99655,6 +99655,26 @@ export const moves = {
             "affected_by_mirror_move": false,
             "affected_by_kings_rock": true,
             "description": "The user pours toxins into the target by wrapping them in a toxic, corrosive chain. This may also leave the target badly poisoned."
+        },
+        "Nihil Light": {
+            "rom_id": 920,
+            "move": "Nihil Light",
+            "type": "Dragon",
+            "category": "Special",
+            "pp": 10,
+            "power": 200,
+            "accuracy": 100,
+            "priority": 0,
+            "effect": "basic_hit",
+            "effect_chance": null,
+            "target": "All Foes",
+            "makes_contact": false,
+            "affected_by_protect": true,
+            "affected_by_magic_coat": false,
+            "affected_by_snatch": false,
+            "affected_by_mirror_move": true,
+            "affected_by_kings_rock": false,
+            "description": "The user attacks by unleashing a powerful light that defies all laws of nature, striking even Fairy types and ignoring any stat changes affecting its targets."
         },
         "Shadow Rush": {
             "rom_id": 10001,

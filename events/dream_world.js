@@ -35,8 +35,8 @@ export const eventPokemon = {
                 "egg_cycles": 35,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Water Absorb"
                 ],
@@ -55,7 +55,7 @@ export const eventPokemon = {
                     "Tail Whip",
                     "Tackle",
                     "Helping Hand",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ],
                 "met_location": "Entree Forest",
                 "met_level": 10,
@@ -134,8 +134,8 @@ export const eventPokemon = {
                 "egg_cycles": 35,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Volt Absorb"
                 ],
@@ -154,7 +154,7 @@ export const eventPokemon = {
                     "Tail Whip",
                     "Tackle",
                     "Helping Hand",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ],
                 "met_location": "Entree Forest",
                 "met_level": 10,
@@ -233,8 +233,8 @@ export const eventPokemon = {
                 "egg_cycles": 35,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Flash Fire"
                 ],
@@ -253,7 +253,7 @@ export const eventPokemon = {
                     "Tail Whip",
                     "Tackle",
                     "Helping Hand",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ],
                 "met_location": "Entree Forest",
                 "met_level": 10,
@@ -332,8 +332,8 @@ export const eventPokemon = {
                 "egg_cycles": 35,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Synchronize"
                 ],
@@ -352,7 +352,7 @@ export const eventPokemon = {
                     "Tail Whip",
                     "Tackle",
                     "Helping Hand",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ],
                 "met_location": "Entree Forest",
                 "met_level": 10,
@@ -431,8 +431,8 @@ export const eventPokemon = {
                 "egg_cycles": 35,
                 "base_friendship": 35,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Synchronize"
                 ],
@@ -451,7 +451,7 @@ export const eventPokemon = {
                     "Tail Whip",
                     "Tackle",
                     "Helping Hand",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ],
                 "met_location": "Entree Forest",
                 "met_level": 10,
@@ -530,8 +530,8 @@ export const eventPokemon = {
                 "egg_cycles": 35,
                 "base_friendship": 35,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Leaf Guard"
                 ],
@@ -550,7 +550,7 @@ export const eventPokemon = {
                     "Tail Whip",
                     "Tackle",
                     "Helping Hand",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ],
                 "met_location": "Entree Forest",
                 "met_level": 10,
@@ -629,8 +629,8 @@ export const eventPokemon = {
                 "egg_cycles": 35,
                 "base_friendship": 35,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Snow Cloak"
                 ],
@@ -649,7 +649,7 @@ export const eventPokemon = {
                     "Tail Whip",
                     "Tackle",
                     "Helping Hand",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ],
                 "met_location": "Entree Forest",
                 "met_level": 10,
@@ -837,7 +837,7 @@ export const eventPokemon = {
                     "Scratch",
                     "Growl",
                     "Ember",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ],
                 "met_location": "Entree Forest",
                 "met_level": 10,
@@ -1172,7 +1172,7 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "HumanLike",
                 "abilities": [
                     "Blaze"
@@ -1261,7 +1261,7 @@ export const eventPokemon = {
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
                 "egg_group_1": "Water1",
-                "egg_group_2": "Ground",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Torrent"
                 ],
@@ -1506,8 +1506,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Blaze"
                 ],
@@ -1672,7 +1672,7 @@ export const eventPokemon = {
                 "ot": "(Player's)",
                 "trainer_id": "(Player's)",
                 "moves": [
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Aura Sphere",
                     "Air Slash",
                     "Present"
@@ -1754,8 +1754,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Oblivious",
                     "Snow Cloak"
@@ -2019,7 +2019,7 @@ export const eventPokemon = {
                 },
                 "type_1": "Dragon",
                 "type_2": "Flying",
-                "catch_rate": 45,
+                "catch_rate": 3,
                 "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
@@ -2042,7 +2042,7 @@ export const eventPokemon = {
                 "moves": [
                     "Rest",
                     "Air Slash",
-                    "AncientPower",
+                    "Ancient Power",
                     "Outrage"
                 ],
                 "met_location": "Entree Forest",
@@ -2116,7 +2116,7 @@ export const eventPokemon = {
                 "ot": "(Player's)",
                 "trainer_id": "(Player's)",
                 "moves": [
-                    "Faint Attack",
+                    "Feint Attack",
                     "Hex",
                     "Shadow Ball",
                     "Cotton Guard"
@@ -2363,7 +2363,7 @@ export const eventPokemon = {
                 "moves": [
                     "Take Down",
                     "Natural Gift",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "False Swipe"
                 ],
                 "met_location": "Entree Forest",
@@ -2508,7 +2508,7 @@ export const eventPokemon = {
                 "egg_cycles": 25,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "HumanLike",
                 "abilities": [
                     "Steadfast",
@@ -2720,12 +2720,12 @@ export const eventPokemon = {
                 "type_1": "Electric",
                 "type_2": "Electric",
                 "catch_rate": 190,
-                "base_experience": 112,
+                "base_experience": 105,
                 "gender_ratio": 127,
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -2742,7 +2742,7 @@ export const eventPokemon = {
                 "ot": "(Player's)",
                 "trainer_id": "(Player's)",
                 "moves": [
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Tail Whip",
                     "Thunder Wave",
                     "Headbutt"
@@ -2806,7 +2806,7 @@ export const eventPokemon = {
                 "type_1": "Grass",
                 "type_2": "Flying",
                 "catch_rate": 45,
-                "base_experience": 207,
+                "base_experience": 203,
                 "gender_ratio": 127,
                 "egg_cycles": 20,
                 "base_friendship": 70,
@@ -2887,8 +2887,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Gluttony"
                 ],
@@ -2962,8 +2962,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Gluttony"
                 ],
@@ -3037,8 +3037,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Gluttony"
                 ],
@@ -3187,7 +3187,7 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "HumanLike",
                 "abilities": [
                     "Blaze"
@@ -3263,7 +3263,7 @@ export const eventPokemon = {
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
                 "egg_group_1": "Water1",
-                "egg_group_2": "Ground",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Torrent"
                 ],
@@ -3282,7 +3282,7 @@ export const eventPokemon = {
                     "Pound",
                     "Growl",
                     "Bubble",
-                    "FeatherDance"
+                    "Feather Dance"
                 ],
                 "met_location": "Entree Forest",
                 "met_level": 10,
@@ -3585,7 +3585,7 @@ export const eventPokemon = {
                     "Dragon Rush",
                     "Safeguard",
                     "Wing Attack",
-                    "ThunderPunch"
+                    "Thunder Punch"
                 ],
                 "met_location": "Entree Forest",
                 "met_level": 55,
@@ -3756,7 +3756,7 @@ export const eventPokemon = {
                     "Dragon Rush",
                     "Safeguard",
                     "Wing Attack",
-                    "ExtremeSpeed"
+                    "Extreme Speed"
                 ],
                 "met_location": "Entree Forest",
                 "met_level": 55,

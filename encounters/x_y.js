@@ -1,41 +1,37 @@
 export const encounters = {
     "Ambrette Town": {
-        "Good Rod": [
-            {pokemon: "Clauncher", min_level: 25, max_level: 25, chance: 60},
-            {pokemon: "Skrelp", min_level: 25, max_level: 25, chance: 60},
-            {pokemon: "Horsea", min_level: 25, max_level: 25, chance: 35},
-            {pokemon: "Clauncher", min_level: 25, max_level: 25, chance: 5},
-            {pokemon: "Skrelp", min_level: 25, max_level: 25, chance: 5},
-        ],
-        "Old Rod": [
-            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 60},
-            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 35},
-            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 5},
-        ],
-        "Rock Smash": [
-            {pokemon: "Dwebble", min_level: 18, max_level: 18, chance: 50},
-            {pokemon: "Dwebble", min_level: 13, max_level: 13, chance: 50},
-            {pokemon: "Binacle", min_level: 18, max_level: 18, chance: 30},
-            {pokemon: "Binacle", min_level: 13, max_level: 13, chance: 30},
-            {pokemon: "Dwebble", min_level: 19, max_level: 19, chance: 15},
-            {pokemon: "Dwebble", min_level: 14, max_level: 14, chance: 15},
-            {pokemon: "Binacle", min_level: 20, max_level: 20, chance: 4},
-            {pokemon: "Binacle", min_level: 15, max_level: 15, chance: 4},
-            {pokemon: "Dwebble", min_level: 20, max_level: 20, chance: 1},
-            {pokemon: "Dwebble", min_level: 15, max_level: 15, chance: 1},
-        ],
-        "Super Rod": [
-            {pokemon: "Relicanth", min_level: 35, max_level: 35, chance: 60},
-            {pokemon: "Clawitzer", min_level: 35, max_level: 35, chance: 35},
-            {pokemon: "Dragalge", min_level: 35, max_level: 35, chance: 35},
-            {pokemon: "Seadra", min_level: 35, max_level: 35, chance: 5},
-        ],
         "Surf": [
             {pokemon: "Tentacool", min_level: 25, max_level: 25, chance: 50},
             {pokemon: "Wailmer", min_level: 25, max_level: 25, chance: 30},
             {pokemon: "Tentacool", min_level: 26, max_level: 26, chance: 15},
             {pokemon: "Tentacool", min_level: 27, max_level: 27, chance: 4},
             {pokemon: "Wailmer", min_level: 27, max_level: 27, chance: 1},
+        ],
+        "Old Rod": [
+            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 100},
+        ],
+        "Good Rod": [
+            {pokemon: "Clauncher", min_level: 25, max_level: 25, chance: 65, version: "X"},
+            {pokemon: "Skrelp", min_level: 25, max_level: 25, chance: 65, version: "Y"},
+            {pokemon: "Horsea", min_level: 25, max_level: 25, chance: 35},
+        ],
+        "Super Rod": [
+            {pokemon: "Relicanth", min_level: 35, max_level: 35, chance: 60},
+            {pokemon: "Clawitzer", min_level: 35, max_level: 35, chance: 35, version: "X"},
+            {pokemon: "Dragalge", min_level: 35, max_level: 35, chance: 35, version: "Y"},
+            {pokemon: "Seadra", min_level: 35, max_level: 35, chance: 5},
+        ],
+        "Rock Smash": [
+            {pokemon: "Dwebble", min_level: 13, max_level: 13, chance: 50, version: "Y"},
+            {pokemon: "Dwebble", min_level: 18, max_level: 18, chance: 50, version: "X"},
+            {pokemon: "Binacle", min_level: 13, max_level: 13, chance: 30, version: "Y"},
+            {pokemon: "Binacle", min_level: 18, max_level: 18, chance: 30, version: "X"},
+            {pokemon: "Dwebble", min_level: 14, max_level: 14, chance: 15, version: "Y"},
+            {pokemon: "Dwebble", min_level: 19, max_level: 19, chance: 15, version: "X"},
+            {pokemon: "Binacle", min_level: 15, max_level: 15, chance: 4, version: "Y"},
+            {pokemon: "Binacle", min_level: 20, max_level: 20, chance: 4, version: "X"},
+            {pokemon: "Dwebble", min_level: 15, max_level: 15, chance: 1, version: "Y"},
+            {pokemon: "Dwebble", min_level: 20, max_level: 20, chance: 1, version: "X"},
         ]
     },
     "Aquacorde Town": {
@@ -46,32 +42,16 @@ export const encounters = {
         ]
     },
     "Azure Bay": {
-        "Good Rod": [
-            {pokemon: "Remoraid", min_level: 25, max_level: 25, chance: 60},
-            {pokemon: "Chinchou", min_level: 25, max_level: 25, chance: 35},
-            {pokemon: "Remoraid", min_level: 25, max_level: 25, chance: 5},
-        ],
-        "Horde": [
-            {pokemon: "Wingull", min_level: 13, max_level: 13, chance: 60},
-            {pokemon: "Slowpoke", min_level: 13, max_level: 13, chance: 35},
-            {pokemon: "Exeggcute", min_level: 14, max_level: 14, chance: 5},
-        ],
-        "Old Rod": [
-            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 60},
-            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 35},
-            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 5},
-        ],
-        "Rock Smash": [
-            {pokemon: "Dwebble", min_level: 23, max_level: 23, chance: 50},
-            {pokemon: "Binacle", min_level: 23, max_level: 23, chance: 30},
-            {pokemon: "Dwebble", min_level: 24, max_level: 24, chance: 15},
-            {pokemon: "Binacle", min_level: 25, max_level: 25, chance: 4},
-            {pokemon: "Dwebble", min_level: 25, max_level: 25, chance: 1},
-        ],
-        "Super Rod": [
-            {pokemon: "Alomomola", min_level: 35, max_level: 35, chance: 60},
-            {pokemon: "Octillery", min_level: 35, max_level: 35, chance: 35},
-            {pokemon: "Lanturn", min_level: 35, max_level: 35, chance: 5},
+        "Walk": [
+            {pokemon: "Slowpoke", min_level: 27, max_level: 27, chance: 20},
+            {pokemon: "Chatot", min_level: 27, max_level: 27, chance: 15},
+            {pokemon: "Chatot", min_level: 25, max_level: 25, chance: 10},
+            {pokemon: "Chatot", min_level: 26, max_level: 26, chance: 10},
+            {pokemon: "Exeggcute", min_level: 26, max_level: 26, chance: 10},
+            {pokemon: "Inkay", min_level: 26, max_level: 26, chance: 10},
+            {pokemon: "Slowpoke", min_level: 25, max_level: 25, chance: 10},
+            {pokemon: "Slowpoke", min_level: 26, max_level: 26, chance: 10},
+            {pokemon: "Inkay", min_level: 27, max_level: 27, chance: 5},
         ],
         "Surf": [
             {pokemon: "Tentacool", min_level: 25, max_level: 25, chance: 50},
@@ -80,26 +60,32 @@ export const encounters = {
             {pokemon: "Tentacool", min_level: 27, max_level: 27, chance: 4},
             {pokemon: "Lapras", min_level: 27, max_level: 27, chance: 1},
         ],
-        "Walk": [
-            {pokemon: "Chatot", min_level: 25, max_level: 25, chance: 10},
-            {pokemon: "Chatot", min_level: 26, max_level: 26, chance: 10},
-            {pokemon: "Chatot", min_level: 27, max_level: 27, chance: 10},
-            {pokemon: "Exeggcute", min_level: 26, max_level: 26, chance: 10},
-            {pokemon: "Inkay", min_level: 26, max_level: 26, chance: 10},
-            {pokemon: "Slowpoke", min_level: 25, max_level: 25, chance: 10},
-            {pokemon: "Slowpoke", min_level: 26, max_level: 26, chance: 10},
-            {pokemon: "Slowpoke", min_level: 27, max_level: 27, chance: 10},
-            {pokemon: "Inkay", min_level: 27, max_level: 27, chance: 5},
-            {pokemon: "Chatot", min_level: 27, max_level: 27, chance: 4},
-            {pokemon: "Chatot", min_level: 27, max_level: 27, chance: 1},
+        "Old Rod": [
+            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 100},
+        ],
+        "Good Rod": [
+            {pokemon: "Remoraid", min_level: 25, max_level: 25, chance: 65},
+            {pokemon: "Chinchou", min_level: 25, max_level: 25, chance: 35},
+        ],
+        "Super Rod": [
+            {pokemon: "Alomomola", min_level: 35, max_level: 35, chance: 60},
+            {pokemon: "Octillery", min_level: 35, max_level: 35, chance: 35},
+            {pokemon: "Lanturn", min_level: 35, max_level: 35, chance: 5},
+        ],
+        "Rock Smash": [
+            {pokemon: "Dwebble", min_level: 23, max_level: 23, chance: 50},
+            {pokemon: "Binacle", min_level: 23, max_level: 23, chance: 30},
+            {pokemon: "Dwebble", min_level: 24, max_level: 24, chance: 15},
+            {pokemon: "Binacle", min_level: 25, max_level: 25, chance: 4},
+            {pokemon: "Dwebble", min_level: 25, max_level: 25, chance: 1},
+        ],
+        "Horde": [
+            {pokemon: "Wingull", min_level: 13, max_level: 13, chance: 60},
+            {pokemon: "Slowpoke", min_level: 13, max_level: 13, chance: 35},
+            {pokemon: "Exeggcute", min_level: 14, max_level: 14, chance: 5},
         ]
     },
     "Connecting Cave": {
-        "Horde": [
-            {pokemon: "Whismur", min_level: 7, max_level: 7, chance: 60},
-            {pokemon: "Zubat", min_level: 8, max_level: 8, chance: 35},
-            {pokemon: "Axew", min_level: 8, max_level: 8, chance: 5},
-        ],
         "Walk": [
             {pokemon: "Meditite", min_level: 13, max_level: 13, chance: 10},
             {pokemon: "Meditite", min_level: 14, max_level: 14, chance: 10},
@@ -113,142 +99,71 @@ export const encounters = {
             {pokemon: "Axew", min_level: 13, max_level: 13, chance: 5},
             {pokemon: "Axew", min_level: 14, max_level: 14, chance: 4},
             {pokemon: "Axew", min_level: 15, max_level: 15, chance: 1},
+        ],
+        "Horde": [
+            {pokemon: "Whismur", min_level: 7, max_level: 7, chance: 60},
+            {pokemon: "Zubat", min_level: 8, max_level: 8, chance: 35},
+            {pokemon: "Axew", min_level: 8, max_level: 8, chance: 5},
         ]
     },
     "Couriway Town": {
-        "Good Rod": [
-            {pokemon: "Basculin Red Striped", min_level: 35, max_level: 35, chance: 60},
-            {pokemon: "Poliwhirl", min_level: 35, max_level: 35, chance: 35},
-            {pokemon: "Basculin Red Striped", min_level: 35, max_level: 35, chance: 5},
-        ],
-        "Old Rod": [
-            {pokemon: "Poliwag", min_level: 25, max_level: 25, chance: 60},
-            {pokemon: "Poliwag", min_level: 25, max_level: 25, chance: 35},
-            {pokemon: "Poliwag", min_level: 25, max_level: 25, chance: 5},
-        ],
-        "Super Rod": [
-            {pokemon: "Poliwhirl", min_level: 45, max_level: 45, chance: 60},
-            {pokemon: "Basculin Red Striped", min_level: 45, max_level: 45, chance: 35},
-            {pokemon: "Poliwhirl", min_level: 45, max_level: 45, chance: 5},
-        ],
         "Surf": [
             {pokemon: "Lombre", min_level: 44, max_level: 44, chance: 50},
             {pokemon: "Floatzel", min_level: 44, max_level: 44, chance: 30},
             {pokemon: "Lombre", min_level: 45, max_level: 45, chance: 15},
             {pokemon: "Floatzel", min_level: 46, max_level: 46, chance: 4},
             {pokemon: "Lombre", min_level: 46, max_level: 46, chance: 1},
+        ],
+        "Old Rod": [
+            {pokemon: "Poliwag", min_level: 25, max_level: 25, chance: 100},
+        ],
+        "Good Rod": [
+            {pokemon: "Basculin", min_level: 35, max_level: 35, chance: 65, version: "Y"},
+            {pokemon: "Basculin (Blue Striped)", min_level: 35, max_level: 35, chance: 65, version: "X"},
+            {pokemon: "Poliwhirl", min_level: 35, max_level: 35, chance: 35},
+        ],
+        "Super Rod": [
+            {pokemon: "Poliwhirl", min_level: 45, max_level: 45, chance: 65},
+            {pokemon: "Basculin", min_level: 45, max_level: 45, chance: 35, version: "X"},
+            {pokemon: "Basculin (Blue Striped)", min_level: 45, max_level: 45, chance: 35, version: "Y"},
         ]
     },
     "Cyllage City": {
-        "Good Rod": [
-            {pokemon: "Clauncher", min_level: 25, max_level: 25, chance: 60},
-            {pokemon: "Skrelp", min_level: 25, max_level: 25, chance: 60},
-            {pokemon: "Horsea", min_level: 25, max_level: 25, chance: 35},
-            {pokemon: "Clauncher", min_level: 25, max_level: 25, chance: 5},
-            {pokemon: "Skrelp", min_level: 25, max_level: 25, chance: 5},
-        ],
-        "Old Rod": [
-            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 60},
-            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 35},
-            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 5},
-        ],
-        "Rock Smash": [
-            {pokemon: "Dwebble", min_level: 15, max_level: 15, chance: 50},
-            {pokemon: "Dwebble", min_level: 13, max_level: 13, chance: 50},
-            {pokemon: "Binacle", min_level: 13, max_level: 13, chance: 30},
-            {pokemon: "Onix", min_level: 15, max_level: 15, chance: 30},
-            {pokemon: "Dwebble", min_level: 17, max_level: 17, chance: 15},
-            {pokemon: "Dwebble", min_level: 14, max_level: 14, chance: 15},
-            {pokemon: "Binacle", min_level: 15, max_level: 15, chance: 4},
-            {pokemon: "Onix", min_level: 16, max_level: 16, chance: 4},
-            {pokemon: "Dwebble", min_level: 15, max_level: 15, chance: 1},
-            {pokemon: "Onix", min_level: 17, max_level: 17, chance: 1},
-        ],
-        "Super Rod": [
-            {pokemon: "Relicanth", min_level: 35, max_level: 35, chance: 60},
-            {pokemon: "Clawitzer", min_level: 35, max_level: 35, chance: 35},
-            {pokemon: "Dragalge", min_level: 35, max_level: 35, chance: 35},
-            {pokemon: "Seadra", min_level: 35, max_level: 35, chance: 5},
-        ],
         "Surf": [
             {pokemon: "Tentacool", min_level: 25, max_level: 25, chance: 50},
             {pokemon: "Wailmer", min_level: 25, max_level: 25, chance: 30},
             {pokemon: "Tentacool", min_level: 26, max_level: 26, chance: 15},
             {pokemon: "Tentacool", min_level: 27, max_level: 27, chance: 4},
             {pokemon: "Wailmer", min_level: 27, max_level: 27, chance: 1},
-        ]
-    },
-    "Frost Cavern (unknown area 313)": {
-        "Good Rod": [
-            {pokemon: "Basculin Red Striped", min_level: 30, max_level: 30, chance: 60},
-            {pokemon: "Poliwhirl", min_level: 30, max_level: 30, chance: 35},
-            {pokemon: "Basculin Red Striped", min_level: 30, max_level: 30, chance: 5},
-        ],
-        "Horde": [
-            {pokemon: "Vanillite", min_level: 20, max_level: 20, chance: 60},
-            {pokemon: "Cubchoo", min_level: 20, max_level: 20, chance: 35},
-            {pokemon: "Smoochum", min_level: 21, max_level: 21, chance: 5},
         ],
         "Old Rod": [
-            {pokemon: "Poliwag", min_level: 20, max_level: 20, chance: 60},
-            {pokemon: "Poliwag", min_level: 20, max_level: 20, chance: 35},
-            {pokemon: "Poliwag", min_level: 20, max_level: 20, chance: 5},
+            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 100},
         ],
-        "Super Rod": [
-            {pokemon: "Poliwhirl", min_level: 40, max_level: 40, chance: 60},
-            {pokemon: "Basculin Red Striped", min_level: 40, max_level: 40, chance: 35},
-            {pokemon: "Poliwhirl", min_level: 40, max_level: 40, chance: 5},
-        ],
-        "Surf": [
-            {pokemon: "Poliwhirl", min_level: 38, max_level: 38, chance: 50},
-            {pokemon: "Floatzel", min_level: 38, max_level: 38, chance: 30},
-            {pokemon: "Poliwhirl", min_level: 39, max_level: 39, chance: 15},
-            {pokemon: "Floatzel", min_level: 40, max_level: 40, chance: 4},
-            {pokemon: "Poliwhirl", min_level: 40, max_level: 40, chance: 1},
-        ]
-    },
-    "Frost Cavern (unknown area 314)": {
-        "Horde": [
-            {pokemon: "Vanillite", min_level: 20, max_level: 20, chance: 60},
-            {pokemon: "Cubchoo", min_level: 20, max_level: 20, chance: 35},
-            {pokemon: "Smoochum", min_level: 21, max_level: 21, chance: 5},
-        ],
-        "Walk": [
-            {pokemon: "Beartic", min_level: 39, max_level: 39, chance: 10},
-            {pokemon: "Beartic", min_level: 40, max_level: 40, chance: 10},
-            {pokemon: "Bergmite", min_level: 39, max_level: 39, chance: 10},
-            {pokemon: "Bergmite", min_level: 40, max_level: 40, chance: 10},
-            {pokemon: "Haunter", min_level: 38, max_level: 38, chance: 10},
-            {pokemon: "Jynx", min_level: 39, max_level: 39, chance: 10},
-            {pokemon: "Jynx", min_level: 40, max_level: 40, chance: 10},
-            {pokemon: "Piloswine", min_level: 38, max_level: 38, chance: 10},
-            {pokemon: "Piloswine", min_level: 39, max_level: 39, chance: 10},
-            {pokemon: "Haunter", min_level: 39, max_level: 39, chance: 5},
-            {pokemon: "Cryogonal", min_level: 40, max_level: 40, chance: 4},
-            {pokemon: "Haunter", min_level: 40, max_level: 40, chance: 1},
-        ]
-    },
-    "Frost Cavern (unknown area 315)": {
         "Good Rod": [
-            {pokemon: "Basculin Red Striped", min_level: 30, max_level: 30, chance: 60},
-            {pokemon: "Poliwhirl", min_level: 30, max_level: 30, chance: 35},
-            {pokemon: "Basculin Red Striped", min_level: 30, max_level: 30, chance: 5},
-        ],
-        "Horde": [
-            {pokemon: "Vanillite", min_level: 20, max_level: 20, chance: 60},
-            {pokemon: "Cubchoo", min_level: 20, max_level: 20, chance: 35},
-            {pokemon: "Smoochum", min_level: 21, max_level: 21, chance: 5},
-        ],
-        "Old Rod": [
-            {pokemon: "Poliwag", min_level: 20, max_level: 20, chance: 60},
-            {pokemon: "Poliwag", min_level: 20, max_level: 20, chance: 35},
-            {pokemon: "Poliwag", min_level: 20, max_level: 20, chance: 5},
+            {pokemon: "Clauncher", min_level: 25, max_level: 25, chance: 65, version: "X"},
+            {pokemon: "Skrelp", min_level: 25, max_level: 25, chance: 65, version: "Y"},
+            {pokemon: "Horsea", min_level: 25, max_level: 25, chance: 35},
         ],
         "Super Rod": [
-            {pokemon: "Poliwhirl", min_level: 40, max_level: 40, chance: 60},
-            {pokemon: "Basculin Red Striped", min_level: 40, max_level: 40, chance: 35},
-            {pokemon: "Poliwhirl", min_level: 40, max_level: 40, chance: 5},
+            {pokemon: "Relicanth", min_level: 35, max_level: 35, chance: 60},
+            {pokemon: "Clawitzer", min_level: 35, max_level: 35, chance: 35, version: "X"},
+            {pokemon: "Dragalge", min_level: 35, max_level: 35, chance: 35, version: "Y"},
+            {pokemon: "Seadra", min_level: 35, max_level: 35, chance: 5},
         ],
+        "Rock Smash": [
+            {pokemon: "Dwebble", min_level: 13, max_level: 13, chance: 50, version: "Y"},
+            {pokemon: "Dwebble", min_level: 15, max_level: 15, chance: 50, version: "X"},
+            {pokemon: "Binacle", min_level: 13, max_level: 13, chance: 30, version: "Y"},
+            {pokemon: "Onix", min_level: 15, max_level: 15, chance: 30, version: "X"},
+            {pokemon: "Dwebble", min_level: 14, max_level: 14, chance: 15, version: "Y"},
+            {pokemon: "Dwebble", min_level: 17, max_level: 17, chance: 15, version: "X"},
+            {pokemon: "Binacle", min_level: 15, max_level: 15, chance: 4, version: "Y"},
+            {pokemon: "Onix", min_level: 16, max_level: 16, chance: 4, version: "X"},
+            {pokemon: "Dwebble", min_level: 15, max_level: 15, chance: 1, version: "Y"},
+            {pokemon: "Onix", min_level: 17, max_level: 17, chance: 1, version: "X"},
+        ]
+    },
+    "Frost Cavern (Area 1)": {
         "Surf": [
             {pokemon: "Poliwhirl", min_level: 38, max_level: 38, chance: 50},
             {pokemon: "Floatzel", min_level: 38, max_level: 38, chance: 30},
@@ -256,6 +171,21 @@ export const encounters = {
             {pokemon: "Floatzel", min_level: 40, max_level: 40, chance: 4},
             {pokemon: "Poliwhirl", min_level: 40, max_level: 40, chance: 1},
         ],
+        "Old Rod": [
+            {pokemon: "Poliwag", min_level: 20, max_level: 20, chance: 100},
+        ],
+        "Good Rod": [
+            {pokemon: "Basculin", min_level: 30, max_level: 30, chance: 65, version: "Y"},
+            {pokemon: "Basculin (Blue Striped)", min_level: 30, max_level: 30, chance: 65, version: "X"},
+            {pokemon: "Poliwhirl", min_level: 30, max_level: 30, chance: 35},
+        ],
+        "Super Rod": [
+            {pokemon: "Poliwhirl", min_level: 40, max_level: 40, chance: 65},
+            {pokemon: "Basculin", min_level: 40, max_level: 40, chance: 35, version: "X"},
+            {pokemon: "Basculin (Blue Striped)", min_level: 40, max_level: 40, chance: 35, version: "Y"},
+        ]
+    },
+    "Frost Cavern (Area 2)": {
         "Walk": [
             {pokemon: "Beartic", min_level: 39, max_level: 39, chance: 10},
             {pokemon: "Beartic", min_level: 40, max_level: 40, chance: 10},
@@ -268,16 +198,15 @@ export const encounters = {
             {pokemon: "Piloswine", min_level: 39, max_level: 39, chance: 10},
             {pokemon: "Haunter", min_level: 39, max_level: 39, chance: 5},
             {pokemon: "Cryogonal", min_level: 40, max_level: 40, chance: 4},
-            {pokemon: "Haunter", min_level: 40, max_level: 40, chance: 4},
             {pokemon: "Haunter", min_level: 40, max_level: 40, chance: 1},
-        ]
-    },
-    "Frost Cavern (unknown area 316)": {
+        ],
         "Horde": [
             {pokemon: "Vanillite", min_level: 20, max_level: 20, chance: 60},
             {pokemon: "Cubchoo", min_level: 20, max_level: 20, chance: 35},
             {pokemon: "Smoochum", min_level: 21, max_level: 21, chance: 5},
-        ],
+        ]
+    },
+    "Frost Cavern (Area 3)": {
         "Walk": [
             {pokemon: "Beartic", min_level: 39, max_level: 39, chance: 10},
             {pokemon: "Beartic", min_level: 40, max_level: 40, chance: 10},
@@ -289,36 +218,37 @@ export const encounters = {
             {pokemon: "Piloswine", min_level: 38, max_level: 38, chance: 10},
             {pokemon: "Piloswine", min_level: 39, max_level: 39, chance: 10},
             {pokemon: "Haunter", min_level: 39, max_level: 39, chance: 5},
-            {pokemon: "Cryogonal", min_level: 40, max_level: 40, chance: 4},
-            {pokemon: "Haunter", min_level: 40, max_level: 40, chance: 1},
-        ]
-    },
-    "Frost Cavern (unknown area 317)": {
+            {pokemon: "Haunter", min_level: 40, max_level: 40, chance: 5, version: "Y"},
+            {pokemon: "Cryogonal", min_level: 40, max_level: 40, chance: 4, version: "X"},
+            {pokemon: "Haunter", min_level: 40, max_level: 40, chance: 1, version: "X"},
+        ],
+        "Surf": [
+            {pokemon: "Poliwhirl", min_level: 38, max_level: 38, chance: 50},
+            {pokemon: "Floatzel", min_level: 38, max_level: 38, chance: 30},
+            {pokemon: "Poliwhirl", min_level: 39, max_level: 39, chance: 15},
+            {pokemon: "Floatzel", min_level: 40, max_level: 40, chance: 4},
+            {pokemon: "Poliwhirl", min_level: 40, max_level: 40, chance: 1},
+        ],
+        "Old Rod": [
+            {pokemon: "Poliwag", min_level: 20, max_level: 20, chance: 100},
+        ],
+        "Good Rod": [
+            {pokemon: "Basculin", min_level: 30, max_level: 30, chance: 65, version: "Y"},
+            {pokemon: "Basculin (Blue Striped)", min_level: 30, max_level: 30, chance: 65, version: "X"},
+            {pokemon: "Poliwhirl", min_level: 30, max_level: 30, chance: 35},
+        ],
+        "Super Rod": [
+            {pokemon: "Poliwhirl", min_level: 40, max_level: 40, chance: 65},
+            {pokemon: "Basculin", min_level: 40, max_level: 40, chance: 35, version: "X"},
+            {pokemon: "Basculin (Blue Striped)", min_level: 40, max_level: 40, chance: 35, version: "Y"},
+        ],
         "Horde": [
             {pokemon: "Vanillite", min_level: 20, max_level: 20, chance: 60},
             {pokemon: "Cubchoo", min_level: 20, max_level: 20, chance: 35},
             {pokemon: "Smoochum", min_level: 21, max_level: 21, chance: 5},
-        ],
-        "Walk": [
-            {pokemon: "Beartic", min_level: 39, max_level: 39, chance: 10},
-            {pokemon: "Beartic", min_level: 40, max_level: 40, chance: 10},
-            {pokemon: "Bergmite", min_level: 39, max_level: 39, chance: 10},
-            {pokemon: "Bergmite", min_level: 40, max_level: 40, chance: 10},
-            {pokemon: "Haunter", min_level: 38, max_level: 38, chance: 10},
-            {pokemon: "Jynx", min_level: 39, max_level: 39, chance: 10},
-            {pokemon: "Jynx", min_level: 40, max_level: 40, chance: 10},
-            {pokemon: "Piloswine", min_level: 38, max_level: 38, chance: 10},
-            {pokemon: "Piloswine", min_level: 39, max_level: 39, chance: 10},
-            {pokemon: "Haunter", min_level: 39, max_level: 39, chance: 5},
-            {pokemon: "Cryogonal", min_level: 40, max_level: 40, chance: 4},
-            {pokemon: "Haunter", min_level: 40, max_level: 40, chance: 1},
         ]
     },
-    "Glittering Cave (unknown area 303)": {
-        "Gift": [
-            {pokemon: "Amaura", min_level: 20, max_level: 20, chance: 100},
-            {pokemon: "Tyrunt", min_level: 20, max_level: 20, chance: 100},
-        ],
+    "Glittering Cave (Area 1)": {
         "Walk": [
             {pokemon: "Cubone", min_level: 15, max_level: 15, chance: 10},
             {pokemon: "Cubone", min_level: 16, max_level: 16, chance: 10},
@@ -332,9 +262,13 @@ export const encounters = {
             {pokemon: "Kangaskhan", min_level: 17, max_level: 17, chance: 5},
             {pokemon: "Mawile", min_level: 15, max_level: 15, chance: 4},
             {pokemon: "Mawile", min_level: 16, max_level: 16, chance: 1},
+        ],
+        "Gift": [
+            {pokemon: "Amaura", min_level: 20, max_level: 20, chance: 100},
+            {pokemon: "Tyrunt", min_level: 20, max_level: 20, chance: 100},
         ]
     },
-    "Glittering Cave (unknown area 304)": {
+    "Glittering Cave (Area 2)": {
         "Rock Smash": [
             {pokemon: "Dwebble", min_level: 15, max_level: 15, chance: 50},
             {pokemon: "Onix", min_level: 15, max_level: 15, chance: 30},
@@ -343,21 +277,26 @@ export const encounters = {
             {pokemon: "Onix", min_level: 17, max_level: 17, chance: 1},
         ]
     },
+    "Kalos (roaming)": {
+        "Static": [
+            {pokemon: "Articuno", min_level: 70, max_level: 70, chance: 100},
+            {pokemon: "Moltres", min_level: 70, max_level: 70, chance: 100},
+            {pokemon: "Zapdos", min_level: 70, max_level: 70, chance: 100},
+        ]
+    },
     "Laverre City": {
-        "Good Rod": [
-            {pokemon: "Basculin Red Striped", min_level: 25, max_level: 25, chance: 60},
-            {pokemon: "Poliwhirl", min_level: 25, max_level: 25, chance: 35},
-            {pokemon: "Basculin Red Striped", min_level: 25, max_level: 25, chance: 5},
-        ],
         "Old Rod": [
-            {pokemon: "Poliwag", min_level: 15, max_level: 15, chance: 60},
-            {pokemon: "Poliwag", min_level: 15, max_level: 15, chance: 35},
-            {pokemon: "Poliwag", min_level: 15, max_level: 15, chance: 5},
+            {pokemon: "Poliwag", min_level: 15, max_level: 15, chance: 100},
+        ],
+        "Good Rod": [
+            {pokemon: "Basculin", min_level: 25, max_level: 25, chance: 65, version: "Y"},
+            {pokemon: "Basculin (Blue Striped)", min_level: 25, max_level: 25, chance: 65, version: "X"},
+            {pokemon: "Poliwhirl", min_level: 25, max_level: 25, chance: 35},
         ],
         "Super Rod": [
-            {pokemon: "Poliwhirl", min_level: 35, max_level: 35, chance: 60},
-            {pokemon: "Basculin Red Striped", min_level: 35, max_level: 35, chance: 35},
-            {pokemon: "Poliwhirl", min_level: 35, max_level: 35, chance: 5},
+            {pokemon: "Poliwhirl", min_level: 35, max_level: 35, chance: 65},
+            {pokemon: "Basculin", min_level: 35, max_level: 35, chance: 35, version: "X"},
+            {pokemon: "Basculin (Blue Striped)", min_level: 35, max_level: 35, chance: 35, version: "Y"},
         ]
     },
     "Lost Hotel": {
@@ -372,8 +311,7 @@ export const encounters = {
             {pokemon: "Pawniard", min_level: 36, max_level: 36, chance: 10},
             {pokemon: "Pawniard", min_level: 37, max_level: 37, chance: 10},
             {pokemon: "Klefki", min_level: 37, max_level: 37, chance: 5},
-            {pokemon: "Klefki", min_level: 38, max_level: 38, chance: 4},
-            {pokemon: "Klefki", min_level: 38, max_level: 38, chance: 1},
+            {pokemon: "Klefki", min_level: 38, max_level: 38, chance: 5},
         ]
     },
     "Lumiose City": {
@@ -384,15 +322,12 @@ export const encounters = {
         ]
     },
     "Parfum Palace": {
-        "Good Rod": [
-            {pokemon: "Goldeen", min_level: 25, max_level: 25, chance: 60},
-            {pokemon: "Corphish", min_level: 25, max_level: 25, chance: 35},
-            {pokemon: "Goldeen", min_level: 25, max_level: 25, chance: 5},
-        ],
         "Old Rod": [
-            {pokemon: "Magikarp", min_level: 15, max_level: 15, chance: 60},
-            {pokemon: "Magikarp", min_level: 15, max_level: 15, chance: 35},
-            {pokemon: "Magikarp", min_level: 15, max_level: 15, chance: 5},
+            {pokemon: "Magikarp", min_level: 15, max_level: 15, chance: 100},
+        ],
+        "Good Rod": [
+            {pokemon: "Goldeen", min_level: 25, max_level: 25, chance: 65},
+            {pokemon: "Corphish", min_level: 25, max_level: 25, chance: 35},
         ],
         "Super Rod": [
             {pokemon: "Gyarados", min_level: 35, max_level: 35, chance: 60},
@@ -400,21 +335,31 @@ export const encounters = {
             {pokemon: "Crawdaunt", min_level: 35, max_level: 35, chance: 5},
         ]
     },
-    "Pokemon Village": {
+    "Pokémon Village": {
+        "Surf": [
+            {pokemon: "Lombre", min_level: 48, max_level: 48, chance: 50},
+            {pokemon: "Poliwhirl", min_level: 48, max_level: 48, chance: 30},
+            {pokemon: "Lombre", min_level: 49, max_level: 49, chance: 15},
+            {pokemon: "Poliwhirl", min_level: 50, max_level: 50, chance: 4},
+            {pokemon: "Lombre", min_level: 50, max_level: 50, chance: 1},
+        ],
+        "Old Rod": [
+            {pokemon: "Poliwag", min_level: 30, max_level: 30, chance: 100},
+        ],
         "Good Rod": [
-            {pokemon: "Basculin Red Striped", min_level: 40, max_level: 40, chance: 60},
+            {pokemon: "Basculin", min_level: 40, max_level: 40, chance: 65, version: "Y"},
+            {pokemon: "Basculin (Blue Striped)", min_level: 40, max_level: 40, chance: 65, version: "X"},
             {pokemon: "Poliwhirl", min_level: 40, max_level: 40, chance: 35},
-            {pokemon: "Basculin Red Striped", min_level: 40, max_level: 40, chance: 5},
+        ],
+        "Super Rod": [
+            {pokemon: "Poliwhirl", min_level: 50, max_level: 50, chance: 65},
+            {pokemon: "Basculin", min_level: 50, max_level: 50, chance: 35, version: "X"},
+            {pokemon: "Basculin (Blue Striped)", min_level: 50, max_level: 50, chance: 35, version: "Y"},
         ],
         "Horde": [
             {pokemon: "Foongus", min_level: 25, max_level: 25, chance: 60},
             {pokemon: "Poliwag", min_level: 25, max_level: 25, chance: 35},
             {pokemon: "Lombre", min_level: 25, max_level: 25, chance: 5},
-        ],
-        "Old Rod": [
-            {pokemon: "Poliwag", min_level: 30, max_level: 30, chance: 60},
-            {pokemon: "Poliwag", min_level: 30, max_level: 30, chance: 35},
-            {pokemon: "Poliwag", min_level: 30, max_level: 30, chance: 5},
         ],
         "Purple Flowers": [
             {pokemon: "Amoonguss", min_level: 49, max_level: 49, chance: 10},
@@ -429,18 +374,6 @@ export const encounters = {
             {pokemon: "Zoroark", min_level: 48, max_level: 48, chance: 5},
             {pokemon: "Zoroark", min_level: 49, max_level: 49, chance: 4},
             {pokemon: "Zoroark", min_level: 50, max_level: 50, chance: 1},
-        ],
-        "Super Rod": [
-            {pokemon: "Poliwhirl", min_level: 50, max_level: 50, chance: 60},
-            {pokemon: "Basculin Red Striped", min_level: 50, max_level: 50, chance: 35},
-            {pokemon: "Poliwhirl", min_level: 50, max_level: 50, chance: 5},
-        ],
-        "Surf": [
-            {pokemon: "Lombre", min_level: 48, max_level: 48, chance: 50},
-            {pokemon: "Poliwhirl", min_level: 48, max_level: 48, chance: 30},
-            {pokemon: "Lombre", min_level: 49, max_level: 49, chance: 15},
-            {pokemon: "Poliwhirl", min_level: 50, max_level: 50, chance: 4},
-            {pokemon: "Lombre", min_level: 50, max_level: 50, chance: 1},
         ],
         "Yellow Flowers": [
             {pokemon: "Amoonguss", min_level: 49, max_level: 49, chance: 10},
@@ -457,13 +390,7 @@ export const encounters = {
             {pokemon: "Zoroark", min_level: 50, max_level: 50, chance: 1},
         ]
     },
-    "Reflection Cave (unknown area 305)": {
-        "Horde": [
-            {pokemon: "Mime Jr.", min_level: 11, max_level: 11, chance: 60},
-            {pokemon: "Roggenrola", min_level: 11, max_level: 11, chance: 35},
-            {pokemon: "Carbink", min_level: 11, max_level: 11, chance: 5},
-            {pokemon: "Roggenrola", min_level: 11, max_level: 11, chance: 5},
-        ],
+    "Reflection Cave": {
         "Walk": [
             {pokemon: "Carbink", min_level: 23, max_level: 23, chance: 10},
             {pokemon: "Chingling", min_level: 21, max_level: 21, chance: 10},
@@ -477,89 +404,299 @@ export const encounters = {
             {pokemon: "Chingling", min_level: 22, max_level: 22, chance: 5},
             {pokemon: "Sableye", min_level: 22, max_level: 22, chance: 4},
             {pokemon: "Sableye", min_level: 23, max_level: 23, chance: 1},
-        ]
-    },
-    "Reflection Cave (unknown area 306)": {
+        ],
         "Horde": [
             {pokemon: "Mime Jr.", min_level: 11, max_level: 11, chance: 60},
-            {pokemon: "Roggenrola", min_level: 11, max_level: 11, chance: 35},
-            {pokemon: "Carbink", min_level: 11, max_level: 11, chance: 5},
-            {pokemon: "Roggenrola", min_level: 11, max_level: 11, chance: 5},
-        ],
-        "Walk": [
-            {pokemon: "Carbink", min_level: 23, max_level: 23, chance: 10},
-            {pokemon: "Chingling", min_level: 21, max_level: 21, chance: 10},
-            {pokemon: "Mr. Mime", min_level: 22, max_level: 22, chance: 10},
-            {pokemon: "Mr. Mime", min_level: 23, max_level: 23, chance: 10},
-            {pokemon: "Roggenrola", min_level: 21, max_level: 21, chance: 10},
-            {pokemon: "Roggenrola", min_level: 22, max_level: 22, chance: 10},
-            {pokemon: "Solosis", min_level: 22, max_level: 22, chance: 10},
-            {pokemon: "Solosis", min_level: 23, max_level: 23, chance: 10},
-            {pokemon: "Wobbuffet", min_level: 22, max_level: 22, chance: 10},
-            {pokemon: "Chingling", min_level: 22, max_level: 22, chance: 5},
-            {pokemon: "Sableye", min_level: 22, max_level: 22, chance: 4},
-            {pokemon: "Sableye", min_level: 23, max_level: 23, chance: 1},
+            {pokemon: "Roggenrola", min_level: 11, max_level: 11, chance: 39},
+            {pokemon: "Carbink", min_level: 11, max_level: 11, chance: 1},
         ]
     },
-    "Reflection Cave (unknown area 307)": {
-        "Horde": [
-            {pokemon: "Mime Jr.", min_level: 11, max_level: 11, chance: 60},
-            {pokemon: "Roggenrola", min_level: 11, max_level: 11, chance: 35},
-            {pokemon: "Carbink", min_level: 11, max_level: 11, chance: 5},
-            {pokemon: "Roggenrola", min_level: 11, max_level: 11, chance: 5},
-        ],
+    "Route 2": {
         "Walk": [
-            {pokemon: "Carbink", min_level: 23, max_level: 23, chance: 10},
-            {pokemon: "Chingling", min_level: 21, max_level: 21, chance: 10},
-            {pokemon: "Mr. Mime", min_level: 22, max_level: 22, chance: 10},
-            {pokemon: "Mr. Mime", min_level: 23, max_level: 23, chance: 10},
-            {pokemon: "Roggenrola", min_level: 21, max_level: 21, chance: 10},
-            {pokemon: "Roggenrola", min_level: 22, max_level: 22, chance: 10},
-            {pokemon: "Solosis", min_level: 22, max_level: 22, chance: 10},
-            {pokemon: "Solosis", min_level: 23, max_level: 23, chance: 10},
-            {pokemon: "Wobbuffet", min_level: 22, max_level: 22, chance: 10},
-            {pokemon: "Chingling", min_level: 22, max_level: 22, chance: 5},
-            {pokemon: "Sableye", min_level: 22, max_level: 22, chance: 4},
-            {pokemon: "Sableye", min_level: 23, max_level: 23, chance: 1},
+            {pokemon: "Bunnelby", min_level: 2, max_level: 2, chance: 10},
+            {pokemon: "Bunnelby", min_level: 3, max_level: 3, chance: 10},
+            {pokemon: "Caterpie", min_level: 3, max_level: 3, chance: 10, version: "Y"},
+            {pokemon: "Fletchling", min_level: 2, max_level: 2, chance: 10},
+            {pokemon: "Fletchling", min_level: 3, max_level: 3, chance: 10},
+            {pokemon: "Pidgey", min_level: 3, max_level: 3, chance: 10},
+            {pokemon: "Scatterbug", min_level: 2, max_level: 2, chance: 10},
+            {pokemon: "Scatterbug", min_level: 3, max_level: 3, chance: 10},
+            {pokemon: "Weedle", min_level: 3, max_level: 3, chance: 10, version: "X"},
+            {pokemon: "Zigzagoon", min_level: 3, max_level: 3, chance: 10},
+            {pokemon: "Zigzagoon", min_level: 4, max_level: 4, chance: 5},
+            {pokemon: "Pidgey", min_level: 4, max_level: 4, chance: 4},
+            {pokemon: "Caterpie", min_level: 4, max_level: 4, chance: 1, version: "Y"},
+            {pokemon: "Weedle", min_level: 4, max_level: 4, chance: 1, version: "X"},
         ]
     },
-    "Reflection Cave (unknown area 308)": {
-        "Horde": [
-            {pokemon: "Mime Jr.", min_level: 11, max_level: 11, chance: 60},
-            {pokemon: "Roggenrola", min_level: 11, max_level: 11, chance: 35},
-            {pokemon: "Carbink", min_level: 11, max_level: 11, chance: 5},
-            {pokemon: "Roggenrola", min_level: 11, max_level: 11, chance: 5},
-        ],
+    "Route 3": {
         "Walk": [
-            {pokemon: "Carbink", min_level: 23, max_level: 23, chance: 10},
-            {pokemon: "Chingling", min_level: 21, max_level: 21, chance: 10},
-            {pokemon: "Mr. Mime", min_level: 22, max_level: 22, chance: 10},
-            {pokemon: "Mr. Mime", min_level: 23, max_level: 23, chance: 10},
-            {pokemon: "Roggenrola", min_level: 21, max_level: 21, chance: 10},
-            {pokemon: "Roggenrola", min_level: 22, max_level: 22, chance: 10},
-            {pokemon: "Solosis", min_level: 22, max_level: 22, chance: 10},
-            {pokemon: "Solosis", min_level: 23, max_level: 23, chance: 10},
-            {pokemon: "Wobbuffet", min_level: 22, max_level: 22, chance: 10},
-            {pokemon: "Chingling", min_level: 22, max_level: 22, chance: 5},
-            {pokemon: "Sableye", min_level: 22, max_level: 22, chance: 4},
-            {pokemon: "Sableye", min_level: 23, max_level: 23, chance: 1},
+            {pokemon: "Azurill", min_level: 5, max_level: 5, chance: 10},
+            {pokemon: "Bidoof", min_level: 3, max_level: 3, chance: 10},
+            {pokemon: "Bidoof", min_level: 4, max_level: 4, chance: 10},
+            {pokemon: "Bunnelby", min_level: 3, max_level: 3, chance: 10},
+            {pokemon: "Bunnelby", min_level: 4, max_level: 4, chance: 10},
+            {pokemon: "Burmy", min_level: 5, max_level: 5, chance: 10},
+            {pokemon: "Fletchling", min_level: 3, max_level: 3, chance: 10},
+            {pokemon: "Fletchling", min_level: 5, max_level: 5, chance: 10},
+            {pokemon: "Pidgey", min_level: 4, max_level: 4, chance: 10},
+            {pokemon: "Dunsparce", min_level: 5, max_level: 5, chance: 5},
+            {pokemon: "Pikachu", min_level: 4, max_level: 4, chance: 4},
+            {pokemon: "Pikachu", min_level: 5, max_level: 5, chance: 1},
+        ],
+        "Surf": [
+            {pokemon: "Masquerain", min_level: 25, max_level: 25, chance: 50},
+            {pokemon: "Marill", min_level: 25, max_level: 25, chance: 30},
+            {pokemon: "Masquerain", min_level: 26, max_level: 26, chance: 15},
+            {pokemon: "Marill", min_level: 27, max_level: 27, chance: 4},
+            {pokemon: "Masquerain", min_level: 27, max_level: 27, chance: 1},
+        ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 15, max_level: 15, chance: 100},
+        ],
+        "Good Rod": [
+            {pokemon: "Goldeen", min_level: 25, max_level: 25, chance: 65},
+            {pokemon: "Corphish", min_level: 25, max_level: 25, chance: 35},
+        ],
+        "Super Rod": [
+            {pokemon: "Gyarados", min_level: 35, max_level: 35, chance: 60},
+            {pokemon: "Seaking", min_level: 35, max_level: 35, chance: 35},
+            {pokemon: "Crawdaunt", min_level: 35, max_level: 35, chance: 5},
         ]
     },
-    "Road 10": {
-        "Horde": [
-            {pokemon: "Nosepass", min_level: 10, max_level: 10, chance: 60},
-            {pokemon: "Yanma", min_level: 10, max_level: 10, chance: 35},
-            {pokemon: "Electrike", min_level: 11, max_level: 11, chance: 5},
-            {pokemon: "Houndour", min_level: 11, max_level: 11, chance: 5},
+    "Route 4": {
+        "Red Flowers": [
+            {pokemon: "Flabébé", min_level: 7, max_level: 7, chance: 14},
+            {pokemon: "Flabébé", min_level: 8, max_level: 8, chance: 11},
+            {pokemon: "Budew", min_level: 8, max_level: 8, chance: 10},
+            {pokemon: "Combee", min_level: 8, max_level: 8, chance: 10},
+            {pokemon: "Flabébé", min_level: 6, max_level: 6, chance: 10},
+            {pokemon: "Ledyba", min_level: 6, max_level: 6, chance: 10},
+            {pokemon: "Ledyba", min_level: 7, max_level: 7, chance: 10},
+            {pokemon: "Ledyba", min_level: 8, max_level: 8, chance: 10},
+            {pokemon: "Skitty", min_level: 8, max_level: 8, chance: 10},
+            {pokemon: "Ralts", min_level: 8, max_level: 8, chance: 5},
         ],
+        "Yellow Flowers": [
+            {pokemon: "Flabébé", min_level: 7, max_level: 7, chance: 14},
+            {pokemon: "Flabébé", min_level: 8, max_level: 8, chance: 11},
+            {pokemon: "Budew", min_level: 8, max_level: 8, chance: 10},
+            {pokemon: "Combee", min_level: 6, max_level: 6, chance: 10},
+            {pokemon: "Combee", min_level: 7, max_level: 7, chance: 10},
+            {pokemon: "Combee", min_level: 8, max_level: 8, chance: 10},
+            {pokemon: "Flabébé", min_level: 6, max_level: 6, chance: 10},
+            {pokemon: "Ledyba", min_level: 8, max_level: 8, chance: 10},
+            {pokemon: "Skitty", min_level: 8, max_level: 8, chance: 10},
+            {pokemon: "Ralts", min_level: 8, max_level: 8, chance: 5},
+        ]
+    },
+    "Route 5": {
         "Walk": [
-            {pokemon: "Electrike", min_level: 21, max_level: 21, chance: 10},
+            {pokemon: "Bunnelby", min_level: 8, max_level: 8, chance: 10},
+            {pokemon: "Bunnelby", min_level: 9, max_level: 9, chance: 10},
+            {pokemon: "Bunnelby", min_level: 10, max_level: 10, chance: 10},
+            {pokemon: "Doduo", min_level: 10, max_level: 10, chance: 10},
+            {pokemon: "Furfrou", min_level: 8, max_level: 8, chance: 10},
+            {pokemon: "Furfrou", min_level: 9, max_level: 9, chance: 10},
+            {pokemon: "Gulpin", min_level: 10, max_level: 10, chance: 10},
+            {pokemon: "Pancham", min_level: 10, max_level: 10, chance: 10},
+            {pokemon: "Skiddo", min_level: 10, max_level: 10, chance: 10},
+            {pokemon: "Abra", min_level: 10, max_level: 10, chance: 5},
+            {pokemon: "Minun", min_level: 9, max_level: 9, chance: 4, version: "Y"},
+            {pokemon: "Plusle", min_level: 9, max_level: 9, chance: 4, version: "X"},
+            {pokemon: "Minun", min_level: 10, max_level: 10, chance: 1, version: "Y"},
+            {pokemon: "Plusle", min_level: 10, max_level: 10, chance: 1, version: "X"},
+        ],
+        "Horde": [
+            {pokemon: "Gulpin", min_level: 5, max_level: 5, chance: 60},
+            {pokemon: "Scraggy", min_level: 5, max_level: 5, chance: 35},
+            {pokemon: "Minun", min_level: 6, max_level: 6, chance: 4, version: "Y"},
+            {pokemon: "Plusle", min_level: 6, max_level: 6, chance: 4, version: "X"},
+            {pokemon: "Minun", min_level: 6, max_level: 6, chance: 1, version: "X"},
+            {pokemon: "Plusle", min_level: 6, max_level: 6, chance: 1, version: "Y"},
+        ],
+        "Purple Flowers": [
+            {pokemon: "Bunnelby", min_level: 10, max_level: 10, chance: 10},
+            {pokemon: "Doduo", min_level: 10, max_level: 10, chance: 10},
+            {pokemon: "Furfrou", min_level: 10, max_level: 10, chance: 10},
+            {pokemon: "Gulpin", min_level: 10, max_level: 10, chance: 10},
+            {pokemon: "Pancham", min_level: 8, max_level: 8, chance: 10},
+            {pokemon: "Pancham", min_level: 9, max_level: 9, chance: 10},
+            {pokemon: "Skiddo", min_level: 8, max_level: 8, chance: 10},
+            {pokemon: "Skiddo", min_level: 9, max_level: 9, chance: 10},
+            {pokemon: "Skiddo", min_level: 10, max_level: 10, chance: 10},
+            {pokemon: "Abra", min_level: 10, max_level: 10, chance: 5},
+            {pokemon: "Minun", min_level: 9, max_level: 9, chance: 4, version: "Y"},
+            {pokemon: "Plusle", min_level: 9, max_level: 9, chance: 4, version: "X"},
+            {pokemon: "Minun", min_level: 10, max_level: 10, chance: 1, version: "Y"},
+            {pokemon: "Plusle", min_level: 10, max_level: 10, chance: 1, version: "X"},
+        ]
+    },
+    "Route 6": {
+        "Rough Terrain": [
+            {pokemon: "Espurr", min_level: 11, max_level: 11, chance: 10},
+            {pokemon: "Espurr", min_level: 12, max_level: 12, chance: 10},
+            {pokemon: "Honedge", min_level: 11, max_level: 11, chance: 10},
+            {pokemon: "Nincada", min_level: 12, max_level: 12, chance: 10},
+            {pokemon: "Oddish", min_level: 10, max_level: 10, chance: 10},
+            {pokemon: "Oddish", min_level: 11, max_level: 11, chance: 10},
+            {pokemon: "Oddish", min_level: 12, max_level: 12, chance: 10},
+            {pokemon: "Sentret", min_level: 10, max_level: 10, chance: 10},
+            {pokemon: "Sentret", min_level: 11, max_level: 11, chance: 10},
+            {pokemon: "Honedge", min_level: 12, max_level: 12, chance: 5},
+            {pokemon: "Kecleon", min_level: 11, max_level: 11, chance: 4},
+            {pokemon: "Kecleon", min_level: 12, max_level: 12, chance: 1},
+        ]
+    },
+    "Route 7": {
+        "Walk": [
+            {pokemon: "Croagunk", min_level: 14, max_level: 14, chance: 15},
+            {pokemon: "Croagunk", min_level: 12, max_level: 12, chance: 10},
+            {pokemon: "Croagunk", min_level: 13, max_level: 13, chance: 10},
+            {pokemon: "Ducklett", min_level: 14, max_level: 14, chance: 10},
+            {pokemon: "Illumise", min_level: 13, max_level: 13, chance: 10},
+            {pokemon: "Roselia", min_level: 14, max_level: 14, chance: 10},
+            {pokemon: "Smeargle", min_level: 14, max_level: 14, chance: 10},
+            {pokemon: "Spritzee", min_level: 14, max_level: 14, chance: 10, version: "Y"},
+            {pokemon: "Swirlix", min_level: 14, max_level: 14, chance: 10, version: "X"},
+            {pokemon: "Volbeat", min_level: 13, max_level: 13, chance: 10},
+            {pokemon: "Flabébé", min_level: 13, max_level: 13, chance: 4},
+            {pokemon: "Flabébé", min_level: 14, max_level: 14, chance: 1},
+        ],
+        "Horde": [
+            {pokemon: "Hoppip", min_level: 7, max_level: 7, chance: 60},
+            {pokemon: "Psyduck", min_level: 7, max_level: 7, chance: 35, version: "X"},
+            {pokemon: "Psyduck", min_level: 8, max_level: 8, chance: 35, version: "Y"},
+            {pokemon: "Roselia", min_level: 7, max_level: 7, chance: 5, version: "Y"},
+            {pokemon: "Roselia", min_level: 8, max_level: 8, chance: 5, version: "X"},
+        ],
+        "Purple Flowers": [
+            {pokemon: "Flabébé", min_level: 13, max_level: 13, chance: 14},
+            {pokemon: "Flabébé", min_level: 14, max_level: 14, chance: 11},
+            {pokemon: "Ducklett", min_level: 14, max_level: 14, chance: 10},
+            {pokemon: "Flabébé", min_level: 12, max_level: 12, chance: 10},
+            {pokemon: "Illumise", min_level: 13, max_level: 13, chance: 10},
+            {pokemon: "Roselia", min_level: 14, max_level: 14, chance: 10},
+            {pokemon: "Smeargle", min_level: 14, max_level: 14, chance: 10},
+            {pokemon: "Spritzee", min_level: 14, max_level: 14, chance: 10, version: "Y"},
+            {pokemon: "Swirlix", min_level: 14, max_level: 14, chance: 10, version: "X"},
+            {pokemon: "Volbeat", min_level: 13, max_level: 13, chance: 10},
+            {pokemon: "Croagunk", min_level: 14, max_level: 14, chance: 5},
+        ],
+        "Static": [
+            {pokemon: "Snorlax", min_level: 15, max_level: 15, chance: 100},
+        ],
+        "Yellow Flowers": [
+            {pokemon: "Flabébé", min_level: 13, max_level: 13, chance: 14},
+            {pokemon: "Flabébé", min_level: 14, max_level: 14, chance: 11},
+            {pokemon: "Ducklett", min_level: 14, max_level: 14, chance: 10},
+            {pokemon: "Flabébé", min_level: 12, max_level: 12, chance: 10},
+            {pokemon: "Illumise", min_level: 13, max_level: 13, chance: 10},
+            {pokemon: "Roselia", min_level: 14, max_level: 14, chance: 10},
+            {pokemon: "Smeargle", min_level: 14, max_level: 14, chance: 10},
+            {pokemon: "Spritzee", min_level: 14, max_level: 14, chance: 10, version: "Y"},
+            {pokemon: "Swirlix", min_level: 14, max_level: 14, chance: 10, version: "X"},
+            {pokemon: "Volbeat", min_level: 13, max_level: 13, chance: 10},
+            {pokemon: "Croagunk", min_level: 14, max_level: 14, chance: 5},
+        ]
+    },
+    "Route 8": {
+        "Walk": [
+            {pokemon: "Absol", min_level: 15, max_level: 15, chance: 10},
+            {pokemon: "Drifloon", min_level: 13, max_level: 13, chance: 10},
+            {pokemon: "Drifloon", min_level: 14, max_level: 14, chance: 10},
+            {pokemon: "Drifloon", min_level: 15, max_level: 15, chance: 10},
+            {pokemon: "Inkay", min_level: 14, max_level: 14, chance: 10},
+            {pokemon: "Mienfoo", min_level: 15, max_level: 15, chance: 10},
+            {pokemon: "Seviper", min_level: 14, max_level: 14, chance: 10, version: "Y"},
+            {pokemon: "Spoink", min_level: 13, max_level: 13, chance: 10},
+            {pokemon: "Spoink", min_level: 14, max_level: 14, chance: 10},
+            {pokemon: "Zangoose", min_level: 14, max_level: 14, chance: 10, version: "X"},
+            {pokemon: "Inkay", min_level: 15, max_level: 15, chance: 5},
+            {pokemon: "Bagon", min_level: 14, max_level: 14, chance: 4},
+            {pokemon: "Bagon", min_level: 15, max_level: 15, chance: 1},
+        ],
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 25, max_level: 25, chance: 50},
+            {pokemon: "Wailmer", min_level: 25, max_level: 25, chance: 30},
+            {pokemon: "Tentacool", min_level: 26, max_level: 26, chance: 15},
+            {pokemon: "Tentacool", min_level: 27, max_level: 27, chance: 4},
+            {pokemon: "Wailmer", min_level: 27, max_level: 27, chance: 1},
+        ],
+        "Old Rod": [
+            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 100},
+        ],
+        "Good Rod": [
+            {pokemon: "Clauncher", min_level: 25, max_level: 25, chance: 65, version: "X"},
+            {pokemon: "Skrelp", min_level: 25, max_level: 25, chance: 65, version: "Y"},
+            {pokemon: "Shellder", min_level: 25, max_level: 25, chance: 35, version: "Y"},
+            {pokemon: "Staryu", min_level: 25, max_level: 25, chance: 35, version: "X"},
+        ],
+        "Super Rod": [
+            {pokemon: "Qwilfish", min_level: 35, max_level: 35, chance: 60},
+            {pokemon: "Clawitzer", min_level: 35, max_level: 35, chance: 35, version: "X"},
+            {pokemon: "Dragalge", min_level: 35, max_level: 35, chance: 35, version: "Y"},
+            {pokemon: "Cloyster", min_level: 35, max_level: 35, chance: 5, version: "Y"},
+            {pokemon: "Starmie", min_level: 35, max_level: 35, chance: 5, version: "X"},
+        ],
+        "Rock Smash": [
+            {pokemon: "Dwebble", min_level: 13, max_level: 13, chance: 50, version: "Y"},
+            {pokemon: "Dwebble", min_level: 18, max_level: 18, chance: 50, version: "X"},
+            {pokemon: "Binacle", min_level: 13, max_level: 13, chance: 30, version: "Y"},
+            {pokemon: "Binacle", min_level: 18, max_level: 18, chance: 30, version: "X"},
+            {pokemon: "Dwebble", min_level: 14, max_level: 14, chance: 15, version: "Y"},
+            {pokemon: "Dwebble", min_level: 19, max_level: 19, chance: 15, version: "X"},
+            {pokemon: "Binacle", min_level: 15, max_level: 15, chance: 4, version: "Y"},
+            {pokemon: "Binacle", min_level: 20, max_level: 20, chance: 4, version: "X"},
+            {pokemon: "Dwebble", min_level: 15, max_level: 15, chance: 1, version: "Y"},
+            {pokemon: "Dwebble", min_level: 20, max_level: 20, chance: 1, version: "X"},
+        ],
+        "Horde": [
+            {pokemon: "Wingull", min_level: 7, max_level: 7, chance: 60},
+            {pokemon: "Seviper", min_level: 8, max_level: 8, chance: 28, version: "Y"},
+            {pokemon: "Zangoose", min_level: 8, max_level: 8, chance: 28, version: "X"},
+            {pokemon: "Seviper", min_level: 8, max_level: 8, chance: 7, version: "X"},
+            {pokemon: "Zangoose", min_level: 8, max_level: 8, chance: 7, version: "Y"},
+            {pokemon: "Taillow", min_level: 7, max_level: 7, chance: 5},
+        ],
+        "Yellow Flowers": [
+            {pokemon: "Absol", min_level: 13, max_level: 13, chance: 10},
+            {pokemon: "Absol", min_level: 14, max_level: 14, chance: 10},
+            {pokemon: "Drifloon", min_level: 15, max_level: 15, chance: 10},
+            {pokemon: "Inkay", min_level: 14, max_level: 14, chance: 10},
+            {pokemon: "Mienfoo", min_level: 13, max_level: 13, chance: 10},
+            {pokemon: "Mienfoo", min_level: 14, max_level: 14, chance: 10},
+            {pokemon: "Mienfoo", min_level: 15, max_level: 15, chance: 10},
+            {pokemon: "Seviper", min_level: 14, max_level: 14, chance: 10, version: "Y"},
+            {pokemon: "Spoink", min_level: 15, max_level: 15, chance: 10},
+            {pokemon: "Zangoose", min_level: 14, max_level: 14, chance: 10, version: "X"},
+            {pokemon: "Inkay", min_level: 15, max_level: 15, chance: 5},
+            {pokemon: "Bagon", min_level: 14, max_level: 14, chance: 4},
+            {pokemon: "Bagon", min_level: 15, max_level: 15, chance: 1},
+        ]
+    },
+    "Route 9": {
+        "Rough Terrain": [
+            {pokemon: "Hippopotas", min_level: 16, max_level: 16, chance: 20},
+            {pokemon: "Sandile", min_level: 16, max_level: 16, chance: 20},
+            {pokemon: "Helioptile", min_level: 15, max_level: 15, chance: 10},
+            {pokemon: "Hippopotas", min_level: 15, max_level: 15, chance: 10},
+            {pokemon: "Hippopotas", min_level: 17, max_level: 17, chance: 10},
+            {pokemon: "Sandile", min_level: 15, max_level: 15, chance: 10},
+            {pokemon: "Sandile", min_level: 17, max_level: 17, chance: 10},
+            {pokemon: "Helioptile", min_level: 16, max_level: 16, chance: 9},
+            {pokemon: "Helioptile", min_level: 17, max_level: 17, chance: 1},
+        ]
+    },
+    "Route 10": {
+        "Walk": [
+            {pokemon: "Electrike", min_level: 21, max_level: 21, chance: 10, version: "Y"},
             {pokemon: "Golett", min_level: 19, max_level: 19, chance: 10},
             {pokemon: "Golett", min_level: 20, max_level: 20, chance: 10},
             {pokemon: "Golett", min_level: 21, max_level: 21, chance: 10},
             {pokemon: "Hawlucha", min_level: 19, max_level: 19, chance: 10},
             {pokemon: "Hawlucha", min_level: 20, max_level: 20, chance: 10},
-            {pokemon: "Houndour", min_level: 21, max_level: 21, chance: 10},
+            {pokemon: "Houndour", min_level: 21, max_level: 21, chance: 10, version: "X"},
             {pokemon: "Sigilyph", min_level: 19, max_level: 19, chance: 10},
             {pokemon: "Sigilyph", min_level: 20, max_level: 20, chance: 10},
             {pokemon: "Snubbull", min_level: 21, max_level: 21, chance: 10},
@@ -567,14 +704,20 @@ export const encounters = {
             {pokemon: "Emolga", min_level: 19, max_level: 19, chance: 4},
             {pokemon: "Emolga", min_level: 20, max_level: 20, chance: 1},
         ],
+        "Horde": [
+            {pokemon: "Nosepass", min_level: 10, max_level: 10, chance: 60},
+            {pokemon: "Yanma", min_level: 10, max_level: 10, chance: 35},
+            {pokemon: "Electrike", min_level: 11, max_level: 11, chance: 5, version: "Y"},
+            {pokemon: "Houndour", min_level: 11, max_level: 11, chance: 5, version: "X"},
+        ],
         "Yellow Flowers": [
             {pokemon: "Eevee", min_level: 19, max_level: 19, chance: 10},
             {pokemon: "Eevee", min_level: 20, max_level: 20, chance: 10},
-            {pokemon: "Electrike", min_level: 19, max_level: 19, chance: 10},
-            {pokemon: "Electrike", min_level: 20, max_level: 20, chance: 10},
+            {pokemon: "Electrike", min_level: 19, max_level: 19, chance: 10, version: "Y"},
+            {pokemon: "Electrike", min_level: 20, max_level: 20, chance: 10, version: "Y"},
             {pokemon: "Golett", min_level: 21, max_level: 21, chance: 10},
-            {pokemon: "Houndour", min_level: 19, max_level: 19, chance: 10},
-            {pokemon: "Houndour", min_level: 20, max_level: 20, chance: 10},
+            {pokemon: "Houndour", min_level: 19, max_level: 19, chance: 10, version: "X"},
+            {pokemon: "Houndour", min_level: 20, max_level: 20, chance: 10, version: "X"},
             {pokemon: "Sigilyph", min_level: 21, max_level: 21, chance: 10},
             {pokemon: "Snubbull", min_level: 19, max_level: 19, chance: 10},
             {pokemon: "Snubbull", min_level: 20, max_level: 20, chance: 10},
@@ -584,70 +727,31 @@ export const encounters = {
             {pokemon: "Emolga", min_level: 20, max_level: 20, chance: 1},
         ]
     },
-    "Road 11": {
-        "Horde": [
-            {pokemon: "Nidoran F", min_level: 11, max_level: 11, chance: 60},
-            {pokemon: "Nidoran M", min_level: 11, max_level: 11, chance: 60},
-            {pokemon: "Stunky", min_level: 11, max_level: 11, chance: 35},
-            {pokemon: "Starly", min_level: 12, max_level: 12, chance: 5},
-        ],
+    "Route 11": {
         "Walk": [
             {pokemon: "Chingling", min_level: 21, max_level: 21, chance: 10},
             {pokemon: "Hariyama", min_level: 22, max_level: 22, chance: 10},
             {pokemon: "Hariyama", min_level: 23, max_level: 23, chance: 10},
             {pokemon: "Nidorino", min_level: 21, max_level: 21, chance: 10},
-            {pokemon: "Sawk", min_level: 22, max_level: 22, chance: 10},
-            {pokemon: "Sawk", min_level: 23, max_level: 23, chance: 10},
+            {pokemon: "Sawk", min_level: 22, max_level: 22, chance: 10, version: "X"},
+            {pokemon: "Sawk", min_level: 23, max_level: 23, chance: 10, version: "X"},
             {pokemon: "Staravia", min_level: 22, max_level: 22, chance: 10},
             {pokemon: "Staravia", min_level: 23, max_level: 23, chance: 10},
             {pokemon: "Stunky", min_level: 21, max_level: 21, chance: 10},
-            {pokemon: "Throh", min_level: 22, max_level: 22, chance: 10},
-            {pokemon: "Throh", min_level: 23, max_level: 23, chance: 10},
+            {pokemon: "Throh", min_level: 22, max_level: 22, chance: 10, version: "Y"},
+            {pokemon: "Throh", min_level: 23, max_level: 23, chance: 10, version: "Y"},
             {pokemon: "Nidorina", min_level: 21, max_level: 21, chance: 5},
             {pokemon: "Dedenne", min_level: 21, max_level: 21, chance: 4},
             {pokemon: "Dedenne", min_level: 22, max_level: 22, chance: 1},
-        ]
-    },
-    "Road 12": {
-        "Gift": [
-            {pokemon: "Lapras", min_level: 30, max_level: 30, chance: 100},
-        ],
-        "Good Rod": [
-            {pokemon: "Remoraid", min_level: 25, max_level: 25, chance: 60},
-            {pokemon: "Clamperl", min_level: 25, max_level: 25, chance: 35},
-            {pokemon: "Remoraid", min_level: 25, max_level: 25, chance: 5},
         ],
         "Horde": [
-            {pokemon: "Wingull", min_level: 13, max_level: 13, chance: 60},
-            {pokemon: "Mareep", min_level: 13, max_level: 13, chance: 35},
-            {pokemon: "Miltank", min_level: 14, max_level: 14, chance: 5},
-            {pokemon: "Tauros", min_level: 14, max_level: 14, chance: 5},
-        ],
-        "Old Rod": [
-            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 60},
-            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 35},
-            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 5},
-        ],
-        "Rock Smash": [
-            {pokemon: "Dwebble", min_level: 23, max_level: 23, chance: 50},
-            {pokemon: "Binacle", min_level: 23, max_level: 23, chance: 30},
-            {pokemon: "Dwebble", min_level: 24, max_level: 24, chance: 15},
-            {pokemon: "Binacle", min_level: 25, max_level: 25, chance: 4},
-            {pokemon: "Dwebble", min_level: 25, max_level: 25, chance: 1},
-        ],
-        "Super Rod": [
-            {pokemon: "Corsola", min_level: 35, max_level: 35, chance: 60},
-            {pokemon: "Octillery", min_level: 35, max_level: 35, chance: 35},
-            {pokemon: "Gorebyss", min_level: 35, max_level: 35, chance: 5},
-            {pokemon: "Huntail", min_level: 35, max_level: 35, chance: 5},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 25, max_level: 25, chance: 50},
-            {pokemon: "Tentacool", min_level: 26, max_level: 26, chance: 30},
-            {pokemon: "Mantyke", min_level: 27, max_level: 27, chance: 15},
-            {pokemon: "Tentacool", min_level: 27, max_level: 27, chance: 4},
-            {pokemon: "Lapras", min_level: 27, max_level: 27, chance: 1},
-        ],
+            {pokemon: "Nidoran♂", min_level: 11, max_level: 11, chance: 48},
+            {pokemon: "Stunky", min_level: 11, max_level: 11, chance: 35},
+            {pokemon: "Nidoran♀", min_level: 11, max_level: 11, chance: 12},
+            {pokemon: "Starly", min_level: 12, max_level: 12, chance: 5},
+        ]
+    },
+    "Route 12": {
         "Walk": [
             {pokemon: "Chatot", min_level: 23, max_level: 23, chance: 10},
             {pokemon: "Chatot", min_level: 24, max_level: 24, chance: 10},
@@ -658,10 +762,46 @@ export const encounters = {
             {pokemon: "Slowpoke", min_level: 24, max_level: 24, chance: 10},
             {pokemon: "Slowpoke", min_level: 25, max_level: 25, chance: 10},
             {pokemon: "Tauros", min_level: 25, max_level: 25, chance: 10},
-            {pokemon: "Heracross", min_level: 25, max_level: 25, chance: 5},
-            {pokemon: "Pinsir", min_level: 25, max_level: 25, chance: 5},
+            {pokemon: "Heracross", min_level: 25, max_level: 25, chance: 5, version: "Y"},
+            {pokemon: "Pinsir", min_level: 25, max_level: 25, chance: 5, version: "X"},
             {pokemon: "Pachirisu", min_level: 23, max_level: 23, chance: 4},
             {pokemon: "Pachirisu", min_level: 24, max_level: 24, chance: 1},
+        ],
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 25, max_level: 25, chance: 50},
+            {pokemon: "Tentacool", min_level: 26, max_level: 26, chance: 30},
+            {pokemon: "Mantyke", min_level: 27, max_level: 27, chance: 15},
+            {pokemon: "Tentacool", min_level: 27, max_level: 27, chance: 4},
+            {pokemon: "Lapras", min_level: 27, max_level: 27, chance: 1},
+        ],
+        "Old Rod": [
+            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 100},
+        ],
+        "Good Rod": [
+            {pokemon: "Remoraid", min_level: 25, max_level: 25, chance: 65},
+            {pokemon: "Clamperl", min_level: 25, max_level: 25, chance: 35},
+        ],
+        "Super Rod": [
+            {pokemon: "Corsola", min_level: 35, max_level: 35, chance: 60},
+            {pokemon: "Octillery", min_level: 35, max_level: 35, chance: 35},
+            {pokemon: "Gorebyss", min_level: 35, max_level: 35, chance: 5, version: "Y"},
+            {pokemon: "Huntail", min_level: 35, max_level: 35, chance: 5, version: "X"},
+        ],
+        "Rock Smash": [
+            {pokemon: "Dwebble", min_level: 23, max_level: 23, chance: 50},
+            {pokemon: "Binacle", min_level: 23, max_level: 23, chance: 30},
+            {pokemon: "Dwebble", min_level: 24, max_level: 24, chance: 15},
+            {pokemon: "Binacle", min_level: 25, max_level: 25, chance: 4},
+            {pokemon: "Dwebble", min_level: 25, max_level: 25, chance: 1},
+        ],
+        "Gift": [
+            {pokemon: "Lapras", min_level: 30, max_level: 30, chance: 100},
+        ],
+        "Horde": [
+            {pokemon: "Wingull", min_level: 13, max_level: 13, chance: 60},
+            {pokemon: "Mareep", min_level: 13, max_level: 13, chance: 35},
+            {pokemon: "Tauros", min_level: 14, max_level: 14, chance: 4},
+            {pokemon: "Miltank", min_level: 14, max_level: 14, chance: 1},
         ],
         "Yellow Flowers": [
             {pokemon: "Chatot", min_level: 27, max_level: 27, chance: 10},
@@ -673,13 +813,13 @@ export const encounters = {
             {pokemon: "Tauros", min_level: 25, max_level: 25, chance: 10},
             {pokemon: "Tauros", min_level: 26, max_level: 26, chance: 10},
             {pokemon: "Tauros", min_level: 27, max_level: 27, chance: 10},
-            {pokemon: "Heracross", min_level: 27, max_level: 27, chance: 5},
-            {pokemon: "Pinsir", min_level: 27, max_level: 27, chance: 5},
+            {pokemon: "Heracross", min_level: 27, max_level: 27, chance: 5, version: "Y"},
+            {pokemon: "Pinsir", min_level: 27, max_level: 27, chance: 5, version: "X"},
             {pokemon: "Pachirisu", min_level: 25, max_level: 25, chance: 4},
             {pokemon: "Pachirisu", min_level: 26, max_level: 26, chance: 1},
         ]
     },
-    "Road 13": {
+    "Route 13": {
         "Rock Smash": [
             {pokemon: "Graveler", min_level: 26, max_level: 26, chance: 50},
             {pokemon: "Slugma", min_level: 26, max_level: 26, chance: 30},
@@ -688,33 +828,55 @@ export const encounters = {
             {pokemon: "Graveler", min_level: 28, max_level: 28, chance: 1},
         ],
         "Rough Terrain": [
+            {pokemon: "Dugtrio", min_level: 27, max_level: 27, chance: 20},
+            {pokemon: "Trapinch", min_level: 27, max_level: 27, chance: 20},
             {pokemon: "Dugtrio", min_level: 26, max_level: 26, chance: 10},
-            {pokemon: "Dugtrio", min_level: 27, max_level: 27, chance: 10},
             {pokemon: "Dugtrio", min_level: 28, max_level: 28, chance: 10},
             {pokemon: "Gible", min_level: 26, max_level: 26, chance: 10},
             {pokemon: "Trapinch", min_level: 26, max_level: 26, chance: 10},
-            {pokemon: "Trapinch", min_level: 27, max_level: 27, chance: 10},
             {pokemon: "Trapinch", min_level: 28, max_level: 28, chance: 10},
-            {pokemon: "Gible", min_level: 27, max_level: 27, chance: 5},
-            {pokemon: "Gible", min_level: 27, max_level: 27, chance: 4},
+            {pokemon: "Gible", min_level: 27, max_level: 27, chance: 9},
             {pokemon: "Gible", min_level: 28, max_level: 28, chance: 1},
         ]
     },
-    "Road 14": {
+    "Route 14": {
+        "Walk": [
+            {pokemon: "Carnivine", min_level: 30, max_level: 30, chance: 10},
+            {pokemon: "Goomy", min_level: 30, max_level: 30, chance: 10},
+            {pokemon: "Karrablast", min_level: 30, max_level: 30, chance: 10},
+            {pokemon: "Quagsire", min_level: 30, max_level: 30, chance: 10},
+            {pokemon: "Shelmet", min_level: 30, max_level: 30, chance: 10},
+            {pokemon: "Skorupi", min_level: 30, max_level: 30, chance: 10},
+            {pokemon: "Skorupi", min_level: 31, max_level: 31, chance: 10},
+            {pokemon: "Weepinbell", min_level: 31, max_level: 31, chance: 10},
+            {pokemon: "Weepinbell", min_level: 32, max_level: 32, chance: 10},
+            {pokemon: "Haunter", min_level: 31, max_level: 31, chance: 5},
+            {pokemon: "Carnivine", min_level: 31, max_level: 31, chance: 4},
+            {pokemon: "Carnivine", min_level: 32, max_level: 32, chance: 1},
+        ],
+        "Surf": [
+            {pokemon: "Quagsire", min_level: 30, max_level: 30, chance: 50},
+            {pokemon: "Stunfisk", min_level: 30, max_level: 30, chance: 30},
+            {pokemon: "Goomy", min_level: 31, max_level: 31, chance: 15},
+            {pokemon: "Stunfisk", min_level: 31, max_level: 31, chance: 4},
+            {pokemon: "Stunfisk", min_level: 32, max_level: 32, chance: 1},
+        ],
+        "Old Rod": [
+            {pokemon: "Poliwag", min_level: 15, max_level: 15, chance: 100},
+        ],
         "Good Rod": [
             {pokemon: "Barboach", min_level: 25, max_level: 25, chance: 60},
             {pokemon: "Poliwhirl", min_level: 35, max_level: 35, chance: 35},
             {pokemon: "Barboach", min_level: 35, max_level: 35, chance: 5},
         ],
+        "Super Rod": [
+            {pokemon: "Poliwhirl", min_level: 35, max_level: 35, chance: 65},
+            {pokemon: "Whiscash", min_level: 35, max_level: 35, chance: 35},
+        ],
         "Horde": [
             {pokemon: "Bellsprout", min_level: 16, max_level: 16, chance: 60},
             {pokemon: "Skorupi", min_level: 16, max_level: 16, chance: 35},
             {pokemon: "Ekans", min_level: 17, max_level: 17, chance: 5},
-        ],
-        "Old Rod": [
-            {pokemon: "Poliwag", min_level: 15, max_level: 15, chance: 60},
-            {pokemon: "Poliwag", min_level: 15, max_level: 15, chance: 35},
-            {pokemon: "Poliwag", min_level: 15, max_level: 15, chance: 5},
         ],
         "Rough Terrain": [
             {pokemon: "Goomy", min_level: 31, max_level: 31, chance: 10},
@@ -729,55 +891,56 @@ export const encounters = {
             {pokemon: "Haunter", min_level: 31, max_level: 31, chance: 5},
             {pokemon: "Carnivine", min_level: 31, max_level: 31, chance: 4},
             {pokemon: "Carnivine", min_level: 32, max_level: 32, chance: 1},
-        ],
-        "Super Rod": [
-            {pokemon: "Poliwhirl", min_level: 35, max_level: 35, chance: 60},
-            {pokemon: "Whiscash", min_level: 35, max_level: 35, chance: 35},
-            {pokemon: "Poliwhirl", min_level: 35, max_level: 35, chance: 5},
-        ],
-        "Surf": [
-            {pokemon: "Quagsire", min_level: 30, max_level: 30, chance: 50},
-            {pokemon: "Stunfisk", min_level: 30, max_level: 30, chance: 30},
-            {pokemon: "Goomy", min_level: 31, max_level: 31, chance: 15},
-            {pokemon: "Stunfisk", min_level: 31, max_level: 31, chance: 4},
-            {pokemon: "Stunfisk", min_level: 32, max_level: 32, chance: 1},
-        ],
-        "Walk": [
-            {pokemon: "Carnivine", min_level: 30, max_level: 30, chance: 10},
-            {pokemon: "Goomy", min_level: 30, max_level: 30, chance: 10},
-            {pokemon: "Karrablast", min_level: 30, max_level: 30, chance: 10},
-            {pokemon: "Quagsire", min_level: 30, max_level: 30, chance: 10},
-            {pokemon: "Shelmet", min_level: 30, max_level: 30, chance: 10},
-            {pokemon: "Skorupi", min_level: 30, max_level: 30, chance: 10},
-            {pokemon: "Skorupi", min_level: 31, max_level: 31, chance: 10},
-            {pokemon: "Weepinbell", min_level: 31, max_level: 31, chance: 10},
-            {pokemon: "Weepinbell", min_level: 32, max_level: 32, chance: 10},
-            {pokemon: "Haunter", min_level: 31, max_level: 31, chance: 5},
-            {pokemon: "Carnivine", min_level: 31, max_level: 31, chance: 4},
-            {pokemon: "Carnivine", min_level: 32, max_level: 32, chance: 1},
         ]
     },
-    "Road 15": {
+    "Route 15": {
+        "Walk": [
+            {pokemon: "Foongus", min_level: 34, max_level: 34, chance: 10},
+            {pokemon: "Foongus", min_level: 35, max_level: 35, chance: 10},
+            {pokemon: "Liepard", min_level: 34, max_level: 34, chance: 10, version: "Y"},
+            {pokemon: "Liepard", min_level: 35, max_level: 35, chance: 10, version: "Y"},
+            {pokemon: "Liepard", min_level: 36, max_level: 36, chance: 10, version: "Y"},
+            {pokemon: "Mightyena", min_level: 34, max_level: 34, chance: 10, version: "X"},
+            {pokemon: "Mightyena", min_level: 35, max_level: 35, chance: 10, version: "X"},
+            {pokemon: "Mightyena", min_level: 36, max_level: 36, chance: 10, version: "X"},
+            {pokemon: "Pawniard", min_level: 36, max_level: 36, chance: 10},
+            {pokemon: "Skorupi", min_level: 34, max_level: 34, chance: 10},
+            {pokemon: "Skorupi", min_level: 35, max_level: 35, chance: 10},
+            {pokemon: "Watchog", min_level: 36, max_level: 36, chance: 10},
+            {pokemon: "Klefki", min_level: 34, max_level: 34, chance: 5},
+            {pokemon: "Klefki", min_level: 35, max_level: 35, chance: 4},
+            {pokemon: "Klefki", min_level: 36, max_level: 36, chance: 1},
+        ],
+        "Surf": [
+            {pokemon: "Lombre", min_level: 34, max_level: 34, chance: 50},
+            {pokemon: "Floatzel", min_level: 34, max_level: 34, chance: 30},
+            {pokemon: "Lombre", min_level: 35, max_level: 35, chance: 15},
+            {pokemon: "Floatzel", min_level: 36, max_level: 36, chance: 4},
+            {pokemon: "Lombre", min_level: 36, max_level: 36, chance: 1},
+        ],
+        "Old Rod": [
+            {pokemon: "Poliwag", min_level: 15, max_level: 15, chance: 100},
+        ],
         "Good Rod": [
-            {pokemon: "Basculin Red Striped", min_level: 25, max_level: 25, chance: 60},
+            {pokemon: "Basculin", min_level: 25, max_level: 25, chance: 65, version: "Y"},
+            {pokemon: "Basculin (Blue Striped)", min_level: 25, max_level: 25, chance: 65, version: "X"},
             {pokemon: "Poliwhirl", min_level: 25, max_level: 25, chance: 35},
-            {pokemon: "Basculin Red Striped", min_level: 25, max_level: 25, chance: 5},
+        ],
+        "Super Rod": [
+            {pokemon: "Poliwhirl", min_level: 35, max_level: 35, chance: 65},
+            {pokemon: "Basculin", min_level: 35, max_level: 35, chance: 35, version: "X"},
+            {pokemon: "Basculin (Blue Striped)", min_level: 35, max_level: 35, chance: 35, version: "Y"},
         ],
         "Horde": [
             {pokemon: "Murkrow", min_level: 18, max_level: 18, chance: 60},
             {pokemon: "Foongus", min_level: 18, max_level: 18, chance: 35},
             {pokemon: "Klefki", min_level: 19, max_level: 19, chance: 5},
         ],
-        "Old Rod": [
-            {pokemon: "Poliwag", min_level: 15, max_level: 15, chance: 60},
-            {pokemon: "Poliwag", min_level: 15, max_level: 15, chance: 35},
-            {pokemon: "Poliwag", min_level: 15, max_level: 15, chance: 5},
-        ],
         "Red Flowers": [
             {pokemon: "Foongus", min_level: 34, max_level: 34, chance: 10},
             {pokemon: "Foongus", min_level: 35, max_level: 35, chance: 10},
-            {pokemon: "Liepard", min_level: 36, max_level: 36, chance: 10},
-            {pokemon: "Mightyena", min_level: 36, max_level: 36, chance: 10},
+            {pokemon: "Liepard", min_level: 36, max_level: 36, chance: 10, version: "Y"},
+            {pokemon: "Mightyena", min_level: 36, max_level: 36, chance: 10, version: "X"},
             {pokemon: "Pawniard", min_level: 34, max_level: 34, chance: 10},
             {pokemon: "Pawniard", min_level: 35, max_level: 35, chance: 10},
             {pokemon: "Skorupi", min_level: 36, max_level: 36, chance: 10},
@@ -787,12 +950,9 @@ export const encounters = {
             {pokemon: "Klefki", min_level: 34, max_level: 34, chance: 5},
             {pokemon: "Klefki", min_level: 35, max_level: 35, chance: 4},
             {pokemon: "Klefki", min_level: 36, max_level: 36, chance: 1},
-        ],
-        "Super Rod": [
-            {pokemon: "Poliwhirl", min_level: 35, max_level: 35, chance: 60},
-            {pokemon: "Basculin Red Striped", min_level: 35, max_level: 35, chance: 35},
-            {pokemon: "Poliwhirl", min_level: 35, max_level: 35, chance: 5},
-        ],
+        ]
+    },
+    "Route 16": {
         "Surf": [
             {pokemon: "Lombre", min_level: 34, max_level: 34, chance: 50},
             {pokemon: "Floatzel", min_level: 34, max_level: 34, chance: 30},
@@ -800,60 +960,36 @@ export const encounters = {
             {pokemon: "Floatzel", min_level: 36, max_level: 36, chance: 4},
             {pokemon: "Lombre", min_level: 36, max_level: 36, chance: 1},
         ],
-        "Walk": [
-            {pokemon: "Foongus", min_level: 34, max_level: 34, chance: 10},
-            {pokemon: "Foongus", min_level: 35, max_level: 35, chance: 10},
-            {pokemon: "Liepard", min_level: 34, max_level: 34, chance: 10},
-            {pokemon: "Liepard", min_level: 35, max_level: 35, chance: 10},
-            {pokemon: "Liepard", min_level: 36, max_level: 36, chance: 10},
-            {pokemon: "Mightyena", min_level: 34, max_level: 34, chance: 10},
-            {pokemon: "Mightyena", min_level: 35, max_level: 35, chance: 10},
-            {pokemon: "Mightyena", min_level: 36, max_level: 36, chance: 10},
-            {pokemon: "Pawniard", min_level: 36, max_level: 36, chance: 10},
-            {pokemon: "Skorupi", min_level: 34, max_level: 34, chance: 10},
-            {pokemon: "Skorupi", min_level: 35, max_level: 35, chance: 10},
-            {pokemon: "Watchog", min_level: 36, max_level: 36, chance: 10},
-            {pokemon: "Klefki", min_level: 34, max_level: 34, chance: 5},
-            {pokemon: "Klefki", min_level: 35, max_level: 35, chance: 4},
-            {pokemon: "Klefki", min_level: 36, max_level: 36, chance: 1},
-        ]
-    },
-    "Road 16": {
+        "Old Rod": [
+            {pokemon: "Poliwag", min_level: 15, max_level: 15, chance: 100},
+        ],
         "Good Rod": [
-            {pokemon: "Basculin Red Striped", min_level: 25, max_level: 25, chance: 60},
+            {pokemon: "Basculin", min_level: 25, max_level: 25, chance: 65, version: "Y"},
+            {pokemon: "Basculin (Blue Striped)", min_level: 25, max_level: 25, chance: 65, version: "X"},
             {pokemon: "Poliwhirl", min_level: 25, max_level: 25, chance: 35},
-            {pokemon: "Basculin Red Striped", min_level: 25, max_level: 25, chance: 5},
+        ],
+        "Super Rod": [
+            {pokemon: "Poliwhirl", min_level: 35, max_level: 35, chance: 65},
+            {pokemon: "Basculin", min_level: 35, max_level: 35, chance: 35, version: "X"},
+            {pokemon: "Basculin (Blue Striped)", min_level: 35, max_level: 35, chance: 35, version: "Y"},
         ],
         "Horde": [
             {pokemon: "Murkrow", min_level: 18, max_level: 18, chance: 60},
             {pokemon: "Foongus", min_level: 18, max_level: 18, chance: 35},
             {pokemon: "Klefki", min_level: 19, max_level: 19, chance: 5},
         ],
-        "Old Rod": [
-            {pokemon: "Poliwag", min_level: 15, max_level: 15, chance: 60},
-            {pokemon: "Poliwag", min_level: 15, max_level: 15, chance: 35},
-            {pokemon: "Poliwag", min_level: 15, max_level: 15, chance: 5},
-        ],
         "Rough Terrain": [
+            {pokemon: "Pumpkaboo", min_level: 34, max_level: 34, chance: 20},
             {pokemon: "Foongus", min_level: 34, max_level: 34, chance: 10},
             {pokemon: "Foongus", min_level: 36, max_level: 36, chance: 10},
             {pokemon: "Phantump", min_level: 35, max_level: 35, chance: 10},
-            {pokemon: "Pumpkaboo Average", min_level: 34, max_level: 34, chance: 10},
-            {pokemon: "Pumpkaboo Average", min_level: 35, max_level: 35, chance: 10},
+            {pokemon: "Pumpkaboo", min_level: 35, max_level: 35, chance: 10},
+            {pokemon: "Pumpkaboo (Large)", min_level: 36, max_level: 36, chance: 10},
+            {pokemon: "Pumpkaboo (Small)", min_level: 35, max_level: 35, chance: 10},
+            {pokemon: "Pumpkaboo (Small)", min_level: 36, max_level: 36, chance: 10},
             {pokemon: "Klefki", min_level: 34, max_level: 34, chance: 5},
             {pokemon: "Klefki", min_level: 35, max_level: 35, chance: 4},
-        ],
-        "Super Rod": [
-            {pokemon: "Poliwhirl", min_level: 35, max_level: 35, chance: 60},
-            {pokemon: "Basculin Red Striped", min_level: 35, max_level: 35, chance: 35},
-            {pokemon: "Poliwhirl", min_level: 35, max_level: 35, chance: 5},
-        ],
-        "Surf": [
-            {pokemon: "Lombre", min_level: 34, max_level: 34, chance: 50},
-            {pokemon: "Floatzel", min_level: 34, max_level: 34, chance: 30},
-            {pokemon: "Lombre", min_level: 35, max_level: 35, chance: 15},
-            {pokemon: "Floatzel", min_level: 36, max_level: 36, chance: 4},
-            {pokemon: "Lombre", min_level: 36, max_level: 36, chance: 1},
+            {pokemon: "Pumpkaboo (Super)", min_level: 36, max_level: 36, chance: 1},
         ],
         "Yellow Flowers": [
             {pokemon: "Floatzel", min_level: 35, max_level: 35, chance: 10},
@@ -870,40 +1006,31 @@ export const encounters = {
             {pokemon: "Klefki", min_level: 36, max_level: 36, chance: 1},
         ]
     },
-    "Road 17": {
+    "Route 17": {
         "Rough Terrain": [
+            {pokemon: "Delibird", min_level: 39, max_level: 39, chance: 20},
+            {pokemon: "Snover", min_level: 39, max_level: 39, chance: 20},
             {pokemon: "Delibird", min_level: 38, max_level: 38, chance: 10},
-            {pokemon: "Delibird", min_level: 39, max_level: 39, chance: 10},
             {pokemon: "Delibird", min_level: 40, max_level: 40, chance: 10},
-            {pokemon: "Sneasel", min_level: 39, max_level: 39, chance: 10},
             {pokemon: "Sneasel", min_level: 38, max_level: 38, chance: 10},
+            {pokemon: "Sneasel", min_level: 39, max_level: 39, chance: 10},
             {pokemon: "Snover", min_level: 38, max_level: 38, chance: 10},
-            {pokemon: "Snover", min_level: 39, max_level: 39, chance: 10},
-            {pokemon: "Sneasel", min_level: 40, max_level: 40, chance: 5},
-            {pokemon: "Sneasel", min_level: 40, max_level: 40, chance: 4},
+            {pokemon: "Sneasel", min_level: 40, max_level: 40, chance: 9},
             {pokemon: "Abomasnow", min_level: 40, max_level: 40, chance: 1},
         ]
     },
-    "Road 18": {
-        "Horde": [
-            {pokemon: "Geodude", min_level: 23, max_level: 23, chance: 60},
-            {pokemon: "Durant", min_level: 23, max_level: 23, chance: 35},
-            {pokemon: "Durant", min_level: 23, max_level: 23, chance: 5},
-            {pokemon: "Heatmor", min_level: 23, max_level: 23, chance: 5},
-        ],
-        "Red Flowers": [
+    "Route 18": {
+        "Walk": [
             {pokemon: "Durant", min_level: 44, max_level: 44, chance: 10},
             {pokemon: "Graveler", min_level: 45, max_level: 45, chance: 10},
+            {pokemon: "Gurdurr", min_level: 44, max_level: 44, chance: 10},
+            {pokemon: "Gurdurr", min_level: 45, max_level: 45, chance: 10},
             {pokemon: "Gurdurr", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Lairon", min_level: 44, max_level: 44, chance: 10},
-            {pokemon: "Lairon", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Lairon", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Pupitar", min_level: 44, max_level: 44, chance: 10},
-            {pokemon: "Pupitar", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Pupitar", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Sandslash", min_level: 44, max_level: 44, chance: 10},
-            {pokemon: "Sandslash", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Torkoal", min_level: 46, max_level: 46, chance: 10},
+            {pokemon: "Lairon", min_level: 46, max_level: 46, chance: 10, version: "X"},
+            {pokemon: "Pupitar", min_level: 46, max_level: 46, chance: 10, version: "Y"},
+            {pokemon: "Sandslash", min_level: 46, max_level: 46, chance: 10},
+            {pokemon: "Torkoal", min_level: 44, max_level: 44, chance: 10},
+            {pokemon: "Torkoal", min_level: 45, max_level: 45, chance: 10},
             {pokemon: "Graveler", min_level: 46, max_level: 46, chance: 5},
             {pokemon: "Heatmor", min_level: 45, max_level: 45, chance: 4},
             {pokemon: "Heatmor", min_level: 46, max_level: 46, chance: 1},
@@ -915,37 +1042,56 @@ export const encounters = {
             {pokemon: "Shuckle", min_level: 44, max_level: 44, chance: 4},
             {pokemon: "Shuckle", min_level: 46, max_level: 46, chance: 1},
         ],
-        "Walk": [
+        "Horde": [
+            {pokemon: "Geodude", min_level: 23, max_level: 23, chance: 60},
+            {pokemon: "Durant", min_level: 23, max_level: 23, chance: 39, version: "X"},
+            {pokemon: "Durant", min_level: 23, max_level: 23, chance: 35, version: "Y"},
+            {pokemon: "Durant", min_level: 24, max_level: 24, chance: 4, version: "Y"},
+            {pokemon: "Heatmor", min_level: 23, max_level: 23, chance: 1, version: "X"},
+            {pokemon: "Heatmor", min_level: 24, max_level: 24, chance: 1, version: "Y"},
+        ],
+        "Red Flowers": [
             {pokemon: "Durant", min_level: 44, max_level: 44, chance: 10},
             {pokemon: "Graveler", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Gurdurr", min_level: 44, max_level: 44, chance: 10},
-            {pokemon: "Gurdurr", min_level: 45, max_level: 45, chance: 10},
             {pokemon: "Gurdurr", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Lairon", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Pupitar", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Sandslash", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Torkoal", min_level: 44, max_level: 44, chance: 10},
-            {pokemon: "Torkoal", min_level: 45, max_level: 45, chance: 10},
+            {pokemon: "Lairon", min_level: 44, max_level: 44, chance: 10, version: "X"},
+            {pokemon: "Lairon", min_level: 45, max_level: 45, chance: 10, version: "X"},
+            {pokemon: "Lairon", min_level: 46, max_level: 46, chance: 10, version: "X"},
+            {pokemon: "Pupitar", min_level: 44, max_level: 44, chance: 10, version: "Y"},
+            {pokemon: "Pupitar", min_level: 45, max_level: 45, chance: 10, version: "Y"},
+            {pokemon: "Pupitar", min_level: 46, max_level: 46, chance: 10, version: "Y"},
+            {pokemon: "Sandslash", min_level: 44, max_level: 44, chance: 10},
+            {pokemon: "Sandslash", min_level: 45, max_level: 45, chance: 10},
+            {pokemon: "Torkoal", min_level: 46, max_level: 46, chance: 10},
             {pokemon: "Graveler", min_level: 46, max_level: 46, chance: 5},
             {pokemon: "Heatmor", min_level: 45, max_level: 45, chance: 4},
             {pokemon: "Heatmor", min_level: 46, max_level: 46, chance: 1},
         ]
     },
-    "Road 19": {
+    "Route 19": {
+        "Surf": [
+            {pokemon: "Quagsire", min_level: 46, max_level: 46, chance: 50},
+            {pokemon: "Stunfisk", min_level: 46, max_level: 46, chance: 30},
+            {pokemon: "Sliggoo", min_level: 47, max_level: 47, chance: 15},
+            {pokemon: "Stunfisk", min_level: 48, max_level: 48, chance: 4},
+            {pokemon: "Sliggoo", min_level: 48, max_level: 48, chance: 1},
+        ],
+        "Old Rod": [
+            {pokemon: "Poliwag", min_level: 25, max_level: 25, chance: 100},
+        ],
         "Good Rod": [
-            {pokemon: "Barboach", min_level: 35, max_level: 35, chance: 60},
+            {pokemon: "Barboach", min_level: 35, max_level: 35, chance: 65},
             {pokemon: "Poliwhirl", min_level: 35, max_level: 35, chance: 35},
-            {pokemon: "Barboach", min_level: 35, max_level: 35, chance: 5},
+        ],
+        "Super Rod": [
+            {pokemon: "Poliwhirl", min_level: 45, max_level: 45, chance: 60},
+            {pokemon: "Whiscash", min_level: 45, max_level: 45, chance: 35},
+            {pokemon: "Politoed", min_level: 50, max_level: 50, chance: 5},
         ],
         "Horde": [
             {pokemon: "Weepinbell", min_level: 24, max_level: 24, chance: 60},
             {pokemon: "Gligar", min_level: 24, max_level: 24, chance: 35},
             {pokemon: "Arbok", min_level: 25, max_level: 25, chance: 5},
-        ],
-        "Old Rod": [
-            {pokemon: "Poliwag", min_level: 25, max_level: 25, chance: 60},
-            {pokemon: "Poliwag", min_level: 25, max_level: 25, chance: 35},
-            {pokemon: "Poliwag", min_level: 25, max_level: 25, chance: 5},
         ],
         "Purple Flowers": [
             {pokemon: "Drapion", min_level: 46, max_level: 46, chance: 10},
@@ -975,18 +1121,6 @@ export const encounters = {
             {pokemon: "Carnivine", min_level: 46, max_level: 46, chance: 4},
             {pokemon: "Carnivine", min_level: 48, max_level: 48, chance: 1},
         ],
-        "Super Rod": [
-            {pokemon: "Poliwhirl", min_level: 45, max_level: 45, chance: 60},
-            {pokemon: "Whiscash", min_level: 45, max_level: 45, chance: 35},
-            {pokemon: "Politoed", min_level: 50, max_level: 50, chance: 5},
-        ],
-        "Surf": [
-            {pokemon: "Quagsire", min_level: 46, max_level: 46, chance: 50},
-            {pokemon: "Stunfisk", min_level: 46, max_level: 46, chance: 30},
-            {pokemon: "Sliggoo", min_level: 47, max_level: 47, chance: 15},
-            {pokemon: "Stunfisk", min_level: 48, max_level: 48, chance: 4},
-            {pokemon: "Sliggoo", min_level: 48, max_level: 48, chance: 1},
-        ],
         "Yellow Flowers": [
             {pokemon: "Drapion", min_level: 48, max_level: 48, chance: 10},
             {pokemon: "Karrablast", min_level: 47, max_level: 47, chance: 10},
@@ -1002,30 +1136,25 @@ export const encounters = {
             {pokemon: "Carnivine", min_level: 48, max_level: 48, chance: 1},
         ]
     },
-    "Road 2": {
+    "Route 20": {
         "Walk": [
-            {pokemon: "Bunnelby", min_level: 2, max_level: 2, chance: 10},
-            {pokemon: "Bunnelby", min_level: 3, max_level: 3, chance: 10},
-            {pokemon: "Caterpie", min_level: 3, max_level: 3, chance: 10},
-            {pokemon: "Fletchling", min_level: 2, max_level: 2, chance: 10},
-            {pokemon: "Fletchling", min_level: 3, max_level: 3, chance: 10},
-            {pokemon: "Pidgey", min_level: 3, max_level: 3, chance: 10},
-            {pokemon: "Scatterbug", min_level: 2, max_level: 2, chance: 10},
-            {pokemon: "Scatterbug", min_level: 3, max_level: 3, chance: 10},
-            {pokemon: "Weedle", min_level: 3, max_level: 3, chance: 10},
-            {pokemon: "Zigzagoon", min_level: 3, max_level: 3, chance: 10},
-            {pokemon: "Zigzagoon", min_level: 4, max_level: 4, chance: 5},
-            {pokemon: "Pidgey", min_level: 4, max_level: 4, chance: 4},
-            {pokemon: "Caterpie", min_level: 4, max_level: 4, chance: 1},
-            {pokemon: "Weedle", min_level: 4, max_level: 4, chance: 1},
-        ]
-    },
-    "Road 20": {
+            {pokemon: "Amoonguss", min_level: 48, max_level: 48, chance: 10},
+            {pokemon: "Amoonguss", min_level: 49, max_level: 49, chance: 10},
+            {pokemon: "Gothorita", min_level: 50, max_level: 50, chance: 10},
+            {pokemon: "Jigglypuff", min_level: 48, max_level: 48, chance: 10},
+            {pokemon: "Jigglypuff", min_level: 49, max_level: 49, chance: 10},
+            {pokemon: "Noctowl", min_level: 48, max_level: 48, chance: 10},
+            {pokemon: "Noctowl", min_level: 49, max_level: 49, chance: 10},
+            {pokemon: "Noctowl", min_level: 50, max_level: 50, chance: 10},
+            {pokemon: "Trevenant", min_level: 50, max_level: 50, chance: 10},
+            {pokemon: "Amoonguss", min_level: 50, max_level: 50, chance: 5},
+            {pokemon: "Zoroark", min_level: 48, max_level: 48, chance: 4},
+            {pokemon: "Zoroark", min_level: 50, max_level: 50, chance: 1},
+        ],
         "Horde": [
             {pokemon: "Foongus", min_level: 25, max_level: 25, chance: 60},
-            {pokemon: "Trevenant", min_level: 25, max_level: 25, chance: 35},
-            {pokemon: "Sudowoodo", min_level: 25, max_level: 25, chance: 5},
-            {pokemon: "Trevenant", min_level: 25, max_level: 25, chance: 5},
+            {pokemon: "Trevenant", min_level: 25, max_level: 25, chance: 39},
+            {pokemon: "Sudowoodo", min_level: 25, max_level: 25, chance: 1},
         ],
         "Red Flowers": [
             {pokemon: "Amoonguss", min_level: 48, max_level: 48, chance: 10},
@@ -1040,42 +1169,38 @@ export const encounters = {
             {pokemon: "Amoonguss", min_level: 50, max_level: 50, chance: 5},
             {pokemon: "Zoroark", min_level: 48, max_level: 48, chance: 4},
             {pokemon: "Zoroark", min_level: 50, max_level: 50, chance: 1},
-        ],
-        "Walk": [
-            {pokemon: "Amoonguss", min_level: 48, max_level: 48, chance: 10},
-            {pokemon: "Amoonguss", min_level: 49, max_level: 49, chance: 10},
-            {pokemon: "Gothorita", min_level: 50, max_level: 50, chance: 10},
-            {pokemon: "Jigglypuff", min_level: 48, max_level: 48, chance: 10},
-            {pokemon: "Jigglypuff", min_level: 49, max_level: 49, chance: 10},
-            {pokemon: "Noctowl", min_level: 48, max_level: 48, chance: 10},
-            {pokemon: "Noctowl", min_level: 49, max_level: 49, chance: 10},
-            {pokemon: "Noctowl", min_level: 50, max_level: 50, chance: 10},
-            {pokemon: "Trevenant", min_level: 50, max_level: 50, chance: 10},
-            {pokemon: "Amoonguss", min_level: 50, max_level: 50, chance: 5},
-            {pokemon: "Zoroark", min_level: 48, max_level: 48, chance: 4},
-            {pokemon: "Zoroark", min_level: 50, max_level: 50, chance: 1},
         ]
     },
-    "Road 21": {
+    "Route 21": {
+        "Surf": [
+            {pokemon: "Lombre", min_level: 50, max_level: 50, chance: 50},
+            {pokemon: "Floatzel", min_level: 50, max_level: 50, chance: 30},
+            {pokemon: "Lombre", min_level: 51, max_level: 51, chance: 15},
+            {pokemon: "Floatzel", min_level: 52, max_level: 52, chance: 4},
+            {pokemon: "Lombre", min_level: 52, max_level: 52, chance: 1},
+        ],
+        "Old Rod": [
+            {pokemon: "Poliwag", min_level: 30, max_level: 30, chance: 100},
+        ],
         "Good Rod": [
-            {pokemon: "Basculin Red Striped", min_level: 40, max_level: 40, chance: 60},
+            {pokemon: "Basculin", min_level: 40, max_level: 40, chance: 60},
             {pokemon: "Poliwhirl", min_level: 40, max_level: 40, chance: 35},
             {pokemon: "Dratini", min_level: 40, max_level: 40, chance: 5},
+        ],
+        "Super Rod": [
+            {pokemon: "Poliwhirl", min_level: 50, max_level: 50, chance: 60},
+            {pokemon: "Basculin", min_level: 50, max_level: 50, chance: 35},
+            {pokemon: "Dragonair", min_level: 50, max_level: 50, chance: 5},
         ],
         "Horde": [
             {pokemon: "Spinda", min_level: 26, max_level: 26, chance: 60},
             {pokemon: "Swablu", min_level: 26, max_level: 26, chance: 35},
             {pokemon: "Scyther", min_level: 27, max_level: 27, chance: 5},
         ],
-        "Old Rod": [
-            {pokemon: "Poliwag", min_level: 30, max_level: 30, chance: 60},
-            {pokemon: "Poliwag", min_level: 30, max_level: 30, chance: 35},
-            {pokemon: "Poliwag", min_level: 30, max_level: 30, chance: 5},
-        ],
         "Purple Flowers": [
+            {pokemon: "Floatzel", min_level: 50, max_level: 50, chance: 20},
             {pokemon: "Altaria", min_level: 50, max_level: 50, chance: 10},
             {pokemon: "Altaria", min_level: 51, max_level: 51, chance: 10},
-            {pokemon: "Floatzel", min_level: 50, max_level: 50, chance: 10},
             {pokemon: "Floatzel", min_level: 51, max_level: 51, chance: 10},
             {pokemon: "Floatzel", min_level: 52, max_level: 52, chance: 10},
             {pokemon: "Spinda", min_level: 50, max_level: 50, chance: 10},
@@ -1086,46 +1211,33 @@ export const encounters = {
             {pokemon: "Scyther", min_level: 52, max_level: 52, chance: 1},
         ],
         "Red Flowers": [
+            {pokemon: "Ursaring", min_level: 50, max_level: 50, chance: 20},
             {pokemon: "Altaria", min_level: 50, max_level: 50, chance: 10},
             {pokemon: "Altaria", min_level: 51, max_level: 51, chance: 10},
             {pokemon: "Floatzel", min_level: 52, max_level: 52, chance: 10},
             {pokemon: "Spinda", min_level: 50, max_level: 50, chance: 10},
             {pokemon: "Spinda", min_level: 52, max_level: 52, chance: 10},
-            {pokemon: "Ursaring", min_level: 50, max_level: 50, chance: 10},
             {pokemon: "Ursaring", min_level: 51, max_level: 51, chance: 10},
             {pokemon: "Ursaring", min_level: 52, max_level: 52, chance: 10},
             {pokemon: "Scyther", min_level: 50, max_level: 50, chance: 5},
             {pokemon: "Scyther", min_level: 51, max_level: 51, chance: 4},
             {pokemon: "Scyther", min_level: 52, max_level: 52, chance: 1},
-        ],
-        "Super Rod": [
-            {pokemon: "Poliwhirl", min_level: 50, max_level: 50, chance: 60},
-            {pokemon: "Basculin Red Striped", min_level: 50, max_level: 50, chance: 35},
-            {pokemon: "Dragonair", min_level: 50, max_level: 50, chance: 5},
-        ],
-        "Surf": [
-            {pokemon: "Lombre", min_level: 50, max_level: 50, chance: 50},
-            {pokemon: "Floatzel", min_level: 50, max_level: 50, chance: 30},
-            {pokemon: "Lombre", min_level: 51, max_level: 51, chance: 15},
-            {pokemon: "Floatzel", min_level: 52, max_level: 52, chance: 4},
-            {pokemon: "Lombre", min_level: 52, max_level: 52, chance: 1},
         ]
     },
-    "Road 22": {
-        "Good Rod": [
-            {pokemon: "Goldeen", min_level: 25, max_level: 25, chance: 60},
-            {pokemon: "Carvanha", min_level: 25, max_level: 25, chance: 35},
-            {pokemon: "Goldeen", min_level: 25, max_level: 25, chance: 5},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 15, max_level: 15, chance: 60},
-            {pokemon: "Magikarp", min_level: 15, max_level: 15, chance: 35},
-            {pokemon: "Magikarp", min_level: 15, max_level: 15, chance: 5},
-        ],
-        "Super Rod": [
-            {pokemon: "Gyarados", min_level: 35, max_level: 35, chance: 60},
-            {pokemon: "Seaking", min_level: 35, max_level: 35, chance: 35},
-            {pokemon: "Sharpedo", min_level: 35, max_level: 35, chance: 5},
+    "Route 22": {
+        "Walk": [
+            {pokemon: "Azurill", min_level: 6, max_level: 6, chance: 10},
+            {pokemon: "Azurill", min_level: 7, max_level: 7, chance: 10},
+            {pokemon: "Bidoof", min_level: 6, max_level: 6, chance: 10},
+            {pokemon: "Bunnelby", min_level: 5, max_level: 5, chance: 10},
+            {pokemon: "Bunnelby", min_level: 6, max_level: 6, chance: 10},
+            {pokemon: "Farfetch’d", min_level: 7, max_level: 7, chance: 10},
+            {pokemon: "Litleo", min_level: 5, max_level: 5, chance: 10},
+            {pokemon: "Litleo", min_level: 6, max_level: 6, chance: 10},
+            {pokemon: "Psyduck", min_level: 6, max_level: 6, chance: 10},
+            {pokemon: "Dunsparce", min_level: 7, max_level: 7, chance: 5},
+            {pokemon: "Riolu", min_level: 6, max_level: 6, chance: 4},
+            {pokemon: "Riolu", min_level: 7, max_level: 7, chance: 1},
         ],
         "Surf": [
             {pokemon: "Psyduck", min_level: 25, max_level: 25, chance: 50},
@@ -1134,19 +1246,17 @@ export const encounters = {
             {pokemon: "Azumarill", min_level: 25, max_level: 25, chance: 4},
             {pokemon: "Azumarill", min_level: 27, max_level: 27, chance: 1},
         ],
-        "Walk": [
-            {pokemon: "Azurill", min_level: 6, max_level: 6, chance: 10},
-            {pokemon: "Azurill", min_level: 7, max_level: 7, chance: 10},
-            {pokemon: "Bidoof", min_level: 6, max_level: 6, chance: 10},
-            {pokemon: "Bunnelby", min_level: 5, max_level: 5, chance: 10},
-            {pokemon: "Bunnelby", min_level: 6, max_level: 6, chance: 10},
-            {pokemon: "Farfetch'd", min_level: 7, max_level: 7, chance: 10},
-            {pokemon: "Litleo", min_level: 5, max_level: 5, chance: 10},
-            {pokemon: "Litleo", min_level: 6, max_level: 6, chance: 10},
-            {pokemon: "Psyduck", min_level: 6, max_level: 6, chance: 10},
-            {pokemon: "Dunsparce", min_level: 7, max_level: 7, chance: 5},
-            {pokemon: "Riolu", min_level: 6, max_level: 6, chance: 4},
-            {pokemon: "Riolu", min_level: 7, max_level: 7, chance: 1},
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 15, max_level: 15, chance: 100},
+        ],
+        "Good Rod": [
+            {pokemon: "Goldeen", min_level: 25, max_level: 25, chance: 65},
+            {pokemon: "Carvanha", min_level: 25, max_level: 25, chance: 35},
+        ],
+        "Super Rod": [
+            {pokemon: "Gyarados", min_level: 35, max_level: 35, chance: 60},
+            {pokemon: "Seaking", min_level: 35, max_level: 35, chance: 35},
+            {pokemon: "Sharpedo", min_level: 35, max_level: 35, chance: 5},
         ],
         "Yellow Flowers": [
             {pokemon: "Azumarill", min_level: 25, max_level: 25, chance: 10},
@@ -1154,7 +1264,7 @@ export const encounters = {
             {pokemon: "Bibarel", min_level: 26, max_level: 26, chance: 10},
             {pokemon: "Bibarel", min_level: 27, max_level: 27, chance: 10},
             {pokemon: "Diggersby", min_level: 27, max_level: 27, chance: 10},
-            {pokemon: "Farfetch'd", min_level: 26, max_level: 26, chance: 10},
+            {pokemon: "Farfetch’d", min_level: 26, max_level: 26, chance: 10},
             {pokemon: "Litleo", min_level: 25, max_level: 25, chance: 10},
             {pokemon: "Psyduck", min_level: 25, max_level: 25, chance: 10},
             {pokemon: "Psyduck", min_level: 26, max_level: 26, chance: 10},
@@ -1163,287 +1273,10 @@ export const encounters = {
             {pokemon: "Riolu", min_level: 26, max_level: 26, chance: 1},
         ]
     },
-    "Road 3": {
-        "Good Rod": [
-            {pokemon: "Goldeen", min_level: 25, max_level: 25, chance: 60},
-            {pokemon: "Corphish", min_level: 25, max_level: 25, chance: 35},
-            {pokemon: "Goldeen", min_level: 25, max_level: 25, chance: 5},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 15, max_level: 15, chance: 60},
-            {pokemon: "Magikarp", min_level: 15, max_level: 15, chance: 35},
-            {pokemon: "Magikarp", min_level: 15, max_level: 15, chance: 5},
-        ],
-        "Super Rod": [
-            {pokemon: "Gyarados", min_level: 35, max_level: 35, chance: 60},
-            {pokemon: "Seaking", min_level: 35, max_level: 35, chance: 35},
-            {pokemon: "Crawdaunt", min_level: 35, max_level: 35, chance: 5},
-        ],
-        "Surf": [
-            {pokemon: "Masquerain", min_level: 25, max_level: 25, chance: 50},
-            {pokemon: "Marill", min_level: 25, max_level: 25, chance: 30},
-            {pokemon: "Masquerain", min_level: 26, max_level: 26, chance: 15},
-            {pokemon: "Marill", min_level: 27, max_level: 27, chance: 4},
-            {pokemon: "Masquerain", min_level: 27, max_level: 27, chance: 1},
-        ],
-        "Walk": [
-            {pokemon: "Azurill", min_level: 5, max_level: 5, chance: 10},
-            {pokemon: "Bidoof", min_level: 3, max_level: 3, chance: 10},
-            {pokemon: "Bidoof", min_level: 4, max_level: 4, chance: 10},
-            {pokemon: "Bunnelby", min_level: 3, max_level: 3, chance: 10},
-            {pokemon: "Bunnelby", min_level: 4, max_level: 4, chance: 10},
-            {pokemon: "Burmy", min_level: 5, max_level: 5, chance: 10},
-            {pokemon: "Fletchling", min_level: 3, max_level: 3, chance: 10},
-            {pokemon: "Fletchling", min_level: 5, max_level: 5, chance: 10},
-            {pokemon: "Pidgey", min_level: 4, max_level: 4, chance: 10},
-            {pokemon: "Dunsparce", min_level: 5, max_level: 5, chance: 5},
-            {pokemon: "Pikachu", min_level: 4, max_level: 4, chance: 4},
-            {pokemon: "Pikachu", min_level: 5, max_level: 5, chance: 1},
-        ]
-    },
-    "Road 4": {
-        "Red Flowers": [
-            {pokemon: "Budew", min_level: 8, max_level: 8, chance: 10},
-            {pokemon: "Combee", min_level: 8, max_level: 8, chance: 10},
-            {pokemon: "Flabébé", min_level: 6, max_level: 6, chance: 10},
-            {pokemon: "Flabébé", min_level: 7, max_level: 7, chance: 10},
-            {pokemon: "Flabébé", min_level: 8, max_level: 8, chance: 10},
-            {pokemon: "Ledyba", min_level: 6, max_level: 6, chance: 10},
-            {pokemon: "Ledyba", min_level: 7, max_level: 7, chance: 10},
-            {pokemon: "Ledyba", min_level: 8, max_level: 8, chance: 10},
-            {pokemon: "Skitty", min_level: 8, max_level: 8, chance: 10},
-            {pokemon: "Ralts", min_level: 8, max_level: 8, chance: 5},
-            {pokemon: "Flabébé", min_level: 7, max_level: 7, chance: 4},
-            {pokemon: "Flabébé", min_level: 8, max_level: 8, chance: 1},
-        ],
-        "Yellow Flowers": [
-            {pokemon: "Budew", min_level: 8, max_level: 8, chance: 10},
-            {pokemon: "Combee", min_level: 6, max_level: 6, chance: 10},
-            {pokemon: "Combee", min_level: 7, max_level: 7, chance: 10},
-            {pokemon: "Combee", min_level: 8, max_level: 8, chance: 10},
-            {pokemon: "Flabébé", min_level: 6, max_level: 6, chance: 10},
-            {pokemon: "Flabébé", min_level: 7, max_level: 7, chance: 10},
-            {pokemon: "Flabébé", min_level: 8, max_level: 8, chance: 10},
-            {pokemon: "Ledyba", min_level: 8, max_level: 8, chance: 10},
-            {pokemon: "Skitty", min_level: 8, max_level: 8, chance: 10},
-            {pokemon: "Ralts", min_level: 8, max_level: 8, chance: 5},
-            {pokemon: "Flabébé", min_level: 7, max_level: 7, chance: 4},
-            {pokemon: "Flabébé", min_level: 8, max_level: 8, chance: 1},
-        ]
-    },
-    "Road 5": {
-        "Horde": [
-            {pokemon: "Gulpin", min_level: 5, max_level: 5, chance: 60},
-            {pokemon: "Scraggy", min_level: 5, max_level: 5, chance: 35},
-            {pokemon: "Minun", min_level: 6, max_level: 6, chance: 5},
-            {pokemon: "Plusle", min_level: 6, max_level: 6, chance: 5},
-        ],
-        "Purple Flowers": [
-            {pokemon: "Bunnelby", min_level: 10, max_level: 10, chance: 10},
-            {pokemon: "Doduo", min_level: 10, max_level: 10, chance: 10},
-            {pokemon: "Furfrou", min_level: 10, max_level: 10, chance: 10},
-            {pokemon: "Gulpin", min_level: 10, max_level: 10, chance: 10},
-            {pokemon: "Pancham", min_level: 8, max_level: 8, chance: 10},
-            {pokemon: "Pancham", min_level: 9, max_level: 9, chance: 10},
-            {pokemon: "Skiddo", min_level: 8, max_level: 8, chance: 10},
-            {pokemon: "Skiddo", min_level: 9, max_level: 9, chance: 10},
-            {pokemon: "Skiddo", min_level: 10, max_level: 10, chance: 10},
-            {pokemon: "Abra", min_level: 10, max_level: 10, chance: 5},
-            {pokemon: "Minun", min_level: 9, max_level: 9, chance: 4},
-            {pokemon: "Plusle", min_level: 9, max_level: 9, chance: 4},
-            {pokemon: "Minun", min_level: 10, max_level: 10, chance: 1},
-            {pokemon: "Plusle", min_level: 10, max_level: 10, chance: 1},
-        ],
-        "Walk": [
-            {pokemon: "Bunnelby", min_level: 8, max_level: 8, chance: 10},
-            {pokemon: "Bunnelby", min_level: 9, max_level: 9, chance: 10},
-            {pokemon: "Bunnelby", min_level: 10, max_level: 10, chance: 10},
-            {pokemon: "Doduo", min_level: 10, max_level: 10, chance: 10},
-            {pokemon: "Furfrou", min_level: 8, max_level: 8, chance: 10},
-            {pokemon: "Furfrou", min_level: 9, max_level: 9, chance: 10},
-            {pokemon: "Gulpin", min_level: 10, max_level: 10, chance: 10},
-            {pokemon: "Pancham", min_level: 10, max_level: 10, chance: 10},
-            {pokemon: "Skiddo", min_level: 10, max_level: 10, chance: 10},
-            {pokemon: "Abra", min_level: 10, max_level: 10, chance: 5},
-            {pokemon: "Minun", min_level: 9, max_level: 9, chance: 4},
-            {pokemon: "Plusle", min_level: 9, max_level: 9, chance: 4},
-            {pokemon: "Minun", min_level: 10, max_level: 10, chance: 1},
-            {pokemon: "Plusle", min_level: 10, max_level: 10, chance: 1},
-        ]
-    },
-    "Road 6": {
-        "Rough Terrain": [
-            {pokemon: "Espurr", min_level: 11, max_level: 11, chance: 10},
-            {pokemon: "Espurr", min_level: 12, max_level: 12, chance: 10},
-            {pokemon: "Honedge", min_level: 11, max_level: 11, chance: 10},
-            {pokemon: "Nincada", min_level: 12, max_level: 12, chance: 10},
-            {pokemon: "Oddish", min_level: 10, max_level: 10, chance: 10},
-            {pokemon: "Oddish", min_level: 11, max_level: 11, chance: 10},
-            {pokemon: "Oddish", min_level: 12, max_level: 12, chance: 10},
-            {pokemon: "Sentret", min_level: 10, max_level: 10, chance: 10},
-            {pokemon: "Sentret", min_level: 11, max_level: 11, chance: 10},
-            {pokemon: "Honedge", min_level: 12, max_level: 12, chance: 5},
-            {pokemon: "Kecleon", min_level: 11, max_level: 11, chance: 4},
-            {pokemon: "Kecleon", min_level: 12, max_level: 12, chance: 1},
-        ]
-    },
-    "Road 7": {
-        "Horde": [
-            {pokemon: "Hoppip", min_level: 7, max_level: 7, chance: 60},
-            {pokemon: "Psyduck", min_level: 7, max_level: 7, chance: 35},
-            {pokemon: "Roselia", min_level: 8, max_level: 8, chance: 5},
-        ],
-        "Purple Flowers": [
-            {pokemon: "Ducklett", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Flabébé", min_level: 12, max_level: 12, chance: 10},
-            {pokemon: "Flabébé", min_level: 13, max_level: 13, chance: 10},
-            {pokemon: "Flabébé", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Illumise", min_level: 13, max_level: 13, chance: 10},
-            {pokemon: "Roselia", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Smeargle", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Spritzee", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Swirlix", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Volbeat", min_level: 13, max_level: 13, chance: 10},
-            {pokemon: "Croagunk", min_level: 14, max_level: 14, chance: 5},
-            {pokemon: "Flabébé", min_level: 13, max_level: 13, chance: 4},
-            {pokemon: "Flabébé", min_level: 14, max_level: 14, chance: 1},
-        ],
-        "Static": [
-            {pokemon: "Snorlax", min_level: 15, max_level: 15, chance: 100},
-        ],
-        "Walk": [
-            {pokemon: "Croagunk", min_level: 12, max_level: 12, chance: 10},
-            {pokemon: "Croagunk", min_level: 13, max_level: 13, chance: 10},
-            {pokemon: "Croagunk", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Ducklett", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Illumise", min_level: 13, max_level: 13, chance: 10},
-            {pokemon: "Roselia", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Smeargle", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Spritzee", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Swirlix", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Volbeat", min_level: 13, max_level: 13, chance: 10},
-            {pokemon: "Croagunk", min_level: 14, max_level: 14, chance: 5},
-            {pokemon: "Flabébé", min_level: 13, max_level: 13, chance: 4},
-            {pokemon: "Flabébé", min_level: 14, max_level: 14, chance: 1},
-        ],
-        "Yellow Flowers": [
-            {pokemon: "Ducklett", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Flabébé", min_level: 12, max_level: 12, chance: 10},
-            {pokemon: "Flabébé", min_level: 13, max_level: 13, chance: 10},
-            {pokemon: "Flabébé", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Illumise", min_level: 13, max_level: 13, chance: 10},
-            {pokemon: "Roselia", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Smeargle", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Spritzee", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Swirlix", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Volbeat", min_level: 13, max_level: 13, chance: 10},
-            {pokemon: "Croagunk", min_level: 14, max_level: 14, chance: 5},
-            {pokemon: "Flabébé", min_level: 13, max_level: 13, chance: 4},
-            {pokemon: "Flabébé", min_level: 14, max_level: 14, chance: 1},
-        ]
-    },
-    "Road 8": {
-        "Good Rod": [
-            {pokemon: "Clauncher", min_level: 25, max_level: 25, chance: 60},
-            {pokemon: "Skrelp", min_level: 25, max_level: 25, chance: 60},
-            {pokemon: "Shellder", min_level: 25, max_level: 25, chance: 35},
-            {pokemon: "Staryu", min_level: 25, max_level: 25, chance: 35},
-            {pokemon: "Clauncher", min_level: 25, max_level: 25, chance: 5},
-            {pokemon: "Skrelp", min_level: 25, max_level: 25, chance: 5},
-        ],
-        "Horde": [
-            {pokemon: "Wingull", min_level: 7, max_level: 7, chance: 60},
-            {pokemon: "Seviper", min_level: 8, max_level: 8, chance: 35},
-            {pokemon: "Zangoose", min_level: 8, max_level: 8, chance: 35},
-            {pokemon: "Taillow", min_level: 7, max_level: 7, chance: 5},
-        ],
-        "Old Rod": [
-            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 60},
-            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 35},
-            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 5},
-        ],
-        "Rock Smash": [
-            {pokemon: "Dwebble", min_level: 18, max_level: 18, chance: 50},
-            {pokemon: "Dwebble", min_level: 13, max_level: 13, chance: 50},
-            {pokemon: "Binacle", min_level: 18, max_level: 18, chance: 30},
-            {pokemon: "Binacle", min_level: 13, max_level: 13, chance: 30},
-            {pokemon: "Dwebble", min_level: 19, max_level: 19, chance: 15},
-            {pokemon: "Dwebble", min_level: 14, max_level: 14, chance: 15},
-            {pokemon: "Binacle", min_level: 20, max_level: 20, chance: 4},
-            {pokemon: "Binacle", min_level: 15, max_level: 15, chance: 4},
-            {pokemon: "Dwebble", min_level: 20, max_level: 20, chance: 1},
-            {pokemon: "Dwebble", min_level: 15, max_level: 15, chance: 1},
-        ],
-        "Super Rod": [
-            {pokemon: "Qwilfish", min_level: 35, max_level: 35, chance: 60},
-            {pokemon: "Clawitzer", min_level: 35, max_level: 35, chance: 35},
-            {pokemon: "Dragalge", min_level: 35, max_level: 35, chance: 35},
-            {pokemon: "Cloyster", min_level: 35, max_level: 35, chance: 5},
-            {pokemon: "Starmie", min_level: 35, max_level: 35, chance: 5},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 25, max_level: 25, chance: 50},
-            {pokemon: "Wailmer", min_level: 25, max_level: 25, chance: 30},
-            {pokemon: "Tentacool", min_level: 26, max_level: 26, chance: 15},
-            {pokemon: "Tentacool", min_level: 27, max_level: 27, chance: 4},
-            {pokemon: "Wailmer", min_level: 27, max_level: 27, chance: 1},
-        ],
-        "Walk": [
-            {pokemon: "Absol", min_level: 15, max_level: 15, chance: 10},
-            {pokemon: "Drifloon", min_level: 13, max_level: 13, chance: 10},
-            {pokemon: "Drifloon", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Drifloon", min_level: 15, max_level: 15, chance: 10},
-            {pokemon: "Inkay", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Mienfoo", min_level: 15, max_level: 15, chance: 10},
-            {pokemon: "Seviper", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Spoink", min_level: 13, max_level: 13, chance: 10},
-            {pokemon: "Spoink", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Zangoose", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Inkay", min_level: 15, max_level: 15, chance: 5},
-            {pokemon: "Bagon", min_level: 14, max_level: 14, chance: 4},
-            {pokemon: "Bagon", min_level: 15, max_level: 15, chance: 1},
-        ],
-        "Yellow Flowers": [
-            {pokemon: "Absol", min_level: 13, max_level: 13, chance: 10},
-            {pokemon: "Absol", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Drifloon", min_level: 15, max_level: 15, chance: 10},
-            {pokemon: "Inkay", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Mienfoo", min_level: 13, max_level: 13, chance: 10},
-            {pokemon: "Mienfoo", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Mienfoo", min_level: 15, max_level: 15, chance: 10},
-            {pokemon: "Seviper", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Spoink", min_level: 15, max_level: 15, chance: 10},
-            {pokemon: "Zangoose", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Inkay", min_level: 15, max_level: 15, chance: 5},
-            {pokemon: "Bagon", min_level: 14, max_level: 14, chance: 4},
-            {pokemon: "Bagon", min_level: 15, max_level: 15, chance: 1},
-        ]
-    },
-    "Road 9": {
-        "Rough Terrain": [
-            {pokemon: "Helioptile", min_level: 15, max_level: 15, chance: 10},
-            {pokemon: "Hippopotas", min_level: 15, max_level: 15, chance: 10},
-            {pokemon: "Hippopotas", min_level: 16, max_level: 16, chance: 10},
-            {pokemon: "Hippopotas", min_level: 17, max_level: 17, chance: 10},
-            {pokemon: "Sandile", min_level: 15, max_level: 15, chance: 10},
-            {pokemon: "Sandile", min_level: 16, max_level: 16, chance: 10},
-            {pokemon: "Sandile", min_level: 17, max_level: 17, chance: 10},
-            {pokemon: "Helioptile", min_level: 16, max_level: 16, chance: 5},
-            {pokemon: "Helioptile", min_level: 16, max_level: 16, chance: 4},
-            {pokemon: "Helioptile", min_level: 17, max_level: 17, chance: 1},
-        ]
-    },
-    "Roaming Kalos": {
-        "Static": [
-            {pokemon: "Articuno", min_level: 70, max_level: 70, chance: 100},
-            {pokemon: "Moltres", min_level: 70, max_level: 70, chance: 100},
-            {pokemon: "Zapdos", min_level: 70, max_level: 70, chance: 100},
-        ]
-    },
     "Santalune Forest": {
         "Walk": [
             {pokemon: "Caterpie", min_level: 2, max_level: 2, chance: 10},
-            {pokemon: "Caterpie", min_level: 3, max_level: 3, chance: 10},
+            {pokemon: "Caterpie", min_level: 3, max_level: 3, chance: 10, version: "Y"},
             {pokemon: "Fletchling", min_level: 4, max_level: 4, chance: 10},
             {pokemon: "Panpour", min_level: 4, max_level: 4, chance: 10},
             {pokemon: "Pansage", min_level: 4, max_level: 4, chance: 10},
@@ -1451,14 +1284,14 @@ export const encounters = {
             {pokemon: "Scatterbug", min_level: 2, max_level: 2, chance: 10},
             {pokemon: "Scatterbug", min_level: 3, max_level: 3, chance: 10},
             {pokemon: "Weedle", min_level: 2, max_level: 2, chance: 10},
-            {pokemon: "Weedle", min_level: 3, max_level: 3, chance: 10},
+            {pokemon: "Weedle", min_level: 3, max_level: 3, chance: 10, version: "X"},
             {pokemon: "Pikachu", min_level: 3, max_level: 3, chance: 5},
-            {pokemon: "Kakuna", min_level: 4, max_level: 4, chance: 4},
-            {pokemon: "Metapod", min_level: 4, max_level: 4, chance: 4},
+            {pokemon: "Kakuna", min_level: 4, max_level: 4, chance: 4, version: "X"},
+            {pokemon: "Metapod", min_level: 4, max_level: 4, chance: 4, version: "Y"},
             {pokemon: "Pikachu", min_level: 4, max_level: 4, chance: 1},
         ]
     },
-    "Sea Spirit’s Den": {
+    "Sea Spirit's Den": {
         "Static": [
             {pokemon: "Articuno", min_level: 70, max_level: 70, chance: 100},
             {pokemon: "Moltres", min_level: 70, max_level: 70, chance: 100},
@@ -1466,27 +1299,23 @@ export const encounters = {
         ]
     },
     "Shalour City": {
-        "Good Rod": [
-            {pokemon: "Remoraid", min_level: 25, max_level: 25, chance: 60},
-            {pokemon: "Chinchou", min_level: 25, max_level: 25, chance: 35},
-            {pokemon: "Remoraid", min_level: 25, max_level: 25, chance: 5},
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 25, max_level: 25, chance: 50},
+            {pokemon: "Tentacool", min_level: 26, max_level: 26, chance: 30},
+            {pokemon: "Mantyke", min_level: 27, max_level: 27, chance: 16},
+            {pokemon: "Tentacool", min_level: 27, max_level: 27, chance: 4},
         ],
         "Old Rod": [
-            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 60},
-            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 35},
-            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 5},
+            {pokemon: "Luvdisc", min_level: 15, max_level: 15, chance: 100},
+        ],
+        "Good Rod": [
+            {pokemon: "Remoraid", min_level: 25, max_level: 25, chance: 65},
+            {pokemon: "Chinchou", min_level: 25, max_level: 25, chance: 35},
         ],
         "Super Rod": [
             {pokemon: "Alomomola", min_level: 35, max_level: 35, chance: 60},
             {pokemon: "Octillery", min_level: 35, max_level: 35, chance: 35},
             {pokemon: "Lanturn", min_level: 35, max_level: 35, chance: 5},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 25, max_level: 25, chance: 50},
-            {pokemon: "Tentacool", min_level: 26, max_level: 26, chance: 30},
-            {pokemon: "Mantyke", min_level: 27, max_level: 27, chance: 15},
-            {pokemon: "Tentacool", min_level: 27, max_level: 27, chance: 4},
-            {pokemon: "Mantyke", min_level: 27, max_level: 27, chance: 1},
         ]
     },
     "Team Flare Secret HQ": {
@@ -1495,12 +1324,20 @@ export const encounters = {
             {pokemon: "Yveltal", min_level: 50, max_level: 50, chance: 100},
         ]
     },
-    "Terminus Cave (unknown area 343)": {
-        "Horde": [
-            {pokemon: "Durant", min_level: 23, max_level: 23, chance: 60},
-            {pokemon: "Geodude", min_level: 23, max_level: 23, chance: 35},
-            {pokemon: "Aron", min_level: 24, max_level: 24, chance: 5},
-            {pokemon: "Larvitar", min_level: 24, max_level: 24, chance: 5},
+    "Terminus Cave (Area 1)": {
+        "Walk": [
+            {pokemon: "Durant", min_level: 44, max_level: 44, chance: 20},
+            {pokemon: "Durant", min_level: 45, max_level: 45, chance: 10},
+            {pokemon: "Durant", min_level: 46, max_level: 46, chance: 10},
+            {pokemon: "Graveler", min_level: 44, max_level: 44, chance: 10},
+            {pokemon: "Lairon", min_level: 45, max_level: 45, chance: 10, version: "X"},
+            {pokemon: "Lairon", min_level: 46, max_level: 46, chance: 10, version: "X"},
+            {pokemon: "Pupitar", min_level: 45, max_level: 45, chance: 10, version: "Y"},
+            {pokemon: "Pupitar", min_level: 46, max_level: 46, chance: 10, version: "Y"},
+            {pokemon: "Sandslash", min_level: 45, max_level: 45, chance: 10},
+            {pokemon: "Sandslash", min_level: 46, max_level: 46, chance: 10},
+            {pokemon: "Graveler", min_level: 45, max_level: 45, chance: 5},
+            {pokemon: "Graveler", min_level: 46, max_level: 46, chance: 5},
         ],
         "Rock Smash": [
             {pokemon: "Graveler", min_level: 44, max_level: 44, chance: 50},
@@ -1509,129 +1346,38 @@ export const encounters = {
             {pokemon: "Shuckle", min_level: 44, max_level: 44, chance: 4},
             {pokemon: "Shuckle", min_level: 46, max_level: 46, chance: 1},
         ],
-        "Walk": [
-            {pokemon: "Durant", min_level: 44, max_level: 44, chance: 10},
-            {pokemon: "Durant", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Durant", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Graveler", min_level: 44, max_level: 44, chance: 10},
-            {pokemon: "Lairon", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Lairon", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Pupitar", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Pupitar", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Sandslash", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Sandslash", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Graveler", min_level: 45, max_level: 45, chance: 5},
-            {pokemon: "Graveler", min_level: 46, max_level: 46, chance: 4},
-            {pokemon: "Graveler", min_level: 46, max_level: 46, chance: 1},
-        ]
-    },
-    "Terminus Cave (unknown area 344)": {
         "Horde": [
             {pokemon: "Durant", min_level: 23, max_level: 23, chance: 60},
             {pokemon: "Geodude", min_level: 23, max_level: 23, chance: 35},
-            {pokemon: "Aron", min_level: 24, max_level: 24, chance: 5},
-            {pokemon: "Larvitar", min_level: 24, max_level: 24, chance: 5},
-        ],
-        "Rock Smash": [
-            {pokemon: "Graveler", min_level: 44, max_level: 44, chance: 50},
-            {pokemon: "Graveler", min_level: 45, max_level: 45, chance: 30},
-            {pokemon: "Graveler", min_level: 46, max_level: 46, chance: 15},
-            {pokemon: "Shuckle", min_level: 44, max_level: 44, chance: 4},
-            {pokemon: "Shuckle", min_level: 46, max_level: 46, chance: 1},
-        ],
+            {pokemon: "Aron", min_level: 24, max_level: 24, chance: 5, version: "X"},
+            {pokemon: "Larvitar", min_level: 24, max_level: 24, chance: 5, version: "Y"},
+        ]
+    },
+    "Terminus Cave (Area 2)": {
         "Walk": [
-            {pokemon: "Durant", min_level: 44, max_level: 44, chance: 10},
+            {pokemon: "Durant", min_level: 44, max_level: 44, chance: 20},
             {pokemon: "Durant", min_level: 45, max_level: 45, chance: 10},
             {pokemon: "Durant", min_level: 46, max_level: 46, chance: 10},
             {pokemon: "Graveler", min_level: 44, max_level: 44, chance: 10},
-            {pokemon: "Lairon", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Lairon", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Pupitar", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Pupitar", min_level: 46, max_level: 46, chance: 10},
+            {pokemon: "Lairon", min_level: 45, max_level: 45, chance: 10, version: "X"},
+            {pokemon: "Lairon", min_level: 46, max_level: 46, chance: 10, version: "X"},
+            {pokemon: "Pupitar", min_level: 45, max_level: 45, chance: 10, version: "Y"},
+            {pokemon: "Pupitar", min_level: 46, max_level: 46, chance: 10, version: "Y"},
             {pokemon: "Sandslash", min_level: 45, max_level: 45, chance: 10},
             {pokemon: "Sandslash", min_level: 46, max_level: 46, chance: 10},
             {pokemon: "Graveler", min_level: 45, max_level: 45, chance: 5},
-            {pokemon: "Graveler", min_level: 46, max_level: 46, chance: 4},
-            {pokemon: "Graveler", min_level: 46, max_level: 46, chance: 1},
-        ]
-    },
-    "Terminus Cave (unknown area 345)": {
+            {pokemon: "Graveler", min_level: 46, max_level: 46, chance: 5},
+        ],
         "Horde": [
             {pokemon: "Durant", min_level: 23, max_level: 23, chance: 60},
             {pokemon: "Geodude", min_level: 23, max_level: 23, chance: 35},
-            {pokemon: "Aron", min_level: 24, max_level: 24, chance: 5},
-            {pokemon: "Larvitar", min_level: 24, max_level: 24, chance: 5},
-        ],
-        "Rock Smash": [
-            {pokemon: "Graveler", min_level: 44, max_level: 44, chance: 50},
-            {pokemon: "Graveler", min_level: 45, max_level: 45, chance: 30},
-            {pokemon: "Graveler", min_level: 46, max_level: 46, chance: 15},
-            {pokemon: "Shuckle", min_level: 44, max_level: 44, chance: 4},
-            {pokemon: "Shuckle", min_level: 46, max_level: 46, chance: 1},
-        ],
-        "Walk": [
-            {pokemon: "Durant", min_level: 44, max_level: 44, chance: 10},
-            {pokemon: "Durant", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Durant", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Graveler", min_level: 44, max_level: 44, chance: 10},
-            {pokemon: "Lairon", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Lairon", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Pupitar", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Pupitar", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Sandslash", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Sandslash", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Graveler", min_level: 45, max_level: 45, chance: 5},
-            {pokemon: "Graveler", min_level: 46, max_level: 46, chance: 4},
-            {pokemon: "Graveler", min_level: 46, max_level: 46, chance: 1},
+            {pokemon: "Aron", min_level: 24, max_level: 24, chance: 5, version: "X"},
+            {pokemon: "Larvitar", min_level: 24, max_level: 24, chance: 5, version: "Y"},
         ]
     },
-    "Terminus Cave (unknown area 347)": {
-        "Horde": [
-            {pokemon: "Durant", min_level: 23, max_level: 23, chance: 60},
-            {pokemon: "Geodude", min_level: 23, max_level: 23, chance: 35},
-            {pokemon: "Aron", min_level: 24, max_level: 24, chance: 5},
-            {pokemon: "Larvitar", min_level: 24, max_level: 24, chance: 5},
-        ],
-        "Walk": [
-            {pokemon: "Durant", min_level: 44, max_level: 44, chance: 10},
-            {pokemon: "Durant", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Durant", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Graveler", min_level: 44, max_level: 44, chance: 10},
-            {pokemon: "Lairon", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Lairon", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Pupitar", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Pupitar", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Sandslash", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Sandslash", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Graveler", min_level: 45, max_level: 45, chance: 5},
-            {pokemon: "Graveler", min_level: 46, max_level: 46, chance: 4},
-            {pokemon: "Graveler", min_level: 46, max_level: 46, chance: 1},
-        ]
-    },
-    "Terminus Cave (unknown area 348)": {
-        "Horde": [
-            {pokemon: "Durant", min_level: 23, max_level: 23, chance: 60},
-            {pokemon: "Geodude", min_level: 23, max_level: 23, chance: 35},
-            {pokemon: "Aron", min_level: 24, max_level: 24, chance: 5},
-            {pokemon: "Larvitar", min_level: 24, max_level: 24, chance: 5},
-        ],
+    "Terminus Cave (Zygarde's Chamber)": {
         "Static": [
-            {pokemon: "Zygarde 50", min_level: 70, max_level: 70, chance: 100},
-        ],
-        "Walk": [
-            {pokemon: "Durant", min_level: 44, max_level: 44, chance: 10},
-            {pokemon: "Durant", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Durant", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Graveler", min_level: 44, max_level: 44, chance: 10},
-            {pokemon: "Lairon", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Lairon", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Pupitar", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Pupitar", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Sandslash", min_level: 45, max_level: 45, chance: 10},
-            {pokemon: "Sandslash", min_level: 46, max_level: 46, chance: 10},
-            {pokemon: "Graveler", min_level: 45, max_level: 45, chance: 5},
-            {pokemon: "Graveler", min_level: 46, max_level: 46, chance: 4},
-            {pokemon: "Graveler", min_level: 46, max_level: 46, chance: 1},
+            {pokemon: "Zygarde", min_level: 70, max_level: 70, chance: 100},
         ]
     },
     "Tower of Mastery": {
@@ -1644,33 +1390,19 @@ export const encounters = {
             {pokemon: "Mewtwo", min_level: 70, max_level: 70, chance: 100},
         ]
     },
-    "Victory Road (unknown area 322)": {
-        "Good Rod": [
-            {pokemon: "Basculin Red Striped", min_level: 45, max_level: 45, chance: 60},
-            {pokemon: "Poliwhirl", min_level: 45, max_level: 45, chance: 35},
-            {pokemon: "Basculin Red Striped", min_level: 45, max_level: 45, chance: 5},
-        ],
-        "Horde": [
-            {pokemon: "Geodude", min_level: 28, max_level: 28, chance: 60},
-            {pokemon: "Floatzel", min_level: 29, max_level: 29, chance: 35},
-            {pokemon: "Lickitung", min_level: 30, max_level: 30, chance: 5},
-        ],
-        "Old Rod": [
-            {pokemon: "Poliwag", min_level: 35, max_level: 35, chance: 60},
-            {pokemon: "Poliwag", min_level: 35, max_level: 35, chance: 35},
-            {pokemon: "Poliwag", min_level: 35, max_level: 35, chance: 5},
-        ],
-        "Rock Smash": [
-            {pokemon: "Graveler", min_level: 57, max_level: 57, chance: 50},
-            {pokemon: "Graveler", min_level: 58, max_level: 58, chance: 30},
-            {pokemon: "Graveler", min_level: 59, max_level: 59, chance: 15},
-            {pokemon: "Shuckle", min_level: 57, max_level: 57, chance: 4},
-            {pokemon: "Shuckle", min_level: 59, max_level: 59, chance: 1},
-        ],
-        "Super Rod": [
-            {pokemon: "Poliwhirl", min_level: 55, max_level: 55, chance: 60},
-            {pokemon: "Basculin Red Striped", min_level: 55, max_level: 55, chance: 35},
-            {pokemon: "Poliwhirl", min_level: 55, max_level: 55, chance: 5},
+    "Victory Road (Area 1)": {
+        "Walk": [
+            {pokemon: "Druddigon", min_level: 58, max_level: 58, chance: 10},
+            {pokemon: "Druddigon", min_level: 59, max_level: 59, chance: 10},
+            {pokemon: "Graveler", min_level: 57, max_level: 57, chance: 10},
+            {pokemon: "Graveler", min_level: 58, max_level: 58, chance: 10},
+            {pokemon: "Gurdurr", min_level: 57, max_level: 57, chance: 10},
+            {pokemon: "Gurdurr", min_level: 58, max_level: 58, chance: 10},
+            {pokemon: "Gurdurr", min_level: 59, max_level: 59, chance: 10},
+            {pokemon: "Haunter", min_level: 58, max_level: 58, chance: 10},
+            {pokemon: "Lickitung", min_level: 58, max_level: 58, chance: 10},
+            {pokemon: "Lickitung", min_level: 59, max_level: 59, chance: 5},
+            {pokemon: "Zweilous", min_level: 59, max_level: 59, chance: 5},
         ],
         "Surf": [
             {pokemon: "Poliwhirl", min_level: 57, max_level: 57, chance: 50},
@@ -1679,26 +1411,18 @@ export const encounters = {
             {pokemon: "Floatzel", min_level: 59, max_level: 59, chance: 4},
             {pokemon: "Poliwhirl", min_level: 59, max_level: 59, chance: 1},
         ],
-        "Walk": [
-            {pokemon: "Druddigon", min_level: 58, max_level: 58, chance: 10},
-            {pokemon: "Druddigon", min_level: 59, max_level: 59, chance: 10},
-            {pokemon: "Graveler", min_level: 57, max_level: 57, chance: 10},
-            {pokemon: "Graveler", min_level: 58, max_level: 58, chance: 10},
-            {pokemon: "Gurdurr", min_level: 57, max_level: 57, chance: 10},
-            {pokemon: "Gurdurr", min_level: 58, max_level: 58, chance: 10},
-            {pokemon: "Gurdurr", min_level: 59, max_level: 59, chance: 10},
-            {pokemon: "Haunter", min_level: 58, max_level: 58, chance: 10},
-            {pokemon: "Lickitung", min_level: 58, max_level: 58, chance: 10},
-            {pokemon: "Lickitung", min_level: 59, max_level: 59, chance: 5},
-            {pokemon: "Zweilous", min_level: 59, max_level: 59, chance: 4},
-            {pokemon: "Zweilous", min_level: 59, max_level: 59, chance: 1},
-        ]
-    },
-    "Victory Road (unknown area 324)": {
-        "Horde": [
-            {pokemon: "Geodude", min_level: 28, max_level: 28, chance: 60},
-            {pokemon: "Graveler", min_level: 29, max_level: 29, chance: 35},
-            {pokemon: "Lickitung", min_level: 30, max_level: 30, chance: 5},
+        "Old Rod": [
+            {pokemon: "Poliwag", min_level: 35, max_level: 35, chance: 100},
+        ],
+        "Good Rod": [
+            {pokemon: "Basculin", min_level: 45, max_level: 45, chance: 65, version: "Y"},
+            {pokemon: "Basculin (Blue Striped)", min_level: 45, max_level: 45, chance: 65, version: "X"},
+            {pokemon: "Poliwhirl", min_level: 45, max_level: 45, chance: 35},
+        ],
+        "Super Rod": [
+            {pokemon: "Poliwhirl", min_level: 55, max_level: 55, chance: 65},
+            {pokemon: "Basculin", min_level: 55, max_level: 55, chance: 35, version: "X"},
+            {pokemon: "Basculin (Blue Striped)", min_level: 55, max_level: 55, chance: 35, version: "Y"},
         ],
         "Rock Smash": [
             {pokemon: "Graveler", min_level: 57, max_level: 57, chance: 50},
@@ -1707,6 +1431,13 @@ export const encounters = {
             {pokemon: "Shuckle", min_level: 57, max_level: 57, chance: 4},
             {pokemon: "Shuckle", min_level: 59, max_level: 59, chance: 1},
         ],
+        "Horde": [
+            {pokemon: "Geodude", min_level: 28, max_level: 28, chance: 60},
+            {pokemon: "Floatzel", min_level: 29, max_level: 29, chance: 35},
+            {pokemon: "Lickitung", min_level: 30, max_level: 30, chance: 5},
+        ]
+    },
+    "Victory Road (Area 2)": {
         "Walk": [
             {pokemon: "Druddigon", min_level: 58, max_level: 58, chance: 10},
             {pokemon: "Druddigon", min_level: 59, max_level: 59, chance: 10},
@@ -1718,16 +1449,22 @@ export const encounters = {
             {pokemon: "Haunter", min_level: 58, max_level: 58, chance: 10},
             {pokemon: "Lickitung", min_level: 58, max_level: 58, chance: 10},
             {pokemon: "Lickitung", min_level: 59, max_level: 59, chance: 5},
-            {pokemon: "Zweilous", min_level: 59, max_level: 59, chance: 4},
-            {pokemon: "Zweilous", min_level: 59, max_level: 59, chance: 1},
-        ]
-    },
-    "Victory Road (unknown area 326)": {
+            {pokemon: "Zweilous", min_level: 59, max_level: 59, chance: 5},
+        ],
+        "Rock Smash": [
+            {pokemon: "Graveler", min_level: 57, max_level: 57, chance: 50},
+            {pokemon: "Graveler", min_level: 58, max_level: 58, chance: 30},
+            {pokemon: "Graveler", min_level: 59, max_level: 59, chance: 15},
+            {pokemon: "Shuckle", min_level: 57, max_level: 57, chance: 4},
+            {pokemon: "Shuckle", min_level: 59, max_level: 59, chance: 1},
+        ],
         "Horde": [
             {pokemon: "Geodude", min_level: 28, max_level: 28, chance: 60},
             {pokemon: "Graveler", min_level: 29, max_level: 29, chance: 35},
             {pokemon: "Lickitung", min_level: 30, max_level: 30, chance: 5},
-        ],
+        ]
+    },
+    "Victory Road (Area 3)": {
         "Walk": [
             {pokemon: "Druddigon", min_level: 58, max_level: 58, chance: 10},
             {pokemon: "Druddigon", min_level: 59, max_level: 59, chance: 10},
@@ -1739,62 +1476,37 @@ export const encounters = {
             {pokemon: "Haunter", min_level: 58, max_level: 58, chance: 10},
             {pokemon: "Lickitung", min_level: 58, max_level: 58, chance: 10},
             {pokemon: "Lickitung", min_level: 59, max_level: 59, chance: 5},
-            {pokemon: "Zweilous", min_level: 59, max_level: 59, chance: 4},
-            {pokemon: "Zweilous", min_level: 59, max_level: 59, chance: 1},
+            {pokemon: "Zweilous", min_level: 59, max_level: 59, chance: 5},
+        ],
+        "Horde": [
+            {pokemon: "Geodude", min_level: 28, max_level: 28, chance: 60},
+            {pokemon: "Graveler", min_level: 29, max_level: 29, chance: 35},
+            {pokemon: "Lickitung", min_level: 30, max_level: 30, chance: 5},
         ]
     },
-    "Victory Road (unknown area 327)": {
-        "Good Rod": [
-            {pokemon: "Basculin Red Striped", min_level: 45, max_level: 45, chance: 60},
-            {pokemon: "Poliwhirl", min_level: 45, max_level: 45, chance: 35},
-            {pokemon: "Basculin Red Striped", min_level: 45, max_level: 45, chance: 5},
-        ],
-        "Old Rod": [
-            {pokemon: "Poliwag", min_level: 35, max_level: 35, chance: 60},
-            {pokemon: "Poliwag", min_level: 35, max_level: 35, chance: 35},
-            {pokemon: "Poliwag", min_level: 35, max_level: 35, chance: 5},
-        ],
-        "Super Rod": [
-            {pokemon: "Poliwhirl", min_level: 55, max_level: 55, chance: 60},
-            {pokemon: "Basculin Red Striped", min_level: 55, max_level: 55, chance: 35},
-            {pokemon: "Poliwhirl", min_level: 55, max_level: 55, chance: 5},
-        ],
+    "Victory Road (Area 4)": {
         "Surf": [
-            {pokemon: "Lombre", min_level: 57, max_level: 59, chance: 50},
+            {pokemon: "Lombre", min_level: 57, max_level: 57, chance: 50},
             {pokemon: "Floatzel", min_level: 57, max_level: 57, chance: 30},
             {pokemon: "Lombre", min_level: 58, max_level: 58, chance: 15},
             {pokemon: "Floatzel", min_level: 59, max_level: 59, chance: 4},
             {pokemon: "Lombre", min_level: 59, max_level: 59, chance: 1},
-        ]
-    },
-    "Victory Road (unknown area 328)": {
-        "Good Rod": [
-            {pokemon: "Basculin Red Striped", min_level: 45, max_level: 45, chance: 60},
-            {pokemon: "Poliwhirl", min_level: 45, max_level: 45, chance: 35},
-            {pokemon: "Basculin Red Striped", min_level: 45, max_level: 45, chance: 5},
-        ],
-        "Horde": [
-            {pokemon: "Geodude", min_level: 28, max_level: 28, chance: 60},
-            {pokemon: "Floatzel", min_level: 29, max_level: 29, chance: 35},
-            {pokemon: "Lickitung", min_level: 30, max_level: 30, chance: 5},
         ],
         "Old Rod": [
-            {pokemon: "Poliwag", min_level: 35, max_level: 35, chance: 60},
-            {pokemon: "Poliwag", min_level: 35, max_level: 35, chance: 35},
-            {pokemon: "Poliwag", min_level: 35, max_level: 35, chance: 5},
+            {pokemon: "Poliwag", min_level: 35, max_level: 35, chance: 100},
+        ],
+        "Good Rod": [
+            {pokemon: "Basculin", min_level: 45, max_level: 45, chance: 65, version: "Y"},
+            {pokemon: "Basculin (Blue Striped)", min_level: 45, max_level: 45, chance: 65, version: "X"},
+            {pokemon: "Poliwhirl", min_level: 45, max_level: 45, chance: 35},
         ],
         "Super Rod": [
-            {pokemon: "Poliwhirl", min_level: 55, max_level: 55, chance: 60},
-            {pokemon: "Basculin Red Striped", min_level: 55, max_level: 55, chance: 35},
-            {pokemon: "Poliwrath", min_level: 60, max_level: 60, chance: 5},
-        ],
-        "Surf": [
-            {pokemon: "Poliwhirl", min_level: 57, max_level: 57, chance: 50},
-            {pokemon: "Floatzel", min_level: 57, max_level: 57, chance: 30},
-            {pokemon: "Poliwhirl", min_level: 58, max_level: 58, chance: 15},
-            {pokemon: "Floatzel", min_level: 59, max_level: 59, chance: 4},
-            {pokemon: "Poliwhirl", min_level: 59, max_level: 59, chance: 1},
-        ],
+            {pokemon: "Poliwhirl", min_level: 55, max_level: 55, chance: 65},
+            {pokemon: "Basculin", min_level: 55, max_level: 55, chance: 35, version: "X"},
+            {pokemon: "Basculin (Blue Striped)", min_level: 55, max_level: 55, chance: 35, version: "Y"},
+        ]
+    },
+    "Victory Road (Area 5)": {
         "Walk": [
             {pokemon: "Druddigon", min_level: 58, max_level: 58, chance: 10},
             {pokemon: "Druddigon", min_level: 59, max_level: 59, chance: 10},
@@ -1806,8 +1518,33 @@ export const encounters = {
             {pokemon: "Haunter", min_level: 58, max_level: 58, chance: 10},
             {pokemon: "Lickitung", min_level: 58, max_level: 58, chance: 10},
             {pokemon: "Lickitung", min_level: 59, max_level: 59, chance: 5},
-            {pokemon: "Zweilous", min_level: 59, max_level: 59, chance: 4},
-            {pokemon: "Zweilous", min_level: 59, max_level: 59, chance: 1},
+            {pokemon: "Zweilous", min_level: 59, max_level: 59, chance: 5},
+        ],
+        "Surf": [
+            {pokemon: "Poliwhirl", min_level: 57, max_level: 57, chance: 50},
+            {pokemon: "Floatzel", min_level: 57, max_level: 57, chance: 30},
+            {pokemon: "Poliwhirl", min_level: 58, max_level: 58, chance: 15},
+            {pokemon: "Floatzel", min_level: 59, max_level: 59, chance: 4},
+            {pokemon: "Poliwhirl", min_level: 59, max_level: 59, chance: 1},
+        ],
+        "Old Rod": [
+            {pokemon: "Poliwag", min_level: 35, max_level: 35, chance: 100},
+        ],
+        "Good Rod": [
+            {pokemon: "Basculin", min_level: 45, max_level: 45, chance: 65, version: "Y"},
+            {pokemon: "Basculin (Blue Striped)", min_level: 45, max_level: 45, chance: 65, version: "X"},
+            {pokemon: "Poliwhirl", min_level: 45, max_level: 45, chance: 35},
+        ],
+        "Super Rod": [
+            {pokemon: "Poliwhirl", min_level: 55, max_level: 55, chance: 60},
+            {pokemon: "Basculin", min_level: 55, max_level: 55, chance: 35, version: "X"},
+            {pokemon: "Basculin (Blue Striped)", min_level: 55, max_level: 55, chance: 35, version: "Y"},
+            {pokemon: "Poliwrath", min_level: 60, max_level: 60, chance: 5},
+        ],
+        "Horde": [
+            {pokemon: "Geodude", min_level: 28, max_level: 28, chance: 60},
+            {pokemon: "Floatzel", min_level: 29, max_level: 29, chance: 35},
+            {pokemon: "Lickitung", min_level: 30, max_level: 30, chance: 5},
         ]
     }
 };

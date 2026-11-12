@@ -1,4 +1,4 @@
-const typeEnhancingItems = {
+export const typeEnhancingItems = {
     "Black Belt":     "Fighting",
     "Black Glasses":  "Dark",
     "Charcoal":       "Fire",
@@ -22,6 +22,13 @@ const typeEnhancingItems = {
     //Gen3 Items
     "Silk Scarf": "Normal",
     "Soul Dew":   [ "Dragon", "Psychic" ],
+    "Sea Incense": "Water",
+
+    //Gen4 Incenses
+    "Odd Incense":  "Psychic",
+    "Rock Incense": "Rock",
+    "Rose Incense": "Grass",
+    "Wave Incense": "Water",
 
     //Gen4 Plates
     "Draco Plate":  "Dragon",
@@ -44,7 +51,7 @@ const typeEnhancingItems = {
     //gen4 specific items
     "Adamant Orb":  [ "Dragon", "Steel" ],
     "Griseous Orb": [ "Dragon", "Ghost" ],
-    "Lustrous Orb": [ "Dragon", "Ghost" ],
+    "Lustrous Orb": [ "Dragon", "Water" ],
 
     //gen6 specific items
     "Pixie Plate": "Fairy",
@@ -52,4 +59,7 @@ const typeEnhancingItems = {
     //gen8 specific items
     "Blank Plate": "Normal",
     "Legend Plate": "Special",
+
+    //gen9 specific items
+    "Fairy Feather": "Fairy",
 }

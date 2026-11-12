@@ -1894,14 +1894,7 @@
   }
  ],
  "no_bulbapedia_stats": [],
- "unknown_moves": {
-  "Nihil Light": [
-   "Legends Z-A: Zygarde",
-   "Legends Z-A: Zygarde (Complete)",
-   "Legends Z-A: Zygarde (10)",
-   "Legends Z-A: Mega Zygarde"
-  ]
- },
+ "unknown_moves": {},
  "form_unmatched": [
   {
    "game": "Ruby and Sapphire",
@@ -2336,28 +2329,7 @@
   },
   {
    "game": "X and Y",
-   "species": "Mega Beedrill",
-   "descriptor": [
-    "mega"
-   ]
-  },
-  {
-   "game": "X and Y",
-   "species": "Mega Pidgeot",
-   "descriptor": [
-    "mega"
-   ]
-  },
-  {
-   "game": "X and Y",
    "species": "Mega Alakazam",
-   "descriptor": [
-    "mega"
-   ]
-  },
-  {
-   "game": "X and Y",
-   "species": "Mega Slowbro",
    "descriptor": [
     "mega"
    ]
@@ -2422,13 +2394,6 @@
   },
   {
    "game": "X and Y",
-   "species": "Mega Steelix",
-   "descriptor": [
-    "mega"
-   ]
-  },
-  {
-   "game": "X and Y",
    "species": "Mega Scizor",
    "descriptor": [
     "mega"
@@ -2457,13 +2422,6 @@
   },
   {
    "game": "X and Y",
-   "species": "Mega Sceptile",
-   "descriptor": [
-    "mega"
-   ]
-  },
-  {
-   "game": "X and Y",
    "species": "Mega Blaziken",
    "descriptor": [
     "mega"
@@ -2471,21 +2429,7 @@
   },
   {
    "game": "X and Y",
-   "species": "Mega Swampert",
-   "descriptor": [
-    "mega"
-   ]
-  },
-  {
-   "game": "X and Y",
    "species": "Mega Gardevoir",
-   "descriptor": [
-    "mega"
-   ]
-  },
-  {
-   "game": "X and Y",
-   "species": "Mega Sableye",
    "descriptor": [
     "mega"
    ]
@@ -2514,27 +2458,6 @@
   {
    "game": "X and Y",
    "species": "Mega Manectric",
-   "descriptor": [
-    "mega"
-   ]
-  },
-  {
-   "game": "X and Y",
-   "species": "Mega Sharpedo",
-   "descriptor": [
-    "mega"
-   ]
-  },
-  {
-   "game": "X and Y",
-   "species": "Mega Camerupt",
-   "descriptor": [
-    "mega"
-   ]
-  },
-  {
-   "game": "X and Y",
-   "species": "Mega Altaria",
    "descriptor": [
     "mega"
    ]
@@ -2576,69 +2499,6 @@
   },
   {
    "game": "X and Y",
-   "species": "Mega Glalie",
-   "descriptor": [
-    "mega"
-   ]
-  },
-  {
-   "game": "X and Y",
-   "species": "Mega Salamence",
-   "descriptor": [
-    "mega"
-   ]
-  },
-  {
-   "game": "X and Y",
-   "species": "Mega Metagross",
-   "descriptor": [
-    "mega"
-   ]
-  },
-  {
-   "game": "X and Y",
-   "species": "Mega Latias",
-   "descriptor": [
-    "mega"
-   ]
-  },
-  {
-   "game": "X and Y",
-   "species": "Mega Latios",
-   "descriptor": [
-    "mega"
-   ]
-  },
-  {
-   "game": "X and Y",
-   "species": "Primal Kyogre",
-   "descriptor": [
-    "primal"
-   ]
-  },
-  {
-   "game": "X and Y",
-   "species": "Primal Groudon",
-   "descriptor": [
-    "primal"
-   ]
-  },
-  {
-   "game": "X and Y",
-   "species": "Mega Rayquaza",
-   "descriptor": [
-    "mega"
-   ]
-  },
-  {
-   "game": "X and Y",
-   "species": "Mega Lopunny",
-   "descriptor": [
-    "mega"
-   ]
-  },
-  {
-   "game": "X and Y",
    "species": "Mega Garchomp",
    "descriptor": [
     "mega"
@@ -2654,13 +2514,6 @@
   {
    "game": "X and Y",
    "species": "Mega Abomasnow",
-   "descriptor": [
-    "mega"
-   ]
-  },
-  {
-   "game": "X and Y",
-   "species": "Mega Gallade",
    "descriptor": [
     "mega"
    ]
@@ -2705,13 +2558,6 @@
    "species": "Giratina (Origin)",
    "descriptor": [
     "origin"
-   ]
-  },
-  {
-   "game": "X and Y",
-   "species": "Mega Audino",
-   "descriptor": [
-    "mega"
    ]
   },
   {
@@ -2811,13 +2657,6 @@
    "species": "Gourgeist (Super)",
    "descriptor": [
     "super"
-   ]
-  },
-  {
-   "game": "X and Y",
-   "species": "Mega Diancie",
-   "descriptor": [
-    "mega"
    ]
   },
   {
@@ -5931,5 +5770,7 @@
     "roaming"
    ]
   }
- ]
+ ],
+ "game_table_unmapped": [],
+ "game_table_stat_mismatch": []
 }

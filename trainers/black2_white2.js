@@ -2,10 +2,11 @@ export const trainers = {
     "0": {
         "rom_id": 0,
         "name": "--",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 0,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
         ]
@@ -17,6 +18,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -24,7 +26,7 @@ export const trainers = {
                 "level": 26,
                 "experience_yield": 59,
                 "nature": "Rash",
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "held_item": null,
                 "stats": {
                     "hp": 62,
@@ -45,6 +47,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -90,6 +93,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -97,7 +101,7 @@ export const trainers = {
                 "level": 47,
                 "experience_yield": 168,
                 "nature": "Quiet",
-                "ability": "Prankster",
+                "ability": "Infiltrator",
                 "held_item": null,
                 "stats": {
                     "hp": 119,
@@ -131,10 +135,11 @@ export const trainers = {
     "4": {
         "rom_id": 4,
         "name": "Bianca",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -193,10 +198,11 @@ export const trainers = {
     "5": {
         "rom_id": 5,
         "name": "N",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -221,10 +227,11 @@ export const trainers = {
     "6": {
         "rom_id": 6,
         "name": "N",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -253,6 +260,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -260,7 +268,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 144,
                 "nature": "Jolly",
-                "ability": "Thick Fat",
+                "ability": "Ice Body",
                 "held_item": null,
                 "stats": {
                     "hp": 180,
@@ -277,7 +285,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 168,
                 "nature": "Jolly",
-                "ability": "Inner Focus",
+                "ability": "Ice Body",
                 "held_item": null,
                 "stats": {
                     "hp": 168,
@@ -298,6 +306,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -305,7 +314,7 @@ export const trainers = {
                 "level": 26,
                 "experience_yield": 126,
                 "nature": "Careful",
-                "ability": "Poison Point",
+                "ability": "Swarm",
                 "held_item": null,
                 "stats": {
                     "hp": 59,
@@ -326,6 +335,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -333,7 +343,7 @@ export const trainers = {
                 "level": 47,
                 "experience_yield": 221,
                 "nature": "Rash",
-                "ability": "Intimidate",
+                "ability": "Sand Rush",
                 "held_item": null,
                 "stats": {
                     "hp": 142,
@@ -367,10 +377,11 @@ export const trainers = {
     "10": {
         "rom_id": 10,
         "name": "Trisha",
-        "trainer_class": "Clerk ⑮",
+        "trainer_class": "Clerk ♀",
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -388,7 +399,7 @@ export const trainers = {
                     "special_attack": 24,
                     "special_defense": 24
                 },
-                "moves": ["DoubleSlap", "Encore", "Swift", "Sing"]
+                "moves": ["Double Slap", "Encore", "Swift", "Sing"]
             }
         ]
     },
@@ -399,6 +410,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -406,7 +418,7 @@ export const trainers = {
                 "level": 43,
                 "experience_yield": 156,
                 "nature": "Sassy",
-                "ability": "Limber",
+                "ability": "Unburden",
                 "held_item": null,
                 "stats": {
                     "hp": 108,
@@ -427,6 +439,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -455,6 +468,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -462,7 +476,7 @@ export const trainers = {
                 "level": 26,
                 "experience_yield": 125,
                 "nature": "Modest",
-                "ability": "Big Pecks",
+                "ability": "Super Luck",
                 "held_item": null,
                 "stats": {
                     "hp": 71,
@@ -483,6 +497,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -511,6 +526,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -552,7 +568,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 164,
                 "nature": "Calm",
-                "ability": "Hyper Cutter",
+                "ability": "Shell Armor",
                 "held_item": null,
                 "stats": {
                     "hp": 145,
@@ -573,6 +589,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -635,6 +652,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -642,7 +660,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 61,
                 "nature": "Bold",
-                "ability": "Compoundeyes",
+                "ability": "Tinted Lens",
                 "held_item": null,
                 "stats": {
                     "hp": 142,
@@ -676,7 +694,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 158,
                 "nature": "Impish",
-                "ability": "Shield Dust",
+                "ability": "Tinted Lens",
                 "held_item": null,
                 "stats": {
                     "hp": 154,
@@ -697,6 +715,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -704,7 +723,7 @@ export const trainers = {
                 "level": 59,
                 "experience_yield": 66,
                 "nature": "Relaxed",
-                "ability": "Swift Swim",
+                "ability": "Storm Drain",
                 "held_item": null,
                 "stats": {
                     "hp": 126,
@@ -772,10 +791,11 @@ export const trainers = {
     "19": {
         "rom_id": 19,
         "name": "Chaz",
-        "trainer_class": "Clerk ⑭",
+        "trainer_class": "Clerk ♂",
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -817,10 +837,11 @@ export const trainers = {
     "20": {
         "rom_id": 20,
         "name": "Fredric",
-        "trainer_class": "Clerk ⑭",
+        "trainer_class": "Clerk ♂",
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -866,6 +887,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -911,6 +933,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -918,7 +941,7 @@ export const trainers = {
                 "level": 31,
                 "experience_yield": 174,
                 "nature": "Impish",
-                "ability": "Lightningrod",
+                "ability": "Motor Drive",
                 "held_item": null,
                 "stats": {
                     "hp": 87,
@@ -935,7 +958,7 @@ export const trainers = {
                 "level": 31,
                 "experience_yield": 174,
                 "nature": "Impish",
-                "ability": "Lightningrod",
+                "ability": "Motor Drive",
                 "held_item": null,
                 "stats": {
                     "hp": 87,
@@ -956,6 +979,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -963,7 +987,7 @@ export const trainers = {
                 "level": 31,
                 "experience_yield": 214,
                 "nature": "Naughty",
-                "ability": "Poison Point",
+                "ability": "Swarm",
                 "held_item": null,
                 "stats": {
                     "hp": 78,
@@ -980,7 +1004,7 @@ export const trainers = {
                 "level": 31,
                 "experience_yield": 214,
                 "nature": "Naughty",
-                "ability": "Poison Point",
+                "ability": "Swarm",
                 "held_item": null,
                 "stats": {
                     "hp": 78,
@@ -1001,6 +1025,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -1008,7 +1033,7 @@ export const trainers = {
                 "level": 31,
                 "experience_yield": 61,
                 "nature": "Rash",
-                "ability": "Keen Eye",
+                "ability": "Big Pecks",
                 "held_item": null,
                 "stats": {
                     "hp": 79,
@@ -1018,14 +1043,14 @@ export const trainers = {
                     "special_attack": 35,
                     "special_defense": 32
                 },
-                "moves": ["FeatherDance", "Aqua Ring", "Air Slash", "Roost"]
+                "moves": ["Feather Dance", "Aqua Ring", "Air Slash", "Roost"]
             },
             {
                 "species": "Ducklett",
                 "level": 31,
                 "experience_yield": 61,
                 "nature": "Rash",
-                "ability": "Keen Eye",
+                "ability": "Big Pecks",
                 "held_item": null,
                 "stats": {
                     "hp": 79,
@@ -1035,7 +1060,7 @@ export const trainers = {
                     "special_attack": 35,
                     "special_defense": 32
                 },
-                "moves": ["FeatherDance", "Aqua Ring", "Air Slash", "Roost"]
+                "moves": ["Feather Dance", "Aqua Ring", "Air Slash", "Roost"]
             }
         ]
     },
@@ -1046,6 +1071,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -1091,6 +1117,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -1098,7 +1125,7 @@ export const trainers = {
                 "level": 47,
                 "experience_yield": 142,
                 "nature": "Rash",
-                "ability": "Guts",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 142,
@@ -1108,14 +1135,14 @@ export const trainers = {
                     "special_attack": 52,
                     "special_defense": 51
                 },
-                "moves": ["Rock Slide", "DynamicPunch", "Scary Face", "Hammer Arm"]
+                "moves": ["Rock Slide", "Dynamic Punch", "Scary Face", "Hammer Arm"]
             },
             {
                 "species": "Gurdurr",
                 "level": 47,
                 "experience_yield": 142,
                 "nature": "Rash",
-                "ability": "Guts",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 142,
@@ -1125,17 +1152,18 @@ export const trainers = {
                     "special_attack": 52,
                     "special_defense": 51
                 },
-                "moves": ["Rock Slide", "DynamicPunch", "Scary Face", "Hammer Arm"]
+                "moves": ["Rock Slide", "Dynamic Punch", "Scary Face", "Hammer Arm"]
             }
         ]
     },
     "27": {
         "rom_id": 27,
         "name": "Alain",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -1194,10 +1222,11 @@ export const trainers = {
     "28": {
         "rom_id": 28,
         "name": "Heidi",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -1205,7 +1234,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 170,
                 "nature": "Brave",
-                "ability": "Forewarn",
+                "ability": "Synchronize",
                 "held_item": null,
                 "stats": {
                     "hp": 216,
@@ -1260,6 +1289,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -1322,6 +1352,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -1329,7 +1360,7 @@ export const trainers = {
                 "level": 47,
                 "experience_yield": 123,
                 "nature": "Lonely",
-                "ability": "Intimidate",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 119,
@@ -1356,7 +1387,7 @@ export const trainers = {
                     "special_attack": 71,
                     "special_defense": 62
                 },
-                "moves": ["Taunt", "Air Slash", "Razor Wind", "FeatherDance"]
+                "moves": ["Taunt", "Air Slash", "Razor Wind", "Feather Dance"]
             }
         ]
     },
@@ -1367,6 +1398,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -1391,7 +1423,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 173,
                 "nature": "Mild",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 153,
@@ -1429,6 +1461,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -1436,7 +1469,7 @@ export const trainers = {
                 "level": 63,
                 "experience_yield": 172,
                 "nature": "Brave",
-                "ability": "Intimidate",
+                "ability": "Anger Point",
                 "held_item": null,
                 "stats": {
                     "hp": 175,
@@ -1453,7 +1486,7 @@ export const trainers = {
                 "level": 63,
                 "experience_yield": 175,
                 "nature": "Mild",
-                "ability": "Water Veil",
+                "ability": "Oblivious",
                 "held_item": null,
                 "stats": {
                     "hp": 294,
@@ -1474,6 +1507,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -1519,6 +1553,7 @@ export const trainers = {
         "location": null,
         "money": 40,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -1543,7 +1578,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 81,
                 "nature": "Modest",
-                "ability": "Insomnia",
+                "ability": "Super Luck",
                 "held_item": null,
                 "stats": {
                     "hp": 144,
@@ -1564,6 +1599,7 @@ export const trainers = {
         "location": null,
         "money": 40,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -1626,6 +1662,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -1633,7 +1670,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 156,
                 "nature": "Mild",
-                "ability": "Limber",
+                "ability": "Unburden",
                 "held_item": null,
                 "stats": {
                     "hp": 149,
@@ -1671,6 +1708,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -1678,7 +1716,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 66,
                 "nature": "Lax",
-                "ability": "Early Bird",
+                "ability": "Flash Fire",
                 "held_item": null,
                 "stats": {
                     "hp": 124,
@@ -1733,6 +1771,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -1812,6 +1851,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -1863,7 +1903,7 @@ export const trainers = {
                     "special_attack": 124,
                     "special_defense": 85
                 },
-                "moves": ["Hi Jump Kick", "U-turn", "Bounce", "Retaliate"]
+                "moves": ["High Jump Kick", "U-turn", "Bounce", "Retaliate"]
             },
             {
                 "species": "Conkeldurr",
@@ -1891,6 +1931,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -1970,6 +2011,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -2049,6 +2091,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -2073,7 +2116,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 178,
                 "nature": "Quiet",
-                "ability": "Sand Rush",
+                "ability": "Sand Force",
                 "held_item": null,
                 "stats": {
                     "hp": 223,
@@ -2107,7 +2150,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 170,
                 "nature": "Calm",
-                "ability": "Rough Skin",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 182,
@@ -2141,7 +2184,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 189,
                 "nature": "Modest",
-                "ability": "Immunity",
+                "ability": "Thick Fat",
                 "held_item": null,
                 "stats": {
                     "hp": 285,
@@ -2162,6 +2205,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -2179,14 +2223,14 @@ export const trainers = {
                     "special_attack": 104,
                     "special_defense": 76
                 },
-                "moves": ["Roar", "Odor Sleuth", "Fire Fang", "ExtremeSpeed"]
+                "moves": ["Roar", "Odor Sleuth", "Fire Fang", "Extreme Speed"]
             },
             {
                 "species": "Excadrill",
                 "level": 47,
                 "experience_yield": 178,
                 "nature": "Calm",
-                "ability": "Sand Rush",
+                "ability": "Sand Force",
                 "held_item": null,
                 "stats": {
                     "hp": 166,
@@ -2207,6 +2251,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -2214,7 +2259,7 @@ export const trainers = {
                 "level": 47,
                 "experience_yield": 182,
                 "nature": "Lonely",
-                "ability": "Illuminate",
+                "ability": "Natural Cure",
                 "held_item": null,
                 "stats": {
                     "hp": 119,
@@ -2231,7 +2276,7 @@ export const trainers = {
                 "level": 47,
                 "experience_yield": 175,
                 "nature": "Lonely",
-                "ability": "Battle Armor",
+                "ability": "Sniper",
                 "held_item": null,
                 "stats": {
                     "hp": 128,
@@ -2252,6 +2297,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -2280,6 +2326,7 @@ export const trainers = {
         "location": null,
         "money": 40,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -2308,6 +2355,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -2315,7 +2363,7 @@ export const trainers = {
                 "level": 24,
                 "experience_yield": 156,
                 "nature": "Calm",
-                "ability": "Limber",
+                "ability": "Unburden",
                 "held_item": null,
                 "stats": {
                     "hp": 64,
@@ -2336,6 +2384,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -2381,6 +2430,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -2388,7 +2438,7 @@ export const trainers = {
                 "level": 34,
                 "experience_yield": 174,
                 "nature": "Relaxed",
-                "ability": "Lightningrod",
+                "ability": "Motor Drive",
                 "held_item": null,
                 "stats": {
                     "hp": 99,
@@ -2409,6 +2459,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -2416,7 +2467,7 @@ export const trainers = {
                 "level": 48,
                 "experience_yield": 174,
                 "nature": "Sassy",
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "held_item": null,
                 "stats": {
                     "hp": 135,
@@ -2437,6 +2488,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -2461,7 +2513,7 @@ export const trainers = {
                 "level": 63,
                 "experience_yield": 174,
                 "nature": "Jolly",
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "held_item": null,
                 "stats": {
                     "hp": 175,
@@ -2482,6 +2534,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -2506,7 +2559,7 @@ export const trainers = {
                 "level": 63,
                 "experience_yield": 168,
                 "nature": "Quiet",
-                "ability": "Chlorophyll",
+                "ability": "Own Tempo",
                 "held_item": null,
                 "stats": {
                     "hp": 168,
@@ -2527,6 +2580,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -2572,6 +2626,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -2634,6 +2689,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -2696,6 +2752,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -2758,6 +2815,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -2775,14 +2833,14 @@ export const trainers = {
                     "special_attack": 94,
                     "special_defense": 81
                 },
-                "moves": ["FeatherDance", "Swagger", "Facade", "Tailwind"]
+                "moves": ["Feather Dance", "Swagger", "Facade", "Tailwind"]
             },
             {
                 "species": "Krookodile",
                 "level": 63,
                 "experience_yield": 229,
                 "nature": "Naughty",
-                "ability": "Intimidate",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 200,
@@ -2803,6 +2861,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -2848,6 +2907,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -2855,7 +2915,7 @@ export const trainers = {
                 "level": 34,
                 "experience_yield": 61,
                 "nature": "Mild",
-                "ability": "Keen Eye",
+                "ability": "Big Pecks",
                 "held_item": null,
                 "stats": {
                     "hp": 90,
@@ -2876,6 +2936,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -2904,6 +2965,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -2911,7 +2973,7 @@ export const trainers = {
                 "level": 63,
                 "experience_yield": 166,
                 "nature": "Brave",
-                "ability": "Keen Eye",
+                "ability": "Big Pecks",
                 "held_item": null,
                 "stats": {
                     "hp": 175,
@@ -2938,7 +3000,7 @@ export const trainers = {
                     "special_attack": 88,
                     "special_defense": 163
                 },
-                "moves": ["Sucker Punch", "Shadow Claw", "AncientPower", "Synchronoise"]
+                "moves": ["Sucker Punch", "Shadow Claw", "Ancient Power", "Synchronoise"]
             }
         ]
     },
@@ -2949,6 +3011,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -3011,6 +3074,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -3039,6 +3103,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -3063,7 +3128,7 @@ export const trainers = {
                 "level": 33,
                 "experience_yield": 142,
                 "nature": "Adamant",
-                "ability": "Guts",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 103,
@@ -3084,6 +3149,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -3101,7 +3167,7 @@ export const trainers = {
                     "special_attack": 48,
                     "special_defense": 51
                 },
-                "moves": ["Rock Slide", "DynamicPunch", "Scary Face", "Hammer Arm"]
+                "moves": ["Rock Slide", "Dynamic Punch", "Scary Face", "Hammer Arm"]
             },
             {
                 "species": "Darmanitan",
@@ -3129,6 +3195,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -3136,7 +3203,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 77,
                 "nature": "Mild",
-                "ability": "Own Tempo",
+                "ability": "Oblivious",
                 "held_item": null,
                 "stats": {
                     "hp": 191,
@@ -3191,6 +3258,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -3215,7 +3283,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 163,
                 "nature": "Lonely",
-                "ability": "Guts",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 228,
@@ -3253,6 +3321,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -3298,6 +3367,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -3326,6 +3396,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -3333,7 +3404,7 @@ export const trainers = {
                 "level": 48,
                 "experience_yield": 214,
                 "nature": "Lonely",
-                "ability": "Poison Point",
+                "ability": "Swarm",
                 "held_item": null,
                 "stats": {
                     "hp": 121,
@@ -3354,6 +3425,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -3399,6 +3471,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -3406,7 +3479,7 @@ export const trainers = {
                 "level": 63,
                 "experience_yield": 221,
                 "nature": "Serious",
-                "ability": "Intimidate",
+                "ability": "Sand Rush",
                 "held_item": null,
                 "stats": {
                     "hp": 187,
@@ -3444,6 +3517,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -3489,6 +3563,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -3534,6 +3609,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -3541,7 +3617,7 @@ export const trainers = {
                 "level": 45,
                 "experience_yield": 174,
                 "nature": "Timid",
-                "ability": "Lightningrod",
+                "ability": "Motor Drive",
                 "held_item": null,
                 "stats": {
                     "hp": 122,
@@ -3558,7 +3634,7 @@ export const trainers = {
                 "level": 45,
                 "experience_yield": 174,
                 "nature": "Timid",
-                "ability": "Lightningrod",
+                "ability": "Motor Drive",
                 "held_item": null,
                 "stats": {
                     "hp": 122,
@@ -3579,6 +3655,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -3603,7 +3680,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 174,
                 "nature": "Naughty",
-                "ability": "Lightningrod",
+                "ability": "Motor Drive",
                 "held_item": null,
                 "stats": {
                     "hp": 162,
@@ -3624,6 +3701,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -3631,7 +3709,7 @@ export const trainers = {
                 "level": 45,
                 "experience_yield": 214,
                 "nature": "Careful",
-                "ability": "Poison Point",
+                "ability": "Swarm",
                 "held_item": null,
                 "stats": {
                     "hp": 109,
@@ -3669,6 +3747,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -3714,6 +3793,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -3759,6 +3839,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -3804,6 +3885,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -3849,6 +3931,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -3894,6 +3977,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -3939,6 +4023,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -3984,6 +4069,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -4008,7 +4094,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 163,
                 "nature": "Gentle",
-                "ability": "Guts",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 217,
@@ -4029,6 +4115,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -4053,7 +4140,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 168,
                 "nature": "Sassy",
-                "ability": "Chlorophyll",
+                "ability": "Own Tempo",
                 "held_item": null,
                 "stats": {
                     "hp": 156,
@@ -4074,6 +4161,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -4119,6 +4207,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -4170,7 +4259,7 @@ export const trainers = {
                     "special_attack": 71,
                     "special_defense": 71
                 },
-                "moves": ["Fake Out", "Attract", "Sing", "DoubleSlap"]
+                "moves": ["Fake Out", "Attract", "Sing", "Double Slap"]
             }
         ]
     },
@@ -4181,6 +4270,7 @@ export const trainers = {
         "location": null,
         "money": 5,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -4188,7 +4278,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 154,
                 "nature": "Rash",
-                "ability": "Poison Point",
+                "ability": "Sniper",
                 "held_item": null,
                 "stats": {
                     "hp": 136,
@@ -4243,6 +4333,7 @@ export const trainers = {
         "location": null,
         "money": 5,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -4263,11 +4354,11 @@ export const trainers = {
                 "moves": ["Hydro Pump", "Aqua Ring", "Captivate", "Safeguard"]
             },
             {
-                "species": "Farfetch'd",
+                "species": "Farfetch’d",
                 "level": 60,
                 "experience_yield": 123,
                 "nature": "Brave",
-                "ability": "Keen Eye",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 132,
@@ -4305,6 +4396,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -4312,7 +4404,7 @@ export const trainers = {
                 "level": 63,
                 "experience_yield": 159,
                 "nature": "Adamant",
-                "ability": "Oblivious",
+                "ability": "Forewarn",
                 "held_item": null,
                 "stats": {
                     "hp": 162,
@@ -4346,7 +4438,7 @@ export const trainers = {
                 "level": 63,
                 "experience_yield": 180,
                 "nature": "Impish",
-                "ability": "Rock Head",
+                "ability": "Pressure",
                 "held_item": null,
                 "stats": {
                     "hp": 181,
@@ -4367,6 +4459,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -4374,7 +4467,7 @@ export const trainers = {
                 "level": 63,
                 "experience_yield": 165,
                 "nature": "Hasty",
-                "ability": "Compoundeyes",
+                "ability": "Unnerve",
                 "held_item": null,
                 "stats": {
                     "hp": 168,
@@ -4401,14 +4494,14 @@ export const trainers = {
                     "special_attack": 103,
                     "special_defense": 122
                 },
-                "moves": ["Leaf Tornado", "Air Slash", "Bestow", "SolarBeam"]
+                "moves": ["Leaf Tornado", "Air Slash", "Bestow", "Solar Beam"]
             },
             {
                 "species": "Mamoswine",
                 "level": 63,
                 "experience_yield": 239,
                 "nature": "Gentle",
-                "ability": "Oblivious",
+                "ability": "Snow Cloak",
                 "held_item": null,
                 "stats": {
                     "hp": 219,
@@ -4429,6 +4522,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -4470,7 +4564,7 @@ export const trainers = {
                 "level": 63,
                 "experience_yield": 163,
                 "nature": "Quirky",
-                "ability": "Keen Eye",
+                "ability": "Sturdy",
                 "held_item": null,
                 "stats": {
                     "hp": 170,
@@ -4508,6 +4602,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -4525,7 +4620,7 @@ export const trainers = {
                     "special_attack": 76,
                     "special_defense": 102
                 },
-                "moves": ["Double-Edge", "AncientPower", "Waterfall", "Blizzard"]
+                "moves": ["Double-Edge", "Ancient Power", "Waterfall", "Blizzard"]
             },
             {
                 "species": "Magcargo",
@@ -4583,10 +4678,11 @@ export const trainers = {
     "95": {
         "rom_id": 95,
         "name": "Owen",
-        "trainer_class": "⒆⒇ Breeder",
+        "trainer_class": "Pokémon Breeder",
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -4594,7 +4690,7 @@ export const trainers = {
                 "level": 57,
                 "experience_yield": 58,
                 "nature": "Jolly",
-                "ability": "Sturdy",
+                "ability": "Rock Head",
                 "held_item": null,
                 "stats": {
                     "hp": 124,
@@ -4679,7 +4775,7 @@ export const trainers = {
                 "level": 57,
                 "experience_yield": 66,
                 "nature": "Serious",
-                "ability": "Thick Fat",
+                "ability": "Own Tempo",
                 "held_item": null,
                 "stats": {
                     "hp": 135,
@@ -4696,10 +4792,11 @@ export const trainers = {
     "96": {
         "rom_id": 96,
         "name": "Brooke",
-        "trainer_class": "⒆⒇ Breeder",
+        "trainer_class": "Pokémon Breeder",
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -4707,7 +4804,7 @@ export const trainers = {
                 "level": 57,
                 "experience_yield": 50,
                 "nature": "Bold",
-                "ability": "Oblivious",
+                "ability": "Snow Cloak",
                 "held_item": null,
                 "stats": {
                     "hp": 124,
@@ -4813,6 +4910,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -4837,7 +4935,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 62,
                 "nature": "Serious",
-                "ability": "Limber",
+                "ability": "Own Tempo",
                 "held_item": null,
                 "stats": {
                     "hp": 128,
@@ -4864,7 +4962,7 @@ export const trainers = {
                     "special_attack": 83,
                     "special_defense": 71
                 },
-                "moves": ["FeatherDance", "Swagger", "Facade", "Tailwind"]
+                "moves": ["Feather Dance", "Swagger", "Facade", "Tailwind"]
             }
         ]
     },
@@ -4875,6 +4973,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -4920,7 +5019,8 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": false,
-        "items": ["X Defend"],
+        "battle_type": "single",
+        "items": ["X Defense"],
         "party": [
             {
                 "species": "Stunky",
@@ -4965,7 +5065,8 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": false,
-        "items": ["X Special"],
+        "battle_type": "single",
+        "items": ["X Sp. Atk"],
         "party": [
             {
                 "species": "Skorupi",
@@ -5010,6 +5111,7 @@ export const trainers = {
         "location": null,
         "money": 40,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -5017,7 +5119,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 140,
                 "nature": "Adamant",
-                "ability": "Oblivious",
+                "ability": "Tinted Lens",
                 "held_item": null,
                 "stats": {
                     "hp": 152,
@@ -5038,6 +5140,7 @@ export const trainers = {
         "location": null,
         "money": 40,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -5066,6 +5169,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -5073,7 +5177,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 133,
                 "nature": "Naughty",
-                "ability": "Keen Eye",
+                "ability": "Stall",
                 "held_item": null,
                 "stats": {
                     "hp": 132,
@@ -5111,6 +5215,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -5118,7 +5223,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 172,
                 "nature": "Quiet",
-                "ability": "Oblivious",
+                "ability": "Own Tempo",
                 "held_item": null,
                 "stats": {
                     "hp": 189,
@@ -5139,6 +5244,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -5146,7 +5252,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 61,
                 "nature": "Jolly",
-                "ability": "Vital Spirit",
+                "ability": "Anger Point",
                 "held_item": null,
                 "stats": {
                     "hp": 123,
@@ -5180,7 +5286,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 227,
                 "nature": "Sassy",
-                "ability": "Guts",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 202,
@@ -5201,6 +5307,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -5229,6 +5336,7 @@ export const trainers = {
         "location": null,
         "money": 16,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Max Potion"],
         "party": [
             {
@@ -5253,7 +5361,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 172,
                 "nature": "Sassy",
-                "ability": "Oblivious",
+                "ability": "Own Tempo",
                 "held_item": null,
                 "stats": {
                     "hp": 186,
@@ -5274,6 +5382,7 @@ export const trainers = {
         "location": null,
         "money": 16,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Max Potion"],
         "party": [
             {
@@ -5298,7 +5407,7 @@ export const trainers = {
                 "level": 58,
                 "experience_yield": 43,
                 "nature": "Sassy",
-                "ability": "Run Away",
+                "ability": "Keen Eye",
                 "held_item": null,
                 "stats": {
                     "hp": 108,
@@ -5315,7 +5424,7 @@ export const trainers = {
                 "level": 58,
                 "experience_yield": 48,
                 "nature": "Gentle",
-                "ability": "Pickup",
+                "ability": "Gluttony",
                 "held_item": null,
                 "stats": {
                     "hp": 112,
@@ -5370,6 +5479,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -5377,7 +5487,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 52,
                 "nature": "Careful",
-                "ability": "Insomnia",
+                "ability": "Keen Eye",
                 "held_item": null,
                 "stats": {
                     "hp": 142,
@@ -5411,7 +5521,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 215,
                 "nature": "Quirky",
-                "ability": "Big Pecks",
+                "ability": "Super Luck",
                 "held_item": null,
                 "stats": {
                     "hp": 166,
@@ -5421,7 +5531,7 @@ export const trainers = {
                     "special_attack": 83,
                     "special_defense": 71
                 },
-                "moves": ["FeatherDance", "Swagger", "Facade", "Tailwind"]
+                "moves": ["Feather Dance", "Swagger", "Facade", "Tailwind"]
             }
         ]
     },
@@ -5432,6 +5542,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -5439,7 +5550,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 133,
                 "nature": "Docile",
-                "ability": "Hyper Cutter",
+                "ability": "Intimidate",
                 "held_item": null,
                 "stats": {
                     "hp": 132,
@@ -5456,7 +5567,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 178,
                 "nature": "Naive",
-                "ability": "Sand Rush",
+                "ability": "Sand Force",
                 "held_item": null,
                 "stats": {
                     "hp": 205,
@@ -5477,6 +5588,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -5501,7 +5613,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 172,
                 "nature": "Hardy",
-                "ability": "Thick Fat",
+                "ability": "Scrappy",
                 "held_item": null,
                 "stats": {
                     "hp": 186,
@@ -5522,6 +5634,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -5556,17 +5669,18 @@ export const trainers = {
                     "special_attack": 108,
                     "special_defense": 102
                 },
-                "moves": ["Sing", "DoubleSlap", "Minimize", "Metronome"]
+                "moves": ["Sing", "Double Slap", "Minimize", "Metronome"]
             }
         ]
     },
     "113": {
         "rom_id": 113,
         "name": "Nelson",
-        "trainer_class": "Clerk ⑭",
+        "trainer_class": "Clerk ♂",
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -5574,7 +5688,7 @@ export const trainers = {
                 "level": 58,
                 "experience_yield": 78,
                 "nature": "Quirky",
-                "ability": "Speed Boost",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 143,
@@ -5625,7 +5739,7 @@ export const trainers = {
                 "level": 58,
                 "experience_yield": 175,
                 "nature": "Quirky",
-                "ability": "Swarm",
+                "ability": "Technician",
                 "held_item": null,
                 "stats": {
                     "hp": 149,
@@ -5659,10 +5773,11 @@ export const trainers = {
     "114": {
         "rom_id": 114,
         "name": "Wren",
-        "trainer_class": "Clerk ⑮",
+        "trainer_class": "Clerk ♀",
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -5680,14 +5795,14 @@ export const trainers = {
                     "special_attack": 79,
                     "special_defense": 68
                 },
-                "moves": ["Worry Seed", "Take Down", "SolarBeam", "Lucky Chant"]
+                "moves": ["Worry Seed", "Take Down", "Solar Beam", "Lucky Chant"]
             },
             {
                 "species": "Sunflora",
                 "level": 60,
                 "experience_yield": 149,
                 "nature": "Brave",
-                "ability": "Chlorophyll",
+                "ability": "Solar Power",
                 "held_item": null,
                 "stats": {
                     "hp": 160,
@@ -5697,7 +5812,7 @@ export const trainers = {
                     "special_attack": 131,
                     "special_defense": 107
                 },
-                "moves": ["SolarBeam", "Double-Edge", "Sunny Day", "Leaf Storm"]
+                "moves": ["Solar Beam", "Double-Edge", "Sunny Day", "Leaf Storm"]
             },
             {
                 "species": "Cherrim",
@@ -5714,7 +5829,7 @@ export const trainers = {
                     "special_attack": 109,
                     "special_defense": 98
                 },
-                "moves": ["Worry Seed", "Take Down", "SolarBeam", "Lucky Chant"]
+                "moves": ["Worry Seed", "Take Down", "Solar Beam", "Lucky Chant"]
             }
         ]
     },
@@ -5725,6 +5840,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -5770,6 +5886,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -5798,6 +5915,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -5826,6 +5944,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Heal", "Max Potion"],
         "party": [
             {
@@ -5833,7 +5952,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 395,
                 "nature": "Lax",
-                "ability": "Natural Cure",
+                "ability": "Serene Grace",
                 "held_item": null,
                 "stats": {
                     "hp": 382,
@@ -5854,6 +5973,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Heal"],
         "party": [
             {
@@ -5882,6 +6002,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -5889,7 +6010,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 159,
                 "nature": "Sassy",
-                "ability": "Inner Focus",
+                "ability": "Early Bird",
                 "held_item": null,
                 "stats": {
                     "hp": 160,
@@ -5906,7 +6027,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 172,
                 "nature": "Serious",
-                "ability": "Wonder Skin",
+                "ability": "Magic Guard",
                 "held_item": null,
                 "stats": {
                     "hp": 162,
@@ -5944,6 +6065,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -5989,6 +6111,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -6013,7 +6136,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 142,
                 "nature": "Naughty",
-                "ability": "Sand Veil",
+                "ability": "Arena Trap",
                 "held_item": null,
                 "stats": {
                     "hp": 113,
@@ -6034,6 +6157,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -6079,6 +6203,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -6086,7 +6211,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 144,
                 "nature": "Hardy",
-                "ability": "Keen Eye",
+                "ability": "Tangled Feet",
                 "held_item": null,
                 "stats": {
                     "hp": 163,
@@ -6096,7 +6221,7 @@ export const trainers = {
                     "special_attack": 117,
                     "special_defense": 56
                 },
-                "moves": ["Uproar", "Synchronoise", "FeatherDance", "Hyper Voice"]
+                "moves": ["Uproar", "Synchronoise", "Feather Dance", "Hyper Voice"]
             },
             {
                 "species": "Wigglytuff",
@@ -6113,7 +6238,7 @@ export const trainers = {
                     "special_attack": 96,
                     "special_defense": 66
                 },
-                "moves": ["Sing", "Disable", "Defense Curl", "DoubleSlap"]
+                "moves": ["Sing", "Disable", "Defense Curl", "Double Slap"]
             }
         ]
     },
@@ -6124,6 +6249,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -6141,7 +6267,7 @@ export const trainers = {
                     "special_attack": 70,
                     "special_defense": 64
                 },
-                "moves": ["Natural Gift", "SolarBeam", "Extrasensory", "Bestow"]
+                "moves": ["Natural Gift", "Solar Beam", "Extrasensory", "Bestow"]
             },
             {
                 "species": "Electrode",
@@ -6169,6 +6295,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -6176,7 +6303,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 88,
                 "nature": "Mild",
-                "ability": "Own Tempo",
+                "ability": "Technician",
                 "held_item": null,
                 "stats": {
                     "hp": 140,
@@ -6197,6 +6324,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -6204,7 +6332,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 194,
                 "nature": "Bashful",
-                "ability": "Intimidate",
+                "ability": "Flash Fire",
                 "held_item": null,
                 "stats": {
                     "hp": 180,
@@ -6214,7 +6342,7 @@ export const trainers = {
                     "special_attack": 127,
                     "special_defense": 102
                 },
-                "moves": ["Roar", "Odor Sleuth", "Fire Fang", "ExtremeSpeed"]
+                "moves": ["Roar", "Odor Sleuth", "Fire Fang", "Extreme Speed"]
             },
             {
                 "species": "Mienshao",
@@ -6231,7 +6359,7 @@ export const trainers = {
                     "special_attack": 120,
                     "special_defense": 78
                 },
-                "moves": ["U-turn", "Wide Guard", "Bounce", "Hi Jump Kick"]
+                "moves": ["U-turn", "Wide Guard", "Bounce", "High Jump Kick"]
             }
         ]
     },
@@ -6242,6 +6370,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -6287,6 +6416,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -6315,6 +6445,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -6322,7 +6453,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 60,
                 "nature": "Docile",
-                "ability": "Rock Head",
+                "ability": "Sturdy",
                 "held_item": null,
                 "stats": {
                     "hp": 118,
@@ -6377,6 +6508,7 @@ export const trainers = {
         "location": null,
         "money": 1,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -6384,7 +6516,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 61,
                 "nature": "Calm",
-                "ability": "Oblivious",
+                "ability": "Forewarn",
                 "held_item": null,
                 "stats": {
                     "hp": 125,
@@ -6405,6 +6537,7 @@ export const trainers = {
         "location": null,
         "money": 1,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -6412,7 +6545,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 62,
                 "nature": "Timid",
-                "ability": "Soundproof",
+                "ability": "Filter",
                 "held_item": null,
                 "stats": {
                     "hp": 95,
@@ -6433,6 +6566,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -6457,7 +6591,7 @@ export const trainers = {
                 "level": 41,
                 "experience_yield": 130,
                 "nature": "Calm",
-                "ability": "Flash Fire",
+                "ability": "Flame Body",
                 "held_item": null,
                 "stats": {
                     "hp": 105,
@@ -6478,6 +6612,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -6495,7 +6630,7 @@ export const trainers = {
                     "special_attack": 49,
                     "special_defense": 55
                 },
-                "moves": ["Fake Out", "Attract", "Sing", "DoubleSlap"]
+                "moves": ["Fake Out", "Attract", "Sing", "Double Slap"]
             },
             {
                 "species": "Eelektrik",
@@ -6523,14 +6658,15 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": false,
-        "items": ["X Special"],
+        "battle_type": "single",
+        "items": ["X Sp. Atk"],
         "party": [
             {
                 "species": "Klink",
                 "level": 34,
                 "experience_yield": 60,
                 "nature": "Quirky",
-                "ability": "Plus",
+                "ability": "Minus",
                 "held_item": null,
                 "stats": {
                     "hp": 75,
@@ -6568,6 +6704,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -6596,6 +6733,7 @@ export const trainers = {
         "location": null,
         "money": 1,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -6624,6 +6762,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -6652,6 +6791,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -6659,7 +6799,7 @@ export const trainers = {
                 "level": 24,
                 "experience_yield": 133,
                 "nature": "Gentle",
-                "ability": "Leaf Guard",
+                "ability": "Chlorophyll",
                 "held_item": null,
                 "stats": {
                     "hp": 60,
@@ -6680,6 +6820,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore", "Full Restore", "Full Restore"],
         "party": [
             {
@@ -6687,7 +6828,7 @@ export const trainers = {
                 "level": 76,
                 "experience_yield": 156,
                 "nature": "Mild",
-                "ability": "Limber",
+                "ability": "Unburden",
                 "held_item": null,
                 "stats": {
                     "hp": 206,
@@ -6772,7 +6913,7 @@ export const trainers = {
                 "level": 78,
                 "experience_yield": 174,
                 "nature": "Adamant",
-                "ability": "Lightningrod",
+                "ability": "Motor Drive",
                 "held_item": null,
                 "stats": {
                     "hp": 228,
@@ -6793,6 +6934,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -6827,7 +6969,7 @@ export const trainers = {
                     "special_attack": 102,
                     "special_defense": 102
                 },
-                "moves": ["ThunderShock", "Tail Whip", "Quick Attack", "Thunderbolt"]
+                "moves": ["Thunder Shock", "Tail Whip", "Quick Attack", "Thunderbolt"]
             }
         ]
     },
@@ -6838,6 +6980,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -6934,6 +7077,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore", "Full Restore"],
         "party": [
             {
@@ -7047,6 +7191,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore", "Full Restore"],
         "party": [
             {
@@ -7098,7 +7243,7 @@ export const trainers = {
                     "special_attack": 113,
                     "special_defense": 134
                 },
-                "moves": ["Hi Jump Kick", "Fire Punch", "Ice Punch", "ThunderPunch"]
+                "moves": ["High Jump Kick", "Fire Punch", "Ice Punch", "Thunder Punch"]
             },
             {
                 "species": "Lucario",
@@ -7115,7 +7260,7 @@ export const trainers = {
                     "special_attack": 192,
                     "special_defense": 114
                 },
-                "moves": ["Aura Sphere", "Dragon Pulse", "ExtremeSpeed", "Shadow Ball"]
+                "moves": ["Aura Sphere", "Dragon Pulse", "Extreme Speed", "Shadow Ball"]
             },
             {
                 "species": "Mienshao",
@@ -7132,7 +7277,7 @@ export const trainers = {
                     "special_attack": 163,
                     "special_defense": 124
                 },
-                "moves": ["Hi Jump Kick", "U-turn", "Acrobatics", "Fake Out"]
+                "moves": ["High Jump Kick", "U-turn", "Acrobatics", "Fake Out"]
             },
             {
                 "species": "Conkeldurr",
@@ -7160,6 +7305,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore", "Full Restore"],
         "party": [
             {
@@ -7211,7 +7357,7 @@ export const trainers = {
                     "special_attack": 81,
                     "special_defense": 192
                 },
-                "moves": ["Head Smash", "Crunch", "Hi Jump Kick", "Poison Jab"]
+                "moves": ["Head Smash", "Crunch", "High Jump Kick", "Poison Jab"]
             },
             {
                 "species": "Houndoom",
@@ -7273,6 +7419,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore", "Full Restore"],
         "party": [
             {
@@ -7386,6 +7533,7 @@ export const trainers = {
         "location": null,
         "money": 40,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -7414,6 +7562,7 @@ export const trainers = {
         "location": null,
         "money": 40,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -7431,7 +7580,7 @@ export const trainers = {
                     "special_attack": 43,
                     "special_defense": 33
                 },
-                "moves": ["ThunderShock", "Cotton Spore", "Charge", "Take Down"]
+                "moves": ["Thunder Shock", "Cotton Spore", "Charge", "Take Down"]
             }
         ]
     },
@@ -7442,6 +7591,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -7470,6 +7620,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -7498,6 +7649,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -7505,7 +7657,7 @@ export const trainers = {
                 "level": 37,
                 "experience_yield": 215,
                 "nature": "Sassy",
-                "ability": "Big Pecks",
+                "ability": "Super Luck",
                 "held_item": null,
                 "stats": {
                     "hp": 106,
@@ -7526,6 +7678,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -7571,6 +7724,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -7633,6 +7787,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -7640,7 +7795,7 @@ export const trainers = {
                 "level": 22,
                 "experience_yield": 133,
                 "nature": "Quirky",
-                "ability": "Leaf Guard",
+                "ability": "Chlorophyll",
                 "held_item": null,
                 "stats": {
                     "hp": 57,
@@ -7667,7 +7822,7 @@ export const trainers = {
                     "special_attack": 21,
                     "special_defense": 21
                 },
-                "moves": ["Struggle Bug", "Smack Down", "Faint Attack", "Rock Polish"]
+                "moves": ["Struggle Bug", "Smack Down", "Feint Attack", "Rock Polish"]
             },
             {
                 "species": "Leavanny",
@@ -7695,6 +7850,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -7746,7 +7902,7 @@ export const trainers = {
                     "special_attack": 79,
                     "special_defense": 54
                 },
-                "moves": ["Air Slash", "BubbleBeam", "Roost", "FeatherDance"]
+                "moves": ["Air Slash", "Bubble Beam", "Roost", "Feather Dance"]
             }
         ]
     },
@@ -7757,6 +7913,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Potion"],
         "party": [
             {
@@ -7802,6 +7959,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Super Potion"],
         "party": [
             {
@@ -7847,6 +8005,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -7909,6 +8068,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -7971,6 +8131,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -8029,10 +8190,11 @@ export const trainers = {
     "161": {
         "rom_id": 161,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8057,10 +8219,11 @@ export const trainers = {
     "162": {
         "rom_id": 162,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8085,10 +8248,11 @@ export const trainers = {
     "163": {
         "rom_id": 163,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8117,6 +8281,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8145,6 +8310,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8169,10 +8335,11 @@ export const trainers = {
     "166": {
         "rom_id": 166,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8197,10 +8364,11 @@ export const trainers = {
     "167": {
         "rom_id": 167,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8225,10 +8393,11 @@ export const trainers = {
     "168": {
         "rom_id": 168,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8257,6 +8426,7 @@ export const trainers = {
         "location": null,
         "money": 5,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8285,6 +8455,7 @@ export const trainers = {
         "location": null,
         "money": 5,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8313,6 +8484,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8358,6 +8530,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8382,7 +8555,7 @@ export const trainers = {
                 "level": 9,
                 "experience_yield": 51,
                 "nature": "Docile",
-                "ability": "Run Away",
+                "ability": "Keen Eye",
                 "held_item": null,
                 "stats": {
                     "hp": 27,
@@ -8403,6 +8576,7 @@ export const trainers = {
         "location": null,
         "money": 1,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8431,6 +8605,7 @@ export const trainers = {
         "location": null,
         "money": 1,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8459,6 +8634,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -8476,7 +8652,7 @@ export const trainers = {
                     "special_attack": 10,
                     "special_defense": 10
                 },
-                "moves": ["Absorb", "Growth", "Ingrain", "GrassWhistle"]
+                "moves": ["Absorb", "Growth", "Ingrain", "Grass Whistle"]
             },
             {
                 "species": "Sunkern",
@@ -8493,7 +8669,7 @@ export const trainers = {
                     "special_attack": 10,
                     "special_defense": 10
                 },
-                "moves": ["Absorb", "Growth", "Ingrain", "GrassWhistle"]
+                "moves": ["Absorb", "Growth", "Ingrain", "Grass Whistle"]
             }
         ]
     },
@@ -8504,6 +8680,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8511,7 +8688,7 @@ export const trainers = {
                 "level": 11,
                 "experience_yield": 145,
                 "nature": "Gentle",
-                "ability": "Serene Grace",
+                "ability": "Run Away",
                 "held_item": null,
                 "stats": {
                     "hp": 43,
@@ -8532,6 +8709,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8539,7 +8717,7 @@ export const trainers = {
                 "level": 43,
                 "experience_yield": 169,
                 "nature": "Bold",
-                "ability": "Swarm",
+                "ability": "Hustle",
                 "held_item": null,
                 "stats": {
                     "hp": 108,
@@ -8577,6 +8755,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8622,6 +8801,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8629,7 +8809,7 @@ export const trainers = {
                 "level": 14,
                 "experience_yield": 52,
                 "nature": "Lax",
-                "ability": "Poison Point",
+                "ability": "Swarm",
                 "held_item": null,
                 "stats": {
                     "hp": 32,
@@ -8667,6 +8847,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8674,7 +8855,7 @@ export const trainers = {
                 "level": 6,
                 "experience_yield": 51,
                 "nature": "Lax",
-                "ability": "Run Away",
+                "ability": "Keen Eye",
                 "held_item": null,
                 "stats": {
                     "hp": 21,
@@ -8691,7 +8872,7 @@ export const trainers = {
                 "level": 6,
                 "experience_yield": 64,
                 "nature": "Mild",
-                "ability": "Damp",
+                "ability": "Cloud Nine",
                 "held_item": null,
                 "stats": {
                     "hp": 22,
@@ -8712,6 +8893,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8719,7 +8901,7 @@ export const trainers = {
                 "level": 6,
                 "experience_yield": 56,
                 "nature": "Lax",
-                "ability": "Limber",
+                "ability": "Unburden",
                 "held_item": null,
                 "stats": {
                     "hp": 20,
@@ -8757,6 +8939,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8764,7 +8947,7 @@ export const trainers = {
                 "level": 6,
                 "experience_yield": 55,
                 "nature": "Quirky",
-                "ability": "Vital Spirit",
+                "ability": "Pickup",
                 "held_item": null,
                 "stats": {
                     "hp": 21,
@@ -8802,6 +8985,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8864,6 +9048,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8905,7 +9090,7 @@ export const trainers = {
                 "level": 53,
                 "experience_yield": 68,
                 "nature": "Rash",
-                "ability": "Defiant",
+                "ability": "Inner Focus",
                 "held_item": "Muscle Band",
                 "stats": {
                     "hp": 112,
@@ -8926,6 +9111,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -8988,6 +9174,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -9050,6 +9237,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -9112,6 +9300,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -9146,7 +9335,7 @@ export const trainers = {
                     "special_attack": 114,
                     "special_defense": 85
                 },
-                "moves": ["Scald", "Brave Bird", "Ice Beam", "FeatherDance"]
+                "moves": ["Scald", "Brave Bird", "Ice Beam", "Feather Dance"]
             },
             {
                 "species": "Scolipede",
@@ -9174,6 +9363,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -9191,7 +9381,7 @@ export const trainers = {
                     "special_attack": 70,
                     "special_defense": 156
                 },
-                "moves": ["Hi Jump Kick", "Head Smash", "Bulk Up", "Scary Face"]
+                "moves": ["High Jump Kick", "Head Smash", "Bulk Up", "Scary Face"]
             },
             {
                 "species": "Zangoose",
@@ -9236,6 +9426,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -9298,6 +9489,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -9332,7 +9524,7 @@ export const trainers = {
                     "special_attack": 166,
                     "special_defense": 118
                 },
-                "moves": ["Hydro Pump", "AncientPower", "Ice Beam", "Earth Power"]
+                "moves": ["Hydro Pump", "Ancient Power", "Ice Beam", "Earth Power"]
             },
             {
                 "species": "Jellicent",
@@ -9360,6 +9552,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -9411,7 +9604,7 @@ export const trainers = {
                     "special_attack": 88,
                     "special_defense": 121
                 },
-                "moves": ["Earthquake", "ThunderPunch", "Shadow Punch", "Drain Punch"]
+                "moves": ["Earthquake", "Thunder Punch", "Shadow Punch", "Drain Punch"]
             }
         ]
     },
@@ -9422,6 +9615,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -9439,7 +9633,7 @@ export const trainers = {
                     "special_attack": 183,
                     "special_defense": 159
                 },
-                "moves": ["Air Slash", "Aura Sphere", "ExtremeSpeed", "Encore"]
+                "moves": ["Air Slash", "Aura Sphere", "Extreme Speed", "Encore"]
             },
             {
                 "species": "Heracross",
@@ -9484,6 +9678,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -9546,6 +9741,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -9597,7 +9793,7 @@ export const trainers = {
                     "special_attack": 184,
                     "special_defense": 120
                 },
-                "moves": ["ExtremeSpeed", "Aura Sphere", "Dragon Pulse", "Swords Dance"]
+                "moves": ["Extreme Speed", "Aura Sphere", "Dragon Pulse", "Swords Dance"]
             }
         ]
     },
@@ -9608,6 +9804,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -9670,6 +9867,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -9694,7 +9892,7 @@ export const trainers = {
                 "level": 74,
                 "experience_yield": 194,
                 "nature": "Calm",
-                "ability": "Intimidate",
+                "ability": "Flash Fire",
                 "held_item": "Liechi Berry",
                 "stats": {
                     "hp": 237,
@@ -9704,7 +9902,7 @@ export const trainers = {
                     "special_attack": 172,
                     "special_defense": 157
                 },
-                "moves": ["Flare Blitz", "Wild Charge", "Close Combat", "ExtremeSpeed"]
+                "moves": ["Flare Blitz", "Wild Charge", "Close Combat", "Extreme Speed"]
             },
             {
                 "species": "Thundurus",
@@ -9732,6 +9930,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -9749,7 +9948,7 @@ export const trainers = {
                     "special_attack": 178,
                     "special_defense": 130
                 },
-                "moves": ["Mach Punch", "Fire Blast", "ThunderPunch", "Work Up"]
+                "moves": ["Mach Punch", "Fire Blast", "Thunder Punch", "Work Up"]
             },
             {
                 "species": "Archeops",
@@ -9794,6 +9993,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -9828,7 +10028,7 @@ export const trainers = {
                     "special_attack": 218,
                     "special_defense": 156
                 },
-                "moves": ["Heat Wave", "Sky Attack", "SolarBeam", "Roost"]
+                "moves": ["Heat Wave", "Sky Attack", "Solar Beam", "Roost"]
             },
             {
                 "species": "Raikou",
@@ -9856,6 +10056,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -9918,6 +10119,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -9980,6 +10182,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -10042,6 +10245,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -10087,6 +10291,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -10121,7 +10326,7 @@ export const trainers = {
                     "special_attack": 22,
                     "special_defense": 16
                 },
-                "moves": ["Leer", "ThunderShock", "Low Kick", "Swift"]
+                "moves": ["Leer", "Thunder Shock", "Low Kick", "Swift"]
             }
         ]
     },
@@ -10132,6 +10337,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -10139,7 +10345,7 @@ export const trainers = {
                 "level": 12,
                 "experience_yield": 57,
                 "nature": "Quirky",
-                "ability": "Steadfast",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 31,
@@ -10177,6 +10383,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -10205,6 +10412,7 @@ export const trainers = {
         "location": null,
         "money": 14,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -10250,6 +10458,7 @@ export const trainers = {
         "location": null,
         "money": 14,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -10274,7 +10483,7 @@ export const trainers = {
                 "level": 27,
                 "experience_yield": 59,
                 "nature": "Gentle",
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "held_item": null,
                 "stats": {
                     "hp": 61,
@@ -10295,6 +10504,7 @@ export const trainers = {
         "location": null,
         "money": 14,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -10302,7 +10512,7 @@ export const trainers = {
                 "level": 27,
                 "experience_yield": 59,
                 "nature": "Jolly",
-                "ability": "Lightningrod",
+                "ability": "Motor Drive",
                 "held_item": null,
                 "stats": {
                     "hp": 61,
@@ -10340,6 +10550,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -10368,6 +10579,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -10388,11 +10600,11 @@ export const trainers = {
                 "moves": ["Tail Whip", "Water Gun", "Disable", "Confusion"]
             },
             {
-                "species": "Basculin",
+                "species": "Basculin (Blue Striped)",
                 "level": 16,
                 "experience_yield": 161,
                 "nature": "Bold",
-                "ability": "Rock Head",
+                "ability": "Reckless",
                 "held_item": null,
                 "stats": {
                     "hp": 48,
@@ -10413,6 +10625,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -10458,6 +10671,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -10503,6 +10717,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -10510,7 +10725,7 @@ export const trainers = {
                 "level": 21,
                 "experience_yield": 57,
                 "nature": "Adamant",
-                "ability": "Steadfast",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 47,
@@ -10527,7 +10742,7 @@ export const trainers = {
                 "level": 21,
                 "experience_yield": 70,
                 "nature": "Adamant",
-                "ability": "Intimidate",
+                "ability": "Flash Fire",
                 "held_item": null,
                 "stats": {
                     "hp": 54,
@@ -10548,6 +10763,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -10576,6 +10792,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -10621,6 +10838,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -10649,6 +10867,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -10673,7 +10892,7 @@ export const trainers = {
                 "level": 21,
                 "experience_yield": 61,
                 "nature": "Calm",
-                "ability": "Guts",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 62,
@@ -10694,6 +10913,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -10722,6 +10942,7 @@ export const trainers = {
         "location": null,
         "money": 16,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -10729,7 +10950,7 @@ export const trainers = {
                 "level": 21,
                 "experience_yield": 56,
                 "nature": "Timid",
-                "ability": "Prankster",
+                "ability": "Infiltrator",
                 "held_item": null,
                 "stats": {
                     "hp": 47,
@@ -10746,7 +10967,7 @@ export const trainers = {
                 "level": 21,
                 "experience_yield": 56,
                 "nature": "Modest",
-                "ability": "Chlorophyll",
+                "ability": "Own Tempo",
                 "held_item": null,
                 "stats": {
                     "hp": 49,
@@ -10767,6 +10988,7 @@ export const trainers = {
         "location": null,
         "money": 40,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -10795,6 +11017,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -10840,6 +11063,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -10847,7 +11071,7 @@ export const trainers = {
                 "level": 21,
                 "experience_yield": 63,
                 "nature": "Sassy",
-                "ability": "Unaware",
+                "ability": "Klutz",
                 "held_item": null,
                 "stats": {
                     "hp": 54,
@@ -10864,7 +11088,7 @@ export const trainers = {
                 "level": 21,
                 "experience_yield": 53,
                 "nature": "Sassy",
-                "ability": "Big Pecks",
+                "ability": "Super Luck",
                 "held_item": null,
                 "stats": {
                     "hp": 52,
@@ -10885,6 +11109,7 @@ export const trainers = {
         "location": null,
         "money": 16,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Super Potion"],
         "party": [
             {
@@ -10930,6 +11155,7 @@ export const trainers = {
         "location": null,
         "money": 16,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Super Potion"],
         "party": [
             {
@@ -10958,6 +11184,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -10982,7 +11209,7 @@ export const trainers = {
                 "level": 20,
                 "experience_yield": 56,
                 "nature": "Brave",
-                "ability": "Chlorophyll",
+                "ability": "Own Tempo",
                 "held_item": null,
                 "stats": {
                     "hp": 48,
@@ -11003,6 +11230,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11010,7 +11238,7 @@ export const trainers = {
                 "level": 25,
                 "experience_yield": 61,
                 "nature": "Mild",
-                "ability": "Guts",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 75,
@@ -11027,7 +11255,7 @@ export const trainers = {
                 "level": 25,
                 "experience_yield": 61,
                 "nature": "Mild",
-                "ability": "Guts",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 75,
@@ -11048,6 +11276,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11055,7 +11284,7 @@ export const trainers = {
                 "level": 26,
                 "experience_yield": 65,
                 "nature": "Relaxed",
-                "ability": "Sturdy",
+                "ability": "Shell Armor",
                 "held_item": null,
                 "stats": {
                     "hp": 65,
@@ -11076,6 +11305,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11121,6 +11351,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11149,6 +11380,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11156,7 +11388,7 @@ export const trainers = {
                 "level": 48,
                 "experience_yield": 166,
                 "nature": "Naughty",
-                "ability": "Sturdy",
+                "ability": "Shell Armor",
                 "held_item": null,
                 "stats": {
                     "hp": 130,
@@ -11177,6 +11409,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11184,7 +11417,7 @@ export const trainers = {
                 "level": 25,
                 "experience_yield": 125,
                 "nature": "Calm",
-                "ability": "Big Pecks",
+                "ability": "Super Luck",
                 "held_item": null,
                 "stats": {
                     "hp": 69,
@@ -11222,6 +11455,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11229,7 +11463,7 @@ export const trainers = {
                 "level": 26,
                 "experience_yield": 61,
                 "nature": "Careful",
-                "ability": "Guts",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 78,
@@ -11250,6 +11484,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11295,6 +11530,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11302,7 +11538,7 @@ export const trainers = {
                 "level": 34,
                 "experience_yield": 142,
                 "nature": "Bashful",
-                "ability": "Guts",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 105,
@@ -11323,6 +11559,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11330,7 +11567,7 @@ export const trainers = {
                 "level": 47,
                 "experience_yield": 142,
                 "nature": "Gentle",
-                "ability": "Guts",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 142,
@@ -11340,14 +11577,14 @@ export const trainers = {
                     "special_attack": 48,
                     "special_defense": 62
                 },
-                "moves": ["Rock Slide", "DynamicPunch", "Scary Face", "Hammer Arm"]
+                "moves": ["Rock Slide", "Dynamic Punch", "Scary Face", "Hammer Arm"]
             },
             {
                 "species": "Pawniard",
                 "level": 47,
                 "experience_yield": 68,
                 "nature": "Timid",
-                "ability": "Defiant",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 104,
@@ -11368,6 +11605,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11375,7 +11613,7 @@ export const trainers = {
                 "level": 26,
                 "experience_yield": 156,
                 "nature": "Relaxed",
-                "ability": "Limber",
+                "ability": "Unburden",
                 "held_item": null,
                 "stats": {
                     "hp": 72,
@@ -11396,6 +11634,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11424,6 +11663,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11452,6 +11692,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11480,6 +11721,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11525,6 +11767,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11570,6 +11813,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11577,7 +11821,7 @@ export const trainers = {
                 "level": 25,
                 "experience_yield": 133,
                 "nature": "Adamant",
-                "ability": "Leaf Guard",
+                "ability": "Chlorophyll",
                 "held_item": null,
                 "stats": {
                     "hp": 65,
@@ -11594,7 +11838,7 @@ export const trainers = {
                 "level": 25,
                 "experience_yield": 130,
                 "nature": "Hardy",
-                "ability": "Intimidate",
+                "ability": "Sand Rush",
                 "held_item": null,
                 "stats": {
                     "hp": 70,
@@ -11615,6 +11859,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11622,7 +11867,7 @@ export const trainers = {
                 "level": 33,
                 "experience_yield": 221,
                 "nature": "Serious",
-                "ability": "Intimidate",
+                "ability": "Sand Rush",
                 "held_item": null,
                 "stats": {
                     "hp": 103,
@@ -11660,6 +11905,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11684,7 +11930,7 @@ export const trainers = {
                 "level": 33,
                 "experience_yield": 130,
                 "nature": "Serious",
-                "ability": "Intimidate",
+                "ability": "Sand Rush",
                 "held_item": null,
                 "stats": {
                     "hp": 89,
@@ -11705,6 +11951,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11712,7 +11959,7 @@ export const trainers = {
                 "level": 47,
                 "experience_yield": 221,
                 "nature": "Brave",
-                "ability": "Swarm",
+                "ability": "Chlorophyll",
                 "held_item": null,
                 "stats": {
                     "hp": 133,
@@ -11729,7 +11976,7 @@ export const trainers = {
                 "level": 47,
                 "experience_yield": 221,
                 "nature": "Careful",
-                "ability": "Intimidate",
+                "ability": "Sand Rush",
                 "held_item": null,
                 "stats": {
                     "hp": 142,
@@ -11750,6 +11997,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11757,7 +12005,7 @@ export const trainers = {
                 "level": 25,
                 "experience_yield": 56,
                 "nature": "Careful",
-                "ability": "Prankster",
+                "ability": "Infiltrator",
                 "held_item": null,
                 "stats": {
                     "hp": 58,
@@ -11767,7 +12015,7 @@ export const trainers = {
                     "special_attack": 23,
                     "special_defense": 36
                 },
-                "moves": ["Mega Drain", "Cotton Spore", "Razor Leaf", "PoisonPowder"]
+                "moves": ["Mega Drain", "Cotton Spore", "Razor Leaf", "Poison Powder"]
             },
             {
                 "species": "Petilil",
@@ -11795,6 +12043,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11812,7 +12061,7 @@ export const trainers = {
                     "special_attack": 18,
                     "special_defense": 30
                 },
-                "moves": ["BubbleBeam", "Helping Hand", "Aqua Tail", "Double-Edge"]
+                "moves": ["Bubble Beam", "Helping Hand", "Aqua Tail", "Double-Edge"]
             }
         ]
     },
@@ -11823,6 +12072,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11847,7 +12097,7 @@ export const trainers = {
                 "level": 33,
                 "experience_yield": 168,
                 "nature": "Naive",
-                "ability": "Chlorophyll",
+                "ability": "Own Tempo",
                 "held_item": null,
                 "stats": {
                     "hp": 93,
@@ -11868,6 +12118,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11875,7 +12126,7 @@ export const trainers = {
                 "level": 34,
                 "experience_yield": 67,
                 "nature": "Sassy",
-                "ability": "Water Absorb",
+                "ability": "Cursed Body",
                 "held_item": null,
                 "stats": {
                     "hp": 85,
@@ -11896,6 +12147,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -11903,7 +12155,7 @@ export const trainers = {
                 "level": 48,
                 "experience_yield": 168,
                 "nature": "Jolly",
-                "ability": "Water Absorb",
+                "ability": "Cursed Body",
                 "held_item": null,
                 "stats": {
                     "hp": 159,
@@ -11924,6 +12176,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -11941,7 +12194,7 @@ export const trainers = {
                     "special_attack": 24,
                     "special_defense": 21
                 },
-                "moves": ["DoubleSlap", "Encore", "Swift", "Sing"]
+                "moves": ["Double Slap", "Encore", "Swift", "Sing"]
             },
             {
                 "species": "Minccino",
@@ -11958,7 +12211,7 @@ export const trainers = {
                     "special_attack": 24,
                     "special_defense": 21
                 },
-                "moves": ["DoubleSlap", "Encore", "Swift", "Sing"]
+                "moves": ["Double Slap", "Encore", "Swift", "Sing"]
             }
         ]
     },
@@ -11969,6 +12222,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -12014,6 +12268,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -12021,7 +12276,7 @@ export const trainers = {
                 "level": 25,
                 "experience_yield": 172,
                 "nature": "Adamant",
-                "ability": "Wonder Skin",
+                "ability": "Magic Guard",
                 "held_item": null,
                 "stats": {
                     "hp": 71,
@@ -12042,6 +12297,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -12049,7 +12305,7 @@ export const trainers = {
                 "level": 25,
                 "experience_yield": 70,
                 "nature": "Hasty",
-                "ability": "Shed Skin",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 60,
@@ -12070,6 +12326,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -12077,7 +12334,7 @@ export const trainers = {
                 "level": 25,
                 "experience_yield": 161,
                 "nature": "Bashful",
-                "ability": "Water Absorb",
+                "ability": "Chlorophyll",
                 "held_item": null,
                 "stats": {
                     "hp": 72,
@@ -12098,6 +12355,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -12105,7 +12363,7 @@ export const trainers = {
                 "level": 24,
                 "experience_yield": 70,
                 "nature": "Jolly",
-                "ability": "Shed Skin",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 58,
@@ -12122,7 +12380,7 @@ export const trainers = {
                 "level": 24,
                 "experience_yield": 70,
                 "nature": "Jolly",
-                "ability": "Shed Skin",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 58,
@@ -12143,6 +12401,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -12150,7 +12409,7 @@ export const trainers = {
                 "level": 25,
                 "experience_yield": 147,
                 "nature": "Adamant",
-                "ability": "Illuminate",
+                "ability": "Keen Eye",
                 "held_item": null,
                 "stats": {
                     "hp": 65,
@@ -12171,6 +12430,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -12199,6 +12459,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -12206,7 +12467,7 @@ export const trainers = {
                 "level": 25,
                 "experience_yield": 125,
                 "nature": "Hardy",
-                "ability": "Big Pecks",
+                "ability": "Super Luck",
                 "held_item": null,
                 "stats": {
                     "hp": 66,
@@ -12227,6 +12488,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -12234,7 +12496,7 @@ export const trainers = {
                 "level": 25,
                 "experience_yield": 126,
                 "nature": "Docile",
-                "ability": "Poison Point",
+                "ability": "Swarm",
                 "held_item": null,
                 "stats": {
                     "hp": 55,
@@ -12255,6 +12517,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -12283,6 +12546,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["X Attack"],
         "party": [
             {
@@ -12290,7 +12554,7 @@ export const trainers = {
                 "level": 28,
                 "experience_yield": 67,
                 "nature": "Lonely",
-                "ability": "Chlorophyll",
+                "ability": "Sap Sipper",
                 "held_item": null,
                 "stats": {
                     "hp": 71,
@@ -12300,7 +12564,7 @@ export const trainers = {
                     "special_attack": 27,
                     "special_defense": 33
                 },
-                "moves": ["Faint Attack", "Take Down", "Jump Kick", "Aromatherapy"]
+                "moves": ["Feint Attack", "Take Down", "Jump Kick", "Aromatherapy"]
             }
         ]
     },
@@ -12311,7 +12575,8 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": false,
-        "items": ["X Special"],
+        "battle_type": "single",
+        "items": ["X Sp. Atk"],
         "party": [
             {
                 "species": "Shelmet",
@@ -12356,6 +12621,7 @@ export const trainers = {
         "location": null,
         "money": 5,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -12373,7 +12639,7 @@ export const trainers = {
                     "special_attack": 34,
                     "special_defense": 34
                 },
-                "moves": ["Mega Drain", "Ingrain", "Faint Attack", "Sweet Scent"]
+                "moves": ["Mega Drain", "Ingrain", "Feint Attack", "Sweet Scent"]
             },
             {
                 "species": "Karrablast",
@@ -12401,6 +12667,7 @@ export const trainers = {
         "location": null,
         "money": 5,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -12418,14 +12685,14 @@ export const trainers = {
                     "special_attack": 28,
                     "special_defense": 32
                 },
-                "moves": ["Leech Seed", "Faint Attack", "Take Down", "Jump Kick"]
+                "moves": ["Leech Seed", "Feint Attack", "Take Down", "Jump Kick"]
             },
             {
                 "species": "Shelmet",
                 "level": 27,
                 "experience_yield": 61,
                 "nature": "Careful",
-                "ability": "Hydration",
+                "ability": "Shell Armor",
                 "held_item": null,
                 "stats": {
                     "hp": 64,
@@ -12446,6 +12713,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -12474,6 +12742,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -12501,7 +12770,8 @@ export const trainers = {
         "trainer_class": "Lass",
         "location": null,
         "money": 4,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "triple",
         "items": [],
         "party": [
             {
@@ -12519,7 +12789,7 @@ export const trainers = {
                     "special_attack": 34,
                     "special_defense": 38
                 },
-                "moves": ["FeatherDance", "Aqua Ring", "Air Slash", "Roost"]
+                "moves": ["Feather Dance", "Aqua Ring", "Air Slash", "Roost"]
             },
             {
                 "species": "Unfezant",
@@ -12553,7 +12823,7 @@ export const trainers = {
                     "special_attack": 34,
                     "special_defense": 38
                 },
-                "moves": ["FeatherDance", "Aqua Ring", "Air Slash", "Roost"]
+                "moves": ["Feather Dance", "Aqua Ring", "Air Slash", "Roost"]
             }
         ]
     },
@@ -12563,7 +12833,8 @@ export const trainers = {
         "trainer_class": "Youngster",
         "location": null,
         "money": 4,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "rotation",
         "items": [],
         "party": [
             {
@@ -12588,7 +12859,7 @@ export const trainers = {
                 "level": 33,
                 "experience_yield": 67,
                 "nature": "Quirky",
-                "ability": "Chlorophyll",
+                "ability": "Sap Sipper",
                 "held_item": null,
                 "stats": {
                     "hp": 82,
@@ -12605,7 +12876,7 @@ export const trainers = {
                 "level": 33,
                 "experience_yield": 67,
                 "nature": "Quirky",
-                "ability": "Chlorophyll",
+                "ability": "Sap Sipper",
                 "held_item": null,
                 "stats": {
                     "hp": 82,
@@ -12626,6 +12897,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -12633,7 +12905,7 @@ export const trainers = {
                 "level": 34,
                 "experience_yield": 44,
                 "nature": "Naive",
-                "ability": "Cute Charm",
+                "ability": "Magic Guard",
                 "held_item": null,
                 "stats": {
                     "hp": 78,
@@ -12650,7 +12922,7 @@ export const trainers = {
                 "level": 34,
                 "experience_yield": 165,
                 "nature": "Sassy",
-                "ability": "Cute Charm",
+                "ability": "Technician",
                 "held_item": null,
                 "stats": {
                     "hp": 95,
@@ -12671,6 +12943,7 @@ export const trainers = {
         "location": null,
         "money": 1,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -12678,7 +12951,7 @@ export const trainers = {
                 "level": 34,
                 "experience_yield": 149,
                 "nature": "Lonely",
-                "ability": "Chlorophyll",
+                "ability": "Solar Power",
                 "held_item": null,
                 "stats": {
                     "hp": 95,
@@ -12688,7 +12961,7 @@ export const trainers = {
                     "special_attack": 76,
                     "special_defense": 62
                 },
-                "moves": ["Bullet Seed", "Petal Dance", "Natural Gift", "SolarBeam"]
+                "moves": ["Bullet Seed", "Petal Dance", "Natural Gift", "Solar Beam"]
             }
         ]
     },
@@ -12699,6 +12972,7 @@ export const trainers = {
         "location": null,
         "money": 1,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -12727,6 +13001,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -12772,6 +13047,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -12800,6 +13076,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -12828,6 +13105,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -12845,7 +13123,7 @@ export const trainers = {
                     "special_attack": 47,
                     "special_defense": 42
                 },
-                "moves": ["Fake Out", "Attract", "Sing", "DoubleSlap"]
+                "moves": ["Fake Out", "Attract", "Sing", "Double Slap"]
             }
         ]
     },
@@ -12856,6 +13134,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -12863,7 +13142,7 @@ export const trainers = {
                 "level": 39,
                 "experience_yield": 168,
                 "nature": "Lonely",
-                "ability": "Cute Charm",
+                "ability": "Klutz",
                 "held_item": null,
                 "stats": {
                     "hp": 99,
@@ -12883,7 +13162,8 @@ export const trainers = {
         "trainer_class": "Ace Trainer",
         "location": null,
         "money": 15,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "rotation",
         "items": [],
         "party": [
             {
@@ -12891,7 +13171,7 @@ export const trainers = {
                 "level": 39,
                 "experience_yield": 174,
                 "nature": "Naive",
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "held_item": null,
                 "stats": {
                     "hp": 112,
@@ -12908,7 +13188,7 @@ export const trainers = {
                 "level": 39,
                 "experience_yield": 163,
                 "nature": "Quirky",
-                "ability": "Keen Eye",
+                "ability": "Sturdy",
                 "held_item": null,
                 "stats": {
                     "hp": 104,
@@ -12925,7 +13205,7 @@ export const trainers = {
                 "level": 39,
                 "experience_yield": 87,
                 "nature": "Timid",
-                "ability": "Chlorophyll",
+                "ability": "Leaf Guard",
                 "held_item": null,
                 "stats": {
                     "hp": 104,
@@ -12945,7 +13225,8 @@ export const trainers = {
         "trainer_class": "Ace Trainer",
         "location": null,
         "money": 15,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "triple",
         "items": [],
         "party": [
             {
@@ -12953,7 +13234,7 @@ export const trainers = {
                 "level": 39,
                 "experience_yield": 161,
                 "nature": "Calm",
-                "ability": "Reckless",
+                "ability": "Adaptability",
                 "held_item": null,
                 "stats": {
                     "hp": 108,
@@ -12970,7 +13251,7 @@ export const trainers = {
                 "level": 39,
                 "experience_yield": 168,
                 "nature": "Bashful",
-                "ability": "Chlorophyll",
+                "ability": "Own Tempo",
                 "held_item": null,
                 "stats": {
                     "hp": 108,
@@ -13008,6 +13289,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -13049,7 +13331,7 @@ export const trainers = {
                 "level": 52,
                 "experience_yield": 227,
                 "nature": "Adamant",
-                "ability": "Guts",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 174,
@@ -13059,7 +13341,7 @@ export const trainers = {
                     "special_attack": 58,
                     "special_defense": 75
                 },
-                "moves": ["DynamicPunch", "Scary Face", "Hammer Arm", "Stone Edge"]
+                "moves": ["Dynamic Punch", "Scary Face", "Hammer Arm", "Stone Edge"]
             }
         ]
     },
@@ -13070,6 +13352,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -13077,7 +13360,7 @@ export const trainers = {
                 "level": 40,
                 "experience_yield": 142,
                 "nature": "Naive",
-                "ability": "Guts",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 120,
@@ -13087,7 +13370,7 @@ export const trainers = {
                     "special_attack": 39,
                     "special_defense": 42
                 },
-                "moves": ["Chip Away", "Bulk Up", "Rock Slide", "DynamicPunch"]
+                "moves": ["Chip Away", "Bulk Up", "Rock Slide", "Dynamic Punch"]
             }
         ]
     },
@@ -13098,6 +13381,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -13105,7 +13389,7 @@ export const trainers = {
                 "level": 38,
                 "experience_yield": 68,
                 "nature": "Bashful",
-                "ability": "Illuminate",
+                "ability": "Natural Cure",
                 "held_item": null,
                 "stats": {
                     "hp": 70,
@@ -13143,6 +13427,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -13171,6 +13456,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -13216,6 +13502,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -13244,6 +13531,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -13251,7 +13539,7 @@ export const trainers = {
                 "level": 39,
                 "experience_yield": 161,
                 "nature": "Sassy",
-                "ability": "Reckless",
+                "ability": "Adaptability",
                 "held_item": null,
                 "stats": {
                     "hp": 103,
@@ -13289,6 +13577,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -13317,6 +13606,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -13324,7 +13614,7 @@ export const trainers = {
                 "level": 40,
                 "experience_yield": 175,
                 "nature": "Bashful",
-                "ability": "Damp",
+                "ability": "Cloud Nine",
                 "held_item": null,
                 "stats": {
                     "hp": 114,
@@ -13345,6 +13635,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -13373,6 +13664,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -13414,10 +13706,11 @@ export const trainers = {
     "292": {
         "rom_id": 292,
         "name": "Richard",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -13452,17 +13745,18 @@ export const trainers = {
                     "special_attack": 40,
                     "special_defense": 33
                 },
-                "moves": ["Ingrain", "Faint Attack", "Sweet Scent", "Giga Drain"]
+                "moves": ["Ingrain", "Feint Attack", "Sweet Scent", "Giga Drain"]
             }
         ]
     },
     "293": {
         "rom_id": 293,
         "name": "Lois",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -13497,17 +13791,18 @@ export const trainers = {
                     "special_attack": 56,
                     "special_defense": 46
                 },
-                "moves": ["Leech Seed", "Magical Leaf", "GrassWhistle", "Giga Drain"]
+                "moves": ["Leech Seed", "Magical Leaf", "Grass Whistle", "Giga Drain"]
             }
         ]
     },
     "294": {
         "rom_id": 294,
         "name": "Daryl",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "rotation",
         "items": [],
         "party": [
             {
@@ -13532,7 +13827,7 @@ export const trainers = {
                 "level": 39,
                 "experience_yield": 165,
                 "nature": "Impish",
-                "ability": "Compoundeyes",
+                "ability": "Unnerve",
                 "held_item": null,
                 "stats": {
                     "hp": 105,
@@ -13566,10 +13861,11 @@ export const trainers = {
     "295": {
         "rom_id": 295,
         "name": "Dianne",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "triple",
         "items": [],
         "party": [
             {
@@ -13621,17 +13917,18 @@ export const trainers = {
                     "special_attack": 46,
                     "special_defense": 46
                 },
-                "moves": ["Supersonic", "Screech", "DragonBreath", "Earth Power"]
+                "moves": ["Supersonic", "Screech", "Dragon Breath", "Earth Power"]
             }
         ]
     },
     "296": {
         "rom_id": 296,
         "name": "Irene",
-        "trainer_class": "⒆⒇ Breeder",
+        "trainer_class": "Pokémon Breeder",
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -13656,7 +13953,7 @@ export const trainers = {
                 "level": 16,
                 "experience_yield": 88,
                 "nature": "Lax",
-                "ability": "Thick Fat",
+                "ability": "Huge Power",
                 "held_item": null,
                 "stats": {
                     "hp": 48,
@@ -13666,17 +13963,18 @@ export const trainers = {
                     "special_attack": 11,
                     "special_defense": 18
                 },
-                "moves": ["Defense Curl", "Rollout", "BubbleBeam", "Helping Hand"]
+                "moves": ["Defense Curl", "Rollout", "Bubble Beam", "Helping Hand"]
             }
         ]
     },
     "297": {
         "rom_id": 297,
         "name": "Serenity",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -13701,10 +13999,11 @@ export const trainers = {
     "298": {
         "rom_id": 298,
         "name": "Forrest",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -13729,10 +14028,11 @@ export const trainers = {
     "299": {
         "rom_id": 299,
         "name": "Galen",
-        "trainer_class": "⒆⒇ Breeder",
+        "trainer_class": "Pokémon Breeder",
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -13740,7 +14040,7 @@ export const trainers = {
                 "level": 24,
                 "experience_yield": 125,
                 "nature": "Gentle",
-                "ability": "Big Pecks",
+                "ability": "Super Luck",
                 "held_item": null,
                 "stats": {
                     "hp": 63,
@@ -13778,6 +14078,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -13785,7 +14086,7 @@ export const trainers = {
                 "level": 42,
                 "experience_yield": 175,
                 "nature": "Hasty",
-                "ability": "Swarm",
+                "ability": "Guts",
                 "held_item": null,
                 "stats": {
                     "hp": 121,
@@ -13806,6 +14107,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -13823,7 +14125,7 @@ export const trainers = {
                     "special_attack": 40,
                     "special_defense": 48
                 },
-                "moves": ["Bulk Up", "Rock Slide", "DynamicPunch", "Scary Face"]
+                "moves": ["Bulk Up", "Rock Slide", "Dynamic Punch", "Scary Face"]
             },
             {
                 "species": "Mienfoo",
@@ -13847,10 +14149,11 @@ export const trainers = {
     "302": {
         "rom_id": 302,
         "name": "Marcus",
-        "trainer_class": "⒆⒇ Breeder",
+        "trainer_class": "Pokémon Breeder",
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -13875,7 +14178,7 @@ export const trainers = {
                 "level": 34,
                 "experience_yield": 125,
                 "nature": "Hasty",
-                "ability": "Big Pecks",
+                "ability": "Super Luck",
                 "held_item": null,
                 "stats": {
                     "hp": 86,
@@ -13892,10 +14195,11 @@ export const trainers = {
     "303": {
         "rom_id": 303,
         "name": "Magnolia",
-        "trainer_class": "⒆⒇ Breeder",
+        "trainer_class": "Pokémon Breeder",
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -13930,17 +14234,18 @@ export const trainers = {
                     "special_attack": 62,
                     "special_defense": 100
                 },
-                "moves": ["Take Down", "Refresh", "Dragon Dance", "DragonBreath"]
+                "moves": ["Take Down", "Refresh", "Dragon Dance", "Dragon Breath"]
             }
         ]
     },
     "304": {
         "rom_id": 304,
         "name": "Thalia",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -13999,10 +14304,11 @@ export const trainers = {
     "305": {
         "rom_id": 305,
         "name": "Crofton",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14048,6 +14354,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14072,7 +14379,7 @@ export const trainers = {
                 "level": 45,
                 "experience_yield": 172,
                 "nature": "Bashful",
-                "ability": "Reckless",
+                "ability": "Sap Sipper",
                 "held_item": null,
                 "stats": {
                     "hp": 140,
@@ -14093,6 +14400,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14134,10 +14442,11 @@ export const trainers = {
     "308": {
         "rom_id": 308,
         "name": "Kyle",
-        "trainer_class": "Swimmer ⑭",
+        "trainer_class": "Swimmer ♂",
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14179,10 +14488,11 @@ export const trainers = {
     "309": {
         "rom_id": 309,
         "name": "Kaoru",
-        "trainer_class": "Swimmer ⑮",
+        "trainer_class": "Swimmer ♀",
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14224,10 +14534,11 @@ export const trainers = {
     "310": {
         "rom_id": 310,
         "name": "Harold",
-        "trainer_class": "Swimmer ⑭",
+        "trainer_class": "Swimmer ♂",
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14235,7 +14546,7 @@ export const trainers = {
                 "level": 46,
                 "experience_yield": 168,
                 "nature": "Modest",
-                "ability": "Suction Cups",
+                "ability": "Sniper",
                 "held_item": null,
                 "stats": {
                     "hp": 125,
@@ -14252,10 +14563,11 @@ export const trainers = {
     "311": {
         "rom_id": 311,
         "name": "Desiree",
-        "trainer_class": "Swimmer ⑮",
+        "trainer_class": "Swimmer ♀",
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14263,7 +14575,7 @@ export const trainers = {
                 "level": 46,
                 "experience_yield": 175,
                 "nature": "Rash",
-                "ability": "Water Veil",
+                "ability": "Oblivious",
                 "held_item": null,
                 "stats": {
                     "hp": 212,
@@ -14284,6 +14596,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14291,7 +14604,7 @@ export const trainers = {
                 "level": 44,
                 "experience_yield": 67,
                 "nature": "Rash",
-                "ability": "Water Absorb",
+                "ability": "Cursed Body",
                 "held_item": null,
                 "stats": {
                     "hp": 102,
@@ -14308,7 +14621,7 @@ export const trainers = {
                 "level": 44,
                 "experience_yield": 67,
                 "nature": "Rash",
-                "ability": "Water Absorb",
+                "ability": "Cursed Body",
                 "held_item": null,
                 "stats": {
                     "hp": 102,
@@ -14325,7 +14638,7 @@ export const trainers = {
                 "level": 44,
                 "experience_yield": 67,
                 "nature": "Rash",
-                "ability": "Water Absorb",
+                "ability": "Cursed Body",
                 "held_item": null,
                 "stats": {
                     "hp": 102,
@@ -14346,6 +14659,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14387,10 +14701,11 @@ export const trainers = {
     "314": {
         "rom_id": 314,
         "name": "Matt",
-        "trainer_class": "Swimmer ⑭",
+        "trainer_class": "Swimmer ♂",
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14415,10 +14730,11 @@ export const trainers = {
     "315": {
         "rom_id": 315,
         "name": "Bart",
-        "trainer_class": "Swimmer ⑭",
+        "trainer_class": "Swimmer ♂",
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14443,10 +14759,11 @@ export const trainers = {
     "316": {
         "rom_id": 316,
         "name": "Tim",
-        "trainer_class": "Swimmer ⑭",
+        "trainer_class": "Swimmer ♂",
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14471,10 +14788,11 @@ export const trainers = {
     "317": {
         "rom_id": 317,
         "name": "Arissa",
-        "trainer_class": "Swimmer ⑮",
+        "trainer_class": "Swimmer ♀",
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14482,7 +14800,7 @@ export const trainers = {
                 "level": 39,
                 "experience_yield": 165,
                 "nature": "Hardy",
-                "ability": "Healer",
+                "ability": "Hydration",
                 "held_item": null,
                 "stats": {
                     "hp": 177,
@@ -14499,10 +14817,11 @@ export const trainers = {
     "318": {
         "rom_id": 318,
         "name": "Mitzi",
-        "trainer_class": "Swimmer ⑮",
+        "trainer_class": "Swimmer ♀",
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14527,7 +14846,7 @@ export const trainers = {
                 "level": 38,
                 "experience_yield": 80,
                 "nature": "Jolly",
-                "ability": "Water Veil",
+                "ability": "Oblivious",
                 "held_item": null,
                 "stats": {
                     "hp": 146,
@@ -14548,6 +14867,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14555,7 +14875,7 @@ export const trainers = {
                 "level": 31,
                 "experience_yield": 66,
                 "nature": "Timid",
-                "ability": "Sand Rush",
+                "ability": "Sand Force",
                 "held_item": null,
                 "stats": {
                     "hp": 78,
@@ -14576,6 +14896,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14583,7 +14904,7 @@ export const trainers = {
                 "level": 30,
                 "experience_yield": 66,
                 "nature": "Timid",
-                "ability": "Sand Rush",
+                "ability": "Sand Force",
                 "held_item": null,
                 "stats": {
                     "hp": 76,
@@ -14610,7 +14931,7 @@ export const trainers = {
                     "special_attack": 29,
                     "special_defense": 47
                 },
-                "moves": ["Power Trick", "AncientPower", "Selfdestruct", "Extrasensory"]
+                "moves": ["Power Trick", "Ancient Power", "Self-Destruct", "Extrasensory"]
             }
         ]
     },
@@ -14621,6 +14942,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14628,7 +14950,7 @@ export const trainers = {
                 "level": 30,
                 "experience_yield": 58,
                 "nature": "Impish",
-                "ability": "Intimidate",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 70,
@@ -14666,6 +14988,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14683,7 +15006,7 @@ export const trainers = {
                     "special_attack": 29,
                     "special_defense": 51
                 },
-                "moves": ["Power Trick", "AncientPower", "Selfdestruct", "Extrasensory"]
+                "moves": ["Power Trick", "Ancient Power", "Self-Destruct", "Extrasensory"]
             },
             {
                 "species": "Sandile",
@@ -14711,6 +15034,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14718,7 +15042,7 @@ export const trainers = {
                 "level": 29,
                 "experience_yield": 66,
                 "nature": "Adamant",
-                "ability": "Sand Rush",
+                "ability": "Sand Force",
                 "held_item": null,
                 "stats": {
                     "hp": 73,
@@ -14762,7 +15086,7 @@ export const trainers = {
                     "special_attack": 28,
                     "special_defense": 49
                 },
-                "moves": ["Power Trick", "AncientPower", "Selfdestruct", "Extrasensory"]
+                "moves": ["Power Trick", "Ancient Power", "Self-Destruct", "Extrasensory"]
             }
         ]
     },
@@ -14773,6 +15097,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14790,7 +15115,7 @@ export const trainers = {
                     "special_attack": 29,
                     "special_defense": 48
                 },
-                "moves": ["AncientPower", "Selfdestruct", "Extrasensory", "Cosmic Power"]
+                "moves": ["Ancient Power", "Self-Destruct", "Extrasensory", "Cosmic Power"]
             }
         ]
     },
@@ -14801,6 +15126,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14829,6 +15155,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14857,6 +15184,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Heal", "Hyper Potion"],
         "party": [
             {
@@ -14885,6 +15213,7 @@ export const trainers = {
         "location": null,
         "money": 16,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -14909,7 +15238,7 @@ export const trainers = {
                 "level": 42,
                 "experience_yield": 175,
                 "nature": "Quiet",
-                "ability": "Battle Armor",
+                "ability": "Sniper",
                 "held_item": null,
                 "stats": {
                     "hp": 110,
@@ -14930,6 +15259,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14947,7 +15277,7 @@ export const trainers = {
                     "special_attack": 35,
                     "special_defense": 58
                 },
-                "moves": ["Hi Jump Kick", "Scary Face", "Crunch", "Facade"]
+                "moves": ["High Jump Kick", "Scary Face", "Crunch", "Facade"]
             }
         ]
     },
@@ -14958,6 +15288,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14986,6 +15317,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -14993,7 +15325,7 @@ export const trainers = {
                 "level": 43,
                 "experience_yield": 66,
                 "nature": "Quiet",
-                "ability": "Battle Armor",
+                "ability": "Sniper",
                 "held_item": null,
                 "stats": {
                     "hp": 87,
@@ -15014,6 +15346,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -15031,7 +15364,7 @@ export const trainers = {
                     "special_attack": 58,
                     "special_defense": 33
                 },
-                "moves": ["Quick Guard", "Acrobatics", "DragonBreath", "Crunch"]
+                "moves": ["Quick Guard", "Acrobatics", "Dragon Breath", "Crunch"]
             },
             {
                 "species": "Unfezant",
@@ -15055,10 +15388,11 @@ export const trainers = {
     "333": {
         "rom_id": 333,
         "name": "Addison",
-        "trainer_class": "⒆⒇ Breeder",
+        "trainer_class": "Pokémon Breeder",
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -15066,7 +15400,7 @@ export const trainers = {
                 "level": 45,
                 "experience_yield": 161,
                 "nature": "Jolly",
-                "ability": "Magma Armor",
+                "ability": "Solid Rock",
                 "held_item": null,
                 "stats": {
                     "hp": 118,
@@ -15083,7 +15417,7 @@ export const trainers = {
                 "level": 45,
                 "experience_yield": 165,
                 "nature": "Lonely",
-                "ability": "Thick Fat",
+                "ability": "Own Tempo",
                 "held_item": null,
                 "stats": {
                     "hp": 127,
@@ -15104,6 +15438,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -15111,7 +15446,7 @@ export const trainers = {
                 "level": 45,
                 "experience_yield": 75,
                 "nature": "Serious",
-                "ability": "Sturdy",
+                "ability": "Magnet Pull",
                 "held_item": null,
                 "stats": {
                     "hp": 82,
@@ -15149,6 +15484,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -15177,6 +15513,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -15205,6 +15542,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -15250,6 +15588,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -15267,7 +15606,7 @@ export const trainers = {
                     "special_attack": 102,
                     "special_defense": 68
                 },
-                "moves": ["Natural Gift", "SolarBeam", "Double-Edge", "Sunny Day"]
+                "moves": ["Natural Gift", "Solar Beam", "Double-Edge", "Sunny Day"]
             }
         ]
     },
@@ -15277,7 +15616,8 @@ export const trainers = {
         "trainer_class": "Motorcyclist",
         "location": null,
         "money": 8,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "rotation",
         "items": [],
         "party": [
             {
@@ -15285,7 +15625,7 @@ export const trainers = {
                 "level": 26,
                 "experience_yield": 172,
                 "nature": "Impish",
-                "ability": "Wonder Skin",
+                "ability": "Magic Guard",
                 "held_item": null,
                 "stats": {
                     "hp": 73,
@@ -15312,7 +15652,7 @@ export const trainers = {
                     "special_attack": 35,
                     "special_defense": 28
                 },
-                "moves": ["Aqua Jet", "AncientPower", "Crunch", "Wide Guard"]
+                "moves": ["Aqua Jet", "Ancient Power", "Crunch", "Wide Guard"]
             },
             {
                 "species": "Archen",
@@ -15329,7 +15669,7 @@ export const trainers = {
                     "special_attack": 47,
                     "special_defense": 28
                 },
-                "moves": ["Pluck", "AncientPower", "Agility", "Quick Guard"]
+                "moves": ["Pluck", "Ancient Power", "Agility", "Quick Guard"]
             }
         ]
     },
@@ -15339,7 +15679,8 @@ export const trainers = {
         "trainer_class": "Motorcyclist",
         "location": null,
         "money": 8,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "triple",
         "items": [],
         "party": [
             {
@@ -15357,14 +15698,14 @@ export const trainers = {
                     "special_attack": 28,
                     "special_defense": 30
                 },
-                "moves": ["Aqua Jet", "AncientPower", "Crunch", "Wide Guard"]
+                "moves": ["Aqua Jet", "Ancient Power", "Crunch", "Wide Guard"]
             },
             {
                 "species": "Sigilyph",
                 "level": 26,
                 "experience_yield": 172,
                 "nature": "Modest",
-                "ability": "Wonder Skin",
+                "ability": "Magic Guard",
                 "held_item": null,
                 "stats": {
                     "hp": 73,
@@ -15391,7 +15732,7 @@ export const trainers = {
                     "special_attack": 38,
                     "special_defense": 30
                 },
-                "moves": ["Pluck", "AncientPower", "Agility", "Quick Guard"]
+                "moves": ["Pluck", "Ancient Power", "Agility", "Quick Guard"]
             }
         ]
     },
@@ -15402,6 +15743,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore", "Full Restore"],
         "party": [
             {
@@ -15515,6 +15857,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -15522,7 +15865,7 @@ export const trainers = {
                 "level": 16,
                 "experience_yield": 70,
                 "nature": "Hardy",
-                "ability": "Shed Skin",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 42,
@@ -15532,7 +15875,7 @@ export const trainers = {
                     "special_attack": 16,
                     "special_defense": 27
                 },
-                "moves": ["Sand-Attack", "Faint Attack", "Headbutt", "Swagger"]
+                "moves": ["Sand Attack", "Feint Attack", "Headbutt", "Swagger"]
             }
         ]
     },
@@ -15543,6 +15886,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -15550,7 +15894,7 @@ export const trainers = {
                 "level": 46,
                 "experience_yield": 70,
                 "nature": "Lonely",
-                "ability": "Shed Skin",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 102,
@@ -15588,6 +15932,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -15684,6 +16029,7 @@ export const trainers = {
         "location": null,
         "money": 45,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -15793,10 +16139,11 @@ export const trainers = {
     "346": {
         "rom_id": 346,
         "name": "Rood",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -15842,6 +16189,7 @@ export const trainers = {
         "location": null,
         "money": 45,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -15904,6 +16252,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -15921,7 +16270,7 @@ export const trainers = {
                     "special_attack": 50,
                     "special_defense": 50
                 },
-                "moves": ["Metal Claw", "Faint Attack", "Slash", "Scary Face"]
+                "moves": ["Metal Claw", "Feint Attack", "Slash", "Scary Face"]
             },
             {
                 "species": "Pawniard",
@@ -15938,7 +16287,7 @@ export const trainers = {
                     "special_attack": 50,
                     "special_defense": 50
                 },
-                "moves": ["Metal Claw", "Faint Attack", "Slash", "Hone Claws"]
+                "moves": ["Metal Claw", "Feint Attack", "Slash", "Hone Claws"]
             },
             {
                 "species": "Absol",
@@ -15966,6 +16315,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -15973,7 +16323,7 @@ export const trainers = {
                 "level": 42,
                 "experience_yield": 161,
                 "nature": "Lonely",
-                "ability": "Reckless",
+                "ability": "Adaptability",
                 "held_item": null,
                 "stats": {
                     "hp": 110,
@@ -15994,6 +16344,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -16039,6 +16390,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -16046,7 +16398,7 @@ export const trainers = {
                 "level": 48,
                 "experience_yield": 165,
                 "nature": "Calm",
-                "ability": "Healer",
+                "ability": "Hydration",
                 "held_item": null,
                 "stats": {
                     "hp": 222,
@@ -16067,6 +16419,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -16087,11 +16440,11 @@ export const trainers = {
                 "moves": ["Soak", "Double-Edge", "Scary Face", "Flail"]
             },
             {
-                "species": "Basculin",
+                "species": "Basculin (Blue Striped)",
                 "level": 46,
                 "experience_yield": 161,
                 "nature": "Gentle",
-                "ability": "Rock Head",
+                "ability": "Reckless",
                 "held_item": null,
                 "stats": {
                     "hp": 125,
@@ -16108,7 +16461,7 @@ export const trainers = {
                 "level": 46,
                 "experience_yield": 185,
                 "nature": "Gentle",
-                "ability": "Thick Fat",
+                "ability": "Huge Power",
                 "held_item": null,
                 "stats": {
                     "hp": 153,
@@ -16129,6 +16482,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -16174,6 +16528,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -16181,7 +16536,7 @@ export const trainers = {
                 "level": 48,
                 "experience_yield": 239,
                 "nature": "Calm",
-                "ability": "Thick Fat",
+                "ability": "Ice Body",
                 "held_item": null,
                 "stats": {
                     "hp": 169,
@@ -16202,6 +16557,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -16226,7 +16582,7 @@ export const trainers = {
                 "level": 47,
                 "experience_yield": 182,
                 "nature": "Calm",
-                "ability": "Illuminate",
+                "ability": "Natural Cure",
                 "held_item": null,
                 "stats": {
                     "hp": 119,
@@ -16247,6 +16603,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -16254,7 +16611,7 @@ export const trainers = {
                 "level": 16,
                 "experience_yield": 58,
                 "nature": "Rash",
-                "ability": "Intimidate",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 42,
@@ -16264,7 +16621,7 @@ export const trainers = {
                     "special_attack": 17,
                     "special_defense": 14
                 },
-                "moves": ["Sand-Attack", "Torment", "Sand Tomb", "Assurance"]
+                "moves": ["Sand Attack", "Torment", "Sand Tomb", "Assurance"]
             }
         ]
     },
@@ -16275,6 +16632,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Super Potion"],
         "party": [
             {
@@ -16292,17 +16650,18 @@ export const trainers = {
                     "special_attack": 21,
                     "special_defense": 25
                 },
-                "moves": ["DoubleSlap", "Growl", "Encore"]
+                "moves": ["Double Slap", "Growl", "Encore"]
             }
         ]
     },
     "358": {
         "rom_id": 358,
         "name": "Colress",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Super Potion"],
         "party": [
             {
@@ -16320,7 +16679,7 @@ export const trainers = {
                     "special_attack": 46,
                     "special_defense": 29
                 },
-                "moves": ["SonicBoom", "Thunder Wave", "Magnet Bomb", "Spark"]
+                "moves": ["Sonic Boom", "Thunder Wave", "Magnet Bomb", "Spark"]
             },
             {
                 "species": "Klink",
@@ -16337,7 +16696,7 @@ export const trainers = {
                     "special_attack": 25,
                     "special_defense": 38
                 },
-                "moves": ["Charge", "ThunderShock", "Gear Grind", "Bind"]
+                "moves": ["Charge", "Thunder Shock", "Gear Grind", "Bind"]
             }
         ]
     },
@@ -16348,6 +16707,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -16372,17 +16732,18 @@ export const trainers = {
     "360": {
         "rom_id": 360,
         "name": "Nate",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
                 "species": "Dewott",
                 "level": 25,
                 "experience_yield": 145,
-                "nature": "Hardy",
+                "nature": "Serious",
                 "ability": "Torrent",
                 "held_item": null,
                 "stats": {
@@ -16399,16 +16760,16 @@ export const trainers = {
                 "species": "Pansear",
                 "level": 23,
                 "experience_yield": 63,
-                "nature": "Hardy",
+                "nature": "Gentle",
                 "ability": "Gluttony",
                 "held_item": null,
                 "stats": {
                     "hp": 62,
                     "attack": 36,
-                    "defense": 33,
+                    "defense": 29,
                     "speed": 41,
                     "special_attack": 36,
-                    "special_defense": 33
+                    "special_defense": 36
                 },
                 "moves": ["Fury Swipes", "Yawn", "Bite", "Flame Burst"]
             }
@@ -16417,24 +16778,25 @@ export const trainers = {
     "361": {
         "rom_id": 361,
         "name": "Nate",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
                 "species": "Servine",
                 "level": 25,
                 "experience_yield": 145,
-                "nature": "Hardy",
+                "nature": "Relaxed",
                 "ability": "Overgrow",
                 "held_item": null,
                 "stats": {
                     "hp": 72,
                     "attack": 42,
-                    "defense": 50,
-                    "speed": 54,
+                    "defense": 55,
+                    "speed": 48,
                     "special_attack": 42,
                     "special_defense": 50
                 },
@@ -16444,7 +16806,7 @@ export const trainers = {
                 "species": "Panpour",
                 "level": 23,
                 "experience_yield": 63,
-                "nature": "Hardy",
+                "nature": "Quirky",
                 "ability": "Gluttony",
                 "held_item": null,
                 "stats": {
@@ -16462,24 +16824,25 @@ export const trainers = {
     "362": {
         "rom_id": 362,
         "name": "Nate",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
                 "species": "Pignite",
                 "level": 25,
                 "experience_yield": 146,
-                "nature": "Hardy",
+                "nature": "Hasty",
                 "ability": "Blaze",
                 "held_item": null,
                 "stats": {
                     "hp": 87,
                     "attack": 59,
-                    "defense": 40,
-                    "speed": 40,
+                    "defense": 36,
+                    "speed": 44,
                     "special_attack": 47,
                     "special_defense": 40
                 },
@@ -16489,16 +16852,16 @@ export const trainers = {
                 "species": "Pansage",
                 "level": 23,
                 "experience_yield": 63,
-                "nature": "Hardy",
+                "nature": "Gentle",
                 "ability": "Gluttony",
                 "held_item": null,
                 "stats": {
                     "hp": 62,
                     "attack": 36,
-                    "defense": 33,
+                    "defense": 29,
                     "speed": 41,
                     "special_attack": 36,
-                    "special_defense": 33
+                    "special_defense": 36
                 },
                 "moves": ["Fury Swipes", "Leech Seed", "Bite", "Seed Bomb"]
             }
@@ -16507,10 +16870,11 @@ export const trainers = {
     "363": {
         "rom_id": 363,
         "name": "Rosa",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -16552,10 +16916,11 @@ export const trainers = {
     "364": {
         "rom_id": 364,
         "name": "Rosa",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -16597,10 +16962,11 @@ export const trainers = {
     "365": {
         "rom_id": 365,
         "name": "Rosa",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -16645,7 +17011,8 @@ export const trainers = {
         "trainer_class": "Motorcyclist",
         "location": null,
         "money": 8,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "triple",
         "items": [],
         "party": [
             {
@@ -16663,7 +17030,7 @@ export const trainers = {
                     "special_attack": 32,
                     "special_defense": 28
                 },
-                "moves": ["Aqua Jet", "AncientPower", "Crunch", "Wide Guard"]
+                "moves": ["Aqua Jet", "Ancient Power", "Crunch", "Wide Guard"]
             },
             {
                 "species": "Sigilyph",
@@ -16697,7 +17064,7 @@ export const trainers = {
                     "special_attack": 43,
                     "special_defense": 28
                 },
-                "moves": ["Pluck", "AncientPower", "Agility", "Quick Guard"]
+                "moves": ["Pluck", "Ancient Power", "Agility", "Quick Guard"]
             }
         ]
     },
@@ -16707,7 +17074,8 @@ export const trainers = {
         "trainer_class": "Motorcyclist",
         "location": null,
         "money": 8,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "rotation",
         "items": [],
         "party": [
             {
@@ -16742,7 +17110,7 @@ export const trainers = {
                     "special_attack": 35,
                     "special_defense": 28
                 },
-                "moves": ["Aqua Jet", "AncientPower", "Crunch", "Wide Guard"]
+                "moves": ["Aqua Jet", "Ancient Power", "Crunch", "Wide Guard"]
             },
             {
                 "species": "Archen",
@@ -16759,17 +17127,18 @@ export const trainers = {
                     "special_attack": 43,
                     "special_defense": 28
                 },
-                "moves": ["Pluck", "AncientPower", "Agility", "Quick Guard"]
+                "moves": ["Pluck", "Ancient Power", "Agility", "Quick Guard"]
             }
         ]
     },
     "368": {
         "rom_id": 368,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -16828,10 +17197,11 @@ export const trainers = {
     "369": {
         "rom_id": 369,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -16890,10 +17260,11 @@ export const trainers = {
     "370": {
         "rom_id": 370,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -16952,10 +17323,11 @@ export const trainers = {
     "371": {
         "rom_id": 371,
         "name": "Cheren",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -17018,6 +17390,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -17035,7 +17408,7 @@ export const trainers = {
                     "special_attack": 41,
                     "special_defense": 32
                 },
-                "moves": ["Sludge", "Selfdestruct", "Haze", "Gyro Ball"]
+                "moves": ["Sludge", "Self-Destruct", "Haze", "Gyro Ball"]
             }
         ]
     },
@@ -17046,6 +17419,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -17053,7 +17427,7 @@ export const trainers = {
                 "level": 30,
                 "experience_yield": 66,
                 "nature": "Naive",
-                "ability": "Stench",
+                "ability": "Sticky Hold",
                 "held_item": null,
                 "stats": {
                     "hp": 70,
@@ -17074,6 +17448,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -17098,7 +17473,7 @@ export const trainers = {
                 "level": 29,
                 "experience_yield": 123,
                 "nature": "Quirky",
-                "ability": "Intimidate",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 73,
@@ -17119,6 +17494,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -17164,6 +17540,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -17209,6 +17586,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -17226,14 +17604,14 @@ export const trainers = {
                     "special_attack": 39,
                     "special_defense": 31
                 },
-                "moves": ["Sludge", "Selfdestruct", "Haze", "Gyro Ball"]
+                "moves": ["Sludge", "Self-Destruct", "Haze", "Gyro Ball"]
             },
             {
                 "species": "Watchog",
                 "level": 29,
                 "experience_yield": 147,
                 "nature": "Relaxed",
-                "ability": "Illuminate",
+                "ability": "Keen Eye",
                 "held_item": null,
                 "stats": {
                     "hp": 73,
@@ -17250,10 +17628,11 @@ export const trainers = {
     "378": {
         "rom_id": 378,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -17312,10 +17691,11 @@ export const trainers = {
     "379": {
         "rom_id": 379,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -17374,10 +17754,11 @@ export const trainers = {
     "380": {
         "rom_id": 380,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -17440,6 +17821,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -17447,7 +17829,7 @@ export const trainers = {
                 "level": 46,
                 "experience_yield": 144,
                 "nature": "Sassy",
-                "ability": "Rivalry",
+                "ability": "Mold Breaker",
                 "held_item": null,
                 "stats": {
                     "hp": 125,
@@ -17468,6 +17850,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -17475,7 +17858,7 @@ export const trainers = {
                 "level": 45,
                 "experience_yield": 144,
                 "nature": "Sassy",
-                "ability": "Rivalry",
+                "ability": "Mold Breaker",
                 "held_item": "Dragon Fang",
                 "stats": {
                     "hp": 122,
@@ -17513,6 +17896,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -17557,7 +17941,8 @@ export const trainers = {
         "trainer_class": "Veteran",
         "location": null,
         "money": 20,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "triple",
         "items": [],
         "party": [
             {
@@ -17565,7 +17950,7 @@ export const trainers = {
                 "level": 44,
                 "experience_yield": 144,
                 "nature": "Naughty",
-                "ability": "Rivalry",
+                "ability": "Mold Breaker",
                 "held_item": null,
                 "stats": {
                     "hp": 120,
@@ -17599,7 +17984,7 @@ export const trainers = {
                 "level": 44,
                 "experience_yield": 64,
                 "nature": "Sassy",
-                "ability": "Rivalry",
+                "ability": "Mold Breaker",
                 "held_item": null,
                 "stats": {
                     "hp": 102,
@@ -17619,7 +18004,8 @@ export const trainers = {
         "trainer_class": "Veteran",
         "location": null,
         "money": 20,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "rotation",
         "items": [],
         "party": [
             {
@@ -17678,10 +18064,11 @@ export const trainers = {
     "386": {
         "rom_id": 386,
         "name": "Leaf",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -17689,7 +18076,7 @@ export const trainers = {
                 "level": 32,
                 "experience_yield": 67,
                 "nature": "Quiet",
-                "ability": "Chlorophyll",
+                "ability": "Sap Sipper",
                 "held_item": null,
                 "stats": {
                     "hp": 82,
@@ -17723,10 +18110,11 @@ export const trainers = {
     "387": {
         "rom_id": 387,
         "name": "Naoko",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -17744,14 +18132,14 @@ export const trainers = {
                     "special_attack": 37,
                     "special_defense": 42
                 },
-                "moves": ["Faint Attack", "Sweet Scent", "Giga Drain", "Toxic"]
+                "moves": ["Feint Attack", "Sweet Scent", "Giga Drain", "Toxic"]
             },
             {
                 "species": "Leavanny",
                 "level": 32,
                 "experience_yield": 221,
                 "nature": "Docile",
-                "ability": "Swarm",
+                "ability": "Chlorophyll",
                 "held_item": null,
                 "stats": {
                     "hp": 91,
@@ -17768,10 +18156,11 @@ export const trainers = {
     "388": {
         "rom_id": 388,
         "name": "Bret",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -17779,7 +18168,7 @@ export const trainers = {
                 "level": 33,
                 "experience_yield": 221,
                 "nature": "Impish",
-                "ability": "Intimidate",
+                "ability": "Sand Rush",
                 "held_item": null,
                 "stats": {
                     "hp": 101,
@@ -17796,10 +18185,11 @@ export const trainers = {
     "389": {
         "rom_id": 389,
         "name": "Malory",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -17807,7 +18197,7 @@ export const trainers = {
                 "level": 33,
                 "experience_yield": 194,
                 "nature": "Gentle",
-                "ability": "Intimidate",
+                "ability": "Flash Fire",
                 "held_item": null,
                 "stats": {
                     "hp": 104,
@@ -17828,6 +18218,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -17852,7 +18243,7 @@ export const trainers = {
                 "level": 36,
                 "experience_yield": 172,
                 "nature": "Naive",
-                "ability": "Wonder Skin",
+                "ability": "Magic Guard",
                 "held_item": null,
                 "stats": {
                     "hp": 97,
@@ -17873,6 +18264,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -17935,6 +18327,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -17942,7 +18335,7 @@ export const trainers = {
                 "level": 4,
                 "experience_yield": 51,
                 "nature": "Hasty",
-                "ability": "Run Away",
+                "ability": "Keen Eye",
                 "held_item": null,
                 "stats": {
                     "hp": 17,
@@ -17962,7 +18355,8 @@ export const trainers = {
         "trainer_class": "School Kid",
         "location": null,
         "money": 5,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "triple",
         "items": [],
         "party": [
             {
@@ -17970,7 +18364,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 64,
                 "nature": "Lonely",
-                "ability": "Synchronize",
+                "ability": "Early Bird",
                 "held_item": null,
                 "stats": {
                     "hp": 119,
@@ -17987,7 +18381,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 165,
                 "nature": "Hasty",
-                "ability": "Synchronize",
+                "ability": "Early Bird",
                 "held_item": null,
                 "stats": {
                     "hp": 150,
@@ -18024,7 +18418,8 @@ export const trainers = {
         "trainer_class": "School Kid",
         "location": null,
         "money": 5,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "rotation",
         "items": [],
         "party": [
             {
@@ -18032,7 +18427,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 119,
                 "nature": "Quirky",
-                "ability": "Chlorophyll",
+                "ability": "Leaf Guard",
                 "held_item": null,
                 "stats": {
                     "hp": 138,
@@ -18087,6 +18482,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -18128,7 +18524,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 77,
                 "nature": "Rash",
-                "ability": "Own Tempo",
+                "ability": "Oblivious",
                 "held_item": null,
                 "stats": {
                     "hp": 180,
@@ -18149,6 +18545,7 @@ export const trainers = {
         "location": null,
         "money": 1,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -18156,7 +18553,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 57,
                 "nature": "Sassy",
-                "ability": "Steadfast",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 119,
@@ -18194,6 +18591,7 @@ export const trainers = {
         "location": null,
         "money": 1,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -18201,7 +18599,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 97,
                 "nature": "Hardy",
-                "ability": "Synchronize",
+                "ability": "Trace",
                 "held_item": null,
                 "stats": {
                     "hp": 117,
@@ -18239,6 +18637,7 @@ export const trainers = {
         "location": null,
         "money": 1,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -18284,6 +18683,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -18291,7 +18691,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 63,
                 "nature": "Jolly",
-                "ability": "Oblivious",
+                "ability": "Own Tempo",
                 "held_item": null,
                 "stats": {
                     "hp": 180,
@@ -18308,7 +18708,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 64,
                 "nature": "Calm",
-                "ability": "Swift Swim",
+                "ability": "Water Veil",
                 "held_item": null,
                 "stats": {
                     "hp": 125,
@@ -18346,6 +18746,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -18459,6 +18860,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -18466,7 +18868,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 51,
                 "nature": "Gentle",
-                "ability": "Run Away",
+                "ability": "Guts",
                 "held_item": null,
                 "stats": {
                     "hp": 107,
@@ -18483,7 +18885,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 43,
                 "nature": "Relaxed",
-                "ability": "Run Away",
+                "ability": "Keen Eye",
                 "held_item": null,
                 "stats": {
                     "hp": 113,
@@ -18500,7 +18902,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 48,
                 "nature": "Naive",
-                "ability": "Pickup",
+                "ability": "Gluttony",
                 "held_item": null,
                 "stats": {
                     "hp": 117,
@@ -18517,7 +18919,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 50,
                 "nature": "Jolly",
-                "ability": "Simple",
+                "ability": "Unaware",
                 "held_item": null,
                 "stats": {
                     "hp": 142,
@@ -18534,7 +18936,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 147,
                 "nature": "Serious",
-                "ability": "Illuminate",
+                "ability": "Keen Eye",
                 "held_item": null,
                 "stats": {
                     "hp": 144,
@@ -18555,6 +18957,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -18579,7 +18982,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 52,
                 "nature": "Lax",
-                "ability": "Insomnia",
+                "ability": "Keen Eye",
                 "held_item": null,
                 "stats": {
                     "hp": 144,
@@ -18630,7 +19033,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 215,
                 "nature": "Impish",
-                "ability": "Big Pecks",
+                "ability": "Super Luck",
                 "held_item": null,
                 "stats": {
                     "hp": 168,
@@ -18640,7 +19043,7 @@ export const trainers = {
                     "special_attack": 75,
                     "special_defense": 72
                 },
-                "moves": ["FeatherDance", "Swagger", "Facade", "Tailwind"]
+                "moves": ["Feather Dance", "Swagger", "Facade", "Tailwind"]
             }
         ]
     },
@@ -18651,10 +19054,11 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
-                "species": "Wormadam",
+                "species": "Wormadam (Sandy)",
                 "level": 66,
                 "experience_yield": 148,
                 "nature": "Lax",
@@ -18675,7 +19079,7 @@ export const trainers = {
                 "level": 66,
                 "experience_yield": 144,
                 "nature": "Lonely",
-                "ability": "Magma Armor",
+                "ability": "Flame Body",
                 "held_item": null,
                 "stats": {
                     "hp": 157,
@@ -18685,7 +19089,7 @@ export const trainers = {
                     "special_attack": 126,
                     "special_defense": 126
                 },
-                "moves": ["Fire Blast", "SolarBeam", "AncientPower", "Shell Smash"]
+                "moves": ["Fire Blast", "Solar Beam", "Ancient Power", "Shell Smash"]
             },
             {
                 "species": "Exploud",
@@ -18719,7 +19123,7 @@ export const trainers = {
                     "special_attack": 102,
                     "special_defense": 133
                 },
-                "moves": ["SolarBeam", "Acrobatics", "Leech Seed", "Memento"]
+                "moves": ["Solar Beam", "Acrobatics", "Leech Seed", "Memento"]
             }
         ]
     },
@@ -18730,6 +19134,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -18809,6 +19214,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -18816,7 +19222,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 71,
                 "nature": "Quiet",
-                "ability": "Swift Swim",
+                "ability": "Battle Armor",
                 "held_item": null,
                 "stats": {
                     "hp": 109,
@@ -18826,7 +19232,7 @@ export const trainers = {
                     "special_attack": 80,
                     "special_defense": 60
                 },
-                "moves": ["Mega Drain", "Metal Sound", "AncientPower", "Wring Out"]
+                "moves": ["Mega Drain", "Metal Sound", "Ancient Power", "Wring Out"]
             },
             {
                 "species": "Lileep",
@@ -18860,7 +19266,7 @@ export const trainers = {
                     "special_attack": 46,
                     "special_defense": 42
                 },
-                "moves": ["AncientPower", "Zen Headbutt", "Screech", "Head Smash"]
+                "moves": ["Ancient Power", "Zen Headbutt", "Screech", "Head Smash"]
             },
             {
                 "species": "Carracosta",
@@ -18888,6 +19294,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -18967,6 +19374,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -18991,7 +19399,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 140,
                 "nature": "Impish",
-                "ability": "Illuminate",
+                "ability": "Swarm",
                 "held_item": null,
                 "stats": {
                     "hp": 150,
@@ -19042,7 +19450,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 214,
                 "nature": "Modest",
-                "ability": "Poison Point",
+                "ability": "Swarm",
                 "held_item": null,
                 "stats": {
                     "hp": 144,
@@ -19063,6 +19471,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -19070,7 +19479,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 173,
                 "nature": "Mild",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 144,
@@ -19155,10 +19564,11 @@ export const trainers = {
     "409": {
         "rom_id": 409,
         "name": "Rick",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -19217,10 +19627,11 @@ export const trainers = {
     "410": {
         "rom_id": 410,
         "name": "Audra",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -19238,14 +19649,14 @@ export const trainers = {
                     "special_attack": 114,
                     "special_defense": 64
                 },
-                "moves": ["Sing", "Disable", "Defense Curl", "DoubleSlap"]
+                "moves": ["Sing", "Disable", "Defense Curl", "Double Slap"]
             },
             {
                 "species": "Girafarig",
                 "level": 64,
                 "experience_yield": 159,
                 "nature": "Hardy",
-                "ability": "Inner Focus",
+                "ability": "Early Bird",
                 "held_item": null,
                 "stats": {
                     "hp": 167,
@@ -19272,7 +19683,7 @@ export const trainers = {
                     "special_attack": 136,
                     "special_defense": 124
                 },
-                "moves": ["Aromatherapy", "Stun Spore", "PoisonPowder", "Petal Dance"]
+                "moves": ["Aromatherapy", "Stun Spore", "Poison Powder", "Petal Dance"]
             }
         ]
     },
@@ -19283,6 +19694,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -19345,6 +19757,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -19352,7 +19765,7 @@ export const trainers = {
                 "level": 66,
                 "experience_yield": 169,
                 "nature": "Hardy",
-                "ability": "Gluttony",
+                "ability": "Flash Fire",
                 "held_item": null,
                 "stats": {
                     "hp": 196,
@@ -19407,6 +19820,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -19431,7 +19845,7 @@ export const trainers = {
                 "level": 64,
                 "experience_yield": 66,
                 "nature": "Hasty",
-                "ability": "Swift Swim",
+                "ability": "Storm Drain",
                 "held_item": null,
                 "stats": {
                     "hp": 136,
@@ -19469,6 +19883,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -19476,7 +19891,7 @@ export const trainers = {
                 "level": 64,
                 "experience_yield": 65,
                 "nature": "Timid",
-                "ability": "Hyper Cutter",
+                "ability": "Shell Armor",
                 "held_item": null,
                 "stats": {
                     "hp": 112,
@@ -19527,10 +19942,11 @@ export const trainers = {
     "415": {
         "rom_id": 415,
         "name": "Wright",
-        "trainer_class": "Swimmer ⑭",
+        "trainer_class": "Swimmer ♂",
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -19572,10 +19988,11 @@ export const trainers = {
     "416": {
         "rom_id": 416,
         "name": "Jeffery",
-        "trainer_class": "Swimmer ⑭",
+        "trainer_class": "Swimmer ♂",
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -19617,10 +20034,11 @@ export const trainers = {
     "417": {
         "rom_id": 417,
         "name": "Ruth",
-        "trainer_class": "Swimmer ⑮",
+        "trainer_class": "Swimmer ♀",
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -19645,7 +20063,7 @@ export const trainers = {
                 "level": 65,
                 "experience_yield": 61,
                 "nature": "Naive",
-                "ability": "Shell Armor",
+                "ability": "Skill Link",
                 "held_item": null,
                 "stats": {
                     "hp": 114,
@@ -19662,10 +20080,11 @@ export const trainers = {
     "418": {
         "rom_id": 418,
         "name": "Dara",
-        "trainer_class": "Swimmer ⑮",
+        "trainer_class": "Swimmer ♀",
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -19711,6 +20130,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -19735,7 +20155,7 @@ export const trainers = {
                 "level": 64,
                 "experience_yield": 166,
                 "nature": "Hasty",
-                "ability": "Sturdy",
+                "ability": "Shell Armor",
                 "held_item": null,
                 "stats": {
                     "hp": 163,
@@ -19773,6 +20193,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -19800,7 +20221,8 @@ export const trainers = {
         "trainer_class": "Veteran",
         "location": null,
         "money": 20,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "rotation",
         "items": [],
         "party": [
             {
@@ -19863,6 +20285,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -19890,7 +20313,8 @@ export const trainers = {
         "trainer_class": "Veteran",
         "location": null,
         "money": 20,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "triple",
         "items": [],
         "party": [
             {
@@ -19953,6 +20377,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -19994,7 +20419,7 @@ export const trainers = {
                 "level": 65,
                 "experience_yield": 159,
                 "nature": "Quiet",
-                "ability": "Intimidate",
+                "ability": "Technician",
                 "held_item": null,
                 "stats": {
                     "hp": 143,
@@ -20015,6 +20440,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20032,14 +20458,14 @@ export const trainers = {
                     "special_attack": 99,
                     "special_defense": 125
                 },
-                "moves": ["Submission", "DynamicPunch", "Mind Reader", "Circle Throw"]
+                "moves": ["Submission", "Dynamic Punch", "Mind Reader", "Circle Throw"]
             },
             {
                 "species": "Sawk",
                 "level": 65,
                 "experience_yield": 163,
                 "nature": "Sassy",
-                "ability": "Sturdy",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 176,
@@ -20077,6 +20503,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20122,6 +20549,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20150,6 +20578,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20178,6 +20607,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20223,6 +20653,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20230,7 +20661,7 @@ export const trainers = {
                 "level": 45,
                 "experience_yield": 66,
                 "nature": "Adamant",
-                "ability": "Battle Armor",
+                "ability": "Sniper",
                 "held_item": null,
                 "stats": {
                     "hp": 91,
@@ -20257,7 +20688,7 @@ export const trainers = {
                     "special_attack": 54,
                     "special_defense": 48
                 },
-                "moves": ["Synthesis", "Clear Smog", "SolarBeam", "Rage Powder"]
+                "moves": ["Synthesis", "Clear Smog", "Solar Beam", "Rage Powder"]
             },
             {
                 "species": "Golbat",
@@ -20285,6 +20716,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20313,6 +20745,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20330,7 +20763,7 @@ export const trainers = {
                     "special_attack": 42,
                     "special_defense": 113
                 },
-                "moves": ["Hi Jump Kick", "Scary Face", "Crunch", "Facade"]
+                "moves": ["High Jump Kick", "Scary Face", "Crunch", "Facade"]
             }
         ]
     },
@@ -20341,6 +20774,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20386,6 +20820,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20431,6 +20866,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20438,7 +20874,7 @@ export const trainers = {
                 "level": 47,
                 "experience_yield": 175,
                 "nature": "Careful",
-                "ability": "Battle Armor",
+                "ability": "Sniper",
                 "held_item": null,
                 "stats": {
                     "hp": 122,
@@ -20459,6 +20895,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20466,7 +20903,7 @@ export const trainers = {
                 "level": 45,
                 "experience_yield": 68,
                 "nature": "Bold",
-                "ability": "Defiant",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 95,
@@ -20483,7 +20920,7 @@ export const trainers = {
                 "level": 45,
                 "experience_yield": 68,
                 "nature": "Bold",
-                "ability": "Defiant",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 95,
@@ -20500,7 +20937,7 @@ export const trainers = {
                 "level": 45,
                 "experience_yield": 68,
                 "nature": "Bold",
-                "ability": "Defiant",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 95,
@@ -20521,6 +20958,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20583,6 +21021,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20590,7 +21029,7 @@ export const trainers = {
                 "level": 47,
                 "experience_yield": 214,
                 "nature": "Hasty",
-                "ability": "Poison Point",
+                "ability": "Swarm",
                 "held_item": null,
                 "stats": {
                     "hp": 113,
@@ -20611,6 +21050,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20618,7 +21058,7 @@ export const trainers = {
                 "level": 46,
                 "experience_yield": 66,
                 "nature": "Naive",
-                "ability": "Stench",
+                "ability": "Sticky Hold",
                 "held_item": null,
                 "stats": {
                     "hp": 102,
@@ -20656,6 +21096,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20680,7 +21121,7 @@ export const trainers = {
                 "level": 46,
                 "experience_yield": 156,
                 "nature": "Bashful",
-                "ability": "Limber",
+                "ability": "Unburden",
                 "held_item": null,
                 "stats": {
                     "hp": 114,
@@ -20701,6 +21142,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20725,7 +21167,7 @@ export const trainers = {
                 "level": 46,
                 "experience_yield": 147,
                 "nature": "Modest",
-                "ability": "Illuminate",
+                "ability": "Keen Eye",
                 "held_item": null,
                 "stats": {
                     "hp": 111,
@@ -20746,6 +21188,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20774,6 +21217,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20802,6 +21246,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20809,7 +21254,7 @@ export const trainers = {
                 "level": 46,
                 "experience_yield": 123,
                 "nature": "Serious",
-                "ability": "Intimidate",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 111,
@@ -20847,6 +21292,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20881,7 +21327,7 @@ export const trainers = {
                     "special_attack": 54,
                     "special_defense": 59
                 },
-                "moves": ["Synthesis", "Clear Smog", "SolarBeam", "Rage Powder"]
+                "moves": ["Synthesis", "Clear Smog", "Solar Beam", "Rage Powder"]
             },
             {
                 "species": "Golbat",
@@ -20909,6 +21355,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20916,7 +21363,7 @@ export const trainers = {
                 "level": 47,
                 "experience_yield": 229,
                 "nature": "Modest",
-                "ability": "Intimidate",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 146,
@@ -20937,6 +21384,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -20954,7 +21402,7 @@ export const trainers = {
                     "special_attack": 47,
                     "special_defense": 113
                 },
-                "moves": ["Hi Jump Kick", "Scary Face", "Crunch", "Facade"]
+                "moves": ["High Jump Kick", "Scary Face", "Crunch", "Facade"]
             }
         ]
     },
@@ -20965,6 +21413,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -21010,6 +21459,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -21055,6 +21505,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -21062,7 +21513,7 @@ export const trainers = {
                 "level": 47,
                 "experience_yield": 175,
                 "nature": "Relaxed",
-                "ability": "Battle Armor",
+                "ability": "Sniper",
                 "held_item": null,
                 "stats": {
                     "hp": 122,
@@ -21083,6 +21534,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -21090,7 +21542,7 @@ export const trainers = {
                 "level": 45,
                 "experience_yield": 68,
                 "nature": "Lax",
-                "ability": "Defiant",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 95,
@@ -21107,7 +21559,7 @@ export const trainers = {
                 "level": 45,
                 "experience_yield": 68,
                 "nature": "Lax",
-                "ability": "Defiant",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 95,
@@ -21124,7 +21576,7 @@ export const trainers = {
                 "level": 45,
                 "experience_yield": 68,
                 "nature": "Lax",
-                "ability": "Defiant",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 95,
@@ -21145,6 +21597,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -21207,6 +21660,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -21235,6 +21689,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -21242,7 +21697,7 @@ export const trainers = {
                 "level": 46,
                 "experience_yield": 66,
                 "nature": "Bashful",
-                "ability": "Stench",
+                "ability": "Sticky Hold",
                 "held_item": null,
                 "stats": {
                     "hp": 102,
@@ -21280,6 +21735,7 @@ export const trainers = {
         "location": null,
         "money": 5,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -21304,10 +21760,11 @@ export const trainers = {
     "456": {
         "rom_id": 456,
         "name": "Cynthia",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -21359,7 +21816,7 @@ export const trainers = {
                     "special_attack": 210,
                     "special_defense": 181
                 },
-                "moves": ["ExtremeSpeed", "Aura Sphere", "Air Slash", "Thunder Wave"]
+                "moves": ["Extreme Speed", "Aura Sphere", "Air Slash", "Thunder Wave"]
             },
             {
                 "species": "Lucario",
@@ -21376,7 +21833,7 @@ export const trainers = {
                     "special_attack": 202,
                     "special_defense": 147
                 },
-                "moves": ["ExtremeSpeed", "Close Combat", "Flash Cannon", "Psychic"]
+                "moves": ["Extreme Speed", "Close Combat", "Flash Cannon", "Psychic"]
             },
             {
                 "species": "Glaceon",
@@ -21421,6 +21878,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -21455,7 +21913,7 @@ export const trainers = {
                     "special_attack": 125,
                     "special_defense": 101
                 },
-                "moves": ["Flare Blitz", "ExtremeSpeed", "Wild Charge", "Reversal"]
+                "moves": ["Flare Blitz", "Extreme Speed", "Wild Charge", "Reversal"]
             },
             {
                 "species": "Chandelure",
@@ -21472,7 +21930,7 @@ export const trainers = {
                     "special_attack": 179,
                     "special_defense": 113
                 },
-                "moves": ["Fire Blast", "Shadow Ball", "SolarBeam", "Will-O-Wisp"]
+                "moves": ["Fire Blast", "Shadow Ball", "Solar Beam", "Will-O-Wisp"]
             }
         ]
     },
@@ -21483,6 +21941,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -21558,10 +22017,11 @@ export const trainers = {
     "459": {
         "rom_id": 459,
         "name": "Lana",
-        "trainer_class": "Clerk ⑮",
+        "trainer_class": "Clerk ♀",
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -21658,6 +22118,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -21771,6 +22232,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -21778,7 +22240,7 @@ export const trainers = {
                 "level": 16,
                 "experience_yield": 55,
                 "nature": "Mild",
-                "ability": "Vital Spirit",
+                "ability": "Pickup",
                 "held_item": null,
                 "stats": {
                     "hp": 40,
@@ -21805,7 +22267,7 @@ export const trainers = {
                     "special_attack": 15,
                     "special_defense": 24
                 },
-                "moves": ["Recycle", "Toxic Spikes", "Acid Spray", "DoubleSlap"]
+                "moves": ["Recycle", "Toxic Spikes", "Acid Spray", "Double Slap"]
             }
         ]
     },
@@ -21816,6 +22278,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -21861,7 +22324,8 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": false,
-        "items": ["X Defend"],
+        "battle_type": "single",
+        "items": ["X Defense"],
         "party": [
             {
                 "species": "Magnemite",
@@ -21878,7 +22342,7 @@ export const trainers = {
                     "special_attack": 37,
                     "special_defense": 23
                 },
-                "moves": ["Supersonic", "ThunderShock", "SonicBoom", "Thunder Wave"]
+                "moves": ["Supersonic", "Thunder Shock", "Sonic Boom", "Thunder Wave"]
             }
         ]
     },
@@ -21889,14 +22353,15 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": false,
-        "items": ["X Special"],
+        "battle_type": "single",
+        "items": ["X Sp. Atk"],
         "party": [
             {
                 "species": "Grimer",
                 "level": 17,
                 "experience_yield": 65,
                 "nature": "Timid",
-                "ability": "Stench",
+                "ability": "Sticky Hold",
                 "held_item": null,
                 "stats": {
                     "hp": 54,
@@ -21917,6 +22382,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -21945,6 +22411,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -21952,7 +22419,7 @@ export const trainers = {
                 "level": 17,
                 "experience_yield": 61,
                 "nature": "Calm",
-                "ability": "Guts",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 52,
@@ -21973,6 +22440,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22001,6 +22469,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22008,7 +22477,7 @@ export const trainers = {
                 "level": 37,
                 "experience_yield": 174,
                 "nature": "Hardy",
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "held_item": null,
                 "stats": {
                     "hp": 102,
@@ -22029,6 +22498,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22036,7 +22506,7 @@ export const trainers = {
                 "level": 47,
                 "experience_yield": 171,
                 "nature": "Rash",
-                "ability": "Shed Skin",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 120,
@@ -22046,7 +22516,7 @@ export const trainers = {
                     "special_attack": 55,
                     "special_defense": 103
                 },
-                "moves": ["Hi Jump Kick", "Scary Face", "Crunch", "Facade"]
+                "moves": ["High Jump Kick", "Scary Face", "Crunch", "Facade"]
             }
         ]
     },
@@ -22057,6 +22527,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22064,7 +22535,7 @@ export const trainers = {
                 "level": 47,
                 "experience_yield": 175,
                 "nature": "Careful",
-                "ability": "Swarm",
+                "ability": "Guts",
                 "held_item": null,
                 "stats": {
                     "hp": 135,
@@ -22085,6 +22556,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22102,7 +22574,7 @@ export const trainers = {
                     "special_attack": 45,
                     "special_defense": 48
                 },
-                "moves": ["Rock Slide", "DynamicPunch", "Scary Face", "Hammer Arm"]
+                "moves": ["Rock Slide", "Dynamic Punch", "Scary Face", "Hammer Arm"]
             }
         ]
     },
@@ -22113,6 +22585,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22137,10 +22610,11 @@ export const trainers = {
     "473": {
         "rom_id": 473,
         "name": "Johan",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22165,7 +22639,7 @@ export const trainers = {
                 "level": 46,
                 "experience_yield": 151,
                 "nature": "Hardy",
-                "ability": "Sturdy",
+                "ability": "Rock Head",
                 "held_item": null,
                 "stats": {
                     "hp": 113,
@@ -22182,10 +22656,11 @@ export const trainers = {
     "474": {
         "rom_id": 474,
         "name": "Mikiko",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22203,14 +22678,14 @@ export const trainers = {
                     "special_attack": 53,
                     "special_defense": 53
                 },
-                "moves": ["Screech", "DragonBreath", "Earth Power", "Sandstorm"]
+                "moves": ["Screech", "Dragon Breath", "Earth Power", "Sandstorm"]
             },
             {
                 "species": "Gligar",
                 "level": 46,
                 "experience_yield": 86,
                 "nature": "Calm",
-                "ability": "Hyper Cutter",
+                "ability": "Sand Veil",
                 "held_item": null,
                 "stats": {
                     "hp": 118,
@@ -22231,6 +22706,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22238,7 +22714,7 @@ export const trainers = {
                 "level": 51,
                 "experience_yield": 158,
                 "nature": "Adamant",
-                "ability": "Oblivious",
+                "ability": "Snow Cloak",
                 "held_item": null,
                 "stats": {
                     "hp": 163,
@@ -22255,7 +22731,7 @@ export const trainers = {
                 "level": 51,
                 "experience_yield": 184,
                 "nature": "Jolly",
-                "ability": "Sturdy",
+                "ability": "Magnet Pull",
                 "held_item": null,
                 "stats": {
                     "hp": 122,
@@ -22276,6 +22752,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22300,7 +22777,7 @@ export const trainers = {
                 "level": 53,
                 "experience_yield": 239,
                 "nature": "Relaxed",
-                "ability": "Sturdy",
+                "ability": "Rock Head",
                 "held_item": null,
                 "stats": {
                     "hp": 137,
@@ -22321,6 +22798,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22349,6 +22827,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22356,7 +22835,7 @@ export const trainers = {
                 "level": 53,
                 "experience_yield": 163,
                 "nature": "Rash",
-                "ability": "Guts",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 193,
@@ -22377,6 +22856,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22384,7 +22864,7 @@ export const trainers = {
                 "level": 53,
                 "experience_yield": 166,
                 "nature": "Timid",
-                "ability": "Keen Eye",
+                "ability": "Big Pecks",
                 "held_item": null,
                 "stats": {
                     "hp": 148,
@@ -22401,7 +22881,7 @@ export const trainers = {
                 "level": 53,
                 "experience_yield": 165,
                 "nature": "Calm",
-                "ability": "Compoundeyes",
+                "ability": "Unnerve",
                 "held_item": null,
                 "stats": {
                     "hp": 143,
@@ -22422,6 +22902,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22446,7 +22927,7 @@ export const trainers = {
                 "level": 53,
                 "experience_yield": 168,
                 "nature": "Naive",
-                "ability": "Water Absorb",
+                "ability": "Cursed Body",
                 "held_item": null,
                 "stats": {
                     "hp": 175,
@@ -22467,6 +22948,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22474,7 +22956,7 @@ export const trainers = {
                 "level": 53,
                 "experience_yield": 142,
                 "nature": "Naughty",
-                "ability": "Guts",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 156,
@@ -22512,6 +22994,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22553,10 +23036,11 @@ export const trainers = {
     "483": {
         "rom_id": 483,
         "name": "Lena",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22598,10 +23082,11 @@ export const trainers = {
     "484": {
         "rom_id": 484,
         "name": "Steve",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22609,7 +23094,7 @@ export const trainers = {
                 "level": 52,
                 "experience_yield": 165,
                 "nature": "Bashful",
-                "ability": "Static",
+                "ability": "Limber",
                 "held_item": null,
                 "stats": {
                     "hp": 178,
@@ -22636,7 +23121,7 @@ export const trainers = {
                     "special_attack": 105,
                     "special_defense": 91
                 },
-                "moves": ["Toxic", "Synthesis", "Clear Smog", "SolarBeam"]
+                "moves": ["Toxic", "Synthesis", "Clear Smog", "Solar Beam"]
             }
         ]
     },
@@ -22647,6 +23132,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22692,6 +23178,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22726,7 +23213,7 @@ export const trainers = {
                     "special_attack": 119,
                     "special_defense": 106
                 },
-                "moves": ["Roar", "Odor Sleuth", "Fire Fang", "ExtremeSpeed"]
+                "moves": ["Roar", "Odor Sleuth", "Fire Fang", "Extreme Speed"]
             }
         ]
     },
@@ -22737,6 +23224,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22744,7 +23232,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 66,
                 "nature": "Sassy",
-                "ability": "Sturdy",
+                "ability": "Rock Head",
                 "held_item": null,
                 "stats": {
                     "hp": 132,
@@ -22761,7 +23249,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 133,
                 "nature": "Naughty",
-                "ability": "Hyper Cutter",
+                "ability": "Intimidate",
                 "held_item": null,
                 "stats": {
                     "hp": 132,
@@ -22782,6 +23270,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22827,6 +23316,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22851,7 +23341,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 142,
                 "nature": "Lax",
-                "ability": "Sand Veil",
+                "ability": "Arena Trap",
                 "held_item": null,
                 "stats": {
                     "hp": 113,
@@ -22872,6 +23362,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22879,7 +23370,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 53,
                 "nature": "Lax",
-                "ability": "Sand Veil",
+                "ability": "Arena Trap",
                 "held_item": null,
                 "stats": {
                     "hp": 83,
@@ -22896,7 +23387,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 227,
                 "nature": "Serious",
-                "ability": "Guts",
+                "ability": "No Guard",
                 "held_item": null,
                 "stats": {
                     "hp": 180,
@@ -22906,7 +23397,7 @@ export const trainers = {
                     "special_attack": 84,
                     "special_defense": 108
                 },
-                "moves": ["Wake-Up Slap", "Cross Chop", "Scary Face", "DynamicPunch"]
+                "moves": ["Wake-Up Slap", "Cross Chop", "Scary Face", "Dynamic Punch"]
             }
         ]
     },
@@ -22917,6 +23408,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -22958,7 +23450,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 170,
                 "nature": "Modest",
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "held_item": null,
                 "stats": {
                     "hp": 196,
@@ -22979,6 +23471,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -23007,6 +23500,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -23082,10 +23576,11 @@ export const trainers = {
     "494": {
         "rom_id": 494,
         "name": "Chili",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -23144,10 +23639,11 @@ export const trainers = {
     "495": {
         "rom_id": 495,
         "name": "Cress",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -23172,7 +23668,7 @@ export const trainers = {
                 "level": 65,
                 "experience_yield": 172,
                 "nature": "Hasty",
-                "ability": "Oblivious",
+                "ability": "Own Tempo",
                 "held_item": "Leftovers",
                 "stats": {
                     "hp": 214,
@@ -23206,10 +23702,11 @@ export const trainers = {
     "496": {
         "rom_id": 496,
         "name": "Cilan",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -23272,6 +23769,7 @@ export const trainers = {
         "location": null,
         "money": 45,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -23334,6 +23832,7 @@ export const trainers = {
         "location": null,
         "money": 45,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -23351,7 +23850,7 @@ export const trainers = {
                     "special_attack": 50,
                     "special_defense": 50
                 },
-                "moves": ["Metal Claw", "Faint Attack", "Slash", "Scary Face"]
+                "moves": ["Metal Claw", "Feint Attack", "Slash", "Scary Face"]
             },
             {
                 "species": "Pawniard",
@@ -23368,7 +23867,7 @@ export const trainers = {
                     "special_attack": 50,
                     "special_defense": 50
                 },
-                "moves": ["Metal Claw", "Faint Attack", "Slash", "Hone Claws"]
+                "moves": ["Metal Claw", "Feint Attack", "Slash", "Hone Claws"]
             },
             {
                 "species": "Accelgor",
@@ -23396,6 +23895,7 @@ export const trainers = {
         "location": null,
         "money": 45,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -23413,7 +23913,7 @@ export const trainers = {
                     "special_attack": 55,
                     "special_defense": 45
                 },
-                "moves": ["Metal Claw", "Faint Attack", "Slash", "Scary Face"]
+                "moves": ["Metal Claw", "Feint Attack", "Slash", "Scary Face"]
             },
             {
                 "species": "Pawniard",
@@ -23430,7 +23930,7 @@ export const trainers = {
                     "special_attack": 55,
                     "special_defense": 45
                 },
-                "moves": ["Metal Claw", "Faint Attack", "Slash", "Hone Claws"]
+                "moves": ["Metal Claw", "Feint Attack", "Slash", "Hone Claws"]
             },
             {
                 "species": "Banette",
@@ -23458,6 +23958,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -23465,7 +23966,7 @@ export const trainers = {
                 "level": 46,
                 "experience_yield": 147,
                 "nature": "Lonely",
-                "ability": "Illuminate",
+                "ability": "Keen Eye",
                 "held_item": null,
                 "stats": {
                     "hp": 111,
@@ -23482,7 +23983,7 @@ export const trainers = {
                 "level": 46,
                 "experience_yield": 166,
                 "nature": "Hasty",
-                "ability": "Stench",
+                "ability": "Weak Armor",
                 "held_item": null,
                 "stats": {
                     "hp": 129,
@@ -23499,10 +24000,11 @@ export const trainers = {
     "501": {
         "rom_id": 501,
         "name": "Clemens",
-        "trainer_class": "Clerk ⑭",
+        "trainer_class": "Clerk ♂",
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -23527,10 +24029,11 @@ export const trainers = {
     "502": {
         "rom_id": 502,
         "name": "Warren",
-        "trainer_class": "Clerk ⑭",
+        "trainer_class": "Clerk ♂",
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -23548,7 +24051,7 @@ export const trainers = {
                     "special_attack": 11,
                     "special_defense": 21
                 },
-                "moves": ["Defense Curl", "Rollout", "BubbleBeam", "Helping Hand"]
+                "moves": ["Defense Curl", "Rollout", "Bubble Beam", "Helping Hand"]
             }
         ]
     },
@@ -23559,6 +24062,7 @@ export const trainers = {
         "location": null,
         "money": 5,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -23604,6 +24108,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -23666,6 +24171,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -23728,6 +24234,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -23790,6 +24297,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -23848,10 +24356,11 @@ export const trainers = {
     "508": {
         "rom_id": 508,
         "name": "Maxwell",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -23903,17 +24412,18 @@ export const trainers = {
                     "special_attack": 95,
                     "special_defense": 117
                 },
-                "moves": ["AncientPower", "Fury Cutter", "Slash", "Rock Blast"]
+                "moves": ["Ancient Power", "Fury Cutter", "Slash", "Rock Blast"]
             }
         ]
     },
     "509": {
         "rom_id": 509,
         "name": "Katie",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -23965,7 +24475,7 @@ export const trainers = {
                     "special_attack": 109,
                     "special_defense": 141
                 },
-                "moves": ["Amnesia", "AncientPower", "Gastro Acid", "Energy Ball"]
+                "moves": ["Amnesia", "Ancient Power", "Gastro Acid", "Energy Ball"]
             }
         ]
     },
@@ -23976,6 +24486,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -23993,7 +24504,7 @@ export const trainers = {
                     "special_attack": 31,
                     "special_defense": 36
                 },
-                "moves": ["Fake Tears", "DoubleSlap", "Psybeam", "Embargo"]
+                "moves": ["Fake Tears", "Double Slap", "Psybeam", "Embargo"]
             }
         ]
     },
@@ -24004,6 +24515,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -24032,6 +24544,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -24060,6 +24573,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -24084,7 +24598,7 @@ export const trainers = {
                 "level": 37,
                 "experience_yield": 166,
                 "nature": "Naive",
-                "ability": "Keen Eye",
+                "ability": "Big Pecks",
                 "held_item": null,
                 "stats": {
                     "hp": 102,
@@ -24105,6 +24619,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -24146,10 +24661,11 @@ export const trainers = {
     "515": {
         "rom_id": 515,
         "name": "Lewis",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -24174,7 +24690,7 @@ export const trainers = {
                 "level": 38,
                 "experience_yield": 165,
                 "nature": "Impish",
-                "ability": "Thick Fat",
+                "ability": "Own Tempo",
                 "held_item": null,
                 "stats": {
                     "hp": 111,
@@ -24191,10 +24707,11 @@ export const trainers = {
     "516": {
         "rom_id": 516,
         "name": "Lewis",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -24219,7 +24736,7 @@ export const trainers = {
                 "level": 38,
                 "experience_yield": 161,
                 "nature": "Careful",
-                "ability": "Magma Armor",
+                "ability": "Solid Rock",
                 "held_item": null,
                 "stats": {
                     "hp": 103,
@@ -24236,10 +24753,11 @@ export const trainers = {
     "517": {
         "rom_id": 517,
         "name": "Eliza",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -24247,7 +24765,7 @@ export const trainers = {
                 "level": 38,
                 "experience_yield": 159,
                 "nature": "Careful",
-                "ability": "Insomnia",
+                "ability": "Frisk",
                 "held_item": null,
                 "stats": {
                     "hp": 98,
@@ -24257,14 +24775,14 @@ export const trainers = {
                     "special_attack": 63,
                     "special_defense": 60
                 },
-                "moves": ["Faint Attack", "Hex", "Shadow Ball", "Sucker Punch"]
+                "moves": ["Feint Attack", "Hex", "Shadow Ball", "Sucker Punch"]
             },
             {
                 "species": "Golduck",
                 "level": 38,
                 "experience_yield": 175,
                 "nature": "Impish",
-                "ability": "Damp",
+                "ability": "Cloud Nine",
                 "held_item": null,
                 "stats": {
                     "hp": 111,
@@ -24281,10 +24799,11 @@ export const trainers = {
     "518": {
         "rom_id": 518,
         "name": "Eliza",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -24309,7 +24828,7 @@ export const trainers = {
                 "level": 38,
                 "experience_yield": 194,
                 "nature": "Mild",
-                "ability": "Intimidate",
+                "ability": "Flash Fire",
                 "held_item": null,
                 "stats": {
                     "hp": 118,
@@ -24319,7 +24838,7 @@ export const trainers = {
                     "special_attack": 91,
                     "special_defense": 68
                 },
-                "moves": ["Roar", "Odor Sleuth", "Fire Fang", "ExtremeSpeed"]
+                "moves": ["Roar", "Odor Sleuth", "Fire Fang", "Extreme Speed"]
             }
         ]
     },
@@ -24330,6 +24849,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -24347,7 +24867,7 @@ export const trainers = {
                     "special_attack": 48,
                     "special_defense": 48
                 },
-                "moves": ["Supersonic", "Screech", "DragonBreath", "Earth Power"]
+                "moves": ["Supersonic", "Screech", "Dragon Breath", "Earth Power"]
             },
             {
                 "species": "Camerupt",
@@ -24375,6 +24895,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -24382,7 +24903,7 @@ export const trainers = {
                 "level": 39,
                 "experience_yield": 165,
                 "nature": "Relaxed",
-                "ability": "Thick Fat",
+                "ability": "Own Tempo",
                 "held_item": null,
                 "stats": {
                     "hp": 116,
@@ -24399,7 +24920,7 @@ export const trainers = {
                 "level": 39,
                 "experience_yield": 174,
                 "nature": "Lonely",
-                "ability": "Aftermath",
+                "ability": "Unburden",
                 "held_item": null,
                 "stats": {
                     "hp": 170,
@@ -24420,6 +24941,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -24444,7 +24966,7 @@ export const trainers = {
                 "level": 37,
                 "experience_yield": 178,
                 "nature": "Rash",
-                "ability": "Sand Rush",
+                "ability": "Sand Force",
                 "held_item": null,
                 "stats": {
                     "hp": 128,
@@ -24465,6 +24987,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -24472,7 +24995,7 @@ export const trainers = {
                 "level": 37,
                 "experience_yield": 142,
                 "nature": "Bashful",
-                "ability": "Guts",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 109,
@@ -24482,7 +25005,7 @@ export const trainers = {
                     "special_attack": 34,
                     "special_defense": 42
                 },
-                "moves": ["Chip Away", "Bulk Up", "Rock Slide", "DynamicPunch"]
+                "moves": ["Chip Away", "Bulk Up", "Rock Slide", "Dynamic Punch"]
             },
             {
                 "species": "Crustle",
@@ -24509,7 +25032,8 @@ export const trainers = {
         "trainer_class": "Black Belt",
         "location": null,
         "money": 8,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "rotation",
         "items": [],
         "party": [
             {
@@ -24527,14 +25051,14 @@ export const trainers = {
                     "special_attack": 32,
                     "special_defense": 48
                 },
-                "moves": ["Chip Away", "Bulk Up", "Rock Slide", "DynamicPunch"]
+                "moves": ["Chip Away", "Bulk Up", "Rock Slide", "Dynamic Punch"]
             },
             {
                 "species": "Scraggy",
                 "level": 37,
                 "experience_yield": 70,
                 "nature": "Bashful",
-                "ability": "Shed Skin",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 86,
@@ -24544,14 +25068,14 @@ export const trainers = {
                     "special_attack": 33,
                     "special_defense": 59
                 },
-                "moves": ["Payback", "Chip Away", "Hi Jump Kick", "Scary Face"]
+                "moves": ["Payback", "Chip Away", "High Jump Kick", "Scary Face"]
             },
             {
                 "species": "Scraggy",
                 "level": 37,
                 "experience_yield": 70,
                 "nature": "Bashful",
-                "ability": "Shed Skin",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 86,
@@ -24561,7 +25085,7 @@ export const trainers = {
                     "special_attack": 33,
                     "special_defense": 59
                 },
-                "moves": ["Payback", "Chip Away", "Hi Jump Kick", "Scary Face"]
+                "moves": ["Payback", "Chip Away", "High Jump Kick", "Scary Face"]
             }
         ]
     },
@@ -24571,7 +25095,8 @@ export const trainers = {
         "trainer_class": "Battle Girl",
         "location": null,
         "money": 8,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "triple",
         "items": [],
         "party": [
             {
@@ -24596,7 +25121,7 @@ export const trainers = {
                 "level": 37,
                 "experience_yield": 142,
                 "nature": "Brave",
-                "ability": "Guts",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 112,
@@ -24606,7 +25131,7 @@ export const trainers = {
                     "special_attack": 36,
                     "special_defense": 44
                 },
-                "moves": ["Chip Away", "Bulk Up", "Rock Slide", "DynamicPunch"]
+                "moves": ["Chip Away", "Bulk Up", "Rock Slide", "Dynamic Punch"]
             },
             {
                 "species": "Riolu",
@@ -24634,6 +25159,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -24658,7 +25184,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 137,
                 "nature": "Jolly",
-                "ability": "Rock Head",
+                "ability": "Sturdy",
                 "held_item": null,
                 "stats": {
                     "hp": 136,
@@ -24675,7 +25201,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 178,
                 "nature": "Hardy",
-                "ability": "Sand Rush",
+                "ability": "Sand Force",
                 "held_item": null,
                 "stats": {
                     "hp": 202,
@@ -24696,6 +25222,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -24703,7 +25230,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 60,
                 "nature": "Jolly",
-                "ability": "Rock Head",
+                "ability": "Sturdy",
                 "held_item": null,
                 "stats": {
                     "hp": 118,
@@ -24758,6 +25285,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -24765,7 +25293,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 168,
                 "nature": "Impish",
-                "ability": "Inner Focus",
+                "ability": "Ice Body",
                 "held_item": null,
                 "stats": {
                     "hp": 168,
@@ -24803,6 +25331,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -24810,7 +25339,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 142,
                 "nature": "Brave",
-                "ability": "Guts",
+                "ability": "No Guard",
                 "held_item": null,
                 "stats": {
                     "hp": 168,
@@ -24820,7 +25349,7 @@ export const trainers = {
                     "special_attack": 66,
                     "special_defense": 78
                 },
-                "moves": ["Wake-Up Slap", "Cross Chop", "Scary Face", "DynamicPunch"]
+                "moves": ["Wake-Up Slap", "Cross Chop", "Scary Face", "Dynamic Punch"]
             },
             {
                 "species": "Abomasnow",
@@ -24848,6 +25377,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -24872,7 +25402,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 140,
                 "nature": "Brave",
-                "ability": "Synchronize",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 118,
@@ -24910,6 +25440,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -24934,7 +25465,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 184,
                 "nature": "Bold",
-                "ability": "Sturdy",
+                "ability": "Magnet Pull",
                 "held_item": null,
                 "stats": {
                     "hp": 144,
@@ -24955,6 +25486,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -24962,7 +25494,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 61,
                 "nature": "Adamant",
-                "ability": "Iron Fist",
+                "ability": "Klutz",
                 "held_item": null,
                 "stats": {
                     "hp": 142,
@@ -25000,6 +25532,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -25079,6 +25612,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -25157,7 +25691,8 @@ export const trainers = {
         "trainer_class": "Veteran",
         "location": null,
         "money": 20,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "triple",
         "items": [],
         "party": [
             {
@@ -25182,7 +25717,7 @@ export const trainers = {
                 "level": 64,
                 "experience_yield": 241,
                 "nature": "Impish",
-                "ability": "--",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 198,
@@ -25219,7 +25754,8 @@ export const trainers = {
         "trainer_class": "Veteran",
         "location": null,
         "money": 20,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "rotation",
         "items": [],
         "party": [
             {
@@ -25282,6 +25818,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore", "Full Restore", "Full Restore"],
         "party": [
             {
@@ -25316,7 +25853,7 @@ export const trainers = {
                     "special_attack": 119,
                     "special_defense": 164
                 },
-                "moves": ["Fire Punch", "ThunderPunch", "Outrage", "Focus Blast"]
+                "moves": ["Fire Punch", "Thunder Punch", "Outrage", "Focus Blast"]
             },
             {
                 "species": "Archeops",
@@ -25395,6 +25932,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -25423,6 +25961,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -25430,7 +25969,7 @@ export const trainers = {
                 "level": 33,
                 "experience_yield": 174,
                 "nature": "Sassy",
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "held_item": null,
                 "stats": {
                     "hp": 92,
@@ -25451,6 +25990,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -25458,7 +25998,7 @@ export const trainers = {
                 "level": 32,
                 "experience_yield": 66,
                 "nature": "Quirky",
-                "ability": "Sturdy",
+                "ability": "Rock Head",
                 "held_item": null,
                 "stats": {
                     "hp": 74,
@@ -25496,6 +26036,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -25513,7 +26054,7 @@ export const trainers = {
                     "special_attack": 21,
                     "special_defense": 33
                 },
-                "moves": ["Smack Down", "DragonBreath", "Slam", "Screech"]
+                "moves": ["Smack Down", "Dragon Breath", "Slam", "Screech"]
             },
             {
                 "species": "Boldore",
@@ -25541,6 +26082,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["X Attack"],
         "party": [
             {
@@ -25569,14 +26111,15 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": false,
-        "items": ["X Special"],
+        "battle_type": "single",
+        "items": ["X Sp. Atk"],
         "party": [
             {
                 "species": "Joltik",
                 "level": 32,
                 "experience_yield": 64,
                 "nature": "Naughty",
-                "ability": "Compoundeyes",
+                "ability": "Unnerve",
                 "held_item": null,
                 "stats": {
                     "hp": 74,
@@ -25610,10 +26153,11 @@ export const trainers = {
     "543": {
         "rom_id": 543,
         "name": "Briana",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -25621,7 +26165,7 @@ export const trainers = {
                 "level": 33,
                 "experience_yield": 60,
                 "nature": "Mild",
-                "ability": "Cute Charm",
+                "ability": "Technician",
                 "held_item": null,
                 "stats": {
                     "hp": 81,
@@ -25655,10 +26199,11 @@ export const trainers = {
     "544": {
         "rom_id": 544,
         "name": "Louis",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -25676,7 +26221,7 @@ export const trainers = {
                     "special_attack": 85,
                     "special_defense": 68
                 },
-                "moves": ["Take Down", "Electro Ball", "Confuse Ray", "ThunderPunch"]
+                "moves": ["Take Down", "Electro Ball", "Confuse Ray", "Thunder Punch"]
             }
         ]
     },
@@ -25686,7 +26231,8 @@ export const trainers = {
         "trainer_class": "Ace Trainer",
         "location": null,
         "money": 15,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "rotation",
         "items": [],
         "party": [
             {
@@ -25711,7 +26257,7 @@ export const trainers = {
                 "level": 33,
                 "experience_yield": 123,
                 "nature": "Serious",
-                "ability": "Intimidate",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 86,
@@ -25748,7 +26294,8 @@ export const trainers = {
         "trainer_class": "Ace Trainer",
         "location": null,
         "money": 15,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "triple",
         "items": [],
         "party": [
             {
@@ -25773,7 +26320,7 @@ export const trainers = {
                 "level": 33,
                 "experience_yield": 215,
                 "nature": "Bashful",
-                "ability": "Big Pecks",
+                "ability": "Super Luck",
                 "held_item": null,
                 "stats": {
                     "hp": 99,
@@ -25811,6 +26358,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -25828,7 +26376,7 @@ export const trainers = {
                     "special_attack": 64,
                     "special_defense": 39
                 },
-                "moves": ["Agility", "Quick Guard", "Acrobatics", "DragonBreath"]
+                "moves": ["Agility", "Quick Guard", "Acrobatics", "Dragon Breath"]
             },
             {
                 "species": "Electabuzz",
@@ -25845,7 +26393,7 @@ export const trainers = {
                     "special_attack": 73,
                     "special_defense": 66
                 },
-                "moves": ["Thunder Wave", "Electro Ball", "Light Screen", "ThunderPunch"]
+                "moves": ["Thunder Wave", "Electro Ball", "Light Screen", "Thunder Punch"]
             }
         ]
     },
@@ -25856,6 +26404,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -25863,7 +26412,7 @@ export const trainers = {
                 "level": 34,
                 "experience_yield": 71,
                 "nature": "Hardy",
-                "ability": "Solid Rock",
+                "ability": "Sturdy",
                 "held_item": null,
                 "stats": {
                     "hp": 84,
@@ -25901,6 +26450,7 @@ export const trainers = {
         "location": null,
         "money": 16,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -25929,6 +26479,7 @@ export const trainers = {
         "location": null,
         "money": 16,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -25957,6 +26508,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -25974,7 +26526,7 @@ export const trainers = {
                     "special_attack": 47,
                     "special_defense": 86
                 },
-                "moves": ["Faint Attack", "Assurance", "Screech", "Moonlight"]
+                "moves": ["Feint Attack", "Assurance", "Screech", "Moonlight"]
             }
         ]
     },
@@ -25985,6 +26537,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -26013,6 +26566,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -26041,6 +26595,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -26069,6 +26624,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -26076,7 +26632,7 @@ export const trainers = {
                 "level": 35,
                 "experience_yield": 67,
                 "nature": "Hardy",
-                "ability": "Telepathy",
+                "ability": "Synchronize",
                 "held_item": null,
                 "stats": {
                     "hp": 85,
@@ -26114,6 +26670,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -26159,6 +26716,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -26183,7 +26741,7 @@ export const trainers = {
                 "level": 37,
                 "experience_yield": 61,
                 "nature": "Brave",
-                "ability": "Hydration",
+                "ability": "Shell Armor",
                 "held_item": null,
                 "stats": {
                     "hp": 84,
@@ -26200,7 +26758,7 @@ export const trainers = {
                 "level": 37,
                 "experience_yield": 64,
                 "nature": "Naive",
-                "ability": "Compoundeyes",
+                "ability": "Unnerve",
                 "held_item": null,
                 "stats": {
                     "hp": 84,
@@ -26217,7 +26775,7 @@ export const trainers = {
                 "level": 37,
                 "experience_yield": 214,
                 "nature": "Lax",
-                "ability": "Poison Point",
+                "ability": "Swarm",
                 "held_item": null,
                 "stats": {
                     "hp": 91,
@@ -26238,6 +26796,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -26245,7 +26804,7 @@ export const trainers = {
                 "level": 39,
                 "experience_yield": 67,
                 "nature": "Brave",
-                "ability": "Chlorophyll",
+                "ability": "Sap Sipper",
                 "held_item": null,
                 "stats": {
                     "hp": 95,
@@ -26283,6 +26842,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -26290,7 +26850,7 @@ export const trainers = {
                 "level": 39,
                 "experience_yield": 66,
                 "nature": "Jolly",
-                "ability": "Battle Armor",
+                "ability": "Sniper",
                 "held_item": null,
                 "stats": {
                     "hp": 80,
@@ -26328,6 +26888,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -26373,6 +26934,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -26418,6 +26980,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -26425,7 +26988,7 @@ export const trainers = {
                 "level": 31,
                 "experience_yield": 66,
                 "nature": "Hasty",
-                "ability": "Sand Rush",
+                "ability": "Sand Force",
                 "held_item": null,
                 "stats": {
                     "hp": 78,
@@ -26463,6 +27026,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -26470,7 +27034,7 @@ export const trainers = {
                 "level": 18,
                 "experience_yield": 130,
                 "nature": "Hardy",
-                "ability": "Intimidate",
+                "ability": "Sand Rush",
                 "held_item": null,
                 "stats": {
                     "hp": 51,
@@ -26491,6 +27055,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -26519,6 +27084,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -26547,6 +27113,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -26575,6 +27142,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["X Sp. Def"],
         "party": [
             {
@@ -26582,7 +27150,7 @@ export const trainers = {
                 "level": 18,
                 "experience_yield": 65,
                 "nature": "Hasty",
-                "ability": "Stench",
+                "ability": "Sticky Hold",
                 "held_item": null,
                 "stats": {
                     "hp": 56,
@@ -26603,7 +27171,8 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": false,
-        "items": ["X Defend"],
+        "battle_type": "single",
+        "items": ["X Defense"],
         "party": [
             {
                 "species": "Venipede",
@@ -26637,7 +27206,7 @@ export const trainers = {
                     "special_attack": 27,
                     "special_defense": 20
                 },
-                "moves": ["Smog", "SmokeScreen", "Assurance", "Clear Smog"]
+                "moves": ["Smog", "Smokescreen", "Assurance", "Clear Smog"]
             }
         ]
     },
@@ -26648,6 +27217,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -26655,7 +27225,7 @@ export const trainers = {
                 "level": 33,
                 "experience_yield": 149,
                 "nature": "Gentle",
-                "ability": "Unaware",
+                "ability": "Klutz",
                 "held_item": null,
                 "stats": {
                     "hp": 89,
@@ -26676,6 +27246,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -26693,7 +27264,7 @@ export const trainers = {
                     "special_attack": 32,
                     "special_defense": 51
                 },
-                "moves": ["AncientPower", "Selfdestruct", "Extrasensory", "Cosmic Power"]
+                "moves": ["Ancient Power", "Self-Destruct", "Extrasensory", "Cosmic Power"]
             },
             {
                 "species": "Yamask",
@@ -26721,6 +27292,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -26745,7 +27317,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 60,
                 "nature": "Rash",
-                "ability": "Anticipation",
+                "ability": "Dry Skin",
                 "held_item": null,
                 "stats": {
                     "hp": 127,
@@ -26783,6 +27355,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -26807,7 +27380,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 50,
                 "nature": "Adamant",
-                "ability": "Magma Armor",
+                "ability": "Flame Body",
                 "held_item": null,
                 "stats": {
                     "hp": 118,
@@ -26844,7 +27417,8 @@ export const trainers = {
         "trainer_class": "Parasol Lady",
         "location": null,
         "money": 8,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "rotation",
         "items": [],
         "party": [
             {
@@ -26862,7 +27436,7 @@ export const trainers = {
                     "special_attack": 89,
                     "special_defense": 89
                 },
-                "moves": ["Weather Ball", "Sunny Day", "SolarBeam", "Scald"]
+                "moves": ["Weather Ball", "Sunny Day", "Solar Beam", "Scald"]
             },
             {
                 "species": "Castform",
@@ -26906,7 +27480,8 @@ export const trainers = {
         "trainer_class": "Parasol Lady",
         "location": null,
         "money": 8,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "triple",
         "items": [],
         "party": [
             {
@@ -26969,6 +27544,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -26976,7 +27552,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 58,
                 "nature": "Mild",
-                "ability": "Oblivious",
+                "ability": "Anticipation",
                 "held_item": null,
                 "stats": {
                     "hp": 130,
@@ -27031,6 +27607,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -27055,7 +27632,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 60,
                 "nature": "Mild",
-                "ability": "Water Absorb",
+                "ability": "Damp",
                 "held_item": null,
                 "stats": {
                     "hp": 118,
@@ -27072,7 +27649,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 165,
                 "nature": "Hardy",
-                "ability": "Static",
+                "ability": "Limber",
                 "held_item": null,
                 "stats": {
                     "hp": 200,
@@ -27093,6 +27670,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -27100,7 +27678,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 135,
                 "nature": "Modest",
-                "ability": "Water Absorb",
+                "ability": "Damp",
                 "held_item": null,
                 "stats": {
                     "hp": 148,
@@ -27134,7 +27712,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 225,
                 "nature": "Naughty",
-                "ability": "Water Absorb",
+                "ability": "Damp",
                 "held_item": null,
                 "stats": {
                     "hp": 178,
@@ -27151,10 +27729,11 @@ export const trainers = {
     "578": {
         "rom_id": 578,
         "name": "Parker",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -27196,7 +27775,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 168,
                 "nature": "Mild",
-                "ability": "Stench",
+                "ability": "Aftermath",
                 "held_item": null,
                 "stats": {
                     "hp": 203,
@@ -27213,10 +27792,11 @@ export const trainers = {
     "579": {
         "rom_id": 579,
         "name": "Elaine",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -27251,14 +27831,14 @@ export const trainers = {
                     "special_attack": 74,
                     "special_defense": 172
                 },
-                "moves": ["Sucker Punch", "Shadow Claw", "AncientPower", "Synchronoise"]
+                "moves": ["Sucker Punch", "Shadow Claw", "Ancient Power", "Synchronoise"]
             },
             {
                 "species": "Swalot",
                 "level": 62,
                 "experience_yield": 163,
                 "nature": "Quirky",
-                "ability": "Liquid Ooze",
+                "ability": "Sticky Hold",
                 "held_item": null,
                 "stats": {
                     "hp": 199,
@@ -27279,6 +27859,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -27358,6 +27939,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -27382,10 +27964,11 @@ export const trainers = {
     "582": {
         "rom_id": 582,
         "name": "Alder",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore"],
         "party": [
             {
@@ -27499,6 +28082,7 @@ export const trainers = {
         "location": null,
         "money": 45,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -27516,7 +28100,7 @@ export const trainers = {
                     "special_attack": 47,
                     "special_defense": 51
                 },
-                "moves": ["Metal Claw", "Faint Attack", "Slash", "Scary Face"]
+                "moves": ["Metal Claw", "Feint Attack", "Slash", "Scary Face"]
             },
             {
                 "species": "Pawniard",
@@ -27533,7 +28117,7 @@ export const trainers = {
                     "special_attack": 47,
                     "special_defense": 51
                 },
-                "moves": ["Metal Claw", "Faint Attack", "Slash", "Hone Claws"]
+                "moves": ["Metal Claw", "Feint Attack", "Slash", "Hone Claws"]
             },
             {
                 "species": "Absol",
@@ -27561,6 +28145,7 @@ export const trainers = {
         "location": null,
         "money": 45,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -27623,6 +28208,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -27630,7 +28216,7 @@ export const trainers = {
                 "level": 44,
                 "experience_yield": 147,
                 "nature": "Timid",
-                "ability": "Illuminate",
+                "ability": "Keen Eye",
                 "held_item": null,
                 "stats": {
                     "hp": 106,
@@ -27668,6 +28254,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -27713,6 +28300,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -27754,10 +28342,11 @@ export const trainers = {
     "588": {
         "rom_id": 588,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -27799,10 +28388,11 @@ export const trainers = {
     "589": {
         "rom_id": 589,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -27844,10 +28434,11 @@ export const trainers = {
     "590": {
         "rom_id": 590,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -27893,6 +28484,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore", "Full Restore", "Full Restore"],
         "party": [
             {
@@ -28006,6 +28598,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Super Potion"],
         "party": [
             {
@@ -28068,6 +28661,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -28113,6 +28707,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -28158,6 +28753,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -28165,7 +28761,7 @@ export const trainers = {
                 "level": 54,
                 "experience_yield": 130,
                 "nature": "Lonely",
-                "ability": "Flash Fire",
+                "ability": "Flame Body",
                 "held_item": null,
                 "stats": {
                     "hp": 132,
@@ -28203,6 +28799,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -28248,6 +28845,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -28293,6 +28891,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -28310,7 +28909,7 @@ export const trainers = {
                     "special_attack": 86,
                     "special_defense": 94
                 },
-                "moves": ["Giga Drain", "Tailwind", "PoisonPowder", "U-turn"]
+                "moves": ["Giga Drain", "Tailwind", "Poison Powder", "U-turn"]
             },
             {
                 "species": "Unfezant",
@@ -28327,7 +28926,7 @@ export const trainers = {
                     "special_attack": 83,
                     "special_defense": 72
                 },
-                "moves": ["Air Slash", "Quick Attack", "Roost", "FeatherDance"]
+                "moves": ["Air Slash", "Quick Attack", "Roost", "Feather Dance"]
             }
         ]
     },
@@ -28338,6 +28937,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -28383,6 +28983,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -28428,6 +29029,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Heal", "Max Potion"],
         "party": [
             {
@@ -28435,7 +29037,7 @@ export const trainers = {
                 "level": 54,
                 "experience_yield": 213,
                 "nature": "Relaxed",
-                "ability": "Cute Charm",
+                "ability": "Magic Guard",
                 "held_item": null,
                 "stats": {
                     "hp": 166,
@@ -28445,7 +29047,7 @@ export const trainers = {
                     "special_attack": 96,
                     "special_defense": 102
                 },
-                "moves": ["Sing", "DoubleSlap", "Minimize", "Metronome"]
+                "moves": ["Sing", "Double Slap", "Minimize", "Metronome"]
             }
         ]
     },
@@ -28456,6 +29058,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -28501,6 +29104,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -28546,6 +29150,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -28608,6 +29213,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -28615,7 +29221,7 @@ export const trainers = {
                 "level": 54,
                 "experience_yield": 174,
                 "nature": "Gentle",
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "held_item": null,
                 "stats": {
                     "hp": 154,
@@ -28670,6 +29276,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -28715,6 +29322,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -28760,6 +29368,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -28805,6 +29414,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -28812,7 +29422,7 @@ export const trainers = {
                 "level": 54,
                 "experience_yield": 163,
                 "nature": "Quirky",
-                "ability": "Guts",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 196,
@@ -28829,7 +29439,7 @@ export const trainers = {
                 "level": 54,
                 "experience_yield": 163,
                 "nature": "Brave",
-                "ability": "Sturdy",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 148,
@@ -28850,6 +29460,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -28895,6 +29506,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -28919,7 +29531,7 @@ export const trainers = {
                 "level": 55,
                 "experience_yield": 187,
                 "nature": "Naive",
-                "ability": "Chlorophyll",
+                "ability": "Leaf Guard",
                 "held_item": null,
                 "stats": {
                     "hp": 181,
@@ -28940,6 +29552,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -28947,7 +29560,7 @@ export const trainers = {
                 "level": 54,
                 "experience_yield": 144,
                 "nature": "Docile",
-                "ability": "Rivalry",
+                "ability": "Mold Breaker",
                 "held_item": null,
                 "stats": {
                     "hp": 145,
@@ -29002,6 +29615,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29009,7 +29623,7 @@ export const trainers = {
                 "level": 54,
                 "experience_yield": 166,
                 "nature": "Quiet",
-                "ability": "Chlorophyll",
+                "ability": "Sap Sipper",
                 "held_item": null,
                 "stats": {
                     "hp": 150,
@@ -29030,6 +29644,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29075,6 +29690,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29120,6 +29736,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29127,7 +29744,7 @@ export const trainers = {
                 "level": 1,
                 "experience_yield": 51,
                 "nature": "Hasty",
-                "ability": "Run Away",
+                "ability": "Keen Eye",
                 "held_item": null,
                 "stats": {
                     "hp": 11,
@@ -29148,6 +29765,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29176,6 +29794,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29204,6 +29823,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29211,7 +29831,7 @@ export const trainers = {
                 "level": 1,
                 "experience_yield": 51,
                 "nature": "Gentle",
-                "ability": "Run Away",
+                "ability": "Keen Eye",
                 "held_item": null,
                 "stats": {
                     "hp": 11,
@@ -29232,6 +29852,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29260,6 +29881,7 @@ export const trainers = {
         "location": null,
         "money": 40,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29267,7 +29889,7 @@ export const trainers = {
                 "level": 24,
                 "experience_yield": 59,
                 "nature": "Gentle",
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "held_item": null,
                 "stats": {
                     "hp": 55,
@@ -29288,6 +29910,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29312,7 +29935,7 @@ export const trainers = {
                 "level": 16,
                 "experience_yield": 51,
                 "nature": "Impish",
-                "ability": "Run Away",
+                "ability": "Keen Eye",
                 "held_item": null,
                 "stats": {
                     "hp": 40,
@@ -29322,17 +29945,18 @@ export const trainers = {
                     "special_attack": 14,
                     "special_defense": 17
                 },
-                "moves": ["Bide", "Detect", "Sand-Attack", "Crunch"]
+                "moves": ["Bide", "Detect", "Sand Attack", "Crunch"]
             }
         ]
     },
     "623": {
         "rom_id": 623,
         "name": "Chaz",
-        "trainer_class": "Clerk ⑭",
+        "trainer_class": "Clerk ♂",
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29340,7 +29964,7 @@ export const trainers = {
                 "level": 16,
                 "experience_yield": 52,
                 "nature": "Serious",
-                "ability": "Poison Point",
+                "ability": "Swarm",
                 "held_item": null,
                 "stats": {
                     "hp": 35,
@@ -29378,6 +30002,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29395,7 +30020,7 @@ export const trainers = {
                     "special_attack": 41,
                     "special_defense": 28
                 },
-                "moves": ["ThunderShock", "SonicBoom", "Thunder Wave", "Magnet Bomb"]
+                "moves": ["Thunder Shock", "Sonic Boom", "Thunder Wave", "Magnet Bomb"]
             },
             {
                 "species": "Basculin",
@@ -29423,6 +30048,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29447,7 +30073,7 @@ export const trainers = {
                 "level": 18,
                 "experience_yield": 88,
                 "nature": "Naughty",
-                "ability": "Thick Fat",
+                "ability": "Huge Power",
                 "held_item": null,
                 "stats": {
                     "hp": 55,
@@ -29457,7 +30083,7 @@ export const trainers = {
                     "special_attack": 14,
                     "special_defense": 22
                 },
-                "moves": ["Defense Curl", "Rollout", "BubbleBeam", "Helping Hand"]
+                "moves": ["Defense Curl", "Rollout", "Bubble Beam", "Helping Hand"]
             }
         ]
     },
@@ -29468,6 +30094,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29492,7 +30119,7 @@ export const trainers = {
                 "level": 16,
                 "experience_yield": 62,
                 "nature": "Brave",
-                "ability": "Swarm",
+                "ability": "Chlorophyll",
                 "held_item": null,
                 "stats": {
                     "hp": 40,
@@ -29513,6 +30140,7 @@ export const trainers = {
         "location": null,
         "money": 40,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29520,7 +30148,7 @@ export const trainers = {
                 "level": 16,
                 "experience_yield": 51,
                 "nature": "Impish",
-                "ability": "Run Away",
+                "ability": "Keen Eye",
                 "held_item": null,
                 "stats": {
                     "hp": 40,
@@ -29530,7 +30158,7 @@ export const trainers = {
                     "special_attack": 14,
                     "special_defense": 17
                 },
-                "moves": ["Bide", "Detect", "Sand-Attack", "Crunch"]
+                "moves": ["Bide", "Detect", "Sand Attack", "Crunch"]
             },
             {
                 "species": "Zubat",
@@ -29558,6 +30186,7 @@ export const trainers = {
         "location": null,
         "money": 40,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29575,14 +30204,14 @@ export const trainers = {
                     "special_attack": 18,
                     "special_defense": 16
                 },
-                "moves": ["Assist", "Sand-Attack", "Fury Swipes", "Pursuit"]
+                "moves": ["Assist", "Sand Attack", "Fury Swipes", "Pursuit"]
             },
             {
                 "species": "Eevee",
                 "level": 16,
                 "experience_yield": 65,
                 "nature": "Calm",
-                "ability": "Run Away",
+                "ability": "Adaptability",
                 "held_item": null,
                 "stats": {
                     "hp": 43,
@@ -29592,7 +30221,7 @@ export const trainers = {
                     "special_attack": 19,
                     "special_defense": 27
                 },
-                "moves": ["Tail Whip", "Sand-Attack", "Growl", "Quick Attack"]
+                "moves": ["Tail Whip", "Sand Attack", "Growl", "Quick Attack"]
             }
         ]
     },
@@ -29603,6 +30232,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -29610,7 +30240,7 @@ export const trainers = {
                 "level": 17,
                 "experience_yield": 56,
                 "nature": "Jolly",
-                "ability": "Limber",
+                "ability": "Unburden",
                 "held_item": null,
                 "stats": {
                     "hp": 40,
@@ -29620,7 +30250,7 @@ export const trainers = {
                     "special_attack": 19,
                     "special_defense": 17
                 },
-                "moves": ["Assist", "Sand-Attack", "Fury Swipes", "Pursuit"]
+                "moves": ["Assist", "Sand Attack", "Fury Swipes", "Pursuit"]
             }
         ]
     },
@@ -29631,6 +30261,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -29638,7 +30269,7 @@ export const trainers = {
                 "level": 17,
                 "experience_yield": 55,
                 "nature": "Naughty",
-                "ability": "Vital Spirit",
+                "ability": "Pickup",
                 "held_item": null,
                 "stats": {
                     "hp": 42,
@@ -29659,6 +30290,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29676,17 +30308,18 @@ export const trainers = {
                     "special_attack": 27,
                     "special_defense": 23
                 },
-                "moves": ["ThunderShock", "Low Kick", "Swift", "Shock Wave"]
+                "moves": ["Thunder Shock", "Low Kick", "Swift", "Shock Wave"]
             }
         ]
     },
     "632": {
         "rom_id": 632,
         "name": "Cheren",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29721,7 +30354,7 @@ export const trainers = {
                     "special_attack": 91,
                     "special_defense": 114
                 },
-                "moves": ["ThunderPunch", "Fire Punch", "Ice Punch", "Hypnosis"]
+                "moves": ["Thunder Punch", "Fire Punch", "Ice Punch", "Hypnosis"]
             },
             {
                 "species": "Cinccino",
@@ -29749,6 +30382,7 @@ export const trainers = {
         "location": null,
         "money": 5,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29756,7 +30390,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 61,
                 "nature": "Careful",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 142,
@@ -29811,6 +30445,7 @@ export const trainers = {
         "location": null,
         "money": 5,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29873,6 +30508,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29880,7 +30516,7 @@ export const trainers = {
                 "level": 63,
                 "experience_yield": 145,
                 "nature": "Bold",
-                "ability": "Run Away",
+                "ability": "Keen Eye",
                 "held_item": null,
                 "stats": {
                     "hp": 187,
@@ -29897,7 +30533,7 @@ export const trainers = {
                 "level": 63,
                 "experience_yield": 179,
                 "nature": "Calm",
-                "ability": "Keen Eye",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 206,
@@ -29914,7 +30550,7 @@ export const trainers = {
                 "level": 63,
                 "experience_yield": 225,
                 "nature": "Impish",
-                "ability": "Swift Swim",
+                "ability": "Poison Touch",
                 "held_item": null,
                 "stats": {
                     "hp": 212,
@@ -29935,6 +30571,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -29997,6 +30634,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -30021,7 +30659,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 47,
                 "nature": "Hasty",
-                "ability": "Thick Fat",
+                "ability": "Guts",
                 "held_item": null,
                 "stats": {
                     "hp": 162,
@@ -30038,7 +30676,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 171,
                 "nature": "Naughty",
-                "ability": "Shed Skin",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 153,
@@ -30059,6 +30697,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -30093,7 +30732,7 @@ export const trainers = {
                     "special_attack": 51,
                     "special_defense": 51
                 },
-                "moves": ["Wake-Up Slap", "Cross Chop", "Scary Face", "DynamicPunch"]
+                "moves": ["Wake-Up Slap", "Cross Chop", "Scary Face", "Dynamic Punch"]
             },
             {
                 "species": "Poliwrath",
@@ -30110,17 +30749,18 @@ export const trainers = {
                     "special_attack": 94,
                     "special_defense": 118
                 },
-                "moves": ["Submission", "DynamicPunch", "Mind Reader", "Circle Throw"]
+                "moves": ["Submission", "Dynamic Punch", "Mind Reader", "Circle Throw"]
             }
         ]
     },
     "639": {
         "rom_id": 639,
         "name": "Ralph",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -30141,11 +30781,11 @@ export const trainers = {
                 "moves": ["Discharge", "Charge", "Wild Charge", "Thunder"]
             },
             {
-                "species": "Farfetch'd",
+                "species": "Farfetch’d",
                 "level": 62,
                 "experience_yield": 123,
                 "nature": "Hasty",
-                "ability": "Keen Eye",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 140,
@@ -30179,10 +30819,11 @@ export const trainers = {
     "640": {
         "rom_id": 640,
         "name": "Dwayne",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -30224,7 +30865,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 175,
                 "nature": "Gentle",
-                "ability": "Guts",
+                "ability": "Quick Feet",
                 "held_item": null,
                 "stats": {
                     "hp": 187,
@@ -30241,10 +30882,11 @@ export const trainers = {
     "641": {
         "rom_id": 641,
         "name": "Melita",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -30286,7 +30928,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 174,
                 "nature": "Modest",
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "held_item": null,
                 "stats": {
                     "hp": 168,
@@ -30303,10 +30945,11 @@ export const trainers = {
     "642": {
         "rom_id": 642,
         "name": "Hillary",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -30314,7 +30957,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 144,
                 "nature": "Rash",
-                "ability": "Sturdy",
+                "ability": "Rock Head",
                 "held_item": null,
                 "stats": {
                     "hp": 162,
@@ -30369,6 +31012,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -30376,7 +31020,7 @@ export const trainers = {
                 "level": 64,
                 "experience_yield": 216,
                 "nature": "Docile",
-                "ability": "Swift Swim",
+                "ability": "Rain Dish",
                 "held_item": null,
                 "stats": {
                     "hp": 191,
@@ -30420,7 +31064,7 @@ export const trainers = {
                     "special_attack": 97,
                     "special_defense": 106
                 },
-                "moves": ["Gyro Ball", "SolarBeam", "Payback", "Double-Edge"]
+                "moves": ["Gyro Ball", "Solar Beam", "Payback", "Double-Edge"]
             }
         ]
     },
@@ -30431,6 +31075,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -30493,6 +31138,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -30500,7 +31146,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 61,
                 "nature": "Jolly",
-                "ability": "Vital Spirit",
+                "ability": "Anger Point",
                 "held_item": null,
                 "stats": {
                     "hp": 118,
@@ -30534,7 +31180,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 164,
                 "nature": "Quiet",
-                "ability": "Hyper Cutter",
+                "ability": "Shell Armor",
                 "held_item": null,
                 "stats": {
                     "hp": 145,
@@ -30555,6 +31201,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -30617,6 +31264,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -30634,7 +31282,7 @@ export const trainers = {
                     "special_attack": 78,
                     "special_defense": 59
                 },
-                "moves": ["Natural Gift", "SolarBeam", "Extrasensory", "Bestow"]
+                "moves": ["Natural Gift", "Solar Beam", "Extrasensory", "Bestow"]
             },
             {
                 "species": "Miltank",
@@ -30662,6 +31310,7 @@ export const trainers = {
         "location": null,
         "money": 1,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -30686,7 +31335,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 59,
                 "nature": "Rash",
-                "ability": "Swift Swim",
+                "ability": "Hydration",
                 "held_item": null,
                 "stats": {
                     "hp": 130,
@@ -30707,6 +31356,7 @@ export const trainers = {
         "location": null,
         "money": 1,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -30731,7 +31381,7 @@ export const trainers = {
                 "level": 59,
                 "experience_yield": 57,
                 "nature": "Careful",
-                "ability": "Effect Spore",
+                "ability": "Dry Skin",
                 "held_item": null,
                 "stats": {
                     "hp": 110,
@@ -30748,7 +31398,7 @@ export const trainers = {
                 "level": 59,
                 "experience_yield": 100,
                 "nature": "Modest",
-                "ability": "Swarm",
+                "ability": "Technician",
                 "held_item": null,
                 "stats": {
                     "hp": 151,
@@ -30769,6 +31419,7 @@ export const trainers = {
         "location": null,
         "money": 1,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -30831,6 +31482,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -30876,6 +31528,7 @@ export const trainers = {
         "location": null,
         "money": 16,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -30900,7 +31553,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 66,
                 "nature": "Careful",
-                "ability": "Early Bird",
+                "ability": "Flash Fire",
                 "held_item": null,
                 "stats": {
                     "hp": 124,
@@ -30917,7 +31570,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 221,
                 "nature": "Serious",
-                "ability": "Intimidate",
+                "ability": "Sand Rush",
                 "held_item": null,
                 "stats": {
                     "hp": 172,
@@ -30938,6 +31591,7 @@ export const trainers = {
         "location": null,
         "money": 16,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -30962,7 +31616,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 62,
                 "nature": "Serious",
-                "ability": "Limber",
+                "ability": "Own Tempo",
                 "held_item": null,
                 "stats": {
                     "hp": 128,
@@ -31000,14 +31654,15 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": false,
-        "items": ["X Defend"],
+        "battle_type": "single",
+        "items": ["X Defense"],
         "party": [
             {
                 "species": "Gulpin",
                 "level": 60,
                 "experience_yield": 60,
                 "nature": "Docile",
-                "ability": "Liquid Ooze",
+                "ability": "Sticky Hold",
                 "held_item": null,
                 "stats": {
                     "hp": 154,
@@ -31024,7 +31679,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 166,
                 "nature": "Adamant",
-                "ability": "Stench",
+                "ability": "Weak Armor",
                 "held_item": null,
                 "stats": {
                     "hp": 166,
@@ -31062,6 +31717,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -31069,7 +31725,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 44,
                 "nature": "Naive",
-                "ability": "Chlorophyll",
+                "ability": "Early Bird",
                 "held_item": null,
                 "stats": {
                     "hp": 118,
@@ -31124,6 +31780,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -31131,7 +31788,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 44,
                 "nature": "Bashful",
-                "ability": "Run Away",
+                "ability": "Quick Feet",
                 "held_item": null,
                 "stats": {
                     "hp": 112,
@@ -31186,6 +31843,7 @@ export const trainers = {
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -31227,10 +31885,11 @@ export const trainers = {
     "658": {
         "rom_id": 658,
         "name": "Eddie",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -31272,10 +31931,11 @@ export const trainers = {
     "659": {
         "rom_id": 659,
         "name": "Elle",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -31293,14 +31953,14 @@ export const trainers = {
                     "special_attack": 116,
                     "special_defense": 100
                 },
-                "moves": ["Flamethrower", "Brick Break", "Will-O-Wisp", "Faint Attack"]
+                "moves": ["Flamethrower", "Brick Break", "Will-O-Wisp", "Feint Attack"]
             },
             {
                 "species": "Camerupt",
                 "level": 54,
                 "experience_yield": 161,
                 "nature": "Serious",
-                "ability": "Magma Armor",
+                "ability": "Solid Rock",
                 "held_item": null,
                 "stats": {
                     "hp": 142,
@@ -31321,6 +31981,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -31328,7 +31989,7 @@ export const trainers = {
                 "level": 1,
                 "experience_yield": 51,
                 "nature": "Serious",
-                "ability": "Run Away",
+                "ability": "Keen Eye",
                 "held_item": null,
                 "stats": {
                     "hp": 11,
@@ -31349,6 +32010,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -31377,6 +32039,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -31405,6 +32068,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -31412,7 +32076,7 @@ export const trainers = {
                 "level": 22,
                 "experience_yield": 65,
                 "nature": "Lonely",
-                "ability": "Sturdy",
+                "ability": "Shell Armor",
                 "held_item": null,
                 "stats": {
                     "hp": 54,
@@ -31422,7 +32086,7 @@ export const trainers = {
                     "special_attack": 20,
                     "special_defense": 20
                 },
-                "moves": ["Sand-Attack", "Faint Attack", "Smack Down", "Rock Polish"]
+                "moves": ["Sand Attack", "Feint Attack", "Smack Down", "Rock Polish"]
             }
         ]
     },
@@ -31433,6 +32097,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -31440,7 +32105,7 @@ export const trainers = {
                 "level": 22,
                 "experience_yield": 66,
                 "nature": "Hardy",
-                "ability": "Sand Rush",
+                "ability": "Sand Force",
                 "held_item": null,
                 "stats": {
                     "hp": 58,
@@ -31461,6 +32126,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -31485,10 +32151,11 @@ export const trainers = {
     "666": {
         "rom_id": 666,
         "name": "Jaden",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -31513,10 +32180,11 @@ export const trainers = {
     "667": {
         "rom_id": 667,
         "name": "Anja",
-        "trainer_class": "⒆⒇ Ranger",
+        "trainer_class": "Pokémon Ranger",
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -31534,7 +32202,7 @@ export const trainers = {
                     "special_attack": 38,
                     "special_defense": 34
                 },
-                "moves": ["Faint Attack", "Fire Spin", "Clear Smog", "Flame Burst"]
+                "moves": ["Feint Attack", "Fire Spin", "Clear Smog", "Flame Burst"]
             }
         ]
     },
@@ -31545,6 +32213,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -31590,6 +32259,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -31597,7 +32267,7 @@ export const trainers = {
                 "level": 23,
                 "experience_yield": 58,
                 "nature": "Mild",
-                "ability": "Forewarn",
+                "ability": "Synchronize",
                 "held_item": null,
                 "stats": {
                     "hp": 69,
@@ -31618,6 +32288,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Heal"],
         "party": [
             {
@@ -31646,6 +32317,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Heal", "Hyper Potion"],
         "party": [
             {
@@ -31680,7 +32352,7 @@ export const trainers = {
                     "special_attack": 40,
                     "special_defense": 41
                 },
-                "moves": ["Faint Attack", "Psyshock", "Flatter", "Future Sight"]
+                "moves": ["Feint Attack", "Psyshock", "Flatter", "Future Sight"]
             }
         ]
     },
@@ -31691,6 +32363,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Heal", "Hyper Potion"],
         "party": [
             {
@@ -31698,7 +32371,7 @@ export const trainers = {
                 "level": 38,
                 "experience_yield": 149,
                 "nature": "Adamant",
-                "ability": "Unaware",
+                "ability": "Klutz",
                 "held_item": null,
                 "stats": {
                     "hp": 98,
@@ -31719,6 +32392,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Heal"],
         "party": [
             {
@@ -31726,7 +32400,7 @@ export const trainers = {
                 "level": 35,
                 "experience_yield": 221,
                 "nature": "Gentle",
-                "ability": "Swarm",
+                "ability": "Chlorophyll",
                 "held_item": null,
                 "stats": {
                     "hp": 97,
@@ -31747,6 +32421,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -31771,7 +32446,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 170,
                 "nature": "Bold",
-                "ability": "Lightningrod",
+                "ability": "Rock Head",
                 "held_item": null,
                 "stats": {
                     "hp": 199,
@@ -31788,7 +32463,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 149,
                 "nature": "Hardy",
-                "ability": "Rock Head",
+                "ability": "Lightning Rod",
                 "held_item": null,
                 "stats": {
                     "hp": 144,
@@ -31809,6 +32484,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -31850,7 +32526,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 179,
                 "nature": "Lax",
-                "ability": "Inner Focus",
+                "ability": "Regenerator",
                 "held_item": null,
                 "stats": {
                     "hp": 156,
@@ -31860,7 +32536,7 @@ export const trainers = {
                     "special_attack": 126,
                     "special_defense": 74
                 },
-                "moves": ["U-turn", "Wide Guard", "Bounce", "Hi Jump Kick"]
+                "moves": ["U-turn", "Wide Guard", "Bounce", "High Jump Kick"]
             }
         ]
     },
@@ -31871,6 +32547,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -31895,7 +32572,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 159,
                 "nature": "Bold",
-                "ability": "Keen Eye",
+                "ability": "Iron Fist",
                 "held_item": null,
                 "stats": {
                     "hp": 137,
@@ -31912,7 +32589,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 171,
                 "nature": "Hasty",
-                "ability": "Shed Skin",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 156,
@@ -31933,6 +32610,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -31940,7 +32618,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 163,
                 "nature": "Lax",
-                "ability": "Guts",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 224,
@@ -31984,7 +32662,7 @@ export const trainers = {
                     "special_attack": 89,
                     "special_defense": 114
                 },
-                "moves": ["Wake-Up Slap", "Cross Chop", "Scary Face", "DynamicPunch"]
+                "moves": ["Wake-Up Slap", "Cross Chop", "Scary Face", "Dynamic Punch"]
             }
         ]
     },
@@ -31995,6 +32673,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -32019,7 +32698,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 161,
                 "nature": "Rash",
-                "ability": "Effect Spore",
+                "ability": "Poison Heal",
                 "held_item": null,
                 "stats": {
                     "hp": 150,
@@ -32029,14 +32708,14 @@ export const trainers = {
                     "special_attack": 91,
                     "special_defense": 74
                 },
-                "moves": ["Sky Uppercut", "Mind Reader", "Seed Bomb", "DynamicPunch"]
+                "moves": ["Sky Uppercut", "Mind Reader", "Seed Bomb", "Dynamic Punch"]
             },
             {
                 "species": "Conkeldurr",
                 "level": 62,
                 "experience_yield": 227,
                 "nature": "Calm",
-                "ability": "Guts",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 205,
@@ -32057,6 +32736,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Heal", "Hyper Potion"],
         "party": [
             {
@@ -32064,7 +32744,7 @@ export const trainers = {
                 "level": 17,
                 "experience_yield": 62,
                 "nature": "Timid",
-                "ability": "Swarm",
+                "ability": "Chlorophyll",
                 "held_item": null,
                 "stats": {
                     "hp": 42,
@@ -32085,6 +32765,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -32102,7 +32783,7 @@ export const trainers = {
                     "special_attack": 24,
                     "special_defense": 33
                 },
-                "moves": ["Smack Down", "DragonBreath", "Slam", "Screech"]
+                "moves": ["Smack Down", "Dragon Breath", "Slam", "Screech"]
             }
         ]
     },
@@ -32113,6 +32794,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -32141,6 +32823,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -32186,6 +32869,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -32203,7 +32887,7 @@ export const trainers = {
                     "special_attack": 51,
                     "special_defense": 38
                 },
-                "moves": ["Agility", "Quick Guard", "Acrobatics", "DragonBreath"]
+                "moves": ["Agility", "Quick Guard", "Acrobatics", "Dragon Breath"]
             },
             {
                 "species": "Axew",
@@ -32227,10 +32911,11 @@ export const trainers = {
     "684": {
         "rom_id": 684,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Max Potion"],
         "party": [
             {
@@ -32306,10 +32991,11 @@ export const trainers = {
     "685": {
         "rom_id": 685,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Max Potion"],
         "party": [
             {
@@ -32351,7 +33037,7 @@ export const trainers = {
                 "level": 55,
                 "experience_yield": 172,
                 "nature": "Jolly",
-                "ability": "Reckless",
+                "ability": "Sap Sipper",
                 "held_item": null,
                 "stats": {
                     "hp": 182,
@@ -32385,10 +33071,11 @@ export const trainers = {
     "686": {
         "rom_id": 686,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Max Potion"],
         "party": [
             {
@@ -32468,6 +33155,7 @@ export const trainers = {
         "location": null,
         "money": 45,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -32529,7 +33217,8 @@ export const trainers = {
         "trainer_class": "Team Plasma",
         "location": null,
         "money": 45,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "triple",
         "items": [],
         "party": [
             {
@@ -32591,7 +33280,8 @@ export const trainers = {
         "trainer_class": "Team Plasma",
         "location": null,
         "money": 45,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "rotation",
         "items": [],
         "party": [
             {
@@ -32654,6 +33344,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -32671,17 +33362,18 @@ export const trainers = {
                     "special_attack": 14,
                     "special_defense": 15
                 },
-                "moves": ["Bite", "Bide", "Detect", "Sand-Attack"]
+                "moves": ["Bite", "Bide", "Detect", "Sand Attack"]
             }
         ]
     },
     "691": {
         "rom_id": 691,
         "name": "Britney",
-        "trainer_class": "Clerk ⑮",
+        "trainer_class": "Clerk ♀",
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -32689,7 +33381,7 @@ export const trainers = {
                 "level": 16,
                 "experience_yield": 56,
                 "nature": "Relaxed",
-                "ability": "Natural Cure",
+                "ability": "Poison Point",
                 "held_item": null,
                 "stats": {
                     "hp": 38,
@@ -32706,10 +33398,11 @@ export const trainers = {
     "692": {
         "rom_id": 692,
         "name": "Gilligan",
-        "trainer_class": "Clerk ⑭",
+        "trainer_class": "Clerk ♂",
         "location": null,
         "money": 20,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -32734,10 +33427,11 @@ export const trainers = {
     "693": {
         "rom_id": 693,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore"],
         "party": [
             {
@@ -32779,7 +33473,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 172,
                 "nature": "Lax",
-                "ability": "Reckless",
+                "ability": "Sap Sipper",
                 "held_item": "Muscle Band",
                 "stats": {
                     "hp": 208,
@@ -32847,10 +33541,11 @@ export const trainers = {
     "694": {
         "rom_id": 694,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore"],
         "party": [
             {
@@ -32960,10 +33655,11 @@ export const trainers = {
     "695": {
         "rom_id": 695,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore"],
         "party": [
             {
@@ -33005,7 +33701,7 @@ export const trainers = {
                 "level": 62,
                 "experience_yield": 172,
                 "nature": "Relaxed",
-                "ability": "Reckless",
+                "ability": "Sap Sipper",
                 "held_item": "Muscle Band",
                 "stats": {
                     "hp": 208,
@@ -33073,10 +33769,11 @@ export const trainers = {
     "696": {
         "rom_id": 696,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore", "Full Restore"],
         "party": [
             {
@@ -33186,10 +33883,11 @@ export const trainers = {
     "697": {
         "rom_id": 697,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore", "Full Restore"],
         "party": [
             {
@@ -33299,10 +33997,11 @@ export const trainers = {
     "698": {
         "rom_id": 698,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore", "Full Restore"],
         "party": [
             {
@@ -33344,7 +34043,7 @@ export const trainers = {
                 "level": 65,
                 "experience_yield": 172,
                 "nature": "Mild",
-                "ability": "Reckless",
+                "ability": "Sap Sipper",
                 "held_item": "Muscle Band",
                 "stats": {
                     "hp": 218,
@@ -33416,6 +34115,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -33423,7 +34123,7 @@ export const trainers = {
                 "level": 1,
                 "experience_yield": 178,
                 "nature": "Impish",
-                "ability": "Sand Rush",
+                "ability": "Sand Force",
                 "held_item": null,
                 "stats": {
                     "hp": 13,
@@ -33444,6 +34144,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -33502,10 +34203,11 @@ export const trainers = {
     "701": {
         "rom_id": 701,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -33564,10 +34266,11 @@ export const trainers = {
     "702": {
         "rom_id": 702,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -33626,10 +34329,11 @@ export const trainers = {
     "703": {
         "rom_id": 703,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -33692,6 +34396,7 @@ export const trainers = {
         "location": null,
         "money": 45,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -33737,6 +34442,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -33761,7 +34467,7 @@ export const trainers = {
                 "level": 39,
                 "experience_yield": 166,
                 "nature": "Sassy",
-                "ability": "Stench",
+                "ability": "Weak Armor",
                 "held_item": null,
                 "stats": {
                     "hp": 111,
@@ -33778,10 +34484,11 @@ export const trainers = {
     "706": {
         "rom_id": 706,
         "name": "Bianca",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore"],
         "party": [
             {
@@ -33891,10 +34598,11 @@ export const trainers = {
     "707": {
         "rom_id": 707,
         "name": "Bianca",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore"],
         "party": [
             {
@@ -34004,10 +34712,11 @@ export const trainers = {
     "708": {
         "rom_id": 708,
         "name": "Bianca",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore"],
         "party": [
             {
@@ -34117,10 +34826,11 @@ export const trainers = {
     "709": {
         "rom_id": 709,
         "name": "Cheren",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore"],
         "party": [
             {
@@ -34230,10 +34940,11 @@ export const trainers = {
     "710": {
         "rom_id": 710,
         "name": "Cheren",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore"],
         "party": [
             {
@@ -34343,10 +35054,11 @@ export const trainers = {
     "711": {
         "rom_id": 711,
         "name": "Cheren",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore"],
         "party": [
             {
@@ -34460,6 +35172,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -34488,6 +35201,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -34505,7 +35219,7 @@ export const trainers = {
                     "special_attack": 16,
                     "special_defense": 26
                 },
-                "moves": ["Low Kick", "Sand-Attack", "Faint Attack", "Headbutt"]
+                "moves": ["Low Kick", "Sand Attack", "Feint Attack", "Headbutt"]
             }
         ]
     },
@@ -34516,6 +35230,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -34523,7 +35238,7 @@ export const trainers = {
                 "level": 15,
                 "experience_yield": 61,
                 "nature": "Naughty",
-                "ability": "Guts",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 48,
@@ -34544,6 +35259,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -34551,7 +35267,7 @@ export const trainers = {
                 "level": 15,
                 "experience_yield": 57,
                 "nature": "Gentle",
-                "ability": "Steadfast",
+                "ability": "Inner Focus",
                 "held_item": null,
                 "stats": {
                     "hp": 37,
@@ -34572,6 +35288,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -34589,7 +35306,7 @@ export const trainers = {
                     "special_attack": 16,
                     "special_defense": 26
                 },
-                "moves": ["Low Kick", "Sand-Attack", "Faint Attack", "Headbutt"]
+                "moves": ["Low Kick", "Sand Attack", "Feint Attack", "Headbutt"]
             }
         ]
     },
@@ -34600,6 +35317,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -34628,6 +35346,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -34656,6 +35375,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -34663,7 +35383,7 @@ export const trainers = {
                 "level": 40,
                 "experience_yield": 165,
                 "nature": "Relaxed",
-                "ability": "Compoundeyes",
+                "ability": "Unnerve",
                 "held_item": null,
                 "stats": {
                     "hp": 110,
@@ -34684,6 +35404,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -34712,6 +35433,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -34740,6 +35462,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -34768,6 +35491,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -34796,6 +35520,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -34841,6 +35566,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Heal", "Full Restore"],
         "party": [
             {
@@ -34868,7 +35594,8 @@ export const trainers = {
         "trainer_class": "Hoopster",
         "location": null,
         "money": 25,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "triple",
         "items": [],
         "party": [
             {
@@ -34886,7 +35613,7 @@ export const trainers = {
                     "special_attack": 57,
                     "special_defense": 56
                 },
-                "moves": ["ThunderPunch", "Discharge", "Screech", "Thunderbolt"]
+                "moves": ["Thunder Punch", "Discharge", "Screech", "Thunderbolt"]
             },
             {
                 "species": "Electabuzz",
@@ -34903,7 +35630,7 @@ export const trainers = {
                     "special_attack": 80,
                     "special_defense": 81
                 },
-                "moves": ["Light Screen", "ThunderPunch", "Discharge", "Screech"]
+                "moves": ["Light Screen", "Thunder Punch", "Discharge", "Screech"]
             },
             {
                 "species": "Elekid",
@@ -34920,7 +35647,7 @@ export const trainers = {
                     "special_attack": 57,
                     "special_defense": 56
                 },
-                "moves": ["ThunderPunch", "Discharge", "Screech", "Thunderbolt"]
+                "moves": ["Thunder Punch", "Discharge", "Screech", "Thunderbolt"]
             }
         ]
     },
@@ -34931,6 +35658,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -34938,7 +35666,7 @@ export const trainers = {
                 "level": 44,
                 "experience_yield": 168,
                 "nature": "Careful",
-                "ability": "Prankster",
+                "ability": "Infiltrator",
                 "held_item": null,
                 "stats": {
                     "hp": 112,
@@ -34959,6 +35687,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -34966,7 +35695,7 @@ export const trainers = {
                 "level": 44,
                 "experience_yield": 168,
                 "nature": "Careful",
-                "ability": "Chlorophyll",
+                "ability": "Own Tempo",
                 "held_item": null,
                 "stats": {
                     "hp": 120,
@@ -34986,7 +35715,8 @@ export const trainers = {
         "trainer_class": "Hoopster",
         "location": null,
         "money": 25,
-        "is_double_battle": true,
+        "is_double_battle": false,
+        "battle_type": "triple",
         "items": [],
         "party": [
             {
@@ -35049,6 +35779,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35056,7 +35787,7 @@ export const trainers = {
                 "level": 41,
                 "experience_yield": 142,
                 "nature": "Adamant",
-                "ability": "Guts",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 123,
@@ -35066,7 +35797,7 @@ export const trainers = {
                     "special_attack": 36,
                     "special_defense": 48
                 },
-                "moves": ["Bulk Up", "Rock Slide", "DynamicPunch", "Scary Face"]
+                "moves": ["Bulk Up", "Rock Slide", "Dynamic Punch", "Scary Face"]
             }
         ]
     },
@@ -35077,6 +35808,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35094,7 +35826,7 @@ export const trainers = {
                     "special_attack": 44,
                     "special_defense": 101
                 },
-                "moves": ["Chip Away", "Hi Jump Kick", "Scary Face", "Crunch"]
+                "moves": ["Chip Away", "High Jump Kick", "Scary Face", "Crunch"]
             }
         ]
     },
@@ -35105,6 +35837,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35133,6 +35866,7 @@ export const trainers = {
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35140,7 +35874,7 @@ export const trainers = {
                 "level": 26,
                 "experience_yield": 142,
                 "nature": "Gentle",
-                "ability": "Guts",
+                "ability": "Sheer Force",
                 "held_item": null,
                 "stats": {
                     "hp": 80,
@@ -35161,6 +35895,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35206,6 +35941,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35230,7 +35966,7 @@ export const trainers = {
                 "level": 20,
                 "experience_yield": 133,
                 "nature": "Sassy",
-                "ability": "Leaf Guard",
+                "ability": "Chlorophyll",
                 "held_item": null,
                 "stats": {
                     "hp": 52,
@@ -35251,6 +35987,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35258,7 +35995,7 @@ export const trainers = {
                 "level": 19,
                 "experience_yield": 62,
                 "nature": "Lonely",
-                "ability": "Swarm",
+                "ability": "Chlorophyll",
                 "held_item": null,
                 "stats": {
                     "hp": 46,
@@ -35302,7 +36039,7 @@ export const trainers = {
                     "special_attack": 18,
                     "special_defense": 16
                 },
-                "moves": ["Sand-Attack", "Faint Attack", "Smack Down", "Rock Polish"]
+                "moves": ["Sand Attack", "Feint Attack", "Smack Down", "Rock Polish"]
             }
         ]
     },
@@ -35313,6 +36050,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35320,7 +36058,7 @@ export const trainers = {
                 "level": 20,
                 "experience_yield": 65,
                 "nature": "Docile",
-                "ability": "Sturdy",
+                "ability": "Shell Armor",
                 "held_item": null,
                 "stats": {
                     "hp": 50,
@@ -35330,7 +36068,7 @@ export const trainers = {
                     "special_attack": 19,
                     "special_defense": 19
                 },
-                "moves": ["Sand-Attack", "Faint Attack", "Smack Down", "Rock Polish"]
+                "moves": ["Sand Attack", "Feint Attack", "Smack Down", "Rock Polish"]
             },
             {
                 "species": "Swadloon",
@@ -35358,6 +36096,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35365,7 +36104,7 @@ export const trainers = {
                 "level": 13,
                 "experience_yield": 63,
                 "nature": "Brave",
-                "ability": "Unaware",
+                "ability": "Klutz",
                 "held_item": null,
                 "stats": {
                     "hp": 37,
@@ -35386,6 +36125,7 @@ export const trainers = {
         "location": null,
         "money": 5,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35393,7 +36133,7 @@ export const trainers = {
                 "level": 63,
                 "experience_yield": 59,
                 "nature": "Jolly",
-                "ability": "Effect Spore",
+                "ability": "Poison Heal",
                 "held_item": null,
                 "stats": {
                     "hp": 148,
@@ -35410,7 +36150,7 @@ export const trainers = {
                 "level": 63,
                 "experience_yield": 187,
                 "nature": "Bold",
-                "ability": "Chlorophyll",
+                "ability": "Leaf Guard",
                 "held_item": null,
                 "stats": {
                     "hp": 199,
@@ -35431,6 +36171,7 @@ export const trainers = {
         "location": null,
         "money": 5,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35455,7 +36196,7 @@ export const trainers = {
                 "level": 63,
                 "experience_yield": 180,
                 "nature": "Mild",
-                "ability": "Own Tempo",
+                "ability": "Oblivious",
                 "held_item": null,
                 "stats": {
                     "hp": 211,
@@ -35476,6 +36217,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35521,6 +36263,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35566,7 +36309,8 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": false,
-        "items": ["X Special"],
+        "battle_type": "single",
+        "items": ["X Sp. Atk"],
         "party": [
             {
                 "species": "Gastly",
@@ -35590,7 +36334,7 @@ export const trainers = {
                 "level": 63,
                 "experience_yield": 168,
                 "nature": "Bashful",
-                "ability": "Stench",
+                "ability": "Aftermath",
                 "held_item": null,
                 "stats": {
                     "hp": 202,
@@ -35611,6 +36355,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["X Attack"],
         "party": [
             {
@@ -35656,6 +36401,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35663,7 +36409,7 @@ export const trainers = {
                 "level": 13,
                 "experience_yield": 55,
                 "nature": "Quirky",
-                "ability": "Vital Spirit",
+                "ability": "Pickup",
                 "held_item": null,
                 "stats": {
                     "hp": 34,
@@ -35684,6 +36430,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35701,7 +36448,7 @@ export const trainers = {
                     "special_attack": 14,
                     "special_defense": 15
                 },
-                "moves": ["Bite", "Bide", "Detect", "Sand-Attack"]
+                "moves": ["Bite", "Bide", "Detect", "Sand Attack"]
             }
         ]
     },
@@ -35712,6 +36459,7 @@ export const trainers = {
         "location": null,
         "money": 5,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35740,6 +36488,7 @@ export const trainers = {
         "location": null,
         "money": 5,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35768,6 +36517,7 @@ export const trainers = {
         "location": null,
         "money": 5,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35796,6 +36546,7 @@ export const trainers = {
         "location": null,
         "money": 5,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35824,6 +36575,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35848,10 +36600,11 @@ export const trainers = {
     "752": {
         "rom_id": 752,
         "name": "April",
-        "trainer_class": "⒆⒇ Breeder",
+        "trainer_class": "Pokémon Breeder",
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35876,7 +36629,7 @@ export const trainers = {
                 "level": 27,
                 "experience_yield": 67,
                 "nature": "Modest",
-                "ability": "Chlorophyll",
+                "ability": "Sap Sipper",
                 "held_item": null,
                 "stats": {
                     "hp": 69,
@@ -35886,7 +36639,7 @@ export const trainers = {
                     "special_attack": 28,
                     "special_defense": 32
                 },
-                "moves": ["Leech Seed", "Faint Attack", "Take Down", "Jump Kick"]
+                "moves": ["Leech Seed", "Feint Attack", "Take Down", "Jump Kick"]
             }
         ]
     },
@@ -35897,6 +36650,7 @@ export const trainers = {
         "location": null,
         "money": 12,
         "is_double_battle": true,
+        "battle_type": "double",
         "items": [],
         "party": [
             {
@@ -35942,6 +36696,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35949,7 +36704,7 @@ export const trainers = {
                 "level": 32,
                 "experience_yield": 70,
                 "nature": "Gentle",
-                "ability": "Shed Skin",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 74,
@@ -35959,7 +36714,7 @@ export const trainers = {
                     "special_attack": 27,
                     "special_defense": 53
                 },
-                "moves": ["Brick Break", "Payback", "Chip Away", "Hi Jump Kick"]
+                "moves": ["Brick Break", "Payback", "Chip Away", "High Jump Kick"]
             }
         ]
     },
@@ -35970,6 +36725,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -35998,6 +36754,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -36043,6 +36800,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -36071,6 +36829,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -36099,6 +36858,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -36127,6 +36887,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -36155,6 +36916,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -36172,7 +36934,7 @@ export const trainers = {
                     "special_attack": 85,
                     "special_defense": 97
                 },
-                "moves": ["Hammer Arm", "Fire Punch", "Ice Punch", "ThunderPunch"]
+                "moves": ["Hammer Arm", "Fire Punch", "Ice Punch", "Thunder Punch"]
             }
         ]
     },
@@ -36183,6 +36945,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -36211,6 +36974,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -36228,7 +36992,7 @@ export const trainers = {
                     "special_attack": 19,
                     "special_defense": 15
                 },
-                "moves": ["Growl", "Assist", "Sand-Attack", "Fury Swipes"]
+                "moves": ["Growl", "Assist", "Sand Attack", "Fury Swipes"]
             }
         ]
     },
@@ -36239,6 +37003,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Potion"],
         "party": [
             {
@@ -36301,6 +37066,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Super Potion"],
         "party": [
             {
@@ -36363,6 +37129,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -36380,7 +37147,7 @@ export const trainers = {
                     "special_attack": 27,
                     "special_defense": 27
                 },
-                "moves": ["Struggle Bug", "Rock Blast", "Faint Attack", "Rock Polish"]
+                "moves": ["Struggle Bug", "Rock Blast", "Feint Attack", "Rock Polish"]
             },
             {
                 "species": "Shelmet",
@@ -36431,7 +37198,7 @@ export const trainers = {
                     "special_attack": 45,
                     "special_defense": 45
                 },
-                "moves": ["Struggle Bug", "Razor Leaf", "Aerial Ace", "GrassWhistle"]
+                "moves": ["Struggle Bug", "Razor Leaf", "Aerial Ace", "Grass Whistle"]
             }
         ]
     },
@@ -36442,6 +37209,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -36521,6 +37289,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -36600,6 +37369,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -36668,7 +37438,7 @@ export const trainers = {
                     "special_attack": 84,
                     "special_defense": 65
                 },
-                "moves": ["Air Slash", "Surf", "Roost", "FeatherDance"]
+                "moves": ["Air Slash", "Surf", "Roost", "Feather Dance"]
             }
         ]
     },
@@ -36679,6 +37449,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -36758,6 +37529,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -36837,6 +37609,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -36933,6 +37706,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -37029,6 +37803,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -37080,7 +37855,7 @@ export const trainers = {
                     "special_attack": 115,
                     "special_defense": 89
                 },
-                "moves": ["Hi Jump Kick", "U-turn", "Bounce", "Retaliate"]
+                "moves": ["High Jump Kick", "U-turn", "Bounce", "Retaliate"]
             },
             {
                 "species": "Lucario",
@@ -37125,6 +37900,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -37221,6 +37997,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore", "Full Restore"],
         "party": [
             {
@@ -37255,7 +38032,7 @@ export const trainers = {
                     "special_attack": 90,
                     "special_defense": 111
                 },
-                "moves": ["Fire Punch", "ThunderPunch", "Outrage", "Focus Blast"]
+                "moves": ["Fire Punch", "Thunder Punch", "Outrage", "Focus Blast"]
             },
             {
                 "species": "Archeops",
@@ -37334,6 +38111,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore", "Full Restore"],
         "party": [
             {
@@ -37447,6 +38225,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore", "Full Restore"],
         "party": [
             {
@@ -37481,7 +38260,7 @@ export const trainers = {
                     "special_attack": 92,
                     "special_defense": 174
                 },
-                "moves": ["Head Smash", "Crunch", "Hi Jump Kick", "Poison Jab"]
+                "moves": ["Head Smash", "Crunch", "High Jump Kick", "Poison Jab"]
             },
             {
                 "species": "Krookodile",
@@ -37560,6 +38339,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore"],
         "party": [
             {
@@ -37611,7 +38391,7 @@ export const trainers = {
                     "special_attack": 108,
                     "special_defense": 151
                 },
-                "moves": ["DynamicPunch", "Stone Edge", "Dual Chop", "ThunderPunch"]
+                "moves": ["Dynamic Punch", "Stone Edge", "Dual Chop", "Thunder Punch"]
             },
             {
                 "species": "Lucario",
@@ -37628,7 +38408,7 @@ export const trainers = {
                     "special_attack": 194,
                     "special_defense": 129
                 },
-                "moves": ["Aura Sphere", "Dragon Pulse", "ExtremeSpeed", "Shadow Ball"]
+                "moves": ["Aura Sphere", "Dragon Pulse", "Extreme Speed", "Shadow Ball"]
             },
             {
                 "species": "Mienshao",
@@ -37645,7 +38425,7 @@ export const trainers = {
                     "special_attack": 165,
                     "special_defense": 114
                 },
-                "moves": ["Hi Jump Kick", "U-turn", "Acrobatics", "Fake Out"]
+                "moves": ["High Jump Kick", "U-turn", "Acrobatics", "Fake Out"]
             },
             {
                 "species": "Conkeldurr",
@@ -37673,6 +38453,7 @@ export const trainers = {
         "location": null,
         "money": 30,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore", "Full Restore"],
         "party": [
             {
@@ -37786,6 +38567,7 @@ export const trainers = {
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore", "Full Restore", "Full Restore"],
         "party": [
             {
@@ -37895,10 +38677,11 @@ export const trainers = {
     "782": {
         "rom_id": 782,
         "name": "N",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore", "Full Restore", "Full Restore"],
         "party": [
             {
@@ -38008,10 +38791,11 @@ export const trainers = {
     "783": {
         "rom_id": 783,
         "name": "N",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore", "Full Restore", "Full Restore"],
         "party": [
             {
@@ -38029,7 +38813,7 @@ export const trainers = {
                     "special_attack": 152,
                     "special_defense": 182
                 },
-                "moves": ["Fire Blast", "SolarBeam", "Foul Play", "Confuse Ray"]
+                "moves": ["Fire Blast", "Solar Beam", "Foul Play", "Confuse Ray"]
             },
             {
                 "species": "Arcanine",
@@ -38046,7 +38830,7 @@ export const trainers = {
                     "special_attack": 177,
                     "special_defense": 147
                 },
-                "moves": ["ExtremeSpeed", "Overheat", "Wild Charge", "Outrage"]
+                "moves": ["Extreme Speed", "Overheat", "Wild Charge", "Outrage"]
             },
             {
                 "species": "Rapidash",
@@ -38063,7 +38847,7 @@ export const trainers = {
                     "special_attack": 147,
                     "special_defense": 147
                 },
-                "moves": ["Megahorn", "Drill Run", "Flare Blitz", "SolarBeam"]
+                "moves": ["Megahorn", "Drill Run", "Flare Blitz", "Solar Beam"]
             },
             {
                 "species": "Shiftry",
@@ -38080,7 +38864,7 @@ export const trainers = {
                     "special_attack": 162,
                     "special_defense": 117
                 },
-                "moves": ["Dark Pulse", "SolarBeam", "Focus Blast", "Sunny Day"]
+                "moves": ["Dark Pulse", "Solar Beam", "Focus Blast", "Sunny Day"]
             },
             {
                 "species": "Ninjask",
@@ -38097,7 +38881,7 @@ export const trainers = {
                     "special_attack": 102,
                     "special_defense": 102
                 },
-                "moves": ["Sunny Day", "X-Scissor", "SolarBeam", "Protect"]
+                "moves": ["Sunny Day", "X-Scissor", "Solar Beam", "Protect"]
             },
             {
                 "species": "Leafeon",
@@ -38121,10 +38905,11 @@ export const trainers = {
     "784": {
         "rom_id": 784,
         "name": "N",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore", "Full Restore", "Full Restore"],
         "party": [
             {
@@ -38234,10 +39019,11 @@ export const trainers = {
     "785": {
         "rom_id": 785,
         "name": "N",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore", "Full Restore", "Full Restore"],
         "party": [
             {
@@ -38255,7 +39041,7 @@ export const trainers = {
                     "special_attack": 152,
                     "special_defense": 174
                 },
-                "moves": ["Blizzard", "Wood Hammer", "Earthquake", "GrassWhistle"]
+                "moves": ["Blizzard", "Wood Hammer", "Earthquake", "Grass Whistle"]
             },
             {
                 "species": "Vanilluxe",
@@ -38351,6 +39137,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -38368,7 +39155,7 @@ export const trainers = {
                     "special_attack": 43,
                     "special_defense": 48
                 },
-                "moves": ["Supersonic", "Screech", "DragonBreath", "Earth Power"]
+                "moves": ["Supersonic", "Screech", "Dragon Breath", "Earth Power"]
             },
             {
                 "species": "Camerupt",
@@ -38396,6 +39183,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -38420,7 +39208,7 @@ export const trainers = {
                 "level": 39,
                 "experience_yield": 174,
                 "nature": "Calm",
-                "ability": "Aftermath",
+                "ability": "Unburden",
                 "held_item": null,
                 "stats": {
                     "hp": 170,
@@ -38441,6 +39229,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -38486,6 +39275,7 @@ export const trainers = {
         "location": null,
         "money": 6,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -38531,6 +39321,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -38538,7 +39329,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 395,
                 "nature": "Mild",
-                "ability": "Natural Cure",
+                "ability": "Serene Grace",
                 "held_item": null,
                 "stats": {
                     "hp": 376,
@@ -38555,7 +39346,7 @@ export const trainers = {
                 "level": 61,
                 "experience_yield": 221,
                 "nature": "Lax",
-                "ability": "Swarm",
+                "ability": "Chlorophyll",
                 "held_item": null,
                 "stats": {
                     "hp": 162,
@@ -38576,6 +39367,7 @@ export const trainers = {
         "location": null,
         "money": 1,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -38610,7 +39402,7 @@ export const trainers = {
                     "special_attack": 75,
                     "special_defense": 144
                 },
-                "moves": ["Selfdestruct", "Power Whip", "Iron Head", "Payback"]
+                "moves": ["Self-Destruct", "Power Whip", "Iron Head", "Payback"]
             }
         ]
     },
@@ -38621,6 +39413,7 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -38638,7 +39431,7 @@ export const trainers = {
                     "special_attack": 38,
                     "special_defense": 35
                 },
-                "moves": ["Harden", "Harden"]
+                "moves": ["Harden"]
             },
             {
                 "species": "Silcoon",
@@ -38655,7 +39448,7 @@ export const trainers = {
                     "special_attack": 35,
                     "special_defense": 35
                 },
-                "moves": ["Harden", "Harden"]
+                "moves": ["Harden"]
             },
             {
                 "species": "Scolipede",
@@ -38683,10 +39476,11 @@ export const trainers = {
         "location": null,
         "money": 4,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
-                "species": "Nidoran⑮",
+                "species": "Nidoran♀",
                 "level": 60,
                 "experience_yield": 55,
                 "nature": "Serious",
@@ -38703,7 +39497,7 @@ export const trainers = {
                 "moves": ["Flatter", "Crunch", "Captivate", "Poison Fang"]
             },
             {
-                "species": "Nidoran⑭",
+                "species": "Nidoran♂",
                 "level": 60,
                 "experience_yield": 55,
                 "nature": "Adamant",
@@ -38724,7 +39518,7 @@ export const trainers = {
                 "level": 60,
                 "experience_yield": 223,
                 "nature": "Modest",
-                "ability": "Poison Point",
+                "ability": "Rivalry",
                 "held_item": null,
                 "stats": {
                     "hp": 178,
@@ -38741,10 +39535,11 @@ export const trainers = {
     "794": {
         "rom_id": 794,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -38796,17 +39591,18 @@ export const trainers = {
                     "special_attack": 81,
                     "special_defense": 72
                 },
-                "moves": ["Taunt", "Air Slash", "Razor Wind", "FeatherDance"]
+                "moves": ["Taunt", "Air Slash", "Razor Wind", "Feather Dance"]
             }
         ]
     },
     "795": {
         "rom_id": 795,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -38858,17 +39654,18 @@ export const trainers = {
                     "special_attack": 81,
                     "special_defense": 79
                 },
-                "moves": ["Taunt", "Air Slash", "Razor Wind", "FeatherDance"]
+                "moves": ["Taunt", "Air Slash", "Razor Wind", "Feather Dance"]
             }
         ]
     },
     "796": {
         "rom_id": 796,
         "name": "Rival",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 25,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Hyper Potion"],
         "party": [
             {
@@ -38920,7 +39717,7 @@ export const trainers = {
                     "special_attack": 89,
                     "special_defense": 64
                 },
-                "moves": ["Taunt", "Air Slash", "Razor Wind", "FeatherDance"]
+                "moves": ["Taunt", "Air Slash", "Razor Wind", "Feather Dance"]
             }
         ]
     },
@@ -38931,6 +39728,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -38993,6 +39791,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -39017,7 +39816,7 @@ export const trainers = {
                 "level": 46,
                 "experience_yield": 175,
                 "nature": "Jolly",
-                "ability": "Battle Armor",
+                "ability": "Sniper",
                 "held_item": null,
                 "stats": {
                     "hp": 120,
@@ -39038,6 +39837,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -39062,7 +39862,7 @@ export const trainers = {
                 "level": 46,
                 "experience_yield": 166,
                 "nature": "Careful",
-                "ability": "Stench",
+                "ability": "Weak Armor",
                 "held_item": null,
                 "stats": {
                     "hp": 129,
@@ -39083,6 +39883,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -39111,6 +39912,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -39139,6 +39941,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -39156,7 +39959,7 @@ export const trainers = {
                     "special_attack": 47,
                     "special_defense": 113
                 },
-                "moves": ["Hi Jump Kick", "Scary Face", "Crunch", "Facade"]
+                "moves": ["High Jump Kick", "Scary Face", "Crunch", "Facade"]
             }
         ]
     },
@@ -39167,6 +39970,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -39195,6 +39999,7 @@ export const trainers = {
         "location": null,
         "money": 14,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -39212,17 +40017,18 @@ export const trainers = {
                     "special_attack": 43,
                     "special_defense": 33
                 },
-                "moves": ["ThunderShock", "Cotton Spore", "Charge", "Take Down"]
+                "moves": ["Thunder Shock", "Cotton Spore", "Charge", "Take Down"]
             }
         ]
     },
     "805": {
         "rom_id": 805,
         "name": "Augustin",
-        "trainer_class": "Clerk ⑭",
+        "trainer_class": "Clerk ♂",
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -39251,6 +40057,7 @@ export const trainers = {
         "location": null,
         "money": 8,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -39258,7 +40065,7 @@ export const trainers = {
                 "level": 24,
                 "experience_yield": 126,
                 "nature": "Bold",
-                "ability": "Poison Point",
+                "ability": "Swarm",
                 "held_item": null,
                 "stats": {
                     "hp": 53,
@@ -39279,6 +40086,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -39286,7 +40094,7 @@ export const trainers = {
                 "level": 46,
                 "experience_yield": 66,
                 "nature": "Hasty",
-                "ability": "Stench",
+                "ability": "Sticky Hold",
                 "held_item": null,
                 "stats": {
                     "hp": 102,
@@ -39341,6 +40149,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -39348,7 +40157,7 @@ export const trainers = {
                 "level": 47,
                 "experience_yield": 123,
                 "nature": "Sassy",
-                "ability": "Intimidate",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 113,
@@ -39386,6 +40195,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -39393,7 +40203,7 @@ export const trainers = {
                 "level": 46,
                 "experience_yield": 70,
                 "nature": "Careful",
-                "ability": "Shed Skin",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 102,
@@ -39410,7 +40220,7 @@ export const trainers = {
                 "level": 46,
                 "experience_yield": 126,
                 "nature": "Rash",
-                "ability": "Poison Point",
+                "ability": "Swarm",
                 "held_item": null,
                 "stats": {
                     "hp": 92,
@@ -39427,7 +40237,7 @@ export const trainers = {
                 "level": 46,
                 "experience_yield": 171,
                 "nature": "Mild",
-                "ability": "Shed Skin",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 115,
@@ -39437,7 +40247,7 @@ export const trainers = {
                     "special_attack": 50,
                     "special_defense": 110
                 },
-                "moves": ["Hi Jump Kick", "Scary Face", "Crunch", "Facade"]
+                "moves": ["High Jump Kick", "Scary Face", "Crunch", "Facade"]
             }
         ]
     },
@@ -39448,6 +40258,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -39455,7 +40266,7 @@ export const trainers = {
                 "level": 47,
                 "experience_yield": 145,
                 "nature": "Rash",
-                "ability": "Run Away",
+                "ability": "Guts",
                 "held_item": null,
                 "stats": {
                     "hp": 108,
@@ -39472,7 +40283,7 @@ export const trainers = {
                 "level": 47,
                 "experience_yield": 147,
                 "nature": "Bashful",
-                "ability": "Illuminate",
+                "ability": "Keen Eye",
                 "held_item": null,
                 "stats": {
                     "hp": 113,
@@ -39493,6 +40304,7 @@ export const trainers = {
         "location": null,
         "money": 15,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Heal", "Hyper Potion"],
         "party": [
             {
@@ -39521,6 +40333,7 @@ export const trainers = {
         "location": null,
         "money": 10,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": [],
         "party": [
             {
@@ -39545,7 +40358,7 @@ export const trainers = {
                 "level": 45,
                 "experience_yield": 123,
                 "nature": "Jolly",
-                "ability": "Intimidate",
+                "ability": "Moxie",
                 "held_item": null,
                 "stats": {
                     "hp": 109,
@@ -39579,10 +40392,11 @@ export const trainers = {
     "813": {
         "rom_id": 813,
         "name": "Colress",
-        "trainer_class": "⒆⒇ Trainer",
+        "trainer_class": "Pokémon Trainer",
         "location": null,
         "money": 50,
         "is_double_battle": false,
+        "battle_type": "single",
         "items": ["Full Restore", "Full Restore", "Full Restore"],
         "party": [
             {
@@ -39603,7 +40417,7 @@ export const trainers = {
                 "moves": ["Volt Switch", "Flash Cannon", "Tri Attack", "Thunder Wave"]
             },
             {
-                "species": "Rotom",
+                "species": "Rotom (Wash)",
                 "level": 72,
                 "experience_yield": 182,
                 "nature": "Adamant",

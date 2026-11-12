@@ -3,9 +3,14 @@
 Scripts for producing the per-game Pokédex files (`pokedex/<game>.js`) for
 every mainline game from Red/Blue to Legends: Z-A.
 
-**Two sources, one rule.** Species data (types, abilities, EV yields, catch
-rates, items, evolution families …) comes from [PokéAPI](https://pokeapi.co).
-Every move list — level-up, TM/HM, tutor, egg, prior-evolution, transfer,
+**Sources.** Species fields — types, catch rate, base EXP, EV yield, held
+items, gender ratio, egg cycles, base friendship, growth rate, egg groups,
+abilities and (Gen 5+) weight — come from **each game's own personal table**,
+as dumped by [PKHeX](https://github.com/kwsch/PKHeX) (`game_species_data.py`,
+see below). PokéAPI only knows current values (Gen 8 friendship, Gen 5+
+base EXP, modern EV yields …), so it now supplies only the species list,
+forms, evolution families, Gen 3-4 weights and the fields a game has no
+table value for. Every move list — level-up, TM/HM, tutor, egg, prior-evolution, transfer,
 form-change — comes from **Bulbapedia's per-generation learnset pages**, read
 from their wikitext, so each list is exactly Bulbapedia's list in Bulbapedia's
 order. Base stats are taken from Bulbapedia's species page too (it records
@@ -65,6 +70,43 @@ requests), then walks PokéAPI's species list. It writes
 
 **Runtime:** a full scrape from a warm cache takes ~25 minutes of parsing; a
 cold Bulbapedia cache adds ~15 minutes, a cold PokéAPI cache much more.
+
+### `game_species_data.py` — the games' species data
+
+```bash
+python game_species_data.py --compare               # pokedex/*.js vs the games
+python game_species_data.py --compare --game Crystal --show 20
+```
+
+Reads PKHeX's `personal_*` table for each game (pinned to PKHeX commit
+`61da5c6f68fbc0f8fa5b09212dc8329169a830db`, downloaded once into
+`.scrape_cache_pkhex/`) and returns one entry's species fields;
+`scrape_pokedex.py` uses it to override PokéAPI. `--compare` must print
+`0 differences` after a scrape. The Gen 1-4 tables were checked against the
+vanilla pret/decomp projects and the Gen 4-5 ones against the original ROMs;
+the two places PKHeX differs from the cartridge (Yellow Kadabra/Pikachu catch
+rates) and the Diamond-only Electirizer/Magmarizer slots are corrected in
+the module. Conventions:
+
+- Modern English names, ASCII apostrophe (`King's Rock`, `Leek`,
+  `Dragon's Maw`, `Soul-Heart`); Gen 2/3 items by their modern equivalent
+  (Gen 2 `Berry` → `Oran Berry`, `MiracleBerry` → `Lum Berry`).
+- `common_item` = the 50 % slot (Gen 2: 23 %), `rare_item` = the 5 % slot
+  (Gen 2: 2 %); the Gen 5+ 1 % slot is not stored. Gen 3+: the same item
+  in both slots means always held → `common_item` only. Gen 2 has no such
+  rule, so both slots are kept.
+- Gen 1: no items, gender, eggs, friendship or abilities (null/empty);
+  Gen 2: base friendship 70 for every species. Legends: Arceus: no items,
+  `egg_cycles` null. Legends: Arceus / Z-A have no Abilities, so those two
+  keep PokéAPI's abilities. Gen 9 tables have no held items (null).
+- `hidden_ability` is null when the table's third slot repeats a regular
+  ability (Gastly, every Mega). Egg groups keep the game's order.
+- Forms without a table record of their own (Gen 3-4 Castform weathers,
+  Gigantamax) take the base record except for type and weight.
+
+Base stats stay Bulbapedia's; a disagreement with the game table is listed
+under `game_table_stat_mismatch` in `scrape_report.json`
+(`game_table_unmapped`: an entry whose form the module cannot place).
 
 ### `verify_bulbapedia.py` — prove the files match Bulbapedia
 
@@ -149,6 +191,8 @@ with the password, its translation and the promotion details.
 # 2. terminal B
 python scrape_pokedex.py                      # all games -> pokedex/, scrape_report.json
 python verify_bulbapedia.py                   # must print OK for every game
+python game_species_data.py --compare         # must print 0 differences
+python generate_mega_evolution_pokedex.py     # refresh pokedex/mega_evolution_pokedex.js
 python merge_gen1to4_pokedex.py --old ../solodex/data_objects-main/pokedex.js \
     --new-dir pokedex --out ../solodex/data_objects-main/pokedex.js
 cp pokedex/*.js ../solodex/data_objects-main/pokedex/
@@ -167,6 +211,8 @@ cd ../solodex && npm run verify:stats && npm test
 | `no_bulbapedia_stats` | no stat block found for the form/gen; PokéAPI used | check the species page's Base stats headings |
 | `form_unmatched` | form had no heading of its own; base table used | expected for Megas, Gmax, Rotom, Castform … |
 | `unknown_moves` | move names not present in `moves.js` | a spelling Bulbapedia uses that `MOVE_RENAMES` doesn't map yet |
+| `game_table_unmapped` | no personal-table record for the entry; PokéAPI species fields kept | add the form to `_FORM_BY_SPECIES` in `game_species_data.py` |
+| `game_table_stat_mismatch` | the game's table and Bulbapedia disagree on base stats | check which is right; Bulbapedia's values are written |
 
 ---
 
@@ -192,6 +238,8 @@ Optional fields, present only when non-empty: `transfer_learnset`,
 ## Caching
 
 - `.scrape_cache_api/` — PokéAPI JSON.
+- `.scrape_cache_pkhex/` — PKHeX personal tables, item/ability/type names and
+  `ItemConverter.cs` at the pinned commit (parsed as data only).
 - `.scrape_cache_bulbapedia/wikitext/` — Bulbapedia wikitext, one file per
   title (missing pages are cached as a sentinel).
 - `.scrape_cache_bulbapedia/*.html` — rendered pages, only used by

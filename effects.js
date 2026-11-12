@@ -1,4 +1,4 @@
-export const moves = {
+export const effects = {
     "1": {
         "basic_hit": {
             "Effect": "basic_hit",

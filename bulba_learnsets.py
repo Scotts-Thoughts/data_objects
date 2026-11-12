@@ -269,6 +269,7 @@ MOVE_RENAMES: dict[str, str] = {
     "Conversion2":    "Conversion 2",
     "Lock-on":        "Lock-On",
     "Mud Slap":       "Mud-Slap",
+    "Will-o-Wisp":    "Will-O-Wisp",
 }
 
 

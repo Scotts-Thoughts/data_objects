@@ -569,7 +569,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -654,7 +654,7 @@ export const eventPokemon = {
                 "egg_cycles": 25,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "HumanLike",
                 "abilities": [
                     "Iron Fist",
@@ -741,7 +741,7 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 35,
                 "growth_rate": "Slow",
-                "egg_group_1": "HumanLike",
+                "egg_group_1": "Amorphous",
                 "egg_group_2": "Amorphous",
                 "abilities": [
                     "Synchronize",
@@ -1027,8 +1027,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Oblivious",
                     "Simple"
@@ -1658,8 +1658,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Blaze"
                 ],
@@ -1958,13 +1958,13 @@ export const eventPokemon = {
                 "ot": "XYZ",
                 "trainer_id": "05026",
                 "moves": [
-                    "Land's Wrath",
+                    "Land’s Wrath",
                     "Extreme Speed",
                     "Glare",
                     "Outrage"
                 ],
                 "relearn_moves": [
-                    "Land's Wrath",
+                    "Land’s Wrath",
                     "Extreme Speed",
                     "Glare",
                     "Outrage"
@@ -2750,8 +2750,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Illusion"
                 ],
@@ -3524,8 +3524,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Blaze"
                 ],
@@ -3630,13 +3630,13 @@ export const eventPokemon = {
                 "ot": "Cartesio / Descartes",
                 "trainer_id": "05026",
                 "moves": [
-                    "Land's Wrath",
+                    "Land’s Wrath",
                     "Extreme Speed",
                     "Glare",
                     "Outrage"
                 ],
                 "relearn_moves": [
-                    "Land's Wrath",
+                    "Land’s Wrath",
                     "Extreme Speed",
                     "Glare",
                     "Outrage"
@@ -4769,8 +4769,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Blaze"
                 ],
@@ -5030,8 +5030,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Blaze"
                 ],
@@ -5291,8 +5291,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Blaze"
                 ],
@@ -5469,8 +5469,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Sheer Force"
                 ],
@@ -5912,7 +5912,7 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 35,
                 "growth_rate": "Slow",
-                "egg_group_1": "HumanLike",
+                "egg_group_1": "Amorphous",
                 "egg_group_2": "Amorphous",
                 "abilities": [
                     "Synchronize",
@@ -6099,8 +6099,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Thick Fat",
                     "Scrappy"
@@ -6189,7 +6189,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -6577,7 +6577,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -7034,8 +7034,8 @@ export const eventPokemon = {
                 "egg_cycles": 35,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Run Away",
                     "Adaptability"
@@ -7401,7 +7401,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -7490,7 +7490,7 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "HumanLike",
                 "abilities": [
                     "Blaze"
@@ -7584,7 +7584,7 @@ export const eventPokemon = {
                 "base_friendship": 70,
                 "growth_rate": "Fast",
                 "egg_group_1": "Water1",
-                "egg_group_2": "Ground",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Vital Spirit",
                     "Hustle"
@@ -7770,8 +7770,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Blaze"
                 ],
@@ -8337,8 +8337,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Own Tempo",
                     "Technician"
@@ -8423,8 +8423,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Illusion"
                 ],
@@ -8624,13 +8624,13 @@ export const eventPokemon = {
                 "ot": "ＸＹ＆Ｚ",
                 "trainer_id": "11125",
                 "moves": [
-                    "Land's Wrath",
+                    "Land’s Wrath",
                     "Extreme Speed",
                     "Glare",
                     "Outrage"
                 ],
                 "relearn_moves": [
-                    "Land's Wrath",
+                    "Land’s Wrath",
                     "Extreme Speed",
                     "Glare",
                     "Outrage"
@@ -9064,7 +9064,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -9240,7 +9240,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -9505,7 +9505,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -9596,7 +9596,7 @@ export const eventPokemon = {
                 "egg_cycles": 25,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "HumanLike",
                 "abilities": [
                     "Iron Fist",
@@ -10480,8 +10480,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Blaze"
                 ],
@@ -10649,7 +10649,7 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Grass",
                 "abilities": [
                     "Overgrow"
@@ -10733,8 +10733,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Blaze"
                 ],
@@ -10817,8 +10817,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Torrent"
                 ],
@@ -12172,8 +12172,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Sheer Force"
                 ],
@@ -12443,8 +12443,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Thick Fat",
                     "Scrappy"
@@ -12533,7 +12533,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -13389,7 +13389,7 @@ export const eventPokemon = {
                 "base_friendship": 70,
                 "growth_rate": "Fast",
                 "egg_group_1": "Water1",
-                "egg_group_2": "Ground",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Vital Spirit",
                     "Hustle"
@@ -13561,7 +13561,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -14076,7 +14076,7 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Grass",
                 "abilities": [
                     "Overgrow"
@@ -14160,8 +14160,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Blaze"
                 ],
@@ -14244,8 +14244,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Torrent"
                 ],
@@ -15024,8 +15024,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Sheer Force"
                 ],
@@ -15113,8 +15113,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Pickup",
                     "Technician"
@@ -15482,8 +15482,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Thick Fat",
                     "Scrappy"
@@ -16531,7 +16531,7 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "HumanLike",
                 "abilities": [
                     "Blaze"
@@ -16625,7 +16625,7 @@ export const eventPokemon = {
                 "base_friendship": 70,
                 "growth_rate": "Fast",
                 "egg_group_1": "Water1",
-                "egg_group_2": "Ground",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Vital Spirit",
                     "Hustle"
@@ -16803,8 +16803,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Illusion"
                 ],
@@ -17146,7 +17146,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -17404,8 +17404,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Reckless",
                     "Sap Sipper"
@@ -18023,7 +18023,7 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Grass",
                 "abilities": [
                     "Overgrow"
@@ -18107,8 +18107,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Blaze"
                 ],
@@ -18191,8 +18191,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Torrent"
                 ],
@@ -19541,7 +19541,7 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Hyper Cutter",
@@ -19726,7 +19726,7 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 35,
                 "growth_rate": "Slow",
-                "egg_group_1": "HumanLike",
+                "egg_group_1": "Amorphous",
                 "egg_group_2": "Amorphous",
                 "abilities": [
                     "Synchronize",
@@ -19820,8 +19820,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Sheer Force"
                 ],
@@ -19998,7 +19998,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -20091,8 +20091,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Thick Fat",
                     "Scrappy"
@@ -20465,13 +20465,13 @@ export const eventPokemon = {
                 "ot": "XY&Z",
                 "trainer_id": "03196",
                 "moves": [
-                    "Land's Wrath",
+                    "Land’s Wrath",
                     "Extreme Speed",
                     "Glare",
                     "Outrage"
                 ],
                 "relearn_moves": [
-                    "Land's Wrath",
+                    "Land’s Wrath",
                     "Extreme Speed",
                     "Glare",
                     "Outrage"
@@ -20797,7 +20797,7 @@ export const eventPokemon = {
                 "base_friendship": 70,
                 "growth_rate": "Fast",
                 "egg_group_1": "Water1",
-                "egg_group_2": "Ground",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Vital Spirit",
                     "Hustle"
@@ -21053,7 +21053,7 @@ export const eventPokemon = {
                 "type_1": "Ghost",
                 "type_2": "Dragon",
                 "catch_rate": 3,
-                "base_experience": 340,
+                "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
                 "base_friendship": 0,
@@ -21573,7 +21573,7 @@ export const eventPokemon = {
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
                 "egg_group_1": "Monster",
-                "egg_group_2": "Ground",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Static"
                 ],
@@ -21658,7 +21658,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -22079,8 +22079,8 @@ export const eventPokemon = {
                 "egg_cycles": 15,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Pickup",
                     "Gluttony"
@@ -22861,8 +22861,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Sheer Force"
                 ],
@@ -23219,8 +23219,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Thick Fat",
                     "Scrappy"
@@ -23398,7 +23398,7 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "HumanLike",
                 "abilities": [
                     "Blaze"
@@ -23492,7 +23492,7 @@ export const eventPokemon = {
                 "base_friendship": 70,
                 "growth_rate": "Fast",
                 "egg_group_1": "Water1",
-                "egg_group_2": "Ground",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Vital Spirit",
                     "Hustle"
@@ -24034,7 +24034,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -24123,7 +24123,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -24870,8 +24870,8 @@ export const eventPokemon = {
                 "egg_cycles": 35,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Run Away",
                     "Adaptability"
@@ -25259,8 +25259,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Magma Armor",
                     "Solid Rock"
@@ -25407,8 +25407,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 35,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Pressure"
                 ],
@@ -25701,8 +25701,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Rivalry",
                     "Unnerve"
@@ -26528,8 +26528,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Gluttony"
                 ],
@@ -26887,13 +26887,13 @@ export const eventPokemon = {
                 "ot": "XY&Z",
                 "trainer_id": "03196",
                 "moves": [
-                    "Land's Wrath",
+                    "Land’s Wrath",
                     "Extreme Speed",
                     "Glare",
                     "Outrage"
                 ],
                 "relearn_moves": [
-                    "Land's Wrath",
+                    "Land’s Wrath",
                     "Extreme Speed",
                     "Glare",
                     "Outrage"
@@ -27067,7 +27067,7 @@ export const eventPokemon = {
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
                 "egg_group_1": "Water1",
-                "egg_group_2": "Ground",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Damp",
                     "Cloud Nine"
@@ -27442,7 +27442,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -27620,7 +27620,7 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 35,
                 "growth_rate": "Slow",
-                "egg_group_1": "HumanLike",
+                "egg_group_1": "Amorphous",
                 "egg_group_2": "Amorphous",
                 "abilities": [
                     "Synchronize",
@@ -27791,8 +27791,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Oblivious",
                     "Simple"
@@ -28718,7 +28718,7 @@ export const eventPokemon = {
                 "egg_cycles": 25,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "HumanLike",
                 "abilities": [
                     "Steadfast",
@@ -30830,7 +30830,7 @@ export const eventPokemon = {
                 "type_1": "Ghost",
                 "type_2": "Dragon",
                 "catch_rate": 3,
-                "base_experience": 340,
+                "base_experience": 306,
                 "gender_ratio": 255,
                 "egg_cycles": 120,
                 "base_friendship": 0,
@@ -31371,7 +31371,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -31478,7 +31478,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -31662,7 +31662,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -32473,7 +32473,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -32688,8 +32688,8 @@ export const eventPokemon = {
                 "egg_cycles": 15,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Pickup",
                     "Gluttony"
@@ -32967,7 +32967,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -33157,7 +33157,7 @@ export const eventPokemon = {
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
                 "egg_group_1": "Water1",
-                "egg_group_2": "Ground",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Torrent"
                 ],
@@ -33242,7 +33242,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 100,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Run Away",
@@ -33375,7 +33375,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 100,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Run Away",
@@ -33472,7 +33472,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 100,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Run Away",
@@ -33883,7 +33883,7 @@ export const eventPokemon = {
                 "trainer_id": "08164",
                 "moves": [
                     "Wide Guard",
-                    "King's Shield",
+                    "King’s Shield",
                     "Shadow Ball",
                     "Flash Cannon"
                 ],
@@ -33947,7 +33947,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -34032,7 +34032,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -34117,7 +34117,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -34202,7 +34202,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -34311,7 +34311,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -34396,7 +34396,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -35021,8 +35021,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 35,
                 "growth_rate": "Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Early Bird",
                     "Flash Fire"
@@ -35347,8 +35347,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Static",
                     "Lightning Rod"
@@ -35510,7 +35510,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -35683,7 +35683,7 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Hyper Cutter",
@@ -36252,8 +36252,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Oblivious",
                     "Snow Cloak"
@@ -36651,8 +36651,8 @@ export const eventPokemon = {
                 "egg_cycles": 35,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Cute Charm"
                 ],
@@ -36818,8 +36818,8 @@ export const eventPokemon = {
                 "egg_cycles": 35,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Cute Charm"
                 ],
@@ -37371,7 +37371,7 @@ export const eventPokemon = {
                 "egg_cycles": 10,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
+                "egg_group_1": "Field",
                 "egg_group_2": "Fairy",
                 "abilities": [
                     "Static"
@@ -37499,8 +37499,8 @@ export const eventPokemon = {
                 "egg_cycles": 35,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Run Away",
                     "Adaptability"
@@ -37631,8 +37631,8 @@ export const eventPokemon = {
                 "egg_cycles": 35,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Water Absorb"
                 ],
@@ -37759,8 +37759,8 @@ export const eventPokemon = {
                 "egg_cycles": 35,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Volt Absorb"
                 ],
@@ -37887,8 +37887,8 @@ export const eventPokemon = {
                 "egg_cycles": 35,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Flash Fire"
                 ],
@@ -38015,8 +38015,8 @@ export const eventPokemon = {
                 "egg_cycles": 35,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Synchronize"
                 ],
@@ -38143,8 +38143,8 @@ export const eventPokemon = {
                 "egg_cycles": 35,
                 "base_friendship": 35,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Synchronize"
                 ],
@@ -38271,8 +38271,8 @@ export const eventPokemon = {
                 "egg_cycles": 35,
                 "base_friendship": 35,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Leaf Guard"
                 ],
@@ -38399,8 +38399,8 @@ export const eventPokemon = {
                 "egg_cycles": 35,
                 "base_friendship": 35,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Snow Cloak"
                 ],
@@ -38527,8 +38527,8 @@ export const eventPokemon = {
                 "egg_cycles": 35,
                 "base_friendship": 70,
                 "growth_rate": "Medium Fast",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Cute Charm"
                 ],
@@ -39381,8 +39381,8 @@ export const eventPokemon = {
                 "egg_cycles": 20,
                 "base_friendship": 70,
                 "growth_rate": "Medium Slow",
-                "egg_group_1": "Ground",
-                "egg_group_2": "Ground",
+                "egg_group_1": "Field",
+                "egg_group_2": "Field",
                 "abilities": [
                     "Blaze"
                 ],

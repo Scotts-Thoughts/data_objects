@@ -14,7 +14,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 1152,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -79,7 +79,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Razor Leaf",
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Synthesis",
                     "Reflect"
                 ]
@@ -91,7 +91,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 320,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -122,7 +122,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 320,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -153,7 +153,7 @@ export const trainers = {
         "name": "Bug Catcher Wade",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 32,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -244,7 +244,7 @@ export const trainers = {
         "name": "Beauty Victoria",
         "trainer_class": "Beauty",
         "location": null,
-        "money": -1,
+        "money": 896,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -321,7 +321,7 @@ export const trainers = {
         "name": "Policeman Keith",
         "trainer_class": "Policeman",
         "location": null,
-        "money": -1,
+        "money": 680,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -354,7 +354,7 @@ export const trainers = {
         "name": "Juggler Irwin",
         "trainer_class": "Juggler",
         "location": null,
-        "money": -1,
+        "money": 448,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -415,7 +415,7 @@ export const trainers = {
                 "moves": [
                     "Charge",
                     "Tackle",
-                    "SonicBoom"
+                    "Sonic Boom"
                 ]
             },
             {
@@ -436,7 +436,7 @@ export const trainers = {
                 "moves": [
                     "Charge",
                     "Tackle",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Spark"
                 ]
             }
@@ -447,7 +447,7 @@ export const trainers = {
         "name": "Youngster Joey",
         "trainer_class": "Youngster",
         "location": null,
-        "money": -1,
+        "money": 64,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -479,7 +479,7 @@ export const trainers = {
         "name": "Swimmer Elaine",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 336,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -512,7 +512,7 @@ export const trainers = {
         "name": "Twins Amy & Mimi",
         "trainer_class": "Twins",
         "location": null,
-        "money": -1,
+        "money": 320,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -566,7 +566,7 @@ export const trainers = {
         "name": "Kimono Girl Mickey",
         "trainer_class": "Kimono Girl",
         "location": null,
-        "money": -1,
+        "money": 2160,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -586,7 +586,7 @@ export const trainers = {
                     "special_defense": 31
                 },
                 "moves": [
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Stun Spore",
                     "Sleep Powder",
                     "Bullet Seed"
@@ -631,7 +631,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Stun Spore",
                     "Sleep Powder"
                 ]
@@ -643,7 +643,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 360,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -718,7 +718,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 440,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -772,7 +772,7 @@ export const trainers = {
         "name": "Burglar Duncan",
         "trainer_class": "Burglar",
         "location": null,
-        "money": -1,
+        "money": 368,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -793,9 +793,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Smog",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -814,8 +814,8 @@ export const trainers = {
                     "special_defense": 51
                 },
                 "moves": [
-                    "SmokeScreen",
-                    "Faint Attack",
+                    "Smokescreen",
+                    "Feint Attack",
                     "Fire Spin",
                     "Confuse Ray"
                 ]
@@ -837,9 +837,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Smog",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             }
         ]
@@ -849,7 +849,7 @@ export const trainers = {
         "name": "Firebreather Otis",
         "trainer_class": "Firebreather",
         "location": null,
-        "money": -1,
+        "money": 1504,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -926,7 +926,7 @@ export const trainers = {
         "name": "Swimmer Simon",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 320,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -949,7 +949,7 @@ export const trainers = {
                     "Constrict",
                     "Acid",
                     "Toxic Spikes",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             },
             {
@@ -971,7 +971,7 @@ export const trainers = {
                     "Constrict",
                     "Acid",
                     "Toxic Spikes",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -981,7 +981,7 @@ export const trainers = {
         "name": "Black Belt Kenji",
         "trainer_class": "Black Belt",
         "location": null,
-        "money": -1,
+        "money": 672,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -1014,7 +1014,7 @@ export const trainers = {
         "name": "Fisherman Justin",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 160,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -1102,7 +1102,7 @@ export const trainers = {
         "name": "Biker Mickey",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 320,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -1123,9 +1123,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Smog",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -1145,9 +1145,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Smog",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -1167,9 +1167,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Smog",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             }
         ]
@@ -1179,7 +1179,7 @@ export const trainers = {
         "name": "Leader Falkner",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 1560,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -1200,7 +1200,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             },
             {
@@ -1231,7 +1231,7 @@ export const trainers = {
         "name": "Leader Bugsy",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 1800,
         "is_double_battle": false,
         "items": [
             "Super Potion"
@@ -1304,7 +1304,7 @@ export const trainers = {
         "name": "Lass Carrie",
         "trainer_class": "Lass",
         "location": null,
-        "money": -1,
+        "money": 272,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -1337,7 +1337,7 @@ export const trainers = {
         "name": "Poke Maniac Larry",
         "trainer_class": "Poke Maniac",
         "location": null,
-        "money": -1,
+        "money": 704,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -1370,7 +1370,7 @@ export const trainers = {
         "name": "School Kid Alan",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 340,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -1393,7 +1393,7 @@ export const trainers = {
                     "Sleep Powder",
                     "Absorb",
                     "Growth",
-                    "PoisonPowder"
+                    "Poison Powder"
                 ]
             }
         ]
@@ -1403,7 +1403,7 @@ export const trainers = {
         "name": "Hiker Russel",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 256,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -1478,12 +1478,12 @@ export const trainers = {
         "name": "Camper Roland",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 144,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
-                "species": "Nidoran_M",
+                "species": "Nidoran♂",
                 "level": 9,
                 "experience_yield": 115,
                 "nature": "Serious",
@@ -1511,12 +1511,12 @@ export const trainers = {
         "name": "Picnicker Liz",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 128,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
-                "species": "Nidoran_F",
+                "species": "Nidoran♀",
                 "level": 8,
                 "experience_yield": 100,
                 "nature": "Relaxed",
@@ -1543,7 +1543,7 @@ export const trainers = {
         "name": "Ace Trainer Jake",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 1980,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -1609,7 +1609,7 @@ export const trainers = {
                 "moves": [
                     "Bite",
                     "Quick Attack",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Surf"
                 ]
             }
@@ -1620,7 +1620,7 @@ export const trainers = {
         "name": "Bird Keeper Rod",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 224,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -1641,7 +1641,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             },
             {
@@ -1661,7 +1661,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             }
         ]
@@ -1671,7 +1671,7 @@ export const trainers = {
         "name": "Leader Whitney",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 2280,
         "is_double_battle": false,
         "items": [
             "Super Potion",
@@ -1694,7 +1694,7 @@ export const trainers = {
                     "special_defense": 29
                 },
                 "moves": [
-                    "DoubleSlap",
+                    "Double Slap",
                     "Mimic",
                     "Encore",
                     "Metronome"
@@ -1729,7 +1729,7 @@ export const trainers = {
         "name": "Leader Morty",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 2760,
         "is_double_battle": false,
         "items": [
             "Hyper Potion",
@@ -1831,7 +1831,7 @@ export const trainers = {
         "name": "Leader Pryce",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 4080,
         "is_double_battle": false,
         "items": [
             "Hyper Potion",
@@ -1911,7 +1911,7 @@ export const trainers = {
         "name": "Leader Jasmine",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 4200,
         "is_double_battle": false,
         "items": [
             "Hyper Potion",
@@ -1936,7 +1936,7 @@ export const trainers = {
                 "moves": [
                     "Thunderbolt",
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave"
                 ]
             },
@@ -1958,7 +1958,7 @@ export const trainers = {
                 "moves": [
                     "Thunderbolt",
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave"
                 ]
             },
@@ -1991,7 +1991,7 @@ export const trainers = {
         "name": "Leader Chuck",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 3720,
         "is_double_battle": false,
         "items": [
             "Hyper Potion",
@@ -2049,7 +2049,7 @@ export const trainers = {
         "name": "Leader Clair",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 4920,
         "is_double_battle": false,
         "items": [
             "Hyper Potion",
@@ -2138,7 +2138,7 @@ export const trainers = {
                     "special_defense": 92
                 },
                 "moves": [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Hydro Pump",
                     "Hyper Beam",
                     "Dragon Pulse"
@@ -2151,7 +2151,7 @@ export const trainers = {
         "name": "Ace Trainer Joyce",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 2160,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -2206,7 +2206,7 @@ export const trainers = {
         "name": "Gentleman Preston",
         "trainer_class": "Gentleman",
         "location": null,
-        "money": -1,
+        "money": 3600,
         "is_double_battle": false,
         "items": [
             "Full Restore"
@@ -2263,7 +2263,7 @@ export const trainers = {
         "name": "Teacher Colette",
         "trainer_class": "Teacher",
         "location": null,
-        "money": -1,
+        "money": 2160,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -2296,7 +2296,7 @@ export const trainers = {
         "name": "Sailor Eugene",
         "trainer_class": "Sailor",
         "location": null,
-        "money": -1,
+        "money": 608,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -2319,7 +2319,7 @@ export const trainers = {
                     "Bubble",
                     "Hypnosis",
                     "Water Gun",
-                    "DoubleSlap"
+                    "Double Slap"
                 ]
             },
             {
@@ -2362,7 +2362,7 @@ export const trainers = {
                 "moves": [
                     "Leer",
                     "Harden",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Mud Shot"
                 ]
             }
@@ -2373,7 +2373,7 @@ export const trainers = {
         "name": "Super Nerd Mickey",
         "trainer_class": "Super Nerd",
         "location": null,
-        "money": -1,
+        "money": 960,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -2406,7 +2406,7 @@ export const trainers = {
         "name": "Guitarist Clyde",
         "trainer_class": "Guitarist",
         "location": null,
-        "money": -1,
+        "money": 1008,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -2428,7 +2428,7 @@ export const trainers = {
                 "moves": [
                     "Shock Wave",
                     "Light Screen",
-                    "ThunderPunch",
+                    "Thunder Punch",
                     "Discharge"
                 ]
             }
@@ -2439,7 +2439,7 @@ export const trainers = {
         "name": "Psychic Nathan",
         "trainer_class": "Psychic",
         "location": null,
-        "money": -1,
+        "money": 832,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -2472,7 +2472,7 @@ export const trainers = {
         "name": "Sage Chow",
         "trainer_class": "Sage",
         "location": null,
-        "money": -1,
+        "money": 144,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -2540,7 +2540,7 @@ export const trainers = {
         "name": "Pokefan Derek",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 1152,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -2563,7 +2563,7 @@ export const trainers = {
                     "Double Team",
                     "Quick Attack",
                     "Tail Whip",
-                    "ThunderShock"
+                    "Thunder Shock"
                 ]
             }
         ]
@@ -2573,7 +2573,7 @@ export const trainers = {
         "name": "Pokefan Ruth",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 1088,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -2596,7 +2596,7 @@ export const trainers = {
                     "Double Team",
                     "Quick Attack",
                     "Tail Whip",
-                    "ThunderShock"
+                    "Thunder Shock"
                 ]
             }
         ]
@@ -2606,7 +2606,7 @@ export const trainers = {
         "name": "Medium Martha",
         "trainer_class": "Medium",
         "location": null,
-        "money": -1,
+        "money": 960,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -2683,7 +2683,7 @@ export const trainers = {
         "name": "Youngster Mikey",
         "trainer_class": "Youngster",
         "location": null,
-        "money": -1,
+        "money": 64,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -2734,7 +2734,7 @@ export const trainers = {
         "name": "Bug Catcher Rob",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 624,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -2765,7 +2765,7 @@ export const trainers = {
                 "level": 39,
                 "experience_yield": 1336,
                 "nature": "Sassy",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 95,
@@ -2789,7 +2789,7 @@ export const trainers = {
         "name": "Youngster Albert",
         "trainer_class": "Youngster",
         "location": null,
-        "money": -1,
+        "money": 128,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -2841,7 +2841,7 @@ export const trainers = {
         "name": "Bird Keeper Abe",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 288,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -2874,7 +2874,7 @@ export const trainers = {
         "name": "Sage Nico",
         "trainer_class": "Sage",
         "location": null,
-        "money": -1,
+        "money": 144,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -2942,7 +2942,7 @@ export const trainers = {
         "name": "Sage Edmond",
         "trainer_class": "Sage",
         "location": null,
-        "money": -1,
+        "money": 144,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -3010,7 +3010,7 @@ export const trainers = {
         "name": "Sage Jin",
         "trainer_class": "Sage",
         "location": null,
-        "money": -1,
+        "money": 288,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -3040,7 +3040,7 @@ export const trainers = {
         "name": "Sage Troy",
         "trainer_class": "Sage",
         "location": null,
-        "money": -1,
+        "money": 336,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -3093,7 +3093,7 @@ export const trainers = {
         "name": "Sage Neal",
         "trainer_class": "Sage",
         "location": null,
-        "money": -1,
+        "money": 288,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -3123,7 +3123,7 @@ export const trainers = {
         "name": "Youngster Gordon",
         "trainer_class": "Youngster",
         "location": null,
-        "money": -1,
+        "money": 160,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -3156,7 +3156,7 @@ export const trainers = {
         "name": "Fisherman Ralph",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 320,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -3189,7 +3189,7 @@ export const trainers = {
         "name": "Fisherman Arnold",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1408,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -3222,7 +3222,7 @@ export const trainers = {
         "name": "Fisherman Kyle",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1248,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -3299,7 +3299,7 @@ export const trainers = {
         "name": "Fisherman Henry",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 256,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -3352,7 +3352,7 @@ export const trainers = {
         "name": "Hiker Anthony",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 352,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -3407,7 +3407,7 @@ export const trainers = {
         "name": "Youngster Samuel",
         "trainer_class": "Youngster",
         "location": null,
-        "money": -1,
+        "money": 128,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -3451,7 +3451,7 @@ export const trainers = {
                 "moves": [
                     "Scratch",
                     "Defense Curl",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Poison Sting"
                 ]
             },
@@ -3504,7 +3504,7 @@ export const trainers = {
         "name": "Team Rocket Mickey",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 560,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -3527,7 +3527,7 @@ export const trainers = {
                     "Poison Gas",
                     "Tackle",
                     "Smog",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ]
             }
         ]
@@ -3537,7 +3537,7 @@ export const trainers = {
         "name": "Youngster Ian",
         "trainer_class": "Youngster",
         "location": null,
-        "money": -1,
+        "money": 192,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -3582,7 +3582,7 @@ export const trainers = {
                     "Astonish",
                     "Growl",
                     "Scratch",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             }
         ]
@@ -3592,7 +3592,7 @@ export const trainers = {
         "name": "Picnicker Gina",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 192,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -3667,7 +3667,7 @@ export const trainers = {
         "name": "Camper Todd",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 224,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -3700,7 +3700,7 @@ export const trainers = {
         "name": "Bug Catcher Benny",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 192,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -3769,7 +3769,7 @@ export const trainers = {
         "name": "Bug Catcher Al",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 192,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -3820,7 +3820,7 @@ export const trainers = {
         "name": "Bug Catcher Josh",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 208,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -3842,7 +3842,7 @@ export const trainers = {
                 "moves": [
                     "Scratch",
                     "Stun Spore",
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Leech Life"
                 ]
             }
@@ -3853,7 +3853,7 @@ export const trainers = {
         "name": "Beauty Samantha",
         "trainer_class": "Beauty",
         "location": null,
-        "money": -1,
+        "money": 896,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -3908,7 +3908,7 @@ export const trainers = {
         "name": "Lass Cathy",
         "trainer_class": "Lass",
         "location": null,
-        "money": -1,
+        "money": 240,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -3985,7 +3985,7 @@ export const trainers = {
         "name": "Bird Keeper Bryan",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 448,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -4006,7 +4006,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Gust"
                 ]
             },
@@ -4027,7 +4027,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Gust",
                     "Quick Attack"
                 ]
@@ -4039,7 +4039,7 @@ export const trainers = {
         "name": "Bird Keeper Theo",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 480,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -4059,7 +4059,7 @@ export const trainers = {
                     "special_defense": 15
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Gust",
                     "Quick Attack",
                     "Whirlwind"
@@ -4082,7 +4082,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Gust",
                     "Quick Attack"
                 ]
@@ -4103,7 +4103,7 @@ export const trainers = {
                     "special_defense": 19
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Gust",
                     "Quick Attack",
                     "Whirlwind"
@@ -4126,7 +4126,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Gust",
                     "Quick Attack"
                 ]
@@ -4148,7 +4148,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Gust",
                     "Quick Attack"
                 ]
@@ -4160,7 +4160,7 @@ export const trainers = {
         "name": "Camper Ivan",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 224,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -4181,7 +4181,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Scratch",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Growl",
                     "Astonish"
                 ]
@@ -4223,7 +4223,7 @@ export const trainers = {
                     "special_defense": 17
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Growl",
                     "Astonish",
                     "Magnitude"
@@ -4236,7 +4236,7 @@ export const trainers = {
         "name": "Camper Elliot",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 240,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -4257,7 +4257,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Defense Curl",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Poison Sting",
                     "Rapid Spin"
                 ]
@@ -4291,7 +4291,7 @@ export const trainers = {
         "name": "Picnicker Brooke",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 256,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -4311,7 +4311,7 @@ export const trainers = {
                     "special_defense": 17
                 },
                 "moves": [
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Growl",
                     "Quick Attack",
                     "Double Team"
@@ -4324,7 +4324,7 @@ export const trainers = {
         "name": "Picnicker Kim",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 240,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -4357,7 +4357,7 @@ export const trainers = {
         "name": "Bug Catcher Arnie",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 240,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -4366,7 +4366,7 @@ export const trainers = {
                 "level": 15,
                 "experience_yield": 240,
                 "nature": "Quirky",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 43,
@@ -4380,7 +4380,7 @@ export const trainers = {
                     "Foresight",
                     "Supersonic",
                     "Confusion",
-                    "PoisonPowder"
+                    "Poison Powder"
                 ]
             }
         ]
@@ -4390,7 +4390,7 @@ export const trainers = {
         "name": "Bug Catcher Ken",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 640,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -4445,7 +4445,7 @@ export const trainers = {
         "name": "Policeman Dirk",
         "trainer_class": "Policeman",
         "location": null,
-        "money": -1,
+        "money": 560,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -4500,7 +4500,7 @@ export const trainers = {
         "name": "Twins Tori & Til",
         "trainer_class": "Twins",
         "location": null,
-        "money": -1,
+        "money": 512,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -4544,7 +4544,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Growl",
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Thunder Wave"
                 ]
             }
@@ -4555,7 +4555,7 @@ export const trainers = {
         "name": "Bird Keeper Toby",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 576,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -4632,7 +4632,7 @@ export const trainers = {
         "name": "Picnicker Cindy",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 768,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -4665,7 +4665,7 @@ export const trainers = {
         "name": "Camper Barry",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 768,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -4698,7 +4698,7 @@ export const trainers = {
         "name": "Swimmer Paula",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 304,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -4753,7 +4753,7 @@ export const trainers = {
         "name": "Swimmer Randall",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 288,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -4830,7 +4830,7 @@ export const trainers = {
         "name": "Sage Mickey",
         "trainer_class": "Sage",
         "location": null,
-        "money": -1,
+        "money": 1056,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -4863,7 +4863,7 @@ export const trainers = {
         "name": "Sage Mickey",
         "trainer_class": "Sage",
         "location": null,
-        "money": -1,
+        "money": 768,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -4984,7 +4984,7 @@ export const trainers = {
         "name": "Medium Grace",
         "trainer_class": "Medium",
         "location": null,
-        "money": -1,
+        "money": 960,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -5039,7 +5039,7 @@ export const trainers = {
         "name": "Swimmer Kaylee",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 320,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -5116,7 +5116,7 @@ export const trainers = {
         "name": "Swimmer Susie",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 352,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -5171,7 +5171,7 @@ export const trainers = {
         "name": "Swimmer Denise",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 352,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -5204,7 +5204,7 @@ export const trainers = {
         "name": "Swimmer Kara",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 320,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -5259,7 +5259,7 @@ export const trainers = {
         "name": "Swimmer Wendy",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 336,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -5280,9 +5280,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Bubble",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             },
             {
@@ -5302,9 +5302,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Focus Energy",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -5314,7 +5314,7 @@ export const trainers = {
         "name": "Swimmer Charlie",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 304,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -5359,7 +5359,7 @@ export const trainers = {
                     "Constrict",
                     "Acid",
                     "Toxic Spikes",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             },
             {
@@ -5381,7 +5381,7 @@ export const trainers = {
                     "Constrict",
                     "Acid",
                     "Toxic Spikes",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -5391,7 +5391,7 @@ export const trainers = {
         "name": "Swimmer George",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 304,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -5524,7 +5524,7 @@ export const trainers = {
                     "Lock-On",
                     "Psybeam",
                     "Aurora Beam",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -5534,7 +5534,7 @@ export const trainers = {
         "name": "Swimmer Berke",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 368,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -5567,7 +5567,7 @@ export const trainers = {
         "name": "Swimmer Ronald",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 320,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -5618,7 +5618,7 @@ export const trainers = {
         "name": "Swimmer Matthew",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 368,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -5639,7 +5639,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Harden",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Mud Shot",
                     "Metal Claw"
                 ]
@@ -5651,7 +5651,7 @@ export const trainers = {
         "name": "Hiker Anthony",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 1024,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -5671,7 +5671,7 @@ export const trainers = {
                     "special_defense": 37
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout",
                     "Rock Blast",
                     "Earthquake"
@@ -5706,7 +5706,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 360,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -5761,7 +5761,7 @@ export const trainers = {
         "name": "Ace Trainer Gaven",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 1920,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -5803,7 +5803,7 @@ export const trainers = {
                     "special_defense": 38
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Stomp",
                     "Guillotine",
                     "Protect"
@@ -5825,7 +5825,7 @@ export const trainers = {
                     "special_defense": 69
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Quick Attack",
                     "Bite",
                     "Ember"
@@ -5838,7 +5838,7 @@ export const trainers = {
         "name": "Ace Trainer Blake",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 1860,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -5905,7 +5905,7 @@ export const trainers = {
                     "Leech Seed",
                     "Confusion",
                     "Sleep Powder",
-                    "SolarBeam"
+                    "Solar Beam"
                 ]
             }
         ]
@@ -5915,7 +5915,7 @@ export const trainers = {
         "name": "Ace Trainer Brian",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 2100,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -5948,7 +5948,7 @@ export const trainers = {
         "name": "Ace Trainer Mickey",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 600,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -5993,7 +5993,7 @@ export const trainers = {
                     "Scratch",
                     "Growl",
                     "Ember",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ]
             },
             {
@@ -6025,7 +6025,7 @@ export const trainers = {
         "name": "Ace Trainer Mickey",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 600,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -6070,7 +6070,7 @@ export const trainers = {
                     "Scratch",
                     "Growl",
                     "Ember",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ]
             },
             {
@@ -6102,7 +6102,7 @@ export const trainers = {
         "name": "Ace Trainer Mickey",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 600,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -6147,7 +6147,7 @@ export const trainers = {
                     "Scratch",
                     "Growl",
                     "Ember",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ]
             },
             {
@@ -6179,7 +6179,7 @@ export const trainers = {
         "name": "Ace Trainer Ryan",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 1620,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -6199,7 +6199,7 @@ export const trainers = {
                     "special_defense": 41
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Quick Attack",
                     "Whirlwind",
                     "Wing Attack"
@@ -6221,7 +6221,7 @@ export const trainers = {
                     "special_defense": 52
                 },
                 "moves": [
-                    "ThunderPunch",
+                    "Thunder Punch",
                     "Light Screen",
                     "Swift",
                     "Screech"
@@ -6234,7 +6234,7 @@ export const trainers = {
         "name": "Ace Trainer Alton",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 1440,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -6277,7 +6277,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Ember",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Dragon Rage",
                     "Scary Face"
                 ]
@@ -6311,7 +6311,7 @@ export const trainers = {
         "name": "Ace Trainer Paulo",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 2100,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -6353,7 +6353,7 @@ export const trainers = {
                     "special_defense": 41
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Agility",
                     "Twister",
                     "Brine"
@@ -6388,7 +6388,7 @@ export const trainers = {
         "name": "Ace Trainer Mike",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 2280,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -6421,7 +6421,7 @@ export const trainers = {
         "name": "Ace Trainer Cody",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 2220,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -6463,7 +6463,7 @@ export const trainers = {
                     "special_defense": 40
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Agility",
                     "Twister",
                     "Brine"
@@ -6476,7 +6476,7 @@ export const trainers = {
         "name": "Ace Trainer Jamie",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 1860,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -6531,7 +6531,7 @@ export const trainers = {
         "name": "Ace Trainer Reena",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 2160,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -6597,7 +6597,7 @@ export const trainers = {
                 "moves": [
                     "Camouflage",
                     "Swift",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize"
                 ]
             }
@@ -6608,7 +6608,7 @@ export const trainers = {
         "name": "Ace Trainer Megan",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 1920,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -6652,7 +6652,7 @@ export const trainers = {
                 "moves": [
                     "Giga Drain",
                     "Leech Seed",
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Petal Dance"
                 ]
             },
@@ -6685,7 +6685,7 @@ export const trainers = {
         "name": "Ace Trainer Lois",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 1500,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -6705,7 +6705,7 @@ export const trainers = {
                     "special_defense": 29
                 },
                 "moves": [
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Cotton Spore",
                     "Thunder Wave",
                     "Charge"
@@ -6740,7 +6740,7 @@ export const trainers = {
         "name": "Ace Trainer Lola",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 2220,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -6795,7 +6795,7 @@ export const trainers = {
         "name": "Ace Trainer Kate",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 1680,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -6850,7 +6850,7 @@ export const trainers = {
         "name": "Ace Trainer Fran",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 2280,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -6870,7 +6870,7 @@ export const trainers = {
                     "special_defense": 41
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Agility",
                     "Twister",
                     "Brine"
@@ -6883,7 +6883,7 @@ export const trainers = {
         "name": "Ace Trainer Irene",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 1440,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -6938,7 +6938,7 @@ export const trainers = {
         "name": "Ace Trainer Kelly",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 1440,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -6959,7 +6959,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Rollout",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Aqua Ring",
                     "Double-Edge"
                 ]
@@ -7015,7 +7015,7 @@ export const trainers = {
         "name": "Fisherman Marvin",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 480,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -7086,7 +7086,7 @@ export const trainers = {
         "name": "Fisherman Tully",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 608,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -7119,7 +7119,7 @@ export const trainers = {
         "name": "Fisherman Wilton",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 896,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -7196,7 +7196,7 @@ export const trainers = {
         "name": "Fisherman Edgar",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 896,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -7219,7 +7219,7 @@ export const trainers = {
                     "Lock-On",
                     "Psybeam",
                     "Aurora Beam",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             },
             {
@@ -7241,7 +7241,7 @@ export const trainers = {
                     "Lock-On",
                     "Psybeam",
                     "Aurora Beam",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -7251,7 +7251,7 @@ export const trainers = {
         "name": "Fisherman Andre",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 864,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -7284,7 +7284,7 @@ export const trainers = {
         "name": "Fisherman Raymond",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 704,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -7375,7 +7375,7 @@ export const trainers = {
         "name": "Fisherman Jonah",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1184,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -7439,7 +7439,7 @@ export const trainers = {
                     "special_defense": 28
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Focus Energy",
                     "Bullet Seed",
                     "Water Pulse"
@@ -7474,7 +7474,7 @@ export const trainers = {
         "name": "Poke Maniac Shane",
         "trainer_class": "Poke Maniac",
         "location": null,
-        "money": -1,
+        "money": 1088,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -7529,7 +7529,7 @@ export const trainers = {
         "name": "Poke Maniac Beckett",
         "trainer_class": "Poke Maniac",
         "location": null,
-        "money": -1,
+        "money": 1280,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -7562,7 +7562,7 @@ export const trainers = {
         "name": "Poke Maniac Brent",
         "trainer_class": "Poke Maniac",
         "location": null,
-        "money": -1,
+        "money": 1536,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -7617,7 +7617,7 @@ export const trainers = {
         "name": "Poke Maniac Ron",
         "trainer_class": "Poke Maniac",
         "location": null,
-        "money": -1,
+        "money": 1280,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -7650,7 +7650,7 @@ export const trainers = {
         "name": "Poke Maniac Morgan",
         "trainer_class": "Poke Maniac",
         "location": null,
-        "money": -1,
+        "money": 2496,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -7705,7 +7705,7 @@ export const trainers = {
         "name": "Hiker Benjamin",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 544,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -7782,7 +7782,7 @@ export const trainers = {
         "name": "School Kid Johnny",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 840,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -7859,7 +7859,7 @@ export const trainers = {
         "name": "Lass Linda",
         "trainer_class": "Lass",
         "location": null,
-        "money": -1,
+        "money": 720,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -7936,7 +7936,7 @@ export const trainers = {
         "name": "Bird Keeper Vance",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 896,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -7981,7 +7981,7 @@ export const trainers = {
                     "Quick Attack",
                     "Whirlwind",
                     "Twister",
-                    "FeatherDance"
+                    "Feather Dance"
                 ]
             }
         ]
@@ -7991,7 +7991,7 @@ export const trainers = {
         "name": "Camper Mickey",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 240,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -8024,7 +8024,7 @@ export const trainers = {
         "name": "Picnicker Debra",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 656,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -8057,7 +8057,7 @@ export const trainers = {
         "name": "Bug Catcher Doug",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 592,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -8066,7 +8066,7 @@ export const trainers = {
                 "level": 39,
                 "experience_yield": 1336,
                 "nature": "Calm",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 95,
@@ -8112,7 +8112,7 @@ export const trainers = {
         "name": "Camper Mickey",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 240,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -8145,7 +8145,7 @@ export const trainers = {
         "name": "Picnicker Gina",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 512,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -8222,7 +8222,7 @@ export const trainers = {
         "name": "Hiker Erik",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 864,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -8265,7 +8265,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout",
                     "Rock Blast"
                 ]
@@ -8299,7 +8299,7 @@ export const trainers = {
         "name": "Hiker Michael",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 800,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -8320,7 +8320,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout",
                     "Rock Blast"
                 ]
@@ -8343,7 +8343,7 @@ export const trainers = {
                 "moves": [
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout"
                 ]
             },
@@ -8365,7 +8365,7 @@ export const trainers = {
                 "moves": [
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout"
                 ]
             }
@@ -8376,7 +8376,7 @@ export const trainers = {
         "name": "Hiker Parry",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 960,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -8409,7 +8409,7 @@ export const trainers = {
         "name": "Hiker Timothy",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 864,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -8431,7 +8431,7 @@ export const trainers = {
                 "moves": [
                     "Earth Power",
                     "Dig",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Sucker Punch"
                 ]
             },
@@ -8453,7 +8453,7 @@ export const trainers = {
                 "moves": [
                     "Earth Power",
                     "Dig",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Sucker Punch"
                 ]
             }
@@ -8464,7 +8464,7 @@ export const trainers = {
         "name": "Camper Ted",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 272,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -8497,7 +8497,7 @@ export const trainers = {
         "name": "Camper Lloyd",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 736,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -8530,7 +8530,7 @@ export const trainers = {
         "name": "Camper Dean",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 672,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -8585,7 +8585,7 @@ export const trainers = {
         "name": "Camper Sid",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 640,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -8649,9 +8649,9 @@ export const trainers = {
                     "special_defense": 84
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Hypnosis",
-                    "DoubleSlap",
+                    "Double Slap",
                     "Submission"
                 ]
             }
@@ -8662,7 +8662,7 @@ export const trainers = {
         "name": "Picnicker Erin",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 224,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -8707,7 +8707,7 @@ export const trainers = {
                     "Absorb",
                     "Sweet Scent",
                     "Acid",
-                    "PoisonPowder"
+                    "Poison Powder"
                 ]
             }
         ]
@@ -8717,7 +8717,7 @@ export const trainers = {
         "name": "Picnicker Hope",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 704,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -8750,7 +8750,7 @@ export const trainers = {
         "name": "Picnicker Sharon",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 688,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -8805,7 +8805,7 @@ export const trainers = {
         "name": "Hiker Bailey",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 416,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -8926,7 +8926,7 @@ export const trainers = {
         "name": "Hiker Anthony",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 1280,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -8946,7 +8946,7 @@ export const trainers = {
                     "special_defense": 38
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout",
                     "Rock Blast",
                     "Earthquake"
@@ -9003,7 +9003,7 @@ export const trainers = {
         "name": "Black Belt Yoshi",
         "trainer_class": "Black Belt",
         "location": null,
-        "money": -1,
+        "money": 648,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -9036,7 +9036,7 @@ export const trainers = {
         "name": "Black Belt Lao",
         "trainer_class": "Black Belt",
         "location": null,
-        "money": -1,
+        "money": 648,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -9057,7 +9057,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Mach Punch",
-                    "ThunderPunch",
+                    "Thunder Punch",
                     "Ice Punch",
                     "Fire Punch"
                 ]
@@ -9069,7 +9069,7 @@ export const trainers = {
         "name": "Black Belt Kiyo",
         "trainer_class": "Black Belt",
         "location": null,
-        "money": -1,
+        "money": 816,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -9091,7 +9091,7 @@ export const trainers = {
                 "moves": [
                     "Focus Energy",
                     "Feint",
-                    "Hi Jump Kick",
+                    "High Jump Kick",
                     "Mind Reader"
                 ]
             },
@@ -9112,7 +9112,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Vacuum Wave",
-                    "ThunderPunch",
+                    "Thunder Punch",
                     "Ice Punch",
                     "Fire Punch"
                 ]
@@ -9124,7 +9124,7 @@ export const trainers = {
         "name": "Black Belt Lung",
         "trainer_class": "Black Belt",
         "location": null,
-        "money": -1,
+        "money": 600,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -9201,7 +9201,7 @@ export const trainers = {
         "name": "Kimono Girl Naoko",
         "trainer_class": "Kimono Girl",
         "location": null,
-        "money": -1,
+        "money": 4560,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -9234,7 +9234,7 @@ export const trainers = {
         "name": "Kimono Girl Sayo",
         "trainer_class": "Kimono Girl",
         "location": null,
-        "money": -1,
+        "money": 4560,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -9267,7 +9267,7 @@ export const trainers = {
         "name": "Kimono Girl Zuki",
         "trainer_class": "Kimono Girl",
         "location": null,
-        "money": -1,
+        "money": 4560,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -9300,7 +9300,7 @@ export const trainers = {
         "name": "Kimono Girl Kuni",
         "trainer_class": "Kimono Girl",
         "location": null,
-        "money": -1,
+        "money": 4560,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -9333,7 +9333,7 @@ export const trainers = {
         "name": "Kimono Girl Miki",
         "trainer_class": "Kimono Girl",
         "location": null,
-        "money": -1,
+        "money": 4560,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -9366,7 +9366,7 @@ export const trainers = {
         "name": "Swimmer Mickey",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 448,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -9399,7 +9399,7 @@ export const trainers = {
         "name": "Swimmer Mickey",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 464,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -9432,7 +9432,7 @@ export const trainers = {
         "name": "Swimmer Mickey",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 320,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -9465,7 +9465,7 @@ export const trainers = {
         "name": "Swimmer Mickey",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 400,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -9542,7 +9542,7 @@ export const trainers = {
         "name": "Swimmer Mickey",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 432,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -9597,7 +9597,7 @@ export const trainers = {
         "name": "Swimmer Mickey",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 384,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -9674,7 +9674,7 @@ export const trainers = {
         "name": "Swimmer Mickey",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 320,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -9694,7 +9694,7 @@ export const trainers = {
                     "special_defense": 13
                 },
                 "moves": [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
                     "Water Gun",
                     "Focus Energy"
@@ -9716,7 +9716,7 @@ export const trainers = {
                     "special_defense": 13
                 },
                 "moves": [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
                     "Water Gun",
                     "Focus Energy"
@@ -9741,7 +9741,7 @@ export const trainers = {
                     "Leer",
                     "Water Gun",
                     "Focus Energy",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -9751,7 +9751,7 @@ export const trainers = {
         "name": "Poke Maniac Brent",
         "trainer_class": "Poke Maniac",
         "location": null,
-        "money": -1,
+        "money": 2048,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -9828,7 +9828,7 @@ export const trainers = {
         "name": "Poke Maniac Brent",
         "trainer_class": "Poke Maniac",
         "location": null,
-        "money": -1,
+        "money": 2752,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -9927,7 +9927,7 @@ export const trainers = {
         "name": "Biker Mickey",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 320,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -9948,9 +9948,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Smog",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -9970,9 +9970,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Smog",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -9992,9 +9992,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Smog",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             }
         ]
@@ -10004,7 +10004,7 @@ export const trainers = {
         "name": "Medium Bethany",
         "trainer_class": "Medium",
         "location": null,
-        "money": -1,
+        "money": 1200,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -10037,7 +10037,7 @@ export const trainers = {
         "name": "Medium Margaret",
         "trainer_class": "Medium",
         "location": null,
-        "money": -1,
+        "money": 1200,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -10070,7 +10070,7 @@ export const trainers = {
         "name": "Medium Ethel",
         "trainer_class": "Medium",
         "location": null,
-        "money": -1,
+        "money": 1200,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -10103,7 +10103,7 @@ export const trainers = {
         "name": "School Kid Jack",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 300,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -10145,7 +10145,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Spark",
                     "Rollout"
                 ]
@@ -10157,7 +10157,7 @@ export const trainers = {
         "name": "School Kid Kipp",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 800,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -10178,7 +10178,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Charge Beam",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Swift",
                     "Magnet Rise"
                 ]
@@ -10221,7 +10221,7 @@ export const trainers = {
                     "special_defense": 53
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Swift",
                     "Magnet Rise",
                     "Gyro Ball"
@@ -10256,7 +10256,7 @@ export const trainers = {
         "name": "Beauty Mickey",
         "trainer_class": "Beauty",
         "location": null,
-        "money": -1,
+        "money": 840,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -10289,7 +10289,7 @@ export const trainers = {
         "name": "Pokefan William",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 1024,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -10309,7 +10309,7 @@ export const trainers = {
                     "special_defense": 30
                 },
                 "moves": [
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Tail Whip",
                     "Quick Attack",
                     "Thunderbolt"
@@ -10322,7 +10322,7 @@ export const trainers = {
         "name": "Pokefan Beverly",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 1024,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -10355,7 +10355,7 @@ export const trainers = {
         "name": "Lass Alice",
         "trainer_class": "Lass",
         "location": null,
-        "money": -1,
+        "money": 656,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -10432,7 +10432,7 @@ export const trainers = {
         "name": "Lass Krise",
         "trainer_class": "Lass",
         "location": null,
-        "money": -1,
+        "money": 272,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -10455,7 +10455,7 @@ export const trainers = {
                     "Absorb",
                     "Sweet Scent",
                     "Acid",
-                    "PoisonPowder"
+                    "Poison Powder"
                 ]
             },
             {
@@ -10487,7 +10487,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 960,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -10542,7 +10542,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 1000,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -10619,7 +10619,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 920,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -10740,7 +10740,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 1040,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -10795,7 +10795,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 920,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -10816,9 +10816,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Smog",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -10894,7 +10894,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 1040,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -10914,9 +10914,9 @@ export const trainers = {
                     "special_defense": 37
                 },
                 "moves": [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Sludge"
                 ]
             }
@@ -10927,7 +10927,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 1040,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -10969,9 +10969,9 @@ export const trainers = {
                     "special_defense": 29
                 },
                 "moves": [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Sludge"
                 ]
             }
@@ -10982,7 +10982,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 880,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -11059,7 +11059,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 1000,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -11102,9 +11102,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Smog",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -11136,7 +11136,7 @@ export const trainers = {
         "name": "Team Rocket Mickey",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 1320,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -11169,7 +11169,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 1080,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -11202,7 +11202,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 960,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -11257,7 +11257,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 920,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -11300,9 +11300,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Smog",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             }
         ]
@@ -11312,7 +11312,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 1040,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -11345,7 +11345,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 1000,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -11365,7 +11365,7 @@ export const trainers = {
                     "special_defense": 43
                 },
                 "moves": [
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Stun Spore",
                     "Sleep Powder",
                     "Mega Drain"
@@ -11387,7 +11387,7 @@ export const trainers = {
                     "special_defense": 43
                 },
                 "moves": [
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Stun Spore",
                     "Sleep Powder",
                     "Mega Drain"
@@ -11400,7 +11400,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 960,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -11442,7 +11442,7 @@ export const trainers = {
                     "special_defense": 35
                 },
                 "moves": [
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Stun Spore",
                     "Sleep Powder",
                     "Mega Drain"
@@ -11486,7 +11486,7 @@ export const trainers = {
                     "special_defense": 41
                 },
                 "moves": [
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Stun Spore",
                     "Sleep Powder",
                     "Mega Drain"
@@ -11499,7 +11499,7 @@ export const trainers = {
         "name": "Poke Maniac Andrew",
         "trainer_class": "Poke Maniac",
         "location": null,
-        "money": -1,
+        "money": 1536,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -11554,7 +11554,7 @@ export const trainers = {
         "name": "Poke Maniac Calvin",
         "trainer_class": "Poke Maniac",
         "location": null,
-        "money": -1,
+        "money": 1664,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -11587,7 +11587,7 @@ export const trainers = {
         "name": "Hiker Phillip",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 800,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -11609,7 +11609,7 @@ export const trainers = {
                 "moves": [
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout"
                 ]
             },
@@ -11631,7 +11631,7 @@ export const trainers = {
                 "moves": [
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout"
                 ]
             }
@@ -11642,7 +11642,7 @@ export const trainers = {
         "name": "Hiker Leonard",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 800,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -11664,7 +11664,7 @@ export const trainers = {
                 "moves": [
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout"
                 ]
             },
@@ -11697,7 +11697,7 @@ export const trainers = {
         "name": "Ace Trainer Nick",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 1560,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -11718,7 +11718,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Fire Fang",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Dragon Rage",
                     "Scary Face"
                 ]
@@ -11762,7 +11762,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Leech Seed",
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Sleep Powder",
                     "Razor Leaf"
                 ]
@@ -11774,7 +11774,7 @@ export const trainers = {
         "name": "Ace Trainer Gwen",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 1320,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -11795,7 +11795,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Helping Hand",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Growl",
                     "Quick Attack"
                 ]
@@ -11817,7 +11817,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Helping Hand",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Ember",
                     "Quick Attack"
                 ]
@@ -11839,7 +11839,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Helping Hand",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Water Gun",
                     "Quick Attack"
                 ]
@@ -11861,8 +11861,8 @@ export const trainers = {
                 },
                 "moves": [
                     "Helping Hand",
-                    "Sand-Attack",
-                    "ThunderShock",
+                    "Sand Attack",
+                    "Thunder Shock",
                     "Quick Attack"
                 ]
             }
@@ -11873,7 +11873,7 @@ export const trainers = {
         "name": "Beauty Mickey",
         "trainer_class": "Beauty",
         "location": null,
-        "money": -1,
+        "money": 840,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -11906,7 +11906,7 @@ export const trainers = {
         "name": "Beauty Mickey",
         "trainer_class": "Beauty",
         "location": null,
-        "money": -1,
+        "money": 896,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -11939,7 +11939,7 @@ export const trainers = {
         "name": "Beauty Cassie",
         "trainer_class": "Beauty",
         "location": null,
-        "money": -1,
+        "money": 2352,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -11962,7 +11962,7 @@ export const trainers = {
                     "Mega Drain",
                     "Aromatherapy",
                     "Stun Spore",
-                    "PoisonPowder"
+                    "Poison Powder"
                 ]
             },
             {
@@ -11970,7 +11970,7 @@ export const trainers = {
                 "level": 42,
                 "experience_yield": 1440,
                 "nature": "Lonely",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 102,
@@ -11994,7 +11994,7 @@ export const trainers = {
         "name": "Beauty Caroline",
         "trainer_class": "Beauty",
         "location": null,
-        "money": -1,
+        "money": 2128,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -12046,16 +12046,16 @@ export const trainers = {
                 "species": "Marill",
                 "level": 38,
                 "experience_yield": 471,
-                "nature": "Quirky",
-                "ability": "Thick Fat",
+                "nature": "Careful",
+                "ability": "Huge Power",
                 "held_item": null,
                 "stats": {
                     "hp": 101,
                     "attack": 20,
                     "defense": 43,
                     "speed": 35,
-                    "special_attack": 20,
-                    "special_defense": 43
+                    "special_attack": 18,
+                    "special_defense": 47
                 },
                 "moves": [
                     "Aqua Ring",
@@ -12071,7 +12071,7 @@ export const trainers = {
         "name": "Sailor Huey",
         "trainer_class": "Sailor",
         "location": null,
-        "money": -1,
+        "money": 640,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -12093,7 +12093,7 @@ export const trainers = {
                 "moves": [
                     "Hypnosis",
                     "Water Gun",
-                    "DoubleSlap",
+                    "Double Slap",
                     "Rain Dance"
                 ]
             },
@@ -12115,7 +12115,7 @@ export const trainers = {
                 "moves": [
                     "Hypnosis",
                     "Water Gun",
-                    "DoubleSlap",
+                    "Double Slap",
                     "Rain Dance"
                 ]
             }
@@ -12126,7 +12126,7 @@ export const trainers = {
         "name": "Sailor Terrell",
         "trainer_class": "Sailor",
         "location": null,
-        "money": -1,
+        "money": 640,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -12148,7 +12148,7 @@ export const trainers = {
                 "moves": [
                     "Hypnosis",
                     "Water Gun",
-                    "DoubleSlap",
+                    "Double Slap",
                     "Rain Dance"
                 ]
             }
@@ -12159,7 +12159,7 @@ export const trainers = {
         "name": "Sailor Kent",
         "trainer_class": "Sailor",
         "location": null,
-        "money": -1,
+        "money": 640,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -12179,9 +12179,9 @@ export const trainers = {
                     "special_defense": 14
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Leer",
-                    "ViceGrip",
+                    "Vise Grip",
                     "Harden"
                 ]
             },
@@ -12201,9 +12201,9 @@ export const trainers = {
                     "special_defense": 16
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Mud Shot",
-                    "ViceGrip",
+                    "Vise Grip",
                     "Harden"
                 ]
             }
@@ -12214,7 +12214,7 @@ export const trainers = {
         "name": "Sailor Roberto",
         "trainer_class": "Sailor",
         "location": null,
-        "money": -1,
+        "money": 576,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -12280,7 +12280,7 @@ export const trainers = {
                 "moves": [
                     "Hypnosis",
                     "Water Gun",
-                    "DoubleSlap",
+                    "Double Slap",
                     "Rain Dance"
                 ]
             }
@@ -12291,7 +12291,7 @@ export const trainers = {
         "name": "Lass Connie",
         "trainer_class": "Lass",
         "location": null,
-        "money": -1,
+        "money": 336,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -12314,7 +12314,7 @@ export const trainers = {
                     "Tail Whip",
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -12324,7 +12324,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 640,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -12423,7 +12423,7 @@ export const trainers = {
         "name": "Bird Keeper Denis",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 576,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -12500,7 +12500,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 720,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -12533,7 +12533,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 680,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -12610,7 +12610,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 720,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -12619,7 +12619,7 @@ export const trainers = {
                 "level": 18,
                 "experience_yield": 288,
                 "nature": "Adamant",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 50,
@@ -12632,7 +12632,7 @@ export const trainers = {
                 "moves": [
                     "Supersonic",
                     "Confusion",
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Leech Life"
                 ]
             },
@@ -12654,7 +12654,7 @@ export const trainers = {
                 "moves": [
                     "Supersonic",
                     "Confusion",
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Leech Life"
                 ]
             }
@@ -12665,7 +12665,7 @@ export const trainers = {
         "name": "Team Rocket Mickey",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 880,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -12698,7 +12698,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 760,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -12731,7 +12731,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 760,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -12786,7 +12786,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 720,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -12863,7 +12863,7 @@ export const trainers = {
         "name": "Team Rocket Mickey",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 1440,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -12896,7 +12896,7 @@ export const trainers = {
         "name": "Team Rocket Mickey",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 1200,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -12917,7 +12917,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Assurance",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Sludge",
                     "Haze"
                 ]
@@ -12929,7 +12929,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 1000,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -12949,9 +12949,9 @@ export const trainers = {
                     "special_defense": 28
                 },
                 "moves": [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Sludge"
                 ]
             },
@@ -12971,9 +12971,9 @@ export const trainers = {
                     "special_defense": 28
                 },
                 "moves": [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Sludge"
                 ]
             }
@@ -12984,7 +12984,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 960,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -13004,9 +13004,9 @@ export const trainers = {
                     "special_defense": 27
                 },
                 "moves": [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Sludge"
                 ]
             },
@@ -13039,7 +13039,7 @@ export const trainers = {
         "name": "Team Rocket Mickey",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 600,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -13094,7 +13094,7 @@ export const trainers = {
         "name": "Psychic Franklin",
         "trainer_class": "Psychic",
         "location": null,
-        "money": -1,
+        "money": 1504,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -13149,7 +13149,7 @@ export const trainers = {
         "name": "Gentleman Edward",
         "trainer_class": "Gentleman",
         "location": null,
-        "money": -1,
+        "money": 8200,
         "is_double_battle": false,
         "items": [
             "Full Restore"
@@ -13171,7 +13171,7 @@ export const trainers = {
                     "special_defense": 58
                 },
                 "moves": [
-                    "Faint Attack",
+                    "Feint Attack",
                     "Taunt",
                     "Power Gem",
                     "Slash"
@@ -13184,7 +13184,7 @@ export const trainers = {
         "name": "Guitarist Vincent",
         "trainer_class": "Guitarist",
         "location": null,
-        "money": -1,
+        "money": 1008,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -13261,7 +13261,7 @@ export const trainers = {
         "name": "Super Nerd Eric",
         "trainer_class": "Super Nerd",
         "location": null,
-        "money": -1,
+        "money": 528,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -13316,7 +13316,7 @@ export const trainers = {
         "name": "Hiker Eoin",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 1344,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -13393,7 +13393,7 @@ export const trainers = {
         "name": "Hiker Noland",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 1344,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -13448,7 +13448,7 @@ export const trainers = {
         "name": "Ace Trainer Shaye",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 2580,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -13471,7 +13471,7 @@ export const trainers = {
                     "Double Kick",
                     "Thunderbolt",
                     "Quick Attack",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             },
             {
@@ -13490,7 +13490,7 @@ export const trainers = {
                     "special_defense": 41
                 },
                 "moves": [
-                    "AncientPower",
+                    "Ancient Power",
                     "Stun Spore",
                     "Giga Drain",
                     "Ingrain"
@@ -13525,7 +13525,7 @@ export const trainers = {
         "name": "Ace Trainer Carol",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 2580,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -13546,7 +13546,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Thunder",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Swift",
                     "Rain Dance"
                 ]
@@ -13602,7 +13602,7 @@ export const trainers = {
         "name": "Sailor Stanly",
         "trainer_class": "Sailor",
         "location": null,
-        "money": -1,
+        "money": 1088,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -13679,7 +13679,7 @@ export const trainers = {
         "name": "Sailor Jeff",
         "trainer_class": "Sailor",
         "location": null,
-        "money": -1,
+        "money": 1280,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -13734,7 +13734,7 @@ export const trainers = {
         "name": "Sailor Garrett",
         "trainer_class": "Sailor",
         "location": null,
-        "money": -1,
+        "money": 1344,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -13767,7 +13767,7 @@ export const trainers = {
         "name": "Sailor Kenneth",
         "trainer_class": "Sailor",
         "location": null,
-        "money": -1,
+        "money": 1152,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -13831,9 +13831,9 @@ export const trainers = {
                     "special_defense": 75
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Hypnosis",
-                    "DoubleSlap",
+                    "Double Slap",
                     "Submission"
                 ]
             },
@@ -13866,7 +13866,7 @@ export const trainers = {
         "name": "Juggler Fritz",
         "trainer_class": "Juggler",
         "location": null,
-        "money": -1,
+        "money": 1184,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -13889,7 +13889,7 @@ export const trainers = {
                     "Substitute",
                     "Psychic",
                     "Encore",
-                    "DoubleSlap"
+                    "Double Slap"
                 ]
             },
             {
@@ -13911,7 +13911,7 @@ export const trainers = {
                     "Lava Plume",
                     "Fire Punch",
                     "Confuse Ray",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             },
             {
@@ -13943,7 +13943,7 @@ export const trainers = {
         "name": "Swimmer Katie",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 656,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -13976,7 +13976,7 @@ export const trainers = {
         "name": "Champion Lance",
         "trainer_class": "Champion",
         "location": null,
-        "money": -1,
+        "money": 10000,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -14124,7 +14124,7 @@ export const trainers = {
         "name": "Elite Four Will",
         "trainer_class": "Elite Four",
         "location": null,
-        "money": -1,
+        "money": 5040,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -14169,7 +14169,7 @@ export const trainers = {
                     "special_defense": 95
                 },
                 "moves": [
-                    "DoubleSlap",
+                    "Double Slap",
                     "Lovely Kiss",
                     "Ice Punch",
                     "Psychic"
@@ -14248,7 +14248,7 @@ export const trainers = {
         "name": "Elite Four Karen",
         "trainer_class": "Elite Four",
         "location": null,
-        "money": -1,
+        "money": 5640,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -14273,7 +14273,7 @@ export const trainers = {
                 "moves": [
                     "Double Team",
                     "Confuse Ray",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Payback"
                 ]
             },
@@ -14340,7 +14340,7 @@ export const trainers = {
                     "Pluck",
                     "Whirlwind",
                     "Sucker Punch",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             },
             {
@@ -14372,7 +14372,7 @@ export const trainers = {
         "name": "Elite four Koga",
         "trainer_class": "Elite four",
         "location": null,
-        "money": -1,
+        "money": 5280,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -14496,7 +14496,7 @@ export const trainers = {
         "name": "Bug Catcher Ed",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 688,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -14527,7 +14527,7 @@ export const trainers = {
                 "level": 43,
                 "experience_yield": 1473,
                 "nature": "Brave",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 104,
@@ -14573,7 +14573,7 @@ export const trainers = {
         "name": "Bug Catcher Don",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 48,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -14624,7 +14624,7 @@ export const trainers = {
         "name": "Black Belt Kenji",
         "trainer_class": "Black Belt",
         "location": null,
-        "money": -1,
+        "money": 768,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -14669,7 +14669,7 @@ export const trainers = {
                     "Brick Break",
                     "Focus Energy",
                     "Feint",
-                    "Hi Jump Kick"
+                    "High Jump Kick"
                 ]
             },
             {
@@ -14723,7 +14723,7 @@ export const trainers = {
         "name": "Black Belt Nob",
         "trainer_class": "Black Belt",
         "location": null,
-        "money": -1,
+        "money": 600,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -14778,7 +14778,7 @@ export const trainers = {
         "name": "Swimmer Harold",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 640,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -14833,7 +14833,7 @@ export const trainers = {
         "name": "Leader Brock",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 6240,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -14901,7 +14901,7 @@ export const trainers = {
                     "special_defense": 81
                 },
                 "moves": [
-                    "AncientPower",
+                    "Ancient Power",
                     "Brine",
                     "Protect",
                     "Spike Cannon"
@@ -14958,7 +14958,7 @@ export const trainers = {
         "name": "Leader Misty",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 6480,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -15061,7 +15061,7 @@ export const trainers = {
         "name": "Leader Lt. Surge",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 6360,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -15153,7 +15153,7 @@ export const trainers = {
                 "moves": [
                     "Screech",
                     "Double Team",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Charge Beam"
                 ]
             },
@@ -15186,7 +15186,7 @@ export const trainers = {
         "name": "Leader Erika",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 6720,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -15232,7 +15232,7 @@ export const trainers = {
                     "special_defense": 53
                 },
                 "moves": [
-                    "AncientPower",
+                    "Ancient Power",
                     "Wring Out",
                     "Giga Drain",
                     "Sleep Powder"
@@ -15279,7 +15279,7 @@ export const trainers = {
                     "Sunny Day",
                     "Synthesis",
                     "Giga Drain",
-                    "SolarBeam"
+                    "Solar Beam"
                 ]
             }
         ]
@@ -15289,7 +15289,7 @@ export const trainers = {
         "name": "Leader Janine",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 6000,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -15414,7 +15414,7 @@ export const trainers = {
         "name": "Leader Sabrina",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 6600,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -15495,7 +15495,7 @@ export const trainers = {
         "name": "Leader Blaine",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 7080,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -15541,7 +15541,7 @@ export const trainers = {
                     "special_defense": 98
                 },
                 "moves": [
-                    "ThunderPunch",
+                    "Thunder Punch",
                     "Overheat",
                     "Sunny Day",
                     "Confuse Ray"
@@ -15576,7 +15576,7 @@ export const trainers = {
         "name": "Pokemon Trainer Red",
         "trainer_class": "Pokemon Trainer",
         "location": null,
-        "money": -1,
+        "money": 16800,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -15724,7 +15724,7 @@ export const trainers = {
         "name": "Leader Blue",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 9600,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -15774,7 +15774,7 @@ export const trainers = {
                     "Roar",
                     "Dragon Pulse",
                     "Flare Blitz",
-                    "ExtremeSpeed"
+                    "Extreme Speed"
                 ]
             },
             {
@@ -15837,10 +15837,10 @@ export const trainers = {
                     "special_defense": 128
                 },
                 "moves": [
-                    "DynamicPunch",
+                    "Dynamic Punch",
                     "Earthquake",
                     "Stone Edge",
-                    "ThunderPunch"
+                    "Thunder Punch"
                 ]
             },
             {
@@ -15872,7 +15872,7 @@ export const trainers = {
         "name": "Team Rocket Mickey",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 1200,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -15949,7 +15949,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 1408,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -15992,9 +15992,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Thunder Wave",
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic",
-                    "SonicBoom"
+                    "Sonic Boom"
                 ]
             },
             {
@@ -16038,7 +16038,7 @@ export const trainers = {
                     "Synthesis",
                     "Reflect",
                     "Magical Leaf",
-                    "PoisonPowder"
+                    "Poison Powder"
                 ]
             }
         ]
@@ -16048,7 +16048,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 2560,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -16070,7 +16070,7 @@ export const trainers = {
                 "moves": [
                     "Quick Attack",
                     "Icy Wind",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Fury Swipes"
                 ]
             },
@@ -16180,7 +16180,7 @@ export const trainers = {
                 "moves": [
                     "Reflect",
                     "Petal Dance",
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Synthesis"
                 ]
             }
@@ -16191,7 +16191,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 320,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -16222,7 +16222,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 1152,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -16287,7 +16287,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Leer",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Ember",
                     "Quick Attack"
                 ]
@@ -16299,7 +16299,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 1408,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -16342,9 +16342,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Thunder Wave",
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic",
-                    "SonicBoom"
+                    "Sonic Boom"
                 ]
             },
             {
@@ -16386,7 +16386,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Flame Wheel",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Ember",
                     "Quick Attack"
                 ]
@@ -16398,7 +16398,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 2560,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -16420,7 +16420,7 @@ export const trainers = {
                 "moves": [
                     "Quick Attack",
                     "Icy Wind",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Fury Swipes"
                 ]
             },
@@ -16541,7 +16541,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 1152,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -16618,7 +16618,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 1408,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -16661,9 +16661,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Thunder Wave",
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic",
-                    "SonicBoom"
+                    "Sonic Boom"
                 ]
             },
             {
@@ -16717,7 +16717,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 2048,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -16761,7 +16761,7 @@ export const trainers = {
                 "moves": [
                     "Supersonic",
                     "Spark",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave"
                 ]
             },
@@ -16806,7 +16806,7 @@ export const trainers = {
                     "Icy Wind",
                     "Quick Attack",
                     "Fury Swipes",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             },
             {
@@ -16838,7 +16838,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 2560,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -16860,7 +16860,7 @@ export const trainers = {
                 "moves": [
                     "Quick Attack",
                     "Icy Wind",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Fury Swipes"
                 ]
             },
@@ -16981,7 +16981,7 @@ export const trainers = {
         "name": "Swimmer Mickey",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 256,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -17045,7 +17045,7 @@ export const trainers = {
                     "special_defense": 13
                 },
                 "moves": [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
                     "Water Gun",
                     "Focus Energy"
@@ -17058,7 +17058,7 @@ export const trainers = {
         "name": "Camper Todd",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 496,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -17135,7 +17135,7 @@ export const trainers = {
         "name": "Camper Todd",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 512,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -17157,7 +17157,7 @@ export const trainers = {
                 "moves": [
                     "Rock Throw",
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout"
                 ]
             },
@@ -17177,7 +17177,7 @@ export const trainers = {
                     "special_defense": 34
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout",
                     "Rock Blast",
                     "Earthquake"
@@ -17223,7 +17223,7 @@ export const trainers = {
                 "moves": [
                     "Harden",
                     "Recover",
-                    "AncientPower",
+                    "Ancient Power",
                     "Amnesia"
                 ]
             }
@@ -17234,7 +17234,7 @@ export const trainers = {
         "name": "Picnicker Liz",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 608,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -17289,7 +17289,7 @@ export const trainers = {
         "name": "Picnicker Liz",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 640,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -17366,7 +17366,7 @@ export const trainers = {
         "name": "Black Belt Kenji",
         "trainer_class": "Black Belt",
         "location": null,
-        "money": -1,
+        "money": 984,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -17433,7 +17433,7 @@ export const trainers = {
                     "Sandstorm",
                     "Slam",
                     "Rock Polish",
-                    "DragonBreath"
+                    "Dragon Breath"
                 ]
             },
             {
@@ -17452,7 +17452,7 @@ export const trainers = {
                     "special_defense": 96
                 },
                 "moves": [
-                    "Hi Jump Kick",
+                    "High Jump Kick",
                     "Mind Reader",
                     "Foresight",
                     "Blaze Kick"
@@ -17465,7 +17465,7 @@ export const trainers = {
         "name": "Youngster Joey",
         "trainer_class": "Youngster",
         "location": null,
-        "money": -1,
+        "money": 544,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -17498,7 +17498,7 @@ export const trainers = {
         "name": "Youngster Joey",
         "trainer_class": "Youngster",
         "location": null,
-        "money": -1,
+        "money": 640,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -17531,7 +17531,7 @@ export const trainers = {
         "name": "Firebreather Richard",
         "trainer_class": "Firebreather",
         "location": null,
-        "money": -1,
+        "money": 576,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -17553,7 +17553,7 @@ export const trainers = {
                 "moves": [
                     "Growl",
                     "Ember",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Dragon Rage"
                 ]
             }
@@ -17564,7 +17564,7 @@ export const trainers = {
         "name": "Firebreather Ned",
         "trainer_class": "Firebreather",
         "location": null,
-        "money": -1,
+        "money": 512,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -17586,7 +17586,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Smog",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance"
                 ]
             },
@@ -17630,7 +17630,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Smog",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance"
                 ]
             }
@@ -17641,7 +17641,7 @@ export const trainers = {
         "name": "Burglar Orson",
         "trainer_class": "Burglar",
         "location": null,
-        "money": -1,
+        "money": 384,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -17686,7 +17686,7 @@ export const trainers = {
                     "Tackle",
                     "Smog",
                     "Sludge",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ]
             }
         ]
@@ -17696,7 +17696,7 @@ export const trainers = {
         "name": "Burglar Corey",
         "trainer_class": "Burglar",
         "location": null,
-        "money": -1,
+        "money": 608,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -17716,7 +17716,7 @@ export const trainers = {
                     "special_defense": 34
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Sludge",
                     "Haze",
                     "Gyro Ball"
@@ -17760,7 +17760,7 @@ export const trainers = {
                     "special_defense": 34
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Sludge",
                     "Haze",
                     "Gyro Ball"
@@ -17795,7 +17795,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 3200,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -17817,7 +17817,7 @@ export const trainers = {
                 "moves": [
                     "Quick Attack",
                     "Icy Wind",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Shadow Claw"
                 ]
             },
@@ -17926,7 +17926,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Petal Dance",
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Synthesis",
                     "Light Screen"
                 ]
@@ -17938,7 +17938,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 3200,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -17960,7 +17960,7 @@ export const trainers = {
                 "moves": [
                     "Quick Attack",
                     "Icy Wind",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Shadow Claw"
                 ]
             },
@@ -18081,7 +18081,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 3200,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -18103,7 +18103,7 @@ export const trainers = {
                 "moves": [
                     "Quick Attack",
                     "Icy Wind",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Shadow Claw"
                 ]
             },
@@ -18224,7 +18224,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 2176,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -18268,7 +18268,7 @@ export const trainers = {
                 "moves": [
                     "Supersonic",
                     "Spark",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave"
                 ]
             },
@@ -18313,7 +18313,7 @@ export const trainers = {
                     "Icy Wind",
                     "Quick Attack",
                     "Fury Swipes",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             },
             {
@@ -18334,7 +18334,7 @@ export const trainers = {
                 "moves": [
                     "Reflect",
                     "Synthesis",
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Petal Dance"
                 ]
             }
@@ -18345,7 +18345,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 2176,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -18389,7 +18389,7 @@ export const trainers = {
                 "moves": [
                     "Supersonic",
                     "Spark",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave"
                 ]
             },
@@ -18434,7 +18434,7 @@ export const trainers = {
                     "Icy Wind",
                     "Quick Attack",
                     "Fury Swipes",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             },
             {
@@ -18453,7 +18453,7 @@ export const trainers = {
                     "special_defense": 58
                 },
                 "moves": [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Swift",
                     "Quick Attack",
                     "Flame Wheel"
@@ -18466,7 +18466,7 @@ export const trainers = {
         "name": "Elder Li",
         "trainer_class": "Elder",
         "location": null,
-        "money": -1,
+        "money": 1200,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -18539,7 +18539,7 @@ export const trainers = {
         "name": "Swimmer Debbie",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 736,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -18572,7 +18572,7 @@ export const trainers = {
         "name": "Swimmer Mickey",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 320,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -18605,7 +18605,7 @@ export const trainers = {
         "name": "Swimmer Nicole",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 672,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -18682,7 +18682,7 @@ export const trainers = {
         "name": "Swimmer Lori",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 672,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -18759,7 +18759,7 @@ export const trainers = {
         "name": "Swimmer Mickey",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 320,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -18792,7 +18792,7 @@ export const trainers = {
         "name": "Swimmer Nikki",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 672,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -18847,7 +18847,7 @@ export const trainers = {
         "name": "Swimmer Diana",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 768,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -18880,7 +18880,7 @@ export const trainers = {
         "name": "Swimmer Briana",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 736,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -18935,7 +18935,7 @@ export const trainers = {
         "name": "Bird Keeper Hank",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1408,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -18956,7 +18956,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Gust",
                     "Quick Attack"
                 ]
@@ -18977,7 +18977,7 @@ export const trainers = {
                     "special_defense": 62
                 },
                 "moves": [
-                    "FeatherDance",
+                    "Feather Dance",
                     "Agility",
                     "Wing Attack",
                     "Roost"
@@ -18990,7 +18990,7 @@ export const trainers = {
         "name": "Bird Keeper Roy",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1408,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -19045,7 +19045,7 @@ export const trainers = {
         "name": "Bird Keeper Boris",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1312,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -19122,7 +19122,7 @@ export const trainers = {
         "name": "Bird Keeper Bob",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1536,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -19155,12 +19155,12 @@ export const trainers = {
         "name": "Bird Keeper Jose",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1408,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
-                "species": "Farfetch'd",
+                "species": "Farfetch’d",
                 "level": 44,
                 "experience_yield": 885,
                 "nature": "Relaxed",
@@ -19188,7 +19188,7 @@ export const trainers = {
         "name": "Camper Mickey",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 672,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -19208,7 +19208,7 @@ export const trainers = {
                     "special_defense": 34
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout",
                     "Rock Blast",
                     "Earthquake"
@@ -19230,7 +19230,7 @@ export const trainers = {
                     "special_defense": 37
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout",
                     "Rock Blast",
                     "Earthquake"
@@ -19287,7 +19287,7 @@ export const trainers = {
         "name": "Camper Mickey",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 672,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -19307,7 +19307,7 @@ export const trainers = {
                     "special_defense": 30
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout",
                     "Rock Blast",
                     "Earthquake"
@@ -19329,7 +19329,7 @@ export const trainers = {
                     "special_defense": 37
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout",
                     "Rock Blast",
                     "Earthquake"
@@ -19386,7 +19386,7 @@ export const trainers = {
         "name": "Camper Mickey",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 672,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -19406,7 +19406,7 @@ export const trainers = {
                     "special_defense": 34
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout",
                     "Rock Blast",
                     "Earthquake"
@@ -19428,7 +19428,7 @@ export const trainers = {
                     "special_defense": 37
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout",
                     "Rock Blast",
                     "Earthquake"
@@ -19485,7 +19485,7 @@ export const trainers = {
         "name": "Camper Mickey",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 672,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -19505,7 +19505,7 @@ export const trainers = {
                     "special_defense": 34
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout",
                     "Rock Blast",
                     "Earthquake"
@@ -19527,7 +19527,7 @@ export const trainers = {
                     "special_defense": 37
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout",
                     "Rock Blast",
                     "Earthquake"
@@ -19584,7 +19584,7 @@ export const trainers = {
         "name": "Camper Jerry",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 800,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -19617,7 +19617,7 @@ export const trainers = {
         "name": "Biker Dwayne",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 656,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -19716,7 +19716,7 @@ export const trainers = {
         "name": "Biker Harris",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 720,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -19749,7 +19749,7 @@ export const trainers = {
         "name": "Biker Zeke",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 688,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -19804,7 +19804,7 @@ export const trainers = {
         "name": "Biker Charles",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 672,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -19881,7 +19881,7 @@ export const trainers = {
         "name": "Biker Reese",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 720,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -19914,7 +19914,7 @@ export const trainers = {
         "name": "Biker Joel",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 688,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -19969,7 +19969,7 @@ export const trainers = {
         "name": "Biker Glenn",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 688,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -20046,7 +20046,7 @@ export const trainers = {
         "name": "Psychic Herman",
         "trainer_class": "Psychic",
         "location": null,
-        "money": -1,
+        "money": 1248,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -20123,7 +20123,7 @@ export const trainers = {
         "name": "Psychic Fidel",
         "trainer_class": "Psychic",
         "location": null,
-        "money": -1,
+        "money": 1376,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -20156,7 +20156,7 @@ export const trainers = {
         "name": "Firebreather Burt",
         "trainer_class": "Firebreather",
         "location": null,
-        "money": -1,
+        "money": 1440,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -20200,7 +20200,7 @@ export const trainers = {
                 "moves": [
                     "Lava Plume",
                     "Amnesia",
-                    "AncientPower",
+                    "Ancient Power",
                     "Recover"
                 ]
             }
@@ -20211,7 +20211,7 @@ export const trainers = {
         "name": "Firebreather Bill",
         "trainer_class": "Firebreather",
         "location": null,
-        "money": -1,
+        "money": 192,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -20264,7 +20264,7 @@ export const trainers = {
         "name": "Fisherman Martin",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1344,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -20319,7 +20319,7 @@ export const trainers = {
         "name": "Fisherman Stephen",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1216,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -20396,7 +20396,7 @@ export const trainers = {
         "name": "Fisherman Barney",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1184,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -20473,7 +20473,7 @@ export const trainers = {
         "name": "Fisherman Tully",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1056,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -20506,7 +20506,7 @@ export const trainers = {
         "name": "Fisherman Tully",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1216,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -20583,7 +20583,7 @@ export const trainers = {
         "name": "Fisherman Wilton",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1152,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -20660,7 +20660,7 @@ export const trainers = {
         "name": "Twins Jo & Zoe",
         "trainer_class": "Twins",
         "location": null,
-        "money": -1,
+        "money": 1504,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -20715,7 +20715,7 @@ export const trainers = {
         "name": "School Kid Danny",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 860,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -20758,7 +20758,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Light Screen",
-                    "ThunderPunch",
+                    "Thunder Punch",
                     "Discharge",
                     "Thunderbolt"
                 ]
@@ -20792,7 +20792,7 @@ export const trainers = {
         "name": "School Kid Tommy",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 860,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -20847,7 +20847,7 @@ export const trainers = {
         "name": "School Kid Dudley",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 900,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -20880,7 +20880,7 @@ export const trainers = {
         "name": "School Kid Joe",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 840,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -20900,7 +20900,7 @@ export const trainers = {
                     "special_defense": 36
                 },
                 "moves": [
-                    "AncientPower",
+                    "Ancient Power",
                     "Knock Off",
                     "Natural Gift",
                     "Slam"
@@ -20935,7 +20935,7 @@ export const trainers = {
         "name": "School Kid Billy",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 700,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -20978,7 +20978,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Body Slam",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Mud Shot",
                     "Belly Drum"
                 ]
@@ -21009,7 +21009,7 @@ export const trainers = {
         "name": "Picnicker Heidi",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 688,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -21064,7 +21064,7 @@ export const trainers = {
         "name": "Picnicker Edna",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 720,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -21106,7 +21106,7 @@ export const trainers = {
                     "special_defense": 77
                 },
                 "moves": [
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Tail Whip",
                     "Quick Attack",
                     "Thunderbolt"
@@ -21119,7 +21119,7 @@ export const trainers = {
         "name": "Picnicker Gina",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 704,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -21186,7 +21186,7 @@ export const trainers = {
                     "Double-Edge",
                     "Worry Seed",
                     "Synthesis",
-                    "SolarBeam"
+                    "Solar Beam"
                 ]
             }
         ]
@@ -21196,7 +21196,7 @@ export const trainers = {
         "name": "Picnicker Erin",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 656,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -21251,7 +21251,7 @@ export const trainers = {
         "name": "Picnicker Tanya",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 784,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -21284,7 +21284,7 @@ export const trainers = {
         "name": "Gentleman Gregory",
         "trainer_class": "Gentleman",
         "location": null,
-        "money": -1,
+        "money": 8400,
         "is_double_battle": false,
         "items": [
             "Full Restore"
@@ -21363,7 +21363,7 @@ export const trainers = {
         "name": "Gentleman Mickey",
         "trainer_class": "Gentleman",
         "location": null,
-        "money": -1,
+        "money": 4000,
         "is_double_battle": false,
         "items": [
             "Full Restore"
@@ -21398,7 +21398,7 @@ export const trainers = {
         "name": "Black Belt Wai",
         "trainer_class": "Black Belt",
         "location": null,
-        "money": -1,
+        "money": 1008,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -21463,7 +21463,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Force Palm",
-                    "Hi Jump Kick",
+                    "High Jump Kick",
                     "Psych Up",
                     "Power Trick"
                 ]
@@ -21475,7 +21475,7 @@ export const trainers = {
         "name": "Beauty Mickey",
         "trainer_class": "Beauty",
         "location": null,
-        "money": -1,
+        "money": 840,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -21508,7 +21508,7 @@ export const trainers = {
         "name": "Beauty Mickey",
         "trainer_class": "Beauty",
         "location": null,
-        "money": -1,
+        "money": 840,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -21541,7 +21541,7 @@ export const trainers = {
         "name": "Beauty Mickey",
         "trainer_class": "Beauty",
         "location": null,
-        "money": -1,
+        "money": 840,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -21574,7 +21574,7 @@ export const trainers = {
         "name": "Beauty Mickey",
         "trainer_class": "Beauty",
         "location": null,
-        "money": -1,
+        "money": 840,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -21607,7 +21607,7 @@ export const trainers = {
         "name": "Beauty Mickey",
         "trainer_class": "Beauty",
         "location": null,
-        "money": -1,
+        "money": 840,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -21640,7 +21640,7 @@ export const trainers = {
         "name": "Beauty Mickey",
         "trainer_class": "Beauty",
         "location": null,
-        "money": -1,
+        "money": 840,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -21673,7 +21673,7 @@ export const trainers = {
         "name": "Beauty Julia",
         "trainer_class": "Beauty",
         "location": null,
-        "money": -1,
+        "money": 2632,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -21750,7 +21750,7 @@ export const trainers = {
         "name": "Beauty Mickey",
         "trainer_class": "Beauty",
         "location": null,
-        "money": -1,
+        "money": 840,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -21783,7 +21783,7 @@ export const trainers = {
         "name": "Pokefan Robert",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 2752,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -21816,7 +21816,7 @@ export const trainers = {
         "name": "Pokefan Joshua",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 2048,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -21959,7 +21959,7 @@ export const trainers = {
         "name": "Pokefan Carter",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 2432,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -22036,7 +22036,7 @@ export const trainers = {
         "name": "Pokefan Trevor",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 2688,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -22069,7 +22069,7 @@ export const trainers = {
         "name": "Pokefan Georgia",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 1984,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -22190,7 +22190,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 1560,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -22223,7 +22223,7 @@ export const trainers = {
         "name": "Lass Laura",
         "trainer_class": "Lass",
         "location": null,
-        "money": -1,
+        "money": 656,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -22266,7 +22266,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Twister",
-                    "FeatherDance",
+                    "Feather Dance",
                     "Agility",
                     "Wing Attack"
                 ]
@@ -22300,7 +22300,7 @@ export const trainers = {
         "name": "Lass Shannon",
         "trainer_class": "Lass",
         "location": null,
-        "money": -1,
+        "money": 672,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -22377,7 +22377,7 @@ export const trainers = {
         "name": "Lass Michelle",
         "trainer_class": "Lass",
         "location": null,
-        "money": -1,
+        "money": 736,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -22454,7 +22454,7 @@ export const trainers = {
         "name": "Hiker Clarke",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 1440,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -22475,7 +22475,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Rock Polish",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Curse",
                     "Iron Tail"
                 ]
@@ -22509,7 +22509,7 @@ export const trainers = {
         "name": "Hiker Kenny",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 1056,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -22552,7 +22552,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout",
                     "Rock Blast"
                 ]
@@ -22573,7 +22573,7 @@ export const trainers = {
                     "special_defense": 47
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout",
                     "Rock Blast",
                     "Earthquake"
@@ -22586,7 +22586,7 @@ export const trainers = {
         "name": "Hiker Jim",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 1440,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -22619,7 +22619,7 @@ export const trainers = {
         "name": "Bug Catcher Arnie",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 576,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -22628,7 +22628,7 @@ export const trainers = {
                 "level": 36,
                 "experience_yield": 577,
                 "nature": "Bold",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 89,
@@ -22652,7 +22652,7 @@ export const trainers = {
         "name": "Ace Trainer Kevin",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 2760,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -22729,7 +22729,7 @@ export const trainers = {
         "name": "Ace Trainer Quinn",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 2820,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -22749,7 +22749,7 @@ export const trainers = {
                     "special_defense": 74
                 },
                 "moves": [
-                    "SolarBeam",
+                    "Solar Beam",
                     "Double-Edge",
                     "Synthesis",
                     "Sludge Bomb"
@@ -22784,7 +22784,7 @@ export const trainers = {
         "name": "Ace Trainer Emma",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 1680,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -22804,10 +22804,10 @@ export const trainers = {
                     "special_defense": 34
                 },
                 "moves": [
-                    "DoubleSlap",
+                    "Double Slap",
                     "Rain Dance",
                     "Body Slam",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -22817,7 +22817,7 @@ export const trainers = {
         "name": "Super Nerd Sam",
         "trainer_class": "Super Nerd",
         "location": null,
-        "money": -1,
+        "money": 2112,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -22872,7 +22872,7 @@ export const trainers = {
         "name": "Super Nerd Tyrone",
         "trainer_class": "Super Nerd",
         "location": null,
-        "money": -1,
+        "money": 1920,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -22949,7 +22949,7 @@ export const trainers = {
         "name": "Super Nerd Pat",
         "trainer_class": "Super Nerd",
         "location": null,
-        "money": -1,
+        "money": 2256,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -22972,7 +22972,7 @@ export const trainers = {
                     "Charge Beam",
                     "Signal Beam",
                     "Ice Beam",
-                    "SolarBeam"
+                    "Solar Beam"
                 ]
             }
         ]
@@ -22982,7 +22982,7 @@ export const trainers = {
         "name": "Super Nerd Shawn",
         "trainer_class": "Super Nerd",
         "location": null,
-        "money": -1,
+        "money": 1872,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -23059,7 +23059,7 @@ export const trainers = {
         "name": "Medium Rebecca",
         "trainer_class": "Medium",
         "location": null,
-        "money": -1,
+        "money": 2160,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -23079,7 +23079,7 @@ export const trainers = {
                     "special_defense": 90
                 },
                 "moves": [
-                    "Faint Attack",
+                    "Feint Attack",
                     "Skill Swap",
                     "Safeguard",
                     "Gyro Ball"
@@ -23114,7 +23114,7 @@ export const trainers = {
         "name": "Medium Darcy",
         "trainer_class": "Medium",
         "location": null,
-        "money": -1,
+        "money": 2208,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -23169,7 +23169,7 @@ export const trainers = {
         "name": "Swimmer Jerome",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 608,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -23189,7 +23189,7 @@ export const trainers = {
                     "special_defense": 37
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Agility",
                     "Twister",
                     "Brine"
@@ -23268,7 +23268,7 @@ export const trainers = {
         "name": "Swimmer Tucker",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 704,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -23323,7 +23323,7 @@ export const trainers = {
         "name": "Swimmer Mickey",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 256,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -23387,7 +23387,7 @@ export const trainers = {
                     "special_defense": 13
                 },
                 "moves": [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
                     "Water Gun",
                     "Focus Energy"
@@ -23400,7 +23400,7 @@ export const trainers = {
         "name": "Swimmer Frankie",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 704,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -23420,7 +23420,7 @@ export const trainers = {
                     "special_defense": 75
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Aqua Ring",
                     "Double-Edge",
                     "Rain Dance"
@@ -23433,7 +23433,7 @@ export const trainers = {
         "name": "Swimmer Tyson",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 672,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -23488,7 +23488,7 @@ export const trainers = {
         "name": "Swimmer Mickey",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 256,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -23552,7 +23552,7 @@ export const trainers = {
                     "special_defense": 13
                 },
                 "moves": [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
                     "Water Gun",
                     "Focus Energy"
@@ -23565,7 +23565,7 @@ export const trainers = {
         "name": "Swimmer Mickey",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 256,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -23629,7 +23629,7 @@ export const trainers = {
                     "special_defense": 13
                 },
                 "moves": [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
                     "Water Gun",
                     "Focus Energy"
@@ -23642,7 +23642,7 @@ export const trainers = {
         "name": "Swimmer Parker",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 688,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -23697,7 +23697,7 @@ export const trainers = {
         "name": "Youngster Warren",
         "trainer_class": "Youngster",
         "location": null,
-        "money": -1,
+        "money": 672,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -23752,7 +23752,7 @@ export const trainers = {
         "name": "Youngster Jimmy",
         "trainer_class": "Youngster",
         "location": null,
-        "money": -1,
+        "money": 672,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -23829,7 +23829,7 @@ export const trainers = {
         "name": "Youngster Owen",
         "trainer_class": "Youngster",
         "location": null,
-        "money": -1,
+        "money": 704,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -23862,7 +23862,7 @@ export const trainers = {
         "name": "Youngster Jason",
         "trainer_class": "Youngster",
         "location": null,
-        "money": -1,
+        "money": 672,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -23917,7 +23917,7 @@ export const trainers = {
         "name": "Teacher Hillary",
         "trainer_class": "Teacher",
         "location": null,
-        "money": -1,
+        "money": 1488,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -23972,7 +23972,7 @@ export const trainers = {
         "name": "Bird Keeper Peter",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 256,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -23993,7 +23993,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             },
             {
@@ -24013,7 +24013,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "Sand-Attack"
+                    "Sand Attack"
                 ]
             },
             {
@@ -24044,7 +24044,7 @@ export const trainers = {
         "name": "Hiker Daniel",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 352,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -24077,7 +24077,7 @@ export const trainers = {
         "name": "Twins Dara & Dia",
         "trainer_class": "Twins",
         "location": null,
-        "money": -1,
+        "money": 512,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -24099,7 +24099,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Growl",
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Thunder Wave"
                 ]
             },
@@ -24132,7 +24132,7 @@ export const trainers = {
         "name": "Psychic Greg",
         "trainer_class": "Psychic",
         "location": null,
-        "money": -1,
+        "money": 544,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -24164,7 +24164,7 @@ export const trainers = {
         "name": "Twins Amy & Mimi",
         "trainer_class": "Twins",
         "location": null,
-        "money": -1,
+        "money": 320,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -24218,7 +24218,7 @@ export const trainers = {
         "name": "Firebreather Walt",
         "trainer_class": "Firebreather",
         "location": null,
-        "money": -1,
+        "money": 512,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -24241,7 +24241,7 @@ export const trainers = {
                     "Smog",
                     "Leer",
                     "Ember",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ]
             },
             {
@@ -24262,8 +24262,8 @@ export const trainers = {
                 "moves": [
                     "Leer",
                     "Ember",
-                    "SmokeScreen",
-                    "Faint Attack"
+                    "Smokescreen",
+                    "Feint Attack"
                 ]
             }
         ]
@@ -24273,7 +24273,7 @@ export const trainers = {
         "name": "Psychic Nelson",
         "trainer_class": "Psychic",
         "location": null,
-        "money": -1,
+        "money": 640,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -24327,7 +24327,7 @@ export const trainers = {
         "name": "Firebreather Ray",
         "trainer_class": "Firebreather",
         "location": null,
-        "money": -1,
+        "money": 288,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -24359,7 +24359,7 @@ export const trainers = {
         "name": "Poke Maniac Issac",
         "trainer_class": "Poke Maniac",
         "location": null,
-        "money": -1,
+        "money": 768,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -24391,7 +24391,7 @@ export const trainers = {
         "name": "Poke Maniac Donald",
         "trainer_class": "Poke Maniac",
         "location": null,
-        "money": -1,
+        "money": 704,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -24446,7 +24446,7 @@ export const trainers = {
         "name": "Super Nerd Teru",
         "trainer_class": "Super Nerd",
         "location": null,
-        "money": -1,
+        "money": 432,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -24468,7 +24468,7 @@ export const trainers = {
                 "moves": [
                     "Metal Sound",
                     "Tackle",
-                    "ThunderShock"
+                    "Thunder Shock"
                 ]
             },
             {
@@ -24489,7 +24489,7 @@ export const trainers = {
                 "moves": [
                     "Charge",
                     "Tackle",
-                    "SonicBoom"
+                    "Sonic Boom"
                 ]
             },
             {
@@ -24510,7 +24510,7 @@ export const trainers = {
                 "moves": [
                     "Metal Sound",
                     "Tackle",
-                    "ThunderShock"
+                    "Thunder Shock"
                 ]
             },
             {
@@ -24531,7 +24531,7 @@ export const trainers = {
                 "moves": [
                     "Metal Sound",
                     "Tackle",
-                    "ThunderShock"
+                    "Thunder Shock"
                 ]
             }
         ]
@@ -24541,7 +24541,7 @@ export const trainers = {
         "name": "Ace Trainer Mickey",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 840,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -24563,7 +24563,7 @@ export const trainers = {
                 "moves": [
                     "Leech Seed",
                     "Vine Whip",
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Sleep Powder"
                 ]
             },
@@ -24586,7 +24586,7 @@ export const trainers = {
                     "Scratch",
                     "Growl",
                     "Ember",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ]
             },
             {
@@ -24618,7 +24618,7 @@ export const trainers = {
         "name": "Psychic Mark",
         "trainer_class": "Psychic",
         "location": null,
-        "money": -1,
+        "money": 512,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -24690,7 +24690,7 @@ export const trainers = {
         "name": "Juggler Horton",
         "trainer_class": "Juggler",
         "location": null,
-        "money": -1,
+        "money": 1376,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -24767,7 +24767,7 @@ export const trainers = {
         "name": "School Kid Chad",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 400,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -24789,7 +24789,7 @@ export const trainers = {
                 "moves": [
                     "Meditate",
                     "Encore",
-                    "DoubleSlap",
+                    "Double Slap",
                     "Mimic"
                 ]
             }
@@ -24800,7 +24800,7 @@ export const trainers = {
         "name": "Beauty Valerie",
         "trainer_class": "Beauty",
         "location": null,
-        "money": -1,
+        "money": 1008,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -24823,7 +24823,7 @@ export const trainers = {
                     "Mega Drain",
                     "Tail Whip",
                     "Tackle",
-                    "PoisonPowder"
+                    "Poison Powder"
                 ]
             },
             {
@@ -24855,7 +24855,7 @@ export const trainers = {
         "name": "Firebreather Lyle",
         "trainer_class": "Firebreather",
         "location": null,
-        "money": -1,
+        "money": 1152,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -24875,7 +24875,7 @@ export const trainers = {
                     "special_defense": 33
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Sludge",
                     "Haze",
                     "Gyro Ball"
@@ -24919,7 +24919,7 @@ export const trainers = {
                     "special_defense": 33
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Sludge",
                     "Haze",
                     "Gyro Ball"
@@ -24932,7 +24932,7 @@ export const trainers = {
         "name": "Lass Dana",
         "trainer_class": "Lass",
         "location": null,
-        "money": -1,
+        "money": 304,
         "is_double_battle": false,
         "items": [
             "Moomoo Milk"
@@ -24956,7 +24956,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Growl",
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Thunder Wave"
                 ]
             },
@@ -24989,7 +24989,7 @@ export const trainers = {
         "name": "Gentleman Alfred",
         "trainer_class": "Gentleman",
         "location": null,
-        "money": -1,
+        "money": 4400,
         "is_double_battle": false,
         "items": [
             "Full Restore"
@@ -25024,7 +25024,7 @@ export const trainers = {
         "name": "Picnicker Tiffany",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 336,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -25046,7 +25046,7 @@ export const trainers = {
                 "moves": [
                     "Encore",
                     "Sing",
-                    "DoubleSlap",
+                    "Double Slap",
                     "Minimize"
                 ]
             }
@@ -25057,7 +25057,7 @@ export const trainers = {
         "name": "Camper Spencer",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 320,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -25077,7 +25077,7 @@ export const trainers = {
                     "special_defense": 15
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Poison Sting",
                     "Rapid Spin",
                     "Swift"
@@ -25099,7 +25099,7 @@ export const trainers = {
                     "special_defense": 24
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Poison Sting",
                     "Rapid Spin",
                     "Swift"
@@ -25134,7 +25134,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 720,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -25189,7 +25189,7 @@ export const trainers = {
         "name": "Psychic Phil",
         "trainer_class": "Psychic",
         "location": null,
-        "money": -1,
+        "money": 928,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -25244,7 +25244,7 @@ export const trainers = {
         "name": "Poke Maniac Zach",
         "trainer_class": "Poke Maniac",
         "location": null,
-        "money": -1,
+        "money": 1920,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -25253,7 +25253,7 @@ export const trainers = {
                 "level": 30,
                 "experience_yield": 867,
                 "nature": "Bashful",
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "held_item": null,
                 "stats": {
                     "hp": 88,
@@ -25277,7 +25277,7 @@ export const trainers = {
         "name": "Ace Trainer Allen",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 1740,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -25298,7 +25298,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Ember",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Fire Fang",
                     "Scary Face"
                 ]
@@ -25332,7 +25332,7 @@ export const trainers = {
         "name": "Ace Trainer Cybil",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 1740,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -25387,7 +25387,7 @@ export const trainers = {
         "name": "Pokefan Brandon",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 832,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -25431,7 +25431,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Growl",
-                    "ThunderShock"
+                    "Thunder Shock"
                 ]
             }
         ]
@@ -25441,7 +25441,7 @@ export const trainers = {
         "name": "Sailor Harry",
         "trainer_class": "Sailor",
         "location": null,
-        "money": -1,
+        "money": 640,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -25474,7 +25474,7 @@ export const trainers = {
         "name": "Psychic Vernon",
         "trainer_class": "Psychic",
         "location": null,
-        "money": -1,
+        "money": 1152,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -25507,7 +25507,7 @@ export const trainers = {
         "name": "Psychic Eli",
         "trainer_class": "Psychic",
         "location": null,
-        "money": -1,
+        "money": 1088,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -25550,7 +25550,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Stun Spore",
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Sleep Powder",
                     "Confusion"
                 ]
@@ -25584,7 +25584,7 @@ export const trainers = {
         "name": "Fisherman Scott",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1088,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -25661,12 +25661,12 @@ export const trainers = {
         "name": "Bird Keeper Jose",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1280,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
-                "species": "Farfetch'd",
+                "species": "Farfetch’d",
                 "level": 40,
                 "experience_yield": 805,
                 "nature": "Sassy",
@@ -25694,7 +25694,7 @@ export const trainers = {
         "name": "Psychic Jared",
         "trainer_class": "Psychic",
         "location": null,
-        "money": -1,
+        "money": 1440,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -25771,7 +25771,7 @@ export const trainers = {
         "name": "Twins Jo & Zoe",
         "trainer_class": "Twins",
         "location": null,
-        "money": -1,
+        "money": 1184,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -25826,7 +25826,7 @@ export const trainers = {
         "name": "Ace Trainer Jenn",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 1560,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -25881,7 +25881,7 @@ export const trainers = {
         "name": "Elite Four Bruno",
         "trainer_class": "Elite Four",
         "location": null,
-        "money": -1,
+        "money": 5520,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -25928,7 +25928,7 @@ export const trainers = {
                 "moves": [
                     "Swagger",
                     "Focus Energy",
-                    "Hi Jump Kick",
+                    "High Jump Kick",
                     "Blaze Kick"
                 ]
             },
@@ -25948,7 +25948,7 @@ export const trainers = {
                     "special_defense": 121
                 },
                 "moves": [
-                    "ThunderPunch",
+                    "Thunder Punch",
                     "Ice Punch",
                     "Fire Punch",
                     "Bullet Punch"
@@ -25970,7 +25970,7 @@ export const trainers = {
                     "special_defense": 50
                 },
                 "moves": [
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Earthquake",
                     "Sandstorm",
                     "Rock Slide"
@@ -26005,7 +26005,7 @@ export const trainers = {
         "name": "Lass Ellen",
         "trainer_class": "Lass",
         "location": null,
-        "money": -1,
+        "money": 704,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -26028,7 +26028,7 @@ export const trainers = {
                     "Sing",
                     "Disable",
                     "Defense Curl",
-                    "DoubleSlap"
+                    "Double Slap"
                 ]
             },
             {
@@ -26060,12 +26060,12 @@ export const trainers = {
         "name": "Bird Keeper Perry",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1344,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
-                "species": "Farfetch'd",
+                "species": "Farfetch’d",
                 "level": 42,
                 "experience_yield": 846,
                 "nature": "Quiet",
@@ -26093,7 +26093,7 @@ export const trainers = {
         "name": "Bird Keeper Bret",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1312,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -26148,7 +26148,7 @@ export const trainers = {
         "name": "Psychic Rodney",
         "trainer_class": "Psychic",
         "location": null,
-        "money": -1,
+        "money": 1312,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -26203,7 +26203,7 @@ export const trainers = {
         "name": "Pokefan Jeremy",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 2304,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -26223,7 +26223,7 @@ export const trainers = {
                     "special_defense": 33
                 },
                 "moves": [
-                    "Faint Attack",
+                    "Feint Attack",
                     "Taunt",
                     "Pay Day",
                     "Slash"
@@ -26245,7 +26245,7 @@ export const trainers = {
                     "special_defense": 33
                 },
                 "moves": [
-                    "Faint Attack",
+                    "Feint Attack",
                     "Taunt",
                     "Pay Day",
                     "Slash"
@@ -26267,7 +26267,7 @@ export const trainers = {
                     "special_defense": 33
                 },
                 "moves": [
-                    "Faint Attack",
+                    "Feint Attack",
                     "Taunt",
                     "Pay Day",
                     "Slash"
@@ -26280,7 +26280,7 @@ export const trainers = {
         "name": "Pokefan Colin",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 2560,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -26312,7 +26312,7 @@ export const trainers = {
         "name": "Twins Meg & Peg",
         "trainer_class": "Twins",
         "location": null,
-        "money": -1,
+        "money": 1248,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -26332,7 +26332,7 @@ export const trainers = {
                     "special_defense": 39
                 },
                 "moves": [
-                    "Faint Attack",
+                    "Feint Attack",
                     "Sweet Scent",
                     "Slash",
                     "Charm"
@@ -26367,7 +26367,7 @@ export const trainers = {
         "name": "Twins Meg & Peg",
         "trainer_class": "Twins",
         "location": null,
-        "money": -1,
+        "money": 1248,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -26409,7 +26409,7 @@ export const trainers = {
                     "special_defense": 44
                 },
                 "moves": [
-                    "Faint Attack",
+                    "Feint Attack",
                     "Sweet Scent",
                     "Slash",
                     "Charm"
@@ -26422,7 +26422,7 @@ export const trainers = {
         "name": "Teacher Shirley",
         "trainer_class": "Teacher",
         "location": null,
-        "money": -1,
+        "money": 2064,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -26445,7 +26445,7 @@ export const trainers = {
                     "Mimic",
                     "Roost",
                     "Uproar",
-                    "FeatherDance"
+                    "Feather Dance"
                 ]
             },
             {
@@ -26477,7 +26477,7 @@ export const trainers = {
         "name": "School Kid Nate",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 800,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -26532,7 +26532,7 @@ export const trainers = {
         "name": "School Kid Ricky",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 800,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -26584,7 +26584,7 @@ export const trainers = {
         "name": "School Kid Jack",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 340,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -26627,7 +26627,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Spark",
                     "Rollout"
                 ]
@@ -26639,7 +26639,7 @@ export const trainers = {
         "name": "School Kid Jack",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 620,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -26662,7 +26662,7 @@ export const trainers = {
                     "Mega Drain",
                     "Aromatherapy",
                     "Stun Spore",
-                    "PoisonPowder"
+                    "Poison Powder"
                 ]
             },
             {
@@ -26684,7 +26684,7 @@ export const trainers = {
                     "Screech",
                     "Light Screen",
                     "Charge Beam",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             }
         ]
@@ -26694,7 +26694,7 @@ export const trainers = {
         "name": "School Kid Alan",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 600,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -26749,7 +26749,7 @@ export const trainers = {
         "name": "School Kid Alan",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 680,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -26793,7 +26793,7 @@ export const trainers = {
                 "moves": [
                     "Mega Drain",
                     "Stun Spore",
-                    "AncientPower",
+                    "Ancient Power",
                     "Knock Off"
                 ]
             },
@@ -26838,7 +26838,7 @@ export const trainers = {
                     "Supersonic",
                     "Uproar",
                     "Pursuit",
-                    "AncientPower"
+                    "Ancient Power"
                 ]
             }
         ]
@@ -26848,7 +26848,7 @@ export const trainers = {
         "name": "School Kid Chad",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 600,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -26903,7 +26903,7 @@ export const trainers = {
         "name": "School Kid Chad",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 760,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -26958,7 +26958,7 @@ export const trainers = {
         "name": "Pokefan Beverly",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 1984,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -26991,7 +26991,7 @@ export const trainers = {
         "name": "Pokefan Beverly",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 2752,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -27024,7 +27024,7 @@ export const trainers = {
         "name": "Pokefan Derek",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 1920,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -27046,7 +27046,7 @@ export const trainers = {
                 "moves": [
                     "Fake Tears",
                     "Fury Swipes",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Sweet Scent"
                 ]
             },
@@ -27079,7 +27079,7 @@ export const trainers = {
         "name": "Pokefan Derek",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 1856,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -27124,7 +27124,7 @@ export const trainers = {
                     "Lick",
                     "Fake Tears",
                     "Fury Swipes",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             },
             {
@@ -27166,7 +27166,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Fury Swipes",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Sweet Scent",
                     "Slash"
                 ]
@@ -27178,7 +27178,7 @@ export const trainers = {
         "name": "Sailor Huey",
         "trainer_class": "Sailor",
         "location": null,
-        "money": -1,
+        "money": 1152,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -27200,7 +27200,7 @@ export const trainers = {
                 "moves": [
                     "Rain Dance",
                     "Body Slam",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Mud Shot"
                 ]
             },
@@ -27222,7 +27222,7 @@ export const trainers = {
                 "moves": [
                     "Rain Dance",
                     "Body Slam",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Mud Shot"
                 ]
             }
@@ -27233,7 +27233,7 @@ export const trainers = {
         "name": "Sailor Huey",
         "trainer_class": "Sailor",
         "location": null,
-        "money": -1,
+        "money": 1312,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -27254,7 +27254,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Body Slam",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Mud Shot",
                     "Belly Drum"
                 ]
@@ -27275,9 +27275,9 @@ export const trainers = {
                     "special_defense": 78
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Hypnosis",
-                    "DoubleSlap",
+                    "Double Slap",
                     "Submission"
                 ]
             }
@@ -27288,7 +27288,7 @@ export const trainers = {
         "name": "Lass Mickey",
         "trainer_class": "Lass",
         "location": null,
-        "money": -1,
+        "money": 336,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -27311,7 +27311,7 @@ export const trainers = {
                     "Tail Whip",
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -27321,7 +27321,7 @@ export const trainers = {
         "name": "Lass Mickey",
         "trainer_class": "Lass",
         "location": null,
-        "money": -1,
+        "money": 336,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -27344,7 +27344,7 @@ export const trainers = {
                     "Tail Whip",
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -27354,7 +27354,7 @@ export const trainers = {
         "name": "Ace Trainer Reena",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 2280,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -27419,7 +27419,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Swift",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Minimize",
                     "Gyro Ball"
                 ]
@@ -27431,7 +27431,7 @@ export const trainers = {
         "name": "Ace Trainer Reena",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 2820,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -27454,7 +27454,7 @@ export const trainers = {
                     "Roar",
                     "Fire Fang",
                     "Odor Sleuth",
-                    "ExtremeSpeed"
+                    "Extreme Speed"
                 ]
             },
             {
@@ -27508,12 +27508,12 @@ export const trainers = {
         "name": "Bird Keeper Jose",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1440,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
-                "species": "Farfetch'd",
+                "species": "Farfetch’d",
                 "level": 38,
                 "experience_yield": 765,
                 "nature": "Hardy",
@@ -27535,7 +27535,7 @@ export const trainers = {
                 ]
             },
             {
-                "species": "Farfetch'd",
+                "species": "Farfetch’d",
                 "level": 45,
                 "experience_yield": 906,
                 "nature": "Naive",
@@ -27563,7 +27563,7 @@ export const trainers = {
         "name": "Bird Keeper Vance",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1024,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -27607,7 +27607,7 @@ export const trainers = {
                 "moves": [
                     "Whirlwind",
                     "Twister",
-                    "FeatherDance",
+                    "Feather Dance",
                     "Agility"
                 ]
             }
@@ -27618,7 +27618,7 @@ export const trainers = {
         "name": "Bird Keeper Vance",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1344,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -27639,7 +27639,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Twister",
-                    "FeatherDance",
+                    "Feather Dance",
                     "Agility",
                     "Wing Attack"
                 ]
@@ -27661,7 +27661,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Twister",
-                    "FeatherDance",
+                    "Feather Dance",
                     "Agility",
                     "Wing Attack"
                 ]
@@ -27695,7 +27695,7 @@ export const trainers = {
         "name": "Bug Catcher Arnie",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 688,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -27728,7 +27728,7 @@ export const trainers = {
         "name": "Fisherman Wilton",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1280,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -27805,7 +27805,7 @@ export const trainers = {
         "name": "Hiker Parry",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 1120,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -27827,7 +27827,7 @@ export const trainers = {
                 "moves": [
                     "Slam",
                     "Rock Polish",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Curse"
                 ]
             },
@@ -27847,7 +27847,7 @@ export const trainers = {
                     "special_defense": 36
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout",
                     "Rock Blast",
                     "Earthquake"
@@ -27860,7 +27860,7 @@ export const trainers = {
         "name": "Hiker Parry",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 1184,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -27881,7 +27881,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Rock Polish",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Curse",
                     "Iron Tail"
                 ]
@@ -27902,7 +27902,7 @@ export const trainers = {
                     "special_defense": 41
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout",
                     "Rock Blast",
                     "Earthquake"
@@ -27915,7 +27915,7 @@ export const trainers = {
         "name": "Picnicker Erin",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 768,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -27992,7 +27992,7 @@ export const trainers = {
         "name": "Juggler Irwin",
         "trainer_class": "Juggler",
         "location": null,
-        "money": -1,
+        "money": 1088,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -28080,7 +28080,7 @@ export const trainers = {
                 "moves": [
                     "Light Screen",
                     "Charge Beam",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Swift"
                 ]
             }
@@ -28091,7 +28091,7 @@ export const trainers = {
         "name": "Juggler Irwin",
         "trainer_class": "Juggler",
         "location": null,
-        "money": -1,
+        "money": 1344,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -28113,7 +28113,7 @@ export const trainers = {
                 "moves": [
                     "Light Screen",
                     "Charge Beam",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Swift"
                 ]
             },
@@ -28134,7 +28134,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Charge Beam",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Swift",
                     "Magnet Rise"
                 ]
@@ -28156,7 +28156,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Charge Beam",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Swift",
                     "Magnet Rise"
                 ]
@@ -28178,7 +28178,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Charge Beam",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Swift",
                     "Magnet Rise"
                 ]
@@ -28190,7 +28190,7 @@ export const trainers = {
         "name": "Ace Trainer Gaven",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 2040,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -28232,7 +28232,7 @@ export const trainers = {
                     "special_defense": 36
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Stomp",
                     "Guillotine",
                     "Protect"
@@ -28254,7 +28254,7 @@ export const trainers = {
                     "special_defense": 81
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Quick Attack",
                     "Bite",
                     "Fire Blast"
@@ -28267,7 +28267,7 @@ export const trainers = {
         "name": "Ace Trainer Gaven",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 2280,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -28333,7 +28333,7 @@ export const trainers = {
                 "moves": [
                     "Fire Blast",
                     "Quick Attack",
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Fire Spin"
                 ]
             }
@@ -28344,7 +28344,7 @@ export const trainers = {
         "name": "Ace Trainer Jamie",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 2220,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -28389,7 +28389,7 @@ export const trainers = {
                     "Discharge",
                     "Signal Beam",
                     "Charge",
-                    "ThunderPunch"
+                    "Thunder Punch"
                 ]
             }
         ]
@@ -28399,7 +28399,7 @@ export const trainers = {
         "name": "Ace Trainer Jamie",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 2400,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -28454,7 +28454,7 @@ export const trainers = {
         "name": "Bug Catcher Wade",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 448,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -28463,7 +28463,7 @@ export const trainers = {
                 "level": 28,
                 "experience_yield": 960,
                 "nature": "Naughty",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 71,
@@ -28485,7 +28485,7 @@ export const trainers = {
                 "level": 40,
                 "experience_yield": 1371,
                 "nature": "Timid",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 98,
@@ -28529,7 +28529,7 @@ export const trainers = {
                 "level": 28,
                 "experience_yield": 960,
                 "nature": "Naughty",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 71,
@@ -28553,7 +28553,7 @@ export const trainers = {
         "name": "Bug Catcher Wade",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 288,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -28582,7 +28582,7 @@ export const trainers = {
                 "level": 29,
                 "experience_yield": 993,
                 "nature": "Timid",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 73,
@@ -28647,7 +28647,7 @@ export const trainers = {
         "name": "Fisherman Ralph",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1280,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -28680,7 +28680,7 @@ export const trainers = {
         "name": "Fisherman Ralph",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1344,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -28735,7 +28735,7 @@ export const trainers = {
         "name": "Lass Dana",
         "trainer_class": "Lass",
         "location": null,
-        "money": -1,
+        "money": 496,
         "is_double_battle": false,
         "items": [
             "Moomoo Milk"
@@ -28792,7 +28792,7 @@ export const trainers = {
         "name": "Lass Dana",
         "trainer_class": "Lass",
         "location": null,
-        "money": -1,
+        "money": 608,
         "is_double_battle": false,
         "items": [
             "Moomoo Milk"
@@ -28849,7 +28849,7 @@ export const trainers = {
         "name": "Picnicker Tiffany",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 544,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -28882,7 +28882,7 @@ export const trainers = {
         "name": "Picnicker Tiffany",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 656,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -28915,7 +28915,7 @@ export const trainers = {
         "name": "Scientist Ross",
         "trainer_class": "Scientist",
         "location": null,
-        "money": -1,
+        "money": 704,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -28936,9 +28936,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Smog",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -28958,9 +28958,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Smog",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             }
         ]
@@ -28970,7 +28970,7 @@ export const trainers = {
         "name": "Scientist Mitch",
         "trainer_class": "Scientist",
         "location": null,
-        "money": -1,
+        "money": 768,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -29000,7 +29000,7 @@ export const trainers = {
         "name": "Scientist Gregg",
         "trainer_class": "Scientist",
         "location": null,
-        "money": -1,
+        "money": 640,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -29020,9 +29020,9 @@ export const trainers = {
                     "special_defense": 27
                 },
                 "moves": [
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave"
                 ]
             },
@@ -29042,9 +29042,9 @@ export const trainers = {
                     "special_defense": 27
                 },
                 "moves": [
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave"
                 ]
             },
@@ -29064,9 +29064,9 @@ export const trainers = {
                     "special_defense": 27
                 },
                 "moves": [
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave"
                 ]
             }
@@ -29077,7 +29077,7 @@ export const trainers = {
         "name": "Scientist Garett",
         "trainer_class": "Scientist",
         "location": null,
-        "money": -1,
+        "money": 864,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -29097,7 +29097,7 @@ export const trainers = {
                     "special_defense": 34
                 },
                 "moves": [
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark",
                     "Lock-On"
@@ -29119,7 +29119,7 @@ export const trainers = {
                     "special_defense": 34
                 },
                 "moves": [
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark",
                     "Lock-On"
@@ -29141,7 +29141,7 @@ export const trainers = {
                     "special_defense": 34
                 },
                 "moves": [
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark",
                     "Lock-On"
@@ -29154,7 +29154,7 @@ export const trainers = {
         "name": "Scientist Trenton",
         "trainer_class": "Scientist",
         "location": null,
-        "money": -1,
+        "money": 960,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -29187,7 +29187,7 @@ export const trainers = {
         "name": "Super Nerd Mickey",
         "trainer_class": "Super Nerd",
         "location": null,
-        "money": -1,
+        "money": 1056,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -29208,9 +29208,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Smog",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             },
             {
@@ -29230,9 +29230,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Smog",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             }
         ]
@@ -29242,7 +29242,7 @@ export const trainers = {
         "name": "Super Nerd Mickey",
         "trainer_class": "Super Nerd",
         "location": null,
-        "money": -1,
+        "money": 1152,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -29272,7 +29272,7 @@ export const trainers = {
         "name": "Super Nerd Mickey",
         "trainer_class": "Super Nerd",
         "location": null,
-        "money": -1,
+        "money": 960,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -29292,9 +29292,9 @@ export const trainers = {
                     "special_defense": 27
                 },
                 "moves": [
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave"
                 ]
             },
@@ -29314,9 +29314,9 @@ export const trainers = {
                     "special_defense": 27
                 },
                 "moves": [
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave"
                 ]
             },
@@ -29336,9 +29336,9 @@ export const trainers = {
                     "special_defense": 27
                 },
                 "moves": [
-                    "ThunderShock",
+                    "Thunder Shock",
                     "Supersonic",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave"
                 ]
             }
@@ -29349,7 +29349,7 @@ export const trainers = {
         "name": "Super Nerd Mickey",
         "trainer_class": "Super Nerd",
         "location": null,
-        "money": -1,
+        "money": 1296,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -29369,7 +29369,7 @@ export const trainers = {
                     "special_defense": 34
                 },
                 "moves": [
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark",
                     "Lock-On"
@@ -29391,7 +29391,7 @@ export const trainers = {
                     "special_defense": 30
                 },
                 "moves": [
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark",
                     "Lock-On"
@@ -29413,7 +29413,7 @@ export const trainers = {
                     "special_defense": 30
                 },
                 "moves": [
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder Wave",
                     "Spark",
                     "Lock-On"
@@ -29426,7 +29426,7 @@ export const trainers = {
         "name": "Super Nerd Mickey",
         "trainer_class": "Super Nerd",
         "location": null,
-        "money": -1,
+        "money": 1440,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -29459,7 +29459,7 @@ export const trainers = {
         "name": "Executive Ariana",
         "trainer_class": "Executive",
         "location": null,
-        "money": -1,
+        "money": 2560,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -29536,7 +29536,7 @@ export const trainers = {
         "name": "Executive Ariana",
         "trainer_class": "Executive",
         "location": null,
-        "money": -1,
+        "money": 2160,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -29613,7 +29613,7 @@ export const trainers = {
         "name": "Skier Diana",
         "trainer_class": "Skier",
         "location": null,
-        "money": -1,
+        "money": 928,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -29646,7 +29646,7 @@ export const trainers = {
         "name": "Skier Jill",
         "trainer_class": "Skier",
         "location": null,
-        "money": -1,
+        "money": 928,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -29679,7 +29679,7 @@ export const trainers = {
         "name": "Boarder Deandre",
         "trainer_class": "Boarder",
         "location": null,
-        "money": -1,
+        "money": 800,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -29756,7 +29756,7 @@ export const trainers = {
         "name": "Boarder Patton",
         "trainer_class": "Boarder",
         "location": null,
-        "money": -1,
+        "money": 864,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -29811,7 +29811,7 @@ export const trainers = {
         "name": "Boarder Gerardo",
         "trainer_class": "Boarder",
         "location": null,
-        "money": -1,
+        "money": 800,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -29888,7 +29888,7 @@ export const trainers = {
         "name": "Executive Archer",
         "trainer_class": "Executive",
         "location": null,
-        "money": -1,
+        "money": 3040,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -29911,7 +29911,7 @@ export const trainers = {
                     "Fire Fang",
                     "Roar",
                     "Bite",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             },
             {
@@ -29932,7 +29932,7 @@ export const trainers = {
                 "moves": [
                     "Tackle",
                     "Sludge",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Haze"
                 ]
             },
@@ -29955,7 +29955,7 @@ export const trainers = {
                     "Fire Fang",
                     "Smog",
                     "Bite",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             }
         ]
@@ -29965,7 +29965,7 @@ export const trainers = {
         "name": "Executive Proton",
         "trainer_class": "Executive",
         "location": null,
-        "money": -1,
+        "money": 480,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -30008,7 +30008,7 @@ export const trainers = {
                     "Poison Gas",
                     "Tackle",
                     "Smog",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ]
             }
         ]
@@ -30018,7 +30018,7 @@ export const trainers = {
         "name": "Executive Petrel",
         "trainer_class": "Executive",
         "location": null,
-        "money": -1,
+        "money": 1200,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -30039,9 +30039,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Sludge",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ]
             },
             {
@@ -30061,9 +30061,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Sludge",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ]
             },
             {
@@ -30083,9 +30083,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Sludge",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ]
             },
             {
@@ -30107,7 +30107,7 @@ export const trainers = {
                     "Tackle",
                     "Explosion",
                     "Sludge",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ]
             },
             {
@@ -30127,9 +30127,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Tackle",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Sludge",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ]
             },
             {
@@ -30151,7 +30151,7 @@ export const trainers = {
                     "Tackle",
                     "Smog",
                     "Sludge",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ]
             }
         ]
@@ -30161,7 +30161,7 @@ export const trainers = {
         "name": "Executive Petrel",
         "trainer_class": "Executive",
         "location": null,
-        "money": -1,
+        "money": 880,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -30226,9 +30226,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Smog",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance",
-                    "Selfdestruct"
+                    "Self-Destruct"
                 ]
             }
         ]
@@ -30238,7 +30238,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 3840,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -30263,7 +30263,7 @@ export const trainers = {
                 "moves": [
                     "Icy Wind",
                     "Shadow Claw",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Metal Claw"
                 ]
             },
@@ -30384,7 +30384,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 3840,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -30409,7 +30409,7 @@ export const trainers = {
                 "moves": [
                     "Icy Wind",
                     "Shadow Claw",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Metal Claw"
                 ]
             },
@@ -30530,7 +30530,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 3840,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -30555,7 +30555,7 @@ export const trainers = {
                 "moves": [
                     "Icy Wind",
                     "Shadow Claw",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Metal Claw"
                 ]
             },
@@ -30676,7 +30676,7 @@ export const trainers = {
         "name": "Pokefan Alex",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 4160,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -30752,7 +30752,7 @@ export const trainers = {
         "name": "Medium Edith",
         "trainer_class": "Medium",
         "location": null,
-        "money": -1,
+        "money": 1056,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -30785,7 +30785,7 @@ export const trainers = {
         "name": "Medium Georgina",
         "trainer_class": "Medium",
         "location": null,
-        "money": -1,
+        "money": 768,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -30906,7 +30906,7 @@ export const trainers = {
         "name": "Passerby Boy",
         "trainer_class": "Passerby",
         "location": null,
-        "money": -1,
+        "money": 500,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -30937,7 +30937,7 @@ export const trainers = {
         "name": "Passerby Boy",
         "trainer_class": "Passerby",
         "location": null,
-        "money": -1,
+        "money": 500,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -30968,7 +30968,7 @@ export const trainers = {
         "name": "Passerby Boy",
         "trainer_class": "Passerby",
         "location": null,
-        "money": -1,
+        "money": 500,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -30999,7 +30999,7 @@ export const trainers = {
         "name": "Mystery Man Eusine",
         "trainer_class": "Mystery Man",
         "location": null,
-        "money": -1,
+        "money": 3240,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -31064,7 +31064,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Screech",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Thunder",
                     "Rollout"
                 ]
@@ -31076,7 +31076,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 800,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -31131,7 +31131,7 @@ export const trainers = {
         "name": "Ace Trainer Kobe",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 2220,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -31164,7 +31164,7 @@ export const trainers = {
         "name": "Ace Trainer Piper",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 2100,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -31184,7 +31184,7 @@ export const trainers = {
                     "special_defense": 25
                 },
                 "moves": [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
                     "Brine",
                     "Twister"
@@ -31206,7 +31206,7 @@ export const trainers = {
                     "special_defense": 25
                 },
                 "moves": [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
                     "Brine",
                     "Twister"
@@ -31241,7 +31241,7 @@ export const trainers = {
         "name": "Twins Clea & Gil",
         "trainer_class": "Twins",
         "location": null,
-        "money": -1,
+        "money": 1120,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -31296,7 +31296,7 @@ export const trainers = {
         "name": "School Kid Jack",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 1040,
         "is_double_battle": false,
         "items": [
             "Hyper Potion"
@@ -31340,7 +31340,7 @@ export const trainers = {
                     "special_defense": 98
                 },
                 "moves": [
-                    "SolarBeam",
+                    "Solar Beam",
                     "Giga Drain",
                     "Moonlight",
                     "Sunny Day"
@@ -31362,7 +31362,7 @@ export const trainers = {
                     "special_defense": 88
                 },
                 "moves": [
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Flamethrower",
                     "Crunch",
                     "Reversal"
@@ -31375,7 +31375,7 @@ export const trainers = {
         "name": "School Kid Mickey",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 740,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -31396,7 +31396,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Screech",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Rollout",
                     "Light Screen"
                 ]
@@ -31439,7 +31439,7 @@ export const trainers = {
                     "special_defense": 71
                 },
                 "moves": [
-                    "SolarBeam",
+                    "Solar Beam",
                     "Sleep Powder",
                     "Acid",
                     "Moonlight"
@@ -31452,7 +31452,7 @@ export const trainers = {
         "name": "School Kid Alan",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 1080,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -31551,7 +31551,7 @@ export const trainers = {
         "name": "School Kid Mickey",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 700,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -31593,7 +31593,7 @@ export const trainers = {
                     "special_defense": 27
                 },
                 "moves": [
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Vine Whip",
                     "Bind",
                     "Mega Drain"
@@ -31617,7 +31617,7 @@ export const trainers = {
                 "moves": [
                     "Quick Attack",
                     "Double Team",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Supersonic"
                 ]
             },
@@ -31650,7 +31650,7 @@ export const trainers = {
         "name": "School Kid Chad",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 1120,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -31705,7 +31705,7 @@ export const trainers = {
         "name": "School Kid Mickey",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 760,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -31760,7 +31760,7 @@ export const trainers = {
         "name": "Sailor Huey",
         "trainer_class": "Sailor",
         "location": null,
-        "money": -1,
+        "money": 1664,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -31815,7 +31815,7 @@ export const trainers = {
         "name": "Youngster Joey",
         "trainer_class": "Youngster",
         "location": null,
-        "money": -1,
+        "money": 864,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -31848,7 +31848,7 @@ export const trainers = {
         "name": "Youngster Mickey",
         "trainer_class": "Youngster",
         "location": null,
-        "money": -1,
+        "money": 592,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -31881,7 +31881,7 @@ export const trainers = {
         "name": "Bug Catcher Wade",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 576,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -31890,7 +31890,7 @@ export const trainers = {
                 "level": 36,
                 "experience_yield": 1233,
                 "nature": "Modest",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 89,
@@ -31912,7 +31912,7 @@ export const trainers = {
                 "level": 52,
                 "experience_yield": 1782,
                 "nature": "Bashful",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 124,
@@ -31956,7 +31956,7 @@ export const trainers = {
                 "level": 36,
                 "experience_yield": 1233,
                 "nature": "Modest",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 89,
@@ -31980,7 +31980,7 @@ export const trainers = {
         "name": "Bug Catcher Arnie",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 896,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -31989,7 +31989,7 @@ export const trainers = {
                 "level": 45,
                 "experience_yield": 625,
                 "nature": "Lax",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 82,
@@ -32035,7 +32035,7 @@ export const trainers = {
         "name": "Bug Catcher Mickey",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 640,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -32068,7 +32068,7 @@ export const trainers = {
         "name": "Fisherman Ralph",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1792,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -32123,7 +32123,7 @@ export const trainers = {
         "name": "Fisherman Mickey",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1248,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -32178,7 +32178,7 @@ export const trainers = {
         "name": "Fisherman Tully",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1696,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -32255,7 +32255,7 @@ export const trainers = {
         "name": "Picnicker Liz",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 960,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -32332,7 +32332,7 @@ export const trainers = {
         "name": "Picnicker Mickey",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 512,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -32353,7 +32353,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Sleep Powder",
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Stun Spore",
                     "Sludge Bomb"
                 ]
@@ -32409,7 +32409,7 @@ export const trainers = {
         "name": "Picnicker Gina",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 880,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -32476,7 +32476,7 @@ export const trainers = {
                     "Petal Dance",
                     "Worry Seed",
                     "Synthesis",
-                    "SolarBeam"
+                    "Solar Beam"
                 ]
             }
         ]
@@ -32486,7 +32486,7 @@ export const trainers = {
         "name": "Picnicker Mickey",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 608,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -32550,7 +32550,7 @@ export const trainers = {
                     "special_defense": 81
                 },
                 "moves": [
-                    "SolarBeam",
+                    "Solar Beam",
                     "Razor Leaf",
                     "Headbutt",
                     "Mud-Slap"
@@ -32563,7 +32563,7 @@ export const trainers = {
         "name": "Picnicker Tiffany",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 976,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -32596,7 +32596,7 @@ export const trainers = {
         "name": "Hiker Anthony",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 1760,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -32663,7 +32663,7 @@ export const trainers = {
                     "Wake-Up Slap",
                     "Cross Chop",
                     "Scary Face",
-                    "DynamicPunch"
+                    "Dynamic Punch"
                 ]
             }
         ]
@@ -32673,7 +32673,7 @@ export const trainers = {
         "name": "Hiker Mickey",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 1088,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -32694,7 +32694,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Defense Curl",
                     "Rollout"
                 ]
@@ -32716,7 +32716,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Magnitude",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Defense Curl",
                     "Rollout"
                 ]
@@ -32750,7 +32750,7 @@ export const trainers = {
         "name": "Camper Todd",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 896,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -32770,7 +32770,7 @@ export const trainers = {
                     "special_defense": 37
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout",
                     "Rock Blast",
                     "Earthquake"
@@ -32849,7 +32849,7 @@ export const trainers = {
         "name": "Camper Mickey",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 544,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -32869,7 +32869,7 @@ export const trainers = {
                     "special_defense": 34
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rock Throw",
                     "Harden",
                     "Magnitude"
@@ -32891,7 +32891,7 @@ export const trainers = {
                     "special_defense": 34
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rock Throw",
                     "Harden",
                     "Magnitude"
@@ -32948,7 +32948,7 @@ export const trainers = {
         "name": "Juggler Irwin",
         "trainer_class": "Juggler",
         "location": null,
-        "money": -1,
+        "money": 1632,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -32970,7 +32970,7 @@ export const trainers = {
                 "moves": [
                     "Rollout",
                     "Spark",
-                    "SonicBoom",
+                    "Sonic Boom",
                     "Charge"
                 ]
             },
@@ -33047,7 +33047,7 @@ export const trainers = {
         "name": "Lass Dana",
         "trainer_class": "Lass",
         "location": null,
-        "money": -1,
+        "money": 864,
         "is_double_battle": false,
         "items": [
             "Moomoo Milk"
@@ -33104,7 +33104,7 @@ export const trainers = {
         "name": "Lass Mickey",
         "trainer_class": "Lass",
         "location": null,
-        "money": -1,
+        "money": 576,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -33125,7 +33125,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Swift",
-                    "ThunderPunch",
+                    "Thunder Punch",
                     "Thunder Wave",
                     "Cotton Spore"
                 ]
@@ -33159,7 +33159,7 @@ export const trainers = {
         "name": "Poke Maniac Brent",
         "trainer_class": "Poke Maniac",
         "location": null,
-        "money": -1,
+        "money": 3712,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -33258,7 +33258,7 @@ export const trainers = {
         "name": "Twins Mickey",
         "trainer_class": "Twins",
         "location": null,
-        "money": -1,
+        "money": 1216,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -33313,7 +33313,7 @@ export const trainers = {
         "name": "Bug Catcher Mickey",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 544,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -33322,7 +33322,7 @@ export const trainers = {
                 "level": 30,
                 "experience_yield": 1027,
                 "nature": "Serious",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 76,
@@ -33334,7 +33334,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Confusion",
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Supersonic",
                     "Gust"
                 ]
@@ -33344,7 +33344,7 @@ export const trainers = {
                 "level": 30,
                 "experience_yield": 1027,
                 "nature": "Serious",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 76,
@@ -33388,7 +33388,7 @@ export const trainers = {
                 "level": 34,
                 "experience_yield": 1165,
                 "nature": "Quirky",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 84,
@@ -33412,7 +33412,7 @@ export const trainers = {
         "name": "Bug Catcher Wayne",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 160,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -33454,7 +33454,7 @@ export const trainers = {
                 "moves": [
                     "Scratch",
                     "Stun Spore",
-                    "PoisonPowder"
+                    "Poison Powder"
                 ]
             }
         ]
@@ -33464,7 +33464,7 @@ export const trainers = {
         "name": "Beauty Kimberly",
         "trainer_class": "Beauty",
         "location": null,
-        "money": -1,
+        "money": 1064,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -33497,7 +33497,7 @@ export const trainers = {
         "name": "Pokefan Marigold",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 1024,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -33530,7 +33530,7 @@ export const trainers = {
         "name": "Camper Bertrand",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 480,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -33607,7 +33607,7 @@ export const trainers = {
         "name": "Poke Maniac Harrison",
         "trainer_class": "Poke Maniac",
         "location": null,
-        "money": -1,
+        "money": 1088,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -33662,7 +33662,7 @@ export const trainers = {
         "name": "Super Nerd Hugh",
         "trainer_class": "Super Nerd",
         "location": null,
-        "money": -1,
+        "money": 1872,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -33682,7 +33682,7 @@ export const trainers = {
                     "special_defense": 40
                 },
                 "moves": [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Twister",
                     "Surf",
                     "Waterfall"
@@ -33695,7 +33695,7 @@ export const trainers = {
         "name": "Super Nerd Markus",
         "trainer_class": "Super Nerd",
         "location": null,
-        "money": -1,
+        "money": 912,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -33728,7 +33728,7 @@ export const trainers = {
         "name": "Pokefan Rex",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 2880,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -33761,7 +33761,7 @@ export const trainers = {
         "name": "Pokefan Andy",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 2816,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -33794,7 +33794,7 @@ export const trainers = {
         "name": "Sage Mickey",
         "trainer_class": "Sage",
         "location": null,
-        "money": -1,
+        "money": 1536,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -33836,7 +33836,7 @@ export const trainers = {
                     "special_defense": 75
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Flamethrower",
                     "Quick Attack",
                     "Bite"
@@ -33849,7 +33849,7 @@ export const trainers = {
         "name": "Sage Mickey",
         "trainer_class": "Sage",
         "location": null,
-        "money": -1,
+        "money": 1536,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -33891,7 +33891,7 @@ export const trainers = {
                     "special_defense": 65
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Thunderbolt",
                     "Quick Attack",
                     "Double Kick"
@@ -33904,7 +33904,7 @@ export const trainers = {
         "name": "Sage Mickey",
         "trainer_class": "Sage",
         "location": null,
-        "money": -1,
+        "money": 1536,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -33946,7 +33946,7 @@ export const trainers = {
                     "special_defense": 65
                 },
                 "moves": [
-                    "Sand-Attack",
+                    "Sand Attack",
                     "Surf",
                     "Quick Attack",
                     "Bite"
@@ -33959,7 +33959,7 @@ export const trainers = {
         "name": "Ace Trainer French",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 2820,
         "is_double_battle": false,
         "items": [
             "Dire Hit"
@@ -34016,7 +34016,7 @@ export const trainers = {
         "name": "School Kid Sherman",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 860,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -34071,7 +34071,7 @@ export const trainers = {
         "name": "Hiker Bruce",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 1440,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -34102,7 +34102,7 @@ export const trainers = {
                 "level": 44,
                 "experience_yield": 1923,
                 "nature": "Lonely",
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "held_item": null,
                 "stats": {
                     "hp": 146,
@@ -34148,7 +34148,7 @@ export const trainers = {
         "name": "Black Belt Manford",
         "trainer_class": "Black Belt",
         "location": null,
-        "money": -1,
+        "money": 1128,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -34169,7 +34169,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Hydro Pump",
-                    "DynamicPunch",
+                    "Dynamic Punch",
                     "Mud Shot",
                     "Hypnosis"
                 ]
@@ -34181,7 +34181,7 @@ export const trainers = {
         "name": "Double Team Zac & Jen",
         "trainer_class": "Double Team",
         "location": null,
-        "money": -1,
+        "money": 11280,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -34236,7 +34236,7 @@ export const trainers = {
         "name": "Black Belt Ander",
         "trainer_class": "Black Belt",
         "location": null,
-        "money": -1,
+        "money": 1056,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -34313,7 +34313,7 @@ export const trainers = {
         "name": "Hiker Dwight",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 1408,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -34356,7 +34356,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Rock Polish",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Curse",
                     "Iron Tail"
                 ]
@@ -34368,7 +34368,7 @@ export const trainers = {
         "name": "Youngster Regis",
         "trainer_class": "Youngster",
         "location": null,
-        "money": -1,
+        "money": 640,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -34411,7 +34411,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Charge Beam",
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Swift",
                     "Magnet Rise"
                 ]
@@ -34423,7 +34423,7 @@ export const trainers = {
         "name": "Young Couple Moe & Lulu",
         "trainer_class": "Young Couple",
         "location": null,
-        "money": -1,
+        "money": 5504,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -34444,7 +34444,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Mega Drain",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Zen Headbutt",
                     "Rain Dance"
                 ]
@@ -34478,7 +34478,7 @@ export const trainers = {
         "name": "Gentleman Milton",
         "trainer_class": "Gentleman",
         "location": null,
-        "money": -1,
+        "money": 9000,
         "is_double_battle": false,
         "items": [
             "Full Restore"
@@ -34513,7 +34513,7 @@ export const trainers = {
         "name": "Bird Keeper Justin",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1248,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -34568,7 +34568,7 @@ export const trainers = {
         "name": "Bird Keeper Gail",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1248,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -34623,7 +34623,7 @@ export const trainers = {
         "name": "Young Couple Vic & Tara",
         "trainer_class": "Young Couple",
         "location": null,
-        "money": -1,
+        "money": 5504,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -34665,7 +34665,7 @@ export const trainers = {
                     "special_defense": 78
                 },
                 "moves": [
-                    "SolarBeam",
+                    "Solar Beam",
                     "Razor Leaf",
                     "Ingrain",
                     "Mega Drain"
@@ -34678,7 +34678,7 @@ export const trainers = {
         "name": "Fisherman Kyler",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 576,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -34749,7 +34749,7 @@ export const trainers = {
         "name": "Young Couple Tim & Sue",
         "trainer_class": "Young Couple",
         "location": null,
-        "money": -1,
+        "money": 5888,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -34804,7 +34804,7 @@ export const trainers = {
         "name": "Camper Clark",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 640,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -34837,7 +34837,7 @@ export const trainers = {
         "name": "Camper Tanner",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 608,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -34857,7 +34857,7 @@ export const trainers = {
                     "special_defense": 54
                 },
                 "moves": [
-                    "Faint Attack",
+                    "Feint Attack",
                     "Rock Tomb",
                     "Rock Slide",
                     "Slam"
@@ -34870,7 +34870,7 @@ export const trainers = {
         "name": "Picnicker Piper",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 640,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -34903,7 +34903,7 @@ export const trainers = {
         "name": "Picnicker Ginger",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 656,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -34936,7 +34936,7 @@ export const trainers = {
         "name": "Teacher Clarice",
         "trainer_class": "Teacher",
         "location": null,
-        "money": -1,
+        "money": 2064,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -34991,7 +34991,7 @@ export const trainers = {
         "name": "Bird Keeper Josh",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1184,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35024,7 +35024,7 @@ export const trainers = {
         "name": "School Kid Connor",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 840,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35057,7 +35057,7 @@ export const trainers = {
         "name": "School Kid Torin",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 780,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35112,7 +35112,7 @@ export const trainers = {
         "name": "School Kid Travis",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 840,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35145,7 +35145,7 @@ export const trainers = {
         "name": "Twins Kay & Tia",
         "trainer_class": "Twins",
         "location": null,
-        "money": -1,
+        "money": 1312,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -35198,7 +35198,7 @@ export const trainers = {
         "name": "Pokefan Boone",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 2624,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35253,7 +35253,7 @@ export const trainers = {
         "name": "Pokefan Eleanor",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 2624,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35308,7 +35308,7 @@ export const trainers = {
         "name": "Biker Dale",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 752,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35341,7 +35341,7 @@ export const trainers = {
         "name": "Biker Jacob",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 688,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35396,7 +35396,7 @@ export const trainers = {
         "name": "Biker Aiden",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 720,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35429,7 +35429,7 @@ export const trainers = {
         "name": "Biker Dan",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 592,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35471,7 +35471,7 @@ export const trainers = {
                     "special_defense": 56
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Sludge",
                     "Haze",
                     "Double Hit"
@@ -35493,7 +35493,7 @@ export const trainers = {
                     "special_defense": 56
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Sludge",
                     "Haze",
                     "Double Hit"
@@ -35506,7 +35506,7 @@ export const trainers = {
         "name": "Biker Theron",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 720,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35514,13 +35514,13 @@ export const trainers = {
                 "species": "Croagunk",
                 "level": 45,
                 "experience_yield": 799,
-                "nature": "Docile",
-                "ability": "Anticipation",
+                "nature": "Bold",
+                "ability": "Dry Skin",
                 "held_item": null,
                 "stats": {
                     "hp": 98,
-                    "attack": 59,
-                    "defense": 41,
+                    "attack": 53,
+                    "defense": 45,
                     "speed": 50,
                     "special_attack": 59,
                     "special_defense": 41
@@ -35539,7 +35539,7 @@ export const trainers = {
         "name": "Biker Markey",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 752,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35572,7 +35572,7 @@ export const trainers = {
         "name": "Biker Teddy",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 736,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35605,7 +35605,7 @@ export const trainers = {
         "name": "Biker Ernest",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 704,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35660,7 +35660,7 @@ export const trainers = {
         "name": "Camper Pedro",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 720,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35693,7 +35693,7 @@ export const trainers = {
         "name": "Picnicker Adrian",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 720,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35726,7 +35726,7 @@ export const trainers = {
         "name": "Picnicker Cheyenne",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 720,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35759,7 +35759,7 @@ export const trainers = {
         "name": "Bird Keeper Bert",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1376,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35814,7 +35814,7 @@ export const trainers = {
         "name": "Bird Keeper Ernie",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1536,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35847,7 +35847,7 @@ export const trainers = {
         "name": "Swimmer Elmo",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 672,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35867,7 +35867,7 @@ export const trainers = {
                     "special_defense": 51
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Mud Shot",
                     "Belly Drum",
                     "Wake-Up Slap"
@@ -35902,7 +35902,7 @@ export const trainers = {
         "name": "Swimmer Luis",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 672,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35957,7 +35957,7 @@ export const trainers = {
         "name": "Swimmer Leona",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 704,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -35990,7 +35990,7 @@ export const trainers = {
         "name": "Swimmer Mina",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 656,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -36067,7 +36067,7 @@ export const trainers = {
         "name": "Fisherman Murphy",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1216,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -36088,9 +36088,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Rock Blast",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Lucky Chant",
-                    "AncientPower"
+                    "Ancient Power"
                 ]
             },
             {
@@ -36110,9 +36110,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Rock Blast",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Lucky Chant",
-                    "AncientPower"
+                    "Ancient Power"
                 ]
             },
             {
@@ -36132,9 +36132,9 @@ export const trainers = {
                 },
                 "moves": [
                     "Rock Blast",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Lucky Chant",
-                    "AncientPower"
+                    "Ancient Power"
                 ]
             },
             {
@@ -36153,9 +36153,9 @@ export const trainers = {
                     "special_defense": 69
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Lucky Chant",
-                    "AncientPower",
+                    "Ancient Power",
                     "Aqua Ring"
                 ]
             }
@@ -36166,7 +36166,7 @@ export const trainers = {
         "name": "Fisherman Liam",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1344,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -36199,7 +36199,7 @@ export const trainers = {
         "name": "Fisherman Gideon",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1280,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -36221,7 +36221,7 @@ export const trainers = {
                 "moves": [
                     "Discharge",
                     "Signal Beam",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Confuse Ray"
                 ]
             },
@@ -36254,7 +36254,7 @@ export const trainers = {
         "name": "Swimmer Chelan",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 640,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -36287,7 +36287,7 @@ export const trainers = {
         "name": "Swimmer Kendra",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 688,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -36320,7 +36320,7 @@ export const trainers = {
         "name": "Swimmer Esteban",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 608,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -36363,7 +36363,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Body Slam",
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Mud Shot",
                     "Belly Drum"
                 ]
@@ -36375,7 +36375,7 @@ export const trainers = {
         "name": "Swimmer Duane",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 640,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -36430,12 +36430,12 @@ export const trainers = {
         "name": "Bird Keeper Kinsley",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1184,
         "is_double_battle": false,
         "items": [],
         "party": [
             {
-                "species": "Farfetch'd",
+                "species": "Farfetch’d",
                 "level": 36,
                 "experience_yield": 724,
                 "nature": "Modest",
@@ -36495,7 +36495,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Twister",
-                    "FeatherDance",
+                    "Feather Dance",
                     "Agility",
                     "Wing Attack"
                 ]
@@ -36507,7 +36507,7 @@ export const trainers = {
         "name": "Bird Keeper Easton",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1152,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -36606,7 +36606,7 @@ export const trainers = {
         "name": "Twins Day & Dani",
         "trainer_class": "Twins",
         "location": null,
-        "money": -1,
+        "money": 1312,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -36661,7 +36661,7 @@ export const trainers = {
         "name": "Camper Virgil",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 688,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -36694,7 +36694,7 @@ export const trainers = {
         "name": "Picnicker Selina",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 672,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -36716,7 +36716,7 @@ export const trainers = {
                 "moves": [
                     "Worry Seed",
                     "Take Down",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Lucky Chant"
                 ]
             }
@@ -36727,7 +36727,7 @@ export const trainers = {
         "name": "Team Rocket Grunt",
         "trainer_class": "Team Rocket",
         "location": null,
-        "money": -1,
+        "money": 480,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -36750,7 +36750,7 @@ export const trainers = {
                     "Poison Gas",
                     "Tackle",
                     "Smog",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ]
             }
         ]
@@ -36760,14 +36760,14 @@ export const trainers = {
         "name": "Bird Keeper Jose",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1696,
         "is_double_battle": false,
         "items": [
             "X Attack"
         ],
         "party": [
             {
-                "species": "Farfetch'd",
+                "species": "Farfetch’d",
                 "level": 50,
                 "experience_yield": 1006,
                 "nature": "Quiet",
@@ -36789,7 +36789,7 @@ export const trainers = {
                 ]
             },
             {
-                "species": "Farfetch'd",
+                "species": "Farfetch’d",
                 "level": 52,
                 "experience_yield": 1047,
                 "nature": "Bold",
@@ -36811,7 +36811,7 @@ export const trainers = {
                 ]
             },
             {
-                "species": "Farfetch'd",
+                "species": "Farfetch’d",
                 "level": 53,
                 "experience_yield": 1066,
                 "nature": "Naughty",
@@ -36839,7 +36839,7 @@ export const trainers = {
         "name": "Picnicker Erin",
         "trainer_class": "Picnicker",
         "location": null,
-        "money": -1,
+        "money": 848,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -36883,7 +36883,7 @@ export const trainers = {
                 "moves": [
                     "Petal Dance",
                     "Sunny Day",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Leaf Storm"
                 ]
             },
@@ -36938,7 +36938,7 @@ export const trainers = {
         "name": "Ace Trainer Gaven",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 3000,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -37015,7 +37015,7 @@ export const trainers = {
         "name": "Black Belt Kenji",
         "trainer_class": "Black Belt",
         "location": null,
-        "money": -1,
+        "money": 1272,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -37036,7 +37036,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Rock Polish",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Curse",
                     "Iron Tail"
                 ]
@@ -37060,7 +37060,7 @@ export const trainers = {
                     "Wake-Up Slap",
                     "Cross Chop",
                     "Scary Face",
-                    "DynamicPunch"
+                    "Dynamic Punch"
                 ]
             },
             {
@@ -37114,7 +37114,7 @@ export const trainers = {
         "name": "Hiker Parry",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 1664,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -37169,7 +37169,7 @@ export const trainers = {
         "name": "Ace Trainer Reena",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 3360,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -37190,7 +37190,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Flare Blitz",
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Crunch",
                     "Roar"
                 ]
@@ -37246,7 +37246,7 @@ export const trainers = {
         "name": "Fisherman Wilton",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 2016,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -37323,7 +37323,7 @@ export const trainers = {
         "name": "Ace Trainer Jamie",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 3540,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -37378,7 +37378,7 @@ export const trainers = {
         "name": "Pokefan Derek",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 3008,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -37422,7 +37422,7 @@ export const trainers = {
                 "moves": [
                     "Fake Tears",
                     "Fury Swipes",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Sweet Scent"
                 ]
             },
@@ -37477,7 +37477,7 @@ export const trainers = {
         "name": "Pokefan Beverly",
         "trainer_class": "Pokefan",
         "location": null,
-        "money": -1,
+        "money": 3392,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -37510,7 +37510,7 @@ export const trainers = {
         "name": "Bird Keeper Vance",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1728,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -37552,7 +37552,7 @@ export const trainers = {
                     "special_defense": 75
                 },
                 "moves": [
-                    "FeatherDance",
+                    "Feather Dance",
                     "Agility",
                     "Wing Attack",
                     "Roost"
@@ -37587,7 +37587,7 @@ export const trainers = {
         "name": "Lass Krise",
         "trainer_class": "Lass",
         "location": null,
-        "money": -1,
+        "money": 496,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -37607,7 +37607,7 @@ export const trainers = {
                     "special_defense": 35
                 },
                 "moves": [
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Stun Spore",
                     "Sleep Powder",
                     "Mega Drain"
@@ -37642,7 +37642,7 @@ export const trainers = {
         "name": "Lass Krise",
         "trainer_class": "Lass",
         "location": null,
-        "money": -1,
+        "money": 608,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -37697,7 +37697,7 @@ export const trainers = {
         "name": "Lass Krise",
         "trainer_class": "Lass",
         "location": null,
-        "money": -1,
+        "money": 864,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -37719,7 +37719,7 @@ export const trainers = {
                 "moves": [
                     "Aromatherapy",
                     "Stun Spore",
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Petal Dance"
                 ]
             },
@@ -37752,7 +37752,7 @@ export const trainers = {
         "name": "Youngster Ian",
         "trainer_class": "Youngster",
         "location": null,
-        "money": -1,
+        "money": 528,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -37807,7 +37807,7 @@ export const trainers = {
         "name": "Youngster Ian",
         "trainer_class": "Youngster",
         "location": null,
-        "money": -1,
+        "money": 640,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -37862,7 +37862,7 @@ export const trainers = {
         "name": "Youngster Ian",
         "trainer_class": "Youngster",
         "location": null,
-        "money": -1,
+        "money": 928,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -37917,7 +37917,7 @@ export const trainers = {
         "name": "Firebreather Walt",
         "trainer_class": "Firebreather",
         "location": null,
-        "money": -1,
+        "money": 1024,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -37937,8 +37937,8 @@ export const trainers = {
                     "special_defense": 47
                 },
                 "moves": [
-                    "SmokeScreen",
-                    "Faint Attack",
+                    "Smokescreen",
+                    "Feint Attack",
                     "Fire Spin",
                     "Confuse Ray"
                 ]
@@ -37959,7 +37959,7 @@ export const trainers = {
                     "special_defense": 59
                 },
                 "moves": [
-                    "Faint Attack",
+                    "Feint Attack",
                     "Fire Spin",
                     "Confuse Ray",
                     "Fire Punch"
@@ -37972,7 +37972,7 @@ export const trainers = {
         "name": "Firebreather Walt",
         "trainer_class": "Firebreather",
         "location": null,
-        "money": -1,
+        "money": 1184,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -37992,7 +37992,7 @@ export const trainers = {
                     "special_defense": 62
                 },
                 "moves": [
-                    "Faint Attack",
+                    "Feint Attack",
                     "Fire Spin",
                     "Confuse Ray",
                     "Fire Punch"
@@ -38027,7 +38027,7 @@ export const trainers = {
         "name": "Firebreather Walt",
         "trainer_class": "Firebreather",
         "location": null,
-        "money": -1,
+        "money": 1856,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -38047,8 +38047,8 @@ export const trainers = {
                     "special_defense": 33
                 },
                 "moves": [
-                    "SmokeScreen",
-                    "Faint Attack",
+                    "Smokescreen",
+                    "Feint Attack",
                     "Fire Spin",
                     "Confuse Ray"
                 ]
@@ -38104,7 +38104,7 @@ export const trainers = {
         "name": "Bug Catcher Doug",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 640,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -38113,7 +38113,7 @@ export const trainers = {
                 "level": 40,
                 "experience_yield": 1371,
                 "nature": "Rash",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 98,
@@ -38159,7 +38159,7 @@ export const trainers = {
         "name": "Bug Catcher Doug",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 736,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -38168,7 +38168,7 @@ export const trainers = {
                 "level": 47,
                 "experience_yield": 1611,
                 "nature": "Adamant",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 113,
@@ -38214,7 +38214,7 @@ export const trainers = {
         "name": "Bug Catcher Doug",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 800,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -38223,7 +38223,7 @@ export const trainers = {
                 "level": 52,
                 "experience_yield": 1782,
                 "nature": "Docile",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 124,
@@ -38269,7 +38269,7 @@ export const trainers = {
         "name": "Bug Catcher Rob",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 672,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -38300,7 +38300,7 @@ export const trainers = {
                 "level": 42,
                 "experience_yield": 1440,
                 "nature": "Mild",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 102,
@@ -38324,7 +38324,7 @@ export const trainers = {
         "name": "Bug Catcher Rob",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 768,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -38355,7 +38355,7 @@ export const trainers = {
                 "level": 48,
                 "experience_yield": 1645,
                 "nature": "Hardy",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 115,
@@ -38379,7 +38379,7 @@ export const trainers = {
         "name": "Bug Catcher Rob",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 896,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -38410,7 +38410,7 @@ export const trainers = {
                 "level": 56,
                 "experience_yield": 1920,
                 "nature": "Lax",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 133,
@@ -38434,7 +38434,7 @@ export const trainers = {
         "name": "Biker Reese",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 768,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -38478,7 +38478,7 @@ export const trainers = {
                 "moves": [
                     "Sludge Bomb",
                     "Double Hit",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance"
                 ]
             }
@@ -38489,7 +38489,7 @@ export const trainers = {
         "name": "Biker Reese",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 800,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -38533,7 +38533,7 @@ export const trainers = {
                 "moves": [
                     "Sludge Bomb",
                     "Double Hit",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance"
                 ]
             }
@@ -38544,7 +38544,7 @@ export const trainers = {
         "name": "Biker Reese",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 880,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -38588,7 +38588,7 @@ export const trainers = {
                 "moves": [
                     "Sludge Bomb",
                     "Double Hit",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Thunder"
                 ]
             }
@@ -38599,7 +38599,7 @@ export const trainers = {
         "name": "Biker Aiden",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 784,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -38654,7 +38654,7 @@ export const trainers = {
         "name": "Biker Aiden",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 880,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -38709,7 +38709,7 @@ export const trainers = {
         "name": "Biker Aiden",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 928,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -38786,7 +38786,7 @@ export const trainers = {
         "name": "Biker Ernest",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 752,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -38841,7 +38841,7 @@ export const trainers = {
         "name": "Biker Ernest",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 784,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -38896,7 +38896,7 @@ export const trainers = {
         "name": "Biker Ernest",
         "trainer_class": "Biker",
         "location": null,
-        "money": -1,
+        "money": 864,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -38951,7 +38951,7 @@ export const trainers = {
         "name": "Teacher Hillary",
         "trainer_class": "Teacher",
         "location": null,
-        "money": -1,
+        "money": 2064,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -38995,7 +38995,7 @@ export const trainers = {
                 "moves": [
                     "Petal Dance",
                     "Sunny Day",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Leaf Storm"
                 ]
             }
@@ -39006,7 +39006,7 @@ export const trainers = {
         "name": "Teacher Hillary",
         "trainer_class": "Teacher",
         "location": null,
-        "money": -1,
+        "money": 2352,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -39050,7 +39050,7 @@ export const trainers = {
                 "moves": [
                     "Petal Dance",
                     "Sunny Day",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Leaf Storm"
                 ]
             }
@@ -39061,7 +39061,7 @@ export const trainers = {
         "name": "Teacher Hillary",
         "trainer_class": "Teacher",
         "location": null,
-        "money": -1,
+        "money": 2640,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -39105,7 +39105,7 @@ export const trainers = {
                 "moves": [
                     "Petal Dance",
                     "Sunny Day",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Leaf Storm"
                 ]
             }
@@ -39116,7 +39116,7 @@ export const trainers = {
         "name": "School Kid Billy",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 800,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -39158,7 +39158,7 @@ export const trainers = {
                     "special_defense": 48
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Mud Shot",
                     "Belly Drum",
                     "Wake-Up Slap"
@@ -39190,7 +39190,7 @@ export const trainers = {
         "name": "School Kid Billy",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 920,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -39232,7 +39232,7 @@ export const trainers = {
                     "special_defense": 52
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Mud Shot",
                     "Belly Drum",
                     "Wake-Up Slap"
@@ -39264,7 +39264,7 @@ export const trainers = {
         "name": "School Kid Billy",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 1020,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -39329,7 +39329,7 @@ export const trainers = {
                 "moves": [
                     "Wake-Up Slap",
                     "Belly Drum",
-                    "DynamicPunch",
+                    "Dynamic Punch",
                     "Hypnosis"
                 ]
             },
@@ -39359,7 +39359,7 @@ export const trainers = {
         "name": "Twins Kay & Tia",
         "trainer_class": "Twins",
         "location": null,
-        "money": -1,
+        "money": 1536,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -39412,7 +39412,7 @@ export const trainers = {
         "name": "Twins Kay & Tia",
         "trainer_class": "Twins",
         "location": null,
-        "money": -1,
+        "money": 1696,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -39467,7 +39467,7 @@ export const trainers = {
         "name": "Twins Kay & Tia",
         "trainer_class": "Twins",
         "location": null,
-        "money": -1,
+        "money": 1760,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -39522,7 +39522,7 @@ export const trainers = {
         "name": "Bird Keeper Josh",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1408,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -39577,7 +39577,7 @@ export const trainers = {
         "name": "Bird Keeper Josh",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1632,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -39632,7 +39632,7 @@ export const trainers = {
         "name": "Bird Keeper Josh",
         "trainer_class": "Bird Keeper",
         "location": null,
-        "money": -1,
+        "money": 1760,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -39687,7 +39687,7 @@ export const trainers = {
         "name": "School Kid Torin",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 820,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -39764,7 +39764,7 @@ export const trainers = {
         "name": "School Kid Torin",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 960,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -39841,7 +39841,7 @@ export const trainers = {
         "name": "School Kid Torin",
         "trainer_class": "School Kid",
         "location": null,
-        "money": -1,
+        "money": 1040,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -39918,7 +39918,7 @@ export const trainers = {
         "name": "Young Couple Tim & Sue",
         "trainer_class": "Young Couple",
         "location": null,
-        "money": -1,
+        "money": 6400,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -39973,7 +39973,7 @@ export const trainers = {
         "name": "Young Couple Tim & Sue",
         "trainer_class": "Young Couple",
         "location": null,
-        "money": -1,
+        "money": 6656,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -40028,7 +40028,7 @@ export const trainers = {
         "name": "Young Couple Tim & Sue",
         "trainer_class": "Young Couple",
         "location": null,
-        "money": -1,
+        "money": 7168,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -40083,7 +40083,7 @@ export const trainers = {
         "name": "Hiker Kenny",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 1024,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -40125,7 +40125,7 @@ export const trainers = {
                     "special_defense": 34
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout",
                     "Rock Blast",
                     "Earthquake"
@@ -40147,7 +40147,7 @@ export const trainers = {
                     "special_defense": 53
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout",
                     "Rock Blast",
                     "Earthquake"
@@ -40182,7 +40182,7 @@ export const trainers = {
         "name": "Hiker Kenny",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 1472,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -40224,7 +40224,7 @@ export const trainers = {
                     "special_defense": 38
                 },
                 "moves": [
-                    "Selfdestruct",
+                    "Self-Destruct",
                     "Rollout",
                     "Rock Blast",
                     "Earthquake"
@@ -40268,7 +40268,7 @@ export const trainers = {
                     "special_defense": 46
                 },
                 "moves": [
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Curse",
                     "Iron Tail",
                     "Sand Tomb"
@@ -40281,7 +40281,7 @@ export const trainers = {
         "name": "Hiker Kenny",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 1728,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -40380,7 +40380,7 @@ export const trainers = {
         "name": "Camper Tanner",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 656,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -40422,7 +40422,7 @@ export const trainers = {
                     "special_defense": 55
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Signal Beam",
                     "Discharge",
                     "Aqua Ring"
@@ -40435,7 +40435,7 @@ export const trainers = {
         "name": "Camper Tanner",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 704,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -40477,7 +40477,7 @@ export const trainers = {
                     "special_defense": 76
                 },
                 "moves": [
-                    "BubbleBeam",
+                    "Bubble Beam",
                     "Signal Beam",
                     "Discharge",
                     "Aqua Ring"
@@ -40512,7 +40512,7 @@ export const trainers = {
         "name": "Camper Tanner",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 832,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -40589,7 +40589,7 @@ export const trainers = {
         "name": "Fisherman Kyle",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1376,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -40666,7 +40666,7 @@ export const trainers = {
         "name": "Fisherman Kyle",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1248,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -40765,7 +40765,7 @@ export const trainers = {
         "name": "Fisherman Kyle",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 1632,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -40864,7 +40864,7 @@ export const trainers = {
         "name": "Fisherman Kyler",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 576,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -40955,7 +40955,7 @@ export const trainers = {
         "name": "Fisherman Kyler",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 576,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -41066,7 +41066,7 @@ export const trainers = {
         "name": "Fisherman Kyler",
         "trainer_class": "Fisherman",
         "location": null,
-        "money": -1,
+        "money": 576,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -41197,7 +41197,7 @@ export const trainers = {
         "name": "Pokemon Trainer Cheryl",
         "trainer_class": "Pokemon Trainer Cheryl",
         "location": null,
-        "money": -1,
+        "money": 7800,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -41308,7 +41308,7 @@ export const trainers = {
                     "special_defense": 196
                 },
                 "moves": [
-                    "Softboiled",
+                    "Soft-Boiled",
                     "Counter",
                     "Psychic",
                     "Toxic"
@@ -41321,7 +41321,7 @@ export const trainers = {
         "name": "Pokemon Trainer Marley",
         "trainer_class": "Pokemon Trainer Marley",
         "location": null,
-        "money": -1,
+        "money": 7800,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -41432,7 +41432,7 @@ export const trainers = {
                     "special_defense": 124
                 },
                 "moves": [
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Flare Blitz",
                     "Crunch",
                     "Thunder Fang"
@@ -41445,7 +41445,7 @@ export const trainers = {
         "name": "Pokemon Trainer Mira",
         "trainer_class": "Pokemon Trainer Mira",
         "location": null,
-        "money": -1,
+        "money": 7800,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -41534,7 +41534,7 @@ export const trainers = {
                     "special_defense": 165
                 },
                 "moves": [
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Air Slash",
                     "Aura Sphere",
                     "Psychic"
@@ -41569,7 +41569,7 @@ export const trainers = {
         "name": "Pokemon Trainer Riley",
         "trainer_class": "Pokemon Trainer Riley",
         "location": null,
-        "money": -1,
+        "money": 7800,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -41680,7 +41680,7 @@ export const trainers = {
                     "special_defense": 111
                 },
                 "moves": [
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Close Combat",
                     "Bone Rush",
                     "Blaze Kick"
@@ -41693,7 +41693,7 @@ export const trainers = {
         "name": "Pokemon Trainer Buck",
         "trainer_class": "Pokemon Trainer Buck",
         "location": null,
-        "money": -1,
+        "money": 7800,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -41784,7 +41784,7 @@ export const trainers = {
                 "moves": [
                     "Fire Punch",
                     "Ice Punch",
-                    "ThunderPunch",
+                    "Thunder Punch",
                     "Shadow Ball"
                 ]
             },
@@ -41806,7 +41806,7 @@ export const trainers = {
                 "moves": [
                     "Earth Power",
                     "Psychic",
-                    "AncientPower",
+                    "Ancient Power",
                     "Calm Mind"
                 ]
             }
@@ -41817,7 +41817,7 @@ export const trainers = {
         "name": "Gentleman Alfred",
         "trainer_class": "Gentleman",
         "location": null,
-        "money": -1,
+        "money": 7200,
         "is_double_battle": false,
         "items": [
             "Full Restore"
@@ -41852,7 +41852,7 @@ export const trainers = {
         "name": "Gentleman Alfred",
         "trainer_class": "Gentleman",
         "location": null,
-        "money": -1,
+        "money": 8400,
         "is_double_battle": false,
         "items": [
             "Full Restore"
@@ -41887,7 +41887,7 @@ export const trainers = {
         "name": "Gentleman Alfred",
         "trainer_class": "Gentleman",
         "location": null,
-        "money": -1,
+        "money": 11600,
         "is_double_battle": false,
         "items": [
             "Full Restore"
@@ -41922,7 +41922,7 @@ export const trainers = {
         "name": "Pokemon Trainer Lance",
         "trainer_class": "Pokemon Trainer Lance",
         "location": null,
-        "money": -1,
+        "money": 0,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -41955,7 +41955,7 @@ export const trainers = {
         "name": "Sailor Parker",
         "trainer_class": "Sailor",
         "location": null,
-        "money": -1,
+        "money": 1376,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -42010,7 +42010,7 @@ export const trainers = {
         "name": "Sailor Eddie",
         "trainer_class": "Sailor",
         "location": null,
-        "money": -1,
+        "money": 1536,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -42043,7 +42043,7 @@ export const trainers = {
         "name": "Swimmer Joy",
         "trainer_class": "Swimmer",
         "location": null,
-        "money": -1,
+        "money": 768,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -42076,7 +42076,7 @@ export const trainers = {
         "name": "Beauty Callie",
         "trainer_class": "Beauty",
         "location": null,
-        "money": -1,
+        "money": 896,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -42098,7 +42098,7 @@ export const trainers = {
                 "moves": [
                     "Growl",
                     "Encore",
-                    "DoubleSlap",
+                    "Double Slap",
                     "Metronome"
                 ]
             },
@@ -42131,7 +42131,7 @@ export const trainers = {
         "name": "Beauty Kassandra",
         "trainer_class": "Beauty",
         "location": null,
-        "money": -1,
+        "money": 896,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -42175,7 +42175,7 @@ export const trainers = {
                 "moves": [
                     "Growl",
                     "Encore",
-                    "DoubleSlap",
+                    "Double Slap",
                     "Metronome"
                 ]
             }
@@ -42186,7 +42186,7 @@ export const trainers = {
         "name": "Ace Trainer Arabella",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 3120,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -42241,7 +42241,7 @@ export const trainers = {
         "name": "Ace Trainer Bonita",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 3120,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -42296,7 +42296,7 @@ export const trainers = {
         "name": "Ace Trainer Salma",
         "trainer_class": "Ace Trainer",
         "location": null,
-        "money": -1,
+        "money": 3180,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -42351,7 +42351,7 @@ export const trainers = {
         "name": "Double Team Elan & Ida",
         "trainer_class": "Double Team",
         "location": null,
-        "money": -1,
+        "money": 12000,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -42406,7 +42406,7 @@ export const trainers = {
         "name": "Hiker Edwin",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 1600,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -42439,7 +42439,7 @@ export const trainers = {
         "name": "Boarder Bryce",
         "trainer_class": "Boarder",
         "location": null,
-        "money": -1,
+        "money": 1600,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -42494,7 +42494,7 @@ export const trainers = {
         "name": "Boarder Shaun",
         "trainer_class": "Boarder",
         "location": null,
-        "money": -1,
+        "money": 1600,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -42549,7 +42549,7 @@ export const trainers = {
         "name": "Skier Cady",
         "trainer_class": "Skier",
         "location": null,
-        "money": -1,
+        "money": 1696,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -42579,7 +42579,7 @@ export const trainers = {
         "name": "Super Nerd Cary",
         "trainer_class": "Super Nerd",
         "location": null,
-        "money": -1,
+        "money": 2544,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -42612,7 +42612,7 @@ export const trainers = {
         "name": "Super Nerd Waldo",
         "trainer_class": "Super Nerd",
         "location": null,
-        "money": -1,
+        "money": 2544,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -42645,7 +42645,7 @@ export const trainers = {
         "name": "Super Nerd Merle",
         "trainer_class": "Super Nerd",
         "location": null,
-        "money": -1,
+        "money": 2544,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -42678,7 +42678,7 @@ export const trainers = {
         "name": "Scientist Lowell",
         "trainer_class": "Scientist",
         "location": null,
-        "money": -1,
+        "money": 1600,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -42699,7 +42699,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Overheat",
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Fire Fang",
                     "Thunder Fang"
                 ]
@@ -42711,7 +42711,7 @@ export const trainers = {
         "name": "Scientist Linden",
         "trainer_class": "Scientist",
         "location": null,
-        "money": -1,
+        "money": 1600,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -42734,7 +42734,7 @@ export const trainers = {
                     "Overheat",
                     "Fire Punch",
                     "Confuse Ray",
-                    "Faint Attack"
+                    "Feint Attack"
                 ]
             }
         ]
@@ -42744,7 +42744,7 @@ export const trainers = {
         "name": "Scientist Daniel",
         "trainer_class": "Scientist",
         "location": null,
-        "money": -1,
+        "money": 1600,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -42777,7 +42777,7 @@ export const trainers = {
         "name": "Bug Catcher Dane",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 768,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -42808,7 +42808,7 @@ export const trainers = {
                 "level": 48,
                 "experience_yield": 1645,
                 "nature": "Hasty",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 115,
@@ -42832,7 +42832,7 @@ export const trainers = {
         "name": "Bug Catcher Dion",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 800,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -42865,7 +42865,7 @@ export const trainers = {
         "name": "Bug Catcher Stacey",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 960,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -42933,7 +42933,7 @@ export const trainers = {
         "name": "Bug Catcher Ellis",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 736,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -43006,7 +43006,7 @@ export const trainers = {
         "name": "Bug Catcher Abner",
         "trainer_class": "Bug Catcher",
         "location": null,
-        "money": -1,
+        "money": 704,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -43015,7 +43015,7 @@ export const trainers = {
                 "level": 44,
                 "experience_yield": 1507,
                 "nature": "Hasty",
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "held_item": null,
                 "stats": {
                     "hp": 106,
@@ -43083,7 +43083,7 @@ export const trainers = {
         "name": "Rocket Boss Giovanni",
         "trainer_class": "Rocket Boss",
         "location": null,
-        "money": -1,
+        "money": 8280,
         "is_double_battle": false,
         "items": [
             "Full Restore"
@@ -43184,7 +43184,7 @@ export const trainers = {
         "name": "Champion Lance",
         "trainer_class": "Champion",
         "location": null,
-        "money": -1,
+        "money": 15000,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -43276,7 +43276,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Perish Song",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Double Team",
                     "Hyper Beam"
                 ]
@@ -43332,7 +43332,7 @@ export const trainers = {
         "name": "Elite Four Will",
         "trainer_class": "Elite Four",
         "location": null,
-        "money": -1,
+        "money": 7440,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -43478,7 +43478,7 @@ export const trainers = {
         "name": "Elite four Koga",
         "trainer_class": "Elite four",
         "location": null,
-        "money": -1,
+        "money": 7440,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -43624,7 +43624,7 @@ export const trainers = {
         "name": "Elite Four Bruno",
         "trainer_class": "Elite Four",
         "location": null,
-        "money": -1,
+        "money": 7680,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -43738,7 +43738,7 @@ export const trainers = {
                     "Bullet Punch",
                     "Foresight",
                     "Stone Edge",
-                    "DynamicPunch"
+                    "Dynamic Punch"
                 ]
             },
             {
@@ -43757,7 +43757,7 @@ export const trainers = {
                     "special_defense": 113
                 },
                 "moves": [
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Close Combat",
                     "Counter",
                     "Iron Tail"
@@ -43770,7 +43770,7 @@ export const trainers = {
         "name": "Elite Four Karen",
         "trainer_class": "Elite Four",
         "location": null,
-        "money": -1,
+        "money": 7680,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -43916,7 +43916,7 @@ export const trainers = {
         "name": "Executive Proton",
         "trainer_class": "Executive",
         "location": null,
-        "money": -1,
+        "money": 1320,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -43960,7 +43960,7 @@ export const trainers = {
                 "moves": [
                     "Double Hit",
                     "Sludge",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Smog"
                 ]
             }
@@ -43971,7 +43971,7 @@ export const trainers = {
         "name": "Tower Tycoon Palmer",
         "trainer_class": "Tower Tycoon",
         "location": null,
-        "money": -1,
+        "money": 0,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -44003,7 +44003,7 @@ export const trainers = {
         "name": "Hall Matron Argenta",
         "trainer_class": "Hall Matron",
         "location": null,
-        "money": -1,
+        "money": 0,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -44035,7 +44035,7 @@ export const trainers = {
         "name": "Factory Head Thorton",
         "trainer_class": "Factory Head",
         "location": null,
-        "money": -1,
+        "money": 0,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -44067,7 +44067,7 @@ export const trainers = {
         "name": "Arcade Star Dahlia",
         "trainer_class": "Arcade Star",
         "location": null,
-        "money": -1,
+        "money": 0,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -44099,7 +44099,7 @@ export const trainers = {
         "name": "Castle Valet Darach",
         "trainer_class": "Castle Valet",
         "location": null,
-        "money": -1,
+        "money": 0,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -44131,7 +44131,7 @@ export const trainers = {
         "name": "Leader Falkner",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 6720,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -44180,7 +44180,7 @@ export const trainers = {
                     "Roost",
                     "Air Slash",
                     "Shadow Ball",
-                    "FeatherDance"
+                    "Feather Dance"
                 ]
             },
             {
@@ -44278,7 +44278,7 @@ export const trainers = {
         "name": "Leader Bugsy",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 6240,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -44349,7 +44349,7 @@ export const trainers = {
                     "Detect",
                     "Bug Buzz",
                     "Air Slash",
-                    "AncientPower"
+                    "Ancient Power"
                 ]
             },
             {
@@ -44425,7 +44425,7 @@ export const trainers = {
         "name": "Leader Whitney",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 6960,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -44572,7 +44572,7 @@ export const trainers = {
         "name": "Leader Morty",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 6840,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -44719,7 +44719,7 @@ export const trainers = {
         "name": "Leader Pryce",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 7200,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -44866,7 +44866,7 @@ export const trainers = {
         "name": "Leader Jasmine",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 7440,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -45013,7 +45013,7 @@ export const trainers = {
         "name": "Leader Chuck",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 7200,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -45037,10 +45037,10 @@ export const trainers = {
                     "special_defense": 98
                 },
                 "moves": [
-                    "Hi Jump Kick",
+                    "High Jump Kick",
                     "Psycho Cut",
                     "Attract",
-                    "ThunderPunch"
+                    "Thunder Punch"
                 ]
             },
             {
@@ -45081,7 +45081,7 @@ export const trainers = {
                     "special_defense": 125
                 },
                 "moves": [
-                    "Hi Jump Kick",
+                    "High Jump Kick",
                     "Fake Out",
                     "Blaze Kick",
                     "Bulk Up"
@@ -45127,7 +45127,7 @@ export const trainers = {
                 "moves": [
                     "Close Combat",
                     "Payback",
-                    "ThunderPunch",
+                    "Thunder Punch",
                     "Swagger"
                 ]
             },
@@ -45160,7 +45160,7 @@ export const trainers = {
         "name": "Leader Clair",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 7200,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -45253,7 +45253,7 @@ export const trainers = {
                     "Yawn",
                     "Hydro Pump",
                     "Ice Beam",
-                    "DragonBreath"
+                    "Dragon Breath"
                 ]
             },
             {
@@ -45296,7 +45296,7 @@ export const trainers = {
                 "moves": [
                     "Thunder",
                     "Safeguard",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Hyper Beam"
                 ]
             }
@@ -45307,7 +45307,7 @@ export const trainers = {
         "name": "Leader Brock",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 6840,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -45375,7 +45375,7 @@ export const trainers = {
                     "special_defense": 96
                 },
                 "moves": [
-                    "AncientPower",
+                    "Ancient Power",
                     "Brine",
                     "Protect",
                     "Sandstorm"
@@ -45454,7 +45454,7 @@ export const trainers = {
         "name": "Leader Misty",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 7200,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -45601,7 +45601,7 @@ export const trainers = {
         "name": "Leader Lt. Surge",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 6720,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -45748,7 +45748,7 @@ export const trainers = {
         "name": "Leader Erika",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 6600,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -45839,7 +45839,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Sunny Day",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Giga Drain",
                     "Attract"
                 ]
@@ -45895,7 +45895,7 @@ export const trainers = {
         "name": "Leader Janine",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 6600,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -46042,7 +46042,7 @@ export const trainers = {
         "name": "Leader Sabrina",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 6360,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -46189,7 +46189,7 @@ export const trainers = {
         "name": "Leader Blaine",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 7440,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -46237,7 +46237,7 @@ export const trainers = {
                 "moves": [
                     "Earthquake",
                     "Eruption",
-                    "SolarBeam",
+                    "Solar Beam",
                     "Sunny Day"
                 ]
             },
@@ -46336,7 +46336,7 @@ export const trainers = {
         "name": "Leader Blue",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 11520,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -46383,7 +46383,7 @@ export const trainers = {
                     "special_defense": 157
                 },
                 "moves": [
-                    "DynamicPunch",
+                    "Dynamic Punch",
                     "Stone Edge",
                     "Fling",
                     "Attract"
@@ -46428,7 +46428,7 @@ export const trainers = {
                 },
                 "moves": [
                     "Flare Blitz",
-                    "ExtremeSpeed",
+                    "Extreme Speed",
                     "Thunder Fang",
                     "Crunch"
                 ]
@@ -46484,7 +46484,7 @@ export const trainers = {
         "name": "Beauty Charlotte",
         "trainer_class": "Beauty",
         "location": null,
-        "money": -1,
+        "money": 896,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -46517,7 +46517,7 @@ export const trainers = {
         "name": "Young Couple Duff & Eda",
         "trainer_class": "Young Couple",
         "location": null,
-        "money": -1,
+        "money": 2816,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -46572,7 +46572,7 @@ export const trainers = {
         "name": "Double Team Thom & Kae",
         "trainer_class": "Double Team",
         "location": null,
-        "money": -1,
+        "money": 6000,
         "is_double_battle": true,
         "items": [],
         "party": [
@@ -46616,7 +46616,7 @@ export const trainers = {
                 "moves": [
                     "Flamethrower",
                     "Confuse Ray",
-                    "Faint Attack",
+                    "Feint Attack",
                     "Protect"
                 ]
             }
@@ -46627,7 +46627,7 @@ export const trainers = {
         "name": "Hiker Devin",
         "trainer_class": "Hiker",
         "location": null,
-        "money": -1,
+        "money": 608,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -46704,7 +46704,7 @@ export const trainers = {
         "name": "Camper Grant",
         "trainer_class": "Camper",
         "location": null,
-        "money": -1,
+        "money": 336,
         "is_double_battle": false,
         "items": [],
         "party": [
@@ -46724,7 +46724,7 @@ export const trainers = {
                     "special_defense": 35
                 },
                 "moves": [
-                    "PoisonPowder",
+                    "Poison Powder",
                     "Stun Spore",
                     "Sleep Powder",
                     "Bullet Seed"
@@ -46749,7 +46749,7 @@ export const trainers = {
                     "Tail Whip",
                     "Water Gun",
                     "Rollout",
-                    "BubbleBeam"
+                    "Bubble Beam"
                 ]
             }
         ]
@@ -46759,7 +46759,7 @@ export const trainers = {
         "name": "Champion Lance",
         "trainer_class": "Champion",
         "location": null,
-        "money": -1,
+        "money": 15000,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -46839,7 +46839,7 @@ export const trainers = {
         "name": "Leader Clair",
         "trainer_class": "Leader",
         "location": null,
-        "money": -1,
+        "money": 7200,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -46887,7 +46887,7 @@ export const trainers = {
                     "Yawn",
                     "Hydro Pump",
                     "Ice Beam",
-                    "DragonBreath"
+                    "Dragon Breath"
                 ]
             },
             {
@@ -46908,7 +46908,7 @@ export const trainers = {
                 "moves": [
                     "Thunder",
                     "Protect",
-                    "DragonBreath",
+                    "Dragon Breath",
                     "Hyper Beam"
                 ]
             }
@@ -46919,7 +46919,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 3584,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -46999,7 +46999,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 3584,
         "is_double_battle": false,
         "items": [
             "Full Restore",
@@ -47079,7 +47079,7 @@ export const trainers = {
         "name": "Rival",
         "trainer_class": "Rival",
         "location": null,
-        "money": -1,
+        "money": 3584,
         "is_double_battle": false,
         "items": [
             "Full Restore",

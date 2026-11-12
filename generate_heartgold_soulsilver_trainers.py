@@ -6,7 +6,10 @@ Reads:
   - <decomp>/include/constants/*.h                  (constant -> integer maps)
   - trainers/heartgold_soulsilver.js                (kept only for cosmetic
                                                      top-level name / class strings)
-  - moves.js                                        (pretty move names by rom_id)
+  - <decomp>/files/poketool/personal/personal.narc  (raw gender-ratio byte)
+  - <decomp>/asm/overlay_12_battle_command.s        (sPrizeMoneyTbl, prize money)
+  - moves.js / pokedex/heartgold_soulsilver.js      (move / species / ability keys,
+                                                     via generate_gen4_trainers.Namer)
 
 For every trainer party member we recompute the PID using the exact algorithm
 in src/trainer_data.c (CreateNPCTrainerParty), derive nature/ability from the
@@ -22,14 +25,19 @@ import re
 import struct
 from pathlib import Path
 
+from generate_gen4_trainers import Namer  # repo-key names (pokedex/<game>.js, moves.js)
+
 # --------------------------------------------------------------------------- #
 # Paths
 # --------------------------------------------------------------------------- #
 ROOT = Path(__file__).resolve().parent
-DECOMP = Path(r"A:/decomps/stp-pokeheartgold")
+DECOMP = Path(r"A:/decomps/pokeheartgold")  # vanilla pret clone (not the stp- hack)
 TRAINERS_JSON = DECOMP / "files/poketool/trainer/trainers.json"
 PERSONAL_JSON = DECOMP / "files/poketool/personal/personal.json"
 WOTBL_NARC = DECOMP / "files/poketool/personal/wotbl.narc"
+PERSONAL_NARC = DECOMP / "files/poketool/personal/personal.narc"
+PRIZE_ASM = DECOMP / "asm/overlay_12_battle_command.s"
+CLASS_H = DECOMP / "include/constants/trainer_class.h"
 CONST_DIR = DECOMP / "include/constants"
 TRAINER_DATA_C = DECOMP / "src/trainer_data.c"
 EXISTING_JS = ROOT / "trainers" / "heartgold_soulsilver.js"
@@ -391,6 +399,22 @@ def parse_existing_js(path: Path) -> dict[int, tuple[str, str]]:
     return out
 
 
+def parse_prize_table() -> list[tuple[int, int]]:
+    """sPrizeMoneyTbl (overlay 12): [(trainer class, prize multiplier), ...]."""
+    class_ids = parse_defines(CLASS_H, "TRAINERCLASS_")
+    asm = PRIZE_ASM.read_text(encoding="utf-8")
+    body = asm[asm.index("sPrizeMoneyTbl:"):]
+    out = []
+    for line in body.splitlines()[1:]:
+        m = re.match(r"\s*\.short\s+(TRAINERCLASS_\w+),\s*(\d+)", line)
+        if not m:
+            if out:
+                break
+            continue
+        out.append((class_ids[m.group(1)], int(m.group(2))))
+    return out
+
+
 # --------------------------------------------------------------------------- #
 # Main
 # --------------------------------------------------------------------------- #
@@ -404,6 +428,11 @@ def main() -> None:
     personal_raw = json.loads(PERSONAL_JSON.read_text(encoding="utf-8"))
     base_stats: list[dict] = personal_raw["baseStats"]
     learnsets = parse_learnsets(WOTBL_NARC)
+    # Raw personal byte 16 (gender ratio, 0-254 / 255 genderless). personal.json
+    # stores it as a float fraction that does not round-trip (0.5 -> 127, not 128).
+    gender_bytes = [m[16] if len(m) > 16 else 0 for m in parse_narc_members(PERSONAL_NARC)]
+    prize_table = parse_prize_table()
+    namer = Namer("heartgold_soulsilver")
     trainer_genders = parse_trainer_genders(TRAINER_DATA_C)
     # Build move-id -> name map. moves.h reuses the MOVE_ prefix at the bottom
     # for unrelated enums (MOVE_ATTRIBUTE_*, MOVE_CONTEST_*) whose values
@@ -434,7 +463,7 @@ def main() -> None:
         has_item = trainer_type in ("TRTYPE_MON_ITEM", "TRTYPE_MON_ITEM_MOVES")
         trainer_gender = trainer_class_to_gender(class_id, trainer_genders)
 
-        items = [pretty_item(it) for it in trainer.get("items", []) if pretty_item(it) is not None]
+        items = [namer.item(item_ids[it]) for it in trainer.get("items", []) if item_ids[it]]
 
         # pidGender is initialized once per party (per trainer-gender) and any
         # bits set by an override on one Pokemon persist through the rest of the
@@ -461,7 +490,7 @@ def main() -> None:
                 "TRPOKE_ABILITY_OVERRIDE_SECOND": 2,
             }[poke["abilityOverride"]]
 
-            species_gender_ratio = int(round(species["genderRatio"] * 255))
+            species_gender_ratio = gender_bytes[species_id_raw]
             pid_gender = apply_pid_gender_override(
                 pid_gender, gender_override, ability_override, species_gender_ratio
             )
@@ -472,7 +501,7 @@ def main() -> None:
             ability_const = species["abilities"][ability_slot]
             if ability_const == "ABILITY_NONE":
                 ability_const = species["abilities"][0]
-            ability = pretty_ability(ability_const)
+            ability = namer.ability(ability_ids[ability_const])
 
             iv = (difficulty * 31) // 255
 
@@ -493,19 +522,21 @@ def main() -> None:
             base_exp = species["expYield"]
             experience_yield = (base_exp * level // 7) * 3 // 2
 
-            held_item = pretty_item(poke["item"]) if has_item else None
+            held_item = namer.item(item_ids[poke["item"]]) if has_item else None
             if has_moves:
-                moves = [pretty_move(m) for m in poke["moves"]]
+                moves = [namer.move(move_ids[m]) if move_ids[m] else None for m in poke["moves"]]
+                while moves and moves[-1] is None:
+                    moves.pop()
             else:
                 # Default-moveset trainer types: the in-game routine
                 # InitBoxMonMoveset fills the moves from the species level-up
                 # learnset, taking the last 4 distinct moves learned by this
                 # level. We replicate that here.
                 move_ints = default_moveset(learnsets[species_id_raw], level)
-                moves = [pretty_move(move_id_to_name[m]) for m in move_ints]
+                moves = [namer.move(m) for m in move_ints]
 
             party.append({
-                "species": pretty_species(species_const),
+                "species": namer.species(species_id_raw, species_ids[species_const] >> 10),
                 "level": level,
                 "experience_yield": experience_yield,
                 "nature": nature,
@@ -515,12 +546,17 @@ def main() -> None:
                 "moves": moves,
             })
 
+        money = -1
+        if party:
+            mul = dict(prize_table).get(class_id, prize_table[2][1])  # CalcPrizeMoney falls back to entry 2
+            money = (party[-1]["level"] & 0xFF) * 4 * mul * (2 if is_double else 1)
+
         out[str(rom_id)] = {
             "rom_id": rom_id,
             "name": name,
             "trainer_class": klass,
             "location": None,
-            "money": -1,
+            "money": money,
             "is_double_battle": is_double,
             "items": items,
             "party": party,

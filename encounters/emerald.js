@@ -1,12 +1,16 @@
 export const encounters = {
-    "Abandoned Ship": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+    "Abandoned Ship (B1F Rooms)": {
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 99},
+            {pokemon: "Tentacruel", min_level: 30, max_level: 35, chance: 1},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 40},
         ],
         "Super Rod": [
             {pokemon: "Tentacool", min_level: 25, max_level: 30, chance: 40},
@@ -14,157 +18,37 @@ export const encounters = {
             {pokemon: "Tentacruel", min_level: 30, max_level: 35, chance: 15},
             {pokemon: "Tentacruel", min_level: 25, max_level: 30, chance: 4},
             {pokemon: "Tentacruel", min_level: 20, max_level: 25, chance: 1},
-        ],
+        ]
+    },
+    "Abandoned Ship (Hidden Floor Corridors)": {
         "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 30},
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 5},
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 4},
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 99},
             {pokemon: "Tentacruel", min_level: 30, max_level: 35, chance: 1},
+        ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 40},
+        ],
+        "Super Rod": [
+            {pokemon: "Tentacool", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Tentacool", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Tentacruel", min_level: 30, max_level: 35, chance: 15},
+            {pokemon: "Tentacruel", min_level: 25, max_level: 30, chance: 4},
+            {pokemon: "Tentacruel", min_level: 20, max_level: 25, chance: 1},
         ]
     },
-    "Altering Cave (A)": {
+    "Altering Cave": {
         "Walk": [
-            {pokemon: "Zubat", min_level: 10, max_level: 10, chance: 20},
-            {pokemon: "Zubat", min_level: 12, max_level: 12, chance: 20},
-            {pokemon: "Zubat", min_level: 8, max_level: 8, chance: 10},
-            {pokemon: "Zubat", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Zubat", min_level: 10, max_level: 10, chance: 10},
-            {pokemon: "Zubat", min_level: 12, max_level: 12, chance: 10},
-            {pokemon: "Zubat", min_level: 16, max_level: 16, chance: 5},
+            {pokemon: "Zubat", min_level: 10, max_level: 10, chance: 30},
+            {pokemon: "Zubat", min_level: 12, max_level: 12, chance: 30},
+            {pokemon: "Zubat", min_level: 8, max_level: 8, chance: 15},
+            {pokemon: "Zubat", min_level: 14, max_level: 14, chance: 15},
             {pokemon: "Zubat", min_level: 6, max_level: 6, chance: 5},
-            {pokemon: "Zubat", min_level: 8, max_level: 8, chance: 4},
-            {pokemon: "Zubat", min_level: 14, max_level: 14, chance: 4},
-            {pokemon: "Zubat", min_level: 8, max_level: 8, chance: 1},
-            {pokemon: "Zubat", min_level: 14, max_level: 14, chance: 1},
-        ]
-    },
-    "Altering Cave (B)": {
-        "Walk": [
-            {pokemon: "Mareep", min_level: 7, max_level: 7, chance: 20},
-            {pokemon: "Mareep", min_level: 9, max_level: 9, chance: 20},
-            {pokemon: "Mareep", min_level: 5, max_level: 5, chance: 10},
-            {pokemon: "Mareep", min_level: 11, max_level: 11, chance: 10},
-            {pokemon: "Mareep", min_level: 7, max_level: 7, chance: 10},
-            {pokemon: "Mareep", min_level: 9, max_level: 9, chance: 10},
-            {pokemon: "Mareep", min_level: 13, max_level: 13, chance: 5},
-            {pokemon: "Mareep", min_level: 3, max_level: 3, chance: 5},
-            {pokemon: "Mareep", min_level: 5, max_level: 5, chance: 4},
-            {pokemon: "Mareep", min_level: 11, max_level: 11, chance: 4},
-            {pokemon: "Mareep", min_level: 5, max_level: 5, chance: 1},
-            {pokemon: "Mareep", min_level: 11, max_level: 11, chance: 1},
-        ]
-    },
-    "Altering Cave (C)": {
-        "Walk": [
-            {pokemon: "Pineco", min_level: 23, max_level: 23, chance: 20},
-            {pokemon: "Pineco", min_level: 25, max_level: 25, chance: 20},
-            {pokemon: "Pineco", min_level: 22, max_level: 22, chance: 10},
-            {pokemon: "Pineco", min_level: 27, max_level: 27, chance: 10},
-            {pokemon: "Pineco", min_level: 23, max_level: 23, chance: 10},
-            {pokemon: "Pineco", min_level: 25, max_level: 25, chance: 10},
-            {pokemon: "Pineco", min_level: 29, max_level: 29, chance: 5},
-            {pokemon: "Pineco", min_level: 19, max_level: 19, chance: 5},
-            {pokemon: "Pineco", min_level: 21, max_level: 21, chance: 4},
-            {pokemon: "Pineco", min_level: 27, max_level: 27, chance: 4},
-            {pokemon: "Pineco", min_level: 21, max_level: 21, chance: 1},
-            {pokemon: "Pineco", min_level: 27, max_level: 27, chance: 1},
-        ]
-    },
-    "Altering Cave (D)": {
-        "Walk": [
-            {pokemon: "Houndour", min_level: 16, max_level: 16, chance: 20},
-            {pokemon: "Houndour", min_level: 18, max_level: 18, chance: 20},
-            {pokemon: "Houndour", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Houndour", min_level: 20, max_level: 20, chance: 10},
-            {pokemon: "Houndour", min_level: 16, max_level: 16, chance: 10},
-            {pokemon: "Houndour", min_level: 18, max_level: 18, chance: 10},
-            {pokemon: "Houndour", min_level: 22, max_level: 22, chance: 5},
-            {pokemon: "Houndour", min_level: 12, max_level: 12, chance: 5},
-            {pokemon: "Houndour", min_level: 14, max_level: 14, chance: 4},
-            {pokemon: "Houndour", min_level: 20, max_level: 20, chance: 4},
-            {pokemon: "Houndour", min_level: 14, max_level: 14, chance: 1},
-            {pokemon: "Houndour", min_level: 20, max_level: 20, chance: 1},
-        ]
-    },
-    "Altering Cave (E)": {
-        "Walk": [
-            {pokemon: "Teddiursa", min_level: 10, max_level: 10, chance: 20},
-            {pokemon: "Teddiursa", min_level: 12, max_level: 12, chance: 20},
-            {pokemon: "Teddiursa", min_level: 8, max_level: 8, chance: 10},
-            {pokemon: "Teddiursa", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Teddiursa", min_level: 10, max_level: 10, chance: 10},
-            {pokemon: "Teddiursa", min_level: 12, max_level: 12, chance: 10},
-            {pokemon: "Teddiursa", min_level: 16, max_level: 16, chance: 5},
-            {pokemon: "Teddiursa", min_level: 6, max_level: 6, chance: 5},
-            {pokemon: "Teddiursa", min_level: 8, max_level: 8, chance: 4},
-            {pokemon: "Teddiursa", min_level: 14, max_level: 14, chance: 4},
-            {pokemon: "Teddiursa", min_level: 8, max_level: 8, chance: 1},
-            {pokemon: "Teddiursa", min_level: 14, max_level: 14, chance: 1},
-        ]
-    },
-    "Altering Cave (F)": {
-        "Walk": [
-            {pokemon: "Aipom", min_level: 22, max_level: 22, chance: 20},
-            {pokemon: "Aipom", min_level: 24, max_level: 24, chance: 20},
-            {pokemon: "Aipom", min_level: 20, max_level: 20, chance: 10},
-            {pokemon: "Aipom", min_level: 26, max_level: 26, chance: 10},
-            {pokemon: "Aipom", min_level: 22, max_level: 22, chance: 10},
-            {pokemon: "Aipom", min_level: 24, max_level: 24, chance: 10},
-            {pokemon: "Aipom", min_level: 28, max_level: 28, chance: 5},
-            {pokemon: "Aipom", min_level: 18, max_level: 18, chance: 5},
-            {pokemon: "Aipom", min_level: 20, max_level: 20, chance: 4},
-            {pokemon: "Aipom", min_level: 26, max_level: 26, chance: 4},
-            {pokemon: "Aipom", min_level: 20, max_level: 20, chance: 1},
-            {pokemon: "Aipom", min_level: 26, max_level: 26, chance: 1},
-        ]
-    },
-    "Altering Cave (G)": {
-        "Walk": [
-            {pokemon: "Shuckle", min_level: 22, max_level: 22, chance: 20},
-            {pokemon: "Shuckle", min_level: 24, max_level: 24, chance: 20},
-            {pokemon: "Shuckle", min_level: 20, max_level: 20, chance: 10},
-            {pokemon: "Shuckle", min_level: 26, max_level: 26, chance: 10},
-            {pokemon: "Shuckle", min_level: 22, max_level: 22, chance: 10},
-            {pokemon: "Shuckle", min_level: 24, max_level: 24, chance: 10},
-            {pokemon: "Shuckle", min_level: 28, max_level: 28, chance: 5},
-            {pokemon: "Shuckle", min_level: 18, max_level: 18, chance: 5},
-            {pokemon: "Shuckle", min_level: 20, max_level: 20, chance: 4},
-            {pokemon: "Shuckle", min_level: 26, max_level: 26, chance: 4},
-            {pokemon: "Shuckle", min_level: 20, max_level: 20, chance: 1},
-            {pokemon: "Shuckle", min_level: 26, max_level: 26, chance: 1},
-        ]
-    },
-    "Altering Cave (H)": {
-        "Walk": [
-            {pokemon: "Stantler", min_level: 22, max_level: 22, chance: 20},
-            {pokemon: "Stantler", min_level: 24, max_level: 24, chance: 20},
-            {pokemon: "Stantler", min_level: 20, max_level: 20, chance: 10},
-            {pokemon: "Stantler", min_level: 26, max_level: 26, chance: 10},
-            {pokemon: "Stantler", min_level: 22, max_level: 22, chance: 10},
-            {pokemon: "Stantler", min_level: 24, max_level: 24, chance: 10},
-            {pokemon: "Stantler", min_level: 28, max_level: 28, chance: 5},
-            {pokemon: "Stantler", min_level: 18, max_level: 18, chance: 5},
-            {pokemon: "Stantler", min_level: 20, max_level: 20, chance: 4},
-            {pokemon: "Stantler", min_level: 26, max_level: 26, chance: 4},
-            {pokemon: "Stantler", min_level: 20, max_level: 20, chance: 1},
-            {pokemon: "Stantler", min_level: 26, max_level: 26, chance: 1},
-        ]
-    },
-    "Altering Cave (I)": {
-        "Walk": [
-            {pokemon: "Smeargle", min_level: 22, max_level: 22, chance: 20},
-            {pokemon: "Smeargle", min_level: 24, max_level: 24, chance: 20},
-            {pokemon: "Smeargle", min_level: 20, max_level: 20, chance: 10},
-            {pokemon: "Smeargle", min_level: 26, max_level: 26, chance: 10},
-            {pokemon: "Smeargle", min_level: 22, max_level: 22, chance: 10},
-            {pokemon: "Smeargle", min_level: 24, max_level: 24, chance: 10},
-            {pokemon: "Smeargle", min_level: 28, max_level: 28, chance: 5},
-            {pokemon: "Smeargle", min_level: 18, max_level: 18, chance: 5},
-            {pokemon: "Smeargle", min_level: 20, max_level: 20, chance: 4},
-            {pokemon: "Smeargle", min_level: 26, max_level: 26, chance: 4},
-            {pokemon: "Smeargle", min_level: 20, max_level: 20, chance: 1},
-            {pokemon: "Smeargle", min_level: 26, max_level: 26, chance: 1},
+            {pokemon: "Zubat", min_level: 16, max_level: 16, chance: 5},
         ]
     },
     "Ancient Tomb": {
@@ -172,7 +56,7 @@ export const encounters = {
             {pokemon: "Registeel", min_level: 40, max_level: 40, chance: 100},
         ]
     },
-    "Artisan Cave": {
+    "Artisan Cave (1F)": {
         "Walk": [
             {pokemon: "Smeargle", min_level: 40, max_level: 40, chance: 20},
             {pokemon: "Smeargle", min_level: 41, max_level: 41, chance: 20},
@@ -184,12 +68,27 @@ export const encounters = {
             {pokemon: "Smeargle", min_level: 47, max_level: 47, chance: 5},
             {pokemon: "Smeargle", min_level: 48, max_level: 48, chance: 4},
             {pokemon: "Smeargle", min_level: 49, max_level: 49, chance: 4},
-            {pokemon: "Smeargle", min_level: 50, max_level: 50, chance: 1},
+            {pokemon: "Smeargle", min_level: 50, max_level: 50, chance: 2},
         ]
     },
-    "Birth Island": {
-        "Static": [
-            {pokemon: "Deoxys Normal", min_level: 30, max_level: 30, chance: 100},
+    "Artisan Cave (B1F)": {
+        "Walk": [
+            {pokemon: "Smeargle", min_level: 40, max_level: 40, chance: 20},
+            {pokemon: "Smeargle", min_level: 41, max_level: 41, chance: 20},
+            {pokemon: "Smeargle", min_level: 42, max_level: 42, chance: 10},
+            {pokemon: "Smeargle", min_level: 43, max_level: 43, chance: 10},
+            {pokemon: "Smeargle", min_level: 44, max_level: 44, chance: 10},
+            {pokemon: "Smeargle", min_level: 45, max_level: 45, chance: 10},
+            {pokemon: "Smeargle", min_level: 46, max_level: 46, chance: 5},
+            {pokemon: "Smeargle", min_level: 47, max_level: 47, chance: 5},
+            {pokemon: "Smeargle", min_level: 48, max_level: 48, chance: 4},
+            {pokemon: "Smeargle", min_level: 49, max_level: 49, chance: 4},
+            {pokemon: "Smeargle", min_level: 50, max_level: 50, chance: 2},
+        ]
+    },
+    "Battle Frontier": {
+        "Wailmer Pail": [
+            {pokemon: "Sudowoodo", min_level: 40, max_level: 40, chance: 100},
         ]
     },
     "Cave of Origin (1F)": {
@@ -208,62 +107,14 @@ export const encounters = {
             {pokemon: "Golbat", min_level: 36, max_level: 36, chance: 1},
         ]
     },
-    "Cave of Origin (B1F)": {
+    "Cave of Origin (Entrance)": {
         "Walk": [
             {pokemon: "Zubat", min_level: 30, max_level: 30, chance: 20},
             {pokemon: "Zubat", min_level: 31, max_level: 31, chance: 20},
-            {pokemon: "Sableye", min_level: 30, max_level: 30, chance: 10},
-            {pokemon: "Sableye", min_level: 32, max_level: 32, chance: 10},
-            {pokemon: "Sableye", min_level: 34, max_level: 34, chance: 10},
-            {pokemon: "Zubat", min_level: 32, max_level: 32, chance: 10},
-            {pokemon: "Zubat", min_level: 33, max_level: 33, chance: 5},
-            {pokemon: "Zubat", min_level: 34, max_level: 34, chance: 5},
-            {pokemon: "Golbat", min_level: 34, max_level: 34, chance: 4},
-            {pokemon: "Golbat", min_level: 35, max_level: 35, chance: 4},
-            {pokemon: "Golbat", min_level: 33, max_level: 33, chance: 1},
-            {pokemon: "Golbat", min_level: 36, max_level: 36, chance: 1},
-        ]
-    },
-    "Cave of Origin (B2F)": {
-        "Walk": [
-            {pokemon: "Zubat", min_level: 30, max_level: 30, chance: 20},
-            {pokemon: "Zubat", min_level: 31, max_level: 31, chance: 20},
-            {pokemon: "Sableye", min_level: 30, max_level: 30, chance: 10},
-            {pokemon: "Sableye", min_level: 32, max_level: 32, chance: 10},
-            {pokemon: "Sableye", min_level: 34, max_level: 34, chance: 10},
-            {pokemon: "Zubat", min_level: 32, max_level: 32, chance: 10},
-            {pokemon: "Zubat", min_level: 33, max_level: 33, chance: 5},
-            {pokemon: "Zubat", min_level: 34, max_level: 34, chance: 5},
-            {pokemon: "Golbat", min_level: 34, max_level: 34, chance: 4},
-            {pokemon: "Golbat", min_level: 35, max_level: 35, chance: 4},
-            {pokemon: "Golbat", min_level: 33, max_level: 33, chance: 1},
-            {pokemon: "Golbat", min_level: 36, max_level: 36, chance: 1},
-        ]
-    },
-    "Cave of Origin (B3F)": {
-        "Walk": [
-            {pokemon: "Zubat", min_level: 30, max_level: 30, chance: 20},
-            {pokemon: "Zubat", min_level: 31, max_level: 31, chance: 20},
-            {pokemon: "Sableye", min_level: 30, max_level: 30, chance: 10},
-            {pokemon: "Sableye", min_level: 32, max_level: 32, chance: 10},
-            {pokemon: "Sableye", min_level: 34, max_level: 34, chance: 10},
-            {pokemon: "Zubat", min_level: 32, max_level: 32, chance: 10},
-            {pokemon: "Zubat", min_level: 33, max_level: 33, chance: 5},
-            {pokemon: "Zubat", min_level: 34, max_level: 34, chance: 5},
-            {pokemon: "Golbat", min_level: 34, max_level: 34, chance: 4},
-            {pokemon: "Golbat", min_level: 35, max_level: 35, chance: 4},
-            {pokemon: "Golbat", min_level: 33, max_level: 33, chance: 1},
-            {pokemon: "Golbat", min_level: 36, max_level: 36, chance: 1},
-        ]
-    },
-    "Cave of Origin (entrance)": {
-        "Walk": [
-            {pokemon: "Zubat", min_level: 30, max_level: 30, chance: 20},
-            {pokemon: "Zubat", min_level: 31, max_level: 31, chance: 20},
-            {pokemon: "Zubat", min_level: 32, max_level: 32, chance: 10},
-            {pokemon: "Zubat", min_level: 33, max_level: 33, chance: 10},
             {pokemon: "Zubat", min_level: 28, max_level: 28, chance: 10},
             {pokemon: "Zubat", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Zubat", min_level: 32, max_level: 32, chance: 10},
+            {pokemon: "Zubat", min_level: 33, max_level: 33, chance: 10},
             {pokemon: "Zubat", min_level: 34, max_level: 34, chance: 5},
             {pokemon: "Zubat", min_level: 35, max_level: 35, chance: 5},
             {pokemon: "Golbat", min_level: 34, max_level: 34, chance: 4},
@@ -294,14 +145,20 @@ export const encounters = {
         ]
     },
     "Dewford Town": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
@@ -309,24 +166,23 @@ export const encounters = {
             {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
             {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
         ]
     },
     "Ever Grande City": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Luvdisc", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Luvdisc", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Luvdisc", min_level: 30, max_level: 35, chance: 40},
@@ -334,13 +190,6 @@ export const encounters = {
             {pokemon: "Corsola", min_level: 30, max_level: 35, chance: 15},
             {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
         ]
     },
     "Faraway Island": {
@@ -360,7 +209,7 @@ export const encounters = {
             {pokemon: "Machop", min_level: 16, max_level: 16, chance: 5},
             {pokemon: "Torkoal", min_level: 14, max_level: 14, chance: 4},
             {pokemon: "Torkoal", min_level: 16, max_level: 16, chance: 4},
-            {pokemon: "Grimer", min_level: 14, max_level: 14, chance: 1},
+            {pokemon: "Grimer", min_level: 14, max_level: 14, chance: 2},
         ]
     },
     "Granite Cave (1F)": {
@@ -371,28 +220,12 @@ export const encounters = {
             {pokemon: "Makuhita", min_level: 7, max_level: 7, chance: 10},
             {pokemon: "Makuhita", min_level: 9, max_level: 9, chance: 10},
             {pokemon: "Zubat", min_level: 8, max_level: 8, chance: 10},
-            {pokemon: "Makuhita", min_level: 10, max_level: 10, chance: 5},
             {pokemon: "Makuhita", min_level: 6, max_level: 6, chance: 5},
+            {pokemon: "Makuhita", min_level: 10, max_level: 10, chance: 5},
             {pokemon: "Geodude", min_level: 7, max_level: 7, chance: 4},
             {pokemon: "Geodude", min_level: 8, max_level: 8, chance: 4},
             {pokemon: "Geodude", min_level: 6, max_level: 6, chance: 1},
             {pokemon: "Geodude", min_level: 9, max_level: 9, chance: 1},
-        ]
-    },
-    "Granite Cave (1F/small room)": {
-        "Walk": [
-            {pokemon: "Makuhita", min_level: 8, max_level: 8, chance: 20},
-            {pokemon: "Zubat", min_level: 7, max_level: 7, chance: 20},
-            {pokemon: "Abra", min_level: 8, max_level: 8, chance: 10},
-            {pokemon: "Makuhita", min_level: 7, max_level: 7, chance: 10},
-            {pokemon: "Makuhita", min_level: 9, max_level: 9, chance: 10},
-            {pokemon: "Zubat", min_level: 8, max_level: 8, chance: 10},
-            {pokemon: "Makuhita", min_level: 10, max_level: 10, chance: 5},
-            {pokemon: "Makuhita", min_level: 6, max_level: 6, chance: 5},
-            {pokemon: "Aron", min_level: 7, max_level: 7, chance: 4},
-            {pokemon: "Aron", min_level: 8, max_level: 8, chance: 4},
-            {pokemon: "Aron", min_level: 7, max_level: 7, chance: 1},
-            {pokemon: "Aron", min_level: 8, max_level: 8, chance: 1},
         ]
     },
     "Granite Cave (B1F)": {
@@ -403,45 +236,54 @@ export const encounters = {
             {pokemon: "Aron", min_level: 9, max_level: 9, chance: 10},
             {pokemon: "Aron", min_level: 11, max_level: 11, chance: 10},
             {pokemon: "Zubat", min_level: 10, max_level: 10, chance: 10},
+            {pokemon: "Sableye", min_level: 10, max_level: 10, chance: 8},
             {pokemon: "Makuhita", min_level: 10, max_level: 10, chance: 5},
             {pokemon: "Makuhita", min_level: 11, max_level: 11, chance: 5},
-            {pokemon: "Sableye", min_level: 10, max_level: 10, chance: 4},
             {pokemon: "Sableye", min_level: 9, max_level: 9, chance: 1},
             {pokemon: "Sableye", min_level: 11, max_level: 11, chance: 1},
         ]
     },
     "Granite Cave (B2F)": {
-        "Rock Smash": [
-            {pokemon: "Geodude", min_level: 10, max_level: 15, chance: 60},
-            {pokemon: "Nosepass", min_level: 10, max_level: 20, chance: 30},
-            {pokemon: "Geodude", min_level: 5, max_level: 10, chance: 5},
-            {pokemon: "Geodude", min_level: 15, max_level: 20, chance: 4},
-            {pokemon: "Geodude", min_level: 15, max_level: 20, chance: 1},
-        ],
         "Walk": [
             {pokemon: "Aron", min_level: 11, max_level: 11, chance: 20},
             {pokemon: "Zubat", min_level: 10, max_level: 10, chance: 20},
             {pokemon: "Abra", min_level: 10, max_level: 10, chance: 10},
             {pokemon: "Aron", min_level: 10, max_level: 10, chance: 10},
             {pokemon: "Aron", min_level: 12, max_level: 12, chance: 10},
+            {pokemon: "Sableye", min_level: 10, max_level: 10, chance: 10},
             {pokemon: "Zubat", min_level: 11, max_level: 11, chance: 10},
-            {pokemon: "Sableye", min_level: 10, max_level: 10, chance: 5},
             {pokemon: "Sableye", min_level: 11, max_level: 11, chance: 5},
-            {pokemon: "Sableye", min_level: 12, max_level: 12, chance: 4},
-            {pokemon: "Sableye", min_level: 10, max_level: 10, chance: 4},
-            {pokemon: "Sableye", min_level: 12, max_level: 12, chance: 1},
-            {pokemon: "Sableye", min_level: 10, max_level: 10, chance: 1},
+            {pokemon: "Sableye", min_level: 12, max_level: 12, chance: 5},
+        ],
+        "Rock Smash": [
+            {pokemon: "Geodude", min_level: 10, max_level: 15, chance: 60},
+            {pokemon: "Nosepass", min_level: 10, max_level: 20, chance: 30},
+            {pokemon: "Geodude", min_level: 5, max_level: 10, chance: 5},
+            {pokemon: "Geodude", min_level: 15, max_level: 20, chance: 5},
         ]
     },
-    "Hoenn Battle Frontier": {
-        "Wailmer Pail": [
-            {pokemon: "Sudowoodo", min_level: 40, max_level: 40, chance: 100},
+    "Granite Cave (Steven's Room)": {
+        "Walk": [
+            {pokemon: "Makuhita", min_level: 8, max_level: 8, chance: 20},
+            {pokemon: "Zubat", min_level: 7, max_level: 7, chance: 20},
+            {pokemon: "Abra", min_level: 8, max_level: 8, chance: 10},
+            {pokemon: "Makuhita", min_level: 7, max_level: 7, chance: 10},
+            {pokemon: "Makuhita", min_level: 9, max_level: 9, chance: 10},
+            {pokemon: "Zubat", min_level: 8, max_level: 8, chance: 10},
+            {pokemon: "Aron", min_level: 7, max_level: 7, chance: 5},
+            {pokemon: "Aron", min_level: 8, max_level: 8, chance: 5},
+            {pokemon: "Makuhita", min_level: 6, max_level: 6, chance: 5},
+            {pokemon: "Makuhita", min_level: 10, max_level: 10, chance: 5},
         ]
     },
-    "Hoenn Pokecenter Area": {
-        "Colosseum Bonus Disc Jpn": [
-            {pokemon: "Celebi", min_level: 10, max_level: 10, chance: 100},
-            {pokemon: "Pikachu", min_level: 10, max_level: 10, chance: 100},
+    "Hoenn (Roaming)": {
+        "Roaming (Grass)": [
+            {pokemon: "Latias", min_level: 40, max_level: 40, chance: 100},
+            {pokemon: "Latios", min_level: 40, max_level: 40, chance: 100},
+        ],
+        "Roaming (Water)": [
+            {pokemon: "Latias", min_level: 40, max_level: 40, chance: 100},
+            {pokemon: "Latios", min_level: 40, max_level: 40, chance: 100},
         ]
     },
     "Island Cave": {
@@ -451,17 +293,15 @@ export const encounters = {
     },
     "Jagged Pass": {
         "Walk": [
-            {pokemon: "Numel", min_level: 21, max_level: 21, chance: 20},
-            {pokemon: "Machop", min_level: 21, max_level: 21, chance: 10},
+            {pokemon: "Numel", min_level: 21, max_level: 21, chance: 40},
             {pokemon: "Machop", min_level: 20, max_level: 20, chance: 10},
+            {pokemon: "Machop", min_level: 21, max_level: 21, chance: 10},
             {pokemon: "Numel", min_level: 20, max_level: 20, chance: 10},
             {pokemon: "Spoink", min_level: 20, max_level: 20, chance: 10},
             {pokemon: "Machop", min_level: 22, max_level: 22, chance: 5},
+            {pokemon: "Numel", min_level: 22, max_level: 22, chance: 5},
             {pokemon: "Spoink", min_level: 21, max_level: 21, chance: 5},
-            {pokemon: "Numel", min_level: 22, max_level: 22, chance: 4},
-            {pokemon: "Spoink", min_level: 22, max_level: 22, chance: 4},
-            {pokemon: "Numel", min_level: 22, max_level: 22, chance: 1},
-            {pokemon: "Spoink", min_level: 22, max_level: 22, chance: 1},
+            {pokemon: "Spoink", min_level: 22, max_level: 22, chance: 5},
         ]
     },
     "Lavaridge Town": {
@@ -470,14 +310,20 @@ export const encounters = {
         ]
     },
     "Lilycove City": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
@@ -485,13 +331,6 @@ export const encounters = {
             {pokemon: "Staryu", min_level: 25, max_level: 30, chance: 15},
             {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
         ]
     },
     "Littleroot Town": {
@@ -501,17 +340,113 @@ export const encounters = {
             {pokemon: "Totodile", min_level: 5, max_level: 5, chance: 100},
         ]
     },
-    "Magma Hideout": {
+    "Magma Hideout (1F)": {
         "Walk": [
             {pokemon: "Geodude", min_level: 27, max_level: 27, chance: 20},
             {pokemon: "Torkoal", min_level: 28, max_level: 28, chance: 20},
+            {pokemon: "Geodude", min_level: 30, max_level: 30, chance: 15},
             {pokemon: "Geodude", min_level: 28, max_level: 28, chance: 10},
             {pokemon: "Geodude", min_level: 29, max_level: 29, chance: 10},
-            {pokemon: "Geodude", min_level: 30, max_level: 30, chance: 10},
             {pokemon: "Torkoal", min_level: 30, max_level: 30, chance: 10},
-            {pokemon: "Geodude", min_level: 30, max_level: 30, chance: 5},
-            {pokemon: "Graveler", min_level: 30, max_level: 30, chance: 5},
-            {pokemon: "Graveler", min_level: 30, max_level: 30, chance: 4},
+            {pokemon: "Graveler", min_level: 30, max_level: 30, chance: 9},
+            {pokemon: "Graveler", min_level: 31, max_level: 31, chance: 4},
+            {pokemon: "Graveler", min_level: 32, max_level: 32, chance: 1},
+            {pokemon: "Graveler", min_level: 33, max_level: 33, chance: 1},
+        ]
+    },
+    "Magma Hideout (2F, Room 1)": {
+        "Walk": [
+            {pokemon: "Geodude", min_level: 27, max_level: 27, chance: 20},
+            {pokemon: "Torkoal", min_level: 28, max_level: 28, chance: 20},
+            {pokemon: "Geodude", min_level: 30, max_level: 30, chance: 15},
+            {pokemon: "Geodude", min_level: 28, max_level: 28, chance: 10},
+            {pokemon: "Geodude", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Torkoal", min_level: 30, max_level: 30, chance: 10},
+            {pokemon: "Graveler", min_level: 30, max_level: 30, chance: 9},
+            {pokemon: "Graveler", min_level: 31, max_level: 31, chance: 4},
+            {pokemon: "Graveler", min_level: 32, max_level: 32, chance: 1},
+            {pokemon: "Graveler", min_level: 33, max_level: 33, chance: 1},
+        ]
+    },
+    "Magma Hideout (2F, Room 2)": {
+        "Walk": [
+            {pokemon: "Geodude", min_level: 27, max_level: 27, chance: 20},
+            {pokemon: "Torkoal", min_level: 28, max_level: 28, chance: 20},
+            {pokemon: "Geodude", min_level: 30, max_level: 30, chance: 15},
+            {pokemon: "Geodude", min_level: 28, max_level: 28, chance: 10},
+            {pokemon: "Geodude", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Torkoal", min_level: 30, max_level: 30, chance: 10},
+            {pokemon: "Graveler", min_level: 30, max_level: 30, chance: 9},
+            {pokemon: "Graveler", min_level: 31, max_level: 31, chance: 4},
+            {pokemon: "Graveler", min_level: 32, max_level: 32, chance: 1},
+            {pokemon: "Graveler", min_level: 33, max_level: 33, chance: 1},
+        ]
+    },
+    "Magma Hideout (2F, Room 3)": {
+        "Walk": [
+            {pokemon: "Geodude", min_level: 27, max_level: 27, chance: 20},
+            {pokemon: "Torkoal", min_level: 28, max_level: 28, chance: 20},
+            {pokemon: "Geodude", min_level: 30, max_level: 30, chance: 15},
+            {pokemon: "Geodude", min_level: 28, max_level: 28, chance: 10},
+            {pokemon: "Geodude", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Torkoal", min_level: 30, max_level: 30, chance: 10},
+            {pokemon: "Graveler", min_level: 30, max_level: 30, chance: 9},
+            {pokemon: "Graveler", min_level: 31, max_level: 31, chance: 4},
+            {pokemon: "Graveler", min_level: 32, max_level: 32, chance: 1},
+            {pokemon: "Graveler", min_level: 33, max_level: 33, chance: 1},
+        ]
+    },
+    "Magma Hideout (3F, Room 1)": {
+        "Walk": [
+            {pokemon: "Geodude", min_level: 27, max_level: 27, chance: 20},
+            {pokemon: "Torkoal", min_level: 28, max_level: 28, chance: 20},
+            {pokemon: "Geodude", min_level: 30, max_level: 30, chance: 15},
+            {pokemon: "Geodude", min_level: 28, max_level: 28, chance: 10},
+            {pokemon: "Geodude", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Torkoal", min_level: 30, max_level: 30, chance: 10},
+            {pokemon: "Graveler", min_level: 30, max_level: 30, chance: 9},
+            {pokemon: "Graveler", min_level: 31, max_level: 31, chance: 4},
+            {pokemon: "Graveler", min_level: 32, max_level: 32, chance: 1},
+            {pokemon: "Graveler", min_level: 33, max_level: 33, chance: 1},
+        ]
+    },
+    "Magma Hideout (3F, Room 2)": {
+        "Walk": [
+            {pokemon: "Geodude", min_level: 27, max_level: 27, chance: 20},
+            {pokemon: "Torkoal", min_level: 28, max_level: 28, chance: 20},
+            {pokemon: "Geodude", min_level: 30, max_level: 30, chance: 15},
+            {pokemon: "Geodude", min_level: 28, max_level: 28, chance: 10},
+            {pokemon: "Geodude", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Torkoal", min_level: 30, max_level: 30, chance: 10},
+            {pokemon: "Graveler", min_level: 30, max_level: 30, chance: 9},
+            {pokemon: "Graveler", min_level: 31, max_level: 31, chance: 4},
+            {pokemon: "Graveler", min_level: 32, max_level: 32, chance: 1},
+            {pokemon: "Graveler", min_level: 33, max_level: 33, chance: 1},
+        ]
+    },
+    "Magma Hideout (3F, Room 3)": {
+        "Walk": [
+            {pokemon: "Geodude", min_level: 27, max_level: 27, chance: 20},
+            {pokemon: "Torkoal", min_level: 28, max_level: 28, chance: 20},
+            {pokemon: "Geodude", min_level: 30, max_level: 30, chance: 15},
+            {pokemon: "Geodude", min_level: 28, max_level: 28, chance: 10},
+            {pokemon: "Geodude", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Torkoal", min_level: 30, max_level: 30, chance: 10},
+            {pokemon: "Graveler", min_level: 30, max_level: 30, chance: 9},
+            {pokemon: "Graveler", min_level: 31, max_level: 31, chance: 4},
+            {pokemon: "Graveler", min_level: 32, max_level: 32, chance: 1},
+            {pokemon: "Graveler", min_level: 33, max_level: 33, chance: 1},
+        ]
+    },
+    "Magma Hideout (4F)": {
+        "Walk": [
+            {pokemon: "Geodude", min_level: 27, max_level: 27, chance: 20},
+            {pokemon: "Torkoal", min_level: 28, max_level: 28, chance: 20},
+            {pokemon: "Geodude", min_level: 30, max_level: 30, chance: 15},
+            {pokemon: "Geodude", min_level: 28, max_level: 28, chance: 10},
+            {pokemon: "Geodude", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Torkoal", min_level: 30, max_level: 30, chance: 10},
+            {pokemon: "Graveler", min_level: 30, max_level: 30, chance: 9},
             {pokemon: "Graveler", min_level: 31, max_level: 31, chance: 4},
             {pokemon: "Graveler", min_level: 32, max_level: 32, chance: 1},
             {pokemon: "Graveler", min_level: 33, max_level: 33, chance: 1},
@@ -522,22 +457,18 @@ export const encounters = {
             {pokemon: "Kyogre", min_level: 70, max_level: 70, chance: 100},
         ]
     },
-    "Meteor Falls": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Barboach", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
-        ],
-        "Super Rod": [
-            {pokemon: "Barboach", min_level: 25, max_level: 30, chance: 40},
-            {pokemon: "Barboach", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Barboach", min_level: 20, max_level: 25, chance: 15},
-            {pokemon: "Barboach", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Barboach", min_level: 40, max_level: 45, chance: 1},
+    "Meteor Falls (1F, Room 1)": {
+        "Walk": [
+            {pokemon: "Zubat", min_level: 16, max_level: 16, chance: 20},
+            {pokemon: "Zubat", min_level: 17, max_level: 17, chance: 20},
+            {pokemon: "Solrock", min_level: 16, max_level: 16, chance: 10},
+            {pokemon: "Zubat", min_level: 14, max_level: 14, chance: 10},
+            {pokemon: "Zubat", min_level: 15, max_level: 15, chance: 10},
+            {pokemon: "Zubat", min_level: 18, max_level: 18, chance: 10},
+            {pokemon: "Solrock", min_level: 14, max_level: 14, chance: 5},
+            {pokemon: "Solrock", min_level: 18, max_level: 18, chance: 5},
+            {pokemon: "Zubat", min_level: 19, max_level: 19, chance: 5},
+            {pokemon: "Zubat", min_level: 20, max_level: 20, chance: 5},
         ],
         "Surf": [
             {pokemon: "Zubat", min_level: 5, max_level: 35, chance: 60},
@@ -546,108 +477,48 @@ export const encounters = {
             {pokemon: "Solrock", min_level: 15, max_level: 25, chance: 4},
             {pokemon: "Solrock", min_level: 5, max_level: 15, chance: 1},
         ],
-        "Walk": [
-            {pokemon: "Zubat", min_level: 16, max_level: 16, chance: 20},
-            {pokemon: "Zubat", min_level: 17, max_level: 17, chance: 20},
-            {pokemon: "Solrock", min_level: 16, max_level: 16, chance: 10},
-            {pokemon: "Zubat", min_level: 18, max_level: 18, chance: 10},
-            {pokemon: "Zubat", min_level: 15, max_level: 15, chance: 10},
-            {pokemon: "Zubat", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Solrock", min_level: 18, max_level: 18, chance: 5},
-            {pokemon: "Solrock", min_level: 14, max_level: 14, chance: 5},
-            {pokemon: "Zubat", min_level: 19, max_level: 19, chance: 4},
-            {pokemon: "Zubat", min_level: 20, max_level: 20, chance: 4},
-            {pokemon: "Zubat", min_level: 19, max_level: 19, chance: 1},
-            {pokemon: "Zubat", min_level: 20, max_level: 20, chance: 1},
-        ]
-    },
-    "Meteor Falls (B1F)": {
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
+        ],
         "Good Rod": [
             {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
             {pokemon: "Barboach", min_level: 10, max_level: 30, chance: 20},
             {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
         ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
-        ],
         "Super Rod": [
             {pokemon: "Barboach", min_level: 25, max_level: 30, chance: 40},
             {pokemon: "Barboach", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Whiscash", min_level: 30, max_level: 35, chance: 15},
-            {pokemon: "Whiscash", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Whiscash", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Golbat", min_level: 30, max_level: 35, chance: 60},
-            {pokemon: "Golbat", min_level: 30, max_level: 35, chance: 30},
-            {pokemon: "Solrock", min_level: 25, max_level: 35, chance: 5},
-            {pokemon: "Solrock", min_level: 15, max_level: 25, chance: 4},
-            {pokemon: "Solrock", min_level: 5, max_level: 15, chance: 1},
-        ],
+            {pokemon: "Barboach", min_level: 20, max_level: 25, chance: 15},
+            {pokemon: "Barboach", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Barboach", min_level: 40, max_level: 45, chance: 1},
+        ]
+    },
+    "Meteor Falls (1F, Room 2)": {
         "Walk": [
-            {pokemon: "Golbat", min_level: 33, max_level: 33, chance: 20},
-            {pokemon: "Golbat", min_level: 35, max_level: 35, chance: 20},
-            {pokemon: "Golbat", min_level: 33, max_level: 33, chance: 10},
-            {pokemon: "Solrock", min_level: 35, max_level: 35, chance: 10},
+            {pokemon: "Golbat", min_level: 33, max_level: 33, chance: 30},
+            {pokemon: "Golbat", min_level: 35, max_level: 35, chance: 25},
             {pokemon: "Solrock", min_level: 33, max_level: 33, chance: 10},
-            {pokemon: "Solrock", min_level: 37, max_level: 37, chance: 10},
-            {pokemon: "Golbat", min_level: 35, max_level: 35, chance: 5},
-            {pokemon: "Solrock", min_level: 39, max_level: 39, chance: 5},
-            {pokemon: "Golbat", min_level: 38, max_level: 38, chance: 4},
-            {pokemon: "Golbat", min_level: 40, max_level: 40, chance: 4},
-            {pokemon: "Golbat", min_level: 38, max_level: 38, chance: 1},
-            {pokemon: "Golbat", min_level: 40, max_level: 40, chance: 1},
-        ]
-    },
-    "Meteor Falls (back)": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Barboach", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
-        ],
-        "Super Rod": [
-            {pokemon: "Barboach", min_level: 25, max_level: 30, chance: 40},
-            {pokemon: "Barboach", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Whiscash", min_level: 30, max_level: 35, chance: 15},
-            {pokemon: "Whiscash", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Whiscash", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Golbat", min_level: 30, max_level: 35, chance: 60},
-            {pokemon: "Golbat", min_level: 30, max_level: 35, chance: 30},
-            {pokemon: "Solrock", min_level: 25, max_level: 35, chance: 5},
-            {pokemon: "Solrock", min_level: 15, max_level: 25, chance: 4},
-            {pokemon: "Solrock", min_level: 5, max_level: 15, chance: 1},
-        ],
-        "Walk": [
-            {pokemon: "Golbat", min_level: 33, max_level: 33, chance: 20},
-            {pokemon: "Golbat", min_level: 35, max_level: 35, chance: 20},
-            {pokemon: "Golbat", min_level: 33, max_level: 33, chance: 10},
             {pokemon: "Solrock", min_level: 35, max_level: 35, chance: 10},
-            {pokemon: "Solrock", min_level: 33, max_level: 33, chance: 10},
             {pokemon: "Solrock", min_level: 37, max_level: 37, chance: 10},
-            {pokemon: "Golbat", min_level: 35, max_level: 35, chance: 5},
+            {pokemon: "Golbat", min_level: 38, max_level: 38, chance: 5},
+            {pokemon: "Golbat", min_level: 40, max_level: 40, chance: 5},
             {pokemon: "Solrock", min_level: 39, max_level: 39, chance: 5},
-            {pokemon: "Golbat", min_level: 38, max_level: 38, chance: 4},
-            {pokemon: "Golbat", min_level: 40, max_level: 40, chance: 4},
-            {pokemon: "Golbat", min_level: 38, max_level: 38, chance: 1},
-            {pokemon: "Golbat", min_level: 40, max_level: 40, chance: 1},
-        ]
-    },
-    "Meteor Falls (back/small room)": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Barboach", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Surf": [
+            {pokemon: "Golbat", min_level: 30, max_level: 35, chance: 90},
+            {pokemon: "Solrock", min_level: 25, max_level: 35, chance: 5},
+            {pokemon: "Solrock", min_level: 15, max_level: 25, chance: 4},
+            {pokemon: "Solrock", min_level: 5, max_level: 15, chance: 1},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Barboach", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Barboach", min_level: 25, max_level: 30, chance: 40},
@@ -655,14 +526,43 @@ export const encounters = {
             {pokemon: "Whiscash", min_level: 30, max_level: 35, chance: 15},
             {pokemon: "Whiscash", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Whiscash", min_level: 40, max_level: 45, chance: 1},
+        ]
+    },
+    "Meteor Falls (B1F, Room 1)": {
+        "Walk": [
+            {pokemon: "Golbat", min_level: 33, max_level: 33, chance: 30},
+            {pokemon: "Golbat", min_level: 35, max_level: 35, chance: 25},
+            {pokemon: "Solrock", min_level: 33, max_level: 33, chance: 10},
+            {pokemon: "Solrock", min_level: 35, max_level: 35, chance: 10},
+            {pokemon: "Solrock", min_level: 37, max_level: 37, chance: 10},
+            {pokemon: "Golbat", min_level: 38, max_level: 38, chance: 5},
+            {pokemon: "Golbat", min_level: 40, max_level: 40, chance: 5},
+            {pokemon: "Solrock", min_level: 39, max_level: 39, chance: 5},
         ],
         "Surf": [
-            {pokemon: "Golbat", min_level: 30, max_level: 35, chance: 60},
-            {pokemon: "Golbat", min_level: 30, max_level: 35, chance: 30},
+            {pokemon: "Golbat", min_level: 30, max_level: 35, chance: 90},
             {pokemon: "Solrock", min_level: 25, max_level: 35, chance: 5},
             {pokemon: "Solrock", min_level: 15, max_level: 25, chance: 4},
             {pokemon: "Solrock", min_level: 5, max_level: 15, chance: 1},
         ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Barboach", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Super Rod": [
+            {pokemon: "Barboach", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Barboach", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Whiscash", min_level: 30, max_level: 35, chance: 15},
+            {pokemon: "Whiscash", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Whiscash", min_level: 40, max_level: 45, chance: 1},
+        ]
+    },
+    "Meteor Falls (B1F, Room 2)": {
         "Walk": [
             {pokemon: "Golbat", min_level: 33, max_level: 33, chance: 20},
             {pokemon: "Golbat", min_level: 35, max_level: 35, chance: 20},
@@ -671,19 +571,93 @@ export const encounters = {
             {pokemon: "Solrock", min_level: 35, max_level: 35, chance: 10},
             {pokemon: "Solrock", min_level: 37, max_level: 37, chance: 10},
             {pokemon: "Bagon", min_level: 25, max_level: 25, chance: 5},
+            {pokemon: "Golbat", min_level: 38, max_level: 38, chance: 5},
+            {pokemon: "Golbat", min_level: 40, max_level: 40, chance: 5},
             {pokemon: "Solrock", min_level: 39, max_level: 39, chance: 5},
-            {pokemon: "Golbat", min_level: 38, max_level: 38, chance: 4},
-            {pokemon: "Golbat", min_level: 40, max_level: 40, chance: 4},
-            {pokemon: "Golbat", min_level: 38, max_level: 38, chance: 1},
-            {pokemon: "Golbat", min_level: 40, max_level: 40, chance: 1},
+        ],
+        "Surf": [
+            {pokemon: "Golbat", min_level: 30, max_level: 35, chance: 90},
+            {pokemon: "Solrock", min_level: 25, max_level: 35, chance: 5},
+            {pokemon: "Solrock", min_level: 15, max_level: 25, chance: 4},
+            {pokemon: "Solrock", min_level: 5, max_level: 15, chance: 1},
+        ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Barboach", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Super Rod": [
+            {pokemon: "Barboach", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Barboach", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Whiscash", min_level: 30, max_level: 35, chance: 15},
+            {pokemon: "Whiscash", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Whiscash", min_level: 40, max_level: 45, chance: 1},
         ]
     },
-    "Mirage Tower": {
+    "Meteor Falls (Steven's Cave)": {
         "Walk": [
+            {pokemon: "Golbat", min_level: 33, max_level: 33, chance: 30},
+            {pokemon: "Golbat", min_level: 35, max_level: 35, chance: 25},
+            {pokemon: "Solrock", min_level: 33, max_level: 33, chance: 10},
+            {pokemon: "Solrock", min_level: 35, max_level: 35, chance: 10},
+            {pokemon: "Solrock", min_level: 37, max_level: 37, chance: 10},
+            {pokemon: "Golbat", min_level: 38, max_level: 38, chance: 5},
+            {pokemon: "Golbat", min_level: 40, max_level: 40, chance: 5},
+            {pokemon: "Solrock", min_level: 39, max_level: 39, chance: 5},
+        ]
+    },
+    "Mirage Tower (1F)": {
+        "Walk": [
+            {pokemon: "Sandshrew", min_level: 20, max_level: 20, chance: 20},
             {pokemon: "Sandshrew", min_level: 21, max_level: 21, chance: 20},
+            {pokemon: "Trapinch", min_level: 20, max_level: 20, chance: 20},
             {pokemon: "Trapinch", min_level: 21, max_level: 21, chance: 20},
-            {pokemon: "Sandshrew", min_level: 20, max_level: 20, chance: 10},
-            {pokemon: "Trapinch", min_level: 20, max_level: 20, chance: 10},
+            {pokemon: "Sandshrew", min_level: 22, max_level: 22, chance: 5},
+            {pokemon: "Trapinch", min_level: 22, max_level: 22, chance: 5},
+            {pokemon: "Sandshrew", min_level: 23, max_level: 23, chance: 4},
+            {pokemon: "Trapinch", min_level: 23, max_level: 23, chance: 4},
+            {pokemon: "Sandshrew", min_level: 24, max_level: 24, chance: 1},
+            {pokemon: "Trapinch", min_level: 24, max_level: 24, chance: 1},
+        ]
+    },
+    "Mirage Tower (2F)": {
+        "Walk": [
+            {pokemon: "Sandshrew", min_level: 20, max_level: 20, chance: 20},
+            {pokemon: "Sandshrew", min_level: 21, max_level: 21, chance: 20},
+            {pokemon: "Trapinch", min_level: 20, max_level: 20, chance: 20},
+            {pokemon: "Trapinch", min_level: 21, max_level: 21, chance: 20},
+            {pokemon: "Sandshrew", min_level: 22, max_level: 22, chance: 5},
+            {pokemon: "Trapinch", min_level: 22, max_level: 22, chance: 5},
+            {pokemon: "Sandshrew", min_level: 23, max_level: 23, chance: 4},
+            {pokemon: "Trapinch", min_level: 23, max_level: 23, chance: 4},
+            {pokemon: "Sandshrew", min_level: 24, max_level: 24, chance: 1},
+            {pokemon: "Trapinch", min_level: 24, max_level: 24, chance: 1},
+        ]
+    },
+    "Mirage Tower (3F)": {
+        "Walk": [
+            {pokemon: "Sandshrew", min_level: 20, max_level: 20, chance: 20},
+            {pokemon: "Sandshrew", min_level: 21, max_level: 21, chance: 20},
+            {pokemon: "Trapinch", min_level: 20, max_level: 20, chance: 20},
+            {pokemon: "Trapinch", min_level: 21, max_level: 21, chance: 20},
+            {pokemon: "Sandshrew", min_level: 22, max_level: 22, chance: 5},
+            {pokemon: "Trapinch", min_level: 22, max_level: 22, chance: 5},
+            {pokemon: "Sandshrew", min_level: 23, max_level: 23, chance: 4},
+            {pokemon: "Trapinch", min_level: 23, max_level: 23, chance: 4},
+            {pokemon: "Sandshrew", min_level: 24, max_level: 24, chance: 1},
+            {pokemon: "Trapinch", min_level: 24, max_level: 24, chance: 1},
+        ]
+    },
+    "Mirage Tower (4F)": {
+        "Walk": [
+            {pokemon: "Sandshrew", min_level: 20, max_level: 20, chance: 20},
+            {pokemon: "Sandshrew", min_level: 21, max_level: 21, chance: 20},
+            {pokemon: "Trapinch", min_level: 20, max_level: 20, chance: 20},
+            {pokemon: "Trapinch", min_level: 21, max_level: 21, chance: 20},
             {pokemon: "Sandshrew", min_level: 22, max_level: 22, chance: 5},
             {pokemon: "Trapinch", min_level: 22, max_level: 22, chance: 5},
             {pokemon: "Sandshrew", min_level: 23, max_level: 23, chance: 4},
@@ -693,14 +667,20 @@ export const encounters = {
         ]
     },
     "Mossdeep City": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Sharpedo", min_level: 30, max_level: 35, chance: 40},
@@ -708,140 +688,120 @@ export const encounters = {
             {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 15},
             {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
         ]
     },
-    "Mossdeep City (Steven's house)": {
+    "Mossdeep City (Steven's House)": {
         "Gift": [
             {pokemon: "Beldum", min_level: 5, max_level: 5, chance: 100},
         ]
     },
-    "Mount Pyre (1F)": {
+    "Mt. Pyre (1F)": {
         "Walk": [
             {pokemon: "Shuppet", min_level: 27, max_level: 27, chance: 20},
             {pokemon: "Shuppet", min_level: 28, max_level: 28, chance: 20},
-            {pokemon: "Shuppet", min_level: 26, max_level: 26, chance: 10},
+            {pokemon: "Shuppet", min_level: 24, max_level: 24, chance: 15},
+            {pokemon: "Shuppet", min_level: 29, max_level: 29, chance: 15},
             {pokemon: "Shuppet", min_level: 25, max_level: 25, chance: 10},
-            {pokemon: "Shuppet", min_level: 29, max_level: 29, chance: 10},
-            {pokemon: "Shuppet", min_level: 24, max_level: 24, chance: 10},
-            {pokemon: "Shuppet", min_level: 23, max_level: 23, chance: 5},
+            {pokemon: "Shuppet", min_level: 26, max_level: 26, chance: 10},
             {pokemon: "Shuppet", min_level: 22, max_level: 22, chance: 5},
-            {pokemon: "Shuppet", min_level: 29, max_level: 29, chance: 4},
-            {pokemon: "Shuppet", min_level: 24, max_level: 24, chance: 4},
-            {pokemon: "Shuppet", min_level: 29, max_level: 29, chance: 1},
-            {pokemon: "Shuppet", min_level: 24, max_level: 24, chance: 1},
+            {pokemon: "Shuppet", min_level: 23, max_level: 23, chance: 5},
         ]
     },
-    "Mount Pyre (2F)": {
+    "Mt. Pyre (2F)": {
         "Walk": [
             {pokemon: "Shuppet", min_level: 27, max_level: 27, chance: 20},
             {pokemon: "Shuppet", min_level: 28, max_level: 28, chance: 20},
-            {pokemon: "Shuppet", min_level: 26, max_level: 26, chance: 10},
+            {pokemon: "Shuppet", min_level: 24, max_level: 24, chance: 15},
+            {pokemon: "Shuppet", min_level: 29, max_level: 29, chance: 15},
             {pokemon: "Shuppet", min_level: 25, max_level: 25, chance: 10},
-            {pokemon: "Shuppet", min_level: 29, max_level: 29, chance: 10},
-            {pokemon: "Shuppet", min_level: 24, max_level: 24, chance: 10},
-            {pokemon: "Shuppet", min_level: 23, max_level: 23, chance: 5},
+            {pokemon: "Shuppet", min_level: 26, max_level: 26, chance: 10},
             {pokemon: "Shuppet", min_level: 22, max_level: 22, chance: 5},
-            {pokemon: "Shuppet", min_level: 29, max_level: 29, chance: 4},
-            {pokemon: "Shuppet", min_level: 24, max_level: 24, chance: 4},
-            {pokemon: "Shuppet", min_level: 29, max_level: 29, chance: 1},
-            {pokemon: "Shuppet", min_level: 24, max_level: 24, chance: 1},
+            {pokemon: "Shuppet", min_level: 23, max_level: 23, chance: 5},
         ]
     },
-    "Mount Pyre (3F)": {
+    "Mt. Pyre (3F)": {
         "Walk": [
             {pokemon: "Shuppet", min_level: 27, max_level: 27, chance: 20},
             {pokemon: "Shuppet", min_level: 28, max_level: 28, chance: 20},
-            {pokemon: "Shuppet", min_level: 26, max_level: 26, chance: 10},
+            {pokemon: "Shuppet", min_level: 24, max_level: 24, chance: 15},
+            {pokemon: "Shuppet", min_level: 29, max_level: 29, chance: 15},
             {pokemon: "Shuppet", min_level: 25, max_level: 25, chance: 10},
-            {pokemon: "Shuppet", min_level: 29, max_level: 29, chance: 10},
-            {pokemon: "Shuppet", min_level: 24, max_level: 24, chance: 10},
-            {pokemon: "Shuppet", min_level: 23, max_level: 23, chance: 5},
+            {pokemon: "Shuppet", min_level: 26, max_level: 26, chance: 10},
             {pokemon: "Shuppet", min_level: 22, max_level: 22, chance: 5},
-            {pokemon: "Shuppet", min_level: 29, max_level: 29, chance: 4},
-            {pokemon: "Shuppet", min_level: 24, max_level: 24, chance: 4},
-            {pokemon: "Shuppet", min_level: 29, max_level: 29, chance: 1},
-            {pokemon: "Shuppet", min_level: 24, max_level: 24, chance: 1},
+            {pokemon: "Shuppet", min_level: 23, max_level: 23, chance: 5},
         ]
     },
-    "Mount Pyre (4F)": {
+    "Mt. Pyre (4F)": {
         "Walk": [
             {pokemon: "Shuppet", min_level: 27, max_level: 27, chance: 20},
             {pokemon: "Shuppet", min_level: 28, max_level: 28, chance: 20},
-            {pokemon: "Shuppet", min_level: 26, max_level: 26, chance: 10},
-            {pokemon: "Shuppet", min_level: 25, max_level: 25, chance: 10},
-            {pokemon: "Shuppet", min_level: 29, max_level: 29, chance: 10},
             {pokemon: "Shuppet", min_level: 24, max_level: 24, chance: 10},
-            {pokemon: "Shuppet", min_level: 23, max_level: 23, chance: 5},
+            {pokemon: "Shuppet", min_level: 25, max_level: 25, chance: 10},
+            {pokemon: "Shuppet", min_level: 26, max_level: 26, chance: 10},
+            {pokemon: "Shuppet", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Duskull", min_level: 27, max_level: 27, chance: 8},
             {pokemon: "Shuppet", min_level: 22, max_level: 22, chance: 5},
-            {pokemon: "Duskull", min_level: 27, max_level: 27, chance: 4},
+            {pokemon: "Shuppet", min_level: 23, max_level: 23, chance: 5},
             {pokemon: "Duskull", min_level: 25, max_level: 25, chance: 1},
             {pokemon: "Duskull", min_level: 29, max_level: 29, chance: 1},
         ]
     },
-    "Mount Pyre (5F)": {
+    "Mt. Pyre (5F)": {
         "Walk": [
             {pokemon: "Shuppet", min_level: 27, max_level: 27, chance: 20},
             {pokemon: "Shuppet", min_level: 28, max_level: 28, chance: 20},
-            {pokemon: "Shuppet", min_level: 26, max_level: 26, chance: 10},
-            {pokemon: "Shuppet", min_level: 25, max_level: 25, chance: 10},
-            {pokemon: "Shuppet", min_level: 29, max_level: 29, chance: 10},
             {pokemon: "Shuppet", min_level: 24, max_level: 24, chance: 10},
-            {pokemon: "Shuppet", min_level: 23, max_level: 23, chance: 5},
+            {pokemon: "Shuppet", min_level: 25, max_level: 25, chance: 10},
+            {pokemon: "Shuppet", min_level: 26, max_level: 26, chance: 10},
+            {pokemon: "Shuppet", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Duskull", min_level: 27, max_level: 27, chance: 8},
             {pokemon: "Shuppet", min_level: 22, max_level: 22, chance: 5},
-            {pokemon: "Duskull", min_level: 27, max_level: 27, chance: 4},
+            {pokemon: "Shuppet", min_level: 23, max_level: 23, chance: 5},
             {pokemon: "Duskull", min_level: 25, max_level: 25, chance: 1},
             {pokemon: "Duskull", min_level: 29, max_level: 29, chance: 1},
         ]
     },
-    "Mount Pyre (6F)": {
+    "Mt. Pyre (6F)": {
         "Walk": [
             {pokemon: "Shuppet", min_level: 27, max_level: 27, chance: 20},
             {pokemon: "Shuppet", min_level: 28, max_level: 28, chance: 20},
-            {pokemon: "Shuppet", min_level: 26, max_level: 26, chance: 10},
-            {pokemon: "Shuppet", min_level: 25, max_level: 25, chance: 10},
-            {pokemon: "Shuppet", min_level: 29, max_level: 29, chance: 10},
             {pokemon: "Shuppet", min_level: 24, max_level: 24, chance: 10},
-            {pokemon: "Shuppet", min_level: 23, max_level: 23, chance: 5},
+            {pokemon: "Shuppet", min_level: 25, max_level: 25, chance: 10},
+            {pokemon: "Shuppet", min_level: 26, max_level: 26, chance: 10},
+            {pokemon: "Shuppet", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Duskull", min_level: 27, max_level: 27, chance: 8},
             {pokemon: "Shuppet", min_level: 22, max_level: 22, chance: 5},
-            {pokemon: "Duskull", min_level: 27, max_level: 27, chance: 4},
+            {pokemon: "Shuppet", min_level: 23, max_level: 23, chance: 5},
             {pokemon: "Duskull", min_level: 25, max_level: 25, chance: 1},
             {pokemon: "Duskull", min_level: 29, max_level: 29, chance: 1},
         ]
     },
-    "Mount Pyre (outside)": {
+    "Mt. Pyre (Exterior)": {
         "Walk": [
-            {pokemon: "Shuppet", min_level: 27, max_level: 27, chance: 20},
+            {pokemon: "Shuppet", min_level: 27, max_level: 27, chance: 40},
+            {pokemon: "Vulpix", min_level: 29, max_level: 29, chance: 15},
             {pokemon: "Shuppet", min_level: 28, max_level: 28, chance: 10},
             {pokemon: "Shuppet", min_level: 29, max_level: 29, chance: 10},
-            {pokemon: "Vulpix", min_level: 29, max_level: 29, chance: 10},
             {pokemon: "Vulpix", min_level: 27, max_level: 27, chance: 10},
-            {pokemon: "Vulpix", min_level: 29, max_level: 29, chance: 5},
+            {pokemon: "Wingull", min_level: 27, max_level: 27, chance: 8},
             {pokemon: "Vulpix", min_level: 25, max_level: 25, chance: 5},
-            {pokemon: "Wingull", min_level: 27, max_level: 27, chance: 4},
             {pokemon: "Wingull", min_level: 26, max_level: 26, chance: 1},
             {pokemon: "Wingull", min_level: 28, max_level: 28, chance: 1},
         ]
     },
-    "Mount Pyre (summit)": {
+    "Mt. Pyre (Summit)": {
         "Walk": [
             {pokemon: "Shuppet", min_level: 28, max_level: 28, chance: 20},
             {pokemon: "Shuppet", min_level: 29, max_level: 29, chance: 20},
-            {pokemon: "Shuppet", min_level: 27, max_level: 27, chance: 10},
-            {pokemon: "Shuppet", min_level: 26, max_level: 26, chance: 10},
-            {pokemon: "Shuppet", min_level: 30, max_level: 30, chance: 10},
             {pokemon: "Shuppet", min_level: 25, max_level: 25, chance: 10},
+            {pokemon: "Shuppet", min_level: 26, max_level: 26, chance: 10},
+            {pokemon: "Shuppet", min_level: 27, max_level: 27, chance: 10},
+            {pokemon: "Shuppet", min_level: 30, max_level: 30, chance: 10},
             {pokemon: "Duskull", min_level: 28, max_level: 28, chance: 5},
             {pokemon: "Shuppet", min_level: 24, max_level: 24, chance: 5},
             {pokemon: "Duskull", min_level: 26, max_level: 26, chance: 4},
             {pokemon: "Duskull", min_level: 30, max_level: 30, chance: 4},
-            {pokemon: "Chimecho", min_level: 28, max_level: 28, chance: 1},
+            {pokemon: "Chimecho", min_level: 28, max_level: 28, chance: 2},
         ]
     },
     "Navel Rock": {
@@ -854,14 +814,30 @@ export const encounters = {
         "Static": [
             {pokemon: "Electrode", min_level: 30, max_level: 30, chance: 100},
             {pokemon: "Voltorb", min_level: 25, max_level: 25, chance: 100},
-        ],
+        ]
+    },
+    "New Mauville (Entrance)": {
         "Walk": [
             {pokemon: "Magnemite", min_level: 24, max_level: 24, chance: 20},
             {pokemon: "Voltorb", min_level: 24, max_level: 24, chance: 20},
-            {pokemon: "Magnemite", min_level: 25, max_level: 25, chance: 10},
             {pokemon: "Magnemite", min_level: 23, max_level: 23, chance: 10},
-            {pokemon: "Voltorb", min_level: 25, max_level: 25, chance: 10},
+            {pokemon: "Magnemite", min_level: 25, max_level: 25, chance: 10},
             {pokemon: "Voltorb", min_level: 23, max_level: 23, chance: 10},
+            {pokemon: "Voltorb", min_level: 25, max_level: 25, chance: 10},
+            {pokemon: "Magnemite", min_level: 22, max_level: 22, chance: 5},
+            {pokemon: "Magnemite", min_level: 26, max_level: 26, chance: 5},
+            {pokemon: "Voltorb", min_level: 22, max_level: 22, chance: 5},
+            {pokemon: "Voltorb", min_level: 26, max_level: 26, chance: 5},
+        ]
+    },
+    "New Mauville (Inside)": {
+        "Walk": [
+            {pokemon: "Magnemite", min_level: 24, max_level: 24, chance: 20},
+            {pokemon: "Voltorb", min_level: 24, max_level: 24, chance: 20},
+            {pokemon: "Magnemite", min_level: 23, max_level: 23, chance: 10},
+            {pokemon: "Magnemite", min_level: 25, max_level: 25, chance: 10},
+            {pokemon: "Voltorb", min_level: 23, max_level: 23, chance: 10},
+            {pokemon: "Voltorb", min_level: 25, max_level: 25, chance: 10},
             {pokemon: "Magnemite", min_level: 26, max_level: 26, chance: 5},
             {pokemon: "Voltorb", min_level: 26, max_level: 26, chance: 5},
             {pokemon: "Magnemite", min_level: 22, max_level: 22, chance: 4},
@@ -870,31 +846,21 @@ export const encounters = {
             {pokemon: "Magneton", min_level: 26, max_level: 26, chance: 1},
         ]
     },
-    "New Mauville (entrance)": {
-        "Walk": [
-            {pokemon: "Magnemite", min_level: 24, max_level: 24, chance: 20},
-            {pokemon: "Voltorb", min_level: 24, max_level: 24, chance: 20},
-            {pokemon: "Magnemite", min_level: 25, max_level: 25, chance: 10},
-            {pokemon: "Magnemite", min_level: 23, max_level: 23, chance: 10},
-            {pokemon: "Voltorb", min_level: 25, max_level: 25, chance: 10},
-            {pokemon: "Voltorb", min_level: 23, max_level: 23, chance: 10},
-            {pokemon: "Magnemite", min_level: 26, max_level: 26, chance: 5},
-            {pokemon: "Voltorb", min_level: 26, max_level: 26, chance: 5},
-            {pokemon: "Magnemite", min_level: 22, max_level: 22, chance: 4},
-            {pokemon: "Voltorb", min_level: 22, max_level: 22, chance: 4},
-            {pokemon: "Magnemite", min_level: 22, max_level: 22, chance: 1},
-            {pokemon: "Voltorb", min_level: 22, max_level: 22, chance: 1},
-        ]
-    },
     "Pacifidlog Town": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Sharpedo", min_level: 30, max_level: 35, chance: 40},
@@ -902,24 +868,23 @@ export const encounters = {
             {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 15},
             {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
         ]
     },
     "Petalburg City": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Corphish", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
+        "Surf": [
+            {pokemon: "Marill", min_level: 20, max_level: 30, chance: 60},
+            {pokemon: "Marill", min_level: 10, max_level: 20, chance: 30},
+            {pokemon: "Marill", min_level: 5, max_level: 10, chance: 5},
+            {pokemon: "Marill", min_level: 30, max_level: 35, chance: 5},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Corphish", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Corphish", min_level: 25, max_level: 30, chance: 40},
@@ -927,13 +892,6 @@ export const encounters = {
             {pokemon: "Corphish", min_level: 20, max_level: 25, chance: 15},
             {pokemon: "Corphish", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Corphish", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Marill", min_level: 20, max_level: 30, chance: 60},
-            {pokemon: "Marill", min_level: 10, max_level: 20, chance: 30},
-            {pokemon: "Marill", min_level: 30, max_level: 35, chance: 5},
-            {pokemon: "Marill", min_level: 5, max_level: 10, chance: 4},
-            {pokemon: "Marill", min_level: 5, max_level: 10, chance: 1},
         ]
     },
     "Petalburg Woods": {
@@ -952,48 +910,22 @@ export const encounters = {
             {pokemon: "Taillow", min_level: 6, max_level: 6, chance: 1},
         ]
     },
-    "Road 101": {
+    "Route 101": {
+        "Walk": [
+            {pokemon: "Wurmple", min_level: 2, max_level: 2, chance: 30},
+            {pokemon: "Poochyena", min_level: 3, max_level: 3, chance: 25},
+            {pokemon: "Poochyena", min_level: 2, max_level: 2, chance: 20},
+            {pokemon: "Wurmple", min_level: 3, max_level: 3, chance: 15},
+            {pokemon: "Zigzagoon", min_level: 2, max_level: 2, chance: 8},
+            {pokemon: "Zigzagoon", min_level: 3, max_level: 3, chance: 2},
+        ],
         "Gift": [
             {pokemon: "Mudkip", min_level: 5, max_level: 5, chance: 100},
             {pokemon: "Torchic", min_level: 5, max_level: 5, chance: 100},
             {pokemon: "Treecko", min_level: 5, max_level: 5, chance: 100},
-        ],
-        "Walk": [
-            {pokemon: "Poochyena", min_level: 2, max_level: 2, chance: 20},
-            {pokemon: "Wurmple", min_level: 2, max_level: 2, chance: 20},
-            {pokemon: "Poochyena", min_level: 3, max_level: 3, chance: 10},
-            {pokemon: "Wurmple", min_level: 2, max_level: 2, chance: 10},
-            {pokemon: "Wurmple", min_level: 3, max_level: 3, chance: 10},
-            {pokemon: "Poochyena", min_level: 3, max_level: 3, chance: 5},
-            {pokemon: "Wurmple", min_level: 3, max_level: 3, chance: 5},
-            {pokemon: "Zigzagoon", min_level: 2, max_level: 2, chance: 4},
-            {pokemon: "Zigzagoon", min_level: 3, max_level: 3, chance: 1},
         ]
     },
-    "Road 102": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Corphish", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
-        ],
-        "Super Rod": [
-            {pokemon: "Corphish", min_level: 25, max_level: 30, chance: 40},
-            {pokemon: "Corphish", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Corphish", min_level: 20, max_level: 25, chance: 15},
-            {pokemon: "Corphish", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Corphish", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Marill", min_level: 20, max_level: 30, chance: 60},
-            {pokemon: "Marill", min_level: 10, max_level: 20, chance: 30},
-            {pokemon: "Marill", min_level: 30, max_level: 35, chance: 5},
-            {pokemon: "Marill", min_level: 5, max_level: 10, chance: 4},
-            {pokemon: "Goldeen", min_level: 20, max_level: 30, chance: 1},
-        ],
+    "Route 102": {
         "Walk": [
             {pokemon: "Poochyena", min_level: 3, max_level: 3, chance: 20},
             {pokemon: "Wurmple", min_level: 3, max_level: 3, chance: 20},
@@ -1001,273 +933,10 @@ export const encounters = {
             {pokemon: "Lotad", min_level: 4, max_level: 4, chance: 10},
             {pokemon: "Poochyena", min_level: 4, max_level: 4, chance: 10},
             {pokemon: "Wurmple", min_level: 4, max_level: 4, chance: 10},
-            {pokemon: "Zigzagoon", min_level: 3, max_level: 3, chance: 5},
-            {pokemon: "Ralts", min_level: 4, max_level: 4, chance: 4},
-            {pokemon: "Zigzagoon", min_level: 4, max_level: 4, chance: 4},
-            {pokemon: "Seedot", min_level: 3, max_level: 3, chance: 1},
-            {pokemon: "Zigzagoon", min_level: 4, max_level: 4, chance: 1},
-        ]
-    },
-    "Road 103": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
-        ],
-        "Super Rod": [
-            {pokemon: "Sharpedo", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 15},
-            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
-        ],
-        "Walk": [
-            {pokemon: "Poochyena", min_level: 2, max_level: 2, chance: 20},
-            {pokemon: "Poochyena", min_level: 3, max_level: 3, chance: 20},
-            {pokemon: "Poochyena", min_level: 3, max_level: 3, chance: 10},
-            {pokemon: "Poochyena", min_level: 4, max_level: 4, chance: 10},
-            {pokemon: "Wingull", min_level: 2, max_level: 2, chance: 10},
             {pokemon: "Zigzagoon", min_level: 3, max_level: 3, chance: 10},
-            {pokemon: "Zigzagoon", min_level: 3, max_level: 3, chance: 5},
             {pokemon: "Zigzagoon", min_level: 4, max_level: 4, chance: 5},
-            {pokemon: "Wingull", min_level: 3, max_level: 3, chance: 4},
-            {pokemon: "Wingull", min_level: 2, max_level: 2, chance: 1},
-            {pokemon: "Wingull", min_level: 4, max_level: 4, chance: 1},
-        ]
-    },
-    "Road 104": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 20},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 30},
-        ],
-        "Super Rod": [
-            {pokemon: "Magikarp", min_level: 25, max_level: 30, chance: 40},
-            {pokemon: "Magikarp", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Magikarp", min_level: 20, max_level: 25, chance: 15},
-            {pokemon: "Magikarp", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Magikarp", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
-        ],
-        "Walk": [
-            {pokemon: "Poochyena", min_level: 4, max_level: 4, chance: 20},
-            {pokemon: "Wurmple", min_level: 4, max_level: 4, chance: 20},
-            {pokemon: "Marill", min_level: 5, max_level: 5, chance: 10},
-            {pokemon: "Marill", min_level: 4, max_level: 4, chance: 10},
-            {pokemon: "Poochyena", min_level: 5, max_level: 5, chance: 10},
-            {pokemon: "Taillow", min_level: 4, max_level: 4, chance: 5},
-            {pokemon: "Taillow", min_level: 5, max_level: 5, chance: 5},
-            {pokemon: "Wingull", min_level: 4, max_level: 4, chance: 4},
-            {pokemon: "Wingull", min_level: 3, max_level: 3, chance: 1},
-            {pokemon: "Wingull", min_level: 5, max_level: 5, chance: 1},
-        ]
-    },
-    "Road 105": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
-        ],
-        "Super Rod": [
-            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
-            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
-            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
-        ]
-    },
-    "Road 106": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
-        ],
-        "Super Rod": [
-            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
-            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
-            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
-        ]
-    },
-    "Road 107": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
-        ],
-        "Super Rod": [
-            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
-            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
-            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
-        ]
-    },
-    "Road 108": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
-        ],
-        "Super Rod": [
-            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
-            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
-            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
-        ]
-    },
-    "Road 109": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
-        ],
-        "Super Rod": [
-            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
-            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
-            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
-        ]
-    },
-    "Road 110": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
-        ],
-        "Super Rod": [
-            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
-            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
-            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
-        ],
-        "Walk": [
-            {pokemon: "Electrike", min_level: 12, max_level: 12, chance: 20},
-            {pokemon: "Poochyena", min_level: 12, max_level: 12, chance: 20},
-            {pokemon: "Electrike", min_level: 13, max_level: 13, chance: 10},
-            {pokemon: "Gulpin", min_level: 12, max_level: 12, chance: 10},
-            {pokemon: "Minun", min_level: 13, max_level: 13, chance: 10},
-            {pokemon: "Oddish", min_level: 13, max_level: 13, chance: 10},
-            {pokemon: "Gulpin", min_level: 13, max_level: 13, chance: 5},
-            {pokemon: "Minun", min_level: 13, max_level: 13, chance: 5},
-            {pokemon: "Wingull", min_level: 12, max_level: 12, chance: 4},
-            {pokemon: "Plusle", min_level: 12, max_level: 12, chance: 1},
-            {pokemon: "Plusle", min_level: 13, max_level: 13, chance: 1},
-        ]
-    },
-    "Road 111": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Barboach", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
-        ],
-        "Rock Smash": [
-            {pokemon: "Geodude", min_level: 10, max_level: 15, chance: 60},
-            {pokemon: "Geodude", min_level: 5, max_level: 10, chance: 30},
-            {pokemon: "Geodude", min_level: 15, max_level: 20, chance: 5},
-            {pokemon: "Geodude", min_level: 15, max_level: 20, chance: 4},
-            {pokemon: "Geodude", min_level: 15, max_level: 20, chance: 1},
-        ],
-        "Super Rod": [
-            {pokemon: "Barboach", min_level: 25, max_level: 30, chance: 40},
-            {pokemon: "Barboach", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Barboach", min_level: 20, max_level: 25, chance: 15},
-            {pokemon: "Barboach", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Barboach", min_level: 40, max_level: 45, chance: 1},
+            {pokemon: "Ralts", min_level: 4, max_level: 4, chance: 4},
+            {pokemon: "Seedot", min_level: 3, max_level: 3, chance: 1},
         ],
         "Surf": [
             {pokemon: "Marill", min_level: 20, max_level: 30, chance: 60},
@@ -1276,6 +945,246 @@ export const encounters = {
             {pokemon: "Marill", min_level: 5, max_level: 10, chance: 4},
             {pokemon: "Goldeen", min_level: 20, max_level: 30, chance: 1},
         ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Corphish", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Super Rod": [
+            {pokemon: "Corphish", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Corphish", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Corphish", min_level: 20, max_level: 25, chance: 15},
+            {pokemon: "Corphish", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Corphish", min_level: 40, max_level: 45, chance: 1},
+        ]
+    },
+    "Route 103": {
+        "Walk": [
+            {pokemon: "Poochyena", min_level: 3, max_level: 3, chance: 30},
+            {pokemon: "Poochyena", min_level: 2, max_level: 2, chance: 20},
+            {pokemon: "Zigzagoon", min_level: 3, max_level: 3, chance: 15},
+            {pokemon: "Wingull", min_level: 2, max_level: 2, chance: 11},
+            {pokemon: "Poochyena", min_level: 4, max_level: 4, chance: 10},
+            {pokemon: "Wingull", min_level: 3, max_level: 3, chance: 8},
+            {pokemon: "Zigzagoon", min_level: 4, max_level: 4, chance: 5},
+            {pokemon: "Wingull", min_level: 4, max_level: 4, chance: 1},
+        ],
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
+        ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Super Rod": [
+            {pokemon: "Sharpedo", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 15},
+            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
+        ]
+    },
+    "Route 104": {
+        "Walk": [
+            {pokemon: "Poochyena", min_level: 4, max_level: 4, chance: 20},
+            {pokemon: "Poochyena", min_level: 5, max_level: 5, chance: 20},
+            {pokemon: "Wurmple", min_level: 4, max_level: 4, chance: 20},
+            {pokemon: "Marill", min_level: 4, max_level: 4, chance: 10},
+            {pokemon: "Marill", min_level: 5, max_level: 5, chance: 10},
+            {pokemon: "Wingull", min_level: 4, max_level: 4, chance: 8},
+            {pokemon: "Taillow", min_level: 4, max_level: 4, chance: 5},
+            {pokemon: "Taillow", min_level: 5, max_level: 5, chance: 5},
+            {pokemon: "Wingull", min_level: 3, max_level: 3, chance: 1},
+            {pokemon: "Wingull", min_level: 5, max_level: 5, chance: 1},
+        ],
+        "Surf": [
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 35},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+        ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 100},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 100},
+        ],
+        "Super Rod": [
+            {pokemon: "Magikarp", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Magikarp", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Magikarp", min_level: 20, max_level: 25, chance: 15},
+            {pokemon: "Magikarp", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Magikarp", min_level: 40, max_level: 45, chance: 1},
+        ]
+    },
+    "Route 105": {
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
+        ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Super Rod": [
+            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
+            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
+        ]
+    },
+    "Route 106": {
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
+        ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Super Rod": [
+            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
+            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
+        ]
+    },
+    "Route 107": {
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
+        ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Super Rod": [
+            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
+            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
+        ]
+    },
+    "Route 108": {
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
+        ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Super Rod": [
+            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
+            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
+        ]
+    },
+    "Route 109": {
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
+        ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Super Rod": [
+            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
+            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
+        ]
+    },
+    "Route 110": {
+        "Walk": [
+            {pokemon: "Electrike", min_level: 12, max_level: 12, chance: 20},
+            {pokemon: "Poochyena", min_level: 12, max_level: 12, chance: 20},
+            {pokemon: "Minun", min_level: 13, max_level: 13, chance: 15},
+            {pokemon: "Electrike", min_level: 13, max_level: 13, chance: 10},
+            {pokemon: "Gulpin", min_level: 12, max_level: 12, chance: 10},
+            {pokemon: "Oddish", min_level: 13, max_level: 13, chance: 10},
+            {pokemon: "Wingull", min_level: 12, max_level: 12, chance: 8},
+            {pokemon: "Gulpin", min_level: 13, max_level: 13, chance: 5},
+            {pokemon: "Plusle", min_level: 12, max_level: 12, chance: 1},
+            {pokemon: "Plusle", min_level: 13, max_level: 13, chance: 1},
+        ],
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
+        ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Super Rod": [
+            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
+            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
+        ]
+    },
+    "Route 111": {
         "Walk": [
             {pokemon: "Sandshrew", min_level: 20, max_level: 20, chance: 20},
             {pokemon: "Trapinch", min_level: 20, max_level: 20, chance: 20},
@@ -1287,58 +1196,7 @@ export const encounters = {
             {pokemon: "Trapinch", min_level: 19, max_level: 19, chance: 5},
             {pokemon: "Baltoy", min_level: 20, max_level: 20, chance: 4},
             {pokemon: "Cacnea", min_level: 20, max_level: 20, chance: 4},
-            {pokemon: "Cacnea", min_level: 22, max_level: 22, chance: 1},
-        ]
-    },
-    "Road 112": {
-        "Walk": [
-            {pokemon: "Numel", min_level: 15, max_level: 15, chance: 20},
-            {pokemon: "Marill", min_level: 15, max_level: 15, chance: 10},
-            {pokemon: "Marill", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Numel", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Marill", min_level: 16, max_level: 16, chance: 5},
-            {pokemon: "Numel", min_level: 16, max_level: 16, chance: 5},
-            {pokemon: "Numel", min_level: 16, max_level: 16, chance: 4},
-            {pokemon: "Numel", min_level: 16, max_level: 16, chance: 1},
-        ]
-    },
-    "Road 113": {
-        "Walk": [
-            {pokemon: "Spinda", min_level: 15, max_level: 15, chance: 20},
-            {pokemon: "Slugma", min_level: 15, max_level: 15, chance: 10},
-            {pokemon: "Slugma", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Spinda", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Slugma", min_level: 16, max_level: 16, chance: 5},
-            {pokemon: "Spinda", min_level: 16, max_level: 16, chance: 5},
-            {pokemon: "Skarmory", min_level: 16, max_level: 16, chance: 4},
-            {pokemon: "Spinda", min_level: 16, max_level: 16, chance: 4},
-            {pokemon: "Skarmory", min_level: 16, max_level: 16, chance: 1},
-            {pokemon: "Spinda", min_level: 16, max_level: 16, chance: 1},
-        ]
-    },
-    "Road 114": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Barboach", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
-        ],
-        "Rock Smash": [
-            {pokemon: "Geodude", min_level: 10, max_level: 15, chance: 60},
-            {pokemon: "Geodude", min_level: 5, max_level: 10, chance: 30},
-            {pokemon: "Geodude", min_level: 15, max_level: 20, chance: 5},
-            {pokemon: "Geodude", min_level: 15, max_level: 20, chance: 4},
-            {pokemon: "Geodude", min_level: 15, max_level: 20, chance: 1},
-        ],
-        "Super Rod": [
-            {pokemon: "Barboach", min_level: 25, max_level: 30, chance: 40},
-            {pokemon: "Barboach", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Barboach", min_level: 20, max_level: 25, chance: 15},
-            {pokemon: "Barboach", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Barboach", min_level: 40, max_level: 45, chance: 1},
+            {pokemon: "Cacnea", min_level: 22, max_level: 22, chance: 2},
         ],
         "Surf": [
             {pokemon: "Marill", min_level: 20, max_level: 30, chance: 60},
@@ -1347,45 +1205,92 @@ export const encounters = {
             {pokemon: "Marill", min_level: 5, max_level: 10, chance: 4},
             {pokemon: "Goldeen", min_level: 20, max_level: 30, chance: 1},
         ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Barboach", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Super Rod": [
+            {pokemon: "Barboach", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Barboach", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Barboach", min_level: 20, max_level: 25, chance: 15},
+            {pokemon: "Barboach", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Barboach", min_level: 40, max_level: 45, chance: 1},
+        ],
+        "Rock Smash": [
+            {pokemon: "Geodude", min_level: 10, max_level: 15, chance: 60},
+            {pokemon: "Geodude", min_level: 5, max_level: 10, chance: 30},
+            {pokemon: "Geodude", min_level: 15, max_level: 20, chance: 10},
+        ]
+    },
+    "Route 112": {
+        "Walk": [
+            {pokemon: "Numel", min_level: 15, max_level: 15, chance: 40},
+            {pokemon: "Numel", min_level: 14, max_level: 14, chance: 20},
+            {pokemon: "Numel", min_level: 16, max_level: 16, chance: 15},
+            {pokemon: "Marill", min_level: 14, max_level: 14, chance: 10},
+            {pokemon: "Marill", min_level: 15, max_level: 15, chance: 10},
+            {pokemon: "Marill", min_level: 16, max_level: 16, chance: 5},
+        ]
+    },
+    "Route 113": {
+        "Walk": [
+            {pokemon: "Spinda", min_level: 15, max_level: 15, chance: 40},
+            {pokemon: "Spinda", min_level: 14, max_level: 14, chance: 20},
+            {pokemon: "Slugma", min_level: 14, max_level: 14, chance: 10},
+            {pokemon: "Slugma", min_level: 15, max_level: 15, chance: 10},
+            {pokemon: "Spinda", min_level: 16, max_level: 16, chance: 10},
+            {pokemon: "Skarmory", min_level: 16, max_level: 16, chance: 5},
+            {pokemon: "Slugma", min_level: 16, max_level: 16, chance: 5},
+        ]
+    },
+    "Route 114": {
         "Walk": [
             {pokemon: "Lotad", min_level: 16, max_level: 16, chance: 20},
             {pokemon: "Swablu", min_level: 16, max_level: 16, chance: 20},
-            {pokemon: "Lombre", min_level: 16, max_level: 16, chance: 10},
+            {pokemon: "Lombre", min_level: 16, max_level: 16, chance: 15},
             {pokemon: "Lotad", min_level: 15, max_level: 15, chance: 10},
-            {pokemon: "Swablu", min_level: 17, max_level: 17, chance: 10},
             {pokemon: "Swablu", min_level: 15, max_level: 15, chance: 10},
-            {pokemon: "Lombre", min_level: 16, max_level: 16, chance: 5},
+            {pokemon: "Swablu", min_level: 17, max_level: 17, chance: 10},
             {pokemon: "Lombre", min_level: 18, max_level: 18, chance: 5},
-            {pokemon: "Seviper", min_level: 17, max_level: 17, chance: 4},
+            {pokemon: "Seviper", min_level: 17, max_level: 17, chance: 5},
             {pokemon: "Seviper", min_level: 15, max_level: 15, chance: 4},
             {pokemon: "Nuzleaf", min_level: 15, max_level: 15, chance: 1},
-            {pokemon: "Seviper", min_level: 17, max_level: 17, chance: 1},
-        ]
-    },
-    "Road 115": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Surf": [
+            {pokemon: "Marill", min_level: 20, max_level: 30, chance: 60},
+            {pokemon: "Marill", min_level: 10, max_level: 20, chance: 30},
+            {pokemon: "Marill", min_level: 30, max_level: 35, chance: 5},
+            {pokemon: "Marill", min_level: 5, max_level: 10, chance: 4},
+            {pokemon: "Goldeen", min_level: 20, max_level: 30, chance: 1},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Barboach", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
-            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
-            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
-            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
+            {pokemon: "Barboach", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Barboach", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Barboach", min_level: 20, max_level: 25, chance: 15},
+            {pokemon: "Barboach", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Barboach", min_level: 40, max_level: 45, chance: 1},
         ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
-        ],
+        "Rock Smash": [
+            {pokemon: "Geodude", min_level: 10, max_level: 15, chance: 60},
+            {pokemon: "Geodude", min_level: 5, max_level: 10, chance: 30},
+            {pokemon: "Geodude", min_level: 15, max_level: 20, chance: 10},
+        ]
+    },
+    "Route 115": {
         "Walk": [
             {pokemon: "Swablu", min_level: 23, max_level: 23, chance: 20},
             {pokemon: "Taillow", min_level: 23, max_level: 23, chance: 20},
@@ -1393,14 +1298,36 @@ export const encounters = {
             {pokemon: "Swellow", min_level: 25, max_level: 25, chance: 10},
             {pokemon: "Taillow", min_level: 24, max_level: 24, chance: 10},
             {pokemon: "Taillow", min_level: 25, max_level: 25, chance: 10},
+            {pokemon: "Wingull", min_level: 24, max_level: 24, chance: 8},
             {pokemon: "Jigglypuff", min_level: 24, max_level: 24, chance: 5},
             {pokemon: "Jigglypuff", min_level: 25, max_level: 25, chance: 5},
-            {pokemon: "Wingull", min_level: 24, max_level: 24, chance: 4},
-            {pokemon: "Wingull", min_level: 26, max_level: 26, chance: 1},
             {pokemon: "Wingull", min_level: 25, max_level: 25, chance: 1},
+            {pokemon: "Wingull", min_level: 26, max_level: 26, chance: 1},
+        ],
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
+        ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Super Rod": [
+            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
+            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
         ]
     },
-    "Road 116": {
+    "Route 116": {
         "Walk": [
             {pokemon: "Poochyena", min_level: 6, max_level: 6, chance: 20},
             {pokemon: "Whismur", min_level: 6, max_level: 6, chance: 20},
@@ -1416,22 +1343,17 @@ export const encounters = {
             {pokemon: "Skitty", min_level: 8, max_level: 8, chance: 1},
         ]
     },
-    "Road 117": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Corphish", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
-        ],
-        "Super Rod": [
-            {pokemon: "Corphish", min_level: 25, max_level: 30, chance: 40},
-            {pokemon: "Corphish", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Corphish", min_level: 20, max_level: 25, chance: 15},
-            {pokemon: "Corphish", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Corphish", min_level: 40, max_level: 45, chance: 1},
+    "Route 117": {
+        "Walk": [
+            {pokemon: "Oddish", min_level: 13, max_level: 13, chance: 30},
+            {pokemon: "Poochyena", min_level: 13, max_level: 13, chance: 20},
+            {pokemon: "Illumise", min_level: 13, max_level: 13, chance: 10},
+            {pokemon: "Marill", min_level: 13, max_level: 13, chance: 10},
+            {pokemon: "Oddish", min_level: 14, max_level: 14, chance: 10},
+            {pokemon: "Poochyena", min_level: 14, max_level: 14, chance: 10},
+            {pokemon: "Illumise", min_level: 14, max_level: 14, chance: 8},
+            {pokemon: "Seedot", min_level: 13, max_level: 13, chance: 1},
+            {pokemon: "Volbeat", min_level: 13, max_level: 13, chance: 1},
         ],
         "Surf": [
             {pokemon: "Marill", min_level: 20, max_level: 30, chance: 60},
@@ -1440,28 +1362,50 @@ export const encounters = {
             {pokemon: "Marill", min_level: 5, max_level: 10, chance: 4},
             {pokemon: "Goldeen", min_level: 20, max_level: 30, chance: 1},
         ],
-        "Walk": [
-            {pokemon: "Oddish", min_level: 13, max_level: 13, chance: 20},
-            {pokemon: "Poochyena", min_level: 13, max_level: 13, chance: 20},
-            {pokemon: "Marill", min_level: 13, max_level: 13, chance: 10},
-            {pokemon: "Oddish", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Oddish", min_level: 13, max_level: 13, chance: 10},
-            {pokemon: "Poochyena", min_level: 14, max_level: 14, chance: 10},
-            {pokemon: "Illumise", min_level: 13, max_level: 13, chance: 5},
-            {pokemon: "Illumise", min_level: 14, max_level: 14, chance: 4},
-            {pokemon: "Seedot", min_level: 13, max_level: 13, chance: 1},
-            {pokemon: "Volbeat", min_level: 13, max_level: 13, chance: 1},
-        ]
-    },
-    "Road 118": {
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
+        ],
         "Good Rod": [
             {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Carvanha", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Corphish", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Super Rod": [
+            {pokemon: "Corphish", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Corphish", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Corphish", min_level: 20, max_level: 25, chance: 15},
+            {pokemon: "Corphish", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Corphish", min_level: 40, max_level: 45, chance: 1},
+        ]
+    },
+    "Route 118": {
+        "Walk": [
+            {pokemon: "Electrike", min_level: 24, max_level: 24, chance: 20},
+            {pokemon: "Zigzagoon", min_level: 24, max_level: 24, chance: 20},
+            {pokemon: "Electrike", min_level: 26, max_level: 26, chance: 10},
+            {pokemon: "Linoone", min_level: 26, max_level: 26, chance: 10},
+            {pokemon: "Manectric", min_level: 26, max_level: 26, chance: 10},
+            {pokemon: "Wingull", min_level: 25, max_level: 25, chance: 10},
+            {pokemon: "Zigzagoon", min_level: 26, max_level: 26, chance: 10},
+            {pokemon: "Wingull", min_level: 26, max_level: 26, chance: 8},
+            {pokemon: "Kecleon", min_level: 25, max_level: 25, chance: 1},
+            {pokemon: "Wingull", min_level: 27, max_level: 27, chance: 1},
+        ],
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Carvanha", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Carvanha", min_level: 30, max_level: 35, chance: 40},
@@ -1469,42 +1413,37 @@ export const encounters = {
             {pokemon: "Carvanha", min_level: 20, max_level: 25, chance: 15},
             {pokemon: "Carvanha", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Carvanha", min_level: 40, max_level: 45, chance: 1},
+        ]
+    },
+    "Route 119": {
+        "Walk": [
+            {pokemon: "Linoone", min_level: 25, max_level: 25, chance: 20},
+            {pokemon: "Zigzagoon", min_level: 25, max_level: 25, chance: 20},
+            {pokemon: "Linoone", min_level: 27, max_level: 27, chance: 10},
+            {pokemon: "Oddish", min_level: 25, max_level: 25, chance: 10},
+            {pokemon: "Oddish", min_level: 26, max_level: 26, chance: 10},
+            {pokemon: "Zigzagoon", min_level: 27, max_level: 27, chance: 10},
+            {pokemon: "Oddish", min_level: 24, max_level: 24, chance: 5},
+            {pokemon: "Oddish", min_level: 27, max_level: 27, chance: 5},
+            {pokemon: "Tropius", min_level: 25, max_level: 25, chance: 4},
+            {pokemon: "Tropius", min_level: 26, max_level: 26, chance: 4},
+            {pokemon: "Kecleon", min_level: 25, max_level: 25, chance: 1},
+            {pokemon: "Tropius", min_level: 27, max_level: 27, chance: 1},
         ],
         "Surf": [
             {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
             {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
             {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
         ],
-        "Walk": [
-            {pokemon: "Electrike", min_level: 24, max_level: 24, chance: 20},
-            {pokemon: "Zigzagoon", min_level: 24, max_level: 24, chance: 20},
-            {pokemon: "Electrike", min_level: 26, max_level: 26, chance: 10},
-            {pokemon: "Linoone", min_level: 26, max_level: 26, chance: 10},
-            {pokemon: "Manectric", min_level: 26, max_level: 26, chance: 10},
-            {pokemon: "Zigzagoon", min_level: 26, max_level: 26, chance: 10},
-            {pokemon: "Wingull", min_level: 25, max_level: 25, chance: 5},
-            {pokemon: "Wingull", min_level: 26, max_level: 26, chance: 4},
-            {pokemon: "Kecleon", min_level: 25, max_level: 25, chance: 1},
-            {pokemon: "Wingull", min_level: 27, max_level: 27, chance: 1},
-        ]
-    },
-    "Road 119": {
-        "Devon Scope": [
-            {pokemon: "Kecleon", min_level: 30, max_level: 30, chance: 100},
-        ],
-        "Feebas Tile Fishing": [
-            {pokemon: "Feebas", min_level: 20, max_level: 25, chance: 50},
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
         ],
         "Good Rod": [
             {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
             {pokemon: "Carvanha", min_level: 10, max_level: 30, chance: 20},
             {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
         ],
         "Super Rod": [
             {pokemon: "Carvanha", min_level: 25, max_level: 30, chance: 40},
@@ -1513,55 +1452,14 @@ export const encounters = {
             {pokemon: "Carvanha", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Carvanha", min_level: 40, max_level: 45, chance: 1},
         ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
-        ],
-        "Walk": [
-            {pokemon: "Linoone", min_level: 25, max_level: 25, chance: 20},
-            {pokemon: "Zigzagoon", min_level: 25, max_level: 25, chance: 20},
-            {pokemon: "Linoone", min_level: 27, max_level: 27, chance: 10},
-            {pokemon: "Oddish", min_level: 25, max_level: 25, chance: 10},
-            {pokemon: "Oddish", min_level: 26, max_level: 26, chance: 10},
-            {pokemon: "Zigzagoon", min_level: 27, max_level: 27, chance: 10},
-            {pokemon: "Oddish", min_level: 27, max_level: 27, chance: 5},
-            {pokemon: "Oddish", min_level: 24, max_level: 24, chance: 5},
-            {pokemon: "Tropius", min_level: 25, max_level: 25, chance: 4},
-            {pokemon: "Tropius", min_level: 26, max_level: 26, chance: 4},
-            {pokemon: "Kecleon", min_level: 25, max_level: 25, chance: 1},
-            {pokemon: "Tropius", min_level: 27, max_level: 27, chance: 1},
-        ]
-    },
-    "Road 120": {
         "Devon Scope": [
             {pokemon: "Kecleon", min_level: 30, max_level: 30, chance: 100},
         ],
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Barboach", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
-        ],
-        "Super Rod": [
-            {pokemon: "Barboach", min_level: 25, max_level: 30, chance: 40},
-            {pokemon: "Barboach", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Barboach", min_level: 20, max_level: 25, chance: 15},
-            {pokemon: "Barboach", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Barboach", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Marill", min_level: 20, max_level: 30, chance: 60},
-            {pokemon: "Marill", min_level: 10, max_level: 20, chance: 30},
-            {pokemon: "Marill", min_level: 30, max_level: 35, chance: 5},
-            {pokemon: "Marill", min_level: 5, max_level: 10, chance: 4},
-            {pokemon: "Goldeen", min_level: 20, max_level: 30, chance: 1},
-        ],
+        "Feebas Tile Fishing": [
+            {pokemon: "Feebas", min_level: 20, max_level: 25, chance: 100},
+        ]
+    },
+    "Route 120": {
         "Walk": [
             {pokemon: "Mightyena", min_level: 25, max_level: 25, chance: 20},
             {pokemon: "Poochyena", min_level: 25, max_level: 25, chance: 20},
@@ -1575,32 +1473,35 @@ export const encounters = {
             {pokemon: "Absol", min_level: 27, max_level: 27, chance: 4},
             {pokemon: "Kecleon", min_level: 25, max_level: 25, chance: 1},
             {pokemon: "Seedot", min_level: 25, max_level: 25, chance: 1},
-        ]
-    },
-    "Road 121": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Surf": [
+            {pokemon: "Marill", min_level: 20, max_level: 30, chance: 60},
+            {pokemon: "Marill", min_level: 10, max_level: 20, chance: 30},
+            {pokemon: "Marill", min_level: 30, max_level: 35, chance: 5},
+            {pokemon: "Marill", min_level: 5, max_level: 10, chance: 4},
+            {pokemon: "Goldeen", min_level: 20, max_level: 30, chance: 1},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Barboach", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
-            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
-            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
-            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
+            {pokemon: "Barboach", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Barboach", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Barboach", min_level: 20, max_level: 25, chance: 15},
+            {pokemon: "Barboach", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Barboach", min_level: 40, max_level: 45, chance: 1},
         ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
-        ],
+        "Devon Scope": [
+            {pokemon: "Kecleon", min_level: 30, max_level: 30, chance: 100},
+        ]
+    },
+    "Route 121": {
         "Walk": [
             {pokemon: "Poochyena", min_level: 26, max_level: 26, chance: 20},
             {pokemon: "Shuppet", min_level: 26, max_level: 26, chance: 20},
@@ -1614,42 +1515,21 @@ export const encounters = {
             {pokemon: "Wingull", min_level: 27, max_level: 27, chance: 4},
             {pokemon: "Kecleon", min_level: 25, max_level: 25, chance: 1},
             {pokemon: "Wingull", min_level: 28, max_level: 28, chance: 1},
-        ]
-    },
-    "Road 122": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
-        ],
-        "Super Rod": [
-            {pokemon: "Sharpedo", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 15},
-            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
         ],
         "Surf": [
             {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
             {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
             {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
-        ]
-    },
-    "Road 123": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
@@ -1657,14 +1537,33 @@ export const encounters = {
             {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
             {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
+        ]
+    },
+    "Route 122": {
         "Surf": [
             {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
             {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
             {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
         ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Super Rod": [
+            {pokemon: "Sharpedo", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 15},
+            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
+        ]
+    },
+    "Route 123": {
         "Walk": [
             {pokemon: "Poochyena", min_level: 26, max_level: 26, chance: 20},
             {pokemon: "Shuppet", min_level: 26, max_level: 26, chance: 20},
@@ -1678,17 +1577,45 @@ export const encounters = {
             {pokemon: "Wingull", min_level: 27, max_level: 27, chance: 4},
             {pokemon: "Kecleon", min_level: 25, max_level: 25, chance: 1},
             {pokemon: "Wingull", min_level: 28, max_level: 28, chance: 1},
-        ]
-    },
-    "Road 124": {
+        ],
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
+        ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
         "Good Rod": [
             {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
             {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
             {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
+        "Super Rod": [
+            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
+            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
+        ]
+    },
+    "Route 124": {
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
+        ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Sharpedo", min_level: 30, max_level: 35, chance: 40},
@@ -1696,33 +1623,31 @@ export const encounters = {
             {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 15},
             {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
         ]
     },
-    "Road 124 (underwater)": {
+    "Route 124 (Underwater)": {
         "Seaweed": [
             {pokemon: "Clamperl", min_level: 20, max_level: 30, chance: 60},
             {pokemon: "Chinchou", min_level: 20, max_level: 30, chance: 30},
             {pokemon: "Clamperl", min_level: 30, max_level: 35, chance: 5},
-            {pokemon: "Relicanth", min_level: 30, max_level: 35, chance: 4},
-            {pokemon: "Relicanth", min_level: 30, max_level: 35, chance: 1},
+            {pokemon: "Relicanth", min_level: 30, max_level: 35, chance: 5},
         ]
     },
-    "Road 125": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+    "Route 125": {
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Sharpedo", min_level: 30, max_level: 35, chance: 40},
@@ -1730,24 +1655,23 @@ export const encounters = {
             {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 15},
             {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
+        ]
+    },
+    "Route 126": {
         "Surf": [
             {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
             {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
             {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
-        ]
-    },
-    "Road 126": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Sharpedo", min_level: 30, max_level: 35, chance: 40},
@@ -1755,33 +1679,31 @@ export const encounters = {
             {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 15},
             {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
         ]
     },
-    "Road 126 (underwater)": {
+    "Route 126 (Underwater)": {
         "Seaweed": [
             {pokemon: "Clamperl", min_level: 20, max_level: 30, chance: 60},
             {pokemon: "Chinchou", min_level: 20, max_level: 30, chance: 30},
             {pokemon: "Clamperl", min_level: 30, max_level: 35, chance: 5},
-            {pokemon: "Relicanth", min_level: 30, max_level: 35, chance: 4},
-            {pokemon: "Relicanth", min_level: 30, max_level: 35, chance: 1},
+            {pokemon: "Relicanth", min_level: 30, max_level: 35, chance: 5},
         ]
     },
-    "Road 127": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+    "Route 127": {
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Sharpedo", min_level: 30, max_level: 35, chance: 40},
@@ -1789,24 +1711,23 @@ export const encounters = {
             {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 15},
             {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
+        ]
+    },
+    "Route 128": {
         "Surf": [
             {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
             {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
             {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
-        ]
-    },
-    "Road 128": {
+        ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
         "Good Rod": [
             {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
             {pokemon: "Luvdisc", min_level: 10, max_level: 30, chance: 20},
             {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
         ],
         "Super Rod": [
             {pokemon: "Luvdisc", min_level: 30, max_level: 35, chance: 40},
@@ -1814,49 +1735,24 @@ export const encounters = {
             {pokemon: "Corsola", min_level: 30, max_level: 35, chance: 15},
             {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
         ]
     },
-    "Road 129": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
-        ],
-        "Super Rod": [
-            {pokemon: "Sharpedo", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 15},
-            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
+    "Route 129": {
         "Surf": [
             {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
             {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
             {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
             {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
             {pokemon: "Wailord", min_level: 25, max_level: 30, chance: 1},
-        ]
-    },
-    "Road 130": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Sharpedo", min_level: 30, max_level: 35, chance: 40},
@@ -1864,38 +1760,35 @@ export const encounters = {
             {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 15},
             {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
-        ],
+        ]
+    },
+    "Route 130": {
         "Walk": [
             {pokemon: "Wynaut", min_level: 30, max_level: 30, chance: 20},
             {pokemon: "Wynaut", min_level: 35, max_level: 35, chance: 20},
+            {pokemon: "Wynaut", min_level: 20, max_level: 20, chance: 10},
             {pokemon: "Wynaut", min_level: 25, max_level: 25, chance: 10},
             {pokemon: "Wynaut", min_level: 40, max_level: 40, chance: 10},
-            {pokemon: "Wynaut", min_level: 20, max_level: 20, chance: 10},
             {pokemon: "Wynaut", min_level: 45, max_level: 45, chance: 10},
+            {pokemon: "Wynaut", min_level: 5, max_level: 5, chance: 5},
+            {pokemon: "Wynaut", min_level: 10, max_level: 10, chance: 5},
             {pokemon: "Wynaut", min_level: 15, max_level: 15, chance: 5},
             {pokemon: "Wynaut", min_level: 50, max_level: 50, chance: 5},
-            {pokemon: "Wynaut", min_level: 10, max_level: 10, chance: 4},
-            {pokemon: "Wynaut", min_level: 5, max_level: 5, chance: 4},
-            {pokemon: "Wynaut", min_level: 10, max_level: 10, chance: 1},
-            {pokemon: "Wynaut", min_level: 5, max_level: 5, chance: 1},
-        ]
-    },
-    "Road 131": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Sharpedo", min_level: 30, max_level: 35, chance: 40},
@@ -1903,24 +1796,47 @@ export const encounters = {
             {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 15},
             {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
+        ]
+    },
+    "Route 131": {
         "Surf": [
             {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
             {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
             {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
-        ]
-    },
-    "Road 132": {
+        ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
         "Good Rod": [
             {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
             {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
             {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
+        "Super Rod": [
+            {pokemon: "Sharpedo", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 15},
+            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
+        ]
+    },
+    "Route 132": {
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
+        ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Sharpedo", min_level: 30, max_level: 35, chance: 40},
@@ -1928,24 +1844,23 @@ export const encounters = {
             {pokemon: "Horsea", min_level: 25, max_level: 30, chance: 15},
             {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
+        ]
+    },
+    "Route 133": {
         "Surf": [
             {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
             {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
             {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
-        ]
-    },
-    "Road 133": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Sharpedo", min_level: 30, max_level: 35, chance: 40},
@@ -1953,24 +1868,23 @@ export const encounters = {
             {pokemon: "Horsea", min_level: 25, max_level: 30, chance: 15},
             {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
+        ]
+    },
+    "Route 134": {
         "Surf": [
             {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
             {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
             {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
-        ]
-    },
-    "Road 134": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Sharpedo", min_level: 30, max_level: 35, chance: 40},
@@ -1978,23 +1892,6 @@ export const encounters = {
             {pokemon: "Horsea", min_level: 25, max_level: 30, chance: 15},
             {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
-        ]
-    },
-    "Roaming Hoenn": {
-        "Roaming (Grass)": [
-            {pokemon: "Latias", min_level: 40, max_level: 40, chance: 25},
-            {pokemon: "Latios", min_level: 40, max_level: 40, chance: 25},
-        ],
-        "Roaming (Water)": [
-            {pokemon: "Latias", min_level: 40, max_level: 40, chance: 25},
-            {pokemon: "Latios", min_level: 40, max_level: 40, chance: 25},
         ]
     },
     "Rustboro City": {
@@ -2005,26 +1902,13 @@ export const encounters = {
     },
     "Rusturf Tunnel": {
         "Walk": [
-            {pokemon: "Whismur", min_level: 6, max_level: 6, chance: 20},
-            {pokemon: "Whismur", min_level: 7, max_level: 7, chance: 20},
-            {pokemon: "Whismur", min_level: 6, max_level: 6, chance: 10},
-            {pokemon: "Whismur", min_level: 7, max_level: 7, chance: 10},
-            {pokemon: "Whismur", min_level: 5, max_level: 5, chance: 5},
-            {pokemon: "Whismur", min_level: 8, max_level: 8, chance: 5},
-            {pokemon: "Whismur", min_level: 5, max_level: 5, chance: 4},
-            {pokemon: "Whismur", min_level: 8, max_level: 8, chance: 4},
-            {pokemon: "Whismur", min_level: 5, max_level: 5, chance: 1},
-            {pokemon: "Whismur", min_level: 8, max_level: 8, chance: 1},
+            {pokemon: "Whismur", min_level: 6, max_level: 6, chance: 40},
+            {pokemon: "Whismur", min_level: 7, max_level: 7, chance: 40},
+            {pokemon: "Whismur", min_level: 5, max_level: 5, chance: 10},
+            {pokemon: "Whismur", min_level: 8, max_level: 8, chance: 10},
         ]
     },
-    "Safari Zone (NE/acro bike area)": {
-        "Rock Smash": [
-            {pokemon: "Geodude", min_level: 10, max_level: 15, chance: 60},
-            {pokemon: "Geodude", min_level: 5, max_level: 10, chance: 30},
-            {pokemon: "Geodude", min_level: 15, max_level: 20, chance: 5},
-            {pokemon: "Geodude", min_level: 20, max_level: 25, chance: 4},
-            {pokemon: "Geodude", min_level: 25, max_level: 30, chance: 1},
-        ],
+    "Safari Zone (North)": {
         "Walk": [
             {pokemon: "Oddish", min_level: 27, max_level: 27, chance: 20},
             {pokemon: "Phanpy", min_level: 27, max_level: 27, chance: 20},
@@ -2038,110 +1922,16 @@ export const encounters = {
             {pokemon: "Xatu", min_level: 29, max_level: 29, chance: 4},
             {pokemon: "Heracross", min_level: 29, max_level: 29, chance: 1},
             {pokemon: "Xatu", min_level: 31, max_level: 31, chance: 1},
-        ]
-    },
-    "Safari Zone (NW/mach bike area)": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Goldeen", min_level: 10, max_level: 25, chance: 20},
-            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
         ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
-        ],
-        "Super Rod": [
-            {pokemon: "Goldeen", min_level: 25, max_level: 30, chance: 40},
-            {pokemon: "Goldeen", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Seaking", min_level: 30, max_level: 35, chance: 15},
-            {pokemon: "Seaking", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Seaking", min_level: 25, max_level: 30, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Psyduck", min_level: 20, max_level: 30, chance: 60},
-            {pokemon: "Psyduck", min_level: 20, max_level: 30, chance: 30},
-            {pokemon: "Psyduck", min_level: 30, max_level: 35, chance: 5},
-            {pokemon: "Golduck", min_level: 30, max_level: 35, chance: 4},
-            {pokemon: "Golduck", min_level: 25, max_level: 40, chance: 1},
-        ],
-        "Walk": [
-            {pokemon: "Oddish", min_level: 27, max_level: 27, chance: 20},
-            {pokemon: "Rhyhorn", min_level: 27, max_level: 27, chance: 20},
-            {pokemon: "Doduo", min_level: 27, max_level: 27, chance: 10},
-            {pokemon: "Gloom", min_level: 29, max_level: 29, chance: 10},
-            {pokemon: "Oddish", min_level: 29, max_level: 29, chance: 10},
-            {pokemon: "Rhyhorn", min_level: 29, max_level: 29, chance: 10},
-            {pokemon: "Doduo", min_level: 29, max_level: 29, chance: 5},
-            {pokemon: "Gloom", min_level: 31, max_level: 31, chance: 5},
-            {pokemon: "Dodrio", min_level: 29, max_level: 29, chance: 4},
-            {pokemon: "Pinsir", min_level: 27, max_level: 27, chance: 4},
-            {pokemon: "Dodrio", min_level: 31, max_level: 31, chance: 1},
-            {pokemon: "Pinsir", min_level: 29, max_level: 29, chance: 1},
-        ]
-    },
-    "Safari Zone (SE)": {
-        "Walk": [
-            {pokemon: "Oddish", min_level: 25, max_level: 25, chance: 20},
-            {pokemon: "Oddish", min_level: 27, max_level: 27, chance: 20},
-            {pokemon: "Doduo", min_level: 25, max_level: 25, chance: 10},
-            {pokemon: "Girafarig", min_level: 25, max_level: 25, chance: 10},
-            {pokemon: "Girafarig", min_level: 27, max_level: 27, chance: 10},
-            {pokemon: "Natu", min_level: 25, max_level: 25, chance: 10},
-            {pokemon: "Gloom", min_level: 25, max_level: 25, chance: 5},
-            {pokemon: "Wobbuffet", min_level: 27, max_level: 27, chance: 5},
-            {pokemon: "Pikachu", min_level: 25, max_level: 25, chance: 4},
-            {pokemon: "Wobbuffet", min_level: 27, max_level: 27, chance: 4},
-            {pokemon: "Pikachu", min_level: 27, max_level: 27, chance: 1},
-            {pokemon: "Wobbuffet", min_level: 29, max_level: 29, chance: 1},
-        ]
-    },
-    "Safari Zone (SW)": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Goldeen", min_level: 10, max_level: 25, chance: 20},
-            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
-        ],
-        "Super Rod": [
-            {pokemon: "Goldeen", min_level: 25, max_level: 30, chance: 40},
-            {pokemon: "Goldeen", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Seaking", min_level: 30, max_level: 35, chance: 15},
-            {pokemon: "Seaking", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Seaking", min_level: 25, max_level: 30, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Psyduck", min_level: 20, max_level: 30, chance: 60},
-            {pokemon: "Psyduck", min_level: 20, max_level: 30, chance: 30},
-            {pokemon: "Psyduck", min_level: 30, max_level: 35, chance: 5},
-            {pokemon: "Psyduck", min_level: 30, max_level: 35, chance: 4},
-            {pokemon: "Psyduck", min_level: 30, max_level: 35, chance: 1},
-        ],
-        "Walk": [
-            {pokemon: "Oddish", min_level: 25, max_level: 25, chance: 20},
-            {pokemon: "Oddish", min_level: 27, max_level: 27, chance: 20},
-            {pokemon: "Doduo", min_level: 27, max_level: 27, chance: 10},
-            {pokemon: "Girafarig", min_level: 25, max_level: 25, chance: 10},
-            {pokemon: "Girafarig", min_level: 27, max_level: 27, chance: 10},
-            {pokemon: "Natu", min_level: 25, max_level: 25, chance: 10},
-            {pokemon: "Gloom", min_level: 25, max_level: 25, chance: 5},
-            {pokemon: "Wobbuffet", min_level: 27, max_level: 27, chance: 5},
-            {pokemon: "Pikachu", min_level: 25, max_level: 25, chance: 4},
-            {pokemon: "Wobbuffet", min_level: 27, max_level: 27, chance: 4},
-            {pokemon: "Pikachu", min_level: 27, max_level: 27, chance: 1},
-            {pokemon: "Wobbuffet", min_level: 29, max_level: 29, chance: 1},
-        ]
-    },
-    "Safari Zone (expansion north)": {
         "Rock Smash": [
-            {pokemon: "Shuckle", min_level: 25, max_level: 30, chance: 60},
-            {pokemon: "Shuckle", min_level: 20, max_level: 25, chance: 30},
-            {pokemon: "Shuckle", min_level: 30, max_level: 35, chance: 5},
-            {pokemon: "Shuckle", min_level: 30, max_level: 35, chance: 4},
-            {pokemon: "Shuckle", min_level: 35, max_level: 40, chance: 1},
-        ],
+            {pokemon: "Geodude", min_level: 10, max_level: 15, chance: 60},
+            {pokemon: "Geodude", min_level: 5, max_level: 10, chance: 30},
+            {pokemon: "Geodude", min_level: 15, max_level: 20, chance: 5},
+            {pokemon: "Geodude", min_level: 20, max_level: 25, chance: 4},
+            {pokemon: "Geodude", min_level: 25, max_level: 30, chance: 1},
+        ]
+    },
+    "Safari Zone (Northeast)": {
         "Walk": [
             {pokemon: "Aipom", min_level: 33, max_level: 33, chance: 20},
             {pokemon: "Teddiursa", min_level: 34, max_level: 34, chance: 20},
@@ -2155,32 +1945,68 @@ export const encounters = {
             {pokemon: "Miltank", min_level: 37, max_level: 37, chance: 4},
             {pokemon: "Houndour", min_level: 39, max_level: 39, chance: 1},
             {pokemon: "Miltank", min_level: 40, max_level: 40, chance: 1},
+        ],
+        "Rock Smash": [
+            {pokemon: "Shuckle", min_level: 25, max_level: 30, chance: 60},
+            {pokemon: "Shuckle", min_level: 20, max_level: 25, chance: 30},
+            {pokemon: "Shuckle", min_level: 30, max_level: 35, chance: 9},
+            {pokemon: "Shuckle", min_level: 35, max_level: 40, chance: 1},
         ]
     },
-    "Safari Zone (expansion south)": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 25, max_level: 30, chance: 60},
-            {pokemon: "Goldeen", min_level: 25, max_level: 30, chance: 20},
-            {pokemon: "Remoraid", min_level: 30, max_level: 35, chance: 20},
+    "Safari Zone (Northwest)": {
+        "Walk": [
+            {pokemon: "Oddish", min_level: 27, max_level: 27, chance: 20},
+            {pokemon: "Rhyhorn", min_level: 27, max_level: 27, chance: 20},
+            {pokemon: "Doduo", min_level: 27, max_level: 27, chance: 10},
+            {pokemon: "Gloom", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Oddish", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Rhyhorn", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Doduo", min_level: 29, max_level: 29, chance: 5},
+            {pokemon: "Gloom", min_level: 31, max_level: 31, chance: 5},
+            {pokemon: "Dodrio", min_level: 29, max_level: 29, chance: 4},
+            {pokemon: "Pinsir", min_level: 27, max_level: 27, chance: 4},
+            {pokemon: "Dodrio", min_level: 31, max_level: 31, chance: 1},
+            {pokemon: "Pinsir", min_level: 29, max_level: 29, chance: 1},
+        ],
+        "Surf": [
+            {pokemon: "Psyduck", min_level: 20, max_level: 30, chance: 90},
+            {pokemon: "Psyduck", min_level: 30, max_level: 35, chance: 5},
+            {pokemon: "Golduck", min_level: 30, max_level: 35, chance: 4},
+            {pokemon: "Golduck", min_level: 25, max_level: 40, chance: 1},
         ],
         "Old Rod": [
-            {pokemon: "Magikarp", min_level: 25, max_level: 30, chance: 70},
-            {pokemon: "Goldeen", min_level: 25, max_level: 30, chance: 30},
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Goldeen", min_level: 10, max_level: 25, chance: 20},
+            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Goldeen", min_level: 25, max_level: 30, chance: 40},
-            {pokemon: "Remoraid", min_level: 25, max_level: 30, chance: 40},
-            {pokemon: "Remoraid", min_level: 30, max_level: 35, chance: 15},
-            {pokemon: "Remoraid", min_level: 30, max_level: 35, chance: 4},
-            {pokemon: "Octillery", min_level: 35, max_level: 40, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Wooper", min_level: 25, max_level: 30, chance: 60},
-            {pokemon: "Marill", min_level: 25, max_level: 30, chance: 30},
-            {pokemon: "Marill", min_level: 25, max_level: 30, chance: 5},
-            {pokemon: "Marill", min_level: 30, max_level: 35, chance: 4},
-            {pokemon: "Quagsire", min_level: 35, max_level: 40, chance: 1},
-        ],
+            {pokemon: "Goldeen", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Seaking", min_level: 30, max_level: 35, chance: 15},
+            {pokemon: "Seaking", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Seaking", min_level: 25, max_level: 30, chance: 1},
+        ]
+    },
+    "Safari Zone (South)": {
+        "Walk": [
+            {pokemon: "Oddish", min_level: 25, max_level: 25, chance: 20},
+            {pokemon: "Oddish", min_level: 27, max_level: 27, chance: 20},
+            {pokemon: "Doduo", min_level: 25, max_level: 25, chance: 10},
+            {pokemon: "Girafarig", min_level: 25, max_level: 25, chance: 10},
+            {pokemon: "Girafarig", min_level: 27, max_level: 27, chance: 10},
+            {pokemon: "Natu", min_level: 25, max_level: 25, chance: 10},
+            {pokemon: "Wobbuffet", min_level: 27, max_level: 27, chance: 9},
+            {pokemon: "Gloom", min_level: 25, max_level: 25, chance: 5},
+            {pokemon: "Pikachu", min_level: 25, max_level: 25, chance: 4},
+            {pokemon: "Pikachu", min_level: 27, max_level: 27, chance: 1},
+            {pokemon: "Wobbuffet", min_level: 29, max_level: 29, chance: 1},
+        ]
+    },
+    "Safari Zone (Southeast)": {
         "Walk": [
             {pokemon: "Mareep", min_level: 34, max_level: 34, chance: 20},
             {pokemon: "Sunkern", min_level: 33, max_level: 33, chance: 20},
@@ -2194,17 +2020,79 @@ export const encounters = {
             {pokemon: "Stantler", min_level: 36, max_level: 36, chance: 4},
             {pokemon: "Gligar", min_level: 40, max_level: 40, chance: 1},
             {pokemon: "Stantler", min_level: 39, max_level: 39, chance: 1},
+        ],
+        "Surf": [
+            {pokemon: "Wooper", min_level: 25, max_level: 30, chance: 60},
+            {pokemon: "Marill", min_level: 25, max_level: 30, chance: 35},
+            {pokemon: "Marill", min_level: 30, max_level: 35, chance: 4},
+            {pokemon: "Quagsire", min_level: 35, max_level: 40, chance: 1},
+        ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 25, max_level: 30, chance: 70},
+            {pokemon: "Goldeen", min_level: 25, max_level: 30, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 25, max_level: 30, chance: 60},
+            {pokemon: "Goldeen", min_level: 25, max_level: 30, chance: 20},
+            {pokemon: "Remoraid", min_level: 30, max_level: 35, chance: 20},
+        ],
+        "Super Rod": [
+            {pokemon: "Goldeen", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Remoraid", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Remoraid", min_level: 30, max_level: 35, chance: 19},
+            {pokemon: "Octillery", min_level: 35, max_level: 40, chance: 1},
         ]
     },
-    "Seafloor Cavern": {
+    "Safari Zone (Southwest)": {
+        "Walk": [
+            {pokemon: "Oddish", min_level: 25, max_level: 25, chance: 20},
+            {pokemon: "Oddish", min_level: 27, max_level: 27, chance: 20},
+            {pokemon: "Doduo", min_level: 27, max_level: 27, chance: 10},
+            {pokemon: "Girafarig", min_level: 25, max_level: 25, chance: 10},
+            {pokemon: "Girafarig", min_level: 27, max_level: 27, chance: 10},
+            {pokemon: "Natu", min_level: 25, max_level: 25, chance: 10},
+            {pokemon: "Wobbuffet", min_level: 27, max_level: 27, chance: 9},
+            {pokemon: "Gloom", min_level: 25, max_level: 25, chance: 5},
+            {pokemon: "Pikachu", min_level: 25, max_level: 25, chance: 4},
+            {pokemon: "Pikachu", min_level: 27, max_level: 27, chance: 1},
+            {pokemon: "Wobbuffet", min_level: 29, max_level: 29, chance: 1},
+        ],
+        "Surf": [
+            {pokemon: "Psyduck", min_level: 20, max_level: 30, chance: 90},
+            {pokemon: "Psyduck", min_level: 30, max_level: 35, chance: 10},
+        ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
+        ],
         "Good Rod": [
             {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Goldeen", min_level: 10, max_level: 25, chance: 20},
+            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Super Rod": [
+            {pokemon: "Goldeen", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Goldeen", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Seaking", min_level: 30, max_level: 35, chance: 15},
+            {pokemon: "Seaking", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Seaking", min_level: 25, max_level: 30, chance: 1},
+        ]
+    },
+    "Seafloor Cavern (Entrance)": {
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Zubat", min_level: 5, max_level: 35, chance: 30},
+            {pokemon: "Golbat", min_level: 30, max_level: 35, chance: 5},
+            {pokemon: "Zubat", min_level: 30, max_level: 35, chance: 5},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
@@ -2212,21 +2100,16 @@ export const encounters = {
             {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
             {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Zubat", min_level: 5, max_level: 35, chance: 30},
-            {pokemon: "Zubat", min_level: 30, max_level: 35, chance: 5},
-            {pokemon: "Golbat", min_level: 30, max_level: 35, chance: 4},
-            {pokemon: "Golbat", min_level: 30, max_level: 35, chance: 1},
-        ],
+        ]
+    },
+    "Seafloor Cavern (Room 1)": {
         "Walk": [
             {pokemon: "Zubat", min_level: 30, max_level: 30, chance: 20},
             {pokemon: "Zubat", min_level: 31, max_level: 31, chance: 20},
-            {pokemon: "Zubat", min_level: 32, max_level: 32, chance: 10},
-            {pokemon: "Zubat", min_level: 33, max_level: 33, chance: 10},
             {pokemon: "Zubat", min_level: 28, max_level: 28, chance: 10},
             {pokemon: "Zubat", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Zubat", min_level: 32, max_level: 32, chance: 10},
+            {pokemon: "Zubat", min_level: 33, max_level: 33, chance: 10},
             {pokemon: "Zubat", min_level: 34, max_level: 34, chance: 5},
             {pokemon: "Zubat", min_level: 35, max_level: 35, chance: 5},
             {pokemon: "Golbat", min_level: 34, max_level: 34, chance: 4},
@@ -2235,15 +2118,99 @@ export const encounters = {
             {pokemon: "Golbat", min_level: 36, max_level: 36, chance: 1},
         ]
     },
-    "Shoal Cave": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+    "Seafloor Cavern (Room 2)": {
+        "Walk": [
+            {pokemon: "Zubat", min_level: 30, max_level: 30, chance: 20},
+            {pokemon: "Zubat", min_level: 31, max_level: 31, chance: 20},
+            {pokemon: "Zubat", min_level: 28, max_level: 28, chance: 10},
+            {pokemon: "Zubat", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Zubat", min_level: 32, max_level: 32, chance: 10},
+            {pokemon: "Zubat", min_level: 33, max_level: 33, chance: 10},
+            {pokemon: "Zubat", min_level: 34, max_level: 34, chance: 5},
+            {pokemon: "Zubat", min_level: 35, max_level: 35, chance: 5},
+            {pokemon: "Golbat", min_level: 34, max_level: 34, chance: 4},
+            {pokemon: "Golbat", min_level: 35, max_level: 35, chance: 4},
+            {pokemon: "Golbat", min_level: 33, max_level: 33, chance: 1},
+            {pokemon: "Golbat", min_level: 36, max_level: 36, chance: 1},
+        ]
+    },
+    "Seafloor Cavern (Room 3)": {
+        "Walk": [
+            {pokemon: "Zubat", min_level: 30, max_level: 30, chance: 20},
+            {pokemon: "Zubat", min_level: 31, max_level: 31, chance: 20},
+            {pokemon: "Zubat", min_level: 28, max_level: 28, chance: 10},
+            {pokemon: "Zubat", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Zubat", min_level: 32, max_level: 32, chance: 10},
+            {pokemon: "Zubat", min_level: 33, max_level: 33, chance: 10},
+            {pokemon: "Zubat", min_level: 34, max_level: 34, chance: 5},
+            {pokemon: "Zubat", min_level: 35, max_level: 35, chance: 5},
+            {pokemon: "Golbat", min_level: 34, max_level: 34, chance: 4},
+            {pokemon: "Golbat", min_level: 35, max_level: 35, chance: 4},
+            {pokemon: "Golbat", min_level: 33, max_level: 33, chance: 1},
+            {pokemon: "Golbat", min_level: 36, max_level: 36, chance: 1},
+        ]
+    },
+    "Seafloor Cavern (Room 4)": {
+        "Walk": [
+            {pokemon: "Zubat", min_level: 30, max_level: 30, chance: 20},
+            {pokemon: "Zubat", min_level: 31, max_level: 31, chance: 20},
+            {pokemon: "Zubat", min_level: 28, max_level: 28, chance: 10},
+            {pokemon: "Zubat", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Zubat", min_level: 32, max_level: 32, chance: 10},
+            {pokemon: "Zubat", min_level: 33, max_level: 33, chance: 10},
+            {pokemon: "Zubat", min_level: 34, max_level: 34, chance: 5},
+            {pokemon: "Zubat", min_level: 35, max_level: 35, chance: 5},
+            {pokemon: "Golbat", min_level: 34, max_level: 34, chance: 4},
+            {pokemon: "Golbat", min_level: 35, max_level: 35, chance: 4},
+            {pokemon: "Golbat", min_level: 33, max_level: 33, chance: 1},
+            {pokemon: "Golbat", min_level: 36, max_level: 36, chance: 1},
+        ]
+    },
+    "Seafloor Cavern (Room 5)": {
+        "Walk": [
+            {pokemon: "Zubat", min_level: 30, max_level: 30, chance: 20},
+            {pokemon: "Zubat", min_level: 31, max_level: 31, chance: 20},
+            {pokemon: "Zubat", min_level: 28, max_level: 28, chance: 10},
+            {pokemon: "Zubat", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Zubat", min_level: 32, max_level: 32, chance: 10},
+            {pokemon: "Zubat", min_level: 33, max_level: 33, chance: 10},
+            {pokemon: "Zubat", min_level: 34, max_level: 34, chance: 5},
+            {pokemon: "Zubat", min_level: 35, max_level: 35, chance: 5},
+            {pokemon: "Golbat", min_level: 34, max_level: 34, chance: 4},
+            {pokemon: "Golbat", min_level: 35, max_level: 35, chance: 4},
+            {pokemon: "Golbat", min_level: 33, max_level: 33, chance: 1},
+            {pokemon: "Golbat", min_level: 36, max_level: 36, chance: 1},
+        ]
+    },
+    "Seafloor Cavern (Room 6)": {
+        "Walk": [
+            {pokemon: "Zubat", min_level: 30, max_level: 30, chance: 20},
+            {pokemon: "Zubat", min_level: 31, max_level: 31, chance: 20},
+            {pokemon: "Zubat", min_level: 28, max_level: 28, chance: 10},
+            {pokemon: "Zubat", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Zubat", min_level: 32, max_level: 32, chance: 10},
+            {pokemon: "Zubat", min_level: 33, max_level: 33, chance: 10},
+            {pokemon: "Zubat", min_level: 34, max_level: 34, chance: 5},
+            {pokemon: "Zubat", min_level: 35, max_level: 35, chance: 5},
+            {pokemon: "Golbat", min_level: 34, max_level: 34, chance: 4},
+            {pokemon: "Golbat", min_level: 35, max_level: 35, chance: 4},
+            {pokemon: "Golbat", min_level: 33, max_level: 33, chance: 1},
+            {pokemon: "Golbat", min_level: 36, max_level: 36, chance: 1},
+        ],
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Zubat", min_level: 5, max_level: 35, chance: 30},
+            {pokemon: "Golbat", min_level: 30, max_level: 35, chance: 5},
+            {pokemon: "Zubat", min_level: 30, max_level: 35, chance: 5},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
@@ -2251,62 +2218,98 @@ export const encounters = {
             {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
             {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
+        ]
+    },
+    "Seafloor Cavern (Room 7)": {
+        "Walk": [
+            {pokemon: "Zubat", min_level: 30, max_level: 30, chance: 20},
+            {pokemon: "Zubat", min_level: 31, max_level: 31, chance: 20},
+            {pokemon: "Zubat", min_level: 28, max_level: 28, chance: 10},
+            {pokemon: "Zubat", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Zubat", min_level: 32, max_level: 32, chance: 10},
+            {pokemon: "Zubat", min_level: 33, max_level: 33, chance: 10},
+            {pokemon: "Zubat", min_level: 34, max_level: 34, chance: 5},
+            {pokemon: "Zubat", min_level: 35, max_level: 35, chance: 5},
+            {pokemon: "Golbat", min_level: 34, max_level: 34, chance: 4},
+            {pokemon: "Golbat", min_level: 35, max_level: 35, chance: 4},
+            {pokemon: "Golbat", min_level: 33, max_level: 33, chance: 1},
+            {pokemon: "Golbat", min_level: 36, max_level: 36, chance: 1},
         ],
         "Surf": [
             {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
             {pokemon: "Zubat", min_level: 5, max_level: 35, chance: 30},
-            {pokemon: "Spheal", min_level: 25, max_level: 30, chance: 5},
-            {pokemon: "Spheal", min_level: 25, max_level: 30, chance: 4},
+            {pokemon: "Golbat", min_level: 30, max_level: 35, chance: 5},
+            {pokemon: "Zubat", min_level: 30, max_level: 35, chance: 5},
+        ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Super Rod": [
+            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
+            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
+        ]
+    },
+    "Seafloor Cavern (Room 8)": {
+        "Walk": [
+            {pokemon: "Zubat", min_level: 30, max_level: 30, chance: 20},
+            {pokemon: "Zubat", min_level: 31, max_level: 31, chance: 20},
+            {pokemon: "Zubat", min_level: 28, max_level: 28, chance: 10},
+            {pokemon: "Zubat", min_level: 29, max_level: 29, chance: 10},
+            {pokemon: "Zubat", min_level: 32, max_level: 32, chance: 10},
+            {pokemon: "Zubat", min_level: 33, max_level: 33, chance: 10},
+            {pokemon: "Zubat", min_level: 34, max_level: 34, chance: 5},
+            {pokemon: "Zubat", min_level: 35, max_level: 35, chance: 5},
+            {pokemon: "Golbat", min_level: 34, max_level: 34, chance: 4},
+            {pokemon: "Golbat", min_level: 35, max_level: 35, chance: 4},
+            {pokemon: "Golbat", min_level: 33, max_level: 33, chance: 1},
+            {pokemon: "Golbat", min_level: 36, max_level: 36, chance: 1},
+        ]
+    },
+    "Shoal Cave (Entrance Room)": {
+        "Walk": [
+            {pokemon: "Spheal", min_level: 26, max_level: 26, chance: 20},
+            {pokemon: "Zubat", min_level: 26, max_level: 26, chance: 20},
+            {pokemon: "Spheal", min_level: 28, max_level: 28, chance: 10},
+            {pokemon: "Spheal", min_level: 30, max_level: 30, chance: 10},
+            {pokemon: "Spheal", min_level: 32, max_level: 32, chance: 10},
+            {pokemon: "Zubat", min_level: 28, max_level: 28, chance: 10},
+            {pokemon: "Zubat", min_level: 30, max_level: 30, chance: 10},
+            {pokemon: "Golbat", min_level: 32, max_level: 32, chance: 5},
+            {pokemon: "Zubat", min_level: 32, max_level: 32, chance: 5},
+        ],
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Zubat", min_level: 5, max_level: 35, chance: 30},
+            {pokemon: "Spheal", min_level: 25, max_level: 30, chance: 9},
             {pokemon: "Spheal", min_level: 25, max_level: 35, chance: 1},
         ],
-        "Walk": [
-            {pokemon: "Spheal", min_level: 26, max_level: 26, chance: 20},
-            {pokemon: "Zubat", min_level: 26, max_level: 26, chance: 20},
-            {pokemon: "Spheal", min_level: 28, max_level: 28, chance: 10},
-            {pokemon: "Spheal", min_level: 30, max_level: 30, chance: 10},
-            {pokemon: "Zubat", min_level: 28, max_level: 28, chance: 10},
-            {pokemon: "Zubat", min_level: 30, max_level: 30, chance: 10},
-            {pokemon: "Spheal", min_level: 32, max_level: 32, chance: 5},
-            {pokemon: "Zubat", min_level: 32, max_level: 32, chance: 5},
-            {pokemon: "Golbat", min_level: 32, max_level: 32, chance: 4},
-            {pokemon: "Spheal", min_level: 32, max_level: 32, chance: 4},
-            {pokemon: "Golbat", min_level: 32, max_level: 32, chance: 1},
-            {pokemon: "Spheal", min_level: 32, max_level: 32, chance: 1},
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Super Rod": [
+            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
+            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
         ]
     },
-    "Shoal Cave (B1F)": {
-        "Walk": [
-            {pokemon: "Spheal", min_level: 26, max_level: 26, chance: 20},
-            {pokemon: "Zubat", min_level: 26, max_level: 26, chance: 20},
-            {pokemon: "Spheal", min_level: 28, max_level: 28, chance: 10},
-            {pokemon: "Spheal", min_level: 30, max_level: 30, chance: 10},
-            {pokemon: "Zubat", min_level: 28, max_level: 28, chance: 10},
-            {pokemon: "Zubat", min_level: 30, max_level: 30, chance: 10},
-            {pokemon: "Spheal", min_level: 32, max_level: 32, chance: 5},
-            {pokemon: "Zubat", min_level: 32, max_level: 32, chance: 5},
-            {pokemon: "Golbat", min_level: 32, max_level: 32, chance: 4},
-            {pokemon: "Spheal", min_level: 32, max_level: 32, chance: 4},
-            {pokemon: "Golbat", min_level: 32, max_level: 32, chance: 1},
-            {pokemon: "Spheal", min_level: 32, max_level: 32, chance: 1},
-        ]
-    },
-    "Shoal Cave — B2f": {
-        "Walk": [
-            {pokemon: "Spheal", min_level: 26, max_level: 26, chance: 20},
-            {pokemon: "Zubat", min_level: 26, max_level: 26, chance: 20},
-            {pokemon: "Spheal", min_level: 28, max_level: 28, chance: 10},
-            {pokemon: "Spheal", min_level: 30, max_level: 30, chance: 10},
-            {pokemon: "Zubat", min_level: 28, max_level: 28, chance: 10},
-            {pokemon: "Zubat", min_level: 30, max_level: 30, chance: 10},
-            {pokemon: "Spheal", min_level: 32, max_level: 32, chance: 5},
-            {pokemon: "Zubat", min_level: 32, max_level: 32, chance: 5},
-            {pokemon: "Golbat", min_level: 32, max_level: 32, chance: 4},
-            {pokemon: "Spheal", min_level: 32, max_level: 32, chance: 4},
-            {pokemon: "Golbat", min_level: 32, max_level: 32, chance: 1},
-            {pokemon: "Spheal", min_level: 32, max_level: 32, chance: 1},
-        ]
-    },
-    "Shoal Cave — B3f": {
+    "Shoal Cave (Ice Room)": {
         "Walk": [
             {pokemon: "Spheal", min_level: 26, max_level: 26, chance: 20},
             {pokemon: "Zubat", min_level: 26, max_level: 26, chance: 20},
@@ -2322,67 +2325,105 @@ export const encounters = {
             {pokemon: "Snorunt", min_level: 30, max_level: 30, chance: 1},
         ]
     },
-    "Shoal Cave — Low Tide": {
+    "Shoal Cave (Inner Room)": {
         "Walk": [
             {pokemon: "Spheal", min_level: 26, max_level: 26, chance: 20},
             {pokemon: "Zubat", min_level: 26, max_level: 26, chance: 20},
             {pokemon: "Spheal", min_level: 28, max_level: 28, chance: 10},
             {pokemon: "Spheal", min_level: 30, max_level: 30, chance: 10},
+            {pokemon: "Spheal", min_level: 32, max_level: 32, chance: 10},
             {pokemon: "Zubat", min_level: 28, max_level: 28, chance: 10},
             {pokemon: "Zubat", min_level: 30, max_level: 30, chance: 10},
-            {pokemon: "Spheal", min_level: 32, max_level: 32, chance: 5},
+            {pokemon: "Golbat", min_level: 32, max_level: 32, chance: 5},
             {pokemon: "Zubat", min_level: 32, max_level: 32, chance: 5},
-            {pokemon: "Golbat", min_level: 32, max_level: 32, chance: 4},
-            {pokemon: "Spheal", min_level: 32, max_level: 32, chance: 4},
-            {pokemon: "Golbat", min_level: 32, max_level: 32, chance: 1},
-            {pokemon: "Spheal", min_level: 32, max_level: 32, chance: 1},
+        ],
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Zubat", min_level: 5, max_level: 35, chance: 30},
+            {pokemon: "Spheal", min_level: 25, max_level: 30, chance: 9},
+            {pokemon: "Spheal", min_level: 25, max_level: 35, chance: 1},
+        ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Super Rod": [
+            {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Wailmer", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
+            {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
+        ]
+    },
+    "Shoal Cave (Lower Room)": {
+        "Walk": [
+            {pokemon: "Spheal", min_level: 26, max_level: 26, chance: 20},
+            {pokemon: "Zubat", min_level: 26, max_level: 26, chance: 20},
+            {pokemon: "Spheal", min_level: 28, max_level: 28, chance: 10},
+            {pokemon: "Spheal", min_level: 30, max_level: 30, chance: 10},
+            {pokemon: "Spheal", min_level: 32, max_level: 32, chance: 10},
+            {pokemon: "Zubat", min_level: 28, max_level: 28, chance: 10},
+            {pokemon: "Zubat", min_level: 30, max_level: 30, chance: 10},
+            {pokemon: "Golbat", min_level: 32, max_level: 32, chance: 5},
+            {pokemon: "Zubat", min_level: 32, max_level: 32, chance: 5},
+        ]
+    },
+    "Shoal Cave (Stairs Room)": {
+        "Walk": [
+            {pokemon: "Spheal", min_level: 26, max_level: 26, chance: 20},
+            {pokemon: "Zubat", min_level: 26, max_level: 26, chance: 20},
+            {pokemon: "Spheal", min_level: 28, max_level: 28, chance: 10},
+            {pokemon: "Spheal", min_level: 30, max_level: 30, chance: 10},
+            {pokemon: "Spheal", min_level: 32, max_level: 32, chance: 10},
+            {pokemon: "Zubat", min_level: 28, max_level: 28, chance: 10},
+            {pokemon: "Zubat", min_level: 30, max_level: 30, chance: 10},
+            {pokemon: "Golbat", min_level: 32, max_level: 32, chance: 5},
+            {pokemon: "Zubat", min_level: 32, max_level: 32, chance: 5},
         ]
     },
     "Sky Pillar (1F)": {
         "Walk": [
             {pokemon: "Golbat", min_level: 34, max_level: 34, chance: 20},
             {pokemon: "Sableye", min_level: 33, max_level: 33, chance: 20},
+            {pokemon: "Claydol", min_level: 36, max_level: 36, chance: 15},
             {pokemon: "Banette", min_level: 37, max_level: 37, chance: 10},
-            {pokemon: "Claydol", min_level: 36, max_level: 36, chance: 10},
             {pokemon: "Golbat", min_level: 35, max_level: 35, chance: 10},
             {pokemon: "Sableye", min_level: 34, max_level: 34, chance: 10},
             {pokemon: "Banette", min_level: 38, max_level: 38, chance: 5},
-            {pokemon: "Claydol", min_level: 36, max_level: 36, chance: 5},
-            {pokemon: "Claydol", min_level: 37, max_level: 37, chance: 4},
-            {pokemon: "Claydol", min_level: 38, max_level: 38, chance: 4},
-            {pokemon: "Claydol", min_level: 37, max_level: 37, chance: 1},
-            {pokemon: "Claydol", min_level: 38, max_level: 38, chance: 1},
+            {pokemon: "Claydol", min_level: 37, max_level: 37, chance: 5},
+            {pokemon: "Claydol", min_level: 38, max_level: 38, chance: 5},
         ]
     },
     "Sky Pillar (3F)": {
         "Walk": [
             {pokemon: "Golbat", min_level: 34, max_level: 34, chance: 20},
             {pokemon: "Sableye", min_level: 33, max_level: 33, chance: 20},
+            {pokemon: "Claydol", min_level: 36, max_level: 36, chance: 15},
             {pokemon: "Banette", min_level: 37, max_level: 37, chance: 10},
-            {pokemon: "Claydol", min_level: 36, max_level: 36, chance: 10},
             {pokemon: "Golbat", min_level: 35, max_level: 35, chance: 10},
             {pokemon: "Sableye", min_level: 34, max_level: 34, chance: 10},
             {pokemon: "Banette", min_level: 38, max_level: 38, chance: 5},
-            {pokemon: "Claydol", min_level: 36, max_level: 36, chance: 5},
-            {pokemon: "Claydol", min_level: 37, max_level: 37, chance: 4},
-            {pokemon: "Claydol", min_level: 38, max_level: 38, chance: 4},
-            {pokemon: "Claydol", min_level: 37, max_level: 37, chance: 1},
-            {pokemon: "Claydol", min_level: 38, max_level: 38, chance: 1},
+            {pokemon: "Claydol", min_level: 37, max_level: 37, chance: 5},
+            {pokemon: "Claydol", min_level: 38, max_level: 38, chance: 5},
         ]
     },
     "Sky Pillar (5F)": {
         "Walk": [
             {pokemon: "Golbat", min_level: 34, max_level: 34, chance: 20},
             {pokemon: "Sableye", min_level: 33, max_level: 33, chance: 20},
+            {pokemon: "Claydol", min_level: 36, max_level: 36, chance: 15},
             {pokemon: "Banette", min_level: 37, max_level: 37, chance: 10},
-            {pokemon: "Claydol", min_level: 36, max_level: 36, chance: 10},
             {pokemon: "Golbat", min_level: 35, max_level: 35, chance: 10},
             {pokemon: "Sableye", min_level: 34, max_level: 34, chance: 10},
             {pokemon: "Banette", min_level: 38, max_level: 38, chance: 5},
-            {pokemon: "Claydol", min_level: 36, max_level: 36, chance: 5},
             {pokemon: "Altaria", min_level: 38, max_level: 38, chance: 4},
             {pokemon: "Claydol", min_level: 37, max_level: 37, chance: 4},
-            {pokemon: "Altaria", min_level: 39, max_level: 39, chance: 1},
+            {pokemon: "Altaria", min_level: 39, max_level: 39, chance: 2},
         ]
     },
     "Sky Pillar Apex": {
@@ -2391,14 +2432,20 @@ export const encounters = {
         ]
     },
     "Slateport City": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
+        "Surf": [
+            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 5},
+            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Tentacool", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Wailmer", min_level: 10, max_level: 30, chance: 20},
         ],
         "Super Rod": [
             {pokemon: "Wailmer", min_level: 25, max_level: 30, chance: 40},
@@ -2406,36 +2453,27 @@ export const encounters = {
             {pokemon: "Wailmer", min_level: 20, max_level: 25, chance: 15},
             {pokemon: "Wailmer", min_level: 35, max_level: 40, chance: 4},
             {pokemon: "Wailmer", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Tentacool", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Wingull", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Wingull", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Pelipper", min_level: 25, max_level: 30, chance: 1},
         ]
     },
     "Sootopolis City": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 20},
+        "Surf": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 35, chance: 60},
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 30},
+            {pokemon: "Magikarp", min_level: 15, max_level: 25, chance: 5},
+            {pokemon: "Magikarp", min_level: 25, max_level: 30, chance: 5},
         ],
         "Old Rod": [
             {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
             {pokemon: "Tentacool", min_level: 5, max_level: 10, chance: 30},
         ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 100},
+        ],
         "Super Rod": [
-            {pokemon: "Magikarp", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Magikarp", min_level: 30, max_level: 35, chance: 80},
             {pokemon: "Gyarados", min_level: 35, max_level: 40, chance: 15},
             {pokemon: "Gyarados", min_level: 35, max_level: 45, chance: 4},
             {pokemon: "Gyarados", min_level: 5, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 35, chance: 60},
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 30},
-            {pokemon: "Magikarp", min_level: 15, max_level: 25, chance: 5},
-            {pokemon: "Magikarp", min_level: 25, max_level: 30, chance: 4},
-            {pokemon: "Magikarp", min_level: 25, max_level: 30, chance: 1},
         ]
     },
     "Southern Island": {
@@ -2445,11 +2483,6 @@ export const encounters = {
         ]
     },
     "Team Aqua Hideout": {
-        "Static": [
-            {pokemon: "Electrode", min_level: 30, max_level: 30, chance: 100},
-        ]
-    },
-    "Team Magma Hideout": {
         "Static": [
             {pokemon: "Electrode", min_level: 30, max_level: 30, chance: 100},
         ]
@@ -2467,65 +2500,36 @@ export const encounters = {
             {pokemon: "Loudred", min_level: 40, max_level: 40, chance: 10},
             {pokemon: "Makuhita", min_level: 36, max_level: 36, chance: 10},
             {pokemon: "Zubat", min_level: 36, max_level: 36, chance: 10},
+            {pokemon: "Aron", min_level: 36, max_level: 36, chance: 5},
             {pokemon: "Golbat", min_level: 38, max_level: 38, chance: 5},
             {pokemon: "Hariyama", min_level: 38, max_level: 38, chance: 5},
-            {pokemon: "Aron", min_level: 36, max_level: 36, chance: 4},
-            {pokemon: "Whismur", min_level: 36, max_level: 36, chance: 4},
-            {pokemon: "Aron", min_level: 36, max_level: 36, chance: 1},
-            {pokemon: "Whismur", min_level: 36, max_level: 36, chance: 1},
+            {pokemon: "Whismur", min_level: 36, max_level: 36, chance: 5},
         ]
     },
     "Victory Road (B1F)": {
-        "Rock Smash": [
-            {pokemon: "Graveler", min_level: 30, max_level: 40, chance: 60},
-            {pokemon: "Geodude", min_level: 30, max_level: 40, chance: 30},
-            {pokemon: "Graveler", min_level: 35, max_level: 40, chance: 5},
-            {pokemon: "Graveler", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Graveler", min_level: 35, max_level: 40, chance: 1},
-        ],
         "Walk": [
             {pokemon: "Golbat", min_level: 40, max_level: 40, chance: 20},
             {pokemon: "Hariyama", min_level: 40, max_level: 40, chance: 20},
+            {pokemon: "Lairon", min_level: 40, max_level: 40, chance: 20},
             {pokemon: "Golbat", min_level: 38, max_level: 38, chance: 10},
             {pokemon: "Hariyama", min_level: 38, max_level: 38, chance: 10},
-            {pokemon: "Lairon", min_level: 40, max_level: 40, chance: 10},
             {pokemon: "Golbat", min_level: 42, max_level: 42, chance: 5},
             {pokemon: "Hariyama", min_level: 42, max_level: 42, chance: 5},
-            {pokemon: "Lairon", min_level: 42, max_level: 42, chance: 4},
-            {pokemon: "Mawile", min_level: 38, max_level: 38, chance: 4},
-            {pokemon: "Lairon", min_level: 42, max_level: 42, chance: 1},
-            {pokemon: "Mawile", min_level: 38, max_level: 38, chance: 1},
+            {pokemon: "Lairon", min_level: 42, max_level: 42, chance: 5},
+            {pokemon: "Mawile", min_level: 38, max_level: 38, chance: 5},
+        ],
+        "Rock Smash": [
+            {pokemon: "Graveler", min_level: 30, max_level: 40, chance: 60},
+            {pokemon: "Geodude", min_level: 30, max_level: 40, chance: 30},
+            {pokemon: "Graveler", min_level: 35, max_level: 40, chance: 10},
         ]
     },
     "Victory Road (B2F)": {
-        "Good Rod": [
-            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
-            {pokemon: "Barboach", min_level: 10, max_level: 30, chance: 20},
-            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
-        ],
-        "Old Rod": [
-            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
-            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
-        ],
-        "Super Rod": [
-            {pokemon: "Barboach", min_level: 25, max_level: 30, chance: 40},
-            {pokemon: "Barboach", min_level: 30, max_level: 35, chance: 40},
-            {pokemon: "Whiscash", min_level: 30, max_level: 35, chance: 15},
-            {pokemon: "Whiscash", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Whiscash", min_level: 40, max_level: 45, chance: 1},
-        ],
-        "Surf": [
-            {pokemon: "Golbat", min_level: 30, max_level: 35, chance: 60},
-            {pokemon: "Golbat", min_level: 25, max_level: 30, chance: 30},
-            {pokemon: "Golbat", min_level: 35, max_level: 40, chance: 5},
-            {pokemon: "Golbat", min_level: 35, max_level: 40, chance: 4},
-            {pokemon: "Golbat", min_level: 35, max_level: 40, chance: 1},
-        ],
         "Walk": [
             {pokemon: "Golbat", min_level: 40, max_level: 40, chance: 20},
+            {pokemon: "Lairon", min_level: 40, max_level: 40, chance: 20},
             {pokemon: "Sableye", min_level: 40, max_level: 40, chance: 20},
             {pokemon: "Golbat", min_level: 42, max_level: 42, chance: 10},
-            {pokemon: "Lairon", min_level: 40, max_level: 40, chance: 10},
             {pokemon: "Sableye", min_level: 42, max_level: 42, chance: 10},
             {pokemon: "Golbat", min_level: 44, max_level: 44, chance: 5},
             {pokemon: "Sableye", min_level: 44, max_level: 44, chance: 5},
@@ -2533,9 +2537,30 @@ export const encounters = {
             {pokemon: "Mawile", min_level: 42, max_level: 42, chance: 4},
             {pokemon: "Lairon", min_level: 44, max_level: 44, chance: 1},
             {pokemon: "Mawile", min_level: 44, max_level: 44, chance: 1},
+        ],
+        "Surf": [
+            {pokemon: "Golbat", min_level: 30, max_level: 35, chance: 60},
+            {pokemon: "Golbat", min_level: 25, max_level: 30, chance: 30},
+            {pokemon: "Golbat", min_level: 35, max_level: 40, chance: 10},
+        ],
+        "Old Rod": [
+            {pokemon: "Magikarp", min_level: 5, max_level: 10, chance: 70},
+            {pokemon: "Goldeen", min_level: 5, max_level: 10, chance: 30},
+        ],
+        "Good Rod": [
+            {pokemon: "Magikarp", min_level: 10, max_level: 30, chance: 60},
+            {pokemon: "Barboach", min_level: 10, max_level: 30, chance: 20},
+            {pokemon: "Goldeen", min_level: 10, max_level: 30, chance: 20},
+        ],
+        "Super Rod": [
+            {pokemon: "Barboach", min_level: 25, max_level: 30, chance: 40},
+            {pokemon: "Barboach", min_level: 30, max_level: 35, chance: 40},
+            {pokemon: "Whiscash", min_level: 30, max_level: 35, chance: 15},
+            {pokemon: "Whiscash", min_level: 35, max_level: 40, chance: 4},
+            {pokemon: "Whiscash", min_level: 40, max_level: 45, chance: 1},
         ]
     },
-    "Weather Institute (Road 119)": {
+    "Weather Institute": {
         "Gift": [
             {pokemon: "Castform", min_level: 25, max_level: 25, chance: 100},
         ]

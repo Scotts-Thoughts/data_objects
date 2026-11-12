@@ -11,6 +11,7 @@ Modules:
 - `bulba_learnsets.py` — wikitext learnset parser (the heart of the scrape).
 - `bulba_stats.py` — base-stat blocks from species pages.
 - `scrape_pokedex.py` — PokéAPI species walk + per-game file assembly.
+- `game_species_data.py` — per-game species fields from PKHeX's personal tables.
 - `verify_bulbapedia.py` — independent re-derivation and comparison.
 - `merge_gen1to4_pokedex.py` — learnset refresh of Solodex's Gen 1-4 file.
 - `bulba_proxy.js` — Electron process that clears Cloudflare.
